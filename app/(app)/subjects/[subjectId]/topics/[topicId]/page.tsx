@@ -3,9 +3,10 @@
 import Link from "next/link"
 import { notFound, useParams } from "next/navigation"
 import { motion } from "motion/react"
-import { Bookmark, BookmarkCheck, FileText, Layers, ListChecks, Clock, ArrowRight } from "lucide-react"
+import { Bookmark, BookmarkCheck, FileText, Layers, ListChecks, Clock, ArrowRight, Calculator } from "lucide-react"
 import { appData } from "@/lib/data"
 import { useStore } from "@/lib/store"
+import { ZakatCalculator } from "@/components/zakat-calculator"
 
 export default function TopicPage() {
   const { subjectId, topicId } = useParams<{ subjectId: string; topicId: string }>()
@@ -58,6 +59,17 @@ export default function TopicPage() {
           )}
         </button>
       </motion.header>
+
+      {/* Visual Calculator for Zakat */}
+      {topic.id === "zakat" && (
+        <motion.section
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.4, delay: 0.1 }}
+        >
+          <ZakatCalculator />
+        </motion.section>
+      )}
 
       {/* Action grid */}
       <section className="grid grid-cols-1 md:grid-cols-3 gap-3">
