@@ -1,6 +1,8 @@
 import { neon } from '@neondatabase/serverless'
 
-const sql = neon(process.env.DATABASE_URL!)
+// Use a placeholder if DATABASE_URL is missing to prevent build-time crashes
+const databaseUrl = process.env.DATABASE_URL || 'postgres://placeholder:placeholder@localhost:5432/placeholder'
+const sql = neon(databaseUrl)
 
 export type LeaderboardEntry = {
   id: number

@@ -9,6 +9,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  transpilePackages: ["lucide-react", "motion"],
   allowedDevOrigins: ["*.vusercontent.net", "*.vercel.app"],
 }
 
