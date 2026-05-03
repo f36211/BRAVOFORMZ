@@ -50,20 +50,23 @@ function RankBadge({ rank }: { rank: number }) {
   )
 }
 
-function ReactionPicker({ toUser, fromUser }: { toUser: string, fromUser: string | null }) {
+function ReactionPicker({ toUser, fromUser, onUpdate }: { toUser: string, fromUser: string | null, onUpdate: () => void }) {
   const [isOpen, setIsOpen] = useState(false)
   const [isSending, setIsSending] = useState(false)
+  const [customEmoji, setCustomEmoji] = useState("")
   const emojis = ["🔥", "👏", "🙌", "⭐", "🚀"]
 
   const sendEmoji = async (emoji: string) => {
-    if (!fromUser || isSending) return
+    if (!fromUser || isSending || !emoji.trim()) return
     setIsSending(true)
     try {
       await fetch('/api/leaderboard/react', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ fromUser, toUser, emoji })
+        body: JSON.stringify({ fromUser, toUser, emoji: emoji.trim() })
       })
+      onUpdate() // Trigger real-time update
+      setCustomEmoji("")
       setIsOpen(false)
     } catch (e) {
       console.error(e)
@@ -98,22 +101,45 @@ function ReactionPicker({ toUser, fromUser }: { toUser: string, fromUser: string
               initial={{ opacity: 0, scale: 0.9, y: 5 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9, y: 5 }}
-              className="absolute right-0 bottom-full mb-2 p-1.5 rounded-xl border border-border bg-card shadow-2xl flex gap-1 z-50 min-w-[160px] justify-center"
+              className="absolute right-0 bottom-full mb-2 p-2 rounded-2xl border border-border bg-card shadow-2xl flex flex-col gap-2 z-50 min-w-[200px]"
             >
-              {emojis.map(e => (
-                <button
-                  key={e}
-                  onClick={(event) => {
-                    event.preventDefault()
-                    event.stopPropagation()
-                    sendEmoji(e)
+              <div className="flex gap-1 justify-center">
+                {emojis.map(e => (
+                  <button
+                    key={e}
+                    onClick={(event) => {
+                      event.preventDefault()
+                      event.stopPropagation()
+                      sendEmoji(e)
+                    }}
+                    disabled={isSending}
+                    className="size-9 grid place-items-center hover:bg-muted rounded-lg transition-colors text-xl active:scale-90"
+                  >
+                    {e}
+                  </button>
+                ))}
+              </div>
+              
+              <div className="flex gap-1 border-t border-border pt-2">
+                <input 
+                  type="text"
+                  placeholder="Kustom..."
+                  value={customEmoji}
+                  onChange={(e) => setCustomEmoji(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') sendEmoji(customEmoji)
                   }}
-                  disabled={isSending}
-                  className="size-9 grid place-items-center hover:bg-muted rounded-lg transition-colors text-xl active:scale-90"
+                  className="flex-1 bg-muted rounded-lg px-3 py-1.5 text-xs outline-none focus:ring-1 focus:ring-foreground/20"
+                  maxLength={5}
+                />
+                <button
+                  onClick={() => sendEmoji(customEmoji)}
+                  disabled={isSending || !customEmoji.trim()}
+                  className="px-2 py-1.5 bg-foreground text-background rounded-lg text-[10px] font-bold disabled:opacity-50"
                 >
-                  {e}
+                  Kirim
                 </button>
-              ))}
+              </div>
             </motion.div>
           </>
         )}
@@ -125,11 +151,13 @@ function ReactionPicker({ toUser, fromUser }: { toUser: string, fromUser: string
 function LeaderboardTable({ 
   data, 
   loading, 
-  currentUser 
+  currentUser,
+  onUpdate
 }: { 
   data: LeaderboardEntry[] | undefined
   loading: boolean
-  currentUser: string | null 
+  currentUser: string | null
+  onUpdate: () => void
 }) {
   if (loading) {
     return (
@@ -215,7 +243,7 @@ function LeaderboardTable({
                 <div className="text-lg font-medium tabular-nums">{entry.score}%</div>
                 <div className="text-[10px] text-muted-foreground font-mono">AVG SCORE</div>
               </div>
-              <ReactionPicker toUser={entry.username} fromUser={currentUser} />
+              <ReactionPicker toUser={entry.username} fromUser={currentUser} onUpdate={onUpdate} />
             </div>
           </motion.div>
         )
@@ -308,7 +336,7 @@ export default function LeaderboardPage() {
       ? `/api/leaderboard?subjectId=${subjectFilter}&limit=20`
       : `/api/leaderboard?subjectId=${subjectFilter}&topicId=${topicFilter}&limit=20`
 
-  const { data, isLoading } = useSWR(apiUrl, fetcher)
+  const { data, isLoading, mutate } = useSWR(apiUrl, fetcher)
 
   return (
     <div className="max-w-3xl mx-auto space-y-8">
@@ -394,6 +422,7 @@ export default function LeaderboardPage() {
           data={data?.data} 
           loading={isLoading} 
           currentUser={username} 
+          onUpdate={() => mutate()}
         />
       </div>
     </div>

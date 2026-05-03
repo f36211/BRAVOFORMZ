@@ -216,13 +216,24 @@ export async function initReactionsTable() {
 
 // Send a reaction (emoji) to another user
 export async function sendReaction(fromUser: string, toUser: string, emoji: string) {
-  // Limit one reaction type per sender-receiver to keep DB small
+  // Use a transaction or single query to toggle reaction
+  // If exact same reaction exists from same user, remove it (toggle)
+  const existing = await sql`
+    SELECT id FROM user_reactions 
+    WHERE from_user = ${fromUser} AND to_user = ${toUser} AND emoji = ${emoji}
+  `
+
+  if (existing.length > 0) {
+    await sql`DELETE FROM user_reactions WHERE id = ${existing[0].id}`
+    return { action: 'removed' }
+  }
+
   const result = await sql`
     INSERT INTO user_reactions (from_user, to_user, emoji)
     VALUES (${fromUser}, ${toUser}, ${emoji})
     RETURNING *
   `
-  return result[0]
+  return { action: 'added', data: result[0] }
 }
 
 // Get recent reactions for a user
