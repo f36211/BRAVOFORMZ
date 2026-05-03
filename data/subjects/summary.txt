@@ -1,0 +1,761 @@
+=== Bahasa Arab ===
+
+
+## TOPIK: التَّعَارُف — Perkenalan
+
+>> MATERI:
+
+- Perkenalan Diri:
+  [Tabel]
+    - اَلسَّلَامُ عَلَيْكُمْ | as-salaamu 'alaikum | Assalamu'alaikum
+    - وَعَلَيْكُمُ السَّلَامُ | wa 'alaikumus-salaam | Wa'alaikumussalam
+    - مَا اسْمُكَ؟ | maa ismuka? | Siapa nama Anda? (lk)
+    - مَا اسْمُكِ؟ | maa ismuki? | Siapa nama Anda? (pr)
+    - اِسْمِي ... | ismii ... | Nama saya ...
+    - أَنَا ... | anaa ... | Saya ...
+    - مِنْ أَيْنَ أَنْتَ؟ | min ayna anta? | Dari mana Anda? (lk)
+    - أَنَا مِنْ إِنْدُوْنِيْسِيَا | anaa min induuniisiiyaa | Saya dari Indonesia
+    - كَيْفَ حَالُكَ؟ | kaifa haaluka? | Apa kabar? (lk)
+    - كَيْفَ حَالُكِ؟ | kaifa haaluki? | Apa kabar? (pr)
+    - بِخَيْرٍ، الْحَمْدُ لِلَّهِ | bikhoirin, al-hamdulillaahi | Baik, Alhamdulillah
+    - مَرْحَبًا | marhaban | Halo / Selamat datang
+    - مَعَ السَّلَامَةِ | ma'as-salaamah | Selamat tinggal
+  (Dalil) A: Assalamu'alaikum.
+B: Wa'alaikumussalam.
+A: Siapa nama Anda?
+B: Nama saya Ahmad. Dan Anda?
+A: Saya Ali. Selamat datang.
+B: Terima kasih.
+  [INTI] Gunakan كَ (ka) untuk laki-laki dan كِ (ki) untuk perempuan pada kata tanya dan sapaan.
+
+>> FLASHCARDS:
+  Q: Apa arti اَلسَّلَامُ عَلَيْكُمْ?
+  A: Assalamu'alaikum
+  Q: Apa arti مَا اسْمُكَ?
+  A: Siapa nama Anda? (laki-laki)
+  Q: Apa arti كَيْفَ حَالُكَ?
+  A: Apa kabar? (laki-laki)
+  Q: Bahasa Arabnya 'Saya dari Indonesia'?
+  A: أَنَا مِنْ إِنْدُوْنِيْسِيَا
+  Q: Bahasa Arabnya 'Selamat tinggal'?
+  A: مَعَ السَّلَامَةِ
+  Q: Apa beda كَ dan كِ?
+  A: كَ untuk laki-laki, كِ untuk perempuan
+
+>> QUIZ:
+  Q: مَا اسْمُكِ? digunakan untuk bertanya kepada ...
+  A: Perempuan
+  Q: Jawaban dari كَيْفَ حَالُكَ yang tepat adalah ...
+  A: بِخَيْرٍ الْحَمْدُ لِلَّهِ
+  Q: Arti dari أَنَا adalah ...
+  A: Saya
+
+## TOPIK: اِسْمُ الْمُذَكَّرِ وَالْمُؤَنَّث — Isim Mudzakkar & Muannats
+
+>> MATERI:
+
+- Kata Benda Laki-laki & Perempuan:
+  [Tabel]
+    - مُدَرِّسٌ | mudarrisun | مُدَرِّسَةٌ | mudarrisatun | Guru
+    - طَالِبٌ | thaalibun | طَالِبَةٌ | thaalibatun | Siswa/i
+    - تِلْمِيذٌ | tilmiidzun | تِلْمِيذَةٌ | tilmiidzatun | Murid
+    - وَلَدٌ | waladun | بِنْتٌ | bintun | Anak laki/perempuan
+    - أَبٌ | abun | أُمٌّ | ummun | Ayah/Ibu
+    - أَخٌ | akhun | أُخْتٌ | ukhtun | Saudara laki/perempuan
+    - جَدٌّ | jaddun | جَدَّةٌ | jaddatun | Kakek/Nenek
+    - كَاتِبٌ | kaatibun | كَاتِبَةٌ | kaatibatun | Penulis
+    - طَبِيبٌ | thabiibun | طَبِيبَةٌ | thabiibatun | Dokter
+    - مُهَنْدِسٌ | muhandisun | مُهَنْدِسَةٌ | muhandisatun | Insinyur
+  [INTI] Ta marbuthah (ة) adalah tanda paling umum untuk isim muannats.
+
+>> FLASHCARDS:
+  Q: Apa arti طَالِبَةٌ?
+  A: Siswi / Pelajar perempuan
+  Q: Bentuk muannats dari مُدَرِّسٌ adalah?
+  A: مُدَرِّسَةٌ
+  Q: Apa ciri utama isim muannats?
+  A: Diakhiri dengan ta marbuthah (ة)
+  Q: Bentuk mudzakkar dari بِنْتٌ adalah?
+  A: وَلَدٌ
+  Q: Apa arti أُخْتٌ?
+  A: Saudara perempuan
+
+>> QUIZ:
+  Q: Bentuk muannats dari تِلْمِيذٌ adalah ...
+  A: تِلْمِيذَةٌ
+  Q: Tanda paling umum isim muannats adalah ...
+  A: Ta marbuthah (ة)
+  Q: طَبِيبٌ adalah isim ...
+  A: Mudzakkar
+
+## TOPIK: أُسْرَةٌ — Keluarga
+
+>> MATERI:
+
+- Anggota Keluarga:
+  [Tabel]
+    - أُسْرَةٌ | usratun | Keluarga
+    - أَبٌ | abun | Ayah
+    - أُمٌّ | ummun | Ibu
+    - وَالِدٌ | waalidun | Ayah (formal)
+    - وَالِدَةٌ | waalidatun | Ibu (formal)
+    - وَلَدٌ | waladun | Anak laki-laki
+    - بِنْتٌ | bintun | Anak perempuan
+    - أَخٌ | akhun | Saudara laki-laki
+    - أُخْتٌ | ukhtun | Saudara perempuan
+    - جَدٌّ | jaddun | Kakek
+    - جَدَّةٌ | jaddatun | Nenek
+    - عَمٌّ | 'ammun | Paman (dari ayah)
+    - خَالٌ | khaalun | Paman (dari ibu)
+    - عَمَّةٌ | 'ammatun | Bibi (dari ayah)
+    - خَالَةٌ | khaalatun | Bibi (dari ibu)
+  (Dalil) Ini keluarga saya.
+Ini ayah saya dan ini ibu saya.
+Saya punya saudara laki-laki dan saudara perempuan.
+Ibu dari ayah saya adalah nenek saya.
+
+>> FLASHCARDS:
+  Q: Apa arti أُسْرَةٌ?
+  A: Keluarga
+  Q: Apa arti وَالِدٌ?
+  A: Ayah (formal)
+  Q: Bahasa Arabnya 'Anak perempuan'?
+  A: بِنْتٌ
+  Q: Bahasa Arabnya 'Kakek'?
+  A: جَدٌّ
+  Q: Apa arti خَالٌ?
+  A: Paman dari ibu / Bibi dari ibu
+
+>> QUIZ:
+  Q: وَالِدَةٌ artinya ...
+  A: Ibu (formal)
+  Q: عَمٌّ adalah panggilan untuk ...
+  A: Paman dari ayah
+  Q: أُخْتٌ artinya ...
+  A: Saudara perempuan
+
+## TOPIK: أَسْمَاءُ الْإِشَارَة — Kata Ganti & Tunjuk
+
+>> MATERI:
+
+- Isim Isyarah (Kata Tunjuk):
+  [Tabel]
+    - Dekat (singular) | هَذَا (haadzaa) | هَذِهِ (haadhihi) | Ini
+    - Jauh (singular) | ذَلِكَ (dzaalika) | تِلْكَ (tilka) | Itu
+    - Dekat (dual) | هَذَانِ (haadzaani) | هَاتَانِ (haataani) | Ini (berdua)
+    - Jauh (dual) | ذَانِكَ (dzaanika) | تَانِكَ (taanika) | Itu (berdua)
+  (Dalil) Ini buku baru.
+Ini papan tulis besar.
+Itu pena.
+Itu jendela.
+  [INTI] هَذَا untuk benda dekat & mudzakkar. هَذِهِ untuk benda dekat & muannats. ذَلِكَ untuk benda jauh & mudzakkar. تِلْكَ untuk benda jauh & muannats.
+
+>> FLASHCARDS:
+  Q: Apa arti هَذَا?
+  A: Ini (benda dekat, laki-laki)
+  Q: Apa arti تِلْكَ?
+  A: Itu (benda jauh, perempuan)
+  Q: Kata tunjuk untuk benda dekat & muannats?
+  A: هَذِهِ
+  Q: Kata tunjuk untuk benda jauh & mudzakkar?
+  A: ذَلِكَ
+  Q: Apa arti هَاتَانِ?
+  A: Ini (berdua, perempuan)
+
+>> QUIZ:
+  Q: هَذِهِ digunakan untuk menunjuk benda ...
+  A: Dekat & perempuan
+  Q: ذَلِكَ digunakan untuk menunjuk benda ...
+  A: Jauh & laki-laki
+  Q: Untuk menunjuk 'Itu papan tulis' digunakan ...
+  A: تِلْكَ سَبُّورَةٌ
+
+## TOPIK: عَدَدٌ تَرْتِيْبِيٌّ — Bilangan Bertingkat 1-10
+
+>> MATERI:
+
+- Angka 1 sampai 10:
+  [Tabel]
+    - 1 | وَاحِدٌ | waahidun
+    - 2 | اِثْنَانِ | itsnaani
+    - 3 | ثَلَاثَةٌ | tsalaatsah
+    - 4 | أَرْبَعَةٌ | arba'ah
+    - 5 | خَمْسَةٌ | khamsah
+    - 6 | سِتَّةٌ | sittah
+    - 7 | سَبْعَةٌ | sab'ah
+    - 8 | ثَمَانِيَةٌ | tsamaaniyah
+    - 9 | تِسْعَةٌ | tis'ah
+    - 10 | عَشْرَةٌ | 'asyrah
+  [Tabel]
+    - Pertama | أَوَّلٌ | awwalun
+    - Kedua | ثَانٍ | tsaanin
+    - Ketiga | ثَالِثٌ | tsaalitsun
+    - Keempat | رَابِعٌ | raabi'un
+    - Kelima | خَامِسٌ | khaamisun
+    - Keenam | سَادِسٌ | saadisun
+    - Ketujuh | سَابِعٌ | saabi'un
+    - Kedelapan | ثَامِنٌ | tsaaminun
+    - Kesembilan | تَاسِعٌ | taasi'un
+    - Kesepuluh | عَاشِرٌ | 'aasyirun
+
+>> FLASHCARDS:
+  Q: Angka 5 dalam bahasa Arab?
+  A: خَمْسَةٌ (khamsah)
+  Q: Angka 7 dalam bahasa Arab?
+  A: سَبْعَةٌ (sab'ah)
+  Q: Angka 10 dalam bahasa Arab?
+  A: عَشْرَةٌ ('asyrah)
+  Q: Bilangan urut 'pertama'?
+  A: أَوَّلٌ (awwalun)
+  Q: Bilangan urut 'ketiga'?
+  A: ثَالِثٌ (tsaalitsun)
+
+>> QUIZ:
+  Q: ثَلَاثَةٌ artinya angka ...
+  A: 3
+  Q: Bilangan urut 'kelima' dalam bahasa Arab adalah ...
+  A: خَامِسٌ
+  Q: عَشْرَةٌ artinya angka ...
+  A: 10
+
+## TOPIK: ظَرْفُ الْمَكَان — Keterangan Tempat
+
+>> MATERI:
+
+- Zhorof Makaan:
+  [Tabel]
+    - فِي | fii | Di / Dalam
+    - عَلَى | 'alaa | Di atas
+    - تَحْتَ | tahta | Di bawah
+    - أَمَامَ | amaama | Di depan
+    - خَلْفَ | khalfa | Di belakang
+    - يَسَارَ | yasaara | Di sebelah kiri
+    - يَمِينَ | yamiina | Di sebelah kanan
+    - بَيْنَ | baina | Di antara
+    - عِنْدَ | 'inda | Di samping / Di tempat
+    - إِلَى | ilaa | Ke
+    - مِنْ | min | Dari
+  (Dalil) Pena di atas meja.
+Buku di dalam tas.
+Papan tulis di depan kelas.
+Saya di belakang pintu.
+  [INTI] Zhorof makaan selalu diikuti oleh isim yang berstatus majrur (kasrah).
+
+>> FLASHCARDS:
+  Q: Apa arti فِي?
+  A: Di / Dalam
+  Q: Apa arti عَلَى?
+  A: Di atas
+  Q: Apa arti تَحْتَ?
+  A: Di bawah
+  Q: Apa artي أَمَامَ?
+  A: Di depan
+  Q: Apa arti بَيْنَ?
+  A: Di antara
+
+>> QUIZ:
+  Q: ظَرْفُ الْمَكَان yang berarti 'di belakang' adalah ...
+  A: خَلْفَ
+  Q: الْكِتَابُ فِي الْحَقِيبَةِ artinya ...
+  A: Buku di dalam tas
+  Q: Keterangan tempat dalam bahasa Arab disebut ...
+  A: ظَرْفُ الْمَكَان
+
+## TOPIK: فِعْلُ الْمُضَارِع — Kata Kerja Sekarang
+
+>> MATERI:
+
+- Fi'il Mudhori':
+  [Tabel]
+    - كَتَبَ | يَكْتُبُ | Menulis
+    - قَرَأَ | يَقْرَأُ | Membaca
+    - ذَهَبَ | يَذْهَبُ | Pergi
+    - أَكَلَ | يَأْكُلُ | Makan
+    - شَرِبَ | يَشْرَبُ | Minum
+    - لَعِبَ | يَلْعَبُ | Bermain
+    - نَامَ | يَنَامُ | Tidur
+    - جَلَسَ | يَجْلِسُ | Duduk
+    - قَامَ | يَقُومُ | Berdiri
+    - دَرَسَ | يَدْرُسُ | Belajar
+  (Dalil) Saya menulis pelajaran.
+Dia (lk) membaca buku.
+Dia (pr) pergi ke sekolah.
+Kami bermain di taman.
+
+>> FLASHCARDS:
+  Q: Apa arti يَكْتُبُ?
+  A: Menulis (fi'il mudhori')
+  Q: Fi'il mudhori' dari كَتَبَ adalah?
+  A: يَكْتُبُ
+  Q: Apa arti يَذْهَبُ?
+  A: Pergi (fi'il mudhori')
+  Q: Fi'il mudhori' dari أَكَلَ adalah?
+  A: يَأْكُلُ
+  Q: Apa ciri fi'il mudhori'?
+  A: Diawali huruf mudhori' dan huruf akhir dommah/fathah/kasrah
+
+>> QUIZ:
+  Q: Fi'il mudhori' dari قَرَأَ adalah ...
+  A: يَقْرَأُ
+  Q: يَدْرُسُ artinya ...
+  A: Belajar
+  Q: Fi'il yang menunjukkan pekerjaan sedang/akan dilakukan disebut ...
+  A: Fi'il mudhori'
+
+## TOPIK: السَّاعَة — Waktu & Jam
+
+>> MATERI:
+
+- Menyebutkan Waktu:
+  [Tabel]
+    - 1 | الْوَاحِدَةُ | al-waahidah
+    - 2 | الثَّانِيَةُ | ats-tsaaniyah
+    - 3 | الثَّالِثَةُ | ats-tsaalitsah
+    - 4 | الرَّابِعَةُ | ar-raabi'ah
+    - 5 | الْخَامِسَةُ | al-khaamisah
+    - 6 | السَّادِسَةُ | as-saadiisah
+    - 7 | السَّابِعَةُ | as-saabi'ah
+    - 8 | الثَّامِنَةُ | at-tsaaminah
+    - 9 | التَّاسِعَةُ | at-taasi'ah
+    - 10 | الْعَاشِرَةُ | al-'aasyirah
+    - 11 | الْحَادِيَةَ عَشْرَةَ | al-haadiyata 'asyrah
+    - 12 | الثَّانِيَةَ عَشْرَةَ | ats-tsaaniyata 'asyrah
+  (Dalil) Jam berapa?
+Jam 7 pagi.
+Jam 8 malam.
+  [INTI] Untuk jam menggunakan bilangan muannats karena jam (سَاعَةٌ) adalah isim muannats.
+
+>> FLASHCARDS:
+  Q: Jam 3 dalam bahasa Arab?
+  A: الثَّالِثَةُ
+  Q: Jam 7 dalam bahasa Arab?
+  A: السَّابِعَةُ
+  Q: Jam 12 dalam bahasa Arab?
+  A: الثَّانِيَةَ عَشْرَةَ
+  Q: كَمِ السَّاعَةُ artinya?
+  A: Jam berapa?
+  Q: Mengapa jam menggunakan bilangan muannats?
+  A: Karena سَاعَةٌ adalah isim muannats
+
+>> QUIZ:
+  Q: السَّاعَةُ الْخَامِسَةُ artinya jam ...
+  A: 5
+  Q: Jam 8 dalam bahasa Arab adalah ...
+  A: الثَّامِنَةُ
+  Q: كَمِ السَّاعَةُ digunakan untuk ...
+  A: Menanyakan waktu
+
+## TOPIK: الْمِهْنَة — Profesi
+
+>> MATERI:
+
+- Macam-macam Profesi:
+  [Tabel]
+    - مُدَرِّسٌ | مُدَرِّسَةٌ | مَدْرَسَةٌ | Guru
+    - طَبِيبٌ | طَبِيبَةٌ | مُسْتَشْفَى | Dokter
+    - مُهَنْدِسٌ | مُهَنْدِسَةٌ | شَرِكَةٌ | Insinyur
+    - طَبَّاخٌ | طَبَّاخَةٌ | مَطْعَمٌ | Koki
+    - مُمَرِّضٌ | مُمَرِّضَةٌ | مُسْتَشْفَى | Perawat
+    - شُرْطِيٌّ | شُرْطِيَّةٌ | قِسْمُ الشُّرْطَةِ | Polisi
+    - تَاجِرٌ | تَاجِرَةٌ | سُوقٌ | Pedagang
+    - فَلَّاحٌ | فَلَّاحَةٌ | حَقْلٌ | Petani
+    - سَائِقٌ | سَائِقَةٌ | مَحَطَّةُ الْبِنْزِينِ | Sopir
+    - كَاتِبٌ | كَاتِبَةٌ | مَكْتَبٌ | Penulis / Pegawai
+  (Dalil) Ayah saya guru di sekolah.
+Ibu saya dokter di rumah sakit.
+Saudara laki-laki saya insinyur di perusahaan.
+
+>> FLASHCARDS:
+  Q: Apa arti مُدَرِّسٌ?
+  A: Guru (laki-laki)
+  Q: Tempat kerja طَبِيبٌ adalah?
+  A: مُسْتَشْفَى (rumah sakit)
+  Q: Apa arti مُهَنْدِسٌ?
+  A: Insinyur
+  Q: Bentuk muannats dari تَاجِرٌ?
+  A: تَاجِرَةٌ
+  Q: Apa arti فَلَّاحٌ?
+  A: Petani
+
+>> QUIZ:
+  Q: طَبِيبٌ bekerja di ...
+  A: مُسْتَشْفَى
+  Q: مُهَنْدِسٌ bekerja di ...
+  A: شَرِكَةٌ
+  Q: Bentuk muannats dari شُرْطِيٌّ adalah ...
+  A: شُرْطِيَّةٌ
+
+## TOPIK: الْهِوَايَات — Hobi
+
+>> MATERI:
+
+- Macam-macam Hobi:
+  [Tabel]
+    - هِوَايَةٌ | hiwaayah | Hobi
+    - قِرَاءَةٌ | qiraa'ah | Membaca
+    - كِتَابَةٌ | kitaabah | Menulis
+    - رَسْمٌ | rasmun | Menggambar
+    - سِبَاحَةٌ | sibaahah | Berenang
+    - رِيَاضَةٌ | riyaadlah | Olahraga
+    - لَعِبُ الْكُرَةِ | la'ibul-kurah | Bermain bola
+    - طَبْخٌ | thabhun | Memasak
+    - سَفَرٌ | safarun | Bepergian
+    - تَصْوِيرٌ | thashwiirun | Fotografi
+    - مُوسِيقَى | muusiiqaa | Musik
+    - غِنَاءٌ | ghinaa' | Bernyanyi
+  (Dalil) Hobi saya membaca buku.
+Dia (lk) suka olahraga.
+Dia (pr) suka memasak.
+
+>> FLASHCARDS:
+  Q: Apa arti هِوَايَةٌ?
+  A: Hobi
+  Q: Apa arti قِرَاءَةٌ?
+  A: Membaca
+  Q: Apa artي رِيَاضَةٌ?
+  A: Olahraga
+  Q: Bahasa Arabnya 'Menggambar'?
+  A: رَسْمٌ
+  Q: Bahasa Arabnya 'Berenang'?
+  A: سِبَاحَةٌ
+
+>> QUIZ:
+  Q: هِوَايَتِي artinya ...
+  A: Hobi saya
+  Q: طَبْخٌ artinya ...
+  A: Memasak
+  Q: Kata yang berarti 'Bernyanyi' adalah ...
+  A: غِنَاءٌ
+
+## TOPIK: جُمْلَةٌ فِعْلِيَّةٌ — Jumlah Fi'liyah
+
+>> MATERI:
+
+- Kalimat yang Berpredikat Fi'il (Kata Kerja):
+  [Tabel]
+    - Fi'il | Kata kerja (predikat) | كَتَبَ (menulis)
+    - Fa'il | Pelaku (subjek) | مُحَمَّدٌ (Muhammad)
+    - Maf'ul | Objek | الدَّرْسَ (pelajaran)
+  (Dalil) Muhammad menulis pelajaran.
+Siswa membaca buku.
+Anak laki-laki memakan apel.
+Anak perempuan pergi ke sekolah.
+  [INTI] Dalam jumlah fi'liyah, fi'il (predikat) selalu didahulukan sebelum fa'il (subjek).
+
+>> FLASHCARDS:
+  Q: Apa itu jumlah fi'liyah?
+  A: Kalimat yang berpredikat fi'il (kata kerja)
+  Q: Unsur pertama jumlah fi'liyah adalah?
+  A: Fi'il (kata kerja / predikat)
+  Q: Unsur kedua jumlah fi'liyah adalah?
+  A: Fa'il (pelaku / subjek)
+  Q: Dalam jumlah fi'liyah, mana yang didahulukan?
+  A: Fi'il didahulukan sebelum fa'il
+  Q: Analisis: كَتَبَ مُحَمَّدٌ الدَّرْسَ
+  A: Fi'il: كَتَبَ, Fa'il: مُحَمَّدٌ, Maf'ul: الدَّرْسَ
+
+>> QUIZ:
+  Q: Jumlah fi'liyah adalah kalimat yang berpredikat ...
+  A: Fi'il
+  Q: Dalam jumlah fi'liyah, yang didahulukan adalah ...
+  A: Fi'il
+  Q: Pada kalimat يَقْرَأُ الطَّالِبُ الْكِتَابَ, fa'ilnya adalah ...
+  A: الطَّالِبُ
+
+## TOPIK: الْبَيْعُ وَالشِّرَاء — Jual Beli
+
+>> MATERI:
+
+- Ungkapan Jual Beli:
+  [Tabel]
+    - شَرَاءٌ | syiraa' | Pembelian
+    - بَيْعٌ | bai' | Penjualan
+    - ثَمَنٌ / سِعْرٌ | tsaman / si'r | Harga
+    - رَخِيصٌ | rakhiish | Murah
+    - غَالٍ | ghaalin | Mahal
+    - طَيِّبٌ | thayyib | Baik / Bagus
+    - كَمِ الثَّمَنُ؟ | kamits-tsamanu? | Berapa harganya?
+    - أُرِيدُ ... | uriidu ... | Saya ingin ...
+    - لَا أُرِيدُ | laa uriidu | Saya tidak ingin
+    - هَلْ عِنْدَكَ ...؟ | hal 'indaka ...? | Apakah Anda punya ...?
+    - رُبِيَّالٌ | rubiyaal | Rupiah
+    - دِرْهَمٌ | dirhamun | Dirham
+  (Dalil) A: Assalamu'alaikum. Saya ingin buku ini. Berapa harganya?
+B: Wa'alaikumussalam. Harganya sepuluh ribu rupiah.
+A: Apakah murah?
+B: Ya, sangat murah.
+A: Baik, saya ambil.
+
+>> FLASHCARDS:
+  Q: Apa arti كَمِ الثَّمَنُ?
+  A: Berapa harganya?
+  Q: Apa arti رَخِيصٌ?
+  A: Murah
+  Q: Apa artي غَالٍ?
+  A: Mahal
+  Q: Bahasa Arabnya 'Saya ingin'?
+  A: أُرِيدُ
+  Q: Bahasa Arabnya 'Rupiah'?
+  A: رُبِيَّالٌ
+
+>> QUIZ:
+  Q: كَمِ الثَّمَنُ artinya ...
+  A: Berapa harganya?
+  Q: Lawan kata dari غَالٍ adalah ...
+  A: رَخِيصٌ
+  Q: أُرِيدُ هَذَا الْكِتَابَ artinya ...
+  A: Saya ingin buku ini
+
+## TOPIK: الْإِضَافَة — Idhofah
+
+>> MATERI:
+
+- Struktur Idhofah:
+  [Tabel]
+    - كِتَابُ | الطَّالِبِ | Buku siswa
+    - بَابُ | الْفَصْلِ | Pintu kelas
+    - مُدَرِّسُ | اللُّغَةِ | Guru bahasa
+    - سَاعَةُ | الْمَدْرَسَةِ | Jam sekolah
+    - قَلَمُ | التِّلْمِيذِ | Pena murid
+    - مَكْتَبُ | الْمُدَرِّسِ | Meja guru
+    - حَقِيبَةُ | الْبِنْتِ | Tas anak perempuan
+    - سَبُّورَةُ | الْفَصْلِ | Papan tulis kelas
+  [INTI] Contoh: كِتَابُ مُحَمَّدٍ = Buku Muhammad / Buku milik Muhammad.
+
+>> FLASHCARDS:
+  Q: Apa itu idhofah?
+  A: Struktur menyambungkan dua isim (mudhaf dan mudhaf ilaih)
+  Q: Apa ciri mudhaf?
+  A: Tidak memiliki alif lam (ال)
+  Q: Apa ciri mudhaf ilaih?
+  A: Selalu majrur (kasrah di akhir)
+  Q: Arti dari كِتَابُ الطَّالِبِ?
+  A: Buku siswa
+  Q: Arti dari بَابُ الْفَصْلِ?
+  A: Pintu kelas
+
+>> QUIZ:
+  Q: Dalam idhofah, isim pertama disebut ...
+  A: Mudhaf
+  Q: Ciri mudhaf ilaih adalah ...
+  A: Selalu majrur (kasrah)
+  Q: مُدَرِّسُ اللُّغَةِ artinya ...
+  A: Guru bahasa
+
+## TOPIK: حُرُوفُ الْجَرّ — Huruf Jar
+
+>> MATERI:
+
+- Huruf-huruf Jar:
+  [Tabel]
+    - مِنْ | min | Dari | أَنَا مِنْ إِنْدُوْنِيْسِيَا
+    - إِلَى | ilaa | Ke | أَذْهَبُ إِلَى الْمَدْرَسَةِ
+    - فِي | fii | Di / Dalam | الْكِتَابُ فِي الْحَقِيبَةِ
+    - عَلَى | 'alaa | Di atas | الْقَلَمُ عَلَى الْمَكْتَبِ
+    - عَنْ | 'an | Dari / Tentang | سَأَلْتُ عَنِ الدَّرْسِ
+    - إِلَى | ilaa | Sampai / Ke | ذَهَبَ إِلَى الْبَيْتِ
+    - بِ | bi | Dengan | كَتَبْتُ بِالْقَلَمِ
+    - لِ | li | Untuk | هَذَا كِتَابٌ لِلطَّالِبِ
+    - كَ | ka | Seperti | هُوَ كَالْأَسَدِ
+    - حَتَّى | hattaa | Sampai | قَرَأْتُ حَتَّى الْآخِرِ
+  [INTI] Contoh: فِي الْمَدْرَسَةِ — kata الْمَدْرَسَةِ diakhiri kasrah karena didahului huruf jar فِي.
+
+>> FLASHCARDS:
+  Q: Apa artي مِنْ?
+  A: Dari
+  Q: Apa artي إِلَى?
+  A: Ke / Sampai
+  Q: Apa artي عَنْ?
+  A: Dari / Tentang
+  Q: Apa artي بِ?
+  A: Dengan
+  Q: Apa efek huruf jar pada isim setelahnya?
+  A: Isim menjadi majrur (kasrah)
+
+>> QUIZ:
+  Q: Huruf jar yang berarti 'dengan' adalah ...
+  A: بِ
+  Q: Setelah huruf jar, isim menjadi ...
+  A: Majrur (kasrah)
+  Q: أَنَا أَذْهَبُ إِلَى الْمَدْرَسَةِ — huruf jar dalam kalimat ini adalah ...
+  A: إِلَى
+
+## TOPIK: فِعْلُ الْمَاضِي — Kata Kerja Lampau
+
+>> MATERI:
+
+- Fi'il Madhi:
+  [Tabel]
+    - كَتَبَ | kataba | Menulis | يَكْتُبُ
+    - قَرَأَ | qara'a | Membaca | يَقْرَأُ
+    - ذَهَبَ | dzahaba | Pergi | يَذْهَبُ
+    - أَكَلَ | akala | Makan | يَأْكُلُ
+    - شَرِبَ | syariba | Minum | يَشْرَبُ
+    - فَعَلَ | fa'ala | Melakukan | يَفْعَلُ
+    - جَلَسَ | jalasa | Duduk | يَجْلِسُ
+    - قَامَ | qaama | Berdiri | يَقُومُ
+    - نَامَ | naama | Tidur | يَنَامُ
+    - دَرَسَ | darasa | Belajar | يَدْرُسُ
+  (Dalil) Siswa menulis pelajaran kemarin.
+Saya membaca buku di perpustakaan.
+Ayah saya pergi bekerja.
+Kami makan makanan setelah pelajaran.
+
+>> FLASHCARDS:
+  Q: Apa itu fi'il madhi?
+  A: Kata kerja lampau yang menunjukkan pekerjaan sudah terjadi
+  Q: Fi'il madhi dari يَكْتُبُ adalah?
+  A: كَتَبَ
+  Q: Apa artي ذَهَبَ?
+  A: Pergi (lampau)
+  Q: Fi'il madhi dari يَدْرُسُ adalah?
+  A: دَرَسَ
+  Q: Apa ciri fi'il madhi?
+  A: Tidak diawali huruf mudhori', huruf akhir sukun/tanwin
+
+>> QUIZ:
+  Q: Fi'il madhi adalah kata kerja yang menunjukkan ...
+  A: Sudah terjadi
+  Q: Fi'il madhi dari يَقْرَأُ adalah ...
+  A: قَرَأَ
+  Q: كَتَبَ مُحَمَّدٌ الدَّرْسَ — fi'il madhi dalam kalimat ini adalah ...
+  A: كَتَبَ
+
+## TOPIK: فَهْمُ النَّصِّ — Memahami Isi Teks Paragraf
+
+>> MATERI:
+
+- Memahami Teks Paragraf:
+  (Dalil) Muhammad adalah siswa yang rajin. Dia belajar di pagi dan sore hari. Dia membaca buku di perpustakaan. Dia suka bahasa Arab. Dia ingin menjadi guru di masa depan.
+  [Tabel]
+    - مَنْ هُوَ مُحَمَّدٌ؟ | طَالِبٌ مُجْتَهِدٌ
+    - أَيْنَ يَقْرَأُ الْكُتُبَ؟ | فِي الْمَكْتَبَةِ
+    - مَاذَا يُحِبُّ؟ | اللُّغَةَ الْعَرَبِيَّةَ
+    - مَاذَا يُرِيدُ أَنْ يَكُونَ؟ | مُدَرِّسًا
+
+>> FLASHCARDS:
+  Q: مَنْ artinya?
+  A: Siapa
+  Q: أَيْنَ artinya?
+  A: Di mana
+  Q: مَاذَا artinya?
+  A: Apa
+  Q: مُجْتَهِدٌ artinya?
+  A: Rajin / Tekun
+  Q: الْمُسْتَقْبَلِ artinya?
+  A: Masa depan
+
+>> QUIZ:
+  Q: مَنْ digunakan untuk menanyakan ...
+  A: Orang
+  Q: أَيْنَ digunakan untuk menanyakan ...
+  A: Tempat
+  Q: Dalam teks di atas, Muhammad ingin menjadi ...
+  A: مُدَرِّسٌ
+
+## TOPIK: اِسْمٌ عَلَى حَسَبِ الْعَدَد — Kata Benda Berdasarkan Jumlahnya
+
+>> MATERI:
+
+- Mufrod, Musanna, dan Jamak:
+  [Tabel]
+    - مُفْرَدٌ (Tunggal) | Satu benda/orang | كِتَابٌ | مَدْرَسَةٌ
+    - مُثَنَّى (Ganda) | Dua benda/orang | كِتَابَانِ | مَدْرَسَتَانِ
+    - جَمْعٌ (Jamak) | Lebih dari dua | كُتُبٌ | مَدَارِسُ
+  [Tabel]
+    - طَالِبٌ | طَالِبَانِ | طُلَّابٌ / طَالِبُوْنَ | Siswa
+    - مُدَرِّسٌ | مُدَرِّسَانِ | مُدَرِّسُوْنَ | Guru
+    - بِنْتٌ | بِنْتَانِ | بَنَاتٌ | Anak perempuan
+    - كِتَابٌ | كِتَابَانِ | كُتُبٌ | Buku
+    - مَدْرَسَةٌ | مَدْرَسَتَانِ | مَدَارِسُ | Sekolah
+
+>> FLASHCARDS:
+  Q: Apa itu mufrod?
+  A: Isim tunggal (satu)
+  Q: Apa itu musanna?
+  A: Isim ganda (dua)
+  Q: Apa itu jamak?
+  A: Isim banyak (lebih dari dua)
+  Q: Ciri musanna marfu' adalah?
+  A: Ditambah انِ (alif nun)
+  Q: Jamak dari كِتَابٌ adalah?
+  A: كُتُبٌ
+
+>> QUIZ:
+  Q: Isim yang menunjukkan jumlah dua disebut ...
+  A: Musanna
+  Q: Musanna dari مُدَرِّسٌ adalah ...
+  A: مُدَرِّسَانِ
+  Q: Jamak dari مَدْرَسَةٌ adalah ...
+  A: مَدَارِسُ
+
+## TOPIK: عَدَدٌ مَعْدُوْد — Adad Ma'dud
+
+>> MATERI:
+
+- Aturan Bilangan dan Yang Dihitung:
+  [Tabel]
+    - 1 | كِتَابٌ وَاحِدٌ | مَدْرَسَةٌ وَاحِدَةٌ
+    - 2 | كِتَابَانِ | مَدْرَسَتَانِ
+    - 3 | ثَلَاثَةُ كُتُبٍ | ثَلَاثُ مَدَارِسَ
+    - 4 | أَرْبَعَةُ كُتُبٍ | أَرْبَعُ مَدَارِسَ
+    - 5 | خَمْسَةُ كُتُبٍ | خَمْسُ مَدَارِسَ
+    - 10 | عَشْرَةُ كُتُبٍ | عَشْرُ مَدَارِسَ
+  [INTI] Perhatikan: ثَلَاثَةُ كُتُبٍ (bilangan mudzakkar + ma'dud mudzakkar jamak majrur). ثَلَاثُ مَدَارِسَ (bilangan muannats + ma'dud muannats jamak manshub).
+
+>> FLASHCARDS:
+  Q: Apa itu adad ma'dud?
+  A: Bilangan dan yang dihitung
+  Q: Aturan bilangan 3-9 terhadap ma'dud?
+  A: Berlawanan jenis kelamin dengan ma'dud
+  Q: Ma'dud setelah adad 3-10 selalu ...
+  A: Jamak majrur (untuk mudzakkar) atau jamak manshub (untuk muannats)
+  Q: ثَلَاثَةُ كُتُبٍ artinya?
+  A: Tiga buku
+  Q: خَمْسُ مَدَارِسَ artinya?
+  A: Lima sekolah
+
+>> QUIZ:
+  Q: Dalam adad ma'dud, bilangan 3-9 berlawanan jenis kelamin dengan ...
+  A: Ma'dud
+  Q: ثَلَاثَةُ كُتُبٍ — jenis kelamin bilangan dan ma'dud adalah ...
+  A: Sama-sama mudzakkar
+  Q: أَرْبَعُ طَالِبَاتٍ artinya ...
+  A: Empat siswi
+
+## TOPIK: ضَمِيرُ الْمُتَّصِل — Kata Ganti Kepemilikan
+
+>> MATERI:
+
+- Dhomir Muttashil (Kata Ganti yang Menyambung):
+  [Tabel]
+    - Saya | تُ | أَ | يـ / ـي
+    - Kamu (lk) | تَ | تَ | كَ
+    - Kamu (pr) | تِ | تِ | كِ
+    - Dia (lk) | ـ | يَ | هُ
+    - Dia (pr) | تْ | تَ | هَا
+    - Kami | نَا | نَ | نَا
+    - Kalian | تُمْ | تُمْ | كُمْ
+    - Mereka | وا | يَ | هُمْ
+  (Dalil) 
+  [INTI] Dhomir muttashil untuk kepemilikan (milik) menyambung setelah isim. Dhomir muttashil untuk fi'il menyambung setelah fi'il.
+
+>> FLASHCARDS:
+  Q: Apa artي كِتَابِي?
+  A: Bukuku
+  Q: Apa artي كِتَابُكَ?
+  A: Bukumu (laki-laki)
+  Q: Apa artي كِتَابُهَا?
+  A: Bukunya (perempuan)
+  Q: Dhomir muttashil untuk 'saya' pada fi'il madhi adalah?
+  A: تُ (contoh: كَتَبْتُ)
+  Q: Dhomir muttashil untuk kepemilikan 'kami' adalah?
+  A: نَا
+
+>> QUIZ:
+  Q: كِتَابِي artinya ...
+  A: Bukuku
+  Q: Dhomir muttashil untuk kepemilikan 'dia (lk)' adalah ...
+  A: هُ
+  Q: كَتَبْنَا artinya ...
+  A: Kami menulis

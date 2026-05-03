@@ -1,0 +1,3198 @@
+{
+  "id": "bahasa-arab",
+  "name": "Bahasa Arab",
+  "description": "Mufrodat, qowaid, dan percakapan dasar sesuai SKL PSAJ SMPIT Ummul Quro",
+  "grade": [
+    7,
+    8,
+    9
+  ],
+  "icon": "Languages",
+  "color": "mono",
+  "topics": [
+    {
+      "id": "perkenalan",
+      "title": "التَّعَارُف — Perkenalan",
+      "description": "Kelas VII Ganjil | C1 — Memperkenalkan diri dengan pelafalan dan intonasi yang tepat",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "perkenalan-diri",
+          "title": "Perkenalan Diri",
+          "estMinutes": 6,
+          "content": [
+            {
+              "type": "heading",
+              "text": "كَلِمَاتُ التَّعَارُف — Kosa Kata Perkenalan"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Arab",
+                "Latin",
+                "Indonesia"
+              ],
+              "rows": [
+                [
+                  "اَلسَّلَامُ عَلَيْكُمْ",
+                  "as-salaamu 'alaikum",
+                  "Assalamu'alaikum"
+                ],
+                [
+                  "وَعَلَيْكُمُ السَّلَامُ",
+                  "wa 'alaikumus-salaam",
+                  "Wa'alaikumussalam"
+                ],
+                [
+                  "مَا اسْمُكَ؟",
+                  "maa ismuka?",
+                  "Siapa nama Anda? (lk)"
+                ],
+                [
+                  "مَا اسْمُكِ؟",
+                  "maa ismuki?",
+                  "Siapa nama Anda? (pr)"
+                ],
+                [
+                  "اِسْمِي ...",
+                  "ismii ...",
+                  "Nama saya ..."
+                ],
+                [
+                  "أَنَا ...",
+                  "anaa ...",
+                  "Saya ..."
+                ],
+                [
+                  "مِنْ أَيْنَ أَنْتَ؟",
+                  "min ayna anta?",
+                  "Dari mana Anda? (lk)"
+                ],
+                [
+                  "أَنَا مِنْ إِنْدُوْنِيْسِيَا",
+                  "anaa min induuniisiiyaa",
+                  "Saya dari Indonesia"
+                ],
+                [
+                  "كَيْفَ حَالُكَ؟",
+                  "kaifa haaluka?",
+                  "Apa kabar? (lk)"
+                ],
+                [
+                  "كَيْفَ حَالُكِ؟",
+                  "kaifa haaluki?",
+                  "Apa kabar? (pr)"
+                ],
+                [
+                  "بِخَيْرٍ، الْحَمْدُ لِلَّهِ",
+                  "bikhoirin, al-hamdulillaahi",
+                  "Baik, Alhamdulillah"
+                ],
+                [
+                  "مَرْحَبًا",
+                  "marhaban",
+                  "Halo / Selamat datang"
+                ],
+                [
+                  "مَعَ السَّلَامَةِ",
+                  "ma'as-salaamah",
+                  "Selamat tinggal"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Percakapan"
+            },
+            {
+              "type": "quote",
+              "text": "أ: اَلسَّلَامُ عَلَيْكُمْ.\nب: وَعَلَيْكُمُ السَّلَامُ.\nأ: مَا اسْمُكَ؟\nب: اِسْمِي أَحْمَدُ. وَأَنْتَ؟\nأ: أَنَا عَلِيٌّ. مَرْحَبًا بِكَ.\nب: شُكْرًا.",
+              "translation": "A: Assalamu'alaikum.\nB: Wa'alaikumussalam.\nA: Siapa nama Anda?\nB: Nama saya Ahmad. Dan Anda?\nA: Saya Ali. Selamat datang.\nB: Terima kasih."
+            },
+            {
+              "type": "highlight",
+              "text": "Gunakan كَ (ka) untuk laki-laki dan كِ (ki) untuk perempuan pada kata tanya dan sapaan."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "perk-fc1",
+          "question": "Apa arti اَلسَّلَامُ عَلَيْكُمْ?",
+          "answer": "Assalamu'alaikum"
+        },
+        {
+          "id": "perk-fc2",
+          "question": "Apa arti مَا اسْمُكَ?",
+          "answer": "Siapa nama Anda? (laki-laki)"
+        },
+        {
+          "id": "perk-fc3",
+          "question": "Apa arti كَيْفَ حَالُكَ?",
+          "answer": "Apa kabar? (laki-laki)"
+        },
+        {
+          "id": "perk-fc4",
+          "question": "Bahasa Arabnya 'Saya dari Indonesia'?",
+          "answer": "أَنَا مِنْ إِنْدُوْنِيْسِيَا"
+        },
+        {
+          "id": "perk-fc5",
+          "question": "Bahasa Arabnya 'Selamat tinggal'?",
+          "answer": "مَعَ السَّلَامَةِ"
+        },
+        {
+          "id": "perk-fc6",
+          "question": "Apa beda كَ dan كِ?",
+          "answer": "كَ untuk laki-laki, كِ untuk perempuan"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "perk-q1",
+            "type": "multiple_choice",
+            "question": "Lengkapilah percakapan berikut:\nأ: مَا اسْمُكَ؟\nب: ... أَحْمَدُ.",
+            "options": [
+              "اِسْمُكِ",
+              "اِسْمِي",
+              "اِسْمُهُ",
+              "اِسْمُهَا"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "perk-q2",
+            "type": "multiple_choice",
+            "question": "Manakah sapaan yang tepat jika kamu bertemu teman baru?",
+            "options": [
+              "مَعَ السَّلَامَةِ",
+              "شُكْرًا",
+              "مَرْحَبًا بِكَ",
+              "عَفْوًا"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "perk-q3",
+            "type": "multiple_choice",
+            "question": "Jika Fatimah ditanya 'مِنْ أَيْنَ أَنْتِ؟', maka jawaban yang benar adalah ...",
+            "options": [
+              "أَنَا مِنْ جَاكَرْتَا",
+              "أَنْتِ مِنْ جَاكَرْتَا",
+              "هُوَ مِنْ جَاكَرْتَا",
+              "هِيَ مِنْ جَاكَرْتَا"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "isim-mudzakkar-muannats",
+      "title": "اِسْمُ الْمُذَكَّرِ وَالْمُؤَنَّث — Isim Mudzakkar & Muannats",
+      "description": "Kelas VII Ganjil | C1 — Memahami konsep kata benda jenis mudzakkar dan muannats",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "mudzakkar-muannats",
+          "title": "Kata Benda Laki-laki & Perempuan",
+          "estMinutes": 5,
+          "content": [
+            {
+              "type": "heading",
+              "text": "اِسْمُ الْمُذَكَّرِ وَالْمُؤَنَّث"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dalam bahasa Arab, setiap kata benda (isim) memiliki jenis kelamin: mudzakkar (laki-laki) atau muannats (perempuan)."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Mudzakkar (Lk)",
+                "Latin",
+                "Muannats (Pr)",
+                "Latin",
+                "Arti"
+              ],
+              "rows": [
+                [
+                  "مُدَرِّسٌ",
+                  "mudarrisun",
+                  "مُدَرِّسَةٌ",
+                  "mudarrisatun",
+                  "Guru"
+                ],
+                [
+                  "طَالِبٌ",
+                  "thaalibun",
+                  "طَالِبَةٌ",
+                  "thaalibatun",
+                  "Siswa/i"
+                ],
+                [
+                  "تِلْمِيذٌ",
+                  "tilmiidzun",
+                  "تِلْمِيذَةٌ",
+                  "tilmiidzatun",
+                  "Murid"
+                ],
+                [
+                  "وَلَدٌ",
+                  "waladun",
+                  "بِنْتٌ",
+                  "bintun",
+                  "Anak laki/perempuan"
+                ],
+                [
+                  "أَبٌ",
+                  "abun",
+                  "أُمٌّ",
+                  "ummun",
+                  "Ayah/Ibu"
+                ],
+                [
+                  "أَخٌ",
+                  "akhun",
+                  "أُخْتٌ",
+                  "ukhtun",
+                  "Saudara laki/perempuan"
+                ],
+                [
+                  "جَدٌّ",
+                  "jaddun",
+                  "جَدَّةٌ",
+                  "jaddatun",
+                  "Kakek/Nenek"
+                ],
+                [
+                  "كَاتِبٌ",
+                  "kaatibun",
+                  "كَاتِبَةٌ",
+                  "kaatibatun",
+                  "Penulis"
+                ],
+                [
+                  "طَبِيبٌ",
+                  "thabiibun",
+                  "طَبِيبَةٌ",
+                  "thabiibatun",
+                  "Dokter"
+                ],
+                [
+                  "مُهَنْدِسٌ",
+                  "muhandisun",
+                  "مُهَنْدِسَةٌ",
+                  "muhandisatun",
+                  "Insinyur"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ciri Muannats"
+            },
+            {
+              "type": "paragraph",
+              "text": "Umumnya isim muannats diakhiri dengan ta marbuthah (ة). Namun ada juga yang tidak, seperti: أُمٌّ, أَرْضٌ, نَارٌ, شَمْسٌ, رِيْحٌ."
+            },
+            {
+              "type": "highlight",
+              "text": "Ta marbuthah (ة) adalah tanda paling umum untuk isim muannats."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "mm-fc1",
+          "question": "Apa arti طَالِبَةٌ?",
+          "answer": "Siswi / Pelajar perempuan"
+        },
+        {
+          "id": "mm-fc2",
+          "question": "Bentuk muannats dari مُدَرِّسٌ adalah?",
+          "answer": "مُدَرِّسَةٌ"
+        },
+        {
+          "id": "mm-fc3",
+          "question": "Apa ciri utama isim muannats?",
+          "answer": "Diakhiri dengan ta marbuthah (ة)"
+        },
+        {
+          "id": "mm-fc4",
+          "question": "Bentuk mudzakkar dari بِنْتٌ adalah?",
+          "answer": "وَلَدٌ"
+        },
+        {
+          "id": "mm-fc5",
+          "question": "Apa arti أُخْتٌ?",
+          "answer": "Saudara perempuan"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "mm-q1",
+            "type": "multiple_choice",
+            "question": "Pilihlah pasangan kata yang benar antara mudzakkar dan muannats:",
+            "options": [
+              "طَالِبٌ — طَالِبَةٌ",
+              "مُدَرِّسٌ — طَالِبَةٌ",
+              "أَبٌ — أُخْتٌ",
+              "وَلَدٌ — جَدَّةٌ"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "mm-q2",
+            "type": "multiple_choice",
+            "question": "Manakah kata berikut yang termasuk muannats meskipun tidak ada ta marbuthah?",
+            "options": [
+              "طَبِيْبٌ",
+              "أُمٌّ",
+              "مُهَنْدِسٌ",
+              "كَاتِبٌ"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "mm-q3",
+            "type": "multiple_choice",
+            "question": "Lengkapilah kalimat berikut: هَذِهِ ... جَدِيْدَةٌ",
+            "options": [
+              "طَالِبٌ",
+              "مُدَرِّسٌ",
+              "طَالِبَةٌ",
+              "وَلَدٌ"
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "keluarga",
+      "title": "أُسْرَةٌ — Keluarga",
+      "description": "Kelas VII Ganjil | C1 — Mengidentifikasi bunyi ujaran wacana lisan tentang keluarga",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "anggota-keluarga",
+          "title": "Anggota Keluarga",
+          "estMinutes": 5,
+          "content": [
+            {
+              "type": "heading",
+              "text": "مُفْرَدَاتُ الْأُسْرَة — Kosa Kata Keluarga"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Arab",
+                "Latin",
+                "Indonesia"
+              ],
+              "rows": [
+                [
+                  "أُسْرَةٌ",
+                  "usratun",
+                  "Keluarga"
+                ],
+                [
+                  "أَبٌ",
+                  "abun",
+                  "Ayah"
+                ],
+                [
+                  "أُمٌّ",
+                  "ummun",
+                  "Ibu"
+                ],
+                [
+                  "وَالِدٌ",
+                  "waalidun",
+                  "Ayah (formal)"
+                ],
+                [
+                  "وَالِدَةٌ",
+                  "waalidatun",
+                  "Ibu (formal)"
+                ],
+                [
+                  "وَلَدٌ",
+                  "waladun",
+                  "Anak laki-laki"
+                ],
+                [
+                  "بِنْتٌ",
+                  "bintun",
+                  "Anak perempuan"
+                ],
+                [
+                  "أَخٌ",
+                  "akhun",
+                  "Saudara laki-laki"
+                ],
+                [
+                  "أُخْتٌ",
+                  "ukhtun",
+                  "Saudara perempuan"
+                ],
+                [
+                  "جَدٌّ",
+                  "jaddun",
+                  "Kakek"
+                ],
+                [
+                  "جَدَّةٌ",
+                  "jaddatun",
+                  "Nenek"
+                ],
+                [
+                  "عَمٌّ",
+                  "'ammun",
+                  "Paman (dari ayah)"
+                ],
+                [
+                  "خَالٌ",
+                  "khaalun",
+                  "Paman (dari ibu)"
+                ],
+                [
+                  "عَمَّةٌ",
+                  "'ammatun",
+                  "Bibi (dari ayah)"
+                ],
+                [
+                  "خَالَةٌ",
+                  "khaalatun",
+                  "Bibi (dari ibu)"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Kalimat"
+            },
+            {
+              "type": "quote",
+              "text": "هَذِهِ أُسْرَتِي.\nهَذَا وَالِدِي وَهَذِهِ وَالِدَتِي.\nلِيَ أَخٌ وَأُخْتٌ.\nوَالِدَةُ أَبِي جَدَّتِي.",
+              "translation": "Ini keluarga saya.\nIni ayah saya dan ini ibu saya.\nSaya punya saudara laki-laki dan saudara perempuan.\nIbu dari ayah saya adalah nenek saya."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "kel-fc1",
+          "question": "Apa arti أُسْرَةٌ?",
+          "answer": "Keluarga"
+        },
+        {
+          "id": "kel-fc2",
+          "question": "Apa arti وَالِدٌ?",
+          "answer": "Ayah (formal)"
+        },
+        {
+          "id": "kel-fc3",
+          "question": "Bahasa Arabnya 'Anak perempuan'?",
+          "answer": "بِنْتٌ"
+        },
+        {
+          "id": "kel-fc4",
+          "question": "Bahasa Arabnya 'Kakek'?",
+          "answer": "جَدٌّ"
+        },
+        {
+          "id": "kel-fc5",
+          "question": "Apa arti خَالٌ?",
+          "answer": "Paman dari ibu / Bibi dari ibu"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "kel-q1",
+            "type": "multiple_choice",
+            "question": "Jika seseorang bertanya 'مَنْ هَذِهِ؟' sambil menunjuk ibunya, jawaban yang tepat adalah ...",
+            "options": [
+              "هَذَا أَبِي",
+              "هَذِهِ وَالِدَتِي",
+              "هَذَا جَدِّي",
+              "هَذِهِ بِنْتِي"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "kel-q2",
+            "type": "multiple_choice",
+            "question": "Paman dari pihak ibu disebut ...",
+            "options": [
+              "عَمٌّ",
+              "خَالٌ",
+              "عَمَّةٌ",
+              "خَالَةٌ"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "kel-q3",
+            "type": "multiple_choice",
+            "question": "Lengkapilah kalimat: وَالِدَةُ أَبِي هِيَ ...",
+            "options": [
+              "أُمِّي",
+              "أُخْتِي",
+              "جَدَّتِي",
+              "عَمَّتِي"
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "kata-ganti-tunjuk",
+      "title": "أَسْمَاءُ الْإِشَارَة — Kata Ganti & Tunjuk",
+      "description": "Kelas VII Ganjil | C1 — Memahami kata ganti dan kata tunjuk (isim isyaroh) serta membedakan mudzakkar dan muannatsnya",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "isim-isyarah",
+          "title": "Isim Isyarah (Kata Tunjuk)",
+          "estMinutes": 6,
+          "content": [
+            {
+              "type": "heading",
+              "text": "أَسْمَاءُ الْإِشَارَة — Kata Tunjuk"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Jarak",
+                "Mudzakkar (Lk)",
+                "Muannats (Pr)",
+                "Arti"
+              ],
+              "rows": [
+                [
+                  "Dekat (singular)",
+                  "هَذَا (haadzaa)",
+                  "هَذِهِ (haadhihi)",
+                  "Ini"
+                ],
+                [
+                  "Jauh (singular)",
+                  "ذَلِكَ (dzaalika)",
+                  "تِلْكَ (tilka)",
+                  "Itu"
+                ],
+                [
+                  "Dekat (dual)",
+                  "هَذَانِ (haadzaani)",
+                  "هَاتَانِ (haataani)",
+                  "Ini (berdua)"
+                ],
+                [
+                  "Jauh (dual)",
+                  "ذَانِكَ (dzaanika)",
+                  "تَانِكَ (taanika)",
+                  "Itu (berdua)"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Penggunaan"
+            },
+            {
+              "type": "quote",
+              "text": "هَذَا كِتَابٌ جَدِيدٌ.\nهَذِهِ سَبُّورَةٌ كَبِيرَةٌ.\nذَلِكَ قَلَمٌ.\nتِلْكَ نَافِذَةٌ.",
+              "translation": "Ini buku baru.\nIni papan tulis besar.\nItu pena.\nItu jendela."
+            },
+            {
+              "type": "highlight",
+              "text": "هَذَا untuk benda dekat & mudzakkar. هَذِهِ untuk benda dekat & muannats. ذَلِكَ untuk benda jauh & mudzakkar. تِلْكَ untuk benda jauh & muannats."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "kgt-fc1",
+          "question": "Apa arti هَذَا?",
+          "answer": "Ini (benda dekat, laki-laki)"
+        },
+        {
+          "id": "kgt-fc2",
+          "question": "Apa arti تِلْكَ?",
+          "answer": "Itu (benda jauh, perempuan)"
+        },
+        {
+          "id": "kgt-fc3",
+          "question": "Kata tunjuk untuk benda dekat & muannats?",
+          "answer": "هَذِهِ"
+        },
+        {
+          "id": "kgt-fc4",
+          "question": "Kata tunjuk untuk benda jauh & mudzakkar?",
+          "answer": "ذَلِكَ"
+        },
+        {
+          "id": "kgt-fc5",
+          "question": "Apa arti هَاتَانِ?",
+          "answer": "Ini (berdua, perempuan)"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "kgt-q1",
+            "type": "multiple_choice",
+            "question": "Manakah kalimat yang benar secara tata bahasa?",
+            "options": [
+              "هَذَا سَبُّورَةٌ",
+              "تِلْكَ قَلَمٌ",
+              "هَذِهِ مَدْرَسَةٌ",
+              "ذَلِكَ نَافِذَةٌ"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "kgt-q2",
+            "type": "multiple_choice",
+            "question": "Jika kamu ingin menunjuk buku yang jauh, kamu mengucapkan ...",
+            "options": [
+              "هَذَا كِتَابٌ",
+              "ذَلِكَ كِتَابٌ",
+              "تِلْكَ كِتَابٌ",
+              "هَذِهِ كِتَابٌ"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "kgt-q3",
+            "type": "multiple_choice",
+            "question": "Lengkapilah: ... نَافِذَةٌ كَبِيرَةٌ (untuk benda jauh)",
+            "options": [
+              "ذَلِكَ",
+              "هَذَا",
+              "تِلْكَ",
+              "هَذِهِ"
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "angka-1-10",
+      "title": "عَدَدٌ تَرْتِيْبِيٌّ — Bilangan Bertingkat 1-10",
+      "description": "Kelas VII Genap | C2 — Menyebutkan bilangan urut (bertingkat) dari 1-10",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "bilangan-1-10",
+          "title": "Angka 1 sampai 10",
+          "estMinutes": 5,
+          "content": [
+            {
+              "type": "heading",
+              "text": "الأَعْدَادُ مِنْ ١ إِلَى ١٠"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Angka",
+                "Arab",
+                "Latin"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "وَاحِدٌ",
+                  "waahidun"
+                ],
+                [
+                  "2",
+                  "اِثْنَانِ",
+                  "itsnaani"
+                ],
+                [
+                  "3",
+                  "ثَلَاثَةٌ",
+                  "tsalaatsah"
+                ],
+                [
+                  "4",
+                  "أَرْبَعَةٌ",
+                  "arba'ah"
+                ],
+                [
+                  "5",
+                  "خَمْسَةٌ",
+                  "khamsah"
+                ],
+                [
+                  "6",
+                  "سِتَّةٌ",
+                  "sittah"
+                ],
+                [
+                  "7",
+                  "سَبْعَةٌ",
+                  "sab'ah"
+                ],
+                [
+                  "8",
+                  "ثَمَانِيَةٌ",
+                  "tsamaaniyah"
+                ],
+                [
+                  "9",
+                  "تِسْعَةٌ",
+                  "tis'ah"
+                ],
+                [
+                  "10",
+                  "عَشْرَةٌ",
+                  "'asyrah"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bilangan Urut (عدد ترتبي)"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Urutan",
+                "Arab",
+                "Latin"
+              ],
+              "rows": [
+                [
+                  "Pertama",
+                  "أَوَّلٌ",
+                  "awwalun"
+                ],
+                [
+                  "Kedua",
+                  "ثَانٍ",
+                  "tsaanin"
+                ],
+                [
+                  "Ketiga",
+                  "ثَالِثٌ",
+                  "tsaalitsun"
+                ],
+                [
+                  "Keempat",
+                  "رَابِعٌ",
+                  "raabi'un"
+                ],
+                [
+                  "Kelima",
+                  "خَامِسٌ",
+                  "khaamisun"
+                ],
+                [
+                  "Keenam",
+                  "سَادِسٌ",
+                  "saadisun"
+                ],
+                [
+                  "Ketujuh",
+                  "سَابِعٌ",
+                  "saabi'un"
+                ],
+                [
+                  "Kedelapan",
+                  "ثَامِنٌ",
+                  "tsaaminun"
+                ],
+                [
+                  "Kesembilan",
+                  "تَاسِعٌ",
+                  "taasi'un"
+                ],
+                [
+                  "Kesepuluh",
+                  "عَاشِرٌ",
+                  "'aasyirun"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "ang-fc1",
+          "question": "Angka 5 dalam bahasa Arab?",
+          "answer": "خَمْسَةٌ (khamsah)"
+        },
+        {
+          "id": "ang-fc2",
+          "question": "Angka 7 dalam bahasa Arab?",
+          "answer": "سَبْعَةٌ (sab'ah)"
+        },
+        {
+          "id": "ang-fc3",
+          "question": "Angka 10 dalam bahasa Arab?",
+          "answer": "عَشْرَةٌ ('asyrah)"
+        },
+        {
+          "id": "ang-fc4",
+          "question": "Bilangan urut 'pertama'?",
+          "answer": "أَوَّلٌ (awwalun)"
+        },
+        {
+          "id": "ang-fc5",
+          "question": "Bilangan urut 'ketiga'?",
+          "answer": "ثَالِثٌ (tsaalitsun)"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "ang-q1",
+            "type": "multiple_choice",
+            "question": "ثَلَاثَةٌ artinya angka ...",
+            "options": [
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "ang-q2",
+            "type": "multiple_choice",
+            "question": "Bilangan urut 'kelima' dalam bahasa Arab adalah ...",
+            "options": [
+              "رَابِعٌ",
+              "خَامِسٌ",
+              "سَادِسٌ",
+              "سَابِعٌ"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "ang-q3",
+            "type": "multiple_choice",
+            "question": "عَشْرَةٌ artinya angka ...",
+            "options": [
+              "8",
+              "9",
+              "10",
+              "11"
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "keterangan-tempat",
+      "title": "ظَرْفُ الْمَكَان — Keterangan Tempat",
+      "description": "Kelas VII Genap | C3 — Memahami penggunaan zhorof makaan / keterangan tempat",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "zhorof-makaan",
+          "title": "Zhorof Makaan",
+          "estMinutes": 6,
+          "content": [
+            {
+              "type": "heading",
+              "text": "ظُرُوفُ الْمَكَان — Keterangan Tempat"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Arab",
+                "Latin",
+                "Indonesia"
+              ],
+              "rows": [
+                [
+                  "فِي",
+                  "fii",
+                  "Di / Dalam"
+                ],
+                [
+                  "عَلَى",
+                  "'alaa",
+                  "Di atas"
+                ],
+                [
+                  "تَحْتَ",
+                  "tahta",
+                  "Di bawah"
+                ],
+                [
+                  "أَمَامَ",
+                  "amaama",
+                  "Di depan"
+                ],
+                [
+                  "خَلْفَ",
+                  "khalfa",
+                  "Di belakang"
+                ],
+                [
+                  "يَسَارَ",
+                  "yasaara",
+                  "Di sebelah kiri"
+                ],
+                [
+                  "يَمِينَ",
+                  "yamiina",
+                  "Di sebelah kanan"
+                ],
+                [
+                  "بَيْنَ",
+                  "baina",
+                  "Di antara"
+                ],
+                [
+                  "عِنْدَ",
+                  "'inda",
+                  "Di samping / Di tempat"
+                ],
+                [
+                  "إِلَى",
+                  "ilaa",
+                  "Ke"
+                ],
+                [
+                  "مِنْ",
+                  "min",
+                  "Dari"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Kalimat"
+            },
+            {
+              "type": "quote",
+              "text": "الْقَلَمُ عَلَى الْمَكْتَبِ.\nالْكِتَابُ فِي الْحَقِيبَةِ.\nالسَّبُّورَةُ أَمَامَ الْفَصْلِ.\nأَنَا خَلْفَ الْبَابِ.",
+              "translation": "Pena di atas meja.\nBuku di dalam tas.\nPapan tulis di depan kelas.\nSaya di belakang pintu."
+            },
+            {
+              "type": "highlight",
+              "text": "Zhorof makaan selalu diikuti oleh isim yang berstatus majrur (kasrah)."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "zm-fc1",
+          "question": "Apa arti فِي?",
+          "answer": "Di / Dalam"
+        },
+        {
+          "id": "zm-fc2",
+          "question": "Apa arti عَلَى?",
+          "answer": "Di atas"
+        },
+        {
+          "id": "zm-fc3",
+          "question": "Apa arti تَحْتَ?",
+          "answer": "Di bawah"
+        },
+        {
+          "id": "zm-fc4",
+          "question": "Apa arti أَمَامَ?",
+          "answer": "Di depan"
+        },
+        {
+          "id": "zm-fc5",
+          "question": "Apa arti بَيْنَ?",
+          "answer": "Di antara"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "zm-q1",
+            "type": "multiple_choice",
+            "question": "Jika sebuah pena berada di dalam tas, kalimat yang tepat adalah ...",
+            "options": [
+              "الْقَلَمُ عَلَى الْحَقِيبَةِ",
+              "الْقَلَمُ فِي الْحَقِيبَةِ",
+              "الْقَلَمُ تَحْتَ الْحَقِيبَةِ",
+              "الْقَلَمُ أَمَامَ الْحَقِيبَةِ"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "zm-q2",
+            "type": "multiple_choice",
+            "question": "Lengkapilah: السَّبُّورَةُ ... الْفَصْلِ (di depan)",
+            "options": [
+              "خَلْفَ",
+              "تَحْتَ",
+              "أَمَامَ",
+              "عَلَى"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "zm-q3",
+            "type": "multiple_choice",
+            "question": "Apa efek zhorof makaan (seperti فِي, عَلَى) terhadap harakat akhir kata benda setelahnya?",
+            "options": [
+              "Menjadi Dommah",
+              "Menjadi Fathah",
+              "Menjadi Kasrah (Majrur)",
+              "Tetap sama"
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "fiil-mudhori",
+      "title": "فِعْلُ الْمُضَارِع — Kata Kerja Sekarang",
+      "description": "Kelas VII Genap | C2 — Memahami, mengidentifikasi, dan menggunakan fi'il mudhori' dengan tepat dalam kalimat sederhana",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "fiil-mudhori",
+          "title": "Fi'il Mudhori'",
+          "estMinutes": 7,
+          "content": [
+            {
+              "type": "heading",
+              "text": "فِعْلُ الْمُضَارِع — Kata Kerja Sekarang / Akan Datang"
+            },
+            {
+              "type": "paragraph",
+              "text": "Fi'il mudhori' adalah kata kerja yang menunjukkan pekerjaan yang sedang dilakukan, akan dilakukan, atau pekerjaan yang bersifat umum."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ciri-ciri Fi'il Mudhori'"
+            },
+            {
+              "type": "paragraph",
+              "text": "1. Diawali dengan huruf mudhori' (أَنْ يَتَ).\n2. Huruf terakhirnya dommah (ُ), fathah (َ), atau kasrah (ِ)."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Fi'il Madhi (Lampau)",
+                "Fi'il Mudhori' (Sekarang)",
+                "Arti"
+              ],
+              "rows": [
+                [
+                  "كَتَبَ",
+                  "يَكْتُبُ",
+                  "Menulis"
+                ],
+                [
+                  "قَرَأَ",
+                  "يَقْرَأُ",
+                  "Membaca"
+                ],
+                [
+                  "ذَهَبَ",
+                  "يَذْهَبُ",
+                  "Pergi"
+                ],
+                [
+                  "أَكَلَ",
+                  "يَأْكُلُ",
+                  "Makan"
+                ],
+                [
+                  "شَرِبَ",
+                  "يَشْرَبُ",
+                  "Minum"
+                ],
+                [
+                  "لَعِبَ",
+                  "يَلْعَبُ",
+                  "Bermain"
+                ],
+                [
+                  "نَامَ",
+                  "يَنَامُ",
+                  "Tidur"
+                ],
+                [
+                  "جَلَسَ",
+                  "يَجْلِسُ",
+                  "Duduk"
+                ],
+                [
+                  "قَامَ",
+                  "يَقُومُ",
+                  "Berdiri"
+                ],
+                [
+                  "دَرَسَ",
+                  "يَدْرُسُ",
+                  "Belajar"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Kalimat"
+            },
+            {
+              "type": "quote",
+              "text": "أَنَا أَكْتُبُ الدَّرْسَ.\nهُوَ يَقْرَأُ الْكِتَابَ.\nهِيَ تَذْهَبُ إِلَى الْمَدْرَسَةِ.\nنَحْنُ نَلْعَبُ فِي الْحَدِيقَةِ.",
+              "translation": "Saya menulis pelajaran.\nDia (lk) membaca buku.\nDia (pr) pergi ke sekolah.\nKami bermain di taman."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fm-fc1",
+          "question": "Apa arti يَكْتُبُ?",
+          "answer": "Menulis (fi'il mudhori')"
+        },
+        {
+          "id": "fm-fc2",
+          "question": "Fi'il mudhori' dari كَتَبَ adalah?",
+          "answer": "يَكْتُبُ"
+        },
+        {
+          "id": "fm-fc3",
+          "question": "Apa arti يَذْهَبُ?",
+          "answer": "Pergi (fi'il mudhori')"
+        },
+        {
+          "id": "fm-fc4",
+          "question": "Fi'il mudhori' dari أَكَلَ adalah?",
+          "answer": "يَأْكُلُ"
+        },
+        {
+          "id": "fm-fc5",
+          "question": "Apa ciri fi'il mudhori'?",
+          "answer": "Diawali huruf mudhori' dan huruf akhir dommah/fathah/kasrah"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "fm-q1",
+            "type": "multiple_choice",
+            "question": "Fi'il mudhori' dari قَرَأَ adalah ...",
+            "options": [
+              "يَقْرَأُ",
+              "قَرَأَ",
+              "يَكْتُبُ",
+              "كَتَبَ"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "fm-q2",
+            "type": "multiple_choice",
+            "question": "يَدْرُسُ artinya ...",
+            "options": [
+              "Menulis",
+              "Membaca",
+              "Belajar",
+              "Bermain"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "fm-q3",
+            "type": "multiple_choice",
+            "question": "Fi'il yang menunjukkan pekerjaan sedang/akan dilakukan disebut ...",
+            "options": [
+              "Fi'il madhi",
+              "Fi'il mudhori'",
+              "Fi'il amr",
+              "Isim fa'il"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "waktu-jam",
+      "title": "السَّاعَة — Waktu & Jam",
+      "description": "Kelas VIII Ganjil | C2 — Menyebutkan bilangan bertingkat muannats 1-12 dan pengaplikasiannya dalam jam/waktu",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "jam-arab",
+          "title": "Menyebutkan Waktu",
+          "estMinutes": 6,
+          "content": [
+            {
+              "type": "heading",
+              "text": "السَّاعَة — Jam"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Jam",
+                "Arab",
+                "Latin"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "الْوَاحِدَةُ",
+                  "al-waahidah"
+                ],
+                [
+                  "2",
+                  "الثَّانِيَةُ",
+                  "ats-tsaaniyah"
+                ],
+                [
+                  "3",
+                  "الثَّالِثَةُ",
+                  "ats-tsaalitsah"
+                ],
+                [
+                  "4",
+                  "الرَّابِعَةُ",
+                  "ar-raabi'ah"
+                ],
+                [
+                  "5",
+                  "الْخَامِسَةُ",
+                  "al-khaamisah"
+                ],
+                [
+                  "6",
+                  "السَّادِسَةُ",
+                  "as-saadiisah"
+                ],
+                [
+                  "7",
+                  "السَّابِعَةُ",
+                  "as-saabi'ah"
+                ],
+                [
+                  "8",
+                  "الثَّامِنَةُ",
+                  "at-tsaaminah"
+                ],
+                [
+                  "9",
+                  "التَّاسِعَةُ",
+                  "at-taasi'ah"
+                ],
+                [
+                  "10",
+                  "الْعَاشِرَةُ",
+                  "al-'aasyirah"
+                ],
+                [
+                  "11",
+                  "الْحَادِيَةَ عَشْرَةَ",
+                  "al-haadiyata 'asyrah"
+                ],
+                [
+                  "12",
+                  "الثَّانِيَةَ عَشْرَةَ",
+                  "ats-tsaaniyata 'asyrah"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menanyakan Waktu"
+            },
+            {
+              "type": "quote",
+              "text": "كَمِ السَّاعَةُ؟\nالسَّاعَةُ السَّابِعَةُ صَبَاحًا.\nالسَّاعَةُ الثَّامِنَةُ مَسَاءً.",
+              "translation": "Jam berapa?\nJam 7 pagi.\nJam 8 malam."
+            },
+            {
+              "type": "highlight",
+              "text": "Untuk jam menggunakan bilangan muannats karena jam (سَاعَةٌ) adalah isim muannats."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "wj-fc1",
+          "question": "Jam 3 dalam bahasa Arab?",
+          "answer": "الثَّالِثَةُ"
+        },
+        {
+          "id": "wj-fc2",
+          "question": "Jam 7 dalam bahasa Arab?",
+          "answer": "السَّابِعَةُ"
+        },
+        {
+          "id": "wj-fc3",
+          "question": "Jam 12 dalam bahasa Arab?",
+          "answer": "الثَّانِيَةَ عَشْرَةَ"
+        },
+        {
+          "id": "wj-fc4",
+          "question": "كَمِ السَّاعَةُ artinya?",
+          "answer": "Jam berapa?"
+        },
+        {
+          "id": "wj-fc5",
+          "question": "Mengapa jam menggunakan bilangan muannats?",
+          "answer": "Karena سَاعَةٌ adalah isim muannats"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "wj-q1",
+            "type": "multiple_choice",
+            "question": "السَّاعَةُ الْخَامِسَةُ artinya jam ...",
+            "options": [
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "wj-q2",
+            "type": "multiple_choice",
+            "question": "Jam 8 dalam bahasa Arab adalah ...",
+            "options": [
+              "السَّابِعَةُ",
+              "الثَّامِنَةُ",
+              "التَّاسِعَةُ",
+              "الْعَاشِرَةُ"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "wj-q3",
+            "type": "multiple_choice",
+            "question": "كَمِ السَّاعَةُ digunakan untuk ...",
+            "options": [
+              "Menanyakan nama",
+              "Menanyakan waktu",
+              "Menanyakan tempat",
+              "Menanyakan umur"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "profesi",
+      "title": "الْمِهْنَة — Profesi",
+      "description": "Kelas VIII Ganjil | C2 — Mengklasifikasikan pekerjaan, tempat kerja dan pekerjaan yang dilakukan",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "pekerjaan",
+          "title": "Macam-macam Profesi",
+          "estMinutes": 6,
+          "content": [
+            {
+              "type": "heading",
+              "text": "مُفْرَدَاتُ الْمِهْنَة — Kosa Kata Profesi"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Profesi (Lk)",
+                "Profesi (Pr)",
+                "Tempat Kerja",
+                "Arti"
+              ],
+              "rows": [
+                [
+                  "مُدَرِّسٌ",
+                  "مُدَرِّسَةٌ",
+                  "مَدْرَسَةٌ",
+                  "Guru"
+                ],
+                [
+                  "طَبِيبٌ",
+                  "طَبِيبَةٌ",
+                  "مُسْتَشْفَى",
+                  "Dokter"
+                ],
+                [
+                  "مُهَنْدِسٌ",
+                  "مُهَنْدِسَةٌ",
+                  "شَرِكَةٌ",
+                  "Insinyur"
+                ],
+                [
+                  "طَبَّاخٌ",
+                  "طَبَّاخَةٌ",
+                  "مَطْعَمٌ",
+                  "Koki"
+                ],
+                [
+                  "مُمَرِّضٌ",
+                  "مُمَرِّضَةٌ",
+                  "مُسْتَشْفَى",
+                  "Perawat"
+                ],
+                [
+                  "شُرْطِيٌّ",
+                  "شُرْطِيَّةٌ",
+                  "قِسْمُ الشُّرْطَةِ",
+                  "Polisi"
+                ],
+                [
+                  "تَاجِرٌ",
+                  "تَاجِرَةٌ",
+                  "سُوقٌ",
+                  "Pedagang"
+                ],
+                [
+                  "فَلَّاحٌ",
+                  "فَلَّاحَةٌ",
+                  "حَقْلٌ",
+                  "Petani"
+                ],
+                [
+                  "سَائِقٌ",
+                  "سَائِقَةٌ",
+                  "مَحَطَّةُ الْبِنْزِينِ",
+                  "Sopir"
+                ],
+                [
+                  "كَاتِبٌ",
+                  "كَاتِبَةٌ",
+                  "مَكْتَبٌ",
+                  "Penulis / Pegawai"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Kalimat"
+            },
+            {
+              "type": "quote",
+              "text": "أَبِي مُدَرِّسٌ فِي مَدْرَسَةٍ.\nأُمِّي طَبِيبَةٌ فِي مُسْتَشْفَى.\nأَخِي مُهَنْدِسٌ فِي شَرِكَةٍ.",
+              "translation": "Ayah saya guru di sekolah.\nIbu saya dokter di rumah sakit.\nSaudara laki-laki saya insinyur di perusahaan."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "prof-fc1",
+          "question": "Apa arti مُدَرِّسٌ?",
+          "answer": "Guru (laki-laki)"
+        },
+        {
+          "id": "prof-fc2",
+          "question": "Tempat kerja طَبِيبٌ adalah?",
+          "answer": "مُسْتَشْفَى (rumah sakit)"
+        },
+        {
+          "id": "prof-fc3",
+          "question": "Apa arti مُهَنْدِسٌ?",
+          "answer": "Insinyur"
+        },
+        {
+          "id": "prof-fc4",
+          "question": "Bentuk muannats dari تَاجِرٌ?",
+          "answer": "تَاجِرَةٌ"
+        },
+        {
+          "id": "prof-fc5",
+          "question": "Apa arti فَلَّاحٌ?",
+          "answer": "Petani"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "prof-q1",
+            "type": "multiple_choice",
+            "question": "طَبِيبٌ bekerja di ...",
+            "options": [
+              "مَدْرَسَةٌ",
+              "مُسْتَشْفَى",
+              "شَرِكَةٌ",
+              "سُوقٌ"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "prof-q2",
+            "type": "multiple_choice",
+            "question": "مُهَنْدِسٌ bekerja di ...",
+            "options": [
+              "مَدْرَسَةٌ",
+              "مُسْتَشْفَى",
+              "شَرِكَةٌ",
+              "حَقْلٌ"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "prof-q3",
+            "type": "multiple_choice",
+            "question": "Bentuk muannats dari شُرْطِيٌّ adalah ...",
+            "options": [
+              "شُرْطِيَّةٌ",
+              "شُرْطِيٌّ",
+              "شُرْطَةٌ",
+              "شُرْطِيَّانِ"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "hobi",
+      "title": "الْهِوَايَات — Hobi",
+      "description": "Kelas VIII Genap | C1 — Mengidentifikasi bunyi ujaran wacana lisan tentang hobi",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "macam-hobi",
+          "title": "Macam-macam Hobi",
+          "estMinutes": 5,
+          "content": [
+            {
+              "type": "heading",
+              "text": "مُفْرَدَاتُ الْهِوَايَات — Kosa Kata Hobi"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Arab",
+                "Latin",
+                "Indonesia"
+              ],
+              "rows": [
+                [
+                  "هِوَايَةٌ",
+                  "hiwaayah",
+                  "Hobi"
+                ],
+                [
+                  "قِرَاءَةٌ",
+                  "qiraa'ah",
+                  "Membaca"
+                ],
+                [
+                  "كِتَابَةٌ",
+                  "kitaabah",
+                  "Menulis"
+                ],
+                [
+                  "رَسْمٌ",
+                  "rasmun",
+                  "Menggambar"
+                ],
+                [
+                  "سِبَاحَةٌ",
+                  "sibaahah",
+                  "Berenang"
+                ],
+                [
+                  "رِيَاضَةٌ",
+                  "riyaadlah",
+                  "Olahraga"
+                ],
+                [
+                  "لَعِبُ الْكُرَةِ",
+                  "la'ibul-kurah",
+                  "Bermain bola"
+                ],
+                [
+                  "طَبْخٌ",
+                  "thabhun",
+                  "Memasak"
+                ],
+                [
+                  "سَفَرٌ",
+                  "safarun",
+                  "Bepergian"
+                ],
+                [
+                  "تَصْوِيرٌ",
+                  "thashwiirun",
+                  "Fotografi"
+                ],
+                [
+                  "مُوسِيقَى",
+                  "muusiiqaa",
+                  "Musik"
+                ],
+                [
+                  "غِنَاءٌ",
+                  "ghinaa'",
+                  "Bernyanyi"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Kalimat"
+            },
+            {
+              "type": "quote",
+              "text": "هِوَايَتِي قِرَاءَةُ الْكُتُبِ.\nهُوَ يُحِبُّ الرِّيَاضَةَ.\nهِيَ تُحِبُّ الطَّبْخَ.",
+              "translation": "Hobi saya membaca buku.\nDia (lk) suka olahraga.\nDia (pr) suka memasak."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "hob-fc1",
+          "question": "Apa arti هِوَايَةٌ?",
+          "answer": "Hobi"
+        },
+        {
+          "id": "hob-fc2",
+          "question": "Apa arti قِرَاءَةٌ?",
+          "answer": "Membaca"
+        },
+        {
+          "id": "hob-fc3",
+          "question": "Apa arti رِيَاضَةٌ?",
+          "answer": "Olahraga"
+        },
+        {
+          "id": "hob-fc4",
+          "question": "Bahasa Arabnya 'Menggambar'?",
+          "answer": "رَسْمٌ"
+        },
+        {
+          "id": "hob-fc5",
+          "question": "Bahasa Arabnya 'Berenang'?",
+          "answer": "سِبَاحَةٌ"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "hob-q1",
+            "type": "multiple_choice",
+            "question": "هِوَايَتِي artinya ...",
+            "options": [
+              "Hobi saya",
+              "Hobi kamu",
+              "Hobi dia",
+              "Hobi kami"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "hob-q2",
+            "type": "multiple_choice",
+            "question": "طَبْخٌ artinya ...",
+            "options": [
+              "Membaca",
+              "Menulis",
+              "Memasak",
+              "Menggambar"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "hob-q3",
+            "type": "multiple_choice",
+            "question": "Kata yang berarti 'Bernyanyi' adalah ...",
+            "options": [
+              "غِنَاءٌ",
+              "مُوسِيقَى",
+              "رَسْمٌ",
+              "سِبَاحَةٌ"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "jumlah-fi-iliyah",
+      "title": "جُمْلَةٌ فِعْلِيَّةٌ — Jumlah Fi'liyah",
+      "description": "Kelas VIII Genap | C2 — Memahami, mengidentifikasi, dan menyusun jumlah fi'liyah dengan struktur yang benar",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "jumlah-fiiliyah",
+          "title": "Kalimat yang Berpredikat Fi'il (Kata Kerja)",
+          "estMinutes": 7,
+          "content": [
+            {
+              "type": "heading",
+              "text": "جُمْلَةٌ فِعْلِيَّةٌ — Kalimat Fi'liyah"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jumlah fi'liyah adalah kalimat yang berpredikat fi'il (kata kerja). Strukturnya: Fi'il + Fa'il + Maf'ul (opsional)."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Unsur",
+                "Keterangan",
+                "Contoh"
+              ],
+              "rows": [
+                [
+                  "Fi'il",
+                  "Kata kerja (predikat)",
+                  "كَتَبَ (menulis)"
+                ],
+                [
+                  "Fa'il",
+                  "Pelaku (subjek)",
+                  "مُحَمَّدٌ (Muhammad)"
+                ],
+                [
+                  "Maf'ul",
+                  "Objek",
+                  "الدَّرْسَ (pelajaran)"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Jumlah Fi'liyah"
+            },
+            {
+              "type": "quote",
+              "text": "كَتَبَ مُحَمَّدٌ الدَّرْسَ.\nيَقْرَأُ الطَّالِبُ الْكِتَابَ.\nأَكَلَ وَلَدٌ التُّفَّاحَةَ.\nتَذْهَبُ الْبِنْتُ إِلَى الْمَدْرَسَةِ.",
+              "translation": "Muhammad menulis pelajaran.\nSiswa membaca buku.\nAnak laki-laki memakan apel.\nAnak perempuan pergi ke sekolah."
+            },
+            {
+              "type": "highlight",
+              "text": "Dalam jumlah fi'liyah, fi'il (predikat) selalu didahulukan sebelum fa'il (subjek)."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "jf-fc1",
+          "question": "Apa itu jumlah fi'liyah?",
+          "answer": "Kalimat yang berpredikat fi'il (kata kerja)"
+        },
+        {
+          "id": "jf-fc2",
+          "question": "Unsur pertama jumlah fi'liyah adalah?",
+          "answer": "Fi'il (kata kerja / predikat)"
+        },
+        {
+          "id": "jf-fc3",
+          "question": "Unsur kedua jumlah fi'liyah adalah?",
+          "answer": "Fa'il (pelaku / subjek)"
+        },
+        {
+          "id": "jf-fc4",
+          "question": "Dalam jumlah fi'liyah, mana yang didahulukan?",
+          "answer": "Fi'il didahulukan sebelum fa'il"
+        },
+        {
+          "id": "jf-fc5",
+          "question": "Analisis: كَتَبَ مُحَمَّدٌ الدَّرْسَ",
+          "answer": "Fi'il: كَتَبَ, Fa'il: مُحَمَّدٌ, Maf'ul: الدَّرْسَ"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "jf-q1",
+            "type": "multiple_choice",
+            "question": "Jumlah fi'liyah adalah kalimat yang berpredikat ...",
+            "options": [
+              "Isim",
+              "Fi'il",
+              "Harf",
+              "Mubtada'"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "jf-q2",
+            "type": "multiple_choice",
+            "question": "Dalam jumlah fi'liyah, yang didahulukan adalah ...",
+            "options": [
+              "Fa'il",
+              "Fi'il",
+              "Maf'ul",
+              "Khabar"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "jf-q3",
+            "type": "multiple_choice",
+            "question": "Pada kalimat يَقْرَأُ الطَّالِبُ الْكِتَابَ, fa'ilnya adalah ...",
+            "options": [
+              "يَقْرَأُ",
+              "الطَّالِبُ",
+              "الْكِتَابَ",
+              "الطَّالِبُ الْكِتَابَ"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "jual-beli",
+      "title": "الْبَيْعُ وَالشِّرَاء — Jual Beli",
+      "description": "Kelas VIII Genap | C3 — Menggunakan ungkapan dalam percakapan jual beli dan menyebutkan mata uang dalam konteks sederhana",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "percakapan-jual-beli",
+          "title": "Ungkapan Jual Beli",
+          "estMinutes": 6,
+          "content": [
+            {
+              "type": "heading",
+              "text": "مُفْرَدَاتُ الْبَيْعِ — Kosa Kata Jual Beli"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Arab",
+                "Latin",
+                "Indonesia"
+              ],
+              "rows": [
+                [
+                  "شَرَاءٌ",
+                  "syiraa'",
+                  "Pembelian"
+                ],
+                [
+                  "بَيْعٌ",
+                  "bai'",
+                  "Penjualan"
+                ],
+                [
+                  "ثَمَنٌ / سِعْرٌ",
+                  "tsaman / si'r",
+                  "Harga"
+                ],
+                [
+                  "رَخِيصٌ",
+                  "rakhiish",
+                  "Murah"
+                ],
+                [
+                  "غَالٍ",
+                  "ghaalin",
+                  "Mahal"
+                ],
+                [
+                  "طَيِّبٌ",
+                  "thayyib",
+                  "Baik / Bagus"
+                ],
+                [
+                  "كَمِ الثَّمَنُ؟",
+                  "kamits-tsamanu?",
+                  "Berapa harganya?"
+                ],
+                [
+                  "أُرِيدُ ...",
+                  "uriidu ...",
+                  "Saya ingin ..."
+                ],
+                [
+                  "لَا أُرِيدُ",
+                  "laa uriidu",
+                  "Saya tidak ingin"
+                ],
+                [
+                  "هَلْ عِنْدَكَ ...؟",
+                  "hal 'indaka ...?",
+                  "Apakah Anda punya ...?"
+                ],
+                [
+                  "رُبِيَّالٌ",
+                  "rubiyaal",
+                  "Rupiah"
+                ],
+                [
+                  "دِرْهَمٌ",
+                  "dirhamun",
+                  "Dirham"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Percakapan"
+            },
+            {
+              "type": "quote",
+              "text": "أ: السَّلَامُ عَلَيْكُمْ. أُرِيدُ هَذَا الْكِتَابَ. كَمِ الثَّمَنُ؟\nب: وَعَلَيْكُمُ السَّلَامُ. الثَّمَنُ عَشْرَةُ آلَافِ رُبِيَّالٍ.\nأ: هَلْ هُوَ رَخِيصٌ؟\nب: نَعَمْ، هُوَ رَخِيصٌ جِدًّا.\nأ: طَيِّبٌ، أَخُذُهُ.",
+              "translation": "A: Assalamu'alaikum. Saya ingin buku ini. Berapa harganya?\nB: Wa'alaikumussalam. Harganya sepuluh ribu rupiah.\nA: Apakah murah?\nB: Ya, sangat murah.\nA: Baik, saya ambil."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "jb-fc1",
+          "question": "Apa arti كَمِ الثَّمَنُ?",
+          "answer": "Berapa harganya?"
+        },
+        {
+          "id": "jb-fc2",
+          "question": "Apa arti رَخِيصٌ?",
+          "answer": "Murah"
+        },
+        {
+          "id": "jb-fc3",
+          "question": "Apa arti غَالٍ?",
+          "answer": "Mahal"
+        },
+        {
+          "id": "jb-fc4",
+          "question": "Bahasa Arabnya 'Saya ingin'?",
+          "answer": "أُرِيدُ"
+        },
+        {
+          "id": "jb-fc5",
+          "question": "Bahasa Arabnya 'Rupiah'?",
+          "answer": "رُبِيَّالٌ"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "jb-q1",
+            "type": "multiple_choice",
+            "question": "كَمِ الثَّمَنُ artinya ...",
+            "options": [
+              "Berapa jumlahnya?",
+              "Berapa harganya?",
+              "Di mana tempatnya?",
+              "Kapan waktunya?"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "jb-q2",
+            "type": "multiple_choice",
+            "question": "Lawan kata dari غَالٍ adalah ...",
+            "options": [
+              "طَيِّبٌ",
+              "رَخِيصٌ",
+              "جَيِّدٌ",
+              "قَدِيمٌ"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "jb-q3",
+            "type": "multiple_choice",
+            "question": "أُرِيدُ هَذَا الْكِتَابَ artinya ...",
+            "options": [
+              "Saya punya buku ini",
+              "Saya baca buku ini",
+              "Saya ingin buku ini",
+              "Saya jual buku ini"
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "idhofah",
+      "title": "الْإِضَافَة — Idhofah",
+      "description": "Kelas IX Ganjil | C2 — Memahami dan menggunakan struktur idhofah dengan tepat dalam kalimat sederhana",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "struktur-idhofah",
+          "title": "Struktur Idhofah",
+          "estMinutes": 7,
+          "content": [
+            {
+              "type": "heading",
+              "text": "الْإِضَافَة — Idhofah (Mudhaf & Mudhaf Ilaih)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Idhofah adalah struktur dalam bahasa Arab yang menyambungkan dua kata benda (isim), di mana isim pertama (mudhaf) tidak memiliki alif lam (ال) dan isim kedua (mudhaf ilaih) selalu majrur (kasrah)."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Mudhaf (isim pertama)",
+                "Mudhaf Ilaih (isim kedua)",
+                "Arti"
+              ],
+              "rows": [
+                [
+                  "كِتَابُ",
+                  "الطَّالِبِ",
+                  "Buku siswa"
+                ],
+                [
+                  "بَابُ",
+                  "الْفَصْلِ",
+                  "Pintu kelas"
+                ],
+                [
+                  "مُدَرِّسُ",
+                  "اللُّغَةِ",
+                  "Guru bahasa"
+                ],
+                [
+                  "سَاعَةُ",
+                  "الْمَدْرَسَةِ",
+                  "Jam sekolah"
+                ],
+                [
+                  "قَلَمُ",
+                  "التِّلْمِيذِ",
+                  "Pena murid"
+                ],
+                [
+                  "مَكْتَبُ",
+                  "الْمُدَرِّسِ",
+                  "Meja guru"
+                ],
+                [
+                  "حَقِيبَةُ",
+                  "الْبِنْتِ",
+                  "Tas anak perempuan"
+                ],
+                [
+                  "سَبُّورَةُ",
+                  "الْفَصْلِ",
+                  "Papan tulis kelas"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ciri-ciri Idhofah"
+            },
+            {
+              "type": "paragraph",
+              "text": "1. Mudhaf tidak memiliki alif lam (ال).\n2. Mudhaf ilaih selalu majrur (kasrah di akhir).\n3. Artinya seperti 'milik' atau 'dari'."
+            },
+            {
+              "type": "highlight",
+              "text": "Contoh: كِتَابُ مُحَمَّدٍ = Buku Muhammad / Buku milik Muhammad."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "idh-fc1",
+          "question": "Apa itu idhofah?",
+          "answer": "Struktur menyambungkan dua isim (mudhaf dan mudhaf ilaih)"
+        },
+        {
+          "id": "idh-fc2",
+          "question": "Apa ciri mudhaf?",
+          "answer": "Tidak memiliki alif lam (ال)"
+        },
+        {
+          "id": "idh-fc3",
+          "question": "Apa ciri mudhaf ilaih?",
+          "answer": "Selalu majrur (kasrah di akhir)"
+        },
+        {
+          "id": "idh-fc4",
+          "question": "Arti dari كِتَابُ الطَّالِبِ?",
+          "answer": "Buku siswa"
+        },
+        {
+          "id": "idh-fc5",
+          "question": "Arti dari بَابُ الْفَصْلِ?",
+          "answer": "Pintu kelas"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "idh-q1",
+            "type": "multiple_choice",
+            "question": "Dalam idhofah, isim pertama disebut ...",
+            "options": [
+              "Mudhaf ilaih",
+              "Mudhaf",
+              "Maf'ul",
+              "Fa'il"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "idh-q2",
+            "type": "multiple_choice",
+            "question": "Ciri mudhaf ilaih adalah ...",
+            "options": [
+              "Memiliki alif lam",
+              "Selalu manshub",
+              "Selalu majrur (kasrah)",
+              "Selalu marfu'"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "idh-q3",
+            "type": "multiple_choice",
+            "question": "مُدَرِّسُ اللُّغَةِ artinya ...",
+            "options": [
+              "Guru sekolah",
+              "Guru bahasa",
+              "Guru murid",
+              "Guru kelas"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "huruf-jar",
+      "title": "حُرُوفُ الْجَرّ — Huruf Jar",
+      "description": "Kelas IX Ganjil | C3 — Memahami konsep adawaatu jarr (huruf jar) dan penggunaannya",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "adawaatu-jarr",
+          "title": "Huruf-huruf Jar",
+          "estMinutes": 7,
+          "content": [
+            {
+              "type": "heading",
+              "text": "حُرُوفُ الْجَرّ — Huruf Jar"
+            },
+            {
+              "type": "paragraph",
+              "text": "Huruf jar adalah kata penghubung yang menyebabkan isim setelahnya menjadi majrur (kasrah). Dalam bahasa Arab dikenal sebagai adawaatu jarr."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Huruf Jar",
+                "Latin",
+                "Arti",
+                "Contoh"
+              ],
+              "rows": [
+                [
+                  "مِنْ",
+                  "min",
+                  "Dari",
+                  "أَنَا مِنْ إِنْدُوْنِيْسِيَا"
+                ],
+                [
+                  "إِلَى",
+                  "ilaa",
+                  "Ke",
+                  "أَذْهَبُ إِلَى الْمَدْرَسَةِ"
+                ],
+                [
+                  "فِي",
+                  "fii",
+                  "Di / Dalam",
+                  "الْكِتَابُ فِي الْحَقِيبَةِ"
+                ],
+                [
+                  "عَلَى",
+                  "'alaa",
+                  "Di atas",
+                  "الْقَلَمُ عَلَى الْمَكْتَبِ"
+                ],
+                [
+                  "عَنْ",
+                  "'an",
+                  "Dari / Tentang",
+                  "سَأَلْتُ عَنِ الدَّرْسِ"
+                ],
+                [
+                  "إِلَى",
+                  "ilaa",
+                  "Sampai / Ke",
+                  "ذَهَبَ إِلَى الْبَيْتِ"
+                ],
+                [
+                  "بِ",
+                  "bi",
+                  "Dengan",
+                  "كَتَبْتُ بِالْقَلَمِ"
+                ],
+                [
+                  "لِ",
+                  "li",
+                  "Untuk",
+                  "هَذَا كِتَابٌ لِلطَّالِبِ"
+                ],
+                [
+                  "كَ",
+                  "ka",
+                  "Seperti",
+                  "هُوَ كَالْأَسَدِ"
+                ],
+                [
+                  "حَتَّى",
+                  "hattaa",
+                  "Sampai",
+                  "قَرَأْتُ حَتَّى الْآخِرِ"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ciri Huruf Jar"
+            },
+            {
+              "type": "paragraph",
+              "text": "Setelah huruf jar, isim yang mengikutinya harus majrur (diakhiri dengan kasrah / ِ)."
+            },
+            {
+              "type": "highlight",
+              "text": "Contoh: فِي الْمَدْرَسَةِ — kata الْمَدْرَسَةِ diakhiri kasrah karena didahului huruf jar فِي."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "hj-fc1",
+          "question": "Apa arti مِنْ?",
+          "answer": "Dari"
+        },
+        {
+          "id": "hj-fc2",
+          "question": "Apa arti إِلَى?",
+          "answer": "Ke / Sampai"
+        },
+        {
+          "id": "hj-fc3",
+          "question": "Apa arti عَنْ?",
+          "answer": "Dari / Tentang"
+        },
+        {
+          "id": "hj-fc4",
+          "question": "Apa arti بِ?",
+          "answer": "Dengan"
+        },
+        {
+          "id": "hj-fc5",
+          "question": "Apa efek huruf jar pada isim setelahnya?",
+          "answer": "Isim menjadi majrur (kasrah)"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "hj-q1",
+            "type": "multiple_choice",
+            "question": "Huruf jar yang berarti 'dengan' adalah ...",
+            "options": [
+              "لِ",
+              "بِ",
+              "كَ",
+              "مِنْ"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "hj-q2",
+            "type": "multiple_choice",
+            "question": "Setelah huruf jar, isim menjadi ...",
+            "options": [
+              "Marfu' (dommah)",
+              "Manshub (fathah)",
+              "Majrur (kasrah)",
+              "Jazm (sukun)"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "hj-q3",
+            "type": "multiple_choice",
+            "question": "أَنَا أَذْهَبُ إِلَى الْمَدْرَسَةِ — huruf jar dalam kalimat ini adalah ...",
+            "options": [
+              "أَنَا",
+              "أَذْهَبُ",
+              "إِلَى",
+              "الْمَدْرَسَةِ"
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "fiil-madhi",
+      "title": "فِعْلُ الْمَاضِي — Kata Kerja Lampau",
+      "description": "Kelas IX Ganjil | C2 — Memahami, mengidentifikasi, dan menggunakan fi'il madhi dengan tepat dalam kalimat sederhana",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "fiil-madhi",
+          "title": "Fi'il Madhi",
+          "estMinutes": 6,
+          "content": [
+            {
+              "type": "heading",
+              "text": "فِعْلُ الْمَاضِي — Kata Kerja Lampau"
+            },
+            {
+              "type": "paragraph",
+              "text": "Fi'il madhi adalah kata kerja yang menunjukkan pekerjaan yang telah terjadi atau sudah selesai dilakukan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ciri-ciri Fi'il Madhi"
+            },
+            {
+              "type": "paragraph",
+              "text": "1. Tidak diawali dengan huruf mudhori'.\n2. Huruf terakhirnya sukun (ْ) atau tanwin.\n3. Biasanya berbentuk tiga huruf (tsulatsi mujarrad)."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Fi'il Madhi",
+                "Latin",
+                "Arti",
+                "Fi'il Mudhori'"
+              ],
+              "rows": [
+                [
+                  "كَتَبَ",
+                  "kataba",
+                  "Menulis",
+                  "يَكْتُبُ"
+                ],
+                [
+                  "قَرَأَ",
+                  "qara'a",
+                  "Membaca",
+                  "يَقْرَأُ"
+                ],
+                [
+                  "ذَهَبَ",
+                  "dzahaba",
+                  "Pergi",
+                  "يَذْهَبُ"
+                ],
+                [
+                  "أَكَلَ",
+                  "akala",
+                  "Makan",
+                  "يَأْكُلُ"
+                ],
+                [
+                  "شَرِبَ",
+                  "syariba",
+                  "Minum",
+                  "يَشْرَبُ"
+                ],
+                [
+                  "فَعَلَ",
+                  "fa'ala",
+                  "Melakukan",
+                  "يَفْعَلُ"
+                ],
+                [
+                  "جَلَسَ",
+                  "jalasa",
+                  "Duduk",
+                  "يَجْلِسُ"
+                ],
+                [
+                  "قَامَ",
+                  "qaama",
+                  "Berdiri",
+                  "يَقُومُ"
+                ],
+                [
+                  "نَامَ",
+                  "naama",
+                  "Tidur",
+                  "يَنَامُ"
+                ],
+                [
+                  "دَرَسَ",
+                  "darasa",
+                  "Belajar",
+                  "يَدْرُسُ"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Kalimat"
+            },
+            {
+              "type": "quote",
+              "text": "كَتَبَ الطَّالِبُ الدَّرْسَ أَمْسِ.\nقَرَأْتُ الْكِتَابَ فِي الْمَكْتَبَةِ.\nذَهَبَ وَالِدِي إِلَى الْعَمَلِ.\nأَكَلْنَا الطَّعَامَ بَعْدَ الدَّرْسِ.",
+              "translation": "Siswa menulis pelajaran kemarin.\nSaya membaca buku di perpustakaan.\nAyah saya pergi bekerja.\nKami makan makanan setelah pelajaran."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fmd-fc1",
+          "question": "Apa itu fi'il madhi?",
+          "answer": "Kata kerja lampau yang menunjukkan pekerjaan sudah terjadi"
+        },
+        {
+          "id": "fmd-fc2",
+          "question": "Fi'il madhi dari يَكْتُبُ adalah?",
+          "answer": "كَتَبَ"
+        },
+        {
+          "id": "fmd-fc3",
+          "question": "Apa arti ذَهَبَ?",
+          "answer": "Pergi (lampau)"
+        },
+        {
+          "id": "fmd-fc4",
+          "question": "Fi'il madhi dari يَدْرُسُ adalah?",
+          "answer": "دَرَسَ"
+        },
+        {
+          "id": "fmd-fc5",
+          "question": "Apa ciri fi'il madhi?",
+          "answer": "Tidak diawali huruf mudhori', huruf akhir sukun/tanwin"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "fmd-q1",
+            "type": "multiple_choice",
+            "question": "Fi'il madhi adalah kata kerja yang menunjukkan ...",
+            "options": [
+              "Sedang terjadi",
+              "Akan terjadi",
+              "Sudah terjadi",
+              "Sering terjadi"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "fmd-q2",
+            "type": "multiple_choice",
+            "question": "Fi'il madhi dari يَقْرَأُ adalah ...",
+            "options": [
+              "قَرَأَ",
+              "يَقْرَأُ",
+              "قَرْءٌ",
+              "مَقْرُوْءٌ"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "fmd-q3",
+            "type": "multiple_choice",
+            "question": "كَتَبَ مُحَمَّدٌ الدَّرْسَ — fi'il madhi dalam kalimat ini adalah ...",
+            "options": [
+              "مُحَمَّدٌ",
+              "الدَّرْسَ",
+              "كَتَبَ",
+              "كَتَبَ مُحَمَّدٌ"
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "memahami-teks",
+      "title": "فَهْمُ النَّصِّ — Memahami Isi Teks Paragraf",
+      "description": "Kelas IX Ganjil | C3 — Memahami isi teks/paragraf yang dibaca",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "teks-paragraf",
+          "title": "Memahami Teks Paragraf",
+          "estMinutes": 6,
+          "content": [
+            {
+              "type": "heading",
+              "text": "فَهْمُ النَّصِّ — Memahami Teks"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kemampuan membaca dan memahami teks paragraf dalam bahasa Arab meliputi: mengidentifikasi ide pokok, informasi rinci, dan makna kata dari konteks."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Teks"
+            },
+            {
+              "type": "quote",
+              "text": "مُحَمَّدٌ طَالِبٌ مُجْتَهِدٌ. يَدْرُسُ فِي الصَّبَاحِ وَفِي الْمَسَاءِ. يَقْرَأُ الْكُتُبَ فِي الْمَكْتَبَةِ. يُحِبُّ اللُّغَةَ الْعَرَبِيَّةَ. يَرِيدُ أَنْ يَكُونَ مُدَرِّسًا فِي الْمُسْتَقْبَلِ.",
+              "translation": "Muhammad adalah siswa yang rajin. Dia belajar di pagi dan sore hari. Dia membaca buku di perpustakaan. Dia suka bahasa Arab. Dia ingin menjadi guru di masa depan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pertanyaan Pemahaman"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Pertanyaan",
+                "Jawaban"
+              ],
+              "rows": [
+                [
+                  "مَنْ هُوَ مُحَمَّدٌ؟",
+                  "طَالِبٌ مُجْتَهِدٌ"
+                ],
+                [
+                  "أَيْنَ يَقْرَأُ الْكُتُبَ؟",
+                  "فِي الْمَكْتَبَةِ"
+                ],
+                [
+                  "مَاذَا يُحِبُّ؟",
+                  "اللُّغَةَ الْعَرَبِيَّةَ"
+                ],
+                [
+                  "مَاذَا يُرِيدُ أَنْ يَكُونَ؟",
+                  "مُدَرِّسًا"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Interpretasi & Analisis"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bukan sekadar menjawab apa yang tertulis, cobalah memahami konteks:\n1. Mengapa Muhammad belajar di pagi dan sore hari? (Karena dia rajin/mujtahid).\n2. Mengapa dia sering ke perpustakaan? (Karena dia suka membaca dan belajar).\n3. Hubungan cita-cita dengan hobinya: Dia suka bahasa Arab, maka dia ingin menjadi guru (bahasa Arab)."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Latihan Menulis (Keterampilan Menulis)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Cobalah tulis kalimat sederhana tentang dirimu sendiri mengikuti pola teks di atas:\n'أَنَا طَالِبٌ مُجْتَهِدٌ. أَدْرُسُ فِي الْمَدْرَسَةِ. أُحِبُّ ...'"
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "teks-fc1",
+          "question": "Apa kesimpulan tentang watak Muhammad dari teks?",
+          "answer": "Dia sangat rajin (mujtahid)"
+        },
+        {
+          "id": "teks-fc2",
+          "question": "Di mana biasanya orang yang 'mujtahid' menghabiskan waktu?",
+          "answer": "Di tempat belajar atau perpustakaan"
+        },
+        {
+          "id": "teks-fc3",
+          "question": "مَاذَا artinya?",
+          "answer": "Apa (untuk menanyakan kata kerja/benda)"
+        },
+        {
+          "id": "teks-fc4",
+          "question": "مُجْتَهِدٌ artinya?",
+          "answer": "Rajin / Tekun"
+        },
+        {
+          "id": "teks-fc5",
+          "question": "الْمُسْتَقْبَلِ artinya?",
+          "answer": "Masa depan"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "teks-q1",
+            "type": "multiple_choice",
+            "question": "Berdasarkan teks, kapan Muhammad belajar?",
+            "options": [
+              "Pagi saja",
+              "Sore saja",
+              "Pagi dan sore",
+              "Malam hari"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "teks-q2",
+            "type": "multiple_choice",
+            "question": "Apa alasan yang paling logis Muhammad berada di perpustakaan?",
+            "options": [
+              "Untuk bermain",
+              "Untuk membaca buku",
+              "Untuk tidur",
+              "Untuk makan"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "teks-q3",
+            "type": "multiple_choice",
+            "question": "Jika Muhammad ingin menjadi guru, apa yang sebaiknya ia kuasai?",
+            "options": [
+              "اللُّغَةَ الْعَرَبِيَّةَ",
+              "الرِّيَاضَةَ",
+              "النَّوْمَ",
+              "اللَّعِبَ"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "isim-jumlah",
+      "title": "اِسْمٌ عَلَى حَسَبِ الْعَدَد — Kata Benda Berdasarkan Jumlahnya",
+      "description": "Kelas IX Genap | C3 — Memahami konsep isim berdasarkan jumlahnya (mufrod, musanna, jamak)",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "mufrod-musanna-jamak",
+          "title": "Mufrod, Musanna, dan Jamak",
+          "estMinutes": 7,
+          "content": [
+            {
+              "type": "heading",
+              "text": "أَقْسَامُ الْإِسْمِ عَلَى حَسَبِ الْعَدَدِ"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dalam bahasa Arab, isim dibagi menjadi tiga berdasarkan jumlahnya: mufrod (tunggal), musanna (ganda), dan jamak (banyak/jamak)."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Jenis",
+                "Keterangan",
+                "Contoh Mudzakkar",
+                "Contoh Muannats"
+              ],
+              "rows": [
+                [
+                  "مُفْرَدٌ (Tunggal)",
+                  "Satu benda/orang",
+                  "كِتَابٌ",
+                  "مَدْرَسَةٌ"
+                ],
+                [
+                  "مُثَنَّى (Ganda)",
+                  "Dua benda/orang",
+                  "كِتَابَانِ",
+                  "مَدْرَسَتَانِ"
+                ],
+                [
+                  "جَمْعٌ (Jamak)",
+                  "Lebih dari dua",
+                  "كُتُبٌ",
+                  "مَدَارِسُ"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ciri Musanna"
+            },
+            {
+              "type": "paragraph",
+              "text": "1. Ditambah alif dan nun (انِ) untuk marfu'.\n2. Ditambah yaa dan nun (ينِ) untuk manshub dan majrur."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ciri Jamak"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jamak dalam bahasa Arab memiliki banyak bentuk (jamak salim, jamak taksir, jamak mudzakkar salim, dll)."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Mufrod",
+                "Musanna",
+                "Jamak",
+                "Arti"
+              ],
+              "rows": [
+                [
+                  "طَالِبٌ",
+                  "طَالِبَانِ",
+                  "طُلَّابٌ / طَالِبُوْنَ",
+                  "Siswa"
+                ],
+                [
+                  "مُدَرِّسٌ",
+                  "مُدَرِّسَانِ",
+                  "مُدَرِّسُوْنَ",
+                  "Guru"
+                ],
+                [
+                  "بِنْتٌ",
+                  "بِنْتَانِ",
+                  "بَنَاتٌ",
+                  "Anak perempuan"
+                ],
+                [
+                  "كِتَابٌ",
+                  "كِتَابَانِ",
+                  "كُتُبٌ",
+                  "Buku"
+                ],
+                [
+                  "مَدْرَسَةٌ",
+                  "مَدْرَسَتَانِ",
+                  "مَدَارِسُ",
+                  "Sekolah"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "ij-fc1",
+          "question": "Apa itu mufrod?",
+          "answer": "Isim tunggal (satu)"
+        },
+        {
+          "id": "ij-fc2",
+          "question": "Apa itu musanna?",
+          "answer": "Isim ganda (dua)"
+        },
+        {
+          "id": "ij-fc3",
+          "question": "Apa itu jamak?",
+          "answer": "Isim banyak (lebih dari dua)"
+        },
+        {
+          "id": "ij-fc4",
+          "question": "Ciri musanna marfu' adalah?",
+          "answer": "Ditambah انِ (alif nun)"
+        },
+        {
+          "id": "ij-fc5",
+          "question": "Jamak dari كِتَابٌ adalah?",
+          "answer": "كُتُبٌ"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "ij-q1",
+            "type": "multiple_choice",
+            "question": "Isim yang menunjukkan jumlah dua disebut ...",
+            "options": [
+              "Mufrod",
+              "Musanna",
+              "Jamak",
+              "Mutsanna"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "ij-q2",
+            "type": "multiple_choice",
+            "question": "Musanna dari مُدَرِّسٌ adalah ...",
+            "options": [
+              "مُدَرِّسُوْنَ",
+              "مُدَرِّسَانِ",
+              "مُدَرِّسِيْنَ",
+              "مُدَرِّسَاتٌ"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "ij-q3",
+            "type": "multiple_choice",
+            "question": "Jamak dari مَدْرَسَةٌ adalah ...",
+            "options": [
+              "مَدْرَسَتَانِ",
+              "مَدَارِسُ",
+              "مَدَارِسَانِ",
+              "مَدْرَسَاتٌ"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "adad-madud",
+      "title": "عَدَدٌ مَعْدُوْد — Adad Ma'dud",
+      "description": "Kelas IX Genap | C2 — [MATERI PENDALAMAN] Memahami dan menggunakan adad ma'dud (bilangan dan yang dihitung) dengan tepat dalam kalimat sederhana",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "bilangan-dan-yang-dihitung",
+          "title": "Aturan Bilangan dan Yang Dihitung",
+          "estMinutes": 7,
+          "content": [
+            {
+              "type": "heading",
+              "text": "عَدَدٌ مَعْدُوْد — Bilangan dan Yang Dihitung"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dalam bahasa Arab, bilangan (adad) dan benda yang dihitung (ma'dud) memiliki aturan tersendiri, terutama dalam hal jenis kelamin (mudzakkar/muannats)."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Aturan Adad Ma'dud"
+            },
+            {
+              "type": "paragraph",
+              "text": "1. Bilangan 1-2: Sesuai dengan jenis kelamin ma'dud.\n2. Bilangan 3-9: Berlawanan jenis kelamin dengan ma'dud.\n3. Bilangan 10: Bisa sama atau berlawanan (tergantung konteks).\n4. Ma'dud setelah adad 3-10 selalu jamak majrur."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Bilangan",
+                "Contoh Mudzakkar",
+                "Contoh Muannats"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "كِتَابٌ وَاحِدٌ",
+                  "مَدْرَسَةٌ وَاحِدَةٌ"
+                ],
+                [
+                  "2",
+                  "كِتَابَانِ",
+                  "مَدْرَسَتَانِ"
+                ],
+                [
+                  "3",
+                  "ثَلَاثَةُ كُتُبٍ",
+                  "ثَلَاثُ مَدَارِسَ"
+                ],
+                [
+                  "4",
+                  "أَرْبَعَةُ كُتُبٍ",
+                  "أَرْبَعُ مَدَارِسَ"
+                ],
+                [
+                  "5",
+                  "خَمْسَةُ كُتُبٍ",
+                  "خَمْسُ مَدَارِسَ"
+                ],
+                [
+                  "10",
+                  "عَشْرَةُ كُتُبٍ",
+                  "عَشْرُ مَدَارِسَ"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Perhatikan: ثَلَاثَةُ (muannats) + كُتُبٍ (mudzakkar). Bilangan 3-10 harus BERLAWANAN jenis kelamin dengan bentuk tunggal ma'dudnya."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "am-fc1",
+          "question": "Apa itu adad ma'dud?",
+          "answer": "Bilangan dan yang dihitung"
+        },
+        {
+          "id": "am-fc2",
+          "question": "Aturan bilangan 3-10 terhadap ma'dud?",
+          "answer": "Berlawanan jenis kelamin dengan ma'dud (bentuk tunggal)"
+        },
+        {
+          "id": "am-fc3",
+          "question": "Ma'dud setelah adad 3-10 selalu berbentuk?",
+          "answer": "Jamak Majrur"
+        },
+        {
+          "id": "am-fc4",
+          "question": "ثَلَاثَةُ كُتُبٍ artinya?",
+          "answer": "Tiga buku"
+        },
+        {
+          "id": "am-fc5",
+          "question": "خَمْسُ مَدَارِسَ artinya?",
+          "answer": "Lima sekolah"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "am-q1",
+            "type": "multiple_choice",
+            "question": "Manakah penulisan adad ma'dud yang benar untuk 'tiga buku'?",
+            "options": [
+              "ثَلَاثَةُ كُتُبٍ",
+              "ثَلَاثُ كُتُبٍ",
+              "ثَلَاثَةُ كِتَابٍ",
+              "ثَلَاثُ كِتَابٍ"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "am-q2",
+            "type": "multiple_choice",
+            "question": "Jika 'مَدْرَسَةٌ' (muannats) berjumlah lima, maka penulisannya adalah ...",
+            "options": [
+              "خَمْسَةُ مَدَارِسَ",
+              "خَمْسُ مَدَارِسَ",
+              "خَمْسَةُ مَدْرَسَةٍ",
+              "خَمْسُ مَدْرَسَةٍ"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "am-q3",
+            "type": "multiple_choice",
+            "question": "Lengkapilah kalimat: فِي الْفَصْلِ ... طَالِبَاتٍ (tujuh)",
+            "options": [
+              "سَبْعَةُ",
+              "سَبْعُ",
+              "سَبْعَةَ",
+              "سَبْعِ"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "dhomir-muttashil",
+      "title": "ضَمِيرُ الْمُتَّصِل — Kata Ganti Kepemilikan",
+      "description": "Kelas IX Genap | C2 — [MATERI PENDALAMAN] Memahami, mengidentifikasi, dan menggunakan dhomir muttashil dengan tepat dalam kalimat sederhana",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "kata-ganti-kepemilikan",
+          "title": "Dhomir Muttashil (Kata Ganti yang Menyambung)",
+          "estMinutes": 7,
+          "content": [
+            {
+              "type": "heading",
+              "text": "ضَمَائِرُ الْمُتَّصِلَة — Kata Ganti Kepemilikan"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dhomir muttashil adalah kata ganti yang menyambung pada isim atau fi'il untuk menunjukkan kepemilikan atau pelaku."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "1. Dhomir untuk Kepemilikan (Isim)"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Pemilik",
+                "Dhomir",
+                "Contoh"
+              ],
+              "rows": [
+                [
+                  "Saya",
+                  "ـِي",
+                  "كِتَابِي (Bukuku)"
+                ],
+                [
+                  "Kamu (lk)",
+                  "ـكَ",
+                  "كِتَابُكَ (Bukumu)"
+                ],
+                [
+                  "Kamu (pr)",
+                  "ـكِ",
+                  "كِتَابُكِ (Bukumu)"
+                ],
+                [
+                  "Dia (lk)",
+                  "ـهُ",
+                  "كِتَابُهُ (Bukunya)"
+                ],
+                [
+                  "Dia (pr)",
+                  "ـهَا",
+                  "كِتَابُهَا (Bukunya)"
+                ],
+                [
+                  "Kami",
+                  "ـنَا",
+                  "كِتَابُنَا (Buku kami)"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "2. Dhomir untuk Pelaku (Fi'il Madhi) — Lanjutan"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Pelaku",
+                "Akhiran",
+                "Contoh"
+              ],
+              "rows": [
+                [
+                  "Saya",
+                  "ـتُ",
+                  "كَتَبْتُ (Saya telah menulis)"
+                ],
+                [
+                  "Kamu (lk)",
+                  "ـتَ",
+                  "كَتَبْتَ (Kamu telah menulis)"
+                ],
+                [
+                  "Kamu (pr)",
+                  "ـتِ",
+                  "كَتَبْتِ (Kamu telah menulis)"
+                ],
+                [
+                  "Kami",
+                  "ـنَا",
+                  "كَتَبْنَا (Kami telah menulis)"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Penggunaan"
+            },
+            {
+              "type": "quote",
+              "text": "كِتَابِي (kitaabii) = Bukuku\nكِتَابُكَ (kitaabuka) = Bukumu (lk)\nكِتَابُهَا (kitaabuhaa) = Bukunya (pr)\nكِتَابُنَا (kitaabunaa) = Buku kami\nكَتَبْتُ (katabtu) = Saya menulis\nكَتَبْتَ (katabta) = Kamu menulis (lk)",
+              "translation": ""
+            },
+            {
+              "type": "highlight",
+              "text": "Dhomir muttashil untuk kepemilikan (milik) menyambung setelah isim. Dhomir muttashil untuk fi'il menyambung setelah fi'il."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "dm-fc1",
+          "question": "Apa arti كِتَابِي?",
+          "answer": "Bukuku"
+        },
+        {
+          "id": "dm-fc2",
+          "question": "Apa arti كِتَابُكَ?",
+          "answer": "Bukumu (laki-laki)"
+        },
+        {
+          "id": "dm-fc3",
+          "question": "Apa arti كِتَابُهَا?",
+          "answer": "Bukunya (perempuan)"
+        },
+        {
+          "id": "dm-fc4",
+          "question": "Dhomir muttashil untuk 'saya' pada fi'il madhi adalah?",
+          "answer": "تُ (contoh: كَتَبْتُ)"
+        },
+        {
+          "id": "dm-fc5",
+          "question": "Dhomir muttashil untuk kepemilikan 'kami' adalah?",
+          "answer": "نَا"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "dm-q1",
+            "type": "multiple_choice",
+            "question": "Lengkapilah: هَذَا كِتَابِي، وَذَلِكَ كِتَابُ... (milikmu - lk)",
+            "options": [
+              "ي",
+              "كَ",
+              "كِ",
+              "هُ"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "dm-q2",
+            "type": "multiple_choice",
+            "question": "Bagaimana cara mengatakan 'Saya telah menulis' menggunakan dhomir muttashil?",
+            "options": [
+              "كَتَبْتُ",
+              "كَتَبْتَ",
+              "كَتَبْنَا",
+              "كَتَبَتْ"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "dm-q3",
+            "type": "multiple_choice",
+            "question": "Jika 'بَيْتٌ' (rumah) milik kami, maka disebut ...",
+            "options": [
+              "بَيْتُكَ",
+              "بَيْتُهَا",
+              "بَيْتُنَا",
+              "بَيْتِي"
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    }
+  ]
+}

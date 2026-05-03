@@ -1,0 +1,1083 @@
+{
+  "id": "pai",
+  "name": "PAI",
+  "description": "Pendidikan Agama Islam — keimanan, ibadah, akhlak, dan sejarah",
+  "grade": [7, 8, 9],
+  "icon": "BookOpen",
+  "color": "neutral",
+  "topics": [
+    {
+      "id": "aqidah",
+      "title": "Aqidah",
+      "description": "Rukun iman dan keyakinan Islam",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "beriman-kepada-allah",
+          "title": "Beriman kepada Allah",
+          "estMinutes": 8,
+          "content": [
+            { "type": "heading", "text": "Beriman kepada Allah (Kelas 7)" },
+            {
+              "type": "quote",
+              "text": "QS. Al-A'raf: 54",
+              "translation": "Sesungguhnya Tuhanmu adalah Allah yang menciptakan langit dan bumi dalam enam masa, kemudian Dia bersemayam di atas 'Arsy."
+            },
+            {
+              "type": "quote",
+              "text": "QS. Al-Anbiya: 30",
+              "translation": "Dan sesungguhnya Kami menciptakan segala sesuatu dari air, maka mengapakah mereka tidak beriman?"
+            },
+            {
+              "type": "text",
+              "text": "Allah adalah Pencipta alam semesta. Alam diciptakan dalam enam masa (periode) dan segala sesuatu bermula dari air. Ini menunjukkan kekuasaan dan kebesaran Allah."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Allah menciptakan langit dan bumi dalam 6 masa",
+                "Segala sesuatu diciptakan dari air",
+                "Allah bersemayam di atas 'Arsy",
+                "Meyakini Allah sebagai satu-satunya Tuhan yang berhak disembah"
+              ]
+            },
+            { "type": "highlight", "text": "Inti pelajaran: meyakini keesaan Allah dan memahami bukti-bukti penciptaan-Nya." }
+          ]
+        },
+        {
+          "id": "sabar-musibah",
+          "title": "Sabar Menghadapi Musibah",
+          "estMinutes": 6,
+          "content": [
+            { "type": "heading", "text": "Sabar Menghadapi Musibah" },
+            {
+              "type": "quote",
+              "text": "QS. Al-Baqarah: 155-156",
+              "translation": "Dan sungguh, Kami akan menguji kamu dengan sedikit ketakutan, kelaparan, kekurangan harta, jiwa, dan buah-buahan. Dan berikanlah kabar gembira kepada orang-orang yang sabar, (yaitu) orang-orang yang apabila ditimpa musibah mereka mengucapkan: 'Inna lillahi wa inna ilaihi raji'un'."
+            },
+            {
+              "type": "text",
+              "text": "Musibah adalah ujian dari Allah. Seorang muslim wajib bersabar dan menerima dengan lapang dada. Sabar adalah sikap menahan diri dari keluh kesah dan tetap taat kepada Allah."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Musibah merupakan ujian dan cobaan",
+                "Sabar wajib dilatih dalam kehidupan",
+                "Ucapan istirja' menunjukkan ketundukan kepada Allah",
+                "Allah memberikan ganti yang lebih baik bagi yang sabar"
+              ]
+            },
+            { "type": "highlight", "text": "Sabar menghadapi musibah adalah bukti keimanan yang kuat kepada Allah." }
+          ]
+        },
+        {
+          "id": "iman-malaikat",
+          "title": "Iman kepada Malaikat",
+          "estMinutes": 7,
+          "content": [
+            { "type": "heading", "text": "Iman kepada Malaikat" },
+            {
+              "type": "quote",
+              "text": "QS. Al-Anbiya: 19",
+              "translation": "Dan kepada Allah bersujud apa yang berada di langit dan di bumi, dari makhluk-makhluk yang bergerak dan malaikat-malaikat, dan mereka (malaikat) tidak menyombongkan diri."
+            },
+            {
+              "type": "text",
+              "text": "Malaikat adalah makhluk Allah yang diciptakan dari cahaya (nur). Mereka selalu taat dan tidak pernah mendurhakai perintah Allah. Beriman kepada malaikat adalah rukun iman kedua."
+            },
+            {
+              "type": "heading", "level": 2, "text": "Sifat dan Tugas Malaikat" },
+            {
+              "type": "table",
+              "headers": ["Nama", "Tugas Utama"],
+              "rows": [
+                ["Jibril", "Menyampaikan wahyu kepada para nabi"],
+                ["Mikail", "Mengatur rezeki dan alam"],
+                ["Israfil", "Meniup sangkakala pada hari kiamat"],
+                ["Izrail", "Mencabut nyawa makhluk hidup"],
+                ["Munkar & Nakir", "Menanyai manusia di alam kubur"],
+                ["Raqib", "Mencatat amal kebaikan"],
+                ["Atid", "Mencatat amal keburukan"],
+                ["Malik", "Menjaga pintu neraka"],
+                ["Ridwan", "Menjaga pintu surga"]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Beriman kepada malaikat artinya yakin bahwa setiap perbuatan kita selalu diawasi dan dicatat oleh malaikat."
+            }
+          ]
+        },
+        {
+          "id": "iman-hari-akhir",
+          "title": "Iman kepada Hari Akhir",
+          "estMinutes": 6,
+          "content": [
+            { "type": "heading", "text": "Iman kepada Hari Akhir" },
+            {
+              "type": "quote",
+              "text": "QS. Al-Hajj: 7",
+              "translation": "Dan sesungguhnya hari kiamat pasti datang, tidak ada keraguan padanya; dan sesungguhnya Allah akan membangkitkan semua yang ada di kubur."
+            },
+            {
+              "type": "text",
+              "text": "Hari akhir atau hari kiamat adalah hari pembalasan segala amal perbuatan. Semua makhluk akan dibangkitkan dari kuburnya untuk dihisab oleh Allah."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Hari kiamat pasti terjadi",
+                "Semua manusia akan dibangkitkan",
+                "Setiap amal akan diperhitungkan (hisab)",
+                "Ada surga dan neraka sebagai balasan"
+              ]
+            },
+            {
+              "type": "heading", "level": 2, "text": "Perilaku yang Mencerminkan Iman" },
+            {
+              "type": "list",
+              "items": [
+                "Rajin beribadah dan bertaqwa",
+                "Berguna bagi orang lain",
+                "Menjauhi perbuatan dosa dan maksiat",
+                "Selalu mengingat kematian"
+              ]
+            },
+            { "type": "highlight", "text": "Iman kepada hari akhir mendorong kita untuk selalu berbuat baik dan menjauhi keburukan." }
+          ]
+        },
+        {
+          "id": "asmaul-husna",
+          "title": "Asmaul Husna",
+          "estMinutes": 6,
+          "content": [
+            { "type": "heading", "text": "Asmaul Husna (Kelas 7)" },
+            {
+              "type": "text",
+              "text": "Asmaul Husna adalah nama-nama Allah yang baik dan indah. Memahami dan mengamalkannya dalam kehidupan sehari-hari meningkatkan kecintaan kepada Allah."
+            },
+            {
+              "type": "heading", "level": 2, "text": "Empat Asmaul Husna yang Dip Pelajari" },
+            {
+              "type": "table",
+              "headers": ["Nama", "Arti", "Perilaku Mencerminkan"],
+              "rows": [
+                ["Al-'Alim", "Maha Mengetahui", "Rajin belajar dan menuntut ilmu"],
+                ["Al-Bashir", "Maha Melihat", "Menjaga pandangan dan perilaku"],
+                ["As-Sami'", "Maha Mendengar", "Berbicara baik, jujur, dan tidak bergosip"],
+                ["Al-Khabir", "Maha Teliti/Mengetahui Rahasia", "Berhati-hati dalam bertindak dan berpikir"]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Mengamalkan Asmaul Husna berarti meneladani sifat-sifat Allah dalam kehidupan sehari-hari."
+            }
+          ]
+        },
+        {
+          "id": "iman-kitab",
+          "title": "Iman kepada Kitab Allah",
+          "estMinutes": 5,
+          "content": [
+            { "type": "heading", "text": "Iman kepada Kitab Allah (Kelas 8)" },
+            {
+              "type": "text",
+              "text": "Beriman kepada kitab Allah artinya meyakini bahwa Allah telah menurunkan kitab-kitab-Nya kepada para rasul melalui malaikat Jibril. Kitab-kitak tersebut menjadi pedoman hidup umat manusia."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Al-Qur'an diturunkan kepada Nabi Muhammad SAW",
+                "Injil diturunkan kepada Nabi Isa AS",
+                "Taurat diturunkan kepada Nabi Musa AS",
+                "Zabur diturunkan kepada Nabi Daud AS"
+              ]
+            },
+            {
+              "type": "heading", "level": 2, "text": "Sikap Beriman kepada Al-Qur'an" },
+            {
+              "type": "list",
+              "items": [
+                "Membaca, memahami, dan mengamalkan isinya",
+                "Menjadikan Al-Qur'an sebagai pedoman hidup",
+                "Menghormati dan menjaga kehormatan Al-Qur'an",
+                "Meyakini Al-Qur'an sebagai kalamullah yang haq"
+              ]
+            },
+            { "type": "highlight", "text": "Al-Qur'an adalah kitab terakhir yang menjadi petunjuk umat manusia sampai hari kiamat." }
+          ]
+        },
+        {
+          "id": "empat-sifat-rasul",
+          "title": "Empat Sifat Rasul",
+          "estMinutes": 6,
+          "content": [
+            { "type": "heading", "text": "Empat Sifat Rasul (Kelas 8)" },
+            {
+              "type": "text",
+              "text": "Setiap rasul Allah memiliki sifat-sifat utama yang wajib kita teladani. Empat sifat tersebut dikenal dengan sifat shidiq, amanah, fatonah, dan tabligh."
+            },
+            {
+              "type": "table",
+              "headers": ["Sifat", "Arti", "Contoh Perilaku"],
+              "rows": [
+                ["Shidiq", "Jujur", "Ucapan sesuai dengan kenyataan"],
+                ["Amanah", "Dapat dipercaya", "Menjaga amanah dan tanggung jawab"],
+                ["Fatonah", "Cerdas/Bijaksana", "Berpikir cerdas dalam mengambil keputusan"],
+                ["Tabligh", "Sempurna menyampaikan", "Menyampaikan kebenaran dengan tegas dan lemah lembut"]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Meneladani empat sifat rasul membentuk kepribadian muslim yang terpuji."
+            }
+          ]
+        },
+        {
+          "id": "iman-qadha-qadar",
+          "title": "Iman kepada Qadha dan Qadar",
+          "estMinutes": 6,
+          "content": [
+            { "type": "heading", "text": "Iman kepada Qadha dan Qadar (Kelas 9)" },
+            {
+              "type": "text",
+              "text": "Qadha dan Qadar adalah ketetapan Allah yang berlaku pada segala sesuatu. Beriman kepada qadha dan qadar artinya meyakini bahwa segala sesuatu telah ditentukan oleh Allah sesuai dengan ilmu-Nya."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Qadha: ketetapan Allah yang mutlak",
+                "Qadar: ketetapan Allah yang terukur dan terencana",
+                "Segala sesuatu terjadi atas izin Allah",
+                "Manusia tetap diberi akal dan kebebasan memilih"
+              ]
+            },
+            {
+              "type": "heading", "level": 2, "text": "Perilaku yang Mencerminkan" },
+            {
+              "type": "list",
+              "items": [
+                "Tidak mengeluh dalam keadaan sulit",
+                "Tetap berusaha dan bersungguh-sungguh",
+                "Menerima hasil dengan ikhlas",
+                "Tidak merasa sombong atas keberhasilan"
+              ]
+            },
+            { "type": "highlight", "text": "Beriman kepada qadha dan qadar membuat hati tenas dan tidak mudah putus asa." }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Berapa masa penciptaan alam menurut QS. Al-A'raf: 54?", "answer": "6 masa" },
+        { "id": "fc2", "question": "Segala sesuatu diciptakan dari apa menurut QS. Al-Anbiya: 30?", "answer": "Air" },
+        { "id": "fc3", "question": "Apa arti Asmaul Husna Al-'Alim?", "answer": "Maha Mengetahui" },
+        { "id": "fc4", "question": "Apa arti Asmaul Husna Al-Bashir?", "answer": "Maha Melihat" },
+        { "id": "fc5", "question": "Malaikat diciptakan dari apa?", "answer": "Cahaya (nur)" },
+        { "id": "fc6", "question": "Siapa malaikat penyampai wahyu?", "answer": "Jibril" },
+        { "id": "fc7", "question": "Siapa malaikat pencabut nyawa?", "answer": "Izrail" },
+        { "id": "fc8", "question": "Siapa malaikat yang mencatat amal buruk?", "answer": "Atid" },
+        { "id": "fc9", "question": "Ucapan istirja' saat musibah?", "answer": "Inna lillahi wa inna ilaihi raji'un" },
+        { "id": "fc10", "question": "Surat yang menyebutkan hari kiamat pasti datang?", "answer": "QS. Al-Hajj: 7" },
+        { "id": "fc11", "question": "Sebutkan 4 sifat wajib rasul!", "answer": "Shidiq, amanah, fatonah, tabligh" },
+        { "id": "fc12", "question": "Arti sifat amanah?", "answer": "Dapat dipercaya" },
+        { "id": "fc13", "question": "Kitab Allah yang diturunkan kepada Nabi Muhammad?", "answer": "Al-Qur'an" },
+        { "id": "fc14", "question": "Apa itu qadha?", "answer": "Ketetapan Allah yang mutlak" }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Penciptaan alam berlangsung dalam berapa masa?",
+            "options": ["3 masa", "5 masa", "6 masa", "7 masa"],
+            "answer": 2,
+            "explanation": "QS. Al-A'raf: 54 menyebutkan bahwa Allah menciptakan langit dan bumi dalam enam masa."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Segala sesuatu diciptakan dari apa menurut QS. Al-Anbiya: 30?",
+            "options": ["Tanah", "Api", "Air", "Angin"],
+            "answer": 2,
+            "explanation": "QS. Al-Anbiya: 30 menyatakan bahwa Allah menciptakan segala sesuatu dari air."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Siapa malaikat yang bertugas mencatat amal kebaikan?",
+            "options": ["Atid", "Raqib", "Malik", "Ridwan"],
+            "answer": 1,
+            "explanation": "Malaikat Raqib mencatat amal kebaikan, sedangkan Atid mencatat amal buruk."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Apa arti Asmaul Husna As-Sami'?",
+            "options": ["Maha Mengetahui", "Maha Melihat", "Maha Mendengar", "Maha Teliti"],
+            "answer": 2,
+            "explanation": "As-Sami' berarti Maha Mendengar segala ucapan dan bisikan."
+          },
+          {
+            "id": "q5",
+            "type": "multiple_choice",
+            "question": "Sifat rasul yang artinya jujur adalah?",
+            "options": ["Amanah", "Shidiq", "Fatonah", "Tabligh"],
+            "answer": 1,
+            "explanation": "Shidiq berarti jujur, yaitu kesesuaian antara ucapan dan kenyataan."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Ucapan istirja' saat ditimpa musibah adalah?",
+            "options": ["Alhamdulillah", "Inna lillahi wa inna ilaihi raji'un", "Subhanallah", "Allahu akbar"],
+            "answer": 1,
+            "explanation": "Inna lillahi wa inna ilaihi raji'un adalah ucapan saat menerima musibah yang berarti 'Sesungguhnya kami milik Allah dan kepada-Nya kami kembali'."
+          }
+        ]
+      }
+    },
+    {
+      "id": "fiqih",
+      "title": "Fiqih",
+      "description": "Ketentuan dan tata cara ibadah",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "thaharah",
+          "title": "Thaharah (Bersuci)",
+          "estMinutes": 8,
+          "content": [
+            { "type": "heading", "text": "Thaharah (Kelas 7)" },
+            {
+              "type": "text",
+              "text": "Thaharah atau bersuci adalah menghilangkan hadats dan najis untuk menyempurnakan ibadah kepada Allah. Thaharah merupakan syarat sahnya shalat."
+            },
+            {
+              "type": "heading", "level": 2, "text": "Macam-macam Thaharah" },
+            {
+              "type": "list",
+              "items": [
+                "Air mutlak: air yang suci lagi menyucikan (air sungai, sumur, hujan)",
+                "Hadats kecil: disucikan dengan wudhu",
+                "Hadats besar: disucikan dengan mandi wajib (janabah, haid, nifas)",
+                "Najis: kotoran yang harus dibersihkan"
+              ]
+            },
+            {
+              "type": "heading", "level": 2, "text": "Tata Cara Wudhu" },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Membasuh kedua telapak tangan",
+                "Berkumur dan membersihkan hidung",
+                "Membasuh muka",
+                "Membasuh kedua tangan sampai siku",
+                "Mengusap kepala",
+                "Membasuh kedua kaki sampai mata kaki"
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Jika tidak ada air, boleh menggunakan tayamum dengan debu yang suci."
+            },
+            { "type": "highlight", "text": "Thaharah adalah kunci diterimanya ibadah. Tanpa bersuci, shalat tidak sah." }
+          ]
+        },
+        {
+          "id": "shalat",
+          "title": "Shalat",
+          "estMinutes": 8,
+          "content": [
+            { "type": "heading", "text": "Ketentuan dan Tata Cara Shalat (Kelas 7)" },
+            {
+              "type": "text",
+              "text": "Shalat adalah tiang agama. Setiap muslim wajib melaksanakan shalat lima waktu dengan memenuhi rukun dan syaratnya."
+            },
+            {
+              "type": "heading", "level": 2, "text": "Rukun Shalat" },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Niat",
+                "Takbiratul ihram",
+                "Berdiri bagi yang mampu",
+                "Membaca al-Fatihah",
+                "Ruku' dengan tuma'ninah",
+                "Sujud dengan tuma'ninah",
+                "Duduk di antara dua sujud",
+                "Duduk untuk tasyahud akhir",
+                "Membaca tasyahud akhir",
+                "Salam"
+              ]
+            },
+            {
+              "type": "heading", "level": 2, "text": "Shalat Sunnah" },
+            {
+              "type": "list",
+              "items": [
+                "Shalat jenazah: untuk mendoakan mayit",
+                "Shalat istisqa: memohon turun hujan"
+              ]
+            },
+            { "type": "highlight", "text": "Melaksanakan shalat dengan khusyuk adalah cerminan keimanan yang kuat." }
+          ]
+        },
+        {
+          "id": "dzikir",
+          "title": "Dzikir",
+          "estMinutes": 5,
+          "content": [
+            { "type": "heading", "text": "Ketentuan dan Tata Cara Dzikir (Kelas 7)" },
+            {
+              "type": "text",
+              "text": "Dzikir adalah mengingat Allah dengan hati, lisan, dan perbuatan. Dzikir menjadikan hati tenang dan dekat dengan Sang Pencipta."
+            },
+            {
+              "type": "heading", "level": 2, "text": "Adab Berdzikir" },
+            {
+              "type": "list",
+              "items": [
+                "Dzikir dengan hati yang khusyuk",
+                "Memperhatikan makna dan artinya",
+                "Dzikir pada waktu-waktu yang mustajab",
+                "Tidak berdzikir dengan suara keras secara berlebihan"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Dzikir adalah obat hati yang paling ampuh untuk menghilangkan kegelisahan."
+            }
+          ]
+        },
+        {
+          "id": "zakat",
+          "title": "Zakat",
+          "estMinutes": 15,
+          "content": [
+            { "type": "heading", "text": "Ketentuan dan Cara Menghitung Zakat (Lengkap)" },
+            {
+              "type": "text",
+              "text": "Zakat adalah rukun Islam ketiga. Secara bahasa berarti suci atau berkembang. Secara istilah adalah mengeluarkan sebagian harta tertentu untuk diberikan kepada golongan yang berhak (mustahik)."
+            },
+            {
+              "type": "heading", "level": 2, "text": "1. Zakat Fitrah" },
+            {
+              "type": "text",
+              "text": "Zakat jiwa yang wajib dikeluarkan setiap muslim pada bulan Ramadhan hingga sebelum shalat Idul Fitri."
+            },
+            {
+              "type": "highlight",
+              "text": "Rumus: Jumlah Orang x 2,5 kg (atau 3,5 Liter) makanan pokok.\nContoh: Keluarga dengan 5 anggota wajib membayar 5 x 2,5 kg = 12,5 kg beras."
+            },
+            {
+              "type": "heading", "level": 2, "text": "2. Zakat Mal (Harta)" },
+            {
+              "type": "text",
+              "text": "Zakat yang dikenakan atas harta yang dimiliki seseorang dengan syarat telah mencapai nisab (batas minimal) dan haul (satu tahun)."
+            },
+            {
+              "type": "heading", "level": 3, "text": "A. Zakat Profesi (Penghasilan)" },
+            {
+              "type": "text",
+              "text": "Dikeluarkan dari penghasilan rutin (gaji/honor). Nisabnya setara dengan 522 kg beras."
+            },
+            {
+              "type": "highlight",
+              "text": "Rumus: Penghasilan Bersih x 2,5%.\nContoh: Penghasilan Rp 10.000.000/bulan. Zakat: 10.000.000 x 2,5% = Rp 250.000."
+            },
+            {
+              "type": "heading", "level": 3, "text": "B. Zakat Niaga (Perdagangan)" },
+            {
+              "type": "text",
+              "text": "Zakat dari harta usaha perdagangan. Nisabnya setara 85 gram emas."
+            },
+            {
+              "type": "highlight",
+              "text": "Rumus: (Modal Putar + Keuntungan + Piutang - Hutang Jatuh Tempo) x 2,5%.\nContoh: Aset dagang Rp 200 jt, hutang Rp 50 jt. Zakat: (200 - 50) jt x 2,5% = Rp 3.750.000."
+            },
+            {
+              "type": "heading", "level": 3, "text": "C. Zakat Ternak" },
+            {
+              "type": "table",
+              "headers": ["Jenis Hewan", "Nisab (Minimal)", "Kadar Zakat"],
+              "rows": [
+                ["Kambing/Domba", "40 - 120 ekor", "1 ekor kambing (2 thn)"],
+                ["Kambing/Domba", "121 - 200 ekor", "2 ekor kambing"],
+                ["Sapi/Kerbau", "30 - 39 ekor", "1 ekor sapi (1 thn/Tabi')"],
+                ["Sapi/Kerbau", "40 - 59 ekor", "1 ekor sapi (2 thn/Musinnah)"]
+              ]
+            },
+            {
+              "type": "heading", "level": 3, "text": "D. Zakat Tani (Pertanian)" },
+            {
+              "type": "text",
+              "text": "Zakat dari hasil panen pertanian (padi, gandum, dll). Nisabnya 5 Wasaq (± 653 kg gabah / 522 kg beras). Tidak ada syarat haul (dibayar setiap panen)."
+            },
+            {
+              "type": "highlight",
+              "text": "Kadar: 10% jika tadah hujan (alami) atau 5% jika menggunakan irigasi berbayar.\nContoh: Panen 1.000 kg beras dengan irigasi berbayar. Zakat: 1.000 x 5% = 50 kg beras."
+            }
+          ]
+        },
+        {
+          "id": "sujud",
+          "title": "Sujud",
+          "estMinutes": 5,
+          "content": [
+            { "type": "heading", "text": "Ketentuan dan Tata Cara Sujud (Kelas 8)" },
+            {
+              "type": "text",
+              "text": "Selain sujud dalam shalat, ada beberapa sujud khusus dalam Islam yang memiliki ketentuan tersendiri."
+            },
+            {
+              "type": "heading", "level": 2, "text": "Macam-macam Sujud" },
+            {
+              "type": "list",
+              "items": [
+                "Sujud syukur: dilakukan saat mendapat nikmat atau keberhasilan",
+                "Sujud sahwi: dilakukan saat lupa dalam shalat",
+                "Sujud tilawah: dilakukan setelah membaca ayat sajdah dalam Al-Qur'an"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Sujud adalah bentuk penghambaan tertinggi kepada Allah."
+            }
+          ]
+        },
+        {
+          "id": "rukhshah",
+          "title": "Rukhshah dalam Islam",
+          "estMinutes": 6,
+          "content": [
+            { "type": "heading", "text": "Rukhshah dalam Islam (Kelas 7)" },
+            {
+              "type": "text",
+              "text": "Rukhshah adalah keringanan hukum yang diberikan Allah kepada hamba-Nya dalam kondisi tertentu, seperti saat bepergian atau sakit."
+            },
+            {
+              "type": "heading", "level": 2, "text": "Bentuk Rukhshah" },
+            {
+              "type": "list",
+              "items": [
+                "Shalat jamak: menggabungkan dua shalat waktu dalam satu waktu",
+                "Shalat qashar: memendekkan shalat empat rakaat menjadi dua rakaat",
+                "Uzur dalam berpuasa: boleh tidak puasa saat sakit atau dalam perjalanan"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Rukhshah menunjukkan rahmat Allah yang tidak membebani hamba-Nya di luar batas kemampuannya."
+            }
+          ]
+        },
+        {
+          "id": "akikah-kurban",
+          "title": "Akikah dan Kurban",
+          "estMinutes": 6,
+          "content": [
+            { "type": "heading", "text": "Akikah dan Kurban (Kelas 9)" },
+            {
+              "type": "text",
+              "text": "Akikah adalah penyembelihan hewan untuk bayi yang baru lahir, sedangkan kurban adalah penyembelihan hewan pada hari raya Idul Adha sebagai bentuk ketakwaan."
+            },
+            {
+              "type": "heading", "level": 2, "text": "Ketentuan Akikah" },
+            {
+              "type": "list",
+              "items": [
+                "Dilakukan pada hari ke-7 setelah kelahiran",
+                "Untuk anak laki-laki: 2 ekor kambing",
+                "Untuk anak perempuan: 1 ekor kambing",
+                "Dagingnya dibagikan kepada orang lain"
+              ]
+            },
+            {
+              "type": "heading", "level": 2, "text": "Ketentuan Kurban" },
+            {
+              "type": "list",
+              "items": [
+                "Dilakukan pada tanggal 10-12 Dzulhijjah",
+                "Hewan yang disembelih harus memenuhi syarat (sehat, cukup umur)",
+                "Bagi yang mampu secara finansial"
+              ]
+            },
+            { "type": "highlight", "text": "Akikah dan kurban mengajarkan kepedulian sosial dan rasa syukur kepada Allah." }
+          ]
+        },
+        {
+          "id": "haji-umroh",
+          "title": "Haji dan Umroh",
+          "estMinutes": 7,
+          "content": [
+            { "type": "heading", "text": "Haji dan Umroh (Kelas 8)" },
+            {
+              "type": "text",
+              "text": "Haji adalah rukun Islam kelima yang wajib dilaksanakan bagi yang mampu. Umroh adalah ibadah sunnah yang dilakukan di Mekkah."
+            },
+            {
+              "type": "heading", "level": 2, "text": "Rukun Haji" },
+            {
+              "type": "list",
+              "items": [
+                "Niat ihram",
+                "Wukuf di Arafah",
+                "Thawaf di Ka'bah",
+                "Sa'i antara Shafa dan Marwah",
+                "Tahallul (mencukur rambut)"
+              ]
+            },
+            {
+              "type": "heading", "level": 2, "text": "Yang Wajib dalam Haji" },
+            {
+              "type": "list",
+              "items": [
+                "Mabit di Muzdalifah",
+                "Mabit di Mina",
+                "Lempar jumrah",
+                "Thawaf ifadhah",
+                "Thawaf wada'"
+              ]
+            },
+            { "type": "highlight", "text": "Haji mengajarkan kesetaraan, pengorbanan, dan kecintaan kepada Allah." }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc-z1", "question": "Berapa nishab zakat fitrah per orang?", "answer": "2,5 kg atau 3,5 Liter makanan pokok" },
+        { "id": "fc-z2", "question": "Berapa nishab zakat tani (padi/gandum)?", "answer": "5 Wasaq (± 653 kg gabah / 522 kg beras)" },
+        { "id": "fc-z3", "question": "Berapa kadar zakat tani jika menggunakan irigasi berbayar?", "answer": "5%" },
+        { "id": "fc-z4", "question": "Berapa nishab minimal untuk zakat kambing?", "answer": "40 ekor" },
+        { "id": "fc-z5", "question": "Apa syarat haul dalam zakat mal?", "answer": "Harta dimiliki selama satu tahun hijriah" },
+        { "id": "fc-z6", "question": "Berapa nishab zakat niaga?", "answer": "Setara 85 gram emas" },
+        { "id": "fc-z7", "question": "Kadar zakat profesi adalah?", "answer": "2,5%" },
+        { "id": "fc1", "question": "Apa itu air mutlak?", "answer": "Air yang suci lagi menyucikan" },
+        { "id": "fc2", "question": "Hadats besar disucikan dengan?", "answer": "Mandi wajib" },
+        { "id": "fc3", "question": "Berapa rukun shalat?", "answer": "10 rukun" },
+        { "id": "fc4", "question": "Sebutkan 2 macam shalat sunnah yang dipelajari!", "answer": "Shalat jenazah dan shalat istisqa" },
+        { "id": "fc6", "question": "Sujud saat lupa dalam shalat dinamakan?", "answer": "Sujud sahwi" },
+        { "id": "fc7", "question": "Sujud setelah membaca ayat sajdah?", "answer": "Sujud tilawah" },
+        { "id": "fc8", "question": "Apa itu shalat jamak?", "answer": "Menggabungkan dua shalat waktu dalam satu waktu" },
+        { "id": "fc9", "question": "Akikah untuk anak laki-laki berapa kambing?", "answer": "2 ekor kambing" },
+        { "id": "fc10", "question": "Rukun haji berapa?", "answer": "5 rukun" },
+        { "id": "fc11", "question": "Sebutkan rukun haji pertama!", "answer": "Ihram" },
+        { "id": "fc12", "question": "Wukuf dilakukan di mana?", "answer": "Di Arafah" }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Air yang suci lagi menyucikan disebut?",
+            "options": ["Air najis", "Air mutlak", "Air keruh", "Air bekas"],
+            "answer": 1,
+            "explanation": "Air mutlak adalah air yang suci lagi menyucikan, seperti air hujan, sungai, dan sumur."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Berapa jumlah rukun shalat?",
+            "options": ["5", "8", "10", "13"],
+            "answer": 2,
+            "explanation": "Rukun shalat ada 10: niat, takbiratul ihram, berdiri, membaca al-Fatihah, ruku', sujud, duduk antara dua sujud, duduk tasyahud akhir, tasyahud akhir, dan salam."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Shalat yang dilakukan untuk mendoakan mayit adalah?",
+            "options": ["Shalat istisqa", "Shalat jenazah", "Shalat tahajjud", "Shalat dhuha"],
+            "answer": 1,
+            "explanation": "Shalat jenazah adalah shalat sunnah yang dilakukan untuk mendoakan jenazah/mayit."
+          },
+          {
+            "id": "q-z1",
+            "type": "multiple_choice",
+            "question": "Sebuah keluarga terdiri dari Ayah, Ibu, dan 3 anak. Berapa total zakat fitrah yang harus dibayar dalam kg beras?",
+            "options": ["7,5 kg", "10 kg", "12,5 kg", "15 kg"],
+            "answer": 2,
+            "explanation": "Rumus: 5 orang x 2,5 kg = 12,5 kg beras."
+          },
+          {
+            "id": "q-z2",
+            "type": "multiple_choice",
+            "question": "Pak Ahmad memanen padi sebanyak 2.000 kg. Jika ia menggunakan sistem irigasi berbayar, berapa zakat yang harus dikeluarkan?",
+            "options": ["50 kg", "100 kg", "150 kg", "200 kg"],
+            "answer": 1,
+            "explanation": "Kadar zakat tani dengan irigasi berbayar adalah 5%. Jadi, 2.000 kg x 5% = 100 kg."
+          },
+          {
+            "id": "q-z3",
+            "type": "multiple_choice",
+            "question": "Nishab zakat emas adalah 85 gram. Jika kadar zakatnya 2,5%, berapa zakat yang harus dibayar jika seseorang memiliki 100 gram emas selama setahun?",
+            "options": ["1 gram", "2 gram", "2,5 gram", "5 gram"],
+            "answer": 2,
+            "explanation": "100 gram x 2,5% = 2,5 gram emas."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Berapa nishab minimal untuk zakat kambing atau domba?",
+            "options": ["20 ekor", "30 ekor", "40 ekor", "50 ekor"],
+            "answer": 2,
+            "explanation": "Nishab minimal zakat kambing/domba adalah 40 ekor."
+          },
+          {
+            "id": "q5",
+            "type": "multiple_choice",
+            "question": "Sujud yang dilakukan saat mendapat nikmat disebut?",
+            "options": ["Sujud sahwi", "Sujud tilawah", "Sujud syukur", "Sujud qunut"],
+            "answer": 2,
+            "explanation": "Sujud syukur dilakukan sebagai ungkapan syukur saat mendapat nikmat atau keberhasilan."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Rukun haji yang dilakukan di Arafah adalah?",
+            "options": ["Thawaf", "Sa'i", "Wukuf", "Ihram"],
+            "answer": 2,
+            "explanation": "Wukuf di Arafah adalah rukun haji yang wajib dilaksanakan pada tanggal 9 Dzulhijjah."
+          }
+        ]
+      }
+    },
+    {
+      "id": "akhlak",
+      "title": "Akhlak",
+      "description": "Adab dan perilaku terpuji serta tercela",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "tabayyun",
+          "title": "Akhlak Tabayyun",
+          "estMinutes": 5,
+          "content": [
+            { "type": "heading", "text": "Akhlak Tabayyun (Kelas 7)" },
+            {
+              "type": "text",
+              "text": "Tabayyun berarti memastikan kebenaran suatu berita sebelum menyampaikannya. Islam melarang umatnya menyebarkan berita tanpa verifikasi."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Memastikan kebenaran informasi terlebih dahulu",
+                "Tidak mudah percaya isu atau hoaks",
+                "Menyebarkan berita hanya yang benar",
+                "Menjaga lisan dari fitnah"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Tabayyun melindungi umat dari fitnah dan perpecahan."
+            }
+          ]
+        },
+        {
+          "id": "toleransi",
+          "title": "Akhlak Toleransi",
+          "estMinutes": 5,
+          "content": [
+            { "type": "heading", "text": "Akhlak Toleransi (Kelas 8)" },
+            {
+              "type": "text",
+              "text": "Toleransi adalah sikap saling menghormati dan memahami perbedaan. Islam mengajarkan umatnya untuk berlaku toleran terhadap sesama manusia."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Menghormati perbedaan agama, suku, dan budaya",
+                "Tidak memaksakan kehendak kepada orang lain",
+                "Saling membantu dalam kebaikan",
+                "Menjaga kerukunan di masyarakat"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Toleransi adalah wujud kebesaran hati seorang muslim."
+            }
+          ]
+        },
+        {
+          "id": "ghibah",
+          "title": "Menjauhi Ghibah",
+          "estMinutes": 5,
+          "content": [
+            { "type": "heading", "text": "Menjauhi Perilaku Ghibah (Kelas 7)" },
+            {
+              "type": "text",
+              "text": "Ghibah adalah membicarakan keburukan orang lain di belakangnya. Ghibah termasuk akhlak mazmumah (tercela) yang harus dijauhi."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Ghibah merusak kehormatan orang lain",
+                "Dosa ghibah sama dengan memakan bangkai saudaranya",
+                "Menjaga lisan dari perkataan yang tidak berguna",
+                "Jika tidak bisa berkata baik, lebih baik diam"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Menjauhi ghibah menjaga keharmonisan hubungan sosial dan keberkahan hidup."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Apa arti tabayyun?", "answer": "Memastikan kebenaran berita" },
+        { "id": "fc2", "question": "Mengapa kita harus tabayyun?", "answer": "Agar tidak menyebarkan berita bohong dan fitnah" },
+        { "id": "fc3", "question": "Apa itu toleransi?", "answer": "Sikap saling menghormati perbedaan" },
+        { "id": "fc4", "question": "Ghibah itu apa?", "answer": "Membicarakan keburukan orang di belakangnya" },
+        { "id": "fc5", "question": "Hukum ghibah dalam Islam?", "answer": "Haram/tercela" }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Tabayyun berarti?",
+            "options": ["Menyebarkan berita cepat", "Memastikan kebenaran berita", "Mendiamkan masalah", "Menerima semua informasi"],
+            "answer": 1,
+            "explanation": "Tabayyun adalah memastikan kebenaran suatu berita sebelum menyampaikannya kepada orang lain."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Sikap saling menghormati perbedaan disebut?",
+            "options": ["Tabayyun", "Toleransi", "Ghibah", "Syukur"],
+            "answer": 1,
+            "explanation": "Toleransi adalah sikap saling menghormati dan memahami perbedaan yang ada."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Membicarakan keburukan orang di belakangnya disebut?",
+            "options": ["Ghibah", "Tabayyun", "Toleransi", "Dusta"],
+            "answer": 0,
+            "explanation": "Ghibah adalah membicarakan keburukan orang lain di belakangnya yang jika ia mendengarnya akan merasa tidak suka."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sejarah-islam",
+      "title": "Sejarah Islam",
+      "description": "Dakwah dan peradaban Islam",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "dakwah-mekkah",
+          "title": "Dakwah Rasulullah di Mekkah",
+          "estMinutes": 7,
+          "content": [
+            { "type": "heading", "text": "Dakwah Rasulullah di Mekkah (Kelas 7)" },
+            {
+              "type": "text",
+              "text": "Rasulullah SAW memulai dakwah di Mekkah selama kurang lebih 13 tahun. Dakwah di Mekkah dilakukan secara sembunyi-sembunyi (sirriyah) dan kemudian terbuka (al-jahriyah)."
+            },
+            {
+              "type": "heading", "level": 2, "text": "Cara-cara Dakwah" },
+            {
+              "type": "list",
+              "items": [
+                "Dakwah secara sembunyi-sembunyi kepada keluarga terdekat",
+                "Dakwah terbuka di depan umum setelah turun surat Al-Hijr",
+                "Menulis surat kepada para raja dan pembesar",
+                "Menggunakan strategi perdagangan dan diplomasi"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Dakwah di Mekkah mengajarkan keteguhan, kesabaran, dan kecerdasan strategis."
+            }
+          ]
+        },
+        {
+          "id": "dakwah-madinah",
+          "title": "Dakwah Rasulullah di Madinah",
+          "estMinutes": 7,
+          "content": [
+            { "type": "heading", "text": "Dakwah Rasulullah di Madinah (Kelas 7)" },
+            {
+              "type": "text",
+              "text": "Setelah hijrah, Rasulullah SAW membangun masyarakat Islam di Madinah. Dakwah di Madinah bersifat membangun negara dan sistem sosial."
+            },
+            {
+              "type": "heading", "level": 2, "text": "Cara-cara Dakwah di Madinah" },
+            {
+              "type": "list",
+              "items": [
+                "Membangun masjid sebagai pusat kegiatan umat",
+                "Membuat perjanjian dengan berbagai kaum (Mitsaq Madinah)",
+                "Menyatukan kaum Muhajirin dan Anshar",
+                "Membangun ekonomi umat melalui perdagangan dan pertanian"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Dakwah di Madinah menjadi model pembangunan masyarakat Islam yang madani."
+            }
+          ]
+        },
+        {
+          "id": "dinasti-umayyah",
+          "title": "Dinasti Umayyah",
+          "estMinutes": 6,
+          "content": [
+            { "type": "heading", "text": "Perkembangan Ilmu Pengetahuan Masa Dinasti Umayyah (Kelas 8)" },
+            {
+              "type": "text",
+              "text": "Dinasti Umayyah adalah dinasti Islam pertama setelah Khulafaur Rasyidin. Masa ini ditandai dengan semangat pelopor dalam penyebaran Islam dan pembangunan peradaban."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pembangunan infrastruktur dan kota-kota besar",
+                "Penyebaran Islam hingga ke Spanyol dan India",
+                "Pengembangan sistem administrasi pemerintahan",
+                "Hikmah: semangat kepemimpinan dan visi jangka panjang"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Dinasti Umayyah membuktikan Islam mampu membangun peradaban besar dalam waktu singkat."
+            }
+          ]
+        },
+        {
+          "id": "dinasti-abbasiyah",
+          "title": "Dinasti Abbasiyah",
+          "estMinutes": 6,
+          "content": [
+            { "type": "heading", "text": "Perkembangan Ilmu Pengetahuan Masa Dinasti Abbasiyah (Kelas 8)" },
+            {
+              "type": "text",
+              "text": "Dinasti Abbasiyah dikenal sebagai masa keemasan (golden age) peradaban Islam. Banyak ilmuwan Muslim yang berjasa dalam perkembangan sains dan teknologi dunia."
+            },
+            {
+              "type": "heading", "level": 2, "text": "Ilmuwan Masa Abbasiyah" },
+            {
+              "type": "list",
+              "items": [
+                "Al-Kindi: filsuf dan ilmuwan Arab pertama",
+                "Al-Khawarizmi: bapak aljabar",
+                "Ibnu Sina (Avicenna): ahli kedokteran dan filsuf",
+                "Al-Biruni: ahli astronomi, matematika, dan geografi"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Abbasiyah menunjukkan bahwa Islam sangat menghargai ilmu pengetahuan."
+            }
+          ]
+        },
+        {
+          "id": "dinasti-utsmani",
+          "title": "Dinasti Utsmani",
+          "estMinutes": 6,
+          "content": [
+            { "type": "heading", "text": "Perkembangan Ilmu Pengetahuan Masa Dinasti Utsmani (Kelas 8)" },
+            {
+              "type": "text",
+              "text": "Dinasti Utsmani adalah dinasti Islam terakhir yang berdiri selama lebih dari 600 tahun. Dinasti ini dikenal dengan kekuatan militer, arsitektur, dan sistem pemerintahan yang kuat."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pemimpin yang visioner dan dekat dengan rakyat",
+                "Pembangunan masjid dan fasilitas publik",
+                "Sistem pendidikan dan hukum yang terorganisir",
+                "Kemajuan dalam teknologi militer dan perkapalan"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Karakter pemimpin Utsmani yang adil dan visioner menjadi kunci kejayaan peradaban ini."
+            }
+          ]
+        },
+        {
+          "id": "daulah-fatimiyah",
+          "title": "Daulah Fatimiyah",
+          "estMinutes": 5,
+          "content": [
+            { "type": "heading", "text": "Perkembangan Daulah Fatimiyah (Kelas 9)" },
+            {
+              "type": "text",
+              "text": "Daulah Fatimiyah adalah pemerintahan yang berdiri di Mesir dan Afrika Utara. Dinasti ini berkembang bersamaan dengan perkembangan aliran Syiah di dunia Islam."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Berdiri di kota Kairo, Mesir",
+                "Berkembangnya aliran Syiah Ismailiyah",
+                "Pembangunan Al-Azhar sebagai pusat pembelajaran",
+                "Hikmah: memahami keragaman pemikiran dalam Islam"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Memahami sejarah Fatimiyah membantu kita memahami perkembangan pemikiran Islam secara utuh."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Berapa lama dakwah Rasulullah di Mekkah?", "answer": "Kurang lebih 13 tahun" },
+        { "id": "fc2", "question": "Apa nama perjanjian di Madinah?", "answer": "Mitsaq Madinah" },
+        { "id": "fc3", "question": "Siapa bapak aljabar dari Dinasti Abbasiyah?", "answer": "Al-Khawarizmi" },
+        { "id": "fc4", "question": "Siapa ahli kedokteran terkenal masa Abbasiyah?", "answer": "Ibnu Sina (Avicenna)" },
+        { "id": "fc5", "question": "Dinasti Utsmani dikenal dengan?", "answer": "Kekuatan militer, arsitektur, dan sistem pemerintahan yang kuat" },
+        { "id": "fc6", "question": "Daulah Fatimiyah berdiri di mana?", "answer": "Kairo, Mesir" },
+        { "id": "fc7", "question": "Aliran Syiah apa yang berkembang di Fatimiyah?", "answer": "Syiah Ismailiyah" },
+        { "id": "fc8", "question": "Pusat pembelajaran yang dibangun Fatimiyah?", "answer": "Al-Azhar" }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Berapa lama dakwah Rasulullah di Mekkah?",
+            "options": ["10 tahun", "13 tahun", "15 tahun", "23 tahun"],
+            "answer": 1,
+            "explanation": "Dakwah Rasulullah SAW di Mekkah berlangsung selama kurang lebih 13 tahun."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Dinasti Abbasiyah dikenal sebagai masa?",
+            "options": ["Kegelapan", "Keemasan peradaban Islam", "Perang saudara", "Kemunduran ilmu"],
+            "answer": 1,
+            "explanation": "Dinasti Abbasiyah dikenal sebagai masa keemasan (golden age) peradaban Islam karena pesatnya perkembangan ilmu pengetahuan."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Siapa ilmuwan yang dijuluki bapak aljabar?",
+            "options": ["Ibnu Sina", "Al-Biruni", "Al-Khawarizmi", "Al-Kindi"],
+            "answer": 2,
+            "explanation": "Al-Khawarizmi adalah ilmuwan Muslim yang dijuluki bapak aljabar karena kontribusinya dalam matematika."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Daulah Fatimiyah berkembang di wilayah?",
+            "options": ["Spanyol", "Arab Saudi", "Mesir dan Afrika Utara", "Turki"],
+            "answer": 2,
+            "explanation": "Daulah Fatimiyah berdiri di Kairo, Mesir, dan meluas ke Afrika Utara."
+          },
+          {
+            "id": "q5",
+            "type": "multiple_choice",
+            "question": "Aliran Syiah yang berkembang pada masa Daulah Fatimiyah adalah?",
+            "options": ["Syiah Dua Belas Imam", "Syiah Ismailiyah", "Syiah Zaidiyah", "Syiah Jafariyah"],
+            "answer": 1,
+            "explanation": "Aliran Syiah Ismailiyah berkembang pesat pada masa Daulah Fatimiyah."
+          }
+        ]
+      }
+    }
+  ]
+}

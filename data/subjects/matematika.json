@@ -1,0 +1,412 @@
+{
+  "id": "matematika",
+  "name": "Matematika",
+  "description": "Bilangan, aljabar, geometri, dan statistika",
+  "grade": [7, 8, 9],
+  "icon": "Sigma",
+  "color": "mono",
+  "topics": [
+    {
+      "id": "bilangan",
+      "title": "Bilangan dan Operasinya",
+      "description": "Bilangan bulat, pecahan, dan berpangkat",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "bilangan-bulat",
+          "title": "Bilangan Bulat dan Rasional",
+          "estMinutes": 10,
+          "content": [
+            { "type": "heading", "text": "Bilangan Bulat dan Rasional" },
+            { "type": "heading", "level": 2, "text": "Jenis Bilangan" },
+            { "type": "list", "items": [
+              "Bilangan bulat: ..., -2, -1, 0, 1, 2, ...",
+              "Bilangan cacah: 0, 1, 2, 3, ...",
+              "Bilangan asli: 1, 2, 3, 4, ...",
+              "Bilangan rasional: dapat dinyatakan sebagai a/b (b ≠ 0)",
+              "Bilangan irasional: tidak dapat dinyatakan sebagai pecahan (π, √2)"
+            ]},
+            { "type": "heading", "level": 2, "text": "Operasi Bilangan Bulat" },
+            { "type": "list", "items": [
+              "Positif × Positif = Positif",
+              "Negatif × Negatif = Positif",
+              "Positif × Negatif = Negatif",
+              "(-a) × (-b) = ab"
+            ]},
+            { "type": "heading", "level": 2, "text": "Operasi Pecahan" },
+            { "type": "math", "tex": "\\frac{a}{b} + \\frac{c}{d} = \\frac{ad + bc}{bd}", "display": true },
+            { "type": "math", "tex": "\\frac{a}{b} \\times \\frac{c}{d} = \\frac{ac}{bd}", "display": true },
+            { "type": "math", "tex": "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}", "display": true }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Hasil dari (-5) × (-3)?", "answer": "15 (negatif kali negatif = positif)" },
+        { "id": "fc2", "question": "Apa itu bilangan irasional?", "answer": "Bilangan yang tidak dapat dinyatakan sebagai pecahan" },
+        { "id": "fc3", "question": "Contoh bilangan irasional?", "answer": "π, √2, √3" },
+        { "id": "fc4", "question": "Cara membagi pecahan?", "answer": "Kali dengan kebalikan pembagi" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Hasil dari (-8) ÷ (-2) adalah?", "options": ["-4", "4", "-16", "16"], "answer": 1 },
+          { "id": "q2", "type": "multiple_choice", "question": "Mana yang termasuk bilangan irasional?", "options": ["1/3", "0,5", "√2", "2/5"], "answer": 2 }
+        ]
+      }
+    },
+    {
+      "id": "perbandingan",
+      "title": "Perbandingan",
+      "description": "Rasio, skala, dan proporsi",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "perbandingan-skala",
+          "title": "Perbandingan dan Skala",
+          "estMinutes": 8,
+          "content": [
+            { "type": "heading", "text": "Perbandingan dan Skala" },
+            { "type": "heading", "level": 2, "text": "Perbandingan Senilai" },
+            { "type": "text", "text": "Dua besaran dikatakan senilai jika satu besaran naik, besaran lain juga naik." },
+            { "type": "math", "tex": "\\frac{a_1}{a_2} = \\frac{b_1}{b_2}", "display": true },
+            { "type": "text", "text": "Contoh: jumlah barang dan total harga" },
+            { "type": "heading", "level": 2, "text": "Perbandingan Berbalik Nilai" },
+            { "type": "text", "text": "Dua besaran dikatakan berbalik nilai jika satu besaran naik, besaran lain turun." },
+            { "type": "math", "tex": "a_1 \\times b_1 = a_2 \\times b_2", "display": true },
+            { "type": "text", "text": "Contoh: kecepatan dan waktu tempuh" },
+            { "type": "heading", "level": 2, "text": "Skala Peta" },
+            { "type": "math", "tex": "Skala = \\frac{Jarak\\ pada\\ peta}{Jarak\\ sebenarnya}", "display": true },
+            { "type": "highlight", "text": "Skala 1:100.000 artinya 1 cm di peta = 100.000 cm = 1 km sebenarnya" }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Rumus perbandingan senilai?", "answer": "a₁/a₂ = b₁/b₂" },
+        { "id": "fc2", "question": "Contoh perbandingan berbalik nilai?", "answer": "Kecepatan dan waktu tempuh" },
+        { "id": "fc3", "question": "Skala 1:50.000, 2 cm di peta = ? km", "answer": "1 km (2 × 50.000 cm = 100.000 cm = 1 km)" },
+        { "id": "fc4", "question": "Apa ciri perbandingan senilai?", "answer": "Satu besaran naik, besaran lain juga naik" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "5 pekerja menyelesaikan pekerjaan dalam 12 hari. Berapa hari jika 10 pekerja?", "options": ["24 hari", "6 hari", "10 hari", "15 hari"], "answer": 1, "explanation": "Berbalik nilai: 5 × 12 = 10 × x, maka x = 6 hari" },
+          { "id": "q2", "type": "multiple_choice", "question": "Hubungan jumlah barang dan total harga adalah?", "options": ["Berbalik nilai", "Senilai", "Tidak berhubungan", "Acak"], "answer": 1 }
+        ]
+      }
+    },
+    {
+      "id": "himpunan",
+      "title": "Himpunan",
+      "description": "Himpunan, operasi, dan diagram Venn",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "operasi-himpunan",
+          "title": "Operasi Himpunan",
+          "estMinutes": 12,
+          "content": [
+            { "type": "heading", "text": "Himpunan dan Operasinya" },
+            { "type": "heading", "level": 2, "text": "Jenis Himpunan" },
+            { "type": "list", "items": [
+              "Himpunan semesta (S): himpunan yang memuat semua anggota",
+              "Himpunan kosong (∅): himpunan tanpa anggota",
+              "Himpunan bagian (⊂): A ⊂ B jika semua anggota A ada di B"
+            ]},
+            { "type": "heading", "level": 2, "text": "Operasi Himpunan" },
+            { "type": "table", "headers": ["Operasi", "Simbol", "Pengertian"], "rows": [
+              ["Irisan", "A ∩ B", "Anggota yang ada di A dan B"],
+              ["Gabungan", "A ∪ B", "Semua anggota A dan B"],
+              ["Selisih", "A - B", "Anggota A yang tidak ada di B"],
+              ["Komplemen", "A'", "Anggota S yang tidak ada di A"]
+            ]},
+            { "type": "heading", "level": 2, "text": "Diagram Venn" },
+            { "type": "text", "text": "Diagram Venn digunakan untuk menggambarkan hubungan antar himpunan secara visual." },
+            { "type": "highlight", "text": "n(A ∪ B) = n(A) + n(B) - n(A ∩ B)" }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Apa itu irisan himpunan?", "answer": "Anggota yang sama-sama ada di kedua himpunan" },
+        { "id": "fc2", "question": "Simbol gabungan himpunan?", "answer": "A ∪ B" },
+        { "id": "fc3", "question": "Rumus n(A ∪ B)?", "answer": "n(A) + n(B) - n(A ∩ B)" },
+        { "id": "fc4", "question": "Apa itu komplemen A?", "answer": "Anggota semesta yang tidak ada di A" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "A = {1,2,3}, B = {2,3,4}. A ∩ B = ?", "options": ["{1,2,3,4}", "{2,3}", "{1,4}", "{}"], "answer": 1 },
+          { "id": "q2", "type": "multiple_choice", "question": "n(A)=10, n(B)=8, n(A∩B)=3. n(A∪B)=?", "options": ["15", "18", "21", "5"], "answer": 0, "explanation": "n(A∪B) = 10 + 8 - 3 = 15" }
+        ]
+      }
+    },
+    {
+      "id": "aritmatika-sosial",
+      "title": "Aritmatika Sosial",
+      "description": "Untung, rugi, diskon, bruto, neto, tara",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "untung-rugi",
+          "title": "Untung, Rugi, dan Persentase",
+          "estMinutes": 10,
+          "content": [
+            { "type": "heading", "text": "Aritmatika Sosial" },
+            { "type": "heading", "level": 2, "text": "Keuntungan dan Kerugian" },
+            { "type": "list", "items": [
+              "Untung = Harga jual - Harga beli (jika HJ > HB)",
+              "Rugi = Harga beli - Harga jual (jika HB > HJ)",
+              "Persentase untung = (Untung/HB) × 100%",
+              "Persentase rugi = (Rugi/HB) × 100%"
+            ]},
+            { "type": "heading", "level": 2, "text": "Diskon dan Pajak" },
+            { "type": "list", "items": [
+              "Diskon = potongan harga",
+              "Harga setelah diskon = Harga awal × (100% - diskon%)",
+              "PPN = Pajak Pertambahan Nilai (biasanya 10% atau 11%)"
+            ]},
+            { "type": "heading", "level": 2, "text": "Bruto, Neto, Tara" },
+            { "type": "table", "headers": ["Istilah", "Pengertian"], "rows": [
+              ["Bruto", "Berat kotor (berat barang + kemasan)"],
+              ["Neto", "Berat bersih (berat barang saja)"],
+              ["Tara", "Berat kemasan"]
+            ]},
+            { "type": "math", "tex": "Bruto = Neto + Tara", "display": true },
+            { "type": "highlight", "text": "Persentase tara = (Tara/Bruto) × 100%" }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Rumus persentase untung?", "answer": "(Untung/Harga beli) × 100%" },
+        { "id": "fc2", "question": "Apa itu neto?", "answer": "Berat bersih (berat barang tanpa kemasan)" },
+        { "id": "fc3", "question": "Bruto = ?", "answer": "Neto + Tara" },
+        { "id": "fc4", "question": "Harga 100.000 diskon 20%, jadi?", "answer": "80.000 (100.000 × 80%)" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Beli Rp50.000, jual Rp60.000. Persentase untung?", "options": ["10%", "20%", "15%", "25%"], "answer": 1, "explanation": "Untung = 10.000, %untung = 10.000/50.000 × 100% = 20%" },
+          { "id": "q2", "type": "multiple_choice", "question": "Bruto 5 kg, tara 500 g. Neto = ?", "options": ["4,5 kg", "5,5 kg", "4 kg", "5 kg"], "answer": 0 }
+        ]
+      }
+    },
+    {
+      "id": "aljabar",
+      "title": "Aljabar",
+      "description": "Bentuk aljabar dan persamaan linear",
+      "bookmarked": true,
+      "lessons": [
+        {
+          "id": "persamaan-linear",
+          "title": "Persamaan Linear",
+          "estMinutes": 12,
+          "content": [
+            { "type": "heading", "text": "Persamaan dan Pertidaksamaan Linear" },
+            { "type": "heading", "level": 2, "text": "PLSV (Satu Variabel)" },
+            { "type": "math", "tex": "ax + b = 0 \\Rightarrow x = -\\frac{b}{a}", "display": true },
+            { "type": "text", "text": "Contoh: 2x + 6 = 0 → x = -3" },
+            { "type": "heading", "level": 2, "text": "SPLDV (Dua Variabel)" },
+            { "type": "text", "text": "Sistem persamaan dengan dua variabel, diselesaikan dengan:" },
+            { "type": "list", "items": [
+              "Metode substitusi: ganti salah satu variabel",
+              "Metode eliminasi: hilangkan salah satu variabel",
+              "Metode grafik: titik potong dua garis"
+            ]},
+            { "type": "heading", "level": 2, "text": "Contoh SPLDV" },
+            { "type": "text", "text": "x + y = 5 dan x - y = 1" },
+            { "type": "text", "text": "Eliminasi: 2x = 6 → x = 3, maka y = 2" },
+            { "type": "highlight", "text": "Periksa jawaban dengan substitusi ke persamaan awal!" }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Bentuk umum PLSV?", "answer": "ax + b = 0, a ≠ 0" },
+        { "id": "fc2", "question": "Solusi 3x - 9 = 0?", "answer": "x = 3" },
+        { "id": "fc3", "question": "Sebutkan 3 metode SPLDV!", "answer": "Substitusi, eliminasi, grafik" },
+        { "id": "fc4", "question": "x + y = 7, x - y = 3. x = ?", "answer": "x = 5 (eliminasi: 2x = 10)" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Solusi dari 2x - 8 = 0?", "options": ["x = 2", "x = 4", "x = -4", "x = 8"], "answer": 1 },
+          { "id": "q2", "type": "multiple_choice", "question": "x + y = 10, x - y = 4. Nilai y?", "options": ["7", "3", "4", "6"], "answer": 1, "explanation": "x = 7, y = 3" }
+        ]
+      }
+    },
+    {
+      "id": "geometri",
+      "title": "Geometri Bangun Datar",
+      "description": "Segitiga, segiempat, dan lingkaran",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "bangun-datar",
+          "title": "Luas dan Keliling Bangun Datar",
+          "estMinutes": 12,
+          "content": [
+            { "type": "heading", "text": "Rumus Bangun Datar" },
+            { "type": "table", "headers": ["Bangun", "Luas", "Keliling"], "rows": [
+              ["Persegi (s)", "s²", "4s"],
+              ["Persegi panjang", "p × l", "2(p + l)"],
+              ["Segitiga", "½ × a × t", "a + b + c"],
+              ["Lingkaran", "πr²", "2πr"],
+              ["Trapesium", "½(a+b) × t", "Jumlah sisi"],
+              ["Jajar genjang", "a × t", "2(a + b)"],
+              ["Belah ketupat", "½ × d₁ × d₂", "4s"],
+              ["Layang-layang", "½ × d₁ × d₂", "Jumlah sisi"]
+            ]},
+            { "type": "heading", "level": 2, "text": "Lingkaran" },
+            { "type": "math", "tex": "L = \\pi r^2 \\quad K = 2\\pi r = \\pi d", "display": true },
+            { "type": "list", "items": [
+              "Busur = bagian keliling lingkaran",
+              "Juring = daerah 'irisan pizza'",
+              "Tembereng = daerah antara busur dan tali busur"
+            ]},
+            { "type": "highlight", "text": "π ≈ 22/7 atau 3,14" }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Luas lingkaran r = 7?", "answer": "154 (22/7 × 49)" },
+        { "id": "fc2", "question": "Keliling persegi s = 5?", "answer": "20 (4 × 5)" },
+        { "id": "fc3", "question": "Luas segitiga a=6, t=8?", "answer": "24 (½ × 6 × 8)" },
+        { "id": "fc4", "question": "Luas trapesium sejajar 5,7 tinggi 4?", "answer": "24 (½(5+7) × 4)" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Luas lingkaran jari-jari 14 cm (π=22/7)?", "options": ["308 cm²", "616 cm²", "154 cm²", "88 cm²"], "answer": 1, "explanation": "L = 22/7 × 14² = 616 cm²" },
+          { "id": "q2", "type": "multiple_choice", "question": "Keliling persegi panjang 8×5?", "options": ["40", "26", "13", "80"], "answer": 1 }
+        ]
+      }
+    },
+    {
+      "id": "bangun-ruang",
+      "title": "Bangun Ruang",
+      "description": "Volume dan luas permukaan bangun ruang",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "volume-luas",
+          "title": "Volume dan Luas Permukaan",
+          "estMinutes": 15,
+          "content": [
+            { "type": "heading", "text": "Bangun Ruang Sisi Datar dan Lengkung" },
+            { "type": "table", "headers": ["Bangun", "Volume", "Luas Permukaan"], "rows": [
+              ["Kubus (s)", "s³", "6s²"],
+              ["Balok (p,l,t)", "p×l×t", "2(pl+pt+lt)"],
+              ["Prisma", "L.alas × t", "2L.alas + L.selimut"],
+              ["Limas", "⅓ L.alas × t", "L.alas + L.sisi tegak"],
+              ["Tabung (r,t)", "πr²t", "2πr(r+t)"],
+              ["Kerucut (r,s)", "⅓πr²t", "πr(r+s)"],
+              ["Bola (r)", "⁴⁄₃πr³", "4πr²"]
+            ]},
+            { "type": "heading", "level": 2, "text": "Hubungan Volume" },
+            { "type": "list", "items": [
+              "Volume kerucut = ⅓ volume tabung",
+              "Volume bola = ⁴⁄₃ volume tabung setengah",
+              "Volume limas = ⅓ volume prisma"
+            ]},
+            { "type": "highlight", "text": "s pada kerucut adalah garis pelukis (bukan tinggi)" }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Volume kubus s = 5?", "answer": "125 (5³)" },
+        { "id": "fc2", "question": "Rumus volume bola?", "answer": "⁴⁄₃πr³" },
+        { "id": "fc3", "question": "Luas permukaan kubus s = 3?", "answer": "54 (6 × 9)" },
+        { "id": "fc4", "question": "Volume tabung r=7, t=10?", "answer": "1540 (22/7 × 49 × 10)" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Volume balok 4×3×5?", "options": ["12", "60", "30", "47"], "answer": 1 },
+          { "id": "q2", "type": "multiple_choice", "question": "Luas permukaan bola r=7 (π=22/7)?", "options": ["154 cm²", "308 cm²", "616 cm²", "1232 cm²"], "answer": 2 }
+        ]
+      }
+    },
+    {
+      "id": "statistika",
+      "title": "Statistika",
+      "description": "Mean, median, modus, dan penyajian data",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "ukuran-pemusatan",
+          "title": "Ukuran Pemusatan Data",
+          "estMinutes": 10,
+          "content": [
+            { "type": "heading", "text": "Ukuran Pemusatan Data" },
+            { "type": "heading", "level": 2, "text": "Mean (Rata-rata)" },
+            { "type": "math", "tex": "\\bar{x} = \\frac{\\sum x_i}{n}", "display": true },
+            { "type": "heading", "level": 2, "text": "Median (Nilai Tengah)" },
+            { "type": "list", "items": [
+              "Data ganjil: nilai tengah setelah diurutkan",
+              "Data genap: rata-rata dua nilai tengah"
+            ]},
+            { "type": "heading", "level": 2, "text": "Modus (Nilai Terbanyak)" },
+            { "type": "text", "text": "Nilai yang paling sering muncul dalam data." },
+            { "type": "heading", "level": 2, "text": "Contoh" },
+            { "type": "text", "text": "Data: 5, 7, 7, 8, 9, 10" },
+            { "type": "list", "items": [
+              "Mean = (5+7+7+8+9+10)/6 = 46/6 ≈ 7,67",
+              "Median = (7+8)/2 = 7,5",
+              "Modus = 7 (muncul 2 kali)"
+            ]},
+            { "type": "heading", "level": 2, "text": "Penyajian Data" },
+            { "type": "list", "items": [
+              "Diagram batang: membandingkan kategori",
+              "Diagram garis: menunjukkan perubahan",
+              "Diagram lingkaran: menunjukkan proporsi"
+            ]}
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Rumus mean?", "answer": "Jumlah data ÷ banyak data" },
+        { "id": "fc2", "question": "Apa itu modus?", "answer": "Nilai yang paling sering muncul" },
+        { "id": "fc3", "question": "Median data 3,5,7,9,11?", "answer": "7 (nilai tengah)" },
+        { "id": "fc4", "question": "Diagram untuk proporsi?", "answer": "Diagram lingkaran (pie chart)" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Mean dari 4, 6, 8, 10, 12?", "options": ["6", "8", "10", "40"], "answer": 1, "explanation": "Mean = 40/5 = 8" },
+          { "id": "q2", "type": "multiple_choice", "question": "Modus dari 2,3,3,4,5,5,5,6?", "options": ["2", "3", "5", "6"], "answer": 2 }
+        ]
+      }
+    },
+    {
+      "id": "peluang",
+      "title": "Peluang",
+      "description": "Peluang kejadian dan frekuensi harapan",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "peluang-dasar",
+          "title": "Konsep Peluang",
+          "estMinutes": 8,
+          "content": [
+            { "type": "heading", "text": "Peluang Kejadian" },
+            { "type": "math", "tex": "P(A) = \\frac{n(A)}{n(S)}", "display": true },
+            { "type": "text", "text": "P(A) = peluang kejadian A, n(A) = banyak kejadian A, n(S) = banyak ruang sampel" },
+            { "type": "heading", "level": 2, "text": "Sifat Peluang" },
+            { "type": "list", "items": [
+              "0 ≤ P(A) ≤ 1",
+              "P(A) = 0 → kejadian mustahil",
+              "P(A) = 1 → kejadian pasti",
+              "P(A) + P(A') = 1"
+            ]},
+            { "type": "heading", "level": 2, "text": "Frekuensi Harapan" },
+            { "type": "math", "tex": "F_h = n \\times P(A)", "display": true },
+            { "type": "text", "text": "n = banyak percobaan" },
+            { "type": "highlight", "text": "Contoh: Peluang dadu muncul 6 = 1/6. Jika dilempar 60 kali, frekuensi harapan = 60 × 1/6 = 10 kali." }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Rumus peluang?", "answer": "P(A) = n(A)/n(S)" },
+        { "id": "fc2", "question": "Peluang dadu muncul genap?", "answer": "3/6 = 1/2 (ada 3 angka genap)" },
+        { "id": "fc3", "question": "Rumus frekuensi harapan?", "answer": "Fh = n × P(A)" },
+        { "id": "fc4", "question": "Nilai peluang selalu antara?", "answer": "0 sampai 1" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Peluang koin muncul angka?", "options": ["1/4", "1/3", "1/2", "1"], "answer": 2 },
+          { "id": "q2", "type": "multiple_choice", "question": "Dadu dilempar 120 kali, frekuensi harapan muncul 5?", "options": ["10", "20", "30", "60"], "answer": 1, "explanation": "Fh = 120 × 1/6 = 20" }
+        ]
+      }
+    }
+  ]
+}

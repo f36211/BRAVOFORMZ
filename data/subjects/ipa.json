@@ -1,0 +1,404 @@
+{
+  "id": "ipa",
+  "name": "IPA Terpadu",
+  "description": "Ilmu Pengetahuan Alam — fisika, biologi, kimia",
+  "grade": [7, 8, 9],
+  "icon": "Atom",
+  "color": "soft",
+  "topics": [
+    {
+      "id": "karakteristik-zat",
+      "title": "Karakteristik Zat",
+      "description": "Sifat dan karakteristik zat padat, cair, dan gas",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "sifat-zat",
+          "title": "Sifat dan Karakteristik Zat",
+          "estMinutes": 8,
+          "content": [
+            { "type": "heading", "text": "Karakteristik Zat" },
+            { "type": "text", "text": "Zat adalah segala sesuatu yang memiliki massa dan menempati ruang. Zat dapat diklasifikasikan berdasarkan wujudnya menjadi padat, cair, dan gas." },
+            { "type": "heading", "level": 2, "text": "Partikel Penyusun Zat" },
+            { "type": "table", "headers": ["Wujud", "Susunan Partikel", "Gerakan", "Jarak Antar Partikel"], "rows": [
+              ["Padat (Solid)", "Teratur rapat", "Bergetar di tempat", "Sangat dekat"],
+              ["Cair (Liquid)", "Tidak teratur", "Bergerak bebas terbatas", "Dekat"],
+              ["Gas", "Sangat tidak teratur", "Bergerak bebas ke segala arah", "Sangat jauh"]
+            ]},
+            { "type": "heading", "level": 2, "text": "Perubahan Wujud Zat" },
+            { "type": "list", "items": [
+              "Mencair: padat → cair (es mencair)",
+              "Membeku: cair → padat (air menjadi es)",
+              "Menguap: cair → gas (air mendidih)",
+              "Mengembun: gas → cair (embun pagi)",
+              "Menyublim: padat → gas (kapur barus)",
+              "Mengkristal: gas → padat (salju)"
+            ]},
+            { "type": "highlight", "text": "Segitiga perubahan zat: Padat ↔ Cair ↔ Gas" }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Sebutkan 3 wujud zat!", "answer": "Padat, cair, dan gas" },
+        { "id": "fc2", "question": "Apa yang dimaksud menyublim?", "answer": "Perubahan wujud dari padat langsung menjadi gas" },
+        { "id": "fc3", "question": "Contoh proses mengkristal?", "answer": "Pembentukan salju dari uap air" },
+        { "id": "fc4", "question": "Bagaimana susunan partikel zat padat?", "answer": "Teratur dan rapat, hanya bergetar di tempat" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Perubahan wujud dari cair menjadi gas disebut?", "options": ["Mencair", "Membeku", "Menguap", "Menyublim"], "answer": 2 },
+          { "id": "q2", "type": "multiple_choice", "question": "Contoh zat yang dapat menyublim adalah?", "options": ["Es batu", "Air", "Kapur barus", "Minyak"], "answer": 2, "explanation": "Kapur barus (kamfer) dapat berubah dari padat langsung menjadi gas tanpa mencair terlebih dahulu." }
+        ]
+      }
+    },
+    {
+      "id": "gaya-newton",
+      "title": "Hukum Newton",
+      "description": "Hukum Newton 1, 2, 3 dan aplikasinya",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "hukum-newton",
+          "title": "Tiga Hukum Newton",
+          "estMinutes": 12,
+          "content": [
+            { "type": "heading", "text": "Hukum Newton tentang Gerak" },
+            { "type": "heading", "level": 2, "text": "Hukum Newton I (Inersia)" },
+            { "type": "text", "text": "Setiap benda akan tetap diam atau bergerak lurus beraturan jika tidak ada gaya yang bekerja padanya (resultan gaya = 0)." },
+            { "type": "highlight", "text": "Contoh: Penumpang terdorong ke depan saat bus direm mendadak" },
+            { "type": "heading", "level": 2, "text": "Hukum Newton II" },
+            { "type": "math", "tex": "F = m \\times a", "display": true },
+            { "type": "text", "text": "Percepatan berbanding lurus dengan gaya dan berbanding terbalik dengan massa. Satuan gaya adalah Newton (N)." },
+            { "type": "heading", "level": 2, "text": "Hukum Newton III (Aksi-Reaksi)" },
+            { "type": "text", "text": "Setiap aksi selalu ada reaksi yang sama besar tetapi berlawanan arah." },
+            { "type": "list", "items": [
+              "Mendorong tembok → tembok mendorong balik",
+              "Roket meluncur → gas terdorong ke bawah",
+              "Berenang → air didorong ke belakang"
+            ]},
+            { "type": "heading", "level": 2, "text": "GLB dan GLBB" },
+            { "type": "table", "headers": ["Jenis Gerak", "Kecepatan", "Percepatan"], "rows": [
+              ["GLB (Gerak Lurus Beraturan)", "Konstan", "0"],
+              ["GLBB (Gerak Lurus Berubah Beraturan)", "Berubah teratur", "Konstan"]
+            ]}
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Rumus Hukum Newton II?", "answer": "F = m × a" },
+        { "id": "fc2", "question": "Apa yang dimaksud inersia?", "answer": "Kecenderungan benda mempertahankan keadaan geraknya" },
+        { "id": "fc3", "question": "Contoh Hukum Newton III?", "answer": "Roket meluncur ke atas, gas terdorong ke bawah" },
+        { "id": "fc4", "question": "Apa perbedaan GLB dan GLBB?", "answer": "GLB: kecepatan konstan; GLBB: kecepatan berubah teratur" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Benda bermassa 5 kg diberi gaya 20 N. Berapakah percepatannya?", "options": ["2 m/s²", "4 m/s²", "25 m/s²", "100 m/s²"], "answer": 1, "explanation": "a = F/m = 20/5 = 4 m/s²" },
+          { "id": "q2", "type": "multiple_choice", "question": "Hukum Newton I juga disebut hukum?", "options": ["Aksi-reaksi", "Kelembaman", "Gravitasi", "Kekekalan energi"], "answer": 1 }
+        ]
+      }
+    },
+    {
+      "id": "pengukuran",
+      "title": "Pengukuran",
+      "description": "Besaran, satuan, dan alat ukur",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "besaran-satuan",
+          "title": "Besaran Pokok dan Turunan",
+          "estMinutes": 10,
+          "content": [
+            { "type": "heading", "text": "Besaran dan Satuan" },
+            { "type": "heading", "level": 2, "text": "7 Besaran Pokok SI" },
+            { "type": "table", "headers": ["Besaran", "Satuan SI", "Simbol"], "rows": [
+              ["Panjang", "meter", "m"],
+              ["Massa", "kilogram", "kg"],
+              ["Waktu", "sekon", "s"],
+              ["Suhu", "kelvin", "K"],
+              ["Kuat arus listrik", "ampere", "A"],
+              ["Intensitas cahaya", "kandela", "cd"],
+              ["Jumlah zat", "mol", "mol"]
+            ]},
+            { "type": "heading", "level": 2, "text": "Besaran Turunan" },
+            { "type": "list", "items": [
+              "Luas = panjang × panjang (m²)",
+              "Volume = panjang × panjang × panjang (m³)",
+              "Kecepatan = jarak / waktu (m/s)",
+              "Gaya = massa × percepatan (Newton)"
+            ]},
+            { "type": "heading", "level": 2, "text": "Alat Ukur Panjang" },
+            { "type": "table", "headers": ["Alat", "Ketelitian", "Kegunaan"], "rows": [
+              ["Mistar", "0,5 mm", "Panjang umum"],
+              ["Jangka sorong", "0,1 mm", "Diameter dalam/luar"],
+              ["Mikrometer sekrup", "0,01 mm", "Ketebalan tipis"]
+            ]},
+            { "type": "highlight", "text": "Membaca jangka sorong: Skala utama + (skala nonius × 0,1 mm)" }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Sebutkan 7 besaran pokok!", "answer": "Panjang, massa, waktu, suhu, kuat arus, intensitas cahaya, jumlah zat" },
+        { "id": "fc2", "question": "Ketelitian mikrometer sekrup?", "answer": "0,01 mm" },
+        { "id": "fc3", "question": "Satuan SI untuk massa?", "answer": "Kilogram (kg)" },
+        { "id": "fc4", "question": "Contoh besaran turunan?", "answer": "Luas, volume, kecepatan, gaya" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Ketelitian jangka sorong adalah?", "options": ["0,5 mm", "0,1 mm", "0,01 mm", "1 mm"], "answer": 1 },
+          { "id": "q2", "type": "multiple_choice", "question": "Mana yang termasuk besaran pokok?", "options": ["Luas", "Kecepatan", "Waktu", "Gaya"], "answer": 2 }
+        ]
+      }
+    },
+    {
+      "id": "suhu-kalor",
+      "title": "Suhu dan Kalor",
+      "description": "Konversi suhu dan perpindahan kalor",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "suhu-konversi",
+          "title": "Suhu dan Perpindahan Kalor",
+          "estMinutes": 10,
+          "content": [
+            { "type": "heading", "text": "Suhu dan Kalor" },
+            { "type": "heading", "level": 2, "text": "Konversi Suhu" },
+            { "type": "table", "headers": ["Dari", "Ke Celsius", "Ke Fahrenheit", "Ke Kelvin"], "rows": [
+              ["Celsius (°C)", "-", "°F = (9/5)°C + 32", "K = °C + 273"],
+              ["Fahrenheit (°F)", "°C = (5/9)(°F - 32)", "-", "K = (5/9)(°F - 32) + 273"],
+              ["Kelvin (K)", "°C = K - 273", "°F = (9/5)(K - 273) + 32", "-"]
+            ]},
+            { "type": "heading", "level": 2, "text": "Perpindahan Kalor" },
+            { "type": "list", "items": [
+              "Konduksi: melalui zat perantara tanpa perpindahan partikel (logam panas)",
+              "Konveksi: melalui aliran zat (angin darat/laut)",
+              "Radiasi: tanpa zat perantara (panas matahari)"
+            ]},
+            { "type": "heading", "level": 2, "text": "Konduktor dan Isolator" },
+            { "type": "table", "headers": ["Konduktor (penghantar baik)", "Isolator (penghantar buruk)"], "rows": [
+              ["Logam (besi, tembaga, aluminium)", "Kayu, plastik, karet"],
+              ["Air", "Udara, gabus, wol"]
+            ]},
+            { "type": "highlight", "text": "Kalor berpindah dari suhu tinggi ke suhu rendah." }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Rumus Celsius ke Fahrenheit?", "answer": "°F = (9/5)°C + 32" },
+        { "id": "fc2", "question": "Apa itu konduksi?", "answer": "Perpindahan kalor melalui zat perantara tanpa perpindahan partikel" },
+        { "id": "fc3", "question": "Contoh konduktor kalor?", "answer": "Logam seperti besi, tembaga, aluminium" },
+        { "id": "fc4", "question": "Perpindahan kalor tanpa perantara disebut?", "answer": "Radiasi" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Suhu 100°C sama dengan?", "options": ["212°F", "180°F", "32°F", "373°F"], "answer": 0, "explanation": "°F = (9/5)(100) + 32 = 180 + 32 = 212°F" },
+          { "id": "q2", "type": "multiple_choice", "question": "Perpindahan kalor melalui aliran zat disebut?", "options": ["Konduksi", "Konveksi", "Radiasi", "Isolasi"], "answer": 1 }
+        ]
+      }
+    },
+    {
+      "id": "sel",
+      "title": "Sel",
+      "description": "Unit terkecil penyusun makhluk hidup",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "struktur-sel",
+          "title": "Struktur dan Fungsi Sel",
+          "estMinutes": 12,
+          "content": [
+            { "type": "heading", "text": "Sel sebagai Unit Terkecil Kehidupan" },
+            { "type": "text", "text": "Sel adalah unit struktural dan fungsional terkecil dari makhluk hidup. Semua makhluk hidup tersusun dari sel." },
+            { "type": "heading", "level": 2, "text": "Organel Sel dan Fungsinya" },
+            { "type": "table", "headers": ["Organel", "Fungsi"], "rows": [
+              ["Membran sel", "Melindungi sel, mengatur keluar masuk zat"],
+              ["Inti sel (nukleus)", "Pusat pengendali aktivitas sel, menyimpan DNA"],
+              ["Sitoplasma", "Tempat berlangsungnya reaksi kimia"],
+              ["Mitokondria", "Penghasil energi (respirasi sel)"],
+              ["Ribosom", "Sintesis protein"],
+              ["Retikulum endoplasma", "Transportasi zat dalam sel"],
+              ["Badan Golgi", "Sekresi dan pengemasan zat"],
+              ["Lisosom", "Pencernaan intraseluler"],
+              ["Vakuola", "Penyimpanan makanan dan air"],
+              ["Kloroplas", "Fotosintesis (hanya pada tumbuhan)"],
+              ["Dinding sel", "Melindungi dan memperkuat sel (hanya tumbuhan)"]
+            ]},
+            { "type": "heading", "level": 2, "text": "Perbedaan Sel Hewan dan Tumbuhan" },
+            { "type": "list", "items": [
+              "Sel tumbuhan: punya dinding sel, kloroplas, vakuola besar",
+              "Sel hewan: tidak punya dinding sel, tidak punya kloroplas, vakuola kecil/tidak ada"
+            ]},
+            { "type": "highlight", "text": "Mitokondria = 'pembangkit listrik' sel karena menghasilkan ATP (energi)." }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Fungsi mitokondria?", "answer": "Menghasilkan energi (ATP) melalui respirasi sel" },
+        { "id": "fc2", "question": "Organel untuk fotosintesis?", "answer": "Kloroplas" },
+        { "id": "fc3", "question": "Apa fungsi ribosom?", "answer": "Sintesis protein" },
+        { "id": "fc4", "question": "Perbedaan utama sel hewan dan tumbuhan?", "answer": "Sel tumbuhan punya dinding sel dan kloroplas, sel hewan tidak" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Organel yang berfungsi sebagai pusat pengendali sel adalah?", "options": ["Mitokondria", "Ribosom", "Nukleus", "Vakuola"], "answer": 2 },
+          { "id": "q2", "type": "multiple_choice", "question": "Organel yang hanya dimiliki sel tumbuhan adalah?", "options": ["Mitokondria", "Kloroplas", "Ribosom", "Nukleus"], "answer": 1 }
+        ]
+      }
+    },
+    {
+      "id": "sistem-pencernaan",
+      "title": "Sistem Pencernaan",
+      "description": "Organ dan enzim pencernaan manusia",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "organ-pencernaan",
+          "title": "Organ dan Enzim Pencernaan",
+          "estMinutes": 12,
+          "content": [
+            { "type": "heading", "text": "Sistem Pencernaan Manusia" },
+            { "type": "heading", "level": 2, "text": "Urutan Organ Pencernaan" },
+            { "type": "list", "ordered": true, "items": [
+              "Mulut: pencernaan mekanis (gigi) dan kimiawi (amilase)",
+              "Kerongkongan (esofagus): gerak peristaltik",
+              "Lambung: pepsin mencerna protein",
+              "Usus halus: penyerapan sari makanan",
+              "Usus besar: penyerapan air",
+              "Anus: pembuangan sisa makanan"
+            ]},
+            { "type": "heading", "level": 2, "text": "Enzim Pencernaan" },
+            { "type": "table", "headers": ["Enzim", "Organ", "Fungsi"], "rows": [
+              ["Amilase (ptialin)", "Mulut", "Memecah amilum menjadi maltosa"],
+              ["Pepsin", "Lambung", "Memecah protein menjadi pepton"],
+              ["Lipase", "Pankreas", "Memecah lemak menjadi asam lemak"],
+              ["Tripsin", "Pankreas", "Memecah protein menjadi asam amino"],
+              ["Maltase", "Usus halus", "Memecah maltosa menjadi glukosa"]
+            ]},
+            { "type": "heading", "level": 2, "text": "Gangguan Pencernaan" },
+            { "type": "list", "items": [
+              "Maag (gastritis): peradangan lambung",
+              "Diare: feses terlalu cair",
+              "Konstipasi (sembelit): sulit buang air besar",
+              "Apendisitis: radang usus buntu"
+            ]}
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Enzim di mulut yang memecah amilum?", "answer": "Amilase (ptialin)" },
+        { "id": "fc2", "question": "Fungsi pepsin?", "answer": "Memecah protein menjadi pepton di lambung" },
+        { "id": "fc3", "question": "Di mana penyerapan sari makanan terjadi?", "answer": "Usus halus" },
+        { "id": "fc4", "question": "Apa itu gerak peristaltik?", "answer": "Gerakan otot saluran pencernaan untuk mendorong makanan" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Enzim pepsin bekerja di organ?", "options": ["Mulut", "Lambung", "Usus halus", "Pankreas"], "answer": 1 },
+          { "id": "q2", "type": "multiple_choice", "question": "Organ yang menyerap air adalah?", "options": ["Lambung", "Usus halus", "Usus besar", "Kerongkongan"], "answer": 2 }
+        ]
+      }
+    },
+    {
+      "id": "listrik",
+      "title": "Listrik Statis dan Dinamis",
+      "description": "Gejala kelistrikan dan rangkaian listrik",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "listrik-statis-dinamis",
+          "title": "Listrik Statis dan Dinamis",
+          "estMinutes": 15,
+          "content": [
+            { "type": "heading", "text": "Listrik Statis" },
+            { "type": "text", "text": "Listrik statis adalah listrik yang tidak mengalir (muatan diam). Terjadi akibat perpindahan elektron." },
+            { "type": "list", "items": [
+              "Muatan sejenis tolak-menolak",
+              "Muatan berbeda tarik-menarik",
+              "Contoh: petir, rambut berdiri saat disisir"
+            ]},
+            { "type": "heading", "level": 2, "text": "Hukum Coulomb" },
+            { "type": "math", "tex": "F = k \\frac{q_1 \\cdot q_2}{r^2}", "display": true },
+            { "type": "text", "text": "F = gaya Coulomb (N), k = 9×10⁹ Nm²/C², q = muatan (C), r = jarak (m)" },
+            { "type": "heading", "text": "Listrik Dinamis" },
+            { "type": "text", "text": "Listrik dinamis adalah listrik yang mengalir (arus listrik)." },
+            { "type": "heading", "level": 2, "text": "Hukum Ohm" },
+            { "type": "math", "tex": "V = I \\times R", "display": true },
+            { "type": "text", "text": "V = tegangan (Volt), I = arus (Ampere), R = hambatan (Ohm)" },
+            { "type": "heading", "level": 2, "text": "Rangkaian Listrik" },
+            { "type": "table", "headers": ["Jenis", "Hambatan Total", "Ciri"], "rows": [
+              ["Seri", "R_total = R₁ + R₂ + ...", "Arus sama, tegangan berbagi"],
+              ["Paralel", "1/R_total = 1/R₁ + 1/R₂ + ...", "Tegangan sama, arus berbagi"]
+            ]},
+            { "type": "heading", "level": 2, "text": "Daya dan Energi Listrik" },
+            { "type": "math", "tex": "P = V \\times I = I^2 \\times R = \\frac{V^2}{R}", "display": true },
+            { "type": "math", "tex": "W = P \\times t", "display": true },
+            { "type": "highlight", "text": "Biaya listrik = kWh × tarif per kWh" }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Rumus Hukum Ohm?", "answer": "V = I × R" },
+        { "id": "fc2", "question": "Rumus daya listrik?", "answer": "P = V × I" },
+        { "id": "fc3", "question": "Hambatan total rangkaian seri?", "answer": "R_total = R₁ + R₂ + R₃ + ..." },
+        { "id": "fc4", "question": "Apa yang dimaksud listrik statis?", "answer": "Listrik yang tidak mengalir (muatan diam)" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Tegangan 12V, arus 2A. Berapakah hambatannya?", "options": ["6 Ohm", "24 Ohm", "10 Ohm", "14 Ohm"], "answer": 0, "explanation": "R = V/I = 12/2 = 6 Ohm" },
+          { "id": "q2", "type": "multiple_choice", "question": "Muatan sejenis akan?", "options": ["Tarik-menarik", "Tolak-menolak", "Netral", "Tidak berpengaruh"], "answer": 1 }
+        ]
+      }
+    },
+    {
+      "id": "genetika",
+      "title": "Genetika (Pewarisan Sifat)",
+      "description": "Hukum Mendel dan persilangan",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "pewarisan-sifat",
+          "title": "Pewarisan Sifat",
+          "estMinutes": 12,
+          "content": [
+            { "type": "heading", "text": "Genetika dan Pewarisan Sifat" },
+            { "type": "heading", "level": 2, "text": "Istilah Penting" },
+            { "type": "list", "items": [
+              "Gen: unit pewarisan sifat pada kromosom",
+              "Alel: variasi dari suatu gen (dominan/resesif)",
+              "Genotipe: susunan gen (Aa, AA, aa)",
+              "Fenotipe: sifat yang tampak (tinggi, pendek)",
+              "Homozigot: alel sama (AA atau aa)",
+              "Heterozigot: alel berbeda (Aa)"
+            ]},
+            { "type": "heading", "level": 2, "text": "Persilangan Monohibrid" },
+            { "type": "text", "text": "Persilangan dengan satu sifat beda. Contoh: Aa × Aa" },
+            { "type": "table", "headers": ["", "A", "a"], "rows": [
+              ["A", "AA", "Aa"],
+              ["a", "Aa", "aa"]
+            ]},
+            { "type": "text", "text": "Hasil: AA : Aa : aa = 1 : 2 : 1 (genotipe)" },
+            { "type": "text", "text": "Fenotipe: Dominan : Resesif = 3 : 1" },
+            { "type": "heading", "level": 2, "text": "Golongan Darah" },
+            { "type": "table", "headers": ["Golongan", "Genotipe"], "rows": [
+              ["A", "I^A I^A atau I^A i"],
+              ["B", "I^B I^B atau I^B i"],
+              ["AB", "I^A I^B"],
+              ["O", "ii"]
+            ]},
+            { "type": "highlight", "text": "Golongan darah O bersifat resesif terhadap A dan B." }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Apa perbedaan genotipe dan fenotipe?", "answer": "Genotipe = susunan gen; Fenotipe = sifat yang tampak" },
+        { "id": "fc2", "question": "Rasio fenotipe persilangan Aa × Aa?", "answer": "3 : 1 (dominan : resesif)" },
+        { "id": "fc3", "question": "Genotipe golongan darah AB?", "answer": "I^A I^B" },
+        { "id": "fc4", "question": "Apa itu heterozigot?", "answer": "Individu dengan dua alel berbeda (contoh: Aa)" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Persilangan Aa × Aa menghasilkan rasio genotipe?", "options": ["1:1", "1:2:1", "3:1", "9:3:3:1"], "answer": 1 },
+          { "id": "q2", "type": "multiple_choice", "question": "Golongan darah O memiliki genotipe?", "options": ["I^A I^A", "I^B I^B", "I^A I^B", "ii"], "answer": 3 }
+        ]
+      }
+    }
+  ]
+}

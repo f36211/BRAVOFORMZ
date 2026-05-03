@@ -1,0 +1,143 @@
+{
+  "id": "bahasa-inggris",
+  "name": "Bahasa Inggris",
+  "description": "Grammar, vocabulary, dan keterampilan komunikasi",
+  "grade": [7, 8, 9],
+  "icon": "Languages",
+  "color": "neutral",
+  "topics": [
+    {
+      "id": "tenses",
+      "title": "Tenses Dasar",
+      "description": "Simple Present, Past, dan Future",
+      "bookmarked": true,
+      "lessons": [
+        {
+          "id": "simple-present",
+          "title": "Simple Present Tense",
+          "estMinutes": 8,
+          "content": [
+            { "type": "heading", "text": "Simple Present Tense" },
+            {
+              "type": "text",
+              "text": "Simple Present Tense digunakan untuk menyatakan kebiasaan, fakta umum, atau kebenaran yang berlaku saat ini."
+            },
+            { "type": "heading", "level": 2, "text": "Rumus" },
+            {
+              "type": "table",
+              "headers": ["Bentuk", "Pola"],
+              "rows": [
+                ["(+) Positif", "S + V1 (s/es) + O"],
+                ["(-) Negatif", "S + do/does + not + V1 + O"],
+                ["(?) Tanya", "Do/Does + S + V1 + O?"]
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Contoh" },
+            {
+              "type": "list",
+              "items": [
+                "She reads a book every night.",
+                "They do not play football on Sunday.",
+                "Does he speak English?",
+                "The sun rises in the east."
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Time Signal" },
+            {
+              "type": "list",
+              "items": [
+                "every day / week / month",
+                "always, usually, often, sometimes, never",
+                "on Mondays, on weekends"
+              ]
+            },
+            { "type": "highlight", "text": "Untuk subjek He / She / It → tambahkan -s atau -es pada kata kerja." }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Pola Simple Present positif?", "answer": "S + V1(s/es) + O" },
+        { "id": "fc2", "question": "Bentuk negatif dari 'She likes tea'?", "answer": "She does not like tea." },
+        { "id": "fc3", "question": "Apa time signal Simple Present?", "answer": "every day, always, usually, often" },
+        { "id": "fc4", "question": "Subjek apa yang pakai -s/-es?", "answer": "He, She, It" }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Choose the correct sentence:",
+            "options": [
+              "He go to school every day.",
+              "He goes to school every day.",
+              "He going to school every day.",
+              "He gone to school every day."
+            ],
+            "answer": 1,
+            "explanation": "Subjek 'He' → kata kerja 'go' menjadi 'goes' (tambah -es)."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Negative form: 'They play tennis.'",
+            "options": [
+              "They not play tennis.",
+              "They does not play tennis.",
+              "They do not play tennis.",
+              "They no play tennis."
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "greetings",
+      "title": "Greetings & Introductions",
+      "description": "Sapaan dan perkenalan diri",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "common-greetings",
+          "title": "Common Greetings",
+          "estMinutes": 4,
+          "content": [
+            { "type": "heading", "text": "Greetings & Introductions" },
+            {
+              "type": "table",
+              "headers": ["English", "Indonesian", "Used When"],
+              "rows": [
+                ["Good morning", "Selamat pagi", "00:00 – 12:00"],
+                ["Good afternoon", "Selamat siang", "12:00 – 18:00"],
+                ["Good evening", "Selamat malam", "18:00 – 00:00"],
+                ["How are you?", "Apa kabar?", "Sapaan umum"],
+                ["Nice to meet you", "Senang berkenalan", "Pertemuan pertama"]
+              ]
+            },
+            {
+              "type": "quote",
+              "text": "A: Hi, I'm Rina. Nice to meet you.\nB: Hi Rina, I'm Aldo. Nice to meet you too.",
+              "translation": "Contoh percakapan perkenalan."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Translate: Good afternoon", "answer": "Selamat siang" },
+        { "id": "fc2", "question": "Translate: Apa kabar?", "answer": "How are you?" },
+        { "id": "fc3", "question": "Reply to 'Nice to meet you'?", "answer": "Nice to meet you too." }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Which greeting is used at 7 PM?",
+            "options": ["Good morning", "Good afternoon", "Good evening", "Good night"],
+            "answer": 2
+          }
+        ]
+      }
+    }
+  ]
+}

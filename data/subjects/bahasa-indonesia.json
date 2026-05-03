@@ -1,0 +1,338 @@
+{
+  "id": "bahasa-indonesia",
+  "name": "Bahasa Indonesia",
+  "description": "Tata bahasa, sastra, dan keterampilan berbahasa",
+  "grade": [7, 8, 9],
+  "icon": "BookText",
+  "color": "neutral",
+  "topics": [
+    {
+      "id": "jenis-paragraf",
+      "title": "Jenis-Jenis Paragraf",
+      "description": "Deduktif, induktif, campuran, dan ineratif",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "struktur-paragraf",
+          "title": "Struktur dan Jenis Paragraf",
+          "estMinutes": 10,
+          "content": [
+            { "type": "heading", "text": "Jenis-Jenis Paragraf" },
+            { "type": "table", "headers": ["Jenis Paragraf", "Letak Kalimat Utama", "Ciri"], "rows": [
+              ["Deduktif", "Awal paragraf", "Umum → khusus"],
+              ["Induktif", "Akhir paragraf", "Khusus → umum"],
+              ["Campuran", "Awal dan akhir", "Kalimat utama diulang"],
+              ["Ineratif", "Tengah paragraf", "Kalimat penjelas di awal dan akhir"]
+            ]},
+            { "type": "heading", "level": 2, "text": "Kalimat Utama dan Penjelas" },
+            { "type": "list", "items": [
+              "Kalimat utama: memuat gagasan utama/ide pokok",
+              "Kalimat penjelas: mendukung dan memperjelas kalimat utama",
+              "Gagasan utama = ide pokok = pikiran utama"
+            ]},
+            { "type": "heading", "level": 2, "text": "Koherensi Paragraf" },
+            { "type": "text", "text": "Paragraf yang baik harus koherensi, artinya kalimat-kalimat saling berkaitan dan tidak ada yang menyimpang dari topik." },
+            { "type": "highlight", "text": "Cara menentukan gagasan utama: cari kalimat yang bisa merangkum seluruh paragraf." }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Letak kalimat utama paragraf deduktif?", "answer": "Di awal paragraf" },
+        { "id": "fc2", "question": "Ciri paragraf induktif?", "answer": "Kalimat utama di akhir, pola khusus ke umum" },
+        { "id": "fc3", "question": "Apa itu koherensi paragraf?", "answer": "Kalimat-kalimat saling berkaitan dan tidak menyimpang dari topik" },
+        { "id": "fc4", "question": "Paragraf dengan kalimat utama di tengah?", "answer": "Paragraf ineratif" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Paragraf dengan kalimat utama di awal dan akhir adalah?", "options": ["Deduktif", "Induktif", "Campuran", "Ineratif"], "answer": 2 },
+          { "id": "q2", "type": "multiple_choice", "question": "Pola paragraf deduktif adalah?", "options": ["Khusus → umum", "Umum → khusus", "Khusus → khusus", "Umum → umum"], "answer": 1 }
+        ]
+      }
+    },
+    {
+      "id": "konjungsi",
+      "title": "Konjungsi",
+      "description": "Kata penghubung dalam kalimat",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "jenis-konjungsi",
+          "title": "Konjungsi Intra dan Antar Kalimat",
+          "estMinutes": 8,
+          "content": [
+            { "type": "heading", "text": "Konjungsi (Kata Penghubung)" },
+            { "type": "heading", "level": 2, "text": "Konjungsi Intra Kalimat" },
+            { "type": "text", "text": "Menghubungkan kata, frasa, atau klausa dalam satu kalimat." },
+            { "type": "list", "items": [
+              "dan, atau, tetapi, melainkan",
+              "karena, sebab, sehingga, agar",
+              "jika, apabila, bila, kalau",
+              "ketika, saat, sebelum, sesudah"
+            ]},
+            { "type": "heading", "level": 2, "text": "Konjungsi Antar Kalimat" },
+            { "type": "text", "text": "Menghubungkan kalimat satu dengan kalimat lainnya. Biasanya terletak di awal kalimat." },
+            { "type": "list", "items": [
+              "Bahkan, namun, akan tetapi",
+              "Oleh karena itu, dengan demikian",
+              "Selain itu, di samping itu",
+              "Setelah itu, kemudian, lalu"
+            ]},
+            { "type": "highlight", "text": "Konjungsi antar kalimat diikuti tanda koma." }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Contoh konjungsi intra kalimat?", "answer": "dan, atau, tetapi, karena" },
+        { "id": "fc2", "question": "Contoh konjungsi antar kalimat?", "answer": "Bahkan, namun, oleh karena itu" },
+        { "id": "fc3", "question": "Posisi konjungsi antar kalimat?", "answer": "Di awal kalimat" },
+        { "id": "fc4", "question": "'Sehingga' termasuk konjungsi?", "answer": "Konjungsi intra kalimat (sebab-akibat)" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Yang termasuk konjungsi antar kalimat adalah?", "options": ["dan", "tetapi", "bahkan", "karena"], "answer": 2 },
+          { "id": "q2", "type": "multiple_choice", "question": "'Dia rajin belajar sehingga lulus ujian.' Konjungsi 'sehingga' menunjukkan?", "options": ["Pertentangan", "Sebab-akibat", "Pilihan", "Waktu"], "answer": 1 }
+        ]
+      }
+    },
+    {
+      "id": "teks-prosedur",
+      "title": "Teks Prosedur",
+      "description": "Struktur dan ciri kebahasaan teks prosedur",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "struktur-prosedur",
+          "title": "Struktur Teks Prosedur",
+          "estMinutes": 8,
+          "content": [
+            { "type": "heading", "text": "Teks Prosedur" },
+            { "type": "text", "text": "Teks prosedur adalah teks yang menjelaskan langkah-langkah melakukan sesuatu secara berurutan." },
+            { "type": "heading", "level": 2, "text": "Struktur Teks Prosedur" },
+            { "type": "list", "ordered": true, "items": [
+              "Tujuan — apa yang akan dicapai",
+              "Bahan dan alat — apa yang dibutuhkan",
+              "Langkah-langkah — urutan kerja (berurutan!)",
+              "Penutup — hasil akhir"
+            ]},
+            { "type": "heading", "level": 2, "text": "Ciri Kebahasaan" },
+            { "type": "list", "items": [
+              "Kalimat perintah (imperatif): Campurkan, aduk, potong",
+              "Kata penghubung urutan: pertama, kemudian, selanjutnya, terakhir",
+              "Kata kerja aktif: menanam, mencuci, menggoreng",
+              "Keterangan alat: dengan sendok, menggunakan pisau"
+            ]},
+            { "type": "heading", "level": 2, "text": "Contoh Judul" },
+            { "type": "list", "items": [
+              "Cara Membuat Nasi Goreng",
+              "Langkah-langkah Menanam Cabai",
+              "Panduan Menggunakan Aplikasi"
+            ]},
+            { "type": "highlight", "text": "Langkah harus berurutan dan logis agar pembaca dapat mengikuti dengan benar." }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Struktur teks prosedur?", "answer": "Tujuan, bahan/alat, langkah-langkah, penutup" },
+        { "id": "fc2", "question": "Contoh kalimat imperatif?", "answer": "Campurkan tepung dan telur." },
+        { "id": "fc3", "question": "Kata penghubung urutan?", "answer": "Pertama, kemudian, selanjutnya, terakhir" },
+        { "id": "fc4", "question": "Contoh teks prosedur?", "answer": "Resep masakan, panduan aplikasi" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Yang bukan contoh teks prosedur adalah?", "options": ["Resep masakan", "Cara menanam bunga", "Berita kecelakaan", "Panduan aplikasi"], "answer": 2, "explanation": "Berita kecelakaan adalah teks berita, bukan prosedur." },
+          { "id": "q2", "type": "multiple_choice", "question": "Kata yang menunjukkan urutan langkah adalah?", "options": ["dan", "tetapi", "kemudian", "atau"], "answer": 2 }
+        ]
+      }
+    },
+    {
+      "id": "fakta-opini",
+      "title": "Fakta dan Opini",
+      "description": "Membedakan kalimat fakta dan opini",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "fakta-opini",
+          "title": "Kalimat Fakta dan Opini",
+          "estMinutes": 6,
+          "content": [
+            { "type": "heading", "text": "Fakta dan Opini" },
+            { "type": "heading", "level": 2, "text": "Kalimat Fakta" },
+            { "type": "list", "items": [
+              "Dapat dibuktikan kebenarannya",
+              "Berdasarkan data, tanggal, nama, tempat",
+              "Bersifat objektif",
+              "Contoh: Indonesia merdeka pada 17 Agustus 1945."
+            ]},
+            { "type": "heading", "level": 2, "text": "Kalimat Opini" },
+            { "type": "list", "items": [
+              "Penilaian atau pendapat subjektif",
+              "Tidak dapat dibuktikan secara pasti",
+              "Menggunakan kata: menurut saya, mungkin, seharusnya, terbaik, terburuk",
+              "Contoh: Film ini sangat membosankan."
+            ]},
+            { "type": "highlight", "text": "Fakta = dapat dibuktikan. Opini = pendapat pribadi." }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Ciri kalimat fakta?", "answer": "Dapat dibuktikan kebenarannya, objektif" },
+        { "id": "fc2", "question": "Ciri kalimat opini?", "answer": "Pendapat subjektif, tidak dapat dibuktikan pasti" },
+        { "id": "fc3", "question": "Kata penanda opini?", "answer": "Menurut saya, mungkin, seharusnya, terbaik" },
+        { "id": "fc4", "question": "'Jakarta adalah ibu kota Indonesia.' Fakta atau opini?", "answer": "Fakta" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Yang termasuk kalimat fakta adalah?", "options": ["Film ini sangat bagus.", "Bumi berputar mengelilingi matahari.", "Menurutku, dia cantik.", "Seharusnya dia datang."], "answer": 1 },
+          { "id": "q2", "type": "multiple_choice", "question": "Kata penanda opini adalah?", "options": ["Tanggal", "Menurut saya", "Nama tempat", "Angka"], "answer": 1 }
+        ]
+      }
+    },
+    {
+      "id": "puisi",
+      "title": "Puisi",
+      "description": "Unsur intrinsik dan ekstrinsik puisi",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "unsur-puisi",
+          "title": "Unsur-unsur Puisi",
+          "estMinutes": 10,
+          "content": [
+            { "type": "heading", "text": "Unsur-unsur Puisi" },
+            { "type": "heading", "level": 2, "text": "Unsur Batin (Intrinsik)" },
+            { "type": "list", "items": [
+              "Tema — pokok pikiran puisi",
+              "Rasa — sikap penyair terhadap tema",
+              "Nada — sikap penyair terhadap pembaca",
+              "Amanat — pesan yang ingin disampaikan"
+            ]},
+            { "type": "heading", "level": 2, "text": "Unsur Fisik" },
+            { "type": "list", "items": [
+              "Diksi — pilihan kata",
+              "Imaji — gambaran indera (visual, auditif, taktil)",
+              "Rima — persamaan bunyi akhir baris",
+              "Ritme — irama dalam puisi",
+              "Tipografi — bentuk visual puisi"
+            ]},
+            { "type": "heading", "level": 2, "text": "Majas dalam Puisi" },
+            { "type": "table", "headers": ["Majas", "Pengertian", "Contoh"], "rows": [
+              ["Personifikasi", "Benda mati seperti manusia", "Angin berbisik lembut"],
+              ["Metafora", "Perbandingan langsung", "Hidupnya bagai mimpi"],
+              ["Hiperbola", "Berlebihan", "Menangis darah"],
+              ["Litotes", "Merendahkan diri", "Gubuk kecil saya"]
+            ]}
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "4 unsur batin puisi?", "answer": "Tema, rasa, nada, amanat" },
+        { "id": "fc2", "question": "Apa itu diksi?", "answer": "Pilihan kata dalam puisi" },
+        { "id": "fc3", "question": "Apa itu rima?", "answer": "Persamaan bunyi akhir baris" },
+        { "id": "fc4", "question": "Majas personifikasi?", "answer": "Benda mati digambarkan seperti manusia" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Pesan yang disampaikan penyair disebut?", "options": ["Tema", "Rasa", "Nada", "Amanat"], "answer": 3 },
+          { "id": "q2", "type": "multiple_choice", "question": "'Angin menari-nari' menggunakan majas?", "options": ["Metafora", "Personifikasi", "Hiperbola", "Litotes"], "answer": 1 }
+        ]
+      }
+    },
+    {
+      "id": "teks-berita",
+      "title": "Teks Berita",
+      "description": "Unsur berita dan struktur teks berita",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "unsur-berita",
+          "title": "Unsur-unsur Berita (5W+1H)",
+          "estMinutes": 8,
+          "content": [
+            { "type": "heading", "text": "Teks Berita" },
+            { "type": "heading", "level": 2, "text": "Unsur Berita (ADIKSIMBA / 5W+1H)" },
+            { "type": "table", "headers": ["Singkatan", "Pertanyaan", "Keterangan"], "rows": [
+              ["Apa (What)", "Apa yang terjadi?", "Peristiwa"],
+              ["Di mana (Where)", "Di mana kejadiannya?", "Tempat"],
+              ["Kapan (When)", "Kapan terjadi?", "Waktu"],
+              ["Siapa (Who)", "Siapa yang terlibat?", "Pelaku"],
+              ["Mengapa (Why)", "Mengapa terjadi?", "Penyebab"],
+              ["Bagaimana (How)", "Bagaimana prosesnya?", "Kronologi"]
+            ]},
+            { "type": "heading", "level": 2, "text": "Struktur Teks Berita" },
+            { "type": "list", "ordered": true, "items": [
+              "Judul (headline)",
+              "Teras berita (lead) — ringkasan berita",
+              "Tubuh berita — uraian lengkap",
+              "Ekor berita — informasi tambahan"
+            ]},
+            { "type": "heading", "level": 2, "text": "Kata Baku dan Tidak Baku" },
+            { "type": "table", "headers": ["Baku", "Tidak Baku"], "rows": [
+              ["aktivitas", "aktifitas"],
+              ["risiko", "resiko"],
+              ["nasihat", "nasehat"],
+              ["apotek", "apotik"]
+            ]}
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "5W+1H dalam berita?", "answer": "What, Where, When, Who, Why, How" },
+        { "id": "fc2", "question": "Apa itu teras berita?", "answer": "Ringkasan berita di awal (lead)" },
+        { "id": "fc3", "question": "Kata baku dari 'aktifitas'?", "answer": "aktivitas" },
+        { "id": "fc4", "question": "Kata baku dari 'nasehat'?", "answer": "nasihat" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Unsur 'kapan' dalam berita menjawab?", "options": ["What", "When", "Where", "Why"], "answer": 1 },
+          { "id": "q2", "type": "multiple_choice", "question": "Mana kata baku yang benar?", "options": ["aktifitas", "resiko", "apotek", "nasehat"], "answer": 2 }
+        ]
+      }
+    },
+    {
+      "id": "kata-serapan",
+      "title": "Kata Serapan",
+      "description": "Kata serapan dari bahasa asing dan daerah",
+      "bookmarked": false,
+      "lessons": [
+        {
+          "id": "asal-kata",
+          "title": "Kata Serapan Bahasa Indonesia",
+          "estMinutes": 6,
+          "content": [
+            { "type": "heading", "text": "Kata Serapan" },
+            { "type": "text", "text": "Bahasa Indonesia menyerap banyak kata dari bahasa asing dan daerah." },
+            { "type": "heading", "level": 2, "text": "Serapan dari Bahasa Arab" },
+            { "type": "list", "items": [
+              "teladan, umat, zaman, akhir, awal",
+              "ilmu, kitab, kursi, masjid, salat",
+              "maaf, berkah, rezeki, amal"
+            ]},
+            { "type": "heading", "level": 2, "text": "Serapan dari Bahasa Inggris" },
+            { "type": "list", "items": [
+              "komputer, televisi, radio",
+              "internet, online, software"
+            ]},
+            { "type": "heading", "level": 2, "text": "Serapan dari Bahasa Belanda" },
+            { "type": "list", "items": [
+              "kantor (kantoor), polisi (politie)",
+              "koper (koffer), handuk (handdoek)"
+            ]},
+            { "type": "highlight", "text": "Kata 'teladan', 'umat', dan 'zaman' berasal dari bahasa Arab." }
+          ]
+        }
+      ],
+      "flashcards": [
+        { "id": "fc1", "question": "Kata 'teladan' berasal dari bahasa?", "answer": "Arab" },
+        { "id": "fc2", "question": "Kata 'kantor' berasal dari bahasa?", "answer": "Belanda (kantoor)" },
+        { "id": "fc3", "question": "Contoh kata serapan Arab?", "answer": "ilmu, kitab, masjid, rezeki" },
+        { "id": "fc4", "question": "Kata 'komputer' berasal dari?", "answer": "Bahasa Inggris (computer)" }
+      ],
+      "quiz": {
+        "questions": [
+          { "id": "q1", "type": "multiple_choice", "question": "Kata serapan dari Arab adalah?", "options": ["komputer", "kantor", "umat", "televisi"], "answer": 2 },
+          { "id": "q2", "type": "multiple_choice", "question": "Kata 'polisi' berasal dari bahasa?", "options": ["Arab", "Inggris", "Belanda", "Portugis"], "answer": 2 }
+        ]
+      }
+    }
+  ]
+}
