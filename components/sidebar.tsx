@@ -97,7 +97,7 @@ export function Sidebar() {
               <span className="size-1.5 rounded-full bg-foreground/60" />
               <span className="truncate">{s.name}</span>
               <span className="ml-auto text-[10px] font-mono text-muted-foreground">
-                {s.topics.length}
+                {s.topics?.length || 0}
               </span>
             </Link>
           )
