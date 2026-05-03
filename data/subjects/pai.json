@@ -460,65 +460,88 @@
             { "type": "heading", "text": "Ketentuan dan Cara Menghitung Zakat (Lengkap)" },
             {
               "type": "text",
-              "text": "Zakat adalah rukun Islam ketiga. Secara bahasa berarti suci atau berkembang. Secara istilah adalah mengeluarkan sebagian harta tertentu untuk diberikan kepada golongan yang berhak (mustahik)."
+              "text": "Zakat adalah rukun Islam ketiga. Secara bahasa berarti suci, tumbuh, dan berkembang. Secara istilah adalah mengeluarkan sebagian harta tertentu untuk diberikan kepada golongan yang berhak (mustahik)."
             },
             {
-              "type": "heading", "level": 2, "text": "1. Zakat Fitrah" },
+              "type": "heading", "level": 2, "text": "1. Zakat Fitrah (Zakat Jiwa)" },
             {
               "type": "text",
-              "text": "Zakat jiwa yang wajib dikeluarkan setiap muslim pada bulan Ramadhan hingga sebelum shalat Idul Fitri."
+              "text": "Wajib bagi setiap muslim (laki-laki, perempuan, anak-anak, dewasa) yang memiliki kelebihan makanan pada malam dan hari raya Idul Fitri."
             },
             {
               "type": "highlight",
-              "text": "Rumus: Jumlah Orang x 2,5 kg (atau 3,5 Liter) makanan pokok.\nContoh: Keluarga dengan 5 anggota wajib membayar 5 x 2,5 kg = 12,5 kg beras."
+              "text": "Rumus: Jumlah Orang x 2,5 kg (atau 3,5 Liter) makanan pokok.\nContoh: Keluarga dengan Ayah, Ibu, dan 2 anak wajib membayar 4 x 2,5 kg = 10 kg beras."
             },
             {
-              "type": "heading", "level": 2, "text": "2. Zakat Mal (Harta)" },
+              "type": "heading", "level": 2, "text": "2. Zakat Mal (Zakat Harta)" },
             {
               "type": "text",
-              "text": "Zakat yang dikenakan atas harta yang dimiliki seseorang dengan syarat telah mencapai nisab (batas minimal) dan haul (satu tahun)."
+              "text": "Zakat yang dikenakan atas harta yang dimiliki dengan syarat: Milik penuh, Berkembang, Mencapai Nishab (batas minimal), Mencapai Haul (kepemilikan 1 tahun), dan Lebih dari kebutuhan pokok."
             },
             {
-              "type": "heading", "level": 3, "text": "A. Zakat Profesi (Penghasilan)" },
+              "type": "heading", "level": 3, "text": "A. Zakat Emas dan Perak" },
+            {
+              "type": "list",
+              "items": [
+                "Nishab Emas: 85 gram emas murni",
+                "Nishab Perak: 595 gram perak murni",
+                "Kadar Zakat: 2,5%",
+                "Rumus: (Total Berat x Harga Emas Saat Ini) x 2,5%",
+                "Contoh: Memiliki 100 gram emas selama 1 tahun. Jika harga emas Rp 1.000.000/gr, maka zakatnya: (100 x 1.000.000) x 2,5% = Rp 2.500.000."
+              ]
+            },
+            {
+              "type": "heading", "level": 3, "text": "B. Zakat Profesi (Penghasilan)" },
             {
               "type": "text",
-              "text": "Dikeluarkan dari penghasilan rutin (gaji/honor). Nisabnya setara dengan 522 kg beras."
+              "text": "Zakat yang dikeluarkan dari penghasilan rutin (gaji/honor). Nishabnya disetarakan dengan nishab pertanian (522 kg beras) atau emas (85 gram) tergantung ijtihad yang diikuti."
             },
             {
               "type": "highlight",
-              "text": "Rumus: Penghasilan Bersih x 2,5%.\nContoh: Penghasilan Rp 10.000.000/bulan. Zakat: 10.000.000 x 2,5% = Rp 250.000."
+              "text": "Rumus: Penghasilan Bersih (Gaji - Hutang Pokok) x 2,5%.\nContoh: Gaji Rp 10.000.000 per bulan. Zakat: 10.000.000 x 2,5% = Rp 250.000 per bulan."
             },
             {
-              "type": "heading", "level": 3, "text": "B. Zakat Niaga (Perdagangan)" },
+              "type": "heading", "level": 3, "text": "C. Zakat Niaga (Perdagangan)" },
             {
               "type": "text",
-              "text": "Zakat dari harta usaha perdagangan. Nisabnya setara 85 gram emas."
+              "text": "Zakat dari harta usaha perdagangan. Dihitung di akhir tahun hijriah."
             },
             {
               "type": "highlight",
-              "text": "Rumus: (Modal Putar + Keuntungan + Piutang - Hutang Jatuh Tempo) x 2,5%.\nContoh: Aset dagang Rp 200 jt, hutang Rp 50 jt. Zakat: (200 - 50) jt x 2,5% = Rp 3.750.000."
+              "text": "Rumus: (Modal Putar + Keuntungan + Piutang - Hutang Jatuh Tempo) x 2,5%.\nContoh: Aset dagang Rp 200 jt, keuntungan Rp 50 jt, piutang Rp 10 jt, hutang Rp 60 jt. Total harta zakat: (200 + 50 + 10 - 60) = Rp 200 jt. Zakat: 200 jt x 2,5% = Rp 5.000.000."
             },
             {
-              "type": "heading", "level": 3, "text": "C. Zakat Ternak" },
+              "type": "heading", "level": 3, "text": "D. Zakat Ternak" },
             {
               "type": "table",
               "headers": ["Jenis Hewan", "Nisab (Minimal)", "Kadar Zakat"],
               "rows": [
-                ["Kambing/Domba", "40 - 120 ekor", "1 ekor kambing (2 thn)"],
+                ["Kambing/Domba", "40 - 120 ekor", "1 ekor kambing (umur 2 thn)"],
                 ["Kambing/Domba", "121 - 200 ekor", "2 ekor kambing"],
-                ["Sapi/Kerbau", "30 - 39 ekor", "1 ekor sapi (1 thn/Tabi')"],
-                ["Sapi/Kerbau", "40 - 59 ekor", "1 ekor sapi (2 thn/Musinnah)"]
+                ["Sapi/Kerbau", "30 - 39 ekor", "1 ekor sapi (umur 1 thn/Tabi')"],
+                ["Sapi/Kerbau", "40 - 59 ekor", "1 ekor sapi (umur 2 thn/Musinnah)"],
+                ["Unta", "5 ekor", "1 ekor kambing"]
               ]
             },
             {
-              "type": "heading", "level": 3, "text": "D. Zakat Tani (Pertanian)" },
+              "type": "heading", "level": 3, "text": "E. Zakat Tani (Pertanian)" },
             {
               "type": "text",
-              "text": "Zakat dari hasil panen pertanian (padi, gandum, dll). Nisabnya 5 Wasaq (± 653 kg gabah / 522 kg beras). Tidak ada syarat haul (dibayar setiap panen)."
+              "text": "Zakat dari hasil panen pertanian. Nishabnya adalah 5 Wasaq (± 653 kg gabah / 522 kg beras). Tidak mensyaratkan haul (dikeluarkan setiap panen)."
             },
             {
               "type": "highlight",
-              "text": "Kadar: 10% jika tadah hujan (alami) atau 5% jika menggunakan irigasi berbayar.\nContoh: Panen 1.000 kg beras dengan irigasi berbayar. Zakat: 1.000 x 5% = 50 kg beras."
+              "text": "Kadar: 10% jika tadah hujan (alami) atau 5% jika menggunakan irigasi berbayar.\nContoh: Panen 1.000 kg beras dengan irigasi mesin (berbayar). Zakat: 1.000 x 5% = 50 kg beras."
+            },
+            {
+              "type": "heading", "level": 3, "text": "F. Zakat Rikaz (Temuan)" },
+            {
+              "type": "text",
+              "text": "Zakat untuk harta karun/temuan. Tidak ada nishab dan haul."
+            },
+            {
+              "type": "highlight",
+              "text": "Kadar: 20%.\nContoh: Menemukan emas senilai Rp 10.000.000. Zakat: 10.000.000 x 20% = Rp 2.000.000."
             }
           ]
         },

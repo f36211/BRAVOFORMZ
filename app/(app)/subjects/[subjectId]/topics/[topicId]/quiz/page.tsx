@@ -16,6 +16,7 @@ export default function QuizPage() {
 
   const [idx, setIdx] = useState(0)
   const [picked, setPicked] = useState<number | null>(null)
+  const [submitted, setSubmitted] = useState(false)
   const [answers, setAnswers] = useState<number[]>([])
   const [done, setDone] = useState(false)
   const [submitting, setSubmitting] = useState(false)
@@ -38,8 +39,13 @@ export default function QuizPage() {
   const correct = answers.reduce((n, a, i) => (a === questions[i].answer ? n + 1 : n), 0)
 
   function pick(i: number) {
-    if (picked !== null) return
+    if (submitted) return
     setPicked(i)
+  }
+
+  function handleCheck() {
+    if (picked === null || submitted) return
+    setSubmitted(true)
   }
 
   async function submitToLeaderboard(finalCorrect: number, timeTaken: number) {
@@ -76,6 +82,7 @@ export default function QuizPage() {
     const newAnswers = [...answers, picked ?? -1]
     setAnswers(newAnswers)
     setPicked(null)
+    setSubmitted(false)
     if (idx >= total - 1) {
       setDone(true)
       const finalCorrect = newAnswers.reduce(
@@ -95,6 +102,7 @@ export default function QuizPage() {
   function reset() {
     setIdx(0)
     setPicked(null)
+    setSubmitted(false)
     setAnswers([])
     setDone(false)
     setRank(null)
@@ -271,10 +279,10 @@ export default function QuizPage() {
             {q.options.map((opt, i) => {
               const isPicked = picked === i
               const isCorrect = i === q.answer
-              const showResult = picked !== null
+              const showResult = submitted
               const variant = !showResult
                 ? isPicked
-                  ? "border-foreground"
+                  ? "border-foreground bg-foreground/5 shadow-sm scale-[1.02]"
                   : "border-border hover:border-foreground/40 hover:bg-accent/40"
                 : isCorrect
                   ? "border-foreground bg-foreground text-background"
@@ -285,7 +293,7 @@ export default function QuizPage() {
                 <button
                   key={i}
                   onClick={() => pick(i)}
-                  disabled={picked !== null}
+                  disabled={submitted}
                   className={`w-full text-left rounded-xl border px-4 py-3.5 transition-all flex items-center gap-3 ${variant}`}
                 >
                   <span
@@ -305,28 +313,37 @@ export default function QuizPage() {
             })}
           </div>
 
-          {picked !== null && q.explanation && (
+          {submitted && q.explanation && (
             <motion.div
               initial={{ opacity: 0, y: 6 }}
               animate={{ opacity: 1, y: 0 }}
               className="mt-4 rounded-xl border border-border bg-muted/40 p-4 text-sm"
             >
               <span className="text-[10px] font-mono uppercase tracking-[0.14em] text-muted-foreground">
-                Explanation
+                Penjelasan
               </span>
               <p className="mt-1 leading-relaxed">{q.explanation}</p>
             </motion.div>
           )}
 
-          <div className="mt-8 flex justify-end">
-            <button
-              onClick={nextQ}
-              disabled={picked === null}
-              className="inline-flex items-center gap-2 rounded-xl bg-foreground text-background px-5 h-11 text-sm font-medium hover:bg-foreground/90 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-            >
-              {idx >= total - 1 ? "Finish quiz" : "Next question"}
-              <ArrowRight className="size-4" />
-            </button>
+          <div className="mt-8 flex gap-3">
+            {!submitted ? (
+              <button
+                onClick={handleCheck}
+                disabled={picked === null}
+                className="flex-1 inline-flex items-center justify-center gap-2 rounded-xl bg-foreground text-background h-12 text-sm font-semibold hover:bg-foreground/90 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-lg shadow-foreground/10 active:scale-95"
+              >
+                Cek Jawaban
+              </button>
+            ) : (
+              <button
+                onClick={nextQ}
+                className="flex-1 inline-flex items-center justify-center gap-2 rounded-xl bg-foreground text-background h-12 text-sm font-semibold hover:bg-foreground/90 transition-all shadow-lg shadow-foreground/10 active:scale-95"
+              >
+                {idx >= total - 1 ? "Selesai" : "Pertanyaan Selanjutnya"}
+                <ArrowRight className="size-4" />
+              </button>
+            )}
           </div>
         </motion.div>
       </AnimatePresence>
