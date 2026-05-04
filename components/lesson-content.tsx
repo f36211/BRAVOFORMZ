@@ -1,7 +1,7 @@
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
-import { Quote, Lightbulb, Sparkles, Zap } from "lucide-react"
+import { useEffect, useMemo, useState, useRef } from "react"
+import { Quote, Lightbulb, Sparkles, Zap, AlertCircle } from "lucide-react"
 import type { ContentBlock } from "@/lib/types"
 import { MathJax, MathJaxContext } from "better-react-mathjax"
 import confetti from "canvas-confetti"
@@ -10,6 +10,15 @@ import {
   BarChart, Bar, LineChart, Line, AreaChart, Area,
   XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer 
 } from "recharts"
+
+const mathjaxConfig = {
+  loader: { load: ["[tex]/ams"] },
+  tex: {
+    packages: { "[+]": ["ams"] },
+    inlineMath: [["$", "$"], ["\\(", "\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+  }
+}
 
 export function LessonContent({ blocks }: { blocks: ContentBlock[] }) {
   // Build TOC of headings
@@ -55,7 +64,7 @@ export function LessonContent({ blocks }: { blocks: ContentBlock[] }) {
   }
 
   return (
-    <MathJaxContext>
+    <MathJaxContext config={mathjaxConfig}>
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_220px] gap-10">
         <article className="prose-custom max-w-none">
           {blocks.map((block, i) => (
@@ -103,6 +112,39 @@ export function LessonContent({ blocks }: { blocks: ContentBlock[] }) {
   )
 }
 
+function LazyMathJax({ children, inline = false, display = false }: { children: React.ReactNode, inline?: boolean, display?: boolean }) {
+  const [isVisible, setIsVisible] = useState(false)
+  const ref = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true)
+          observer.unobserve(entry.target)
+        }
+      },
+      { rootMargin: "200px" } // Start rendering 200px before it comes into view
+    )
+
+    if (ref.current) {
+      observer.observe(ref.current)
+    }
+
+    return () => observer.disconnect()
+  }, [])
+
+  return (
+    <div ref={ref} className={display ? "w-full" : "inline-block min-w-[10px]"}>
+      {isVisible ? (
+        <MathJax inline={inline}>{children}</MathJax>
+      ) : (
+        <span className="opacity-0">{children}</span>
+      )}
+    </div>
+  )
+}
+
 function Block({ block, index }: { block: ContentBlock; index: number }) {
   switch (block.type) {
     case "heading": {
@@ -111,25 +153,25 @@ function Block({ block, index }: { block: ContentBlock; index: number }) {
       if (lvl === 1)
         return (
           <h2 id={id} className="scroll-mt-24 text-2xl md:text-3xl font-medium tracking-tight mt-10 first:mt-0 mb-3">
-            <MathJax inline>{block.text}</MathJax>
+            <LazyMathJax inline>{block.text}</LazyMathJax>
           </h2>
         )
       if (lvl === 2)
         return (
           <h3 id={id} className="scroll-mt-24 text-lg font-medium tracking-tight mt-8 mb-2">
-            <MathJax inline>{block.text}</MathJax>
+            <LazyMathJax inline>{block.text}</LazyMathJax>
           </h3>
         )
       return (
         <h4 id={id} className="scroll-mt-24 text-base font-medium tracking-tight mt-6 mb-2">
-          <MathJax inline>{block.text}</MathJax>
+          <LazyMathJax inline>{block.text}</LazyMathJax>
         </h4>
       )
     }
     case "text":
       return (
         <div className="text-[15px] leading-relaxed text-foreground/90 my-4">
-          <MathJax inline>{block.text}</MathJax>
+          <LazyMathJax inline>{block.text}</LazyMathJax>
         </div>
       )
     case "quote":
@@ -137,11 +179,11 @@ function Block({ block, index }: { block: ContentBlock; index: number }) {
         <figure className="my-6 rounded-2xl border border-border bg-muted/40 p-5">
           <div className="flex items-center gap-2 text-[11px] font-mono uppercase tracking-[0.14em] text-muted-foreground">
             <Quote className="size-3.5" />
-            <MathJax inline>{block.text}</MathJax>
+            <LazyMathJax inline>{block.text}</LazyMathJax>
           </div>
           {block.translation && (
             <blockquote className="mt-3 text-[15px] leading-relaxed italic text-foreground">
-              &ldquo;<MathJax inline>{block.translation}</MathJax>&rdquo;
+              &ldquo;<LazyMathJax inline>{block.translation}</LazyMathJax>&rdquo;
             </blockquote>
           )}
         </figure>
@@ -151,7 +193,7 @@ function Block({ block, index }: { block: ContentBlock; index: number }) {
         <aside className="my-6 rounded-2xl border-l-4 border-foreground bg-accent/60 px-5 py-4 flex gap-3">
           <Lightbulb className="size-4 mt-0.5 shrink-0" />
           <div className="text-sm leading-relaxed">
-            <MathJax inline>{block.text}</MathJax>
+            <LazyMathJax inline>{block.text}</LazyMathJax>
           </div>
         </aside>
       )
@@ -165,7 +207,7 @@ function Block({ block, index }: { block: ContentBlock; index: number }) {
         >
           {block.items.map((it, i) => (
             <li key={i}>
-              <MathJax inline>{it}</MathJax>
+              <LazyMathJax inline>{it}</LazyMathJax>
             </li>
           ))}
         </Tag>
@@ -182,7 +224,7 @@ function Block({ block, index }: { block: ContentBlock; index: number }) {
                     key={i}
                     className="text-left font-medium px-4 py-2.5 text-[11px] font-mono uppercase tracking-[0.14em] text-muted-foreground border-b border-border"
                   >
-                    <MathJax inline>{h}</MathJax>
+                    <LazyMathJax inline>{h}</LazyMathJax>
                   </th>
                 ))}
               </tr>
@@ -192,7 +234,7 @@ function Block({ block, index }: { block: ContentBlock; index: number }) {
                 <tr key={ri} className="border-b border-border last:border-0">
                   {row.map((cell, ci) => (
                     <td key={ci} className="px-4 py-2.5">
-                      <MathJax inline>{String(cell)}</MathJax>
+                      <LazyMathJax inline>{String(cell)}</LazyMathJax>
                     </td>
                   ))}
                 </tr>
@@ -208,7 +250,7 @@ function Block({ block, index }: { block: ContentBlock; index: number }) {
             block.display ? "text-base py-6" : ""
           }`}
         >
-          <MathJax>{`\\(${block.tex}\\)`}</MathJax>
+          <LazyMathJax display>{`\\(${block.tex}\\)`}</LazyMathJax>
         </div>
       )
     case "chart": {
@@ -288,7 +330,7 @@ function Block({ block, index }: { block: ContentBlock; index: number }) {
           />
           {block.caption && (
             <figcaption className="p-4 text-center text-xs text-muted-foreground italic border-t border-border bg-background/50">
-              <MathJax inline>{block.caption}</MathJax>
+              <LazyMathJax inline>{block.caption}</LazyMathJax>
             </figcaption>
           )}
         </figure>

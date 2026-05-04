@@ -2877,25 +2877,92 @@
     {
       "id": "pesawat-sederhana",
       "title": "Pesawat Sederhana",
-      "description": "Jenis pesawat sederhana dan keuntungan mekanisnya",
+      "description": "Memahami jenis-jenis pesawat sederhana, cara kerjanya, dan keuntungan mekanis dalam kehidupan sehari-hari",
       "lessons": [
         {
           "id": "pesawat-materi",
-          "title": "Pesawat Sederhana",
-          "estMinutes": 10,
+          "title": "Mengenal Pesawat Sederhana",
+          "estMinutes": 12,
           "content": [
             {
               "type": "heading",
-              "text": "Pesawat Sederhana"
+              "text": "Pesawat Sederhana: Alat Bantu Kerja Manusia"
             },
             {
               "type": "text",
-              "text": "Pesawat sederhana adalah alat yang dapat mempermudah pekerjaan manusia. Pesawat sederhana tidak mengurangi usaha, tetapi mengubah arah atau besar gaya."
+              "text": "Pernahkah kamu menggunakan tangga untuk membawa sepeda ke lantai atas? Atau memotong kertas dengan gunting? Tanpa sadar, kamu sudah menggunakan pesawat sederhana! Pesawat sederhana adalah alat yang mempermudah pekerjaan manusia. Mereka tidak mengurangi total usaha, tetapi mengubah arah atau besar gaya agar pekerjaan terasa lebih ringan."
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Tuas (Pengungkit)"
+              "text": "Mengapa Pesawat Sederhana Penting?"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Mengubah arah gaya (misal: menarik ke bawah untuk mengangkat ke atas)",
+                "Mengurangi gaya yang diperlukan (misal: menarik dengan gaya lebih kecil)",
+                "Mempercepat gerakan (misal: roda sepeda)",
+                "Menambah jarak atau kekuatan gerakan"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Pesawat sederhana tidak mengurangi usaha total, tetapi membuat pekerjaan lebih mudah dengan mengubah arah atau besar gaya!"
+            }
+          ]
+        },
+        {
+          "id": "tuas-materi",
+          "title": "Tuas (Pengungkit)",
+          "estMinutes": 15,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Tuas: Mengungkit dengan Cerdas"
+            },
+            {
+              "type": "text",
+              "text": "Tuas adalah batang yang dapat berputar pada titik tertentu yang disebut titik tumpu. Bayangkan kamu membuka tutup cat dengan obeng — itu adalah tuas! Tuas memiliki tiga komponen utama: titik tumpu, gaya kuasa (gaya yang kamu berikan), dan gaya beban (gaya yang dilawan)."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Jenis-jenis Tuas"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Jenis Tuas",
+                "Contoh",
+                "Lengan Kuasa vs Lengan Beban"
+              ],
+              "rows": [
+                [
+                  "Tuas Golongan I",
+                  "Gunting, jungkat-jungkit, katrol tetap",
+                  "Titik tumpu di tengah"
+                ],
+                [
+                  "Tuas Golongan II",
+                  "Gerobak sorong, pemecah kenari, pembuka botol",
+                  "Beban di tengah"
+                ],
+                [
+                  "Tuas Golongan III",
+                  "Penjepit makanan, lengan manusia, sapu lidi",
+                  "Kuasa di tengah"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Tuas Golongan I bisa menguntungkan atau merugikan mekanis, tergantung posisi titik tumpu. Tuas Golongan II selalu menguntungkan (KM > 1). Tuas Golongan III selalu merugikan mekanis (KM < 1) tapi menguntungkan dalam hal jarak."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Rumus Keseimbangan Tuas"
             },
             {
               "type": "math",
@@ -2904,12 +2971,46 @@
             },
             {
               "type": "text",
-              "text": "Fb = gaya beban, lb = lengan beban, Fk = gaya kuasa, lk = lengan kuasa"
+              "text": "Di mana: Fb = gaya beban (N), lb = lengan beban (m), Fk = gaya kuasa (N), lk = lengan kuasa (m). Semakin jauh titik tumpu dari beban, semakin kecil gaya yang kamu butuhkan!"
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Bidang Miring"
+              "text": "Contoh Kehidupan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Gunting: titik tumpu di tengah, kuasa dan beban di ujung",
+                "Jungkat-jungkit di taman bermain: anak yang lebih berat duduk lebih dekat titik tumpu",
+                "Pembuka tutup kaleng: ujung tumpu di tepi kaleng, kuasa di ujung pembuka",
+                "Gerobak sorong: roda sebagai titik tumpu, beban di tengah, kuasa di pegangan"
+              ]
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lever_%28PSF%29.png/640px-Lever_%28PSF%29.png",
+              "caption": "Ilustrasi komponen tuas: titik tumpu, lengan beban, dan lengan kuasa"
+            }
+          ]
+        },
+        {
+          "id": "bidang-miring-materi",
+          "title": "Bidang Miring",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Bidang Miring: Jalan Miring untuk Kerja Lebih Ringan"
+            },
+            {
+              "type": "text",
+              "text": "Pernahkah kamu melihat tangga darurat yang digunakan petugas pemadam kebakaran? Atau ramp untuk kursi roda? Itu semua adalah bidang miring! Bidang miring adalah permukaan miring yang menghubungkan dua ketinggian berbeda. Dengan bidang miring, kamu bisa mengangkat benda lebih mudah meski harus menempuh jarak lebih jauh."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Rumus Keuntungan Mekanis Bidang Miring"
             },
             {
               "type": "math",
@@ -2918,24 +3019,225 @@
             },
             {
               "type": "text",
-              "text": "KM = keuntungan mekanis, l = panjang bidang miring, h = tinggi bidang miring"
+              "text": "Di mana: KM = keuntungan mekanis (tanpa satuan), l = panjang bidang miring (m), h = tinggi bidang miring (m). Semakin panjang bidang miring dengan tinggi yang sama, semakin besar keuntungan mekanisnya!"
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Katrol"
+              "text": "Contoh Penerapan Bidang Miring"
             },
             {
               "type": "list",
               "items": [
-                "Katrol tetap: mengubah arah gaya, KM = 1",
-                "Katrol bebas (bergerak): mengurangi gaya, KM = 2",
-                "Katrol majemuk: kombinasi, KM = jumlah tali yang menanggung beban"
+                "Tangga: memudahkan naik ke ketinggian",
+                "Sekrup: bidang miring yang melilit pada poros",
+                "Pisau dan kapak: bidang miring yang membelah benda",
+                "Ramp kursi roda: memudahkan akses ke tempat tinggi",
+                "Jalan menanjak berkelok: mengurangi kemiringan agar kendaraan mudah naik"
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Sekrup sebenarnya adalah bidang miring yang dibentuk melingkar. Satu putaran sekrup memindahkan benda sejauh jarak ulir. Makin rapat ulirnya, makin besar gaya yang dihasilkan — itulah sebabnya sekrup bisa mengencangkan dengan kuat!"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Inclined_plane.svg/640px-Inclined_plane.svg.png",
+              "caption": "Prinsip kerja bidang miring: jarak lebih panjang membuat gaya lebih kecil"
+            }
+          ]
+        },
+        {
+          "id": "katrol-materi",
+          "title": "Katrol",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Katrol: Mengubah Arah dan Mengurangi Gaya"
+            },
+            {
+              "type": "text",
+              "text": "Katrol adalah roda yang berputar pada poros dengan tali melingkar di sekelilingnya. Pernah kamu menarik bendera di tiang? Itu menggunakan katrol! Katrol sangat berguna untuk mengubah arah gaya atau mengurangi gaya yang diperlukan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Jenis-jenis Katrol"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Katrol Tetap: dipasang pada tempat tetap (dinding, langit-langit). Hanya mengubah arah gaya. Keuntungan mekanis = 1. Contoh: katrol di sumur, tiang bendera.",
+                "Katrol Bebas (Bergerak): katrol bergerak bersama beban. Mengurangi gaya menjadi setengah. Keuntungan mekanis = 2. Contoh: katrol di derek kecil.",
+                "Katrol Majemuk: gabungan katrol tetap dan bebas. Keuntungan mekanis = jumlah tali yang menanggung beban. Contoh: derek besar, elevator."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Keuntungan Mekanis Katrol"
+            },
+            {
+              "type": "math",
+              "tex": "KM_{tetap} = 1 \\quad ; \\quad KM_{bebas} = 2 \\quad ; \\quad KM_{majemuk} = n",
+              "display": true
+            },
+            {
+              "type": "text",
+              "text": "Di mana n = jumlah tali yang menanggung beban pada katrol majemuk. Perlu diingat: katrol bebas mengurangi gaya tapi menambah jarak tali yang ditarik. Gaya lebih kecil = tarik lebih jauh!"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Kehidupan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Katrol tetap: sumur tradisional, tiang bendera, lift barang sederhana",
+                "Katrol bebas: derek di bengkel, alat bantu angkat di rumah sakit",
+                "Katrol majemuk: derek konstruksi, elevator gedung tinggi, lift mobil"
+              ]
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Pulley_system.svg/640px-Pulley_system.svg.png",
+              "caption": "Sistem katrol majemuk dengan beberapa tali menanggung beban"
+            }
+          ]
+        },
+        {
+          "id": "roda-poros-materi",
+          "title": "Roda dan Poros",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Roda dan Poros: Memutar dengan Efisien"
+            },
+            {
+              "type": "text",
+              "text": "Pernah kamu memutar kenop pintu atau setir mobil? Itu adalah roda dan poros! Roda dan poros terdiri dari dua bagian: roda (bagian besar yang diputar) dan poros (bagian kecil di tengah). Prinsipnya sama seperti tuas yang berputar terus-menerus."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Rumus Keuntungan Mekanis"
+            },
+            {
+              "type": "math",
+              "tex": "KM = \\frac{R}{r}",
+              "display": true
+            },
+            {
+              "type": "text",
+              "text": "Di mana: R = jari-jari roda (m), r = jari-jari poros (m). Semakin besar roda dibanding poros, semakin besar keuntungan mekanisnya. Tapi ingat, roda yang lebih besar harus diputar lebih jauh untuk menghasilkan gerakan yang sama pada poros!"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Penerapan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kenop pintu: memutar poros pengunci dengan mudah",
+                "Setir mobil: mengendalikan roda dengan gaya kecil",
+                "Kincir angin: roda besar menangkap angin, poros menghasilkan energi",
+                "Sepeda: pedal (roda) memutar poros roda belakang",
+                "Obeng: pegangan (roda) memutar ujung (poros) dengan kuat"
               ]
             },
             {
               "type": "highlight",
-              "text": "Keuntungan Mekanis (KM) = Beban / Kuasa = lb / lk"
+              "text": "Roda dan poros adalah tuas yang berputar terus-menerus. Prinsipnya: putar besar untuk gerak kecil yang kuat, atau putar kecil untuk gerak besar yang cepat!"
+            }
+          ]
+        },
+        {
+          "id": "rangkuman-materi",
+          "title": "Rangkuman dan Perbandingan",
+          "estMinutes": 8,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Rangkuman Pesawat Sederhana"
+            },
+            {
+              "type": "text",
+              "text": "Yuk, kita rangkum semua pesawat sederhana yang sudah kita pelajari!"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tabel Perbandingan"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Pesawat Sederhana",
+                "Fungsi Utama",
+                "Rumus KM",
+                "Contoh"
+              ],
+              "rows": [
+                [
+                  "Tuas",
+                  "Mengungkit/mengubah gaya",
+                  "KM = lk/lb",
+                  "Gunting, jungkat-jungkit"
+                ],
+                [
+                  "Bidang Miring",
+                  "Mengurangi gaya naik",
+                  "KM = l/h",
+                  "Tangga, sekrup, ramp"
+                ],
+                [
+                  "Katrol Tetap",
+                  "Mengubah arah gaya",
+                  "KM = 1",
+                  "Tiang bendera, sumur"
+                ],
+                [
+                  "Katrol Bebas",
+                  "Mengurangi gaya setengah",
+                  "KM = 2",
+                  "Derek kecil"
+                ],
+                [
+                  "Katrol Majemuk",
+                  "Mengurangi gaya banyak",
+                  "KM = n",
+                  "Derek besar, elevator"
+                ],
+                [
+                  "Roda dan Poros",
+                  "Memutar dengan efisien",
+                  "KM = R/r",
+                  "Setir, kenop, pedal sepeda"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Prinsip Dasar yang Perlu Diingat"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Keuntungan Mekanis (KM) = Beban / Kuasa = lb / lk",
+                "KM > 1 berarti menguntungkan mekanis (gaya lebih kecil)",
+                "KM = 1 berarti tidak menguntungkan tapi mengubah arah",
+                "KM < 1 berarti merugikan mekanis tapi menguntungkan jarak",
+                "Usaha tetap sama: gaya kecil = jarak lebih jauh, gaya besar = jarak lebih dekat"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Pesawat sederhana tidak menciptakan energi baru, hanya mengubah cara energi digunakan agar pekerjaan lebih mudah!"
             }
           ]
         }
@@ -2943,33 +3245,73 @@
       "flashcards": [
         {
           "id": "fc1",
+          "question": "Apa definisi pesawat sederhana?",
+          "answer": "Alat yang mempermudah pekerjaan manusia dengan mengubah arah atau besar gaya"
+        },
+        {
+          "id": "fc2",
           "question": "Rumus keseimbangan tuas?",
           "answer": "F_beban × lengan beban = F_kuasa × lengan kuasa"
         },
         {
-          "id": "fc2",
+          "id": "fc3",
+          "question": "Jenis tuas mana yang selalu menguntungkan mekanis?",
+          "answer": "Tuas Golongan II (beban di tengah)"
+        },
+        {
+          "id": "fc4",
           "question": "Rumus keuntungan mekanis bidang miring?",
           "answer": "KM = panjang bidang miring / tinggi bidang miring"
         },
         {
-          "id": "fc3",
+          "id": "fc5",
+          "question": "Mengapa sekrup termasuk bidang miring?",
+          "answer": "Karena sekrup adalah bidang miring yang melilit pada poros"
+        },
+        {
+          "id": "fc6",
           "question": "Keuntungan mekanis katrol tetap?",
           "answer": "KM = 1 (hanya mengubah arah gaya)"
         },
         {
-          "id": "fc4",
-          "question": "Contoh penerapan bidang miring dalam kehidupan?",
-          "answer": "Tangga, sekrup, pisau, kapak, ramp untuk kursi roda"
-        },
-        {
-          "id": "fc5",
+          "id": "fc7",
           "question": "Keuntungan mekanis katrol bebas?",
           "answer": "KM = 2 (gaya yang diperlukan setengah dari beban)"
         },
         {
-          "id": "fc6",
+          "id": "fc8",
+          "question": "Rumus keuntungan mekanis katrol majemuk?",
+          "answer": "KM = jumlah tali yang menanggung beban"
+        },
+        {
+          "id": "fc9",
+          "question": "Rumus keuntungan mekanis roda dan poros?",
+          "answer": "KM = jari-jari roda / jari-jari poros"
+        },
+        {
+          "id": "fc10",
           "question": "Apa yang dimaksud keuntungan mekanis pesawat sederhana?",
           "answer": "Perbandingan antara besar beban dengan gaya kuasa yang diperlukan"
+        },
+        {
+          "id": "fc11",
+          "question": "Mengapa pesawat sederhana tidak mengurangi usaha total?",
+          "answer": "Karena hanya mengubah arah atau besar gaya, usaha tetap sama (W = F × s)"
+        },
+        {
+          "id": "fc12",
+          "question": "Contoh tuas Golongan III?",
+          "answer": "Penjepit makanan, lengan manusia, sapu lidi"
+        },
+        {
+          "id": "fc13",
+          "question": "Katrol mana yang hanya mengubah arah gaya?",
+          "answer": "Katrol tetap"
+        },
+        {
+          "id": "fc14",
+          "question": "Apa prinsip roda dan poros?",
+          "answer": "Seperti tuas yang berputar terus-menerus"
         }
       ],
       "quiz": {
@@ -2977,67 +3319,82 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Bidang miring panjang 5 m dan tinggi 2 m. Keuntungan mekanisnya adalah?",
-            "options": [
-              "2,5",
-              "10",
-              "3",
-              "7"
-            ],
+            "question": "Bidang miring panjang 6 m dan tinggi 2 m. Keuntungan mekanisnya adalah?",
+            "options": [],
             "answer": 0,
-            "explanation": "KM = l/h = 5/2 = 2,5"
+            "explanation": "KM = l/h = 6/2 = 3. Semakin panjang bidang miring dengan tinggi sama, semakin besar KM-nya."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Tuas dengan lengan kuasa 60 cm dan lengan beban 20 cm. Jika gaya kuasa 10 N, besar beban yang dapat diangkat adalah?",
-            "options": [
-              "30 N",
-              "60 N",
-              "20 N",
-              "10 N"
-            ],
+            "question": "Tuas dengan lengan kuasa 80 cm dan lengan beban 20 cm. Jika gaya kuasa 15 N, besar beban yang dapat diangkat adalah?",
+            "options": [],
             "answer": 0,
-            "explanation": "Fk × lk = Fb × lb → 10 × 60 = Fb × 20 → Fb = 30 N"
+            "explanation": "Fk × lk = Fb × lb → 15 × 80 = Fb × 20 → Fb = 1200/20 = 60 N"
           },
           {
             "id": "q3",
             "type": "multiple_choice",
             "question": "Katrol yang hanya mengubah arah gaya tanpa mengurangi besar gaya adalah?",
-            "options": [
-              "Katrol bebas",
-              "Katrol majemuk",
-              "Katrol tetap",
-              "Katrol ganda"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Katrol tetap memiliki KM = 1, artinya hanya mengubah arah gaya tanpa mengurangi besarnya."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
             "question": "Sekrup merupakan contoh penerapan prinsip?",
-            "options": [
-              "Katrol",
-              "Tuas",
-              "Bidang miring",
-              "Roda dan poros"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Sekrup adalah bidang miring yang dibentuk melingkar pada poros."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
             "question": "Semakin panjang bidang miring dengan tinggi yang sama, keuntungan mekanisnya?",
-            "options": [
-              "Semakin kecil",
-              "Semakin besar",
-              "Tetap sama",
-              "Nol"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": "KM = l/h; jika l semakin besar dan h tetap, maka KM semakin besar."
+            "explanation": "KM = l/h; jika l semakin besar dan h tetap, maka KM semakin besar. Tapi jarak yang ditempuh juga semakin jauh!"
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Roda dan poros dengan jari-jari roda 30 cm dan poros 5 cm. Keuntungan mekanisnya adalah?",
+            "options": [],
+            "answer": 0,
+            "explanation": "KM = R/r = 30/5 = 6. Artinya gaya pada roda 6 kali lebih kecil dari gaya yang dihasilkan pada poros."
+          },
+          {
+            "id": "q7",
+            "type": "multiple_choice",
+            "question": "Tuas Golongan II selalu memiliki keuntungan mekanis?",
+            "options": [],
+            "answer": 2,
+            "explanation": "Tuas Golongan II (beban di tengah) selalu menguntungkan mekanis karena lengan kuasa selalu lebih panjang dari lengan beban."
+          },
+          {
+            "id": "q8",
+            "type": "multiple_choice",
+            "question": "Katrol majemuk dengan 4 tali menanggung beban. Keuntungan mekanisnya adalah?",
+            "options": [],
+            "answer": 2,
+            "explanation": "KM katrol majemuk = jumlah tali yang menanggung beban = 4."
+          },
+          {
+            "id": "q9",
+            "type": "multiple_choice",
+            "question": "Mengapa pesawat sederhana tidak mengurangi usaha total?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Pesawat sederhana mengubah arah/besar gaya tapi usaha (W = F × s) tetap sama. Gaya kecil = jarak jauh, gaya besar = jarak dekat."
+          },
+          {
+            "id": "q10",
+            "type": "multiple_choice",
+            "question": "Contoh penerapan roda dan poros dalam kehidupan sehari-hari adalah?",
+            "options": [],
+            "answer": 2,
+            "explanation": "Setir mobil adalah contoh roda dan poros, di mana putaran setir (roda besar) mengendalikan roda depan (poros) dengan gaya yang lebih kecil."
           }
         ]
       }
@@ -3045,12 +3402,12 @@
     {
       "id": "getaran-gelombang",
       "title": "Getaran dan Gelombang",
-      "description": "Konsep getaran, gelombang, dan cepat rambat",
+      "description": "Konsep getaran, gelombang, cepat rambat, dan penerapannya dalam kehidupan sehari-hari",
       "lessons": [
         {
           "id": "gelombang-materi",
           "title": "Getaran dan Gelombang",
-          "estMinutes": 10,
+          "estMinutes": 15,
           "content": [
             {
               "type": "heading",
@@ -3059,16 +3416,24 @@
             {
               "type": "heading",
               "level": 2,
-              "text": "Getaran"
+              "text": "Getaran (Vibrasi)"
+            },
+            {
+              "type": "text",
+              "text": "Getaran adalah gerak bolak-balik secara teratur melalui titik keseimbangan. Bayangkan ayunan yang kamu naiki di taman bermain — itu adalah contoh getaran sederhana!"
             },
             {
               "type": "list",
               "items": [
                 "Getaran: gerak bolak-balik melalui titik keseimbangan",
-                "Amplitudo (A): simpangan maksimum dari titik keseimbangan",
-                "Periode (T): waktu untuk satu kali getaran (sekon)",
-                "Frekuensi (f): jumlah getaran per detik (Hz)"
+                "Amplitudo (A): simpangan maksimum dari titik keseimbangan (meter)",
+                "Periode (T): waktu untuk satu kali getaran penuh (sekon)",
+                "Frekuensi (f): jumlah getaran per detik (Hertz/Hz)"
               ]
+            },
+            {
+              "type": "highlight",
+              "text": "Semakin cepat benda bergetar, semakin tinggi frekuensinya dan semakin pendek periodenya."
             },
             {
               "type": "math",
@@ -3076,9 +3441,17 @@
               "display": true
             },
             {
+              "type": "text",
+              "text": "Contoh sehari-hari: Bandul jam dinding (periode ~1 detik), senar gitar bergetar saja dipetik, dan gelombang air saat kamu melempar batu ke kolam."
+            },
+            {
               "type": "heading",
               "level": 2,
               "text": "Gelombang"
+            },
+            {
+              "type": "text",
+              "text": "Gelombang adalah rambatnya getaran dari satu tempat ke tempat lain. Gelombang membawa energi, bukan materi! Saat kamu melompat di kolam renang, gelombang air merambat ke tepian, tapi airnya tidak ikut berpindah ke tepian."
             },
             {
               "type": "table",
@@ -3091,13 +3464,30 @@
                 [
                   "Transversal",
                   "Arah getar tegak lurus arah rambat",
-                  "Cahaya, gelombang tali"
+                  "Cahaya, gelombang tali, gelombang air permukaan"
                 ],
                 [
                   "Longitudinal",
                   "Arah getar sejajar arah rambat",
-                  "Bunyi, gelombang slinky"
+                  "Bunyi, gelombang slinky, gempa bumi (gelombang P)"
                 ]
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Gelombang transversal memiliki puncak (crest) dan lembah (trough). Gelombang longitudinal memiliki rapatan (compression) dan renggangan (rarefaction)."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Besaran Gelombang"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Panjang gelombang (λ): jarak antara dua puncak berurutan (meter)",
+                "Cepat rambat gelombang (v): jarak yang ditempuh gelombang per detik (m/s)",
+                "Frekuensi (f): jumlah gelombang yang lewat per detik (Hz)"
               ]
             },
             {
@@ -3117,6 +3507,24 @@
             {
               "type": "highlight",
               "text": "Satuan frekuensi: Hertz (Hz) = getaran per detik"
+            },
+            {
+              "type": "text",
+              "text": "Contoh: Cepat rambat bunyi di udara adalah 340 m/s. Artinya dalam 1 detik, bunyi merambat sejauh 340 meter — lebih cepat dari mobil di jalan tol!"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Penerapan dalam Kehidupan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Sonar: menggunakan gelombang bunyi untuk mendeteksi ikan atau kapal selam di laut",
+                "USG (Ultrasonografi): gelombang ultrasonik untuk memeriksa kandungan",
+                "Radar: gelombang radio untuk mendeteksi pesawat atau cuaca buruk",
+                "Gelombang radio & TV: membawa informasi dari stasiun ke rumahmu"
+              ]
             }
           ]
         }
@@ -3130,7 +3538,7 @@
         {
           "id": "fc2",
           "question": "Apa yang dimaksud periode gelombang?",
-          "answer": "Waktu yang diperlukan untuk satu kali getaran (satuan: sekon)"
+          "answer": "Waktu yang diperlukan untuk satu kali getaran penuh (satuan: sekon)"
         },
         {
           "id": "fc3",
@@ -3140,7 +3548,7 @@
         {
           "id": "fc4",
           "question": "Contoh gelombang longitudinal?",
-          "answer": "Gelombang bunyi, gelombang pada slinky"
+          "answer": "Gelombang bunyi, gelombang pada slinky, gelombang P gempa bumi"
         },
         {
           "id": "fc5",
@@ -3151,6 +3559,26 @@
           "id": "fc6",
           "question": "Satuan frekuensi?",
           "answer": "Hertz (Hz)"
+        },
+        {
+          "id": "fc7",
+          "question": "Apa yang dimaksud amplitudo?",
+          "answer": "Simpangan maksimum dari titik keseimbangan"
+        },
+        {
+          "id": "fc8",
+          "question": "Gelombang membawa apa?",
+          "answer": "Energi, bukan materi"
+        },
+        {
+          "id": "fc9",
+          "question": "Berapa cepat rambat bunyi di udara?",
+          "answer": "Sekitar 340 m/s"
+        },
+        {
+          "id": "fc10",
+          "question": "Apa contoh penerapan gelombang bunyi dalam kehidupan?",
+          "answer": "Sonar, USG, dan ultrasonik"
         }
       ],
       "quiz": {
@@ -3159,12 +3587,7 @@
             "id": "q1",
             "type": "multiple_choice",
             "question": "Gelombang dengan frekuensi 400 Hz dan panjang gelombang 0,5 m. Cepat rambatnya?",
-            "options": [
-              "200 m/s",
-              "400 m/s",
-              "800 m/s",
-              "0,00125 m/s"
-            ],
+            "options": [],
             "answer": 0,
             "explanation": "v = λ × f = 0,5 × 400 = 200 m/s"
           },
@@ -3172,25 +3595,15 @@
             "id": "q2",
             "type": "multiple_choice",
             "question": "Gelombang bunyi termasuk gelombang?",
-            "options": [
-              "Transversal",
-              "Elektromagnetik",
-              "Longitudinal",
-              "Mekanik transversal"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Bunyi adalah gelombang longitudinal karena partikel udara bergetar searah dengan arah rambat bunyi."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
             "question": "Jika periode suatu getaran 0,02 s, maka frekuensinya adalah?",
-            "options": [
-              "50 Hz",
-              "20 Hz",
-              "0,02 Hz",
-              "2 Hz"
-            ],
+            "options": [],
             "answer": 0,
             "explanation": "f = 1/T = 1/0,02 = 50 Hz"
           },
@@ -3198,27 +3611,33 @@
             "id": "q4",
             "type": "multiple_choice",
             "question": "Gelombang cahaya termasuk jenis gelombang?",
-            "options": [
-              "Longitudinal",
-              "Mekanik",
-              "Transversal",
-              "Suara"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Cahaya adalah gelombang transversal dan elektromagnetik."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
             "question": "Cepat rambat gelombang 340 m/s dengan frekuensi 170 Hz. Panjang gelombangnya?",
-            "options": [
-              "2 m",
-              "510 m",
-              "0,5 m",
-              "170 m"
-            ],
+            "options": [],
             "answer": 0,
             "explanation": "λ = v/f = 340/170 = 2 m"
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Sebuah gelombang memiliki periode 0,25 s dan panjang gelombang 5 m. Berapa cepat rambat gelombang tersebut?",
+            "options": [],
+            "answer": 1,
+            "explanation": "v = λ/T = 5/0,25 = 20 m/s"
+          },
+          {
+            "id": "q7",
+            "type": "multiple_choice",
+            "question": "Gelombang air permukaan termasuk gelombang?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Gelombang air permukaan termasuk gelombang transversal karena partikel air bergerak naik-turun (tegak lurus) sedangkan gelombang merambat ke samping."
           }
         ]
       }
@@ -3226,12 +3645,12 @@
     {
       "id": "sistem-reproduksi",
       "title": "Sistem Reproduksi",
-      "description": "Organ reproduksi, penyakit, dan kesehatan reproduksi",
+      "description": "Organ reproduksi, proses fertilisasi, kehamilan, penyakit, dan kesehatan reproduksi untuk siswa SMP",
       "lessons": [
         {
           "id": "reproduksi-materi",
           "title": "Sistem Reproduksi Manusia",
-          "estMinutes": 12,
+          "estMinutes": 18,
           "content": [
             {
               "type": "heading",
@@ -3243,6 +3662,10 @@
               "text": "Organ Reproduksi Laki-laki"
             },
             {
+              "type": "text",
+              "text": "Sistem reproduksi laki-laki terdiri dari organ luar dan dalam. Organ luar meliputi penis dan skrotum (kantung pelindung testis), sedangkan organ dalam berfungsi menghasilkan, mematangkan, dan mengeluarkan sperma."
+            },
+            {
               "type": "table",
               "headers": [
                 "Organ",
@@ -3251,23 +3674,35 @@
               "rows": [
                 [
                   "Testis",
-                  "Menghasilkan sperma dan hormon testosteron"
+                  "Menghasilkan sperma dan hormon testosteron; terletak di dalam skrotum"
                 ],
                 [
                   "Epididimis",
-                  "Pematangan dan penyimpanan sperma"
+                  "Pematangan dan penyimpanan sperma hingga matang"
                 ],
                 [
                   "Vas deferens",
-                  "Saluran sperma menuju uretra"
+                  "Saluran sperma dari epididimis menuju uretra"
+                ],
+                [
+                  "Kelenjar seminalis",
+                  "Menghasilkan cairan kental kaya nutrisi untuk sperma"
                 ],
                 [
                   "Kelenjar prostat",
-                  "Menghasilkan cairan semen"
+                  "Menghasilkan cairan basa yang melindungi sperma dari keasaman vagina"
+                ],
+                [
+                  "Kelenjar bulbouretra",
+                  "Menghasilkan cairan pelincir sebelum ejakulasi"
+                ],
+                [
+                  "Uretra",
+                  "Saluran keluarnya sperma dan urine (tidak bersamaan)"
                 ],
                 [
                   "Penis",
-                  "Organ kopulasi dan saluran urin"
+                  "Organ kopulasi; mengandung jaringan ereksi yang memungkinkan penetrasi"
                 ]
               ]
             },
@@ -3275,6 +3710,10 @@
               "type": "heading",
               "level": 2,
               "text": "Organ Reproduksi Perempuan"
+            },
+            {
+              "type": "text",
+              "text": "Sistem reproduksi perempuan terdiri dari organ luar (vulva) dan dalam. Organ dalam berfungsi menghasilkan sel telur, menerima sperma, dan mengembangkan janin."
             },
             {
               "type": "table",
@@ -3285,20 +3724,41 @@
               "rows": [
                 [
                   "Ovarium",
-                  "Menghasilkan sel telur (ovum) dan hormon estrogen/progesteron"
+                  "Menghasilkan sel telur (ovum) dan hormon estrogen/progesteron; wanita memiliki 2 ovarium"
                 ],
                 [
                   "Tuba fallopi (oviduk)",
-                  "Saluran telur, tempat fertilisasi"
+                  "Saluran telur dari ovarium ke rahim; tempat fertilisasi dan pembelahan awal zigot"
                 ],
                 [
                   "Uterus (rahim)",
-                  "Tempat berkembangnya janin"
+                  "Tempat nidasi (menempelnya zigot) dan berkembangnya janin; memiliki dinding otot tebal"
+                ],
+                [
+                  "Serviks (leher rahim)",
+                  "Pintu masuk uterus; menghasilkan lendir yang berubah konsistensi saat ovulasi"
                 ],
                 [
                   "Vagina",
-                  "Organ kopulasi dan jalan lahir bayi"
+                  "Organ kopulasi, jalan lahir bayi, dan saluran keluarnya menstruasi"
                 ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Proses Fertilisasi dan Perkembangan Janin"
+            },
+            {
+              "type": "text",
+              "text": "Fertilisasi terjadi ketika satu sperma membuahi sel telur di tuba fallopi, membentuk zigot. Zigot bergerak ke uterus sambil membelah diri, lalu menempel pada dinding rahim (nidasi). Perkembangan janin dibagi menjadi tiga trimester:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Trimester 1 (minggu 1-12): Pembentukan organ utama, jantung mulai berdetak, muncul ciri kelamin",
+                "Trimester 2 (minggu 13-24): Janin dapat bergerak aktif, rambut tumbuh, kulit tertutup vernix caseosa",
+                "Trimester 3 (minggu 25-40): Paru-paru matang, janin memposisikan kepala ke bawah, siap lahir"
               ]
             },
             {
@@ -3308,20 +3768,84 @@
             },
             {
               "type": "text",
-              "text": "Siklus menstruasi berlangsung rata-rata 28 hari. Jika sel telur tidak dibuahi, lapisan endometrium luruh sebagai menstruasi."
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Penyakit pada Sistem Reproduksi"
+              "text": "Siklus menstruasi adalah proses persiapan tubuh perempuan untuk kehamilan yang berulang setiap bulan. Rata-rata berlangsung 28 hari, tetapi rentang normal 21-35 hari."
             },
             {
               "type": "list",
               "items": [
-                "Gonore: infeksi bakteri Neisseria gonorrhoeae",
-                "Sifilis: infeksi bakteri Treponema pallidum",
-                "HIV/AIDS: infeksi virus HIV yang menyerang sistem imun",
-                "Kanker serviks: kanker pada leher rahim, disebabkan HPV"
+                "Fase menstruasi (hari 1-5): Lapisan endometrium luruh bersama darah keluar melalui vagina",
+                "Fase folikuler (hari 1-13): Folikel di ovarium matang, estrogen naik, endometrium tebal kembali",
+                "Fase ovulasi (hari 14): Folikel pecah, sel telur matang dilepaskan menuju tuba fallopi",
+                "Fase luteal (hari 15-28): Korpus luteum menghasilkan progesteron; jika tidak dibuahi, hormon turun dan menstruasi terjadi"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Penyakit Menular Seksual (PMS) dan Gangguan Reproduksi"
+            },
+            {
+              "type": "text",
+              "text": "Penyakit pada sistem reproduksi dapat menular melalui hubungan seksual tidak aman atau disebabkan faktor lain. Pencegahan terbaik adalah perilaku hidup bersih dan sehat (PHBS) serta vaksinasi."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Penyakit",
+                "Penyebab",
+                "Gejala Utama",
+                "Pencegahan"
+              ],
+              "rows": [
+                [
+                  "Gonore",
+                  "Bakteri Neisseria gonorrhoeae",
+                  "Keluarnya nanah dari uretra/vagina, nyeri saat kencing",
+                  "Hindari hubungan seks bebas, gunakan kondom"
+                ],
+                [
+                  "Sifilis",
+                  "Bakteri Treponema pallidum",
+                  "Luka tanpa rasa sakit di kelamin, ruam di tubuh",
+                  "Pengobatan dini dengan antibiotik"
+                ],
+                [
+                  "HIV/AIDS",
+                  "Virus HIV",
+                  "Menyerang sistem imun, tubuh rentan infeksi",
+                  "VCT (Voluntary Counseling and Testing), hindari jarum suntik bergantian"
+                ],
+                [
+                  "Kanker serviks",
+                  "Virus HPV (Human Papillomavirus)",
+                  "Pendarahan abnormal, keputihan berbau",
+                  "Vaksin HPV, Pap smear rutin"
+                ],
+                [
+                  "Kandidiasis",
+                  "Jamur Candida albicans",
+                  "Gatal dan keputihan putih kental",
+                  "Jaga kebersihan organ intim, hindari celana terlalu ketat"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kesehatan Reproduksi Remaja"
+            },
+            {
+              "type": "text",
+              "text": "Remaja perlu memahami kesehatan reproduksi untuk menghindari risiko PMS, kehamilan tak diinginkan, dan gangguan psikologis. Berikut tips menjaga kesehatan reproduksi:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Mandi minimal 2 kali sehari dan ganti pakaian dalam setiap hari",
+                "Hindari berganti-ganti pasangan dan hubungan seksual di usia dini",
+                "Lakukan pemeriksaan kesehatan reproduksi secara rutin jika sudah aktif secara seksual",
+                "Konsumsi makanan bergizi dan olahraga teratur untuk keseimbangan hormon",
+                "Jangan ragu berkonsultasi ke dokter atau konselor jika ada keluhan"
               ]
             }
           ]
@@ -3351,12 +3875,42 @@
         {
           "id": "fc5",
           "question": "Fungsi epididimis?",
-          "answer": "Pematangan dan penyimpanan sperma"
+          "answer": "Pematangan dan penyimpanan sperma hingga matang"
         },
         {
           "id": "fc6",
           "question": "Apa itu menstruasi?",
           "answer": "Peluruhan lapisan endometrium rahim karena sel telur tidak dibuahi"
+        },
+        {
+          "id": "fc7",
+          "question": "Hormon apa yang dihasilkan testis?",
+          "answer": "Testosteron"
+        },
+        {
+          "id": "fc8",
+          "question": "Apa yang terbentuk setelah sperma membuahi sel telur?",
+          "answer": "Zigot"
+        },
+        {
+          "id": "fc9",
+          "question": "Virus penyebab kanker serviks?",
+          "answer": "HPV (Human Papillomavirus)"
+        },
+        {
+          "id": "fc10",
+          "question": "Berapa rata-rata lama siklus menstruasi?",
+          "answer": "28 hari (rentang normal 21-35 hari)"
+        },
+        {
+          "id": "fc11",
+          "question": "Apa fungsi kelenjar prostat?",
+          "answer": "Menghasilkan cairan basa yang melindungi sperma dari keasaman vagina"
+        },
+        {
+          "id": "fc12",
+          "question": "Trimester ke berapa janin mulai bergerak aktif dan rambut tumbuh?",
+          "answer": "Trimester kedua (minggu 13-24)"
         }
       ],
       "quiz": {
@@ -3365,66 +3919,65 @@
             "id": "q1",
             "type": "multiple_choice",
             "question": "Tempat terjadinya pembuahan (fertilisasi) pada sistem reproduksi perempuan adalah?",
-            "options": [
-              "Uterus",
-              "Ovarium",
-              "Tuba fallopi",
-              "Vagina"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Fertilisasi terjadi di tuba fallopi ketika sperma bertemu sel telur. Setelah itu, zigot bergerak ke uterus untuk menempel pada dinding rahim."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
             "question": "Organ reproduksi yang menghasilkan sperma adalah?",
-            "options": [
-              "Epididimis",
-              "Testis",
-              "Vas deferens",
-              "Kelenjar prostat"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Testis adalah organ utama yang menghasilkan sperma dan hormon testosteron. Epididimis hanya mematangkan dan menyimpan sperma."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
             "question": "Penyakit kanker serviks disebabkan oleh?",
-            "options": [
-              "Bakteri Neisseria",
-              "Virus HIV",
-              "Virus HPV",
-              "Bakteri Treponema"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Kanker serviks disebabkan oleh infeksi virus HPV (Human Papillomavirus). Pencegahannya dengan vaksinasi HPV dan Pap smear rutin."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
             "question": "Hormon yang dihasilkan oleh testis adalah?",
-            "options": [
-              "Estrogen",
-              "Progesteron",
-              "Testosteron",
-              "Oksitosin"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Testis menghasilkan hormon testosteron yang berperan dalam perkembangan karakteristik seksual sekunder laki-laki."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
             "question": "Jika sel telur tidak dibuahi, yang terjadi adalah?",
-            "options": [
-              "Terjadi fertilisasi",
-              "Sel telur berkembang menjadi embrio",
-              "Lapisan endometrium luruh (menstruasi)",
-              "Ovum menuju uterus dan berkembang"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Jika sel telur tidak dibuahi, kadar hormon estrogen dan progesteron menurun, menyebabkan lapisan endometrium luruh dan keluar sebagai menstruasi."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Fungsi kelenjar prostat adalah?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Kelenjar prostat menghasilkan cairan basa yang melindungi sperma dari lingkungan asam vagina, meningkatkan peluang sperma bertahan hidup."
+          },
+          {
+            "id": "q7",
+            "type": "multiple_choice",
+            "question": "Pada fase manakah sel telur matang dilepaskan dari ovarium?",
+            "options": [],
+            "answer": 2,
+            "explanation": "Fase ovulasi terjadi sekitar hari ke-14 siklus, ketika folikel pecah dan sel telur matang dilepaskan menuju tuba fallopi."
+          },
+          {
+            "id": "q8",
+            "type": "multiple_choice",
+            "question": "Apa yang terbentuk setelah sperma berhasil membuahi sel telur?",
+            "options": [],
+            "answer": 2,
+            "explanation": "Hasil pembuahan sperma dan sel telur disebut zigot. Zigot kemudian membelah diri dan berkembang menjadi embrio, lalu janin."
           }
         ]
       }
@@ -3432,12 +3985,12 @@
     {
       "id": "sistem-saraf",
       "title": "Sistem Saraf",
-      "description": "Bagian saraf, fungsi, dan cara kerja sistem saraf",
+      "description": "Bagian saraf, fungsi, dan cara kerja sistem saraf pada manusia",
       "lessons": [
         {
           "id": "saraf-materi",
           "title": "Sistem Saraf Manusia",
-          "estMinutes": 12,
+          "estMinutes": 15,
           "content": [
             {
               "type": "heading",
@@ -3449,6 +4002,10 @@
               "text": "Sel Saraf (Neuron)"
             },
             {
+              "type": "text",
+              "text": "Neuron adalah unit dasar sistem saraf. Setiap neuron terdiri dari beberapa bagian yang bekerja sama untuk menghantarkan impuls listrik. Impuls ini memungkinkan kita merasakan sentuhan, bergerak, berpikir, dan bereaksi terhadap rangsangan."
+            },
+            {
               "type": "table",
               "headers": [
                 "Bagian Neuron",
@@ -3457,25 +4014,33 @@
               "rows": [
                 [
                   "Dendrit",
-                  "Menerima impuls dari neuron lain atau reseptor"
+                  "Menerima impuls dari neuron lain atau reseptor (ujung saraf yang peka)"
                 ],
                 [
-                  "Badan sel",
-                  "Pusat metabolisme neuron"
+                  "Badan sel (soma)",
+                  "Pusat metabolisme dan pengolahan informasi neuron"
                 ],
                 [
                   "Akson (neurit)",
-                  "Menghantarkan impuls ke neuron lain/efektor"
+                  "Menghantarkan impuls ke neuron lain, otot, atau kelenjar"
                 ],
                 [
                   "Selubung mielin",
-                  "Mempercepat hantaran impuls"
+                  "Lapisan lemak yang melindungi akson dan mempercepat hantaran impuls"
                 ],
                 [
                   "Nodus Ranvier",
-                  "Mempercepat lompatan impuls"
+                  "Celah pada selubung mielin yang memungkinkan impuls \"melompat\" (saltatory conduction)"
+                ],
+                [
+                  "Terminal akson",
+                  "Area ujung akson yang melepaskan neurotransmitter ke sinaps"
                 ]
               ]
+            },
+            {
+              "type": "highlight",
+              "text": "Sinaps adalah celah kecil antara ujung terminal akson satu neuron dengan dendrit neuron berikutnya. Di sinilah impuls listrik diubah menjadi sinyal kimia (neurotransmitter) agar dapat melanjutkan perjalanannya."
             },
             {
               "type": "heading",
@@ -3483,11 +4048,15 @@
               "text": "Jenis Neuron"
             },
             {
+              "type": "text",
+              "text": "Berdasarkan arah hantaran impuls, neuron dibedakan menjadi tiga jenis utama yang bekerja sama membentuk rangkaian refleks dan gerakan sadar."
+            },
+            {
               "type": "list",
               "items": [
-                "Neuron sensorik: membawa impuls dari reseptor ke otak/sumsum tulang belakang",
-                "Neuron motorik: membawa impuls dari otak/sumsum ke efektor (otot/kelenjar)",
-                "Neuron konektor (interneuron): menghubungkan neuron sensorik dan motorik"
+                "Neuron sensorik (afferent): membawa impuls dari reseptor (kulit, mata, telinga) ke sistem saraf pusat (otak/sumsum tulang belakang)",
+                "Neuron motorik (efferent): membawa impuls dari sistem saraf pusat ke efektor (otot dan kelenjar) untuk menghasilkan respons",
+                "Neuron konektor (interneuron/association): berada di sistem saraf pusat, menghubungkan neuron sensorik dan motorik untuk pengolahan informasi"
               ]
             },
             {
@@ -3496,33 +4065,101 @@
               "text": "Susunan Sistem Saraf"
             },
             {
+              "type": "text",
+              "text": "Sistem saraf manusia dibagi dua utama: Sistem Saraf Pusat (SSP) yang berada di dalam tulang dan Sistem Saraf Tepi (SST) yang menyebar ke seluruh tubuh."
+            },
+            {
               "type": "table",
               "headers": [
-                "Sistem Saraf Pusat",
-                "Sistem Saraf Tepi"
+                "Sistem Saraf Pusat (SSP)",
+                "Fungsi",
+                "Sistem Saraf Tepi (SST)",
+                "Fungsi"
               ],
               "rows": [
                 [
-                  "Otak besar (cerebrum): berpikir, ingatan, gerakan sadar",
-                  "Saraf kranial: 12 pasang dari otak"
+                  "Otak besar (cerebrum)",
+                  "Berpikir, memori, bahasa, gerakan sadar",
+                  "Saraf kranial (12 pasang)",
+                  "Menghubungkan otak dengan kepala dan leher"
                 ],
                 [
-                  "Otak kecil (cerebellum): keseimbangan, koordinasi",
-                  "Saraf spinal: 31 pasang dari sumsum"
+                  "Otak kecil (cerebellum)",
+                  "Keseimbangan, koordinasi gerak, tonus otot",
+                  "Saraf spinal (31 pasang)",
+                  "Menghubungkan sumsum tulang belakang dengan tubuh bagian bawah"
                 ],
                 [
-                  "Batang otak: refleks pernapasan, denyut jantung",
-                  "Saraf otonom: simpatik dan parasimpatik"
+                  "Batang otak (pons, medula oblongata)",
+                  "Mengatur refleks pernapasan, denyut jantung, tekanan darah",
+                  "Saraf otonom",
+                  "Mengatur organ dalam secara otomatis (tanpa sadar)"
                 ],
                 [
-                  "Sumsum tulang belakang: gerak refleks",
-                  ""
+                  "Sumsum tulang belakang",
+                  "Jalur hantaran impuls dan pusat gerak refleks",
+                  "Simpatik & Parasimpatik",
+                  "Simpatik: respons \"lawan atau lari\"; Parasimpatik: respons \"istirahat dan pencernaan\""
                 ]
               ]
             },
             {
+              "type": "heading",
+              "level": 2,
+              "text": "Gerak Refleks"
+            },
+            {
+              "type": "text",
+              "text": "Gerak refleks adalah respons otomatis dan cepat terhadap rangsangan tanpa melibatkan pemikiran sadar. Contoh sehari-hari: menarik tangan yang tersentuh api, berkedip saat ada debu di mata, atau lutut bergerak saat dipukul palu refleks."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Rangsang (stimulus) → Reseptor (misal: ujung saraf di kulit)",
+                "Impuls masuk ke saraf sensorik",
+                "Impuls diproses di sumsum tulang belakang (bukan otak!)",
+                "Impuls keluar melalui saraf motorik",
+                "Efektor (otot) merespons dengan kontraksi"
+              ]
+            },
+            {
               "type": "highlight",
-              "text": "Gerak refleks: rangsang → reseptor → saraf sensorik → sumsum tulang belakang → saraf motorik → efektor (tanpa melalui otak)."
+              "text": "Gerak refleks: Rangsang → Reseptor → Saraf sensorik → Sumsum tulang belakang → Saraf motorik → Efektor. Kecepatan ini melindungi tubuh dari bahaya karena tidak perlu menunggu pemrosesan di otak besar."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Perbedaan Gerak Sadar dan Gerak Refleks"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Aspek",
+                "Gerak Sadar",
+                "Gerak Refleks"
+              ],
+              "rows": [
+                [
+                  "Pusat kendali",
+                  "Otak besar (cerebrum)",
+                  "Sumsum tulang belakang"
+                ],
+                [
+                  "Kecepatan",
+                  "Lebih lambat (perlu dipikirkan)",
+                  "Sangat cepat (otomatis)"
+                ],
+                [
+                  "Contoh",
+                  "Menulis, berjalan, bermain bola",
+                  "Menarik tangan dari api, berkedip, refleks lutut"
+                ],
+                [
+                  "Melibatkan otak?",
+                  "Ya",
+                  "Tidak (langsung di sumsum tulang belakang)"
+                ]
+              ]
             }
           ]
         }
@@ -3541,7 +4178,7 @@
         {
           "id": "fc3",
           "question": "Perbedaan neuron sensorik dan motorik?",
-          "answer": "Sensorik: membawa impuls ke otak; Motorik: membawa impuls dari otak ke efektor"
+          "answer": "Sensorik: membawa impuls ke otak/sumsum tulang belakang; Motorik: membawa impuls dari otak/sumsum ke efektor"
         },
         {
           "id": "fc4",
@@ -3556,7 +4193,27 @@
         {
           "id": "fc6",
           "question": "Fungsi selubung mielin?",
-          "answer": "Mempercepat hantaran impuls saraf"
+          "answer": "Melindungi akson dan mempercepat hantaran impuls saraf"
+        },
+        {
+          "id": "fc7",
+          "question": "Apa itu sinaps?",
+          "answer": "Celah kecil antara ujung terminal akson dan dendrit neuron berikutnya, tempat pertukaran sinyal kimia (neurotransmitter)"
+        },
+        {
+          "id": "fc8",
+          "question": "Berapa pasang saraf kranial dan saraf spinal manusia?",
+          "answer": "12 pasang saraf kranial dan 31 pasang saraf spinal"
+        },
+        {
+          "id": "fc9",
+          "question": "Apa fungsi saraf otonom simpatik?",
+          "answer": "Mengatur respons \"lawan atau lari\" saat tubuh dalam keadaan waspada atau stres"
+        },
+        {
+          "id": "fc10",
+          "question": "Mengapa gerak refleks lebih cepat dari gerak sadar?",
+          "answer": "Karena tidak melalui otak besar, langsung diproses di sumsum tulang belakang"
         }
       ],
       "quiz": {
@@ -3565,66 +4222,65 @@
             "id": "q1",
             "type": "multiple_choice",
             "question": "Bagian otak yang mengatur keseimbangan dan koordinasi gerak adalah?",
-            "options": [
-              "Otak besar",
-              "Otak kecil",
-              "Batang otak",
-              "Sumsum tulang belakang"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Otak kecil (cerebellum) berfungsi mengatur keseimbangan, koordinasi gerak, dan tonus otot. Jika rusak, seseorang akan kesulitan berjalan tegak."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
             "question": "Gerak refleks berbeda dari gerak biasa karena?",
-            "options": [
-              "Melibatkan otak besar",
-              "Tidak melibatkan sistem saraf",
-              "Melalui sumsum tulang belakang tanpa melalui otak",
-              "Dikendalikan oleh kehendak"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Gerak refleks diproses langsung di sumsum tulang belakang tanpa melalui otak besar, sehingga responsnya sangat cepat untuk melindungi tubuh dari bahaya."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
             "question": "Neuron yang membawa impuls dari reseptor ke otak disebut?",
-            "options": [
-              "Neuron motorik",
-              "Interneuron",
-              "Neuron sensorik",
-              "Neuron otonom"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Neuron sensorik (afferent) membawa impuls dari reseptor (kulit, mata, telinga) menuju sistem saraf pusat (otak atau sumsum tulang belakang)."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
             "question": "Fungsi akson pada neuron adalah?",
-            "options": [
-              "Menerima rangsang dari lingkungan",
-              "Menghantarkan impuls ke neuron lain atau efektor",
-              "Menyimpan energi",
-              "Menghasilkan selubung mielin"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Akson adalah serat panjang yang menghantarkan impuls listrik dari badan sel ke neuron lain, otot, atau kelenjar. Selubung mielin dihasilkan oleh sel Schwann, bukan akson."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
             "question": "Otak besar (cerebrum) berfungsi untuk?",
-            "options": [
-              "Mengatur keseimbangan",
-              "Mengatur refleks pernapasan",
-              "Berpikir, ingatan, dan gerakan sadar",
-              "Gerak refleks"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Otak besar (cerebrum) adalah pusat aktivitas sadar seperti berpikir, berbicara, mengingat, dan menggerakkan otot secara sadar."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Apa yang terjadi di sinaps?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Di sinaps, impuls listrik diubah menjadi sinyal kimia berupa neurotransmitter yang melewati celah sinaptik, lalu diubah kembali menjadi impuls listrik di neuron penerima."
+          },
+          {
+            "id": "q7",
+            "type": "multiple_choice",
+            "question": "Saraf otonom terdiri dari?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Saraf otonom dibagi menjadi sistem simpatik (respons \"lawan atau lari\") dan parasimpatik (respons \"istirahat dan pencernaan\") yang mengatur organ dalam secara otomatis."
+          },
+          {
+            "id": "q8",
+            "type": "multiple_choice",
+            "question": "Contoh gerak refleks yang benar adalah?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Menarik tangan dari api adalah gerak refleks otomatis yang melindungi tubuh dari luka bakar tanpa perlu dipikirkan terlebih dahulu."
           }
         ]
       }
@@ -3632,16 +4288,20 @@
     {
       "id": "tekanan",
       "title": "Tekanan",
-      "description": "Hukum Pascal, tekanan hidrostatis, dan aplikasinya",
+      "description": "Hukum Pascal, tekanan hidrostatis, Hukum Archimedes, dan aplikasinya dalam kehidupan sehari-hari",
       "lessons": [
         {
           "id": "tekanan-materi",
-          "title": "Tekanan pada Zat",
-          "estMinutes": 12,
+          "title": "Tekanan pada Zat Padat dan Cair",
+          "estMinutes": 15,
           "content": [
             {
               "type": "heading",
               "text": "Tekanan"
+            },
+            {
+              "type": "text",
+              "text": "Tekanan adalah besaran yang menyatakan gaya yang bekerja tegak lurus pada suatu bidang per satuan luasnya. Konsep ini berlaku pada zat padat, cair, maupun gas."
             },
             {
               "type": "math",
@@ -3650,12 +4310,25 @@
             },
             {
               "type": "text",
-              "text": "P = tekanan (Pa/N/m²), F = gaya (N), A = luas bidang tekan (m²)"
+              "text": "P = tekanan (Pa atau N/m²), F = gaya tegak lurus (N), A = luas bidang tekan (m²). Semakin kecil luas bidang tekan, semakin besar tekanannya — itulah sebabnya ujung paku dibuat runcing agar mudah menancap."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tekanan Zat Padat"
+            },
+            {
+              "type": "text",
+              "text": "Pada zat padat, tekanan bergantung pada gaya dan luas bidang tekan. Contoh: balok yang diletakkan dengan sisi terkecil sebagai alas akan memberikan tekanan lebih besar dibanding sisi terbesar."
             },
             {
               "type": "heading",
               "level": 2,
               "text": "Tekanan Hidrostatis"
+            },
+            {
+              "type": "text",
+              "text": "Tekanan hidrostatis adalah tekanan yang timbul di dalam zat cair akibat berat zat cair itu sendiri. Tekanan ini bergantung pada massa jenis zat cair, percepatan gravitasi, dan kedalaman dari permukaan zat cair."
             },
             {
               "type": "math",
@@ -3664,11 +4337,20 @@
             },
             {
               "type": "text",
-              "text": "ρ = massa jenis zat cair (kg/m³), g = gravitasi (10 m/s²), h = kedalaman (m)"
+              "text": "ρ = massa jenis zat cair (kg/m³), g = percepatan gravitasi (10 m/s²), h = kedalaman dari permukaan (m)."
             },
             {
               "type": "highlight",
-              "text": "Tekanan hidrostatis semakin besar seiring bertambahnya kedalaman."
+              "text": "Tekanan hidrostatis semakin besar seiring bertambahnya kedalaman — makanya dinding bendungan bagian bawah selalu dibuat lebih tebal!"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Hukum Pokok Hidrostatika"
+            },
+            {
+              "type": "text",
+              "text": "Semua titik yang berada pada kedalaman yang sama dalam satu jenis zat cair memiliki tekanan hidrostatis yang sama besar. Prinsip ini menjelaskan mengapa permukaan air dalam bejana berhubungan selalu setinggi, meski bentuk bejana berbeda-beda."
             },
             {
               "type": "heading",
@@ -3677,7 +4359,7 @@
             },
             {
               "type": "text",
-              "text": "Tekanan yang diberikan pada zat cair dalam ruang tertutup diteruskan ke segala arah dengan sama besar."
+              "text": "Tekanan yang diberikan pada zat cair dalam ruang tertutup akan diteruskan ke segala arah dengan sama besar."
             },
             {
               "type": "math",
@@ -3686,7 +4368,7 @@
             },
             {
               "type": "text",
-              "text": "Aplikasi: dongkrak hidrolik, rem cakram, mesin press hidrolik."
+              "text": "Aplikasi: dongkrak hidrolik, rem cakram, mesin press hidrolik, dan kursi dokter gigi. Prinsipnya: gaya kecil di penampang kecil bisa menghasilkan gaya besar di penampang besar."
             },
             {
               "type": "heading",
@@ -3695,15 +4377,28 @@
             },
             {
               "type": "text",
-              "text": "Benda yang dicelupkan ke dalam zat cair akan mendapat gaya apung sebesar berat zat cair yang dipindahkan."
+              "text": "Benda yang dicelupkan sebagian atau seluruhnya ke dalam zat cair akan mendapat gaya apung ke atas sebesar berat zat cair yang dipindahkan."
+            },
+            {
+              "type": "math",
+              "tex": "F_A = \\rho_{cair} \\times g \\times V_{celup}",
+              "display": true
+            },
+            {
+              "type": "text",
+              "text": "Berdasarkan perbandingan massa jenis benda (ρb) dan massa jenis zat cair (ρf):"
             },
             {
               "type": "list",
               "items": [
-                "Terapung: massa jenis benda < massa jenis zat cair",
-                "Melayang: massa jenis benda = massa jenis zat cair",
-                "Tenggelam: massa jenis benda > massa jenis zat cair"
+                "Terapung: ρb < ρf (gaya apung > berat benda) → contoh: gabus di air",
+                "Melayang: ρb = ρf (gaya apung = berat benda) → contoh: telur di air garam",
+                "Tenggelam: ρb > ρf (gaya apung < berat benda) → contoh: batu di air"
               ]
+            },
+            {
+              "type": "text",
+              "text": "Aplikasi Hukum Archimedes: kapal laut, kapal selam, hydrometer, dan balon udara."
             }
           ]
         }
@@ -3711,33 +4406,68 @@
       "flashcards": [
         {
           "id": "fc1",
+          "question": "Rumus tekanan umum?",
+          "answer": "P = F/A (gaya dibagi luas bidang tekan)"
+        },
+        {
+          "id": "fc2",
+          "question": "Satuan tekanan dalam SI?",
+          "answer": "Pascal (Pa) atau N/m²"
+        },
+        {
+          "id": "fc3",
           "question": "Rumus tekanan hidrostatis?",
           "answer": "Ph = ρ × g × h (massa jenis × gravitasi × kedalaman)"
         },
         {
-          "id": "fc2",
+          "id": "fc4",
+          "question": "Mengapa dinding bendungan bagian bawah lebih tebal?",
+          "answer": "Karena tekanan hidrostatis semakin besar di kedalaman yang lebih dalam"
+        },
+        {
+          "id": "fc5",
+          "question": "Bunyi Hukum Pokok Hidrostatika?",
+          "answer": "Semua titik pada kedalaman sama dalam satu zat cair memiliki tekanan hidrostatis sama besar"
+        },
+        {
+          "id": "fc6",
           "question": "Bunyi Hukum Pascal?",
           "answer": "Tekanan dalam zat cair tertutup diteruskan ke segala arah sama besar"
         },
         {
-          "id": "fc3",
-          "question": "Rumus tekanan umum?",
-          "answer": "P = F/A (gaya dibagi luas bidang)"
+          "id": "fc7",
+          "question": "Rumus Hukum Pascal pada dongkrak hidrolik?",
+          "answer": "F1/A1 = F2/A2"
         },
         {
-          "id": "fc4",
+          "id": "fc8",
           "question": "Contoh penerapan Hukum Pascal?",
-          "answer": "Dongkrak hidrolik, rem cakram, mesin press hidrolik"
+          "answer": "Dongkrak hidrolik, rem cakram, mesin press hidrolik, kursi dokter gigi"
         },
         {
-          "id": "fc5",
+          "id": "fc9",
+          "question": "Bunyi Hukum Archimedes?",
+          "answer": "Gaya apung = berat zat cair yang dipindahkan oleh benda"
+        },
+        {
+          "id": "fc10",
+          "question": "Kapan benda terapung di dalam zat cair?",
+          "answer": "Ketika massa jenis benda lebih kecil dari massa jenis zat cair"
+        },
+        {
+          "id": "fc11",
           "question": "Kapan benda melayang di dalam zat cair?",
           "answer": "Ketika massa jenis benda sama dengan massa jenis zat cair"
         },
         {
-          "id": "fc6",
-          "question": "Apa yang terjadi pada tekanan hidrostatis saat kedalaman bertambah?",
-          "answer": "Tekanan hidrostatis semakin besar"
+          "id": "fc12",
+          "question": "Kapan benda tenggelam di dalam zat cair?",
+          "answer": "Ketika massa jenis benda lebih besar dari massa jenis zat cair"
+        },
+        {
+          "id": "fc13",
+          "question": "Contoh aplikasi Hukum Archimedes?",
+          "answer": "Kapal laut, kapal selam, hydrometer, balon udara"
         }
       ],
       "quiz": {
@@ -3745,67 +4475,66 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Tekanan hidrostatis pada kedalaman 5 m (ρ air = 1000 kg/m³, g = 10 m/s²) adalah?",
-            "options": [
-              "500 Pa",
-              "5000 Pa",
-              "50000 Pa",
-              "50 Pa"
-            ],
-            "answer": 2,
-            "explanation": "Ph = ρ × g × h = 1000 × 10 × 5 = 50.000 Pa"
+            "question": "Sebuah balok bermassa 24 kg diletakkan di atas lantai dengan sisi alas 0,5 m × 1 m. Jika g = 10 m/s², berapa tekanan balok terhadap lantai?",
+            "options": [],
+            "answer": 1,
+            "explanation": "F = m × g = 24 × 10 = 240 N. A = 0,5 × 1 = 0,5 m². P = F/A = 240/0,5 = 480 Pa."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Dongkrak hidrolik bekerja berdasarkan?",
-            "options": [
-              "Hukum Archimedes",
-              "Hukum Newton",
-              "Hukum Pascal",
-              "Hukum Boyle"
-            ],
+            "question": "Tekanan hidrostatis pada kedalaman 5 m di dalam air (ρ = 1000 kg/m³, g = 10 m/s²) adalah?",
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Ph = ρ × g × h = 1000 × 10 × 5 = 50.000 Pa"
           },
           {
             "id": "q3",
             "type": "multiple_choice",
-            "question": "Benda terapung jika?",
-            "options": [
-              "Massa jenis benda lebih besar dari zat cair",
-              "Massa jenis benda sama dengan zat cair",
-              "Massa jenis benda lebih kecil dari zat cair",
-              "Berat benda lebih besar dari gaya apung"
-            ],
+            "question": "Dongkrak hidrolik bekerja berdasarkan?",
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Dongkrak hidrolik memanfaatkan Hukum Pascal: tekanan diteruskan sama besar ke segala arah dalam zat cair tertutup."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Pada dongkrak hidrolik, luas penampang kecil 10 cm² dan besar 100 cm². Jika gaya input 50 N, gaya output adalah?",
-            "options": [
-              "5 N",
-              "500 N",
-              "50 N",
-              "5000 N"
-            ],
-            "answer": 1,
-            "explanation": "F2/A2 = F1/A1 → F2 = F1 × (A2/A1) = 50 × (100/10) = 500 N"
+            "question": "Benda terapung jika?",
+            "options": [],
+            "answer": 2,
+            "explanation": "Benda terapung ketika massa jenis benda < massa jenis zat cair, sehingga gaya apung lebih besar dari berat benda."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
-            "question": "Semakin dalam suatu titik dalam zat cair, tekanan hidrostatis yang dialami?",
-            "options": [
-              "Semakin kecil",
-              "Tetap sama",
-              "Semakin besar",
-              "Tidak menentu"
-            ],
+            "question": "Pada dongkrak hidrolik, luas penampang kecil 10 cm² dan besar 100 cm². Jika gaya input 50 N, gaya output adalah?",
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "F2 = F1 × (A2/A1) = 50 × (100/10) = 500 N"
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Semakin dalam suatu titik dalam zat cair, tekanan hidrostatis yang dialami?",
+            "options": [],
+            "answer": 2,
+            "explanation": "Sesuai rumus Ph = ρgh, tekanan hidrostatis berbanding lurus dengan kedalaman (h)."
+          },
+          {
+            "id": "q7",
+            "type": "multiple_choice",
+            "question": "Mengapa ujung paku dibuat runcing?",
+            "options": [],
+            "answer": 2,
+            "explanation": "Ujung runcing memperkecil luas bidang tekan (A), sehingga tekanan (P = F/A) menjadi lebih besar dan paku mudah menancap."
+          },
+          {
+            "id": "q8",
+            "type": "multiple_choice",
+            "question": "Kapal laut terbuat dari baja yang massa jenisnya lebih besar dari air, tetapi bisa terapung karena?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Lambung kapal berongga memperbesar volume air yang dipindahkan, sehingga gaya apung besar enough untuk menahan berat kapal (Hukum Archimedes)."
           }
         ]
       }
