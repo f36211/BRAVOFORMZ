@@ -14,7 +14,6 @@
       "id": "jenis-paragraf",
       "title": "Jenis-Jenis Paragraf",
       "description": "Deduktif, induktif, campuran, dan ineratif",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "struktur-paragraf",
@@ -128,7 +127,8 @@
               "Campuran",
               "Ineratif"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -140,7 +140,8 @@
               "Khusus → khusus",
               "Umum → umum"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q3",
@@ -152,7 +153,8 @@
               "Campuran",
               "Ineratif"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q4",
@@ -177,7 +179,8 @@
               "Cari kalimat pertama saja",
               "Cari kalimat yang berisi data"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -186,7 +189,6 @@
       "id": "konjungsi",
       "title": "Konjungsi",
       "description": "Kata penghubung intra kalimat dan antar kalimat",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "jenis-konjungsi",
@@ -284,7 +286,8 @@
               "bahkan",
               "karena"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -296,7 +299,8 @@
               "Pilihan",
               "Waktu"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q3",
@@ -308,7 +312,8 @@
               "Dia belajar keras karena ingin lulus.",
               "Dengan demikian, masalah selesai."
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q4",
@@ -320,7 +325,8 @@
               "Antar kalimat pertentangan",
               "Antar kalimat urutan"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -329,7 +335,6 @@
       "id": "teks-prosedur",
       "title": "Teks Prosedur",
       "description": "Struktur, ciri kebahasaan, dan konversi teks prosedur",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "struktur-prosedur",
@@ -446,7 +451,8 @@
               "kemudian",
               "atau"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q3",
@@ -458,7 +464,8 @@
               "Kisah Bunga Ajaib",
               "Bunga yang Mekar"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q4",
@@ -470,7 +477,8 @@
               "Pot, tanah, air, sekop mini, dan biji bunga",
               "Pot, tanah, air, pacul, dan biji bunga"
             ],
-            "answer": 0
+            "answer": 0,
+            "explanation": ""
           }
         ]
       }
@@ -479,7 +487,6 @@
       "id": "fakta-opini",
       "title": "Fakta dan Opini",
       "description": "Membedakan kalimat fakta, opini, dan asumsi",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "fakta-opini",
@@ -583,7 +590,8 @@
               "Menurutku, dia cantik.",
               "Seharusnya dia datang."
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -595,7 +603,8 @@
               "Nama tempat",
               "Angka"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q3",
@@ -607,7 +616,8 @@
               "(1) dan (4)",
               "(1) dan (2)"
             ],
-            "answer": 3
+            "answer": 3,
+            "explanation": ""
           },
           {
             "id": "q4",
@@ -619,7 +629,8 @@
               "Asumsi",
               "Deskripsi"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -628,7 +639,6 @@
       "id": "puisi",
       "title": "Puisi",
       "description": "Unsur puisi, majas, dan makna puisi",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "unsur-puisi",
@@ -781,7 +791,8 @@
               "Nada",
               "Amanat"
             ],
-            "answer": 3
+            "answer": 3,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -793,7 +804,8 @@
               "Hiperbola",
               "Litotes"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q3",
@@ -805,7 +817,8 @@
               "Rembulan yang terang cahayanya",
               "Rembulan yang datang di tiap malam"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q4",
@@ -817,7 +830,8 @@
               "Gurindam",
               "Haiku"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q5",
@@ -829,7 +843,8 @@
               "Hamba yang tidak pernah sholat hingga akhir hayat",
               "Kehidupan manusia yang diibaratkan sajadah panjang"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -838,7 +853,6 @@
       "id": "teks-berita",
       "title": "Teks Berita",
       "description": "Unsur berita, struktur, dan kata baku",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "unsur-berita",
@@ -994,7 +1008,8 @@
               "Where",
               "Why"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -1006,7 +1021,8 @@
               "apotek",
               "nasehat"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q3",
@@ -1018,7 +1034,8 @@
               "Tubuh berita",
               "Ekor berita"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q4",
@@ -1030,7 +1047,8 @@
               "Penyebab/alasan",
               "Kronologi kejadian"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -1039,7 +1057,6 @@
       "id": "kata-serapan",
       "title": "Kata Serapan",
       "description": "Kata serapan dari bahasa asing dan daerah",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "asal-kata",
@@ -1186,7 +1203,8 @@
               "umat",
               "televisi"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -1198,7 +1216,8 @@
               "Belanda",
               "Portugis"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q3",
@@ -1210,7 +1229,8 @@
               "internasional, universitas, globalisasi, dan gitalisasi",
               "internasional, globalisasi, gitalisasi, dan registrasi"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q4",
@@ -1222,7 +1242,8 @@
               "Inggris",
               "Arab"
             ],
-            "answer": 3
+            "answer": 3,
+            "explanation": ""
           }
         ]
       }
@@ -1231,7 +1252,6 @@
       "id": "teks-narasi-cerpen",
       "title": "Teks Narasi dan Cerpen",
       "description": "Unsur intrinsik, sudut pandang, dan watak tokoh dalam teks narasi/cerpen",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "unsur-narasi",
@@ -1358,7 +1378,8 @@
               "Orang ketiga tunggal",
               "Orang ketiga jamak"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -1370,7 +1391,8 @@
               "Paragraf yang menjelaskan harapan tokoh",
               "Paragraf yang menjelaskan asal biji bunga"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q3",
@@ -1382,7 +1404,8 @@
               "Orang ketiga tunggal",
               "Orang ketiga jamak"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q4",
@@ -1394,7 +1417,8 @@
               "Pesan moral yang disampaikan pengarang",
               "Tempat dan waktu cerita"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -1403,7 +1427,6 @@
       "id": "teks-eksplanasi",
       "title": "Teks Eksplanasi",
       "description": "Struktur, jenis fenomena, dan ciri teks eksplanasi",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "struktur-eksplanasi",
@@ -1527,7 +1550,8 @@
               "Identifikasi fenomena",
               "Interpretasi atau kesimpulan"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -1539,7 +1563,8 @@
               "Budaya",
               "Ekonomi"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q3",
@@ -1551,7 +1576,8 @@
               "Budaya",
               "Ekonomi"
             ],
-            "answer": 0
+            "answer": 0,
+            "explanation": ""
           },
           {
             "id": "q4",
@@ -1563,7 +1589,8 @@
               "Identifikasi fenomena",
               "Interpretasi"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -1572,7 +1599,6 @@
       "id": "teks-argumentasi",
       "title": "Teks Argumentasi",
       "description": "Pendapat pro-kontra dan teks argumentasi dalam infografis",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "pro-kontra",
@@ -1673,7 +1699,8 @@
               "Kegiatan itu hanya menambah waktu saja",
               "Kegiatan itu kurang efektif karena belajar tidak hanya melalui membaca"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -1685,7 +1712,8 @@
               "Game online dapat menjadi sumber paparan konten tidak pantas dan cyberbullying",
               "Game online mengembangkan keterampilan strategi dan kerja sama"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q3",
@@ -1697,7 +1725,8 @@
               "Simpulan akhir",
               "Data statistik"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -1706,7 +1735,6 @@
       "id": "teks-rekon",
       "title": "Teks Rekon",
       "description": "Struktur dan kosakata teks rekon (biografi/autobiografi)",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "struktur-rekon",
@@ -1803,7 +1831,8 @@
               "Orientasi",
               "Konflik"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -1815,7 +1844,8 @@
               "Pendidikan Chairil Anwar",
               "Riwayat muda Chairil Anwar"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q3",
@@ -1827,7 +1857,8 @@
               "masa purba, pada zaman dulu",
               "besok, akan, nanti"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -1836,7 +1867,6 @@
       "id": "teks-deskripsi",
       "title": "Teks Deskripsi",
       "description": "Memahami isi, kohesi, dan koherensi teks deskripsi",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "teks-deskripsi",
@@ -1924,7 +1954,8 @@
               "(3) dan (4)",
               "(4) dan (5)"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -1936,7 +1967,8 @@
               "Bahkan mereka menghina beliau... batu-batu mengenai tubuh sang rasul hingga berdarah",
               "Rasulullah ditolak keras oleh suku Tsaqif, bahkan mereka menghina beliau dan melemparinya dengan batu"
             ],
-            "answer": 3
+            "answer": 3,
+            "explanation": ""
           },
           {
             "id": "q3",
@@ -1948,7 +1980,8 @@
               "Deskripsi berisi langkah-langkah, eksposisi berisi cerita",
               "Keduanya sama saja"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -1957,7 +1990,6 @@
       "id": "buku-fiksi-nonfiksi",
       "title": "Buku Fiksi dan Nonfiksi",
       "description": "Bagian-bagian buku dan cara menanggapi isi buku",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "buku-fiksi-nonfiksi",
@@ -2071,7 +2103,8 @@
               "Kelebihan buku",
               "Kekurangan buku"
             ],
-            "answer": 3
+            "answer": 3,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -2083,7 +2116,8 @@
               "Biografi pahlawan",
               "Novel"
             ],
-            "answer": 3
+            "answer": 3,
+            "explanation": ""
           },
           {
             "id": "q3",
@@ -2095,7 +2129,8 @@
               "Indeks",
               "Daftar isi"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }

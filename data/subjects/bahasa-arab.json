@@ -14,7 +14,6 @@
       "id": "perkenalan",
       "title": "التَّعَارُف — Perkenalan",
       "description": "Kelas VII Ganjil | C1 — Memperkenalkan diri dengan pelafalan dan intonasi yang tepat",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "perkenalan-diri",
@@ -161,7 +160,8 @@
               "اِسْمُهُ",
               "اِسْمُهَا"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "perk-q2",
@@ -173,7 +173,8 @@
               "مَرْحَبًا بِكَ",
               "عَفْوًا"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "perk-q3",
@@ -185,7 +186,8 @@
               "هُوَ مِنْ جَاكَرْتَا",
               "هِيَ مِنْ جَاكَرْتَا"
             ],
-            "answer": 0
+            "answer": 0,
+            "explanation": ""
           }
         ]
       }
@@ -194,7 +196,6 @@
       "id": "isim-mudzakkar-muannats",
       "title": "اِسْمُ الْمُذَكَّرِ وَالْمُؤَنَّث — Isim Mudzakkar & Muannats",
       "description": "Kelas VII Ganjil | C1 — Memahami konsep kata benda jenis mudzakkar dan muannats",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "mudzakkar-muannats",
@@ -346,7 +347,8 @@
               "أَبٌ — أُخْتٌ",
               "وَلَدٌ — جَدَّةٌ"
             ],
-            "answer": 0
+            "answer": 0,
+            "explanation": ""
           },
           {
             "id": "mm-q2",
@@ -358,7 +360,8 @@
               "مُهَنْدِسٌ",
               "كَاتِبٌ"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "mm-q3",
@@ -370,7 +373,8 @@
               "طَالِبَةٌ",
               "وَلَدٌ"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -379,7 +383,6 @@
       "id": "keluarga",
       "title": "أُسْرَةٌ — Keluarga",
       "description": "Kelas VII Ganjil | C1 — Mengidentifikasi bunyi ujaran wacana lisan tentang keluarga",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "anggota-keluarga",
@@ -527,7 +530,8 @@
               "هَذَا جَدِّي",
               "هَذِهِ بِنْتِي"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "kel-q2",
@@ -539,7 +543,8 @@
               "عَمَّةٌ",
               "خَالَةٌ"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "kel-q3",
@@ -551,7 +556,8 @@
               "جَدَّتِي",
               "عَمَّتِي"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -560,7 +566,6 @@
       "id": "kata-ganti-tunjuk",
       "title": "أَسْمَاءُ الْإِشَارَة — Kata Ganti & Tunjuk",
       "description": "Kelas VII Ganjil | C1 — Memahami kata ganti dan kata tunjuk (isim isyaroh) serta membedakan mudzakkar dan muannatsnya",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "isim-isyarah",
@@ -662,7 +667,8 @@
               "هَذِهِ مَدْرَسَةٌ",
               "ذَلِكَ نَافِذَةٌ"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "kgt-q2",
@@ -674,7 +680,8 @@
               "تِلْكَ كِتَابٌ",
               "هَذِهِ كِتَابٌ"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "kgt-q3",
@@ -686,7 +693,8 @@
               "تِلْكَ",
               "هَذِهِ"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -695,7 +703,6 @@
       "id": "angka-1-10",
       "title": "عَدَدٌ تَرْتِيْبِيٌّ — Bilangan Bertingkat 1-10",
       "description": "Kelas VII Genap | C2 — Menyebutkan bilangan urut (bertingkat) dari 1-10",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "bilangan-1-10",
@@ -873,7 +880,8 @@
               "4",
               "5"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "ang-q2",
@@ -885,7 +893,8 @@
               "سَادِسٌ",
               "سَابِعٌ"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "ang-q3",
@@ -897,7 +906,8 @@
               "10",
               "11"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -906,7 +916,6 @@
       "id": "keterangan-tempat",
       "title": "ظَرْفُ الْمَكَان — Keterangan Tempat",
       "description": "Kelas VII Genap | C3 — Memahami penggunaan zhorof makaan / keterangan tempat",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "zhorof-makaan",
@@ -1038,7 +1047,8 @@
               "الْقَلَمُ تَحْتَ الْحَقِيبَةِ",
               "الْقَلَمُ أَمَامَ الْحَقِيبَةِ"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "zm-q2",
@@ -1050,7 +1060,8 @@
               "أَمَامَ",
               "عَلَى"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "zm-q3",
@@ -1062,7 +1073,8 @@
               "Menjadi Kasrah (Majrur)",
               "Tetap sama"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -1071,7 +1083,6 @@
       "id": "fiil-mudhori",
       "title": "فِعْلُ الْمُضَارِع — Kata Kerja Sekarang",
       "description": "Kelas VII Genap | C2 — Memahami, mengidentifikasi, dan menggunakan fi'il mudhori' dengan tepat dalam kalimat sederhana",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "fiil-mudhori",
@@ -1207,7 +1218,8 @@
               "يَكْتُبُ",
               "كَتَبَ"
             ],
-            "answer": 0
+            "answer": 0,
+            "explanation": ""
           },
           {
             "id": "fm-q2",
@@ -1219,7 +1231,8 @@
               "Belajar",
               "Bermain"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "fm-q3",
@@ -1231,7 +1244,8 @@
               "Fi'il amr",
               "Isim fa'il"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -1240,7 +1254,6 @@
       "id": "waktu-jam",
       "title": "السَّاعَة — Waktu & Jam",
       "description": "Kelas VIII Ganjil | C2 — Menyebutkan bilangan bertingkat muannats 1-12 dan pengaplikasiannya dalam jam/waktu",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "jam-arab",
@@ -1377,7 +1390,8 @@
               "5",
               "6"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "wj-q2",
@@ -1389,7 +1403,8 @@
               "التَّاسِعَةُ",
               "الْعَاشِرَةُ"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "wj-q3",
@@ -1401,7 +1416,8 @@
               "Menanyakan tempat",
               "Menanyakan umur"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -1410,7 +1426,6 @@
       "id": "profesi",
       "title": "الْمِهْنَة — Profesi",
       "description": "Kelas VIII Ganjil | C2 — Mengklasifikasikan pekerjaan, tempat kerja dan pekerjaan yang dilakukan",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "pekerjaan",
@@ -1544,7 +1559,8 @@
               "شَرِكَةٌ",
               "سُوقٌ"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "prof-q2",
@@ -1556,7 +1572,8 @@
               "شَرِكَةٌ",
               "حَقْلٌ"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "prof-q3",
@@ -1568,7 +1585,8 @@
               "شُرْطَةٌ",
               "شُرْطِيَّانِ"
             ],
-            "answer": 0
+            "answer": 0,
+            "explanation": ""
           }
         ]
       }
@@ -1577,7 +1595,6 @@
       "id": "hobi",
       "title": "الْهِوَايَات — Hobi",
       "description": "Kelas VIII Genap | C1 — Mengidentifikasi bunyi ujaran wacana lisan tentang hobi",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "macam-hobi",
@@ -1710,7 +1727,8 @@
               "Hobi dia",
               "Hobi kami"
             ],
-            "answer": 0
+            "answer": 0,
+            "explanation": ""
           },
           {
             "id": "hob-q2",
@@ -1722,7 +1740,8 @@
               "Memasak",
               "Menggambar"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "hob-q3",
@@ -1734,7 +1753,8 @@
               "رَسْمٌ",
               "سِبَاحَةٌ"
             ],
-            "answer": 0
+            "answer": 0,
+            "explanation": ""
           }
         ]
       }
@@ -1743,7 +1763,6 @@
       "id": "jumlah-fi-iliyah",
       "title": "جُمْلَةٌ فِعْلِيَّةٌ — Jumlah Fi'liyah",
       "description": "Kelas VIII Genap | C2 — Memahami, mengidentifikasi, dan menyusun jumlah fi'liyah dengan struktur yang benar",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "jumlah-fiiliyah",
@@ -1839,7 +1858,8 @@
               "Harf",
               "Mubtada'"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "jf-q2",
@@ -1851,7 +1871,8 @@
               "Maf'ul",
               "Khabar"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "jf-q3",
@@ -1863,7 +1884,8 @@
               "الْكِتَابَ",
               "الطَّالِبُ الْكِتَابَ"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -1872,7 +1894,6 @@
       "id": "jual-beli",
       "title": "الْبَيْعُ وَالشِّرَاء — Jual Beli",
       "description": "Kelas VIII Genap | C3 — Menggunakan ungkapan dalam percakapan jual beli dan menyebutkan mata uang dalam konteks sederhana",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "percakapan-jual-beli",
@@ -2005,7 +2026,8 @@
               "Di mana tempatnya?",
               "Kapan waktunya?"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "jb-q2",
@@ -2017,7 +2039,8 @@
               "جَيِّدٌ",
               "قَدِيمٌ"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "jb-q3",
@@ -2029,7 +2052,8 @@
               "Saya ingin buku ini",
               "Saya jual buku ini"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -2038,7 +2062,6 @@
       "id": "idhofah",
       "title": "الْإِضَافَة — Idhofah",
       "description": "Kelas IX Ganjil | C2 — Memahami dan menggunakan struktur idhofah dengan tepat dalam kalimat sederhana",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "struktur-idhofah",
@@ -2158,7 +2181,8 @@
               "Maf'ul",
               "Fa'il"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "idh-q2",
@@ -2170,7 +2194,8 @@
               "Selalu majrur (kasrah)",
               "Selalu marfu'"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "idh-q3",
@@ -2182,7 +2207,8 @@
               "Guru murid",
               "Guru kelas"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -2191,7 +2217,6 @@
       "id": "huruf-jar",
       "title": "حُرُوفُ الْجَرّ — Huruf Jar",
       "description": "Kelas IX Ganjil | C3 — Memahami konsep adawaatu jarr (huruf jar) dan penggunaannya",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "adawaatu-jarr",
@@ -2332,7 +2357,8 @@
               "كَ",
               "مِنْ"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "hj-q2",
@@ -2344,7 +2370,8 @@
               "Majrur (kasrah)",
               "Jazm (sukun)"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "hj-q3",
@@ -2356,7 +2383,8 @@
               "إِلَى",
               "الْمَدْرَسَةِ"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -2365,7 +2393,6 @@
       "id": "fiil-madhi",
       "title": "فِعْلُ الْمَاضِي — Kata Kerja Lampau",
       "description": "Kelas IX Ganjil | C2 — Memahami, mengidentifikasi, dan menggunakan fi'il madhi dengan tepat dalam kalimat sederhana",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "fiil-madhi",
@@ -2512,7 +2539,8 @@
               "Sudah terjadi",
               "Sering terjadi"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "fmd-q2",
@@ -2524,7 +2552,8 @@
               "قَرْءٌ",
               "مَقْرُوْءٌ"
             ],
-            "answer": 0
+            "answer": 0,
+            "explanation": ""
           },
           {
             "id": "fmd-q3",
@@ -2536,7 +2565,8 @@
               "كَتَبَ",
               "كَتَبَ مُحَمَّدٌ"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -2545,7 +2575,6 @@
       "id": "memahami-teks",
       "title": "فَهْمُ النَّصِّ — Memahami Isi Teks Paragraf",
       "description": "Kelas IX Ganjil | C3 — Memahami isi teks/paragraf yang dibaca",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "teks-paragraf",
@@ -2660,7 +2689,8 @@
               "Pagi dan sore",
               "Malam hari"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "teks-q2",
@@ -2672,7 +2702,8 @@
               "Untuk tidur",
               "Untuk makan"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "teks-q3",
@@ -2684,7 +2715,8 @@
               "النَّوْمَ",
               "اللَّعِبَ"
             ],
-            "answer": 0
+            "answer": 0,
+            "explanation": ""
           }
         ]
       }
@@ -2693,7 +2725,6 @@
       "id": "isim-jumlah",
       "title": "اِسْمٌ عَلَى حَسَبِ الْعَدَد — Kata Benda Berdasarkan Jumlahnya",
       "description": "Kelas IX Genap | C3 — Memahami konsep isim berdasarkan jumlahnya (mufrod, musanna, jamak)",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "mufrod-musanna-jamak",
@@ -2838,7 +2869,8 @@
               "Jamak",
               "Mutsanna"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "ij-q2",
@@ -2850,7 +2882,8 @@
               "مُدَرِّسِيْنَ",
               "مُدَرِّسَاتٌ"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "ij-q3",
@@ -2862,7 +2895,8 @@
               "مَدَارِسَانِ",
               "مَدْرَسَاتٌ"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -2871,7 +2905,6 @@
       "id": "adad-madud",
       "title": "عَدَدٌ مَعْدُوْد — Adad Ma'dud",
       "description": "Kelas IX Genap | C2 — [MATERI PENDALAMAN] Memahami dan menggunakan adad ma'dud (bilangan dan yang dihitung) dengan tepat dalam kalimat sederhana",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "bilangan-dan-yang-dihitung",
@@ -2981,7 +3014,8 @@
               "ثَلَاثَةُ كِتَابٍ",
               "ثَلَاثُ كِتَابٍ"
             ],
-            "answer": 0
+            "answer": 0,
+            "explanation": ""
           },
           {
             "id": "am-q2",
@@ -2993,7 +3027,8 @@
               "خَمْسَةُ مَدْرَسَةٍ",
               "خَمْسُ مَدْرَسَةٍ"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "am-q3",
@@ -3005,7 +3040,8 @@
               "سَبْعَةَ",
               "سَبْعِ"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -3014,7 +3050,6 @@
       "id": "dhomir-muttashil",
       "title": "ضَمِيرُ الْمُتَّصِل — Kata Ganti Kepemilikan",
       "description": "Kelas IX Genap | C2 — [MATERI PENDALAMAN] Memahami, mengidentifikasi, dan menggunakan dhomir muttashil dengan tepat dalam kalimat sederhana",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "kata-ganti-kepemilikan",
@@ -3165,7 +3200,8 @@
               "كِ",
               "هُ"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "dm-q2",
@@ -3177,7 +3213,8 @@
               "كَتَبْنَا",
               "كَتَبَتْ"
             ],
-            "answer": 0
+            "answer": 0,
+            "explanation": ""
           },
           {
             "id": "dm-q3",
@@ -3189,7 +3226,8 @@
               "بَيْتُنَا",
               "بَيْتِي"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }

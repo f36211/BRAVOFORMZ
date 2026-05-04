@@ -14,7 +14,6 @@
       "id": "sejarah-pancasila",
       "title": "Sejarah Perumusan Pancasila",
       "description": "BPUPKI, PPKI, dan Piagam Jakarta",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "bpupki-ppki",
@@ -139,7 +138,8 @@
               "Bendera dan lagu",
               "Wilayah negara"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -151,7 +151,8 @@
               "Tidak disetujui Jepang",
               "Salah penulisan"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q3",
@@ -163,7 +164,8 @@
               "Yamin, Hatta, Soepomo",
               "Soekarno, Hatta, Soepomo"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -172,7 +174,6 @@
       "id": "uud-1945",
       "title": "UUD 1945",
       "description": "Konstitusi dan hukum tertinggi negara",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "konstitusi",
@@ -282,7 +283,8 @@
               "5",
               "6"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -294,7 +296,8 @@
               "UUD 1945",
               "Piagam Jakarta"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -303,7 +306,6 @@
       "id": "norma",
       "title": "Norma dalam Kehidupan",
       "description": "Norma agama, kesusilaan, kesopanan, dan hukum",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "jenis-norma",
@@ -403,7 +405,8 @@
               "Kesopanan",
               "Hukum"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -415,7 +418,8 @@
               "Kesopanan",
               "Hukum"
             ],
-            "answer": 3
+            "answer": 3,
+            "explanation": ""
           }
         ]
       }
@@ -424,7 +428,6 @@
       "id": "pancasila",
       "title": "Lima Sila Pancasila",
       "description": "Nilai-nilai dan pengamalan Pancasila",
-      "bookmarked": true,
       "lessons": [
         {
           "id": "sila-pancasila",
@@ -531,7 +534,8 @@
               "Pohon Beringin",
               "Kepala Banteng"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -543,7 +547,8 @@
               "4",
               "5"
             ],
-            "answer": 3
+            "answer": 3,
+            "explanation": ""
           }
         ]
       }
@@ -552,7 +557,6 @@
       "id": "keberagaman",
       "title": "Keberagaman Indonesia",
       "description": "Bhinneka Tunggal Ika dan toleransi",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "bhinneka",
@@ -652,7 +656,8 @@
               "Mahabharata",
               "Bharatayudha"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -664,7 +669,8 @@
               "Bali",
               "Sumatra Barat"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -673,7 +679,6 @@
       "id": "nkri",
       "title": "NKRI dan Persatuan",
       "description": "Negara Kesatuan Republik Indonesia",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "negara-kesatuan",
@@ -765,7 +770,8 @@
               "Pemerintah daerah",
               "Parlemen"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -777,7 +783,8 @@
               "1 Juni 1945",
               "22 Juni 1945"
             ],
-            "answer": 0
+            "answer": 0,
+            "explanation": ""
           }
         ]
       }
@@ -786,7 +793,6 @@
       "id": "hak-kewajiban",
       "title": "Hak dan Kewajiban Warga Negara",
       "description": "Hak asasi dan kewajiban konstitusional",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "hak-kewajiban-wn",
@@ -880,7 +886,8 @@
               "Pasal 29",
               "Pasal 31"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",

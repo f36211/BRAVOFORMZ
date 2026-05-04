@@ -14,7 +14,6 @@
       "id": "letak-indonesia",
       "title": "Letak dan Kondisi Indonesia",
       "description": "Letak geografis dan astronomis Indonesia",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "letak-wilayah",
@@ -122,7 +121,8 @@
               "Hindia dan Atlantik",
               "Arktik dan Pasifik"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -134,7 +134,8 @@
               "Kutub",
               "Sedang"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -143,7 +144,6 @@
       "id": "interaksi-sosial",
       "title": "Interaksi Sosial",
       "description": "Bentuk-bentuk interaksi dalam masyarakat",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "bentuk-interaksi",
@@ -260,7 +260,8 @@
               "Kerja sama",
               "Kontravensi"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -272,7 +273,8 @@
               "Akomodasi",
               "Asimilasi"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -281,7 +283,6 @@
       "id": "kegiatan-ekonomi",
       "title": "Kegiatan Ekonomi",
       "description": "Produksi, distribusi, konsumsi",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "pelaku-ekonomi",
@@ -385,7 +386,8 @@
               "Produksi",
               "Perdagangan"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -397,7 +399,8 @@
               "Permintaan tetap",
               "Tidak berpengaruh"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -406,7 +409,6 @@
       "id": "sejarah-kemerdekaan",
       "title": "Sejarah Kemerdekaan",
       "description": "Proklamasi dan perjuangan kemerdekaan",
-      "bookmarked": true,
       "lessons": [
         {
           "id": "proklamasi",
@@ -497,7 +499,8 @@
               "Rengasdengklok",
               "Istana Merdeka"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -509,7 +512,8 @@
               "Mohammad Hatta",
               "Latief Hendraningrat"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -518,7 +522,6 @@
       "id": "globalisasi",
       "title": "Globalisasi dan Modernisasi",
       "description": "Dampak globalisasi dan modernisasi",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "dampak-globalisasi",
@@ -616,7 +619,8 @@
               "Akses informasi mudah",
               "Peluang ekonomi"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -628,7 +632,8 @@
               "Selektif terhadap budaya asing",
               "Mengabaikan budaya lokal"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -637,7 +642,6 @@
       "id": "uang-perbankan",
       "title": "Uang dan Lembaga Keuangan",
       "description": "Fungsi uang, bank, dan lembaga keuangan",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "fungsi-uang",
@@ -746,7 +750,8 @@
               "Tambahan",
               "Modern"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -758,7 +763,8 @@
               "Asuransi",
               "Koperasi"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }

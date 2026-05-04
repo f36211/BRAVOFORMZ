@@ -14,7 +14,6 @@
       "id": "aqidah",
       "title": "Aqidah",
       "description": "Rukun iman dan keyakinan Islam",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "beriman-kepada-allah",
@@ -555,7 +554,6 @@
       "id": "fiqih",
       "title": "Fiqih",
       "description": "Ketentuan dan tata cara ibadah",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "thaharah",
@@ -1217,7 +1215,6 @@
       "id": "akhlak",
       "title": "Akhlak",
       "description": "Adab dan perilaku terpuji serta tercela",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "tabayyun",
@@ -1379,7 +1376,6 @@
       "id": "sejarah-islam",
       "title": "Sejarah Islam",
       "description": "Dakwah dan peradaban Islam",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "dakwah-mekkah",

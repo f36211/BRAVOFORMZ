@@ -14,7 +14,6 @@
       "id": "bilangan",
       "title": "Bilangan dan Operasinya",
       "description": "Bilangan bulat, pecahan, dan berpangkat",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "bilangan-bulat",
@@ -111,7 +110,8 @@
               "-16",
               "16"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -123,7 +123,8 @@
               "√2",
               "2/5"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -132,7 +133,6 @@
       "id": "perbandingan",
       "title": "Perbandingan",
       "description": "Rasio, skala, dan proporsi",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "perbandingan-skala",
@@ -243,7 +243,8 @@
               "Tidak berhubungan",
               "Acak"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -252,7 +253,6 @@
       "id": "himpunan",
       "title": "Himpunan",
       "description": "Himpunan, operasi, dan diagram Venn",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "operasi-himpunan",
@@ -361,7 +361,8 @@
               "{1,4}",
               "{}"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -383,7 +384,6 @@
       "id": "aritmatika-sosial",
       "title": "Aritmatika Sosial",
       "description": "Untung, rugi, diskon, bruto, neto, tara",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "untung-rugi",
@@ -506,7 +506,8 @@
               "4 kg",
               "5 kg"
             ],
-            "answer": 0
+            "answer": 0,
+            "explanation": ""
           }
         ]
       }
@@ -515,7 +516,6 @@
       "id": "aljabar",
       "title": "Aljabar",
       "description": "Bentuk aljabar dan persamaan linear",
-      "bookmarked": true,
       "lessons": [
         {
           "id": "persamaan-linear",
@@ -611,7 +611,8 @@
               "x = -4",
               "x = 8"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -633,7 +634,6 @@
       "id": "geometri",
       "title": "Geometri Bangun Datar",
       "description": "Segitiga, segiempat, dan lingkaran",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "bangun-datar",
@@ -766,7 +766,8 @@
               "13",
               "80"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -775,7 +776,6 @@
       "id": "bangun-ruang",
       "title": "Bangun Ruang",
       "description": "Volume dan luas permukaan bangun ruang",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "volume-luas",
@@ -885,7 +885,8 @@
               "30",
               "47"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -897,7 +898,8 @@
               "616 cm²",
               "1232 cm²"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -906,7 +908,6 @@
       "id": "statistika",
       "title": "Statistika",
       "description": "Mean, median, modus, dan penyajian data",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "ukuran-pemusatan",
@@ -1028,7 +1029,8 @@
               "5",
               "6"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -1037,7 +1039,6 @@
       "id": "peluang",
       "title": "Peluang",
       "description": "Peluang kejadian dan frekuensi harapan",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "peluang-dasar",
@@ -1126,7 +1127,8 @@
               "1/2",
               "1"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q2",

@@ -14,7 +14,6 @@
       "id": "tenses",
       "title": "Tenses Dasar",
       "description": "Simple Present, Past, dan Future",
-      "bookmarked": true,
       "lessons": [
         {
           "id": "simple-present",
@@ -136,7 +135,8 @@
               "They do not play tennis.",
               "They no play tennis."
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -145,7 +145,6 @@
       "id": "greetings",
       "title": "Greetings & Introductions",
       "description": "Sapaan dan perkenalan diri",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "common-greetings",
@@ -228,7 +227,8 @@
               "Good evening",
               "Good night"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }

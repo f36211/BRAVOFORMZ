@@ -14,7 +14,6 @@
       "id": "undak-usuk",
       "title": "Undak Usuk Basa",
       "description": "Tingkatan bahasa Sunda menurut lawan bicara",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "tingkatan-basa",
@@ -135,7 +134,8 @@
               "Mulang",
               "Cicing"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -147,7 +147,8 @@
               "Kasar",
               "Bébas"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -156,7 +157,6 @@
       "id": "kawih",
       "title": "Kawih Sunda",
       "description": "Lagu Sunda nu teu kaiket ku aturan",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "struktur-kawih",
@@ -262,7 +262,8 @@
               "Irama",
               "Nada"
             ],
-            "answer": 0
+            "answer": 0,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -274,7 +275,8 @@
               "Tema jeung amanat",
               "Rasa jeung nada"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -283,7 +285,6 @@
       "id": "kawih-populer",
       "title": "Kawih-Kawih Populer",
       "description": "Analisis kawih Sunda terkenal",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "kawih-terkenal",
@@ -393,7 +394,8 @@
               "Agresi Militer",
               "Serangan Umum"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -405,7 +407,8 @@
               "Mang Koko",
               "Nining Meida"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
@@ -414,7 +417,6 @@
       "id": "gaya-basa",
       "title": "Gaya Bahasa Sunda",
       "description": "Majas dina sastra Sunda",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "majas-sunda",
@@ -509,7 +511,8 @@
               "Hiperbola",
               "Litotes"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -521,7 +524,8 @@
               "Hiperbola",
               "Litotes"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           }
         ]
       }
@@ -530,7 +534,6 @@
       "id": "pupuh",
       "title": "Pupuh Sunda",
       "description": "17 pupuh dina sastra Sunda",
-      "bookmarked": false,
       "lessons": [
         {
           "id": "17-pupuh",
@@ -639,7 +642,8 @@
               "Sinom",
               "Pangkur"
             ],
-            "answer": 2
+            "answer": 2,
+            "explanation": ""
           },
           {
             "id": "q2",
@@ -651,7 +655,8 @@
               "Kinanti",
               "Sinom"
             ],
-            "answer": 1
+            "answer": 1,
+            "explanation": ""
           }
         ]
       }
