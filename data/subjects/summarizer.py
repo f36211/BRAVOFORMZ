@@ -1117,12 +1117,15 @@ class DSLTranslator:
             else:
                 if current_lesson:
                     if current_list: current_list["items"].append(line)
-                    elif current_q and in_quiz:
-                        if re.match(r"^[A-D]\)", line):
-                            current_q["options"].append(line[2:].strip())
                     else:
                         current_lesson["content"].append({"type": "text", "text": line})
-
+                elif current_q and in_quiz:
+                    # Fix: Correctly handle options without prefix in AI response
+                    if re.match(r"^[A-D]\)", line):
+                        current_q["options"].append(line[2:].strip())
+                    elif re.match(r"^[A-D]\.", line):
+                        current_q["options"].append(line[2:].strip())
+        
         flush_all()
         return topic
 
