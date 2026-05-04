@@ -2250,112 +2250,376 @@
     {
       "id": "sistem-peredaran-darah",
       "title": "Sistem Peredaran Darah",
-      "description": "Organ peredaran darah dan penyakit terkait",
+      "description": "Organ peredaran darah, mekanisme kerja jantung, komponen darah, jenis pembuluh darah, peredaran darah besar dan kecil, serta penyakit dan gangguan terkait",
       "lessons": [
         {
-          "id": "peredaran-darah",
-          "title": "Sistem Peredaran Darah",
-          "estMinutes": 12,
+          "id": "struktur-jantung",
+          "title": "Struktur dan Fungsi Jantung",
+          "estMinutes": 10,
           "content": [
             {
               "type": "heading",
-              "text": "Sistem Peredaran Darah Manusia"
+              "text": "Jantung sebagai Pompa Hidup"
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Komponen Darah"
+              "text": "Kenalan dengan Jantung"
             },
             {
-              "type": "table",
-              "headers": [
-                "Komponen",
-                "Fungsi"
-              ],
-              "rows": [
-                [
-                  "Sel darah merah (eritrosit)",
-                  "Membawa O₂ menggunakan hemoglobin"
-                ],
-                [
-                  "Sel darah putih (leukosit)",
-                  "Melawan infeksi dan penyakit (imunitas)"
-                ],
-                [
-                  "Keping darah (trombosit)",
-                  "Pembekuan darah"
-                ],
-                [
-                  "Plasma darah",
-                  "Mengangkut sari makanan, hormon, dan zat sisa"
-                ]
+              "type": "text",
+              "text": "Jantung adalah organ vital yang berfungsi memompa darah ke seluruh tubuh. Bayangkan jantung seperti pompa air listrik yang tidak pernah berhenti bekerja — setiap hari jantung kita berdetak sekitar 100.000 kali! Jantung berukuran sebesar kepalan tanganmu dan terletak di rongga dada, sedikit condong ke sebelah kiri ."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Empat Ruang Jantung"
+            },
+            {
+              "type": "text",
+              "text": "Jantung manusia memiliki empat ruang yang bekerja seperti \"stasiun transit\" darah:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Serambi kanan (Atrium kanan): Menerima darah kaya CO₂ dari seluruh tubuh melalui vena kava",
+                "Serambi kiri (Atrium kiri): Menerima darah kaya O₂ dari paru-paru melalui vena pulmonalis",
+                "Bilik kanan (Ventricle kanan): Memompa darah kaya CO₂ ke paru-paru melalui arteri pulmonalis",
+                "Bilik kiri (Ventricle kiri): Memompa darah kaya O₂ ke seluruh tubuh melalui aorta"
               ]
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Pembuluh Darah"
+              "text": "Katup Jantung"
+            },
+            {
+              "type": "text",
+              "text": "Agar darah tidak mengalir balik, jantung dilengkapi empat katup seperti \"pintu satu arah\":"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Katup trikuspid: Antara serambi kanan dan bilik kanan",
+                "Katup pulmonal: Antara bilik kanan dan arteri pulmonalis",
+                "Katup bikuspid (mitral): Antara serambi kiri dan bilik kiri",
+                "Katup aorta: Antara bilik kiri dan aorta"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Dinding bilik kiri paling tebal karena harus memompa darah ke seluruh tubuh, sedangkan serambi hanya menerima darah sehingga dindingnya lebih tipis."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bunyi Jantung \"Lub-Dub\""
+            },
+            {
+              "type": "text",
+              "text": "Bunyi detak jantung yang kamu dengar sebenarnya adalah:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "\"Lub\": Katup antara serambi-bilik (trikuspid & mitral) menutup saat bilik berkontraksi",
+                "\"Dub\": Katup aorta dan pulmonal menutup saat bilik berelaksasi"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "komponen-darah",
+          "title": "Komponen Darah",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Darah: Pengangkut Kehidupan"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Komponen Utama Darah"
+            },
+            {
+              "type": "text",
+              "text": "Darah adalah jaringan ikat cair yang terdiri dari dua bagian besar: plasma darah (cairan) dan elemen seluler (bagian padat). Mari kita bedah satu per satu!"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Plasma Darah"
+            },
+            {
+              "type": "text",
+              "text": "Plasma adalah cairan bening yang menyusun sekitar 55% volume darah. Komposisinya 91,5% air dan 8,5% zat terlarut seperti protein (albumin, fibrinogen, globulin), hormon, serta sisa metabolisme. Fungsinya mengangkut sari makanan, hormon, dan zat sisa ke seluruh tubuh ."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Elemen Seluler"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Komponen",
+                "Bentuk",
+                "Fungsi",
+                "Fakta Menarik"
+              ],
+              "rows": [
+                [
+                  "Eritrosit (sel darah merah)",
+                  "Bulat pipih bikonkaf, tanpa inti",
+                  "Mengangkut O₂ dengan hemoglobin",
+                  "Hb + O₂ = oksihemoglobin; Hb + CO₂ = karbaminohemoglobin"
+                ],
+                [
+                  "Leukosit (sel darah putih)",
+                  "Bentuk tidak tetap (ameboid), berinti",
+                  "Melawan infeksi dan kuman",
+                  "Bisa \"berjalan\" menembus dinding kapiler!"
+                ],
+                [
+                  "Trombosit (keping darah)",
+                  "Beraneka ragam (bulat/oval), tanpa inti",
+                  "Pembekuan darah saat luka",
+                  "Mengeluarkan fibrin untuk membentuk jaring penutup luka"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Warna merah darah berasal dari hemoglobin (Hb). Saat eritrosit mengikat oksigen, darah menjadi merah cerah. Saat melepaskan oksigen, warnanya menjadi merah tua."
+            }
+          ]
+        },
+        {
+          "id": "pembuluh-darah",
+          "title": "Pembuluh Darah",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Jalan Raya Darah dalam Tubuh"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tiga Jenis Pembuluh Darah"
+            },
+            {
+              "type": "text",
+              "text": "Darah mengalir melalui tiga jenis \"jalan\" dengan karakteristik berbeda:"
             },
             {
               "type": "table",
               "headers": [
                 "Ciri",
                 "Arteri (Nadi)",
-                "Vena (Balik)"
+                "Vena (Balik)",
+                "Kapiler"
               ],
               "rows": [
                 [
                   "Arah aliran",
                   "Dari jantung",
-                  "Menuju jantung"
+                  "Menuju jantung",
+                  "Menghubungkan arteri-vena"
                 ],
                 [
                   "Kandungan O₂",
                   "Kaya O₂ (kecuali arteri pulmonalis)",
-                  "Kaya CO₂ (kecuali vena pulmonalis)"
+                  "Kaya CO₂ (kecuali vena pulmonalis)",
+                  "Pertukaran O₂ dan CO₂ terjadi di sini"
                 ],
                 [
                   "Dinding",
-                  "Tebal dan elastis",
-                  "Tipis dan kurang elastis"
+                  "Tebal, elastis, berotot",
+                  "Tipis, kurang elastis",
+                  "Sangat tipis (1 sel)"
                 ],
                 [
                   "Katup",
                   "Tidak ada",
-                  "Ada"
+                  "Ada (cegah aliran balik)",
+                  "Tidak ada"
                 ],
                 [
                   "Letak",
                   "Lebih dalam",
-                  "Lebih ke permukaan"
+                  "Lebih ke permukaan",
+                  "Di seluruh jaringan tubuh"
+                ],
+                [
+                  "Fungsi utama",
+                  "Mendistribusikan darah ke organ",
+                  "Mengembalikan darah ke jantung",
+                  "Pertukaran zat dengan sel"
                 ]
               ]
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Peredaran Darah Besar dan Kecil"
+              "text": "Pembuluh Darah Khusus"
+            },
+            {
+              "type": "text",
+              "text": "Ada pembuluh darah yang \"melanggar aturan\" — membawa darah dengan kandungan gas yang berlawanan:"
             },
             {
               "type": "list",
               "items": [
-                "Peredaran darah besar: Jantung (kiri) → seluruh tubuh → Jantung (kanan)",
-                "Peredaran darah kecil: Jantung (kanan) → paru-paru → Jantung (kiri)"
+                "Arteri pulmonalis: Satu-satunya arteri yang membawa darah kaya CO₂ (dari bilik kanan ke paru-paru)",
+                "Vena pulmonalis: Satu-satunya vena yang membawa darah kaya O₂ (dari paru-paru ke serambi kiri)"
               ]
+            },
+            {
+              "type": "highlight",
+              "text": "Kapiler memiliki dinding setipis satu sel, memungkinkan pertukaran oksigen, nutrisi, dan zat sisa langsung dengan sel-sel tubuh."
+            }
+          ]
+        },
+        {
+          "id": "peredaran-darah",
+          "title": "Peredaran Darah Besar dan Kecil",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Dua Sirkuit Peredaran Darah"
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Gangguan Peredaran Darah"
+              "text": "Mengapa Disebut Peredaran Ganda?"
+            },
+            {
+              "type": "text",
+              "text": "Manusia memiliki sistem peredaran darah ganda, artinya darah melewati jantung dua kali dalam satu siklus lengkap: pertama ke paru-paru untuk \"isi ulang\" oksigen, lalu ke seluruh tubuh untuk mendistribusikannya ."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peredaran Darah Kecil (Sirkuit Pulmonal)"
+            },
+            {
+              "type": "text",
+              "text": "Jalur: Bilik kanan → Arteri pulmonalis → Paru-paru → Vena pulmonalis → Serambi kiri"
             },
             {
               "type": "list",
               "items": [
-                "Hipertensi: tekanan darah tinggi (>120/80 mmHg)",
-                "Anemia: kekurangan sel darah merah/hemoglobin",
-                "Leukemia: kanker darah (sel darah putih berlebihan)",
-                "Aterosklerosis: penyempitan pembuluh arteri karena plak"
+                "Darah kaya CO₂ dipompa dari bilik kanan ke paru-paru",
+                "Di paru-paru terjadi pertukaran gas: CO₂ dikeluarkan, O₂ diikat hemoglobin",
+                "Darah kaya O₂ kembali ke serambi kiri melalui vena pulmonalis"
               ]
+            },
+            {
+              "type": "simulation",
+              "simType": "piston"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peredaran Darah Besar (Sirkuit Sistemik)"
+            },
+            {
+              "type": "text",
+              "text": "Jalur: Bilik kiri → Aorta → Seluruh tubuh → Vena kava → Serambi kanan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Darah kaya O₂ dipompa dari bilik kiri ke seluruh tubuh melalui aorta",
+                "Di kapiler tubuh: O₂ dan nutrisi diserap sel, CO₂ dan zat sisa masuk darah",
+                "Darah kaya CO₂ kembali ke serambi kanan melalui vena kava (atas & bawah)"
+              ]
+            },
+            {
+              "type": "chart",
+              "chartType": "line",
+              "data": [
+                {
+                  "name": "Peredaran Kecil",
+                  "value": 1
+                },
+                {
+                  "name": "Peredaran Besar",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Ingat: Peredaran kecil = Jantung ↔ Paru-paru. Peredaran besar = Jantung ↔ Seluruh tubuh. Darah tidak pernah \"bercampur\" antara kiri dan kanan karena ada septum (dinding pemisah) di jantung."
+            }
+          ]
+        },
+        {
+          "id": "gangguan-penyakit",
+          "title": "Gangguan dan Penyakit",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Waspada Penyakit Peredaran Darah"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Hipertensi (Tekanan Darah Tinggi)"
+            },
+            {
+              "type": "text",
+              "text": "Tekanan darah normal adalah sekitar 120/80 mmHg. Jika angka sistolik (atas) ≥130 atau diastolik (bawah) ≥80 secara konsisten, disebut hipertensi. Penyebabnya bisa dari garam berlebihan, stres, kurang olahraga, atau faktor genetik. Jika dibiarkan, bisa menyebabkan stroke dan serangan jantung ."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Aterosklerosis"
+            },
+            {
+              "type": "text",
+              "text": "Penumpukan plak (lemak dan kolesterol) di dinding arteri yang menyebabkan penyempitan dan pengerasan pembuluh darah. Biasanya tanpa gejala awal, tetapi bisa memicu serangan jantung jika arteri koroner tersumbat ."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Anemia"
+            },
+            {
+              "type": "text",
+              "text": "Kondisi kekurangan sel darah merah atau hemoglobin, menyebabkan tubuh kekurangan oksigen. Gejalanya: lemas, pucat, sesak napas. Penyebab umum: kekurangan zat besi, vitamin B12, atau gangguan sumsum tulang ."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Leukemia"
+            },
+            {
+              "type": "text",
+              "text": "Kanker darah yang ditandai dengan produksi sel darah putih abnormal yang berlebihan dan tidak berfungsi normal. Sel-sel ini \"membanjiri\" sumsum tulang dan mengganggu produksi sel darah lainnya."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Penyakit Lainnya"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Trombosis: Pembekuan darah abnormal di vena yang bisa menyumbat pembuluh darah",
+                "Varises: Pembengkakan vena akibat katup yang tidak berfungsi sempurna",
+                "Stroke: Gangguan aliran darah ke otak akibat pembuluh tersumbat atau pecah",
+                "Gagal jantung: Jantung tidak mampu memompa darah secara efektif"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Gaya hidup sehat (makan bergizi, olahraga teratur, tidak merokok, istirahat cukup) adalah kunci mencegah gangguan peredaran darah."
             }
           ]
         }
@@ -2363,33 +2627,83 @@
       "flashcards": [
         {
           "id": "fc1",
+          "question": "Apa fungsi utama jantung?",
+          "answer": "Memompa darah ke seluruh tubuh dan paru-paru secara terus-menerus"
+        },
+        {
+          "id": "fc2",
+          "question": "Sebutkan empat ruang jantung!",
+          "answer": "Serambi kanan, serambi kiri, bilik kanan, bilik kiri"
+        },
+        {
+          "id": "fc3",
+          "question": "Mengapa dinding bilik kiri lebih tebal dari bilik kanan?",
+          "answer": "Karena harus memompa darah ke seluruh tubuh, sedangkan bilik kanan hanya ke paru-paru"
+        },
+        {
+          "id": "fc4",
+          "question": "Apa fungsi katup jantung?",
+          "answer": "Mencegah darah mengalir balik (satu arah)"
+        },
+        {
+          "id": "fc5",
           "question": "Perbedaan utama arteri dan vena?",
           "answer": "Arteri: membawa darah dari jantung, dinding tebal; Vena: membawa darah ke jantung, ada katup"
         },
         {
-          "id": "fc2",
-          "question": "Fungsi trombosit?",
-          "answer": "Pembekuan darah saat terjadi luka"
+          "id": "fc6",
+          "question": "Mengapa arteri pulmonalis disebut arteri \"aneh\"?",
+          "answer": "Karena membawa darah kaya CO₂ (biasanya arteri kaya O₂)"
         },
         {
-          "id": "fc3",
+          "id": "fc7",
+          "question": "Fungsi trombosit?",
+          "answer": "Pembekuan darah saat terjadi luka dengan mengeluarkan fibrin"
+        },
+        {
+          "id": "fc8",
+          "question": "Di mana terjadi pertukaran O₂ dan CO₂?",
+          "answer": "Di pembuluh kapiler (paru-paru dan jaringan tubuh)"
+        },
+        {
+          "id": "fc9",
           "question": "Peredaran darah kecil menghubungkan?",
           "answer": "Jantung dan paru-paru"
         },
         {
-          "id": "fc4",
-          "question": "Apa itu anemia?",
-          "answer": "Kekurangan sel darah merah atau hemoglobin"
+          "id": "fc10",
+          "question": "Peredaran darah besar menghubungkan?",
+          "answer": "Jantung dan seluruh tubuh"
         },
         {
-          "id": "fc5",
+          "id": "fc11",
+          "question": "Apa itu anemia?",
+          "answer": "Kekurangan sel darah merah atau hemoglobin causing kekurangan oksigen"
+        },
+        {
+          "id": "fc12",
+          "question": "Apa penyebab aterosklerosis?",
+          "answer": "Penumpukan plak lemak dan kolesterol di dinding arteri"
+        },
+        {
+          "id": "fc13",
+          "question": "Berapa tekanan darah normal?",
+          "answer": "Sekitar 120/80 mmHg"
+        },
+        {
+          "id": "fc14",
           "question": "Komponen darah yang membawa oksigen?",
           "answer": "Sel darah merah (eritrosit) menggunakan hemoglobin"
         },
         {
-          "id": "fc6",
+          "id": "fc15",
           "question": "Pembuluh darah mana yang memiliki katup?",
           "answer": "Vena (pembuluh balik)"
+        },
+        {
+          "id": "fc16",
+          "question": "Apa fungsi leukosit?",
+          "answer": "Melawan infeksi dan kuman sebagai sistem kekebalan tubuh"
         }
       ],
       "quiz": {
@@ -2398,66 +2712,65 @@
             "id": "q1",
             "type": "multiple_choice",
             "question": "Pembuluh darah yang membawa darah menuju jantung adalah?",
-            "options": [
-              "Arteri",
-              "Aorta",
-              "Vena",
-              "Kapiler"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Vena adalah pembuluh balik yang mengembalikan darah ke jantung. Arteri membawa darah keluar dari jantung, aorta adalah arteri terbesar, dan kapiler menghubungkan arteri-vena."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
             "question": "Penyakit yang terjadi akibat penyempitan pembuluh arteri oleh plak disebut?",
-            "options": [
-              "Anemia",
-              "Leukemia",
-              "Aterosklerosis",
-              "Hipertensi"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Aterosklerosis adalah pengerasan dan penyempitan arteri akibat penumpukan plak lemak. Anemia adalah kekurangan sel darah merah, leukemia adalah kanker darah, dan hipertensi adalah tekanan darah tinggi."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
             "question": "Komponen darah yang berperan dalam sistem kekebalan tubuh adalah?",
-            "options": [
-              "Eritrosit",
-              "Trombosit",
-              "Leukosit",
-              "Plasma"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Leukosit (sel darah putih) berfungsi melawan infeksi dan kuman. Eritrosit membawa oksigen, trombosit membekukan darah, dan plasma mengangkut zat terlarut."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
             "question": "Urutan peredaran darah kecil yang benar adalah?",
-            "options": [
-              "Jantung kiri → paru-paru → jantung kanan",
-              "Jantung kanan → paru-paru → jantung kiri",
-              "Jantung → seluruh tubuh → jantung",
-              "Jantung kiri → seluruh tubuh → jantung kanan"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Peredaran kecil dimulai dari bilik kanan (jantung kanan) ke paru-paru untuk pertukaran gas, lalu kembali ke serambi kiri (jantung kiri)."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
             "question": "Ciri khas pembuluh vena adalah?",
-            "options": [
-              "Dinding tebal dan elastis",
-              "Tidak memiliki katup",
-              "Membawa darah dari jantung",
-              "Memiliki katup dan dinding tipis"
-            ],
+            "options": [],
             "answer": 3,
-            "explanation": ""
+            "explanation": "Vena memiliki katup untuk mencegah aliran balik dan dinding yang lebih tipis. Arteri yang memiliki dinding tebal dan membawa darah dari jantung."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Darah kaya oksigen memasuki jantung melalui?",
+            "options": [],
+            "answer": 2,
+            "explanation": "Vena pulmonalis adalah satu-satunya vena yang membawa darah kaya oksigen dari paru-paru ke serambi kiri. Vena kava membawa darah kaya CO₂, arteri pulmonalis membawa darah kaya CO₂ ke paru-paru, dan aorta membawa darah kaya O₂ keluar dari jantung."
+          },
+          {
+            "id": "q7",
+            "type": "multiple_choice",
+            "question": "Tekanan darah 140/90 mmHg termasuk kondisi?",
+            "options": [],
+            "answer": 2,
+            "explanation": "Tekanan darah normal adalah sekitar 120/80 mmHg. 140/90 mmHg termasuk hipertensi (tekanan darah tinggi) yang perlu diwaspadai."
+          },
+          {
+            "id": "q8",
+            "type": "multiple_choice",
+            "question": "Fungsi hemoglobin pada eritrosit adalah?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Hemoglobin adalah protein dalam eritrosit yang mengikat oksigen (membentuk oksihemoglobin) untuk diangkut ke seluruh tubuh."
           }
         ]
       }
@@ -2879,7 +3192,7 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kidney_structures.svg/640px-Kidney_structures.svg.png",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/KidneyStructures_PioM.svg",
               "caption": "Struktur ginjal dan saluran kemih: ginjal, ureter, kandung kemih, dan uretra"
             },
             {
@@ -3478,7 +3791,7 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lever_%28PSF%29.png/640px-Lever_%28PSF%29.png",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Simple_machines_lever.png",
               "caption": "Ilustrasi komponen tuas: titik tumpu, lengan beban, dan lengan kuasa"
             }
           ]
@@ -3531,7 +3844,7 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Inclined_plane.svg/640px-Inclined_plane.svg.png",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Inclined_plane.svg",
               "caption": "Prinsip kerja bidang miring: jarak lebih panjang membuat gaya lebih kecil"
             }
           ]
@@ -3591,7 +3904,7 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Pulley_system.svg/640px-Pulley_system.svg.png",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Pulley1.svg",
               "caption": "Sistem katrol majemuk dengan beberapa tali menanggung beban"
             }
           ]
