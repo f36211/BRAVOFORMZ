@@ -13,12 +13,12 @@
     {
       "id": "karakteristik-zat",
       "title": "Karakteristik Zat",
-      "description": "Sifat dan karakteristik zat padat, cair, dan gas",
+      "description": "Sifat dan karakteristik zat padat, cair, dan gas beserta perubahan wujudnya",
       "lessons": [
         {
           "id": "sifat-zat",
           "title": "Sifat dan Karakteristik Zat",
-          "estMinutes": 8,
+          "estMinutes": 10,
           "content": [
             {
               "type": "heading",
@@ -26,7 +26,7 @@
             },
             {
               "type": "text",
-              "text": "Zat adalah segala sesuatu yang memiliki massa dan menempati ruang. Zat dapat diklasifikasikan berdasarkan wujudnya menjadi padat, cair, dan gas."
+              "text": "Zat adalah segala sesuatu yang memiliki massa dan menempati ruang. Zat dapat diklasifikasikan berdasarkan wujudnya menjadi padat, cair, dan gas. Setiap wujud zat memiliki sifat khas yang berbeda karena susunan dan perilaku partikel penyusunnya."
             },
             {
               "type": "heading",
@@ -34,32 +34,53 @@
               "text": "Partikel Penyusun Zat"
             },
             {
+              "type": "text",
+              "text": "Semua zat tersusun dari partikel-partikel kecil (atom, molekul, atau ion) yang tidak terlihat mata telanjang. Susunan dan gerakan partikel inilah yang menentukan sifat wujud zat."
+            },
+            {
               "type": "table",
               "headers": [
                 "Wujud",
                 "Susunan Partikel",
-                "Gerakan",
-                "Jarak Antar Partikel"
+                "Gerakan Partikel",
+                "Jarak Antar Partikel",
+                "Gaya Tarik"
               ],
               "rows": [
                 [
                   "Padat (Solid)",
-                  "Teratur rapat",
+                  "Teratur dan sangat rapat",
                   "Bergetar di tempat",
-                  "Sangat dekat"
+                  "Sangat dekat",
+                  "Sangat kuat"
                 ],
                 [
                   "Cair (Liquid)",
-                  "Tidak teratur",
+                  "Tidak teratur, berdekatan",
                   "Bergerak bebas terbatas",
-                  "Dekat"
+                  "Dekat",
+                  "Sedang"
                 ],
                 [
                   "Gas",
                   "Sangat tidak teratur",
-                  "Bergerak bebas ke segala arah",
-                  "Sangat jauh"
+                  "Bergerak bebas cepat ke segala arah",
+                  "Sangat jauh",
+                  "Sangat lemah"
                 ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sifat Wujud Zat"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Zat padat: bentuk dan volume tetap, tidak mengikuti wadah, sulit dimampatkan (contoh: es batu, batu, kayu)",
+                "Zat cair: bentuk mengikuti wadah, volume tetap, dapat mengalir, sulit dimampatkan (contoh: air, minyak, sirup)",
+                "Zat gas: bentuk dan volume mengikuti wadah, mudah dimampatkan, mengisi seluruh ruang yang tersedia (contoh: udara, uap air, helium balon)"
               ]
             },
             {
@@ -68,19 +89,126 @@
               "text": "Perubahan Wujud Zat"
             },
             {
+              "type": "text",
+              "text": "Zat dapat berubah wujud karena adanya penambahan atau pengurangan panas (kalor). Perubahan wujud zat termasuk perubahan fisika karena tidak menghasilkan zat baru."
+            },
+            {
               "type": "list",
               "items": [
-                "Mencair: padat → cair (es mencair)",
-                "Membeku: cair → padat (air menjadi es)",
-                "Menguap: cair → gas (air mendidih)",
-                "Mengembun: gas → cair (embun pagi)",
-                "Menyublim: padat → gas (kapur barus)",
-                "Mengkristal: gas → padat (salju)"
+                "Mencair: padat → cair (es batu mencair menjadi air)",
+                "Membeku: cair → padat (air di freezer menjadi es batu)",
+                "Menguap: cair → gas (air mendidih menghasilkan uap)",
+                "Mengembun: gas → cair (embun pagi di daun, uap di kaca es)",
+                "Menyublim: padat → gas (kapur barus di lemari, kering es)",
+                "Mengkristal (Menghablur): gas → padat (pembentukan salju, kristal iodin)"
               ]
             },
             {
               "type": "highlight",
-              "text": "Segitiga perubahan zat: Padat ↔ Cair ↔ Gas"
+              "text": "Segitiga perubahan wujud zat: Padat ↔ Cair ↔ Gas. Panas membuat zat berubah ke wujud yang lebih \"longgar\" (padat→cair→gas), sedangkan dingin membuat zat berubah ke wujud yang lebih \"rapat\" (gas→cair→padat)."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Faktor yang Mempengaruhi Perubahan Wujud"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Suhu: semakin tinggi suhu, semakin cepat partikel bergerak dan jarak antarpartikel membesar",
+                "Tekanan: tekanan tinggi dapat memampatkan gas menjadi cair atau padat"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fisika-kimia",
+          "title": "Perubahan Fisika dan Kimia",
+          "estMinutes": 6,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Membedakan Perubahan Fisika dan Kimia"
+            },
+            {
+              "type": "text",
+              "text": "Selain perubahan wujud, zat juga dapat mengalami perubahan lain. Penting untuk membedakan perubahan fisika dan perubahan kimia agar kita memahami apakah zat tersebut tetap sama atau berubah menjadi zat baru."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Perubahan Fisika"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Hanya mengubah bentuk, ukuran, atau wujud zat",
+                "Tidak menghasilkan zat baru",
+                "Dapat dikembalikan ke bentuk semula",
+                "Contoh: mencairnya es, memotong kertas, melarutkan gula dalam air"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Perubahan Kimia"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Menghasilkan zat baru dengan sifat berbeda",
+                "Biasanya disertai gejala: perubahan warna, timbulnya bau, terbentuknya gas, atau timbulnya endapan",
+                "Sulit atau tidak dapat dikembalikan ke bentuk semula",
+                "Contoh: kayu terbakar menjadi arang, besi berkarat, roti menjadi berjamur"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Perubahan wujud zat (mencair, membeku, menguap, mengembun, menyublim, mengkristal) adalah perubahan fisika karena zat aslinya tetap sama — H₂O tetap H₂O meski berubah dari es menjadi air atau uap."
+            }
+          ]
+        },
+        {
+          "id": "massa-jenis",
+          "title": "Massa Jenis Zat",
+          "estMinutes": 5,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Mengenal Massa Jenis"
+            },
+            {
+              "type": "text",
+              "text": "Massa jenis (ρ) adalah besarnya massa zat tiap satuan volume. Massa jenis menunjukkan seberapa \"padat\" suatu zat. Zat padat umumnya memiliki massa jenis lebih besar daripada zat cair, dan zat gas memiliki massa jenis paling kecil."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Wujud Zat",
+                "Massa Jenis (umum)",
+                "Contoh"
+              ],
+              "rows": [
+                [
+                  "Padat",
+                  "Besar",
+                  "Besi (7.900 kg/m³), es (917 kg/m³)"
+                ],
+                [
+                  "Cair",
+                  "Sedang",
+                  "Air (1.000 kg/m³), minyak (800 kg/m³)"
+                ],
+                [
+                  "Gas",
+                  "Sangat kecil",
+                  "Udara (1,2 kg/m³), helium (0,18 kg/m³)"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Massa jenis air = 1 g/cm³. Benda dengan massa jenis lebih kecil dari air akan mengapung, sedangkan yang lebih besar akan tenggelam."
             }
           ]
         }
@@ -94,17 +222,17 @@
         {
           "id": "fc2",
           "question": "Apa yang dimaksud menyublim?",
-          "answer": "Perubahan wujud dari padat langsung menjadi gas"
+          "answer": "Perubahan wujud dari padat langsung menjadi gas tanpa melalui fase cair"
         },
         {
           "id": "fc3",
           "question": "Contoh proses mengkristal?",
-          "answer": "Pembentukan salju dari uap air"
+          "answer": "Pembentukan salju dari uap air, atau kristal iodin dari uap iodin"
         },
         {
           "id": "fc4",
           "question": "Bagaimana susunan partikel zat padat?",
-          "answer": "Teratur dan rapat, hanya bergetar di tempat"
+          "answer": "Teratur dan sangat rapat, partikel hanya bergetar di tempat"
         },
         {
           "id": "fc5",
@@ -115,6 +243,26 @@
           "id": "fc6",
           "question": "Proses apa yang terjadi saat air mendidih?",
           "answer": "Menguap — perubahan wujud dari cair menjadi gas"
+        },
+        {
+          "id": "fc7",
+          "question": "Mengapa zat padat memiliki bentuk dan volume tetap?",
+          "answer": "Karena partikelnya tersusun rapat dan gaya tarik antarpartikel sangat kuat"
+        },
+        {
+          "id": "fc8",
+          "question": "Mengapa zat gas mudah dimampatkan?",
+          "answer": "Karena jarak antarpartikelnya sangat jauh dan gaya tarik antarpartikel sangat lemah"
+        },
+        {
+          "id": "fc9",
+          "question": "Apa perbedaan perubahan fisika dan kimia?",
+          "answer": "Perubahan fisika tidak menghasilkan zat baru dan dapat dikembalikan; perubahan kimia menghasilkan zat baru dan sulit dikembalikan"
+        },
+        {
+          "id": "fc10",
+          "question": "Mengapa es batu bisa mengapung di air?",
+          "answer": "Karena massa jenis es (0,917 g/cm³) lebih kecil dari massa jenis air (1 g/cm³)"
         }
       ],
       "quiz": {
@@ -123,25 +271,15 @@
             "id": "q1",
             "type": "multiple_choice",
             "question": "Perubahan wujud dari cair menjadi gas disebut?",
-            "options": [
-              "Mencair",
-              "Membeku",
-              "Menguap",
-              "Menyublim"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Menguap adalah perubahan wujud zat dari cair menjadi gas, seperti air yang mendidih menghasilkan uap."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
             "question": "Contoh zat yang dapat menyublim adalah?",
-            "options": [
-              "Es batu",
-              "Air",
-              "Kapur barus",
-              "Minyak"
-            ],
+            "options": [],
             "answer": 2,
             "explanation": "Kapur barus (kamfer) dapat berubah dari padat langsung menjadi gas tanpa mencair terlebih dahulu."
           },
@@ -149,40 +287,65 @@
             "id": "q3",
             "type": "multiple_choice",
             "question": "Partikel zat padat memiliki ciri?",
-            "options": [
-              "Bergerak bebas ke segala arah",
-              "Bergerak bebas terbatas",
-              "Bergetar di tempat dengan susunan teratur",
-              "Jarak antar partikel sangat jauh"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Partikel zat padat bergetar di tempat dengan susunan yang teratur dan rapat karena gaya tarik antarpartikel sangat kuat."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
             "question": "Proses embun yang terbentuk di pagi hari merupakan contoh?",
-            "options": [
-              "Menguap",
-              "Mengembun",
-              "Membeku",
-              "Menyublim"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": "Embun terbentuk dari uap air (gas) yang berubah menjadi titik-titik air (cair) — proses mengembun."
+            "explanation": "Embun terbentuk dari uap air (gas) yang berubah menjadi titik-titik air (cair) karena suhu udara dingin — proses mengembun."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
             "question": "Perhatikan gambar partikel suatu zat: tersusun teratur dan sangat rapat. Zat tersebut berwujud?",
-            "options": [
-              "Gas",
-              "Cair",
-              "Padat",
-              "Plasma"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Partikel zat padat tersusun teratur dan sangat rapat, hanya bergetar di tempat."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Mengapa zat gas mudah untuk dimampatkan?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Gas mudah dimampatkan karena jarak antarpartikelnya sangat jauh dan gaya tarik antarpartikel sangat lemah, sehingga partikel mudah didekatkan dengan tekanan."
+          },
+          {
+            "id": "q7",
+            "type": "multiple_choice",
+            "question": "Perubahan wujud zat dari padat menjadi cair disebut?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Mencair adalah perubahan wujud dari padat menjadi cair, contohnya es batu yang mencair menjadi air."
+          },
+          {
+            "id": "q8",
+            "type": "multiple_choice",
+            "question": "Kayu yang dibakar menjadi arang merupakan contoh perubahan?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Kayu yang dibakar menjadi arang adalah perubahan kimia karena menghasilkan zat baru (arang) dengan sifat berbeda dari kayu, dan disertai perubahan warna serta timbulnya bau."
+          },
+          {
+            "id": "q9",
+            "type": "multiple_choice",
+            "question": "Zat cair memiliki sifat?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Zat cair memiliki volume tetap tetapi bentuknya mengikuti wadah tempatnya berada, karena partikelnya dapat bergerak bebas terbatas."
+          },
+          {
+            "id": "q10",
+            "type": "multiple_choice",
+            "question": "Massa jenis air adalah 1 g/cm³. Benda dengan massa jenis 0,8 g/cm³ jika dimasukkan ke dalam air akan?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Benda dengan massa jenis lebih kecil dari air (1 g/cm³) akan mengapung di permukaan air."
           }
         ]
       }
@@ -3650,12 +3813,12 @@
     {
       "id": "listrik",
       "title": "Listrik Statis dan Dinamis",
-      "description": "Gejala kelistrikan dan rangkaian listrik",
+      "description": "Memahami gejala kelistrikan, hukum dasar, dan rangkaian listrik untuk kehidupan sehari-hari",
       "lessons": [
         {
           "id": "listrik-statis-dinamis",
           "title": "Listrik Statis dan Dinamis",
-          "estMinutes": 15,
+          "estMinutes": 20,
           "content": [
             {
               "type": "heading",
@@ -3663,14 +3826,31 @@
             },
             {
               "type": "text",
-              "text": "Listrik statis adalah listrik yang tidak mengalir (muatan diam). Terjadi akibat perpindahan elektron."
+              "text": "Listrik statis adalah keadaan muatan listrik yang tidak mengalir (muatan diam) akibat perpindahan elektron antar benda. Fenomena ini terjadi karena gesekan atau kontak antar benda bermuatan."
             },
             {
               "type": "list",
               "items": [
-                "Muatan sejenis tolak-menolak",
-                "Muatan berbeda tarik-menarik",
-                "Contoh: petir, rambut berdiri saat disisir"
+                "Muatan sejenis (+ dengan +, − dengan −) → tolak-menolak",
+                "Muatan berbeda (+ dengan −) → tarik-menarik",
+                "Contoh kehidupan: petir, rambut berdiri saat disisir, sentuhan doorknob yang menyetrum"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Proses Pengisian Muatan"
+            },
+            {
+              "type": "text",
+              "text": "Benda netral bisa bermuatan dengan tiga cara:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Gesekan (rubbing): elektron pindah akibat gesekan, misalnya balon digosok rambut",
+                "Kontak: benda bermuatan menyentuh benda netral",
+                "Induksi: benda bermuatan didekatkan tanpa menyentuh, menyebabkan pemisahan muatan"
               ]
             },
             {
@@ -3679,13 +3859,26 @@
               "text": "Hukum Coulomb"
             },
             {
+              "type": "text",
+              "text": "Gaya interaksi antara dua muatan titik sebanding dengan hasil kali muatan dan berbanding terbalik dengan kuadrat jaraknya."
+            },
+            {
               "type": "math",
               "tex": "F = k \\frac{q_1 \\cdot q_2}{r^2}",
               "display": true
             },
             {
-              "type": "text",
-              "text": "F = gaya Coulomb (N), k = 9×10⁹ Nm²/C², q = muatan (C), r = jarak (m)"
+              "type": "list",
+              "items": [
+                "F = gaya Coulomb (Newton/N)",
+                "k = konstanta Coulomb = 9 \\times 10^9 \\, \\text{Nm}^2/\\text{C}^2",
+                "q_1, q_2 = besar muatan (Coulomb/C)",
+                "r = jarak antar muatan (meter/m)"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Hukum Coulomb hanya berlaku untuk muatan titik dan benda bermuatan homogen berbentuk bola."
             },
             {
               "type": "heading",
@@ -3693,7 +3886,24 @@
             },
             {
               "type": "text",
-              "text": "Listrik dinamis adalah listrik yang mengalir (arus listrik)."
+              "text": "Listrik dinamis adalah listrik yang mengalir melalui suatu penghantar karena adanya beda potensial (tegangan). Arus listrik terjadi ketika elektron bergerak dari potensial rendah ke potensial tinggi."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Arus Listrik dan Tegangan"
+            },
+            {
+              "type": "text",
+              "text": "Arus listrik (I) adalah banyaknya muatan yang mengalir per satuan waktu. Tegangan (V) adalah \"dorongan\" yang membuat elektron bergerak."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Arus searah (DC): arus konstan, contoh baterai",
+                "Arus bolak-balik (AC): arus berubah arah, contoh PLN",
+                "Alat ukur: amperemeter (arus), voltmeter (tegangan)"
+              ]
             },
             {
               "type": "heading",
@@ -3701,13 +3911,47 @@
               "text": "Hukum Ohm"
             },
             {
+              "type": "text",
+              "text": "Besar arus listrik yang mengalir melalui penghantar berbanding lurus dengan tegangan dan berbanding terbalik dengan hambatannya."
+            },
+            {
               "type": "math",
               "tex": "V = I \\times R",
               "display": true
             },
             {
+              "type": "list",
+              "items": [
+                "V = tegangan (Volt/V)",
+                "I = arus listrik (Ampere/A)",
+                "R = hambatan (Ohm/Ω)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Hambatan Jenis (Resistivitas)"
+            },
+            {
               "type": "text",
-              "text": "V = tegangan (Volt), I = arus (Ampere), R = hambatan (Ohm)"
+              "text": "Setiap bahan memiliki kemampuan menghambat arus listrik yang berbeda."
+            },
+            {
+              "type": "math",
+              "tex": "R = \\rho \\frac{L}{A}",
+              "display": true
+            },
+            {
+              "type": "list",
+              "items": [
+                "ρ (rho) = hambatan jenis (Ω·m)",
+                "L = panjang penghantar (m)",
+                "A = luas penampang (m²)"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Penghantar baik: tembaga, aluminium, perak (ρ kecil). Isolator baik: karet, kaca, plastik (ρ besar)."
             },
             {
               "type": "heading",
@@ -3715,29 +3959,63 @@
               "text": "Rangkaian Listrik"
             },
             {
+              "type": "text",
+              "text": "Rangkaian listrik adalah susunan komponen listrik yang saling terhubung. Ada dua jenis utama:"
+            },
+            {
               "type": "table",
               "headers": [
-                "Jenis",
-                "Hambatan Total",
-                "Ciri"
+                "Jenis Rangkaian",
+                "Rumus Hambatan Total",
+                "Ciri Arus",
+                "Ciri Tegangan",
+                "Contoh"
               ],
               "rows": [
                 [
                   "Seri",
-                  "R_total = R₁ + R₂ + ...",
-                  "Arus sama, tegangan berbagi"
+                  "R_{total} = R_1 + R_2 + R_3 + ...",
+                  "Arus sama di semua komponen (I_1 = I_2 = I_3)",
+                  "Tegangan terbagi (V_{total} = V_1 + V_2 + ...)",
+                  "Lampu natal tua"
                 ],
                 [
                   "Paralel",
-                  "1/R_total = 1/R₁ + 1/R₂ + ...",
-                  "Tegangan sama, arus berbagi"
+                  "\\frac{1}{R_{total}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\frac{1}{R_3} + ...",
+                  "Arus terbagi (I_{total} = I_1 + I_2 + ...)",
+                  "Tegangan sama di semua cabang (V_1 = V_2 = V_3)",
+                  "Instalasi rumah"
                 ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Jika satu lampu putus dalam rangkaian seri, semua lampu mati. Jika satu lampu putus dalam rangkaian paralel, lampu lain tetap menyala."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Hukum Kirchhoff"
+            },
+            {
+              "type": "text",
+              "text": "Hukum Kirchhoff membantu menganalisis rangkaian kompleks."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Hukum Kirchhoff I (Arus): Jumlah arus yang masuk ke suatu titik cabang sama dengan jumlah arus yang keluar. ΣI_{masuk} = ΣI_{keluar}",
+                "Hukum Kirchhoff II (Tegangan): Jumlah tegangan dalam suatu lintasan tertutup sama dengan nol. ΣV = Σ(I \\times R)"
               ]
             },
             {
               "type": "heading",
               "level": 2,
               "text": "Daya dan Energi Listrik"
+            },
+            {
+              "type": "text",
+              "text": "Daya listrik adalah laju pemakaian energi listrik. Energi listrik adalah total daya dikalikan waktu pemakaian."
             },
             {
               "type": "math",
@@ -3750,8 +4028,34 @@
               "display": true
             },
             {
+              "type": "list",
+              "items": [
+                "P = daya listrik (Watt/W)",
+                "W = energi listrik (Joule/J atau kWh)",
+                "t = waktu (detik untuk Joule, jam untuk kWh)"
+              ]
+            },
+            {
               "type": "highlight",
-              "text": "Biaya listrik = (P × t / 1000) kWh × tarif per kWh"
+              "text": "1 kWh = 3.600.000 J = 3,6 × 10⁶ J. Rumus biaya listrik: Biaya = (P × t / 1000) kWh × Tarif per kWh"
+            },
+            {
+              "type": "text",
+              "text": "Contoh perhitungan: Sebuah kulkas 150 W menyala 24 jam sehari. Energi per hari = 150 × 24 = 3600 Wh = 3,6 kWh. Jika tarif Rp1.500/kWh, biaya per hari = 3,6 × 1.500 = Rp5.400."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Keselamatan Kelistrikan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Jangan menyentuh peralatan listrik dengan tangan basah",
+                "Gunakan sekring atau MCB untuk melindungi dari hubungan singkat",
+                "Pastikan kabel tidak terkelupas atau terjepit",
+                "Jangan memaksakan banyak colokan dalam satu stop kontak"
+              ]
             }
           ]
         }
@@ -3759,33 +4063,103 @@
       "flashcards": [
         {
           "id": "fc1",
+          "question": "Apa yang dimaksud listrik statis?",
+          "answer": "Listrik yang tidak mengalir (muatan diam) akibat perpindahan elektron antar benda"
+        },
+        {
+          "id": "fc2",
+          "question": "Sebutkan tiga cara pengisian muatan pada benda!",
+          "answer": "Gesekan (rubbing), kontak, dan induksi"
+        },
+        {
+          "id": "fc3",
+          "question": "Rumus Hukum Coulomb?",
+          "answer": "F = k (q₁ × q₂) / r²"
+        },
+        {
+          "id": "fc4",
+          "question": "Muatan sejenis akan saling?",
+          "answer": "Tolak-menolak"
+        },
+        {
+          "id": "fc5",
+          "question": "Muatan berbeda akan saling?",
+          "answer": "Tarik-menarik"
+        },
+        {
+          "id": "fc6",
+          "question": "Apa yang dimaksud listrik dinamis?",
+          "answer": "Listrik yang mengalir melalui penghantar karena adanya beda potensial"
+        },
+        {
+          "id": "fc7",
           "question": "Rumus Hukum Ohm?",
           "answer": "V = I × R"
         },
         {
-          "id": "fc2",
-          "question": "Rumus daya listrik?",
-          "answer": "P = V × I"
+          "id": "fc8",
+          "question": "Satuan arus listrik, tegangan, dan hambatan?",
+          "answer": "Ampere (A), Volt (V), Ohm (Ω)"
         },
         {
-          "id": "fc3",
+          "id": "fc9",
+          "question": "Rumus daya listrik?",
+          "answer": "P = V × I = I² × R = V²/R"
+        },
+        {
+          "id": "fc10",
+          "question": "Rumus energi listrik?",
+          "answer": "W = P × t"
+        },
+        {
+          "id": "fc11",
           "question": "Hambatan total rangkaian seri?",
           "answer": "R_total = R₁ + R₂ + R₃ + ..."
         },
         {
-          "id": "fc4",
-          "question": "Apa yang dimaksud listrik statis?",
-          "answer": "Listrik yang tidak mengalir (muatan diam) akibat perpindahan elektron"
+          "id": "fc12",
+          "question": "Hambatan total rangkaian paralel?",
+          "answer": "1/R_total = 1/R₁ + 1/R₂ + 1/R₃ + ..."
         },
         {
-          "id": "fc5",
-          "question": "Rumus energi listrik?",
-          "answer": "W = P × t (daya × waktu)"
+          "id": "fc13",
+          "question": "Ciri arus dalam rangkaian seri?",
+          "answer": "Arus sama di semua komponen"
         },
         {
-          "id": "fc6",
-          "question": "Rumus hambatan total rangkaian paralel?",
-          "answer": "1/R_total = 1/R₁ + 1/R₂ + ..."
+          "id": "fc14",
+          "question": "Ciri tegangan dalam rangkaian paralel?",
+          "answer": "Tegangan sama di semua cabang"
+        },
+        {
+          "id": "fc15",
+          "question": "1 kWh sama dengan berapa Joule?",
+          "answer": "3.600.000 J atau 3,6 × 10⁶ J"
+        },
+        {
+          "id": "fc16",
+          "question": "Rumus biaya listrik?",
+          "answer": "Biaya = (P × t / 1000) kWh × Tarif per kWh"
+        },
+        {
+          "id": "fc17",
+          "question": "Hukum Kirchhoff I (Arus)?",
+          "answer": "ΣI_masuk = ΣI_keluar (jumlah arus masuk = jumlah arus keluar)"
+        },
+        {
+          "id": "fc18",
+          "question": "Hukum Kirchhoff II (Tegangan)?",
+          "answer": "ΣV = Σ(I × R) dalam lintasan tertutup"
+        },
+        {
+          "id": "fc19",
+          "question": "Penghantar listrik yang baik?",
+          "answer": "Tembaga, aluminium, perak (hambatan jenis kecil)"
+        },
+        {
+          "id": "fc20",
+          "question": "Isolator listrik yang baik?",
+          "answer": "Karet, kaca, plastik (hambatan jenis besar)"
         }
       ],
       "quiz": {
@@ -3794,66 +4168,81 @@
             "id": "q1",
             "type": "multiple_choice",
             "question": "Tegangan 12V, arus 2A. Berapakah hambatannya?",
-            "options": [
-              "6 Ohm",
-              "24 Ohm",
-              "10 Ohm",
-              "14 Ohm"
-            ],
+            "options": [],
             "answer": 0,
-            "explanation": "R = V/I = 12/2 = 6 Ohm"
+            "explanation": "Menggunakan Hukum Ohm: R = V/I = 12/2 = 6 Ω"
           },
           {
             "id": "q2",
             "type": "multiple_choice",
             "question": "Muatan sejenis akan?",
-            "options": [
-              "Tarik-menarik",
-              "Tolak-menolak",
-              "Netral",
-              "Tidak berpengaruh"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Muatan sejenis (+ dengan + atau − dengan −) akan saling tolak-menolak."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
             "question": "Lampu 100 W dinyalakan selama 5 jam. Energi listrik yang terpakai adalah?",
-            "options": [
-              "500 J",
-              "500 Wh",
-              "0,5 kWh",
-              "Jawaban B dan C benar"
-            ],
+            "options": [],
             "answer": 3,
-            "explanation": "W = P × t = 100 W × 5 h = 500 Wh = 0,5 kWh"
+            "explanation": "W = P × t = 100 W × 5 h = 500 Wh = 0,5 kWh. Jadi jawaban B dan C keduanya benar."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
             "question": "Dua resistor 6 Ω dan 3 Ω dirangkai paralel. Hambatan totalnya?",
-            "options": [
-              "9 Ω",
-              "2 Ω",
-              "3 Ω",
-              "0,5 Ω"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": "1/R = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 → R = 2 Ω"
+            "explanation": "1/R_total = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 → R_total = 6/3 = 2 Ω"
           },
           {
             "id": "q5",
             "type": "multiple_choice",
             "question": "Petir merupakan contoh gejala?",
-            "options": [
-              "Listrik dinamis",
-              "Listrik statis",
-              "Magnet",
-              "Induksi elektromagnetik"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Petir terjadi karena pelepasan muatan listrik statis yang terkumpul di awan ke bumi atau awan lain."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Tiga resistor 2 Ω, 3 Ω, dan 6 Ω dirangkai seri. Hambatan totalnya?",
+            "options": [],
+            "answer": 0,
+            "explanation": "Rangkaian seri: R_total = R₁ + R₂ + R₃ = 2 + 3 + 6 = 11 Ω"
+          },
+          {
+            "id": "q7",
+            "type": "multiple_choice",
+            "question": "Sebuah setrika 400 W digunakan selama 30 menit. Energi dalam kWh adalah?",
+            "options": [],
+            "answer": 1,
+            "explanation": "W = P × t = 400 W × 0,5 jam = 200 Wh = 0,2 kWh. Perhatikan satuan waktu harus dalam jam untuk kWh."
+          },
+          {
+            "id": "q8",
+            "type": "multiple_choice",
+            "question": "Dalam rangkaian paralel, jika satu lampu putus, maka?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Keunggulan rangkaian paralel adalah setiap cabang bekerja mandiri. Jika satu cabang putus, cabang lain tetap berfungsi."
+          },
+          {
+            "id": "q9",
+            "type": "multiple_choice",
+            "question": "Balon digosokkan ke rambut kering lalu didekatkan pada dinding. Balon menempel. Fenomena ini disebut?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Balon bermuatan akibat gesekan dengan rambut, lalu menarik dinding yang netral melalui induksi. Proses awalnya adalah pengisian muatan oleh gesekan."
+          },
+          {
+            "id": "q10",
+            "type": "multiple_choice",
+            "question": "Sebuah penghantar panjangnya 2 m, luas penampang 0,5 mm², dengan hambatan jenis 1,7 × 10⁻⁸ Ω·m. Hambatannya adalah?",
+            "options": [],
+            "answer": 2,
+            "explanation": "R = ρL/A = (1,7 × 10⁻⁸ × 2) / (0,5 × 10⁻⁶) = 3,4 × 10⁻⁸ / 0,5 × 10⁻⁶ = 6,8 × 10⁻² Ω = 0,068 Ω. Perhatikan konversi luas dari mm² ke m² (×10⁻⁶)."
           }
         ]
       }

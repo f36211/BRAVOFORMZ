@@ -184,6 +184,70 @@ class TopicDialog(tk.Toplevel):
         self.destroy()
 
 
+# ─── Dialog Edit Subject ────────────────────────────────────────────────────
+class SubjectDialog(tk.Toplevel):
+    def __init__(self, parent, data):
+        super().__init__(parent)
+        self.result = None
+        self.title("⚙️ Edit Info Pelajaran")
+        self.configure(bg=BG_DARK)
+        self.resizable(False, False)
+        self.geometry("500x420")
+        self._build(data)
+        self.transient(parent)
+        self.grab_set()
+        self.wait_window()
+
+    def _build(self, data):
+        pad = dict(padx=20, pady=8)
+        tk.Label(self, text="⚙️ Edit Info Pelajaran", bg=BG_DARK, fg=TEXT_PRI,
+                 font=FONT_HEAD).pack(**pad, anchor="w")
+
+        fields = [
+            ("Nama Pelajaran *", "name", data.get("name", "")),
+            ("Deskripsi", "description", data.get("description", "")),
+            ("URL Gambar (Cover)", "image", data.get("image", "")),
+        ]
+        self._vars = {}
+        for label, key, val in fields:
+            SectionLabel(self, text=label).pack(padx=20, anchor="w", pady=(8, 2))
+            v = tk.StringVar(value=val)
+            self._vars[key] = v
+            StyledEntry(self, textvariable=v, width=55).pack(padx=20, fill="x")
+
+        # Grade checkboxes
+        SectionLabel(self, text="Tingkatan Kelas").pack(padx=20, pady=(8, 2), anchor="w")
+        grade_frame = tk.Frame(self, bg=BG_DARK)
+        grade_frame.pack(padx=20, anchor="w")
+        self._grades = {}
+        curr_grades = data.get("grade", [7, 8, 9])
+        for g in [7, 8, 9]:
+            var = tk.BooleanVar(value=g in curr_grades)
+            self._grades[g] = var
+            tk.Checkbutton(grade_frame, text=f"Kelas {g}", variable=var,
+                           bg=BG_DARK, fg=TEXT_PRI, selectcolor=BG_INPUT,
+                           activebackground=BG_DARK, font=FONT_BODY).pack(side="left", padx=10)
+
+        # Buttons
+        btn_frame = tk.Frame(self, bg=BG_DARK)
+        btn_frame.pack(side="bottom", pady=20)
+        StyledButton(btn_frame, "✓  Simpan Perubahan", self._save, style="primary").pack(side="left", padx=6)
+        StyledButton(btn_frame, "Batal", self.destroy, style="ghost").pack(side="left", padx=6)
+
+    def _save(self):
+        name = self._vars["name"].get().strip()
+        if not name:
+            messagebox.showwarning("Perhatian", "Nama pelajaran wajib diisi!", parent=self)
+            return
+        self.result = {
+            "name": name,
+            "description": self._vars["description"].get().strip(),
+            "image": self._vars["image"].get().strip(),
+            "grade": [g for g, v in self._grades.items() if v.get()]
+        }
+        self.destroy()
+
+
 # ─── Dialog Lesson ────────────────────────────────────────────────────────────
 class LessonDialog(tk.Toplevel):
     def __init__(self, parent, lesson=None):
@@ -235,6 +299,7 @@ class LessonDialog(tk.Toplevel):
         self._content_text.tag_configure("math", foreground=ACCENT2)
         self._content_text.tag_configure("list", foreground=SUCCESS)
         self._content_text.tag_configure("highlight", foreground=ACCENT2, background="#2e1065")
+        self._content_text.tag_configure("image", foreground="#fbbf24")
         self._content_text.bind("<KeyRelease>", self._apply_syntax)
 
         if lesson and lesson.get("content"):
@@ -330,6 +395,7 @@ class LessonDialog(tk.Toplevel):
         text.tag_remove("math", "1.0", "end")
         text.tag_remove("list", "1.0", "end")
         text.tag_remove("highlight", "1.0", "end")
+        text.tag_remove("image", "1.0", "end")
         
         content = text.get("1.0", "end-1c")
         lines = content.split("\n")
@@ -352,6 +418,8 @@ class LessonDialog(tk.Toplevel):
                     tag_type = "list"
                 elif "HIGHLIGHT" in p_upper:
                     tag_type = "highlight"
+                elif "IMAGE" in p_upper or "CAPTION" in p_upper:
+                    tag_type = "image"
                 
                 if tag_type:
                     text.tag_add(tag_type, p_end, f"{line_idx}.end")
@@ -378,6 +446,10 @@ class LessonDialog(tk.Toplevel):
                     lines.append(f"TABLE_ROW: {','.join(str(c) for c in row)}")
             elif t == "math":
                 lines.append(f"MATH: {item.get('tex', '')}")
+            elif t == "image":
+                lines.append(f"IMAGE: {item.get('url', '')}")
+                if item.get("caption"):
+                    lines.append(f"CAPTION: {item.get('caption', '')}")
         return "\n".join(lines)
 
     def _text_to_content(self, raw):
@@ -434,6 +506,12 @@ class LessonDialog(tk.Toplevel):
             elif prefix == "MATH":
                 flush_table()
                 content.append({"type": "math", "tex": rest, "display": True})
+            elif prefix == "IMAGE":
+                flush_table()
+                content.append({"type": "image", "url": rest, "caption": ""})
+            elif prefix == "CAPTION":
+                if content and content[-1]["type"] == "image":
+                    content[-1]["caption"] = rest
             else:
                 flush_table()
                 content.append({"type": "text", "text": line})
@@ -1467,6 +1545,7 @@ class SubjectEditor(tk.Tk):
 
         # Buttons
         btns = [
+            ("⚙️ Info", self._edit_subject_info, "ghost"),
             ("🔍 Global Search", self._global_search, "ghost"),
             ("💾 Export As", self._save_as, "ghost"),
             ("🤖 AI Mode", self._open_ai_mode, "purple"),
@@ -1508,6 +1587,16 @@ class SubjectEditor(tk.Tk):
 
         path = os.path.join(os.path.dirname(os.path.abspath(__file__)), fname)
         self._load_file_path(path)
+
+    def _edit_subject_info(self):
+        """Edit metadata pelajaran (nama, deskripsi, image, grade)."""
+        if not self._data: return
+        dlg = SubjectDialog(self, self._data)
+        if dlg.result:
+            self._data.update(dlg.result)
+            self._mark_unsaved()
+            self._update_title()
+            messagebox.showinfo("✓", "Informasi pelajaran berhasil diperbarui!")
 
     def _load_file_path(self, path):
         try:

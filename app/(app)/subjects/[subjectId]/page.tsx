@@ -20,17 +20,31 @@ export default function SubjectPage() {
         initial={{ opacity: 0, y: 8 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
-        className="space-y-2"
+        className="relative overflow-hidden rounded-3xl border border-border bg-card p-6 md:p-10 flex flex-col md:flex-row gap-8 items-center md:items-start"
       >
-        <div className="flex items-center gap-2 text-[11px] font-mono uppercase tracking-[0.14em] text-muted-foreground">
-          <span>Subject</span>
-          <span>·</span>
-          <span>Grade {subject.grade.join(", ")}</span>
+        {subject.image && (
+          <div className="absolute inset-0 opacity-5 pointer-events-none">
+            <img src={subject.image} alt="" className="size-full object-cover blur-2xl" />
+          </div>
+        )}
+
+        {subject.image && (
+          <div className="size-32 md:size-40 rounded-2xl border border-border overflow-hidden shrink-0 shadow-xl relative z-10">
+            <img src={subject.image} alt={subject.name} className="size-full object-cover" />
+          </div>
+        )}
+
+        <div className="flex-1 space-y-2 relative z-10 text-center md:text-left">
+          <div className="flex items-center justify-center md:justify-start gap-2 text-[11px] font-mono uppercase tracking-[0.14em] text-muted-foreground">
+            <span>Subject</span>
+            <span>·</span>
+            <span>Grade {subject.grade.join(", ")}</span>
+          </div>
+          <h1 className="text-3xl md:text-5xl font-medium tracking-tight">{subject.name}</h1>
+          <p className="text-sm md:text-lg text-muted-foreground max-w-2xl text-pretty mx-auto md:mx-0">
+            {subject.description}
+          </p>
         </div>
-        <h1 className="text-3xl md:text-4xl font-medium tracking-tight">{subject.name}</h1>
-        <p className="text-sm md:text-base text-muted-foreground max-w-2xl text-pretty">
-          {subject.description}
-        </p>
       </motion.header>
 
       <section>

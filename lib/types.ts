@@ -52,6 +52,7 @@ export type Subject = {
   description: string
   grade: number[]
   icon: string
+  image?: string
   color: "neutral" | "mono" | "soft"
   topics: Topic[]
 }

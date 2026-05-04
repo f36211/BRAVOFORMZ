@@ -87,19 +87,25 @@ export default function DashboardPage() {
               >
                 <Link
                   href={`/subjects/${s.id}`}
-                  className="group block rounded-2xl border border-border bg-card p-5 transition-colors hover:bg-accent/40"
+                  className="group block rounded-2xl border border-border bg-card p-5 transition-all hover:bg-accent/40 hover:scale-[1.01] active:scale-[0.99]"
                 >
-                  <div className="flex items-start justify-between gap-3">
-                    <div>
+                  <div className="flex items-start justify-between gap-4">
+                    <div className="flex-1">
                       <div className="text-[10px] font-mono uppercase tracking-[0.14em] text-muted-foreground">
                         {s.topics.length} topics
                       </div>
-                      <h3 className="mt-2 text-lg font-medium tracking-tight">{s.name}</h3>
+                      <h3 className="mt-2 text-lg font-medium tracking-tight group-hover:text-primary transition-colors">{s.name}</h3>
                       <p className="mt-1 text-xs text-muted-foreground line-clamp-2">
                         {s.description}
                       </p>
                     </div>
-                    <ArrowUpRight className="size-4 text-muted-foreground group-hover:text-foreground transition-colors" />
+                    {s.image ? (
+                      <div className="size-16 rounded-xl border border-border overflow-hidden shrink-0">
+                        <img src={s.image} alt={s.name} className="size-full object-cover transition-transform group-hover:scale-110" />
+                      </div>
+                    ) : (
+                      <ArrowUpRight className="size-4 text-muted-foreground group-hover:text-foreground transition-colors" />
+                    )}
                   </div>
 
                   <div className="mt-5">
