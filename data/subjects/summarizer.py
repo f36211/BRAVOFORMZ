@@ -1239,8 +1239,8 @@ class AIModeWindow(tk.Toplevel):
         topic_combo = ttk.Combobox(cfg_card, textvariable=self._topic_var, values=topic_names, width=35, state="readonly")
         topic_combo.pack(padx=15, pady=5, fill="x")
         
-        # AUTO-SYNC: When you change the goal topic, the import target updates automatically
-        topic_combo.bind("<<ComboboxSelected>>", lambda e: self._import_target_var.set(self._topic_var.get()))
+        # AUTO-SYNC: When you change the goal topic, the import target updates automatically and inputs reset
+        topic_combo.bind("<<ComboboxSelected>>", self._on_goal_change)
         
         self._ai_action = tk.StringVar(value="improve_content")
         actions = [
@@ -1290,6 +1290,12 @@ class AIModeWindow(tk.Toplevel):
         ttk.Combobox(bot_f, textvariable=self._import_target_var, values=topic_names, width=30, state="readonly").pack(side="left", padx=10)
         
         StyledButton(bot_f, "⚡ Fast Sync & Auto-Save", self._do_import, style="success").pack(side="right")
+
+    def _on_goal_change(self, event=None):
+        """Update sync target and clear inputs when goal changes."""
+        self._import_target_var.set(self._topic_var.get())
+        if hasattr(self, "_import_in"):
+            self._import_in.delete("1.0", "end")
 
     def _auto_export(self):
         """Otomatis generate prompt + DSL dan salin ke clipboard."""

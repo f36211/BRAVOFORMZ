@@ -353,12 +353,12 @@
     {
       "id": "gaya-newton",
       "title": "Hukum Newton",
-      "description": "Hukum Newton 1, 2, 3 dan aplikasinya",
+      "description": "Hukum Newton 1, 2, 3 dan aplikasinya dalam kehidupan sehari-hari",
       "lessons": [
         {
           "id": "hukum-newton",
           "title": "Tiga Hukum Newton",
-          "estMinutes": 12,
+          "estMinutes": 15,
           "content": [
             {
               "type": "heading",
@@ -367,20 +367,33 @@
             {
               "type": "heading",
               "level": 2,
-              "text": "Hukum Newton I (Inersia)"
+              "text": "Hukum Newton I (Inersia / Kelembaman)"
             },
             {
               "type": "text",
-              "text": "Setiap benda akan tetap diam atau bergerak lurus beraturan jika tidak ada gaya yang bekerja padanya (resultan gaya = 0)."
+              "text": "Setiap benda akan tetap diam atau bergerak lurus beraturan jika tidak ada gaya yang bekerja padanya, atau resultan gaya yang bekerja pada benda sama dengan nol. Sifat benda yang cenderung mempertahankan keadaan geraknya disebut inersia."
             },
             {
               "type": "highlight",
-              "text": "Contoh: Penumpang terdorong ke depan saat bus direm mendadak"
+              "text": "Inersia adalah kecenderungan benda untuk mempertahankan keadaan geraknya (diam tetap diam, bergerak tetap bergerak lurus beraturan)."
+            },
+            {
+              "type": "text",
+              "text": "Contoh dalam kehidupan sehari-hari:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Penumpang terdorong ke depan saat bus direm mendadak (tubuh cenderung mempertahankan gerakan)",
+                "Penumpang terdorong ke belakang saat bus berangkat tiba-tiba (tubuh cenderung mempertahankan diam)",
+                "Benda di atas kertas bergerak mundur saat kertas ditarik cepat",
+                "Menggoyangkan air dari tangan (air tetap bergerak saat tangan berhenti)"
+              ]
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Hukum Newton II"
+              "text": "Hukum Newton II (Gaya dan Percepatan)"
             },
             {
               "type": "math",
@@ -389,7 +402,27 @@
             },
             {
               "type": "text",
-              "text": "Percepatan berbanding lurus dengan gaya dan berbanding terbalik dengan massa. Satuan gaya adalah Newton (N)."
+              "text": "Percepatan yang dihasilkan oleh gaya berbanding lurus dengan besar gaya dan berbanding terbalik dengan massa benda. Arah percepatan sama dengan arah gaya resultan."
+            },
+            {
+              "type": "text",
+              "text": "Satuan gaya adalah Newton (N), di mana 1 N = 1 kg m/s²."
+            },
+            {
+              "type": "highlight",
+              "text": "Makin besar massa benda, makin sulit dipercepat (inersia makin besar). Makin besar gaya, makin besar percepatannya."
+            },
+            {
+              "type": "text",
+              "text": "Contoh dalam kehidupan sehari-hari:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Mendorong gerobak kosong lebih mudah daripada gerobak berisi barang berat",
+                "Mobil bermuatan berat butuh jarak lebih jauh untuk berhenti",
+                "Mengayuh sepeda dengan lebih kencang menghasilkan percepatan lebih besar"
+              ]
             },
             {
               "type": "heading",
@@ -398,14 +431,24 @@
             },
             {
               "type": "text",
-              "text": "Setiap aksi selalu ada reaksi yang sama besar tetapi berlawanan arah."
+              "text": "Jika benda A memberikan gaya pada benda B, maka benda B memberikan gaya pada benda A yang sama besar tetapi berlawanan arah. Kedua gaya bekerja pada benda yang berbeda."
+            },
+            {
+              "type": "highlight",
+              "text": "Gaya aksi dan reaksi bekerja pada benda yang BERBEDA, sehingga tidak saling meniadakan."
+            },
+            {
+              "type": "text",
+              "text": "Contoh dalam kehidupan sehari-hari:"
             },
             {
               "type": "list",
               "items": [
-                "Mendorong tembok → tembok mendorong balik",
-                "Roket meluncur → gas terdorong ke bawah",
-                "Berenang → air didorong ke belakang"
+                "Mendorong tembok → tembok mendorong balik tanganmu",
+                "Roket meluncur ke atas → gas terdorong ke bawah dengan gaya sama besar",
+                "Berenang → kaki mendorong air ke belakang, air mendorong tubuh ke depan",
+                "Berjalan → kaki mendorong tanah ke belakang, tanah mendorong kaki ke depan",
+                "Burung terbang → sayap mendorong udara ke bawah, udara mendorong sayap ke atas"
               ]
             },
             {
@@ -414,28 +457,142 @@
               "text": "GLB dan GLBB"
             },
             {
+              "type": "text",
+              "text": "Gerak Lurus Beraturan (GLB) adalah gerak lurus dengan kecepatan konstan (tidak dipercepat). Gerak Lurus Berubah Beraturan (GLBB) adalah gerak lurus dengan percepatan konstan."
+            },
+            {
               "type": "table",
               "headers": [
                 "Jenis Gerak",
-                "Kecepatan",
-                "Percepatan"
+                "Kecepatan (v)",
+                "Percepatan (a)",
+                "Contoh"
               ],
               "rows": [
                 [
                   "GLB (Gerak Lurus Beraturan)",
                   "Konstan",
-                  "0"
+                  "0",
+                  "Mobil di jalan tol dengan kecepatan tetap"
                 ],
                 [
-                  "GLBB (Gerak Lurus Berubah Beraturan)",
-                  "Berubah teratur",
-                  "Konstan (≠ 0)"
+                  "GLBB Dipercepat (a > 0)",
+                  "Bertambah teratur",
+                  "Konstan positif",
+                  "Benda jatuh bebas"
+                ],
+                [
+                  "GLBB Diperlambat (a < 0)",
+                  "Berkurang teratur",
+                  "Konstan negatif",
+                  "Mobil direm dengan gaya konstan"
                 ]
               ]
             },
             {
               "type": "highlight",
-              "text": "Grafik v-t GLB: garis lurus mendatar. Grafik v-t GLBB: garis miring (naik/turun)."
+              "text": "Grafik v-t GLB: garis lurus mendatar (horizontal). Grafik v-t GLBB dipercepat: garis miring ke atas. Grafik v-t GLBB diperlambat: garis miring ke bawah."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Rangkuman Tiga Hukum Newton"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Hukum",
+                "Nama Lain",
+                "Pernyataan Inti",
+                "Rumus"
+              ],
+              "rows": [
+                [
+                  "Hukum I",
+                  "Inersia / Kelembaman",
+                  "Benda mempertahankan keadaan geraknya",
+                  "—"
+                ],
+                [
+                  "Hukum II",
+                  "Gaya dan Percepatan",
+                  "Gaya sebanding dengan percepatan",
+                  "F = m × a"
+                ],
+                [
+                  "Hukum III",
+                  "Aksi-Reaksi",
+                  "Gaya aksi = gaya reaksi, arah berlawanan",
+                  "F_aksi = −F_reaksi"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "aplikasi-newton",
+          "title": "Aplikasi Hukum Newton",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Aplikasi Hukum Newton dalam Kehidupan"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kendaraan dan Keselamatan"
+            },
+            {
+              "type": "text",
+              "text": "Hukum Newton I menjelaskan mengapa sabuk pengaman penting. Saat mobil berhenti mendadak, tubuh penumpang cenderung tetap bergerak maju karena inersia. Sabuk pengaman memberikan gaya untuk menghentikan tubuh secara perlahan."
+            },
+            {
+              "type": "highlight",
+              "text": "Airbag juga bekerja berdasarkan Hukum Newton I: menghentikan tubuh secara perlahan untuk mengurangi gaya benturan (F = m × a, percepatan kecil = gaya kecil)."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Olahraga"
+            },
+            {
+              "type": "text",
+              "text": "Dalam lompat jauh, atlet berlari kencang untuk memanfaatkan inersia horizontal. Saat melompat, tubuh cenderung tetap bergerak maju, sehingga mencapai jarak lebih jauh."
+            },
+            {
+              "type": "text",
+              "text": "Dalang sepak bola, menendang bola dengan gaya besar menghasilkan percepatan besar pada bola (Hukum Newton II)."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Transportasi"
+            },
+            {
+              "type": "text",
+              "text": "Roket bekerja berdasarkan Hukum Newton III. Gas panas ditembakkan ke bawah dengan gaya besar, sehingga roket mendapat reaksi ke atas yang sama besar."
+            },
+            {
+              "type": "text",
+              "text": "Perahu dayung: dayung mendorong air ke belakang, air mendorong perahu ke depan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Latihan Soal Konsep"
+            },
+            {
+              "type": "text",
+              "text": "Perhatikan situasi berikut dan tentukan hukum Newton mana yang berlaku:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Buku di atas meja tidak bergerak meski ditiup angin kecil → Hukum I (inersia)",
+                "Mobil sport lebih cepat menyalip truk karena massanya lebih kecil → Hukum II",
+                "Pesawat jet terbang ke atas karena mesin mendorong udara ke belakang → Hukum III"
+              ]
             }
           ]
         }
@@ -444,32 +601,52 @@
         {
           "id": "fc1",
           "question": "Rumus Hukum Newton II?",
-          "answer": "F = m × a"
+          "answer": "F = m × a (Gaya = massa × percepatan)"
         },
         {
           "id": "fc2",
           "question": "Apa yang dimaksud inersia?",
-          "answer": "Kecenderungan benda mempertahankan keadaan geraknya"
+          "answer": "Kecenderungan benda mempertahankan keadaan geraknya (diam tetap diam, bergerak tetap bergerak lurus beraturan)"
         },
         {
           "id": "fc3",
-          "question": "Contoh Hukum Newton III?",
-          "answer": "Roket meluncur ke atas, gas terdorong ke bawah"
+          "question": "Sebutkan tiga contoh Hukum Newton III dalam kehidupan sehari-hari!",
+          "answer": "(1) Mendorong tembok, tembok mendorong balik; (2) Roket meluncur ke atas, gas terdorong ke bawah; (3) Berenang, air didorong ke belakang mendorong tubuh ke depan"
         },
         {
           "id": "fc4",
           "question": "Apa perbedaan GLB dan GLBB?",
-          "answer": "GLB: kecepatan konstan, percepatan 0; GLBB: kecepatan berubah teratur, percepatan konstan"
+          "answer": "GLB: kecepatan konstan, percepatan = 0. GLBB: kecepatan berubah teratur, percepatan konstan (≠ 0)"
         },
         {
           "id": "fc5",
           "question": "Contoh penerapan Hukum Newton I dalam kehidupan sehari-hari?",
-          "answer": "Penumpang terdorong ke depan saat kendaraan berhenti mendadak"
+          "answer": "Penumpang terdorong ke depan saat kendaraan berhenti mendadak; penumpang terdorong ke belakang saat kendaraan berangkat tiba-tiba"
         },
         {
           "id": "fc6",
           "question": "Jika massa benda diperbesar, apa yang terjadi pada percepatannya jika gaya tetap?",
-          "answer": "Percepatan semakin kecil (berbanding terbalik)"
+          "answer": "Percepatan semakin kecil (berbanding terbalik dengan massa)"
+        },
+        {
+          "id": "fc7",
+          "question": "Mengapa sabuk pengaman penting menurut Hukum Newton?",
+          "answer": "Saat mobil berhenti mendadak, tubuh cenderung tetap bergerak maju karena inersia. Sabuk memberikan gaya untuk menghentikan tubuh secara perlahan."
+        },
+        {
+          "id": "fc8",
+          "question": "Apa satuan gaya dalam SI?",
+          "answer": "Newton (N), di mana 1 N = 1 kg·m/s²"
+        },
+        {
+          "id": "fc9",
+          "question": "Dalam Hukum Newton III, apakah gaya aksi dan reaksi bekerja pada benda yang sama?",
+          "answer": "Tidak. Gaya aksi dan reaksi bekerja pada benda yang BERBEDA, sehingga tidak saling meniadakan."
+        },
+        {
+          "id": "fc10",
+          "question": "Bagaimana bentuk grafik v-t untuk GLB?",
+          "answer": "Garis lurus mendatar (horizontal), menunjukkan kecepatan konstan"
         }
       ],
       "quiz": {
@@ -478,66 +655,65 @@
             "id": "q1",
             "type": "multiple_choice",
             "question": "Benda bermassa 5 kg diberi gaya 20 N. Berapakah percepatannya?",
-            "options": [
-              "2 m/s²",
-              "4 m/s²",
-              "25 m/s²",
-              "100 m/s²"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": "a = F/m = 20/5 = 4 m/s²"
+            "explanation": "Menggunakan rumus F = m × a, maka a = F/m = 20/5 = 4 m/s². Jawaban yang benar adalah B."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
             "question": "Hukum Newton I juga disebut hukum?",
-            "options": [
-              "Aksi-reaksi",
-              "Kelembaman",
-              "Gravitasi",
-              "Kekekalan energi"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Hukum Newton I dikenal sebagai Hukum Kelembaman atau Hukum Inersia karena menjelaskan sifat benda yang mempertahankan keadaan geraknya."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
             "question": "Grafik v-t yang menunjukkan GLB adalah?",
-            "options": [
-              "Garis miring ke atas",
-              "Garis miring ke bawah",
-              "Garis lurus mendatar",
-              "Kurva parabola"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": "GLB memiliki kecepatan konstan sehingga grafik v-t berupa garis horizontal."
+            "explanation": "GLB memiliki kecepatan konstan sepanjang waktu, sehingga grafik v-t berupa garis horizontal."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Sebuah benda diam di atas meja. Gaya apa yang bekerja berdasarkan Hukum Newton III?",
-            "options": [
-              "Hanya gaya gravitasi",
-              "Gaya gravitasi ke bawah dan gaya normal ke atas",
-              "Hanya gaya normal",
-              "Tidak ada gaya"
-            ],
+            "question": "Sebuah benda diam di atas meja. Pasangan gaya aksi-reaksi berdasarkan Hukum Newton III adalah?",
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Benda menarik meja ke bawah karena gravitasi (aksi), meja mendorong benda ke atas dengan gaya normal (reaksi). Kedua gaya sama besar dan berlawanan arah."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
             "question": "Benda bermassa 10 kg mengalami percepatan 3 m/s². Besar gaya yang bekerja adalah?",
-            "options": [
-              "13 N",
-              "30 N",
-              "3 N",
-              "0,3 N"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": "F = m × a = 10 × 3 = 30 N"
+            "explanation": "Menggunakan rumus F = m × a = 10 × 3 = 30 N. Jawaban yang benar adalah B."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Sebuah mobil bergerak dengan kecepatan 60 km/jam di jalan tol yang lurus. Mobil tersebut mengalami gerak?",
+            "options": [],
+            "answer": 2,
+            "explanation": "Mobil bergerak dengan kecepatan konstan di jalan tol lurus, sehingga mengalami Gerak Lurus Beraturan (GLB) dengan percepatan nol."
+          },
+          {
+            "id": "q7",
+            "type": "multiple_choice",
+            "question": "Mengapa truk bermuatan berat lebih sulit berhenti daripada truk kosong?",
+            "options": [],
+            "answer": 0,
+            "explanation": "Truk bermuatan memiliki massa lebih besar, sehingga inersianya lebih besar (Hukum Newton I). Menurut Hukum Newton II, untuk gaya rem yang sama, percepatan perlambatan lebih kecil, jadi butuh waktu dan jarak lebih jauh untuk berhenti."
+          },
+          {
+            "id": "q8",
+            "type": "multiple_choice",
+            "question": "Saat roket meluncur ke atas, gas panas ditembakkan ke bawah. Ini merupakan contoh?",
+            "options": [],
+            "answer": 2,
+            "explanation": "Roket mendorong gas ke bawah (aksi), gas mendorong roket ke atas (reaksi). Gaya aksi dan reaksi sama besar dan berlawanan arah, sesuai Hukum Newton III."
           }
         ]
       }
@@ -1585,16 +1761,20 @@
     {
       "id": "sistem-pencernaan",
       "title": "Sistem Pencernaan",
-      "description": "Organ dan enzim pencernaan manusia",
+      "description": "Organ, enzim, mekanisme pencernaan, dan gangguan kesehatan pada saluran pencernaan manusia",
       "lessons": [
         {
           "id": "organ-pencernaan",
           "title": "Organ dan Enzim Pencernaan",
-          "estMinutes": 12,
+          "estMinutes": 15,
           "content": [
             {
               "type": "heading",
               "text": "Sistem Pencernaan Manusia"
+            },
+            {
+              "type": "text",
+              "text": "Sistem pencernaan adalah rangkaian organ yang bekerja sama untuk mengubah makanan menjadi zat-zat sederhana yang dapat diserap tubuh. Proses pencernaan melibatkan dua mekanisme utama: pencernaan mekanis (penghancuran fisik) dan pencernaan kimiawi (penguraian oleh enzim)."
             },
             {
               "type": "heading",
@@ -1602,70 +1782,182 @@
               "text": "Urutan Organ Pencernaan"
             },
             {
+              "type": "text",
+              "text": "Makanan melewati saluran pencernaan secara berurutan. Berikut adalah lintasan makanan dari mulut hingga keluar:"
+            },
+            {
               "type": "list",
-              "ordered": true,
               "items": [
-                "Mulut: pencernaan mekanis (gigi) dan kimiawi (amilase)",
-                "Kerongkongan (esofagus): gerak peristaltik",
-                "Lambung: pepsin mencerna protein",
-                "Usus halus: penyerapan sari makanan",
-                "Usus besar: penyerapan air",
-                "Anus: pembuangan sisa makanan"
+                "Mulut: pencernaan mekanis oleh gigi (penghancuran) dan kimiawi oleh air liur mengandung enzim amilase",
+                "Kerongkongan (esofagus): saluran penghubung mulut ke lambung, mendorong makanan dengan gerak peristaltik",
+                "Lambung: kantung otot yang mengaduk makanan dan mengeluarkan asam klorida (HCl) serta enzim pepsin",
+                "Usus halus: organ terpanjang (~6 meter) tempat penyerapan nutrisi utama; terdiri dari duodenum, jejenum, dan ileum",
+                "Usus besar (kolon): menyerap air dan garam mineral, membentuk feses",
+                "Anus: membuka untuk pembuangan sisa makanan yang tidak dapat dicerna"
               ]
+            },
+            {
+              "type": "highlight",
+              "text": "Usus halus adalah tempat penyerapan 90% nutrisi, sedangkan usus besar menyerap sisa air sehingga feses menjadi padat."
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Enzim Pencernaan"
+              "text": "Enzim Pencernaan dan Fungsinya"
+            },
+            {
+              "type": "text",
+              "text": "Enzim adalah protein biokatalis yang mempercepat reaksi penguraian makanan. Setiap enzim bekerja pada substrat tertentu dan pada kondisi pH optimal."
             },
             {
               "type": "table",
               "headers": [
                 "Enzim",
-                "Organ",
-                "Fungsi"
+                "Organ Asal",
+                "Substrat",
+                "Hasil",
+                "pH Optimal"
               ],
               "rows": [
                 [
                   "Amilase (ptialin)",
-                  "Mulut",
-                  "Memecah amilum menjadi maltosa"
+                  "Kelenjar air liur (mulut)",
+                  "Amilum (karbohidrat)",
+                  "Maltosa",
+                  "Netral (pH 6,7)"
                 ],
                 [
                   "Pepsin",
-                  "Lambung",
-                  "Memecah protein menjadi pepton"
+                  "Dinding lambung",
+                  "Protein",
+                  "Pepton",
+                  "Asam (pH 1,5-2)"
                 ],
                 [
                   "Lipase",
-                  "Pankreas/usus halus",
-                  "Memecah lemak menjadi asam lemak"
+                  "Pankreas & usus halus",
+                  "Lemak",
+                  "Asam lemak & gliserol",
+                  "Basa (pH 8)"
                 ],
                 [
                   "Tripsin",
                   "Pankreas",
-                  "Memecah protein menjadi asam amino"
+                  "Protein & pepton",
+                  "Asam amino",
+                  "Basa (pH 8)"
                 ],
                 [
                   "Maltase",
-                  "Usus halus",
-                  "Memecah maltosa menjadi glukosa"
+                  "Dinding usus halus",
+                  "Maltosa",
+                  "Glukosa",
+                  "Netral (pH 6-7)"
+                ],
+                [
+                  "Amilase pankreas",
+                  "Pankreas",
+                  "Amilum",
+                  "Maltosa",
+                  "Basa (pH 7-8)"
                 ]
               ]
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Gangguan Pencernaan"
+              "text": "Mekanisme Kerja Enzim"
+            },
+            {
+              "type": "text",
+              "text": "Enzim bekerja seperti kunci dan gembok—enzim hanya dapat mengubah substrat yang bentuknya cocok dengan sisi aktif enzim. Proses ini disebut teori kunci-gembok (lock and key)."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Organ Bantu Pencernaan"
             },
             {
               "type": "list",
               "items": [
-                "Maag (gastritis): peradangan dinding lambung",
-                "Diare: feses terlalu cair akibat infeksi atau gangguan penyerapan",
-                "Konstipasi (sembelit): sulit buang air besar",
-                "Apendisitis: radang usus buntu"
+                "Hati: menghasilkan empedu yang membantu emulsifikasi (penguraian) lemak",
+                "Kantong empedu: menyimpan dan memekatkan empedu dari hati",
+                "Pankreas: menghasilkan enzim pencernaan (amilase, lipase, tripsin) dan hormon insulin"
               ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Gangguan Sistem Pencernaan"
+            },
+            {
+              "type": "text",
+              "text": "Pola makan dan gaya hidup tidak sehat dapat menyebabkan berbagai gangguan pencernaan."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Maag (gastritis): peradangan dinding lambung akibat asam lambung berlebih, infeksi bakteri Helicobacter pylori, atau stres",
+                "Diare: feses terlalu cair akibat infeksi bakteri/virus, alergi makanan, atau gangguan penyerapan air di usus besar",
+                "Konstipasi (sembelit): sulit buang air besar karena kurang serat, kurang minum, atau kurang gerak",
+                "Apendisitis: radang usus buntu yang dapat menyebabkan pecah dan infeksi perut jika tidak dioperasi",
+                "GERD (Gastroesophageal Reflux Disease): asam lambung naik ke kerongkongan menyebabkan rasa panas di dada"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Mencegah gangguan pencernaan: makan teratur, kunyah makanan hingga halus, konsumsi serat dan air cukup, serta hindari makanan terlalu pedas atau asam berlebihan."
+            }
+          ]
+        },
+        {
+          "id": "proses-pencernaan",
+          "title": "Proses Pencernaan Makanan",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Dari Makanan hingga Energi"
+            },
+            {
+              "type": "text",
+              "text": "Mari kita ikuti perjalanan sepotong roti dari mulut hingga menjadi energi untuk tubuh!"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pencernaan di Mulut"
+            },
+            {
+              "type": "text",
+              "text": "Saat mengunyah roti, gigi menghancurkannya menjadi potongan kecil. Air liur mengandung enzim amilase mulai memecah pati roti menjadi gula lebih sederhana (maltosa). Makanan yang telah dihaluskan disebut bolus."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pencernaan di Lambung"
+            },
+            {
+              "type": "text",
+              "text": "Bolus masuk ke lambung melalui gerak peristaltik. Lambung mengeluarkan asam klorida (HCl) yang membunuh kuman dan mengaktifkan pepsinogen menjadi pepsin. Pepsin mulai mencerna protein. Makanan yang telah diaduk dengan asam lambung berubah menjadi kima (chyme)."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pencernaan di Usus Halus"
+            },
+            {
+              "type": "text",
+              "text": "Kima masuk ke usus halus. Empedu dari hati memecah lemak menjadi tetesan kecil. Enzim pankreas (amilase, lipase, tripsin) dan enzim dinding usus (maltase) bekerja bersama menghasilkan glukosa, asam amino, dan asam lemak. Nutrisi ini diserap oleh pembuluh darah di dinding usus melalui struktus mirip jari-jari yang disebut villi."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pencernaan di Usus Besar"
+            },
+            {
+              "type": "text",
+              "text": "Sisa makanan yang tidak terserap masuk usus besar. Air dan garam mineral diserap kembali. Bakteri usus membantu memecah serat dan memproduksi vitamin K. Sisa padat (feses) disimpan di rektum hingga dikeluarkan."
             }
           ]
         }
@@ -1673,33 +1965,53 @@
       "flashcards": [
         {
           "id": "fc1",
-          "question": "Enzim di mulut yang memecah amilum?",
+          "question": "Enzim di mulut yang memecah amilum menjadi maltosa?",
           "answer": "Amilase (ptialin)"
         },
         {
           "id": "fc2",
-          "question": "Fungsi pepsin?",
-          "answer": "Memecah protein menjadi pepton di lambung"
+          "question": "Fungsi pepsin dan di mana enzim ini bekerja?",
+          "answer": "Memecah protein menjadi pepton di lambung pada kondisi asam (pH 1,5-2)"
         },
         {
           "id": "fc3",
-          "question": "Di mana penyerapan sari makanan terjadi?",
-          "answer": "Usus halus"
+          "question": "Di mana penyerapan sari makanan utama terjadi dan mengapa?",
+          "answer": "Usus halus, karena memiliki villi yang memperluas permukaan penyerapan hingga 200 m²"
         },
         {
           "id": "fc4",
           "question": "Apa itu gerak peristaltik?",
-          "answer": "Gerakan otot saluran pencernaan untuk mendorong makanan"
+          "answer": "Gerakan gelombang otot dinding saluran pencernaan yang mendorong makanan ke bawah"
         },
         {
           "id": "fc5",
-          "question": "Enzim yang memecah lemak?",
-          "answer": "Lipase"
+          "question": "Enzim yang memecah lemak menjadi asam lemak dan gliserol?",
+          "answer": "Lipase (dari pankreas dan usus halus)"
         },
         {
           "id": "fc6",
           "question": "Radang usus buntu disebut?",
           "answer": "Apendisitis"
+        },
+        {
+          "id": "fc7",
+          "question": "Fungsi empedu dalam pencernaan?",
+          "answer": "Mengemulsi lemak (memecah lemak besar menjadi tetesan kecil) agar lipase dapat bekerja"
+        },
+        {
+          "id": "fc8",
+          "question": "Mengapa asam lambung (HCl) penting?",
+          "answer": "Membunuh bakteri patogen dan mengaktifkan pepsinogen menjadi pepsin"
+        },
+        {
+          "id": "fc9",
+          "question": "Apa perbedaan bolus dan kima?",
+          "answer": "Bolus adalah makanan yang dihaluskan di mulut; kima adalah makanan yang telah bercampur asam lambung"
+        },
+        {
+          "id": "fc10",
+          "question": "Organ apa yang menghasilkan insulin?",
+          "answer": "Pankreas (sel beta pulau Langerhans)"
         }
       ],
       "quiz": {
@@ -1708,66 +2020,65 @@
             "id": "q1",
             "type": "multiple_choice",
             "question": "Enzim pepsin bekerja di organ?",
-            "options": [
-              "Mulut",
-              "Lambung",
-              "Usus halus",
-              "Pankreas"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Pepsin bekerja di lambung pada kondisi asam (pH 1,5-2) untuk memecah protein menjadi pepton."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Organ yang menyerap air adalah?",
-            "options": [
-              "Lambung",
-              "Usus halus",
-              "Usus besar",
-              "Kerongkongan"
-            ],
+            "question": "Organ yang menyerap air dan membentuk feses adalah?",
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Usus besar menyerap sisa air dan mineral dari sisa makanan, mengubahnya menjadi feses padat."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
             "question": "Urutan organ pencernaan yang benar adalah?",
-            "options": [
-              "Mulut → Lambung → Kerongkongan → Usus halus",
-              "Mulut → Kerongkongan → Lambung → Usus halus → Usus besar",
-              "Mulut → Usus halus → Lambung → Usus besar",
-              "Mulut → Kerongkongan → Usus halus → Lambung"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Urutan saluran pencernaan: mulut → kerongkongan → lambung → usus halus → usus besar → anus."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
             "question": "Enzim yang dihasilkan pankreas untuk mencerna protein menjadi asam amino adalah?",
-            "options": [
-              "Pepsin",
-              "Amilase",
-              "Tripsin",
-              "Maltase"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Tripsin dari pankreas bekerja di usus halus untuk memecah protein dan pepton menjadi asam amino."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
             "question": "Penyakit maag (gastritis) terjadi akibat?",
-            "options": [
-              "Radang usus buntu",
-              "Peradangan dinding lambung",
-              "Infeksi usus besar",
-              "Kekurangan enzim maltase"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Gastritis adalah peradangan dinding lambung yang dapat disebabkan oleh infeksi H. pylori, asam berlebih, atau stres."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Fungsi villi di usus halus adalah?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Villi adalah lipatan-lipatan seperti jari di dinding usus halus yang memperluas permukaan penyerapan nutrisi hingga ratusan meter persegi."
+          },
+          {
+            "id": "q7",
+            "type": "multiple_choice",
+            "question": "Mengapa empedu penting dalam pencernaan lemak?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Empedu tidak menguraikan lemak secara kimiawi, melainkan mengemulsinya (memecah tetesan besar menjadi kecil) sehingga lipase dapat mencernanya."
+          },
+          {
+            "id": "q8",
+            "type": "multiple_choice",
+            "question": "Asam klorida (HCl) di lambung berfungsi untuk?",
+            "options": [],
+            "answer": 1,
+            "explanation": "HCl membunuh kuman yang masuk bersama makanan dan mengubah pepsinogen (tidak aktif) menjadi pepsin (aktif)."
           }
         ]
       }
@@ -2494,12 +2805,12 @@
     {
       "id": "sistem-ekskresi",
       "title": "Sistem Ekskresi",
-      "description": "Proses ekskresi pada ginjal dan organ ekskresi lainnya",
+      "description": "Proses ekskresi pada ginjal dan organ ekskresi lainnya, pembentukan urin, serta gangguan dan pencegahannya",
       "lessons": [
         {
           "id": "ekskresi-materi",
           "title": "Sistem Ekskresi Manusia",
-          "estMinutes": 12,
+          "estMinutes": 15,
           "content": [
             {
               "type": "heading",
@@ -2507,7 +2818,7 @@
             },
             {
               "type": "text",
-              "text": "Ekskresi adalah proses pengeluaran zat sisa metabolisme dari dalam tubuh. Berbeda dengan sekresi (pengeluaran zat yang masih digunakan) dan defekasi (pengeluaran feses)."
+              "text": "Ekskresi adalah proses pengeluaran zat sisa metabolisme dari dalam tubuh agar tidak menumpuk dan meracuni tubuh. Zat sisa ini harus segera dikeluarkan karena jika tertinggal dapat mengganggu proses metabolisme sel. Perlu dibedakan dengan defekasi (pengeluaran feses/sisa pencernaan) dan sekresi (pengeluaran zat yang masih berguna seperti enzim dan hormon)."
             },
             {
               "type": "heading",
@@ -2515,29 +2826,85 @@
               "text": "Organ Ekskresi dan Zat yang Dikeluarkan"
             },
             {
+              "type": "text",
+              "text": "Tubuh manusia memiliki empat organ utama yang berperan dalam ekskresi. Setiap organ mengeluarkan zat sisa yang berbeda sesuai fungsinya."
+            },
+            {
               "type": "table",
               "headers": [
                 "Organ",
-                "Zat Ekskresi"
+                "Zat Ekskresi",
+                "Fungsi Utama"
               ],
               "rows": [
                 [
                   "Ginjal",
-                  "Urin (urea, air, garam mineral)"
+                  "Urin (urea, air, garam mineral, urobilin)",
+                  "Menyaring darah dan membentuk urin"
                 ],
                 [
                   "Kulit",
-                  "Keringat (air, garam, urea)"
+                  "Keringat (air, garam, sedikit urea)",
+                  "Mengatur suhu tubuh dan membuang zat sisa"
                 ],
                 [
                   "Paru-paru",
-                  "CO₂ dan uap air"
+                  "CO₂ dan uap air",
+                  "Mengeluarkan hasil pernapasan (pertukaran gas)"
                 ],
                 [
                   "Hati",
-                  "Bilirubin (dari pemecahan sel darah merah)"
+                  "Bilirubin (dari pemecahan sel darah merah)",
+                  "Memproduksi empedu dan menetralkan racun"
                 ]
               ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Struktur Ginjal dan Salurannya"
+            },
+            {
+              "type": "text",
+              "text": "Ginjal berbentuk seperti biji kacang merah, berwarna keunguan, berjumlah sepasang, dan terletak di kanan dan kiri tulang pinggang (buah pinggang). Ginjal kiri letaknya sedikit lebih tinggi daripada ginjal kanan karena adanya hati di sebelah kanan."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Ginjal (ren): organ penyaring darah, terdiri dari korteks (kulit ginjal), medula (sumsum ginjal), dan pelvis renalis (rongga penampung urin)",
+                "Ureter: saluran yang menghubungkan ginjal dengan kandung kemih",
+                "Kandung kemih: tempat penyimpanan urin sementara, elastis, mampu menampung ~0,5 L",
+                "Uretra: saluran pengeluaran urin dari kandung kemih ke luar tubuh"
+              ]
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kidney_structures.svg/640px-Kidney_structures.svg.png",
+              "caption": "Struktur ginjal dan saluran kemih: ginjal, ureter, kandung kemih, dan uretra"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Nefron — Unit Fungsional Ginjal"
+            },
+            {
+              "type": "text",
+              "text": "Ginjal tersusun dari sekitar 1 juta nefron. Nefron adalah unit fungsional terkecil ginjal tempat pembentukan urin berlangsung. Setiap nefron terdiri dari badan malpighi (glomerulus + kapsula Bowman) dan saluran-saluran tubulus."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Glomerulus: gulungan kapiler darah tempat terjadinya filtrasi",
+                "Kapsula Bowman: kantong pelindung glomerulus yang menampung hasil filtrasi (urin primer)",
+                "Tubulus kontortus proksimal: tempat reabsorpsi zat berguna",
+                "Lengkung Henle: saluran melengkung di medula yang membantu konsentrasi urin",
+                "Tubulus kontortus distal: tempat augmentasi (penambahan zat sisa)",
+                "Tubulus kolektivus (pengumpul): mengumpulkan urin dari banyak nefron menuju pelvis renalis"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Nefron adalah unit fungsional terkecil ginjal. Tanpa nefron yang sehat, ginjal tidak dapat menyaring darah dengan baik."
             },
             {
               "type": "heading",
@@ -2545,30 +2912,55 @@
               "text": "Proses Pembentukan Urin di Ginjal"
             },
             {
+              "type": "text",
+              "text": "Pembentukan urin di ginjal terjadi dalam tiga tahap utama. Setiap hari, sekitar 180 liter darah disaring oleh ginjal, namun hanya ~1,5 liter urin yang dikeluarkan. Sisanya diserap kembali oleh tubuh."
+            },
+            {
               "type": "list",
-              "ordered": true,
               "items": [
-                "Filtrasi: penyaringan darah di glomerulus → menghasilkan urin primer",
-                "Reabsorpsi: penyerapan kembali zat berguna (glukosa, air, asam amino) di tubulus",
-                "Augmentasi: penambahan zat sisa ke urin → menghasilkan urin sekunder/sesungguhnya"
+                "Filtrasi (Penyaringan): darah disaring di glomerulus karena tekanan darah tinggi → air dan zat kecil lolos ke kapsula Bowman → terbentuk urin primer (mengandung glukosa, asam amino, urea, air, garam)",
+                "Reabsorpsi (Penyerapan Kembali): di tubulus proksimal dan lengkung Henle, zat berguna seperti glukosa, asam amino, air, dan garam diserap kembali ke darah → tersisa urin sekunder",
+                "Augmentasi (Penambahan Zat Sisa): di tubulus distal dan kolektivus, zat sisa seperti ion hidrogen, amonia, dan obat-obatan ditambahkan ke urin → terbentuk urin sesungguhnya yang mengalir ke pelvis renalis"
               ]
             },
             {
-              "type": "highlight",
-              "text": "Nefron adalah unit fungsional terkecil ginjal, terdiri dari glomerulus, kapsula Bowman, dan tubulus."
+              "type": "math",
+              "tex": "\\text{Filtrasi} \\rightarrow \\text{Reabsorpsi} \\rightarrow \\text{Augmentasi}",
+              "display": true
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Gangguan Sistem Ekskresi"
+              "text": "Gangguan Sistem Ekskresi dan Pencegahannya"
+            },
+            {
+              "type": "text",
+              "text": "Berbagai faktor seperti pola makan, kebiasaan minum, dan infeksi dapat menyebabkan gangguan pada sistem ekskresi. Berikut gangguan umum dan cara pencegahannya."
             },
             {
               "type": "list",
               "items": [
-                "Batu ginjal: endapan mineral di ginjal",
-                "Gagal ginjal: ginjal tidak berfungsi normal",
-                "Diabetes insipidus: produksi urin berlebihan",
-                "Albuminuria: protein lolos ke urin (kerusakan glomerulus)"
+                "Batu ginjal: endapan mineral (kalsium) di pelvis renalis akibat kurang minum air dan menahan kencing → pencegahan: minum air putih cukup (min. 8 gelas/hari), tidak menahan kencing",
+                "Nefritis: peradangan nefron akibat infeksi bakteri Streptococcus → gejala: demam, nyeri pinggang, urine keruh → penanganan: cuci darah (hemodialisis) jika parah",
+                "Gagal ginjal: ginjal tidak berfungsi normal akibat kerusakan nefron → penanganan: cuci darah atau transplantasi ginjal",
+                "Albuminuria: protein (albumin) lolos ke urin akibat kerusakan glomerulus → pencegahan: batasi konsumsi protein berlebih, garam, dan vitamin C",
+                "Hematuria: adanya sel darah merah dalam urine akibat infeksi saluran kemih → pencegahan: segera buang air kecil saat merasa ingin, jaga kebersihan",
+                "Diabetes insipidus: produksi urin berlebihan karena gangguan hormon ADH (Anti Diuretik Hormon)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tips Menjaga Kesehatan Sistem Ekskresi"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Minum air putih minimal 8 gelas per hari untuk mencegah pengendapan mineral",
+                "Jangan menahan buang air kecil terlalu lama",
+                "Konsumsi makanan sehat dengan garam dan protein yang cukup (tidak berlebihan)",
+                "Olahraga teratur untuk membantu kulit mengeluarkan keringat",
+                "Hindari merokok karena dapat merusak nefron ginjal"
               ]
             }
           ]
@@ -2577,33 +2969,63 @@
       "flashcards": [
         {
           "id": "fc1",
-          "question": "Tiga proses pembentukan urin?",
-          "answer": "Filtrasi → Reabsorpsi → Augmentasi"
+          "question": "Apa perbedaan ekskresi, sekresi, dan defekasi?",
+          "answer": "Ekskresi = pengeluaran zat sisa metabolisme; Sekresi = pengeluaran zat yang masih berguna (enzim, hormon); Defekasi = pengeluaran feses (sisa pencernaan)"
         },
         {
           "id": "fc2",
-          "question": "Di mana filtrasi darah terjadi?",
-          "answer": "Di glomerulus (bagian nefron ginjal)"
+          "question": "Tiga proses pembentukan urin dan urutannya?",
+          "answer": "Filtrasi → Reabsorpsi → Augmentasi"
         },
         {
           "id": "fc3",
-          "question": "Zat apa yang dikeluarkan paru-paru sebagai ekskresi?",
-          "answer": "Karbon dioksida (CO₂) dan uap air"
+          "question": "Di mana filtrasi darah terjadi?",
+          "answer": "Di glomerulus (bagian badan malpighi pada nefron ginjal)"
         },
         {
           "id": "fc4",
           "question": "Apa itu nefron?",
-          "answer": "Unit fungsional terkecil ginjal tempat pembentukan urin"
+          "answer": "Unit fungsional terkecil ginjal tempat pembentukan urin, terdiri dari glomerulus, kapsula Bowman, dan tubulus"
         },
         {
           "id": "fc5",
-          "question": "Apa yang terjadi pada tahap reabsorpsi?",
-          "answer": "Penyerapan kembali zat berguna (glukosa, air, asam amino) dari urin primer ke darah"
+          "question": "Pada tahap reabsorpsi, zat apa yang diserap kembali ke darah?",
+          "answer": "Glukosa, air, asam amino, garam mineral, dan zat berguna lainnya"
         },
         {
           "id": "fc6",
-          "question": "Perbedaan ekskresi dan defekasi?",
-          "answer": "Ekskresi = pengeluaran zat sisa metabolisme; defekasi = pengeluaran feses (sisa pencernaan)"
+          "question": "Apa yang terjadi pada tahap augmentasi?",
+          "answer": "Penambahan zat sisa (ion H⁺, amonia, obat-obatan) ke urin sekunder → terbentuk urin sesungguhnya"
+        },
+        {
+          "id": "fc7",
+          "question": "Zat apa yang dikeluarkan paru-paru sebagai ekskresi?",
+          "answer": "Karbon dioksida (CO₂) dan uap air"
+        },
+        {
+          "id": "fc8",
+          "question": "Mengapa ginjal kiri letaknya lebih tinggi dari ginjal kanan?",
+          "answer": "Karena di sebelah kanan ada hati yang menempati ruang lebih besar"
+        },
+        {
+          "id": "fc9",
+          "question": "Berapa banyak nefron yang dimiliki ginjal manusia?",
+          "answer": "Sekitar 1 juta nefron per ginjal"
+        },
+        {
+          "id": "fc10",
+          "question": "Berapa liter darah yang disaring ginjal setiap hari?",
+          "answer": "Sekitar 180 liter per hari (20–25 kali darah melewati ginjal)"
+        },
+        {
+          "id": "fc11",
+          "question": "Apa penyebab utama batu ginjal?",
+          "answer": "Kurang minum air dan sering menahan kencing, menyebabkan endapan kalsium di pelvis renalis"
+        },
+        {
+          "id": "fc12",
+          "question": "Mengapa penderita albuminuria disarankan membatasi protein?",
+          "answer": "Karena kerusakan glomerulus menyebabkan protein lolos ke urin; protein berlebih memperburuk kerusakan"
         }
       ],
       "quiz": {
@@ -2612,66 +3034,57 @@
             "id": "q1",
             "type": "multiple_choice",
             "question": "Proses penyaringan darah di ginjal terjadi di?",
-            "options": [
-              "Tubulus proksimal",
-              "Glomerulus",
-              "Tubulus distal",
-              "Pelvis renalis"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Filtrasi atau penyaringan darah terjadi di glomerulus, yaitu gulungan kapiler darah yang dibungkus kapsula Bowman. Tekanan darah tinggi mendorong zat-zat kecil keluar dari darah."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
             "question": "Urutan proses pembentukan urin yang benar adalah?",
-            "options": [
-              "Reabsorpsi → Filtrasi → Augmentasi",
-              "Filtrasi → Augmentasi → Reabsorpsi",
-              "Filtrasi → Reabsorpsi → Augmentasi",
-              "Augmentasi → Filtrasi → Reabsorpsi"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Urutan yang benar adalah Filtrasi (penyaringan di glomerulus) → Reabsorpsi (penyerapan kembali di tubulus proksimal) → Augmentasi (penambahan zat sisa di tubulus distal)."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
             "question": "Organ ekskresi yang mengeluarkan bilirubin adalah?",
-            "options": [
-              "Ginjal",
-              "Kulit",
-              "Paru-paru",
-              "Hati"
-            ],
+            "options": [],
             "answer": 3,
-            "explanation": ""
+            "explanation": "Hati mengeluarkan bilirubin sebagai hasil pemecahan sel darah merah. Bilirubin kemudian ikut ke dalam empedu dan feses, memberikan warna kuning pada urin dan feses."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
             "question": "Jika protein ditemukan dalam urin seseorang, kemungkinan terjadi kerusakan pada?",
-            "options": [
-              "Tubulus proksimal",
-              "Glomerulus",
-              "Uretra",
-              "Kandung kemih"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": "Glomerulus yang rusak tidak dapat menyaring dengan baik sehingga protein lolos ke urin (albuminuria)."
+            "explanation": "Glomerulus yang sehat menyaring darah dan menahan protein besar agar tidak lolos. Jika glomerulus rusak, protein (albumin) akan lolos ke urin, kondisi ini disebut albuminuria."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
             "question": "Pada tahap reabsorpsi, zat yang diserap kembali ke darah adalah?",
-            "options": [
-              "Urea dan racun",
-              "Glukosa, air, dan asam amino",
-              "Garam berlebih",
-              "Bilirubin"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Pada reabsorpsi, tubulus proksimal menyerap kembali zat-zat berguna seperti glukosa, air, asam amino, dan garam mineral ke dalam kapiler darah. Urea dan racun tetap berada dalam urin."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Mengapa kita dianjurkan minum minimal 8 gelas air putih per hari?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Minum air putih cukup membantu ginjal menyaring darah dan mencegah pengendapan mineral (kalsium) yang dapat membentuk batu ginjal. Air juga membantu melarutkan zat sisa agar mudah dikeluarkan."
+          },
+          {
+            "id": "q7",
+            "type": "multiple_choice",
+            "question": "Berapa banyak nefron yang dimiliki oleh ginjal manusia?",
+            "options": [],
+            "answer": 2,
+            "explanation": "Setiap ginjal manusia memiliki sekitar 1 juta nefron. Nefron adalah unit fungsional terkecil ginjal yang bertugas menyaring darah dan membentuk urin."
           }
         ]
       }
@@ -2684,11 +3097,15 @@
         {
           "id": "campuran-materi",
           "title": "Campuran dan Pemisahan Campuran",
-          "estMinutes": 10,
+          "estMinutes": 15,
           "content": [
             {
               "type": "heading",
               "text": "Materi: Atom, Senyawa, dan Campuran"
+            },
+            {
+              "type": "text",
+              "text": "Sebelum memahami cara memisahkan campuran, kita perlu mengenal tingkatan materi. Semua benda di sekitar kita tersusun dari partikel terkecil yang disebut atom. Ketika atom bergabung, bisa membentuk unsur, senyawa, atau campuran. Yuk, bedakan ketiganya!"
             },
             {
               "type": "table",
@@ -2700,25 +3117,45 @@
               "rows": [
                 [
                   "Atom",
-                  "Partikel terkecil unsur",
+                  "Partikel terkecil unsur yang masih memiliki sifat unsur tersebut",
                   "Atom H, O, C"
                 ],
                 [
                   "Unsur",
-                  "Zat murni satu jenis atom",
-                  "Hidrogen (H₂), Oksigen (O₂)"
+                  "Zat murni yang tersusun dari satu jenis atom",
+                  "Hidrogen (H₂), Oksigen (O₂), Emas (Au)"
                 ],
                 [
                   "Senyawa",
-                  "Gabungan dua unsur atau lebih secara kimia",
-                  "Air (H₂O), NaCl"
+                  "Gabungan dua unsur atau lebih secara kimia dengan perbandingan tetap",
+                  "Air (H₂O), Garam dapur (NaCl), Gula (C₁₂H₂₂O₁₁)"
                 ],
                 [
                   "Campuran",
-                  "Gabungan dua zat atau lebih tanpa reaksi kimia",
-                  "Air garam, udara, tanah"
+                  "Gabungan dua zat atau lebih tanpa reaksi kimia, perbandingan tidak tetap",
+                  "Air garam, udara, tanah, susu"
                 ]
               ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Jenis-jenis Campuran"
+            },
+            {
+              "type": "text",
+              "text": "Campuran dibagi menjadi dua jenis berdasarkan penampakannya:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Campuran homogen: penyusunnya tercampur merata dan tampak sebagai satu fase (tidak bisa dibedakan mata telanjang). Contoh: air garam, udara, larutan gula.",
+                "Campuran heterogen: penyusunnya tidak tercampur merata dan tampak berbeda-beda (bisa dibedakan mata telanjang). Contoh: air keruh, pasir besi, salad buah."
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Campuran dapat dipisahkan secara fisika tanpa mengubah sifat kimia zat penyusunnya. Ini berbeda dengan senyawa yang harus dipisahkan dengan cara kimia."
             },
             {
               "type": "heading",
@@ -2726,48 +3163,81 @@
               "text": "Metode Pemisahan Campuran"
             },
             {
+              "type": "text",
+              "text": "Ada berbagai cara memisahkan campuran sesuai sifat zat penyusunnya. Berikut metode yang sering digunakan:"
+            },
+            {
               "type": "table",
               "headers": [
                 "Metode",
                 "Prinsip",
-                "Contoh"
+                "Contoh dalam Kehidupan"
               ],
               "rows": [
                 [
                   "Filtrasi (penyaringan)",
                   "Perbedaan ukuran partikel",
-                  "Menyaring air keruh"
+                  "Menyaring air keruh, menyaring kopi"
                 ],
                 [
                   "Distilasi (penyulingan)",
                   "Perbedaan titik didih",
-                  "Pemurnian air, pengolahan minyak bumi"
+                  "Pemurnian air laut menjadi air tawar, pengolahan minyak bumi"
+                ],
+                [
+                  "Distilasi bertingkat",
+                  "Perbedaan titik didih yang berbeda-beda",
+                  "Pemisahan minyak bumi menjadi bensin, solar, avtur"
                 ],
                 [
                   "Kristalisasi",
-                  "Penguapan pelarut",
-                  "Pembuatan garam dari air laut"
+                  "Penguapan pelarut sehingga zat terlarut membentuk kristal",
+                  "Pembuatan garam dari air laut, pembuatan gula tebu"
                 ],
                 [
                   "Kromatografi",
-                  "Perbedaan kecepatan gerak zat",
-                  "Pemisahan pigmen tinta/daun"
+                  "Perbedaan kecepatan gerak zat dalam medium",
+                  "Pemisahan pigmen tinta spidol, pemisahan warna pada daun"
                 ],
                 [
                   "Sublimasi",
-                  "Perubahan padat-gas langsung",
-                  "Pemurnian kapur barus"
+                  "Perubahan padat menjadi gas langsung tanpa melalui cair",
+                  "Pemurnian kapur barus (kamper), pemurnian iodin"
                 ],
                 [
                   "Sentrifugasi",
                   "Perbedaan massa jenis",
-                  "Pemisahan sel darah dari plasma"
+                  "Pemisahan sel darah dari plasma, pemisahan santan dari kelapa"
+                ],
+                [
+                  "Dekantasi",
+                  "Perbedaan massa jenis (endapan dibiarkan mengendap lalu cairan dituang perlahan)",
+                  "Memisahkan air dari pasir, memisahkan minyak dari air"
+                ],
+                [
+                  "Ekstraksi",
+                  "Perbedaan kelarutan dalam pelarut",
+                  "Menyeduh teh, mengekstrak minyak atsiri dari bunga"
                 ]
               ]
             },
             {
-              "type": "highlight",
-              "text": "Campuran dapat dipisahkan secara fisika tanpa mengubah sifat kimia zat penyusunnya."
+              "type": "heading",
+              "level": 2,
+              "text": "Alat Pemisahan dalam Laboratorium"
+            },
+            {
+              "type": "text",
+              "text": "Di laboratorium, metode pemisahan menggunakan alat khusus:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Corong Buchner + kertas saring: untuk filtrasi lebih cepat",
+                "Liebig condenser + labu distilasi: untuk distilasi",
+                "Kromatografi kertas: kertas saring sebagai medium",
+                "Tabung sentrifuge: untuk sentrifugasi"
+              ]
             }
           ]
         }
@@ -2786,7 +3256,7 @@
         {
           "id": "fc3",
           "question": "Apa perbedaan senyawa dan campuran?",
-          "answer": "Senyawa: gabungan unsur melalui reaksi kimia; Campuran: gabungan zat tanpa reaksi kimia"
+          "answer": "Senyawa: gabungan unsur melalui reaksi kimia dengan perbandingan tetap; Campuran: gabungan zat tanpa reaksi kimia dengan perbandingan tidak tetap"
         },
         {
           "id": "fc4",
@@ -2796,12 +3266,32 @@
         {
           "id": "fc5",
           "question": "Contoh penggunaan kromatografi?",
-          "answer": "Pemisahan pigmen pada tinta atau daun"
+          "answer": "Pemisahan pigmen pada tinta spidol atau daun"
         },
         {
           "id": "fc6",
           "question": "Sentrifugasi digunakan untuk memisahkan?",
-          "answer": "Campuran berdasarkan perbedaan massa jenis, contoh: sel darah dari plasma"
+          "answer": "Campuran berdasarkan perbedaan massa jenis, contoh: sel darah dari plasma atau santan dari kelapa"
+        },
+        {
+          "id": "fc7",
+          "question": "Beda campuran homogen dan heterogen?",
+          "answer": "Homogen: tercampur merata (air garam); Heterogen: tidak merata (air keruh, pasir besi)"
+        },
+        {
+          "id": "fc8",
+          "question": "Contoh sublimasi dalam kehidupan sehari-hari?",
+          "answer": "Kapur barus (kamper) yang menyusut tanpa meninggalkan cairan"
+        },
+        {
+          "id": "fc9",
+          "question": "Metode pemisahan minyak dan air?",
+          "answer": "Dekantasi atau sentrifugasi"
+        },
+        {
+          "id": "fc10",
+          "question": "Garam dapur (NaCl) termasuk senyawa atau campuran?",
+          "answer": "Senyawa"
         }
       ],
       "quiz": {
@@ -2810,66 +3300,65 @@
             "id": "q1",
             "type": "multiple_choice",
             "question": "Metode pemisahan yang digunakan untuk memurnikan air kotor adalah?",
-            "options": [
-              "Kristalisasi",
-              "Distilasi",
-              "Filtrasi",
-              "Sublimasi"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Filtrasi memisahkan zat padat dari cairan berdasarkan perbedaan ukuran partikel. Air kotor mengandung lumpur yang bisa disaring."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
             "question": "Garam dapur (NaCl) termasuk?",
-            "options": [
-              "Unsur",
-              "Atom",
-              "Senyawa",
-              "Campuran"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "NaCl tersusun dari dua unsur (Natrium dan Klorin) yang bergabung secara kimia dengan perbandingan tetap 1:1."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
             "question": "Pemisahan minyak bumi menjadi bensin, solar, dan avtur menggunakan metode?",
-            "options": [
-              "Filtrasi",
-              "Distilasi bertingkat",
-              "Kristalisasi",
-              "Sentrifugasi"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Minyak bumi mengandung banyak komponen dengan titik didih berbeda. Distilasi bertingkat memisahkannya berdasarkan titik didih masing-masing."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
             "question": "Pembuatan garam dari air laut memanfaatkan metode?",
-            "options": [
-              "Filtrasi",
-              "Sublimasi",
-              "Kristalisasi",
-              "Distilasi"
-            ],
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Air laut diuapkan hingga garam membentuk kristal. Ini adalah kristalisasi berdasarkan penguapan pelarut (air)."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
             "question": "Kromatografi memisahkan campuran berdasarkan?",
-            "options": [
-              "Perbedaan titik didih",
-              "Perbedaan kecepatan gerak zat dalam medium",
-              "Perbedaan ukuran partikel",
-              "Perbedaan massa jenis"
-            ],
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Kromatografi memanfaatkan perbedaan kecepatan zat saat bergerak melalui medium (seperti kertas saring), sehingga pigmen terpisah."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Air garam termasuk jenis campuran?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Air garam tercampur merata sehingga tidak bisa dibedakan mata telanjang. Ini adalah ciri campuran homogen."
+          },
+          {
+            "id": "q7",
+            "type": "multiple_choice",
+            "question": "Kapur barus yang menyusut tanpa meninggalkan cairan merupakan contoh?",
+            "options": [],
+            "answer": 2,
+            "explanation": "Sublimasi adalah perubahan langsung dari padat ke gas. Kapur barus (kamper) menyublim saat terkena udara."
+          },
+          {
+            "id": "q8",
+            "type": "multiple_choice",
+            "question": "Campuran pasir dan air bisa dipisahkan dengan?",
+            "options": [],
+            "answer": 0,
+            "explanation": "Pasir dan air bisa dipisahkan dengan dekantasi (dituang perlahan setelah pasir mengendap) atau filtrasi (disaring langsung)."
           }
         ]
       }
