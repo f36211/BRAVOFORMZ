@@ -34,6 +34,10 @@ export default function LessonPage() {
   const prev = topic.lessons[idx - 1]
   const next = topic.lessons[idx + 1]
 
+  // Find next topic if this is the last lesson
+  const topicIdx = subject.topics.findIndex((t) => t.id === topic.id)
+  const nextTopic = subject.topics[topicIdx + 1]
+
   return (
     <div className="space-y-8">
       <motion.header
@@ -106,7 +110,16 @@ export default function LessonPage() {
             <ArrowRight className="size-4 text-muted-foreground group-hover:translate-x-0.5 group-hover:text-foreground transition-all" />
           </Link>
         ) : (
-          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-end">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-end">
+            {nextTopic && (
+              <Link
+                href={`/subjects/${subject.id}/topics/${nextTopic.id}`}
+                className="inline-flex items-center justify-center gap-2 rounded-xl border border-primary/20 bg-primary/5 px-4 py-3 text-sm font-medium text-primary hover:bg-primary/10 transition-colors"
+              >
+                Next Topic: {nextTopic.title}
+                <ArrowRight className="size-4" />
+              </Link>
+            )}
             <Link
               href={`/subjects/${subject.id}/topics/${topic.id}/flashcards`}
               className="inline-flex items-center justify-center gap-2 rounded-xl bg-foreground text-background px-4 py-3 text-sm font-medium hover:bg-foreground/90 transition-colors"

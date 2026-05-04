@@ -18,6 +18,10 @@ export default function TopicPage() {
   const bookmarked = isBookmarked(subject.id, topic.id)
   const pct = progress[`${subject.id}:${topic.id}`] ?? 0
 
+  // Find next topic in the subject
+  const topicIdx = subject.topics.findIndex((t) => t.id === topic.id)
+  const nextTopic = subject.topics[topicIdx + 1]
+
   return (
     <div className="space-y-8">
       <motion.header
@@ -127,6 +131,29 @@ export default function TopicPage() {
           ))}
         </div>
       </section>
+
+      {/* Next Topic Navigation */}
+      {nextTopic && (
+        <section className="pt-4">
+          <Link
+            href={`/subjects/${subject.id}/topics/${nextTopic.id}`}
+            className="flex items-center justify-between p-6 rounded-2xl border border-primary/20 bg-primary/5 hover:bg-primary/10 transition-all group"
+          >
+            <div className="space-y-1">
+              <div className="text-[10px] font-mono uppercase tracking-[0.14em] text-primary/70">
+                Next Topic in {subject.name}
+              </div>
+              <h3 className="text-lg font-medium tracking-tight text-primary">
+                {nextTopic.title}
+              </h3>
+              <p className="text-sm text-primary/60 max-w-md line-clamp-1">
+                {nextTopic.description}
+              </p>
+            </div>
+            <ArrowRight className="size-5 text-primary group-hover:translate-x-1 transition-transform" />
+          </Link>
+        </section>
+      )}
     </div>
   )
 }
