@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next"
 import { Inter, JetBrains_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import { GoogleAnalytics } from "@next/third-parties/google"
 import { Suspense } from "react"
 import { StoreProvider } from "@/lib/store"
 import "./globals.css"
@@ -40,6 +41,7 @@ export default function RootLayout({
           <Suspense fallback={null}>{children}</Suspense>
         </StoreProvider>
         {process.env.NODE_ENV === "production" && <Analytics />}
+        {process.env.NEXT_PUBLIC_GA_ID && <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />}
       </body>
     </html>
   )
