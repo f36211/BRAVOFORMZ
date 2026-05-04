@@ -3861,12 +3861,12 @@
     {
       "id": "magnet",
       "title": "Magnet",
-      "description": "Sifat magnet, cara membuat magnet, dan kutub magnet",
+      "description": "Memahami sifat magnet, cara membuat dan menghilangkan magnet, kutub magnet, medan magnet, dan pemanfaatan magnet dalam kehidupan sehari-hari.",
       "lessons": [
         {
           "id": "magnet-materi",
-          "title": "Kemagnetan",
-          "estMinutes": 10,
+          "title": "Kemagnetan dan Sifat Magnet",
+          "estMinutes": 12,
           "content": [
             {
               "type": "heading",
@@ -3875,16 +3875,44 @@
             {
               "type": "heading",
               "level": 2,
-              "text": "Sifat Magnet"
+              "text": "Apa Itu Magnet?"
+            },
+            {
+              "type": "text",
+              "text": "Magnet adalah benda yang dapat menarik benda-benda tertentu di sekitarnya. Benda yang dapat ditarik magnet disebut benda magnetik atau ferromagnetik. Contoh benda magnetik: besi, baja, nikel, dan kobalt. Benda seperti kayu, plastik, kaca, dan kertas tidak dapat ditarik magnet — disebut benda non-magnetik."
+            },
+            {
+              "type": "highlight",
+              "text": "Kemagnetan adalah kemampuan benda untuk menarik benda magnetik di sekitarnya."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sifat-Sifat Magnet"
             },
             {
               "type": "list",
               "items": [
-                "Kutub senama (U-U atau S-S) tolak-menolak",
-                "Kutub tidak senama (U-S) tarik-menarik",
-                "Magnet memiliki dua kutub: utara (U) dan selatan (S)",
-                "Medan magnet terkuat berada di kutub"
+                "Magnet memiliki dua kutub: kutub utara (U/N) dan kutub selatan (S)",
+                "Kutub senama (U-U atau S-S) saling tolak-menolak",
+                "Kutub tidak senama (U-S) saling tarik-menarik",
+                "Medan magnet terkuat berada di kedua ujung kutub magnet",
+                "Magnet dapat menembus benda non-magnetik (kertas, kayu, plastik)",
+                "Magnet dapat memutar jarum kompas karena adanya medan magnet"
               ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Medan Magnet"
+            },
+            {
+              "type": "text",
+              "text": "Medan magnet adalah daerah di sekitar magnet yang masih terasa pengaruh gaya magnetnya. Medan magnet dapat digambarkan dengan garis-garis medan magnet yang keluar dari kutub utara dan masuk ke kutub selatan. Semakin rapat garis medan, semakin kuat medan magnet di daerah tersebut."
+            },
+            {
+              "type": "highlight",
+              "text": "Garis medan magnet tidak pernah saling memotong dan selalu membentuk kurva tertutup dari kutub utara ke kutub selatan."
             },
             {
               "type": "heading",
@@ -3892,29 +3920,42 @@
               "text": "Cara Membuat Magnet"
             },
             {
+              "type": "text",
+              "text": "Benda ferromagnetik dapat dijadikan magnet melalui beberapa cara. Berdasarkan sifat magnet yang dihasilkan, magnet dibedakan menjadi magnet permanen (selalu bersifat magnet) dan magnet sementara (hanya bersifat magnet dalam kondisi tertentu)."
+            },
+            {
               "type": "table",
               "headers": [
                 "Cara",
-                "Metode",
+                "Prosedur",
                 "Sifat Magnet"
               ],
               "rows": [
                 [
-                  "Gosokan",
-                  "Digosok searah dengan magnet",
+                  "Digosok",
+                  "Digosok searah dengan magnet permanen",
                   "Sementara"
                 ],
                 [
                   "Induksi",
-                  "Didekatkan dengan magnet",
+                  "Didekatkan dengan magnet permanen",
                   "Sementara"
                 ],
                 [
-                  "Elektromagnetik (dialiri arus listrik)",
-                  "Dililitkan kawat berarus",
+                  "Elektromagnetik",
+                  "Dililitkan kawat berarus listrik pada inti besi",
                   "Sementara (selama arus mengalir)"
+                ],
+                [
+                  "Ditempa",
+                  "Ditempa searah dalam medan magnet kuat",
+                  "Permanen"
                 ]
               ]
+            },
+            {
+              "type": "highlight",
+              "text": "Gosokan searah penting! Jika digosok bolak-balik, benda tidak akan menjadi magnet karena domain magnet acak kembali."
             },
             {
               "type": "heading",
@@ -3924,10 +3965,15 @@
             {
               "type": "list",
               "items": [
-                "Dipanaskan (suhu di atas titik Curie)",
-                "Dipukul-pukul",
-                "Dialiri arus bolak-balik (AC)"
+                "Dipanaskan hingga suhu di atas titik Curie (suhu kritis magnet)",
+                "Dipukul-pukul atau dijatuhi berulang kali",
+                "Dialiri arus listrik bolak-balik (AC) secara perlahan-lahan",
+                "Didekatkan dengan kutub senama yang lebih kuat dalam waktu lama"
               ]
+            },
+            {
+              "type": "text",
+              "text": "Titik Curie adalah suhu tertentu di mana magnet kehilangan sifat kemagnetannya. Untuk besi, titik Curie sekitar 770°C. Di atas suhu ini, susunan domain magnet menjadi acak sehingga sifat magnet hilang."
             },
             {
               "type": "heading",
@@ -3936,11 +3982,27 @@
             },
             {
               "type": "text",
-              "text": "Pada elektromagnet yang dililitkan kawat: gunakan kaidah tangan kanan. Jika ibu jari menunjuk arah arus pada solenoid, keempat jari menunjuk arah medan magnet; ujung ibu jari = kutub utara."
+              "text": "Untuk menentukan kutub magnet pada elektromagnet (kumparan/solenoid), gunakan kaidah tangan kanan: genggam kumparan dengan empat jari menunjuk arah arus listrik, maka arah ibu jari menunjuk kutub utara (U/N) magnet."
             },
             {
               "type": "highlight",
-              "text": "Bumi adalah magnet raksasa — kutub utara magnet bumi berada di dekat kutub selatan geografis."
+              "text": "Bumi adalah magnet raksasa! Kutub utara magnet bumi berada di dekat Kutub Selatan geografis, dan sebaliknya. Inilah mengapa jarum kompas selalu menunjuk utara-selatan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pemanfaatan Magnet dalam Kehidupan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kompas: menunjukkan arah utara-selatan menggunakan jarum magnet",
+                "Tempelan kulkas (magnet karet): praktis untuk menempel catatan",
+                "Speaker dan earphone: mengubah sinyal listrik menjadi getaran suara",
+                "MRI (pemeriksaan medis): menggunakan medan magnet kuat untuk memindai tubuh",
+                "Generator dan dinamo: menghasilkan listrik dengan prinsip induksi elektromagnetik",
+                "Kereta magnet (Maglev): mengapung di atas rel menggunakan gaya tolak magnet"
+              ]
             }
           ]
         }
@@ -3948,33 +4010,63 @@
       "flashcards": [
         {
           "id": "fc1",
-          "question": "Cara membuat magnet dengan menggosok benda ferromagnetik?",
-          "answer": "Digosok searah (satu arah) dengan magnet permanen — menghasilkan magnet sementara"
+          "question": "Apa yang dimaksud dengan benda magnetik?",
+          "answer": "Benda yang dapat ditarik oleh magnet, seperti besi, baja, nikel, dan kobalt."
         },
         {
           "id": "fc2",
-          "question": "Bagaimana cara menghilangkan sifat magnet?",
-          "answer": "Dipanaskan, dipukul-pukul, atau dialiri arus AC"
+          "question": "Mengapa kutub U dan S pada magnet selalu tarik-menarik?",
+          "answer": "Karena kutub tidak senama (berbeda) selalu saling menarik, sesuai hukum dasar magnet."
         },
         {
           "id": "fc3",
-          "question": "Apa yang terjadi jika kutub utara dua magnet didekatkan?",
-          "answer": "Tolak-menolak (kutub senama saling tolak)"
+          "question": "Cara membuat magnet dengan menggosok benda ferromagnetik?",
+          "answer": "Digosok searah (satu arah) dengan magnet permanen — menghasilkan magnet sementara."
         },
         {
           "id": "fc4",
-          "question": "Cara membuat elektromagnet?",
-          "answer": "Melilitkan kawat penghantar berarus listrik pada inti besi"
+          "question": "Mengapa gosokan harus searah, bukan bolak-balik?",
+          "answer": "Gosokan searah menyusun domain magnet searah; gosokan bolak-balik membuat domain acak kembali."
         },
         {
           "id": "fc5",
-          "question": "Di mana medan magnet paling kuat?",
-          "answer": "Di kedua kutub magnet"
+          "question": "Bagaimana cara menghilangkan sifat magnet?",
+          "answer": "Dipanaskan di atas titik Curie, dipukul-pukul, atau dialiri arus bolak-balik (AC)."
         },
         {
           "id": "fc6",
+          "question": "Apa yang terjadi jika kutub utara dua magnet didekatkan?",
+          "answer": "Tolak-menolak (kutub senama saling tolak)."
+        },
+        {
+          "id": "fc7",
+          "question": "Cara membuat elektromagnet?",
+          "answer": "Melilitkan kawat penghantar berarus listrik pada inti besi lunak."
+        },
+        {
+          "id": "fc8",
+          "question": "Di mana medan magnet paling kuat pada magnet batang?",
+          "answer": "Di kedua ujung kutub magnet (utara dan selatan)."
+        },
+        {
+          "id": "fc9",
           "question": "Apa perbedaan magnet permanen dan elektromagnet?",
-          "answer": "Magnet permanen selalu bersifat magnet; elektromagnet hanya bersifat magnet saat dialiri arus listrik"
+          "answer": "Magnet permanen selalu bersifat magnet; elektromagnet hanya bersifat magnet saat dialiri arus listrik."
+        },
+        {
+          "id": "fc10",
+          "question": "Mengapa jarum kompas selalu menunjuk utara-selatan?",
+          "answer": "Karena bumi adalah magnet raksasa; jarum kompas berinteraksi dengan medan magnet bumi."
+        },
+        {
+          "id": "fc11",
+          "question": "Apa fungsi kaidah tangan kanan pada elektromagnet?",
+          "answer": "Menentukan kutub utara magnet: empat jari = arus, ibu jari = kutub utara."
+        },
+        {
+          "id": "fc12",
+          "question": "Mengapa magnet dapat menarik paku besi meski ada selembar kertas di antara?",
+          "answer": "Karena medan magnet dapat menembus benda non-magnetik seperti kertas, kayu, dan plastik."
         }
       ],
       "quiz": {
@@ -3982,67 +4074,82 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Cara membuat magnet yang sifatnya hanya sementara adalah?",
-            "options": [
-              "Menggunakan magnet alam",
-              "Induksi dengan magnet permanen",
-              "Semua cara pembuatan magnet bersifat permanen",
-              "Membeli magnet pabrik"
-            ],
+            "question": "Benda manakah yang termasuk benda magnetik?",
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Benda magnetik (ferromagnetik) adalah benda yang dapat ditarik magnet, yaitu besi, baja, nikel, dan kobalt. Tembaga dan aluminium termasuk benda non-magnetik."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Sifat magnet dapat hilang jika?",
-            "options": [
-              "Disimpan di tempat kering",
-              "Dipanaskan hingga suhu tinggi",
-              "Dijauhkan dari benda logam",
-              "Didekatkan pada magnet lain"
-            ],
+            "question": "Cara membuat magnet yang sifatnya hanya sementara adalah?",
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Induksi dengan magnet permanen menghasilkan magnet sementara. Benda ferromagnetik yang didekatkan dengan magnet permanen akan bersifat magnet, tetapi sifatnya hilang jika dijauhkan."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
-            "question": "Dua magnet dengan kutub U dan S didekatkan, maka?",
-            "options": [
-              "Tolak-menolak",
-              "Tidak berpengaruh",
-              "Tarik-menarik",
-              "Berputar"
-            ],
-            "answer": 2,
-            "explanation": ""
+            "question": "Sifat magnet dapat hilang jika?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Pemanasan di atas titik Curie membuat susunan domain magnet menjadi acak, sehingga sifat magnet hilang. Penyimpanan kering, menjauhkan dari logam, atau mendekatkan magnet lain tidak menghilangkan sifat magnet."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Elektromagnet bersifat magnet hanya ketika?",
-            "options": [
-              "Didekatkan benda besi",
-              "Dialiri arus listrik DC",
-              "Dipanaskan",
-              "Disimpan dalam gelap"
-            ],
-            "answer": 1,
-            "explanation": ""
+            "question": "Dua magnet dengan kutub U dan S didekatkan, maka?",
+            "options": [],
+            "answer": 2,
+            "explanation": "Kutub tidak senama (U-S) saling tarik-menarik. Hanya kutub senama (U-U atau S-S) yang saling tolak-menolak."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
-            "question": "Ujung paku yang digosok magnet ke arah tertentu akan menjadi kutub?",
-            "options": [
-              "Sama dengan ujung magnet yang menggosok",
-              "Berlawanan dengan ujung magnet yang menggosok",
-              "Tidak memiliki kutub",
-              "Selalu kutub utara"
-            ],
+            "question": "Elektromagnet bersifat magnet hanya ketika?",
+            "options": [],
             "answer": 1,
-            "explanation": "Ujung terakhir yang bersentuhan dengan magnet akan memiliki kutub berlawanan dengan kutub magnet yang menggosok."
+            "explanation": "Elektromagnet hanya bersifat magnet selama dialiri arus listrik (DC). Jika arus listrik dimatikan, sifat magnetnya langsung hilang."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Ujung paku yang digosok magnet ke arah tertentu akan menjadi kutub?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Ujung terakhir yang bersentuhan dengan magnet akan memiliki kutub berlawanan dengan kutub magnet yang menggosok. Jika kutub utara magnet menggosok paku, ujung terakhir paku menjadi kutub selatan."
+          },
+          {
+            "id": "q7",
+            "type": "multiple_choice",
+            "question": "Mengapa garis medan magnet tidak pernah saling memotong?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Garis medan magnet tidak saling memotong karena pada setiap titik medan magnet hanya memiliki satu arah. Jika garis memotong, akan ada dua arah medan pada titik yang sama, yang mustahil secara fisika."
+          },
+          {
+            "id": "q8",
+            "type": "multiple_choice",
+            "question": "Benda non-magnetik yang dapat ditembus medan magnet adalah?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Medan magnet dapat menembus benda non-magnetik seperti kertas, kayu, dan plastik. Besi, baja, nikel, dan kobalt adalah benda magnetik yang akan ditarik oleh medan magnet, bukan ditembus."
+          },
+          {
+            "id": "q9",
+            "type": "multiple_choice",
+            "question": "Prinsip kerja kompas berdasarkan?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Kompas bekerja berdasarkan interaksi medan magnet bumi dengan jarum magnet. Jarum magnet yang bebas berputar akan sejajar dengan garis medan magnet bumi, menunjuk arah utara-selatan."
+          },
+          {
+            "id": "q10",
+            "type": "multiple_choice",
+            "question": "Pada kaidah tangan kanan untuk elektromagnet, ibu jari menunjuk?",
+            "options": [],
+            "answer": 2,
+            "explanation": "Pada kaidah tangan kanan: empat jari menunjuk arah arus listrik, sedangkan ibu jari menunjuk arah kutub utara (U/N) elektromagnet."
           }
         ]
       }
@@ -4050,32 +4157,64 @@
     {
       "id": "genetika",
       "title": "Genetika (Pewarisan Sifat)",
-      "description": "Hukum Mendel dan persilangan",
+      "description": "Hukum Mendel, persilangan, dan aplikasi golongan darah dalam kehidupan sehari-hari",
       "lessons": [
         {
-          "id": "pewarisan-sifat",
-          "title": "Pewarisan Sifat",
-          "estMinutes": 12,
+          "id": "dasar-genetika",
+          "title": "Dasar-Dasar Genetika",
+          "estMinutes": 15,
           "content": [
             {
               "type": "heading",
-              "text": "Genetika dan Pewarisan Sifat"
+              "text": "Mengenal Genetika"
+            },
+            {
+              "type": "text",
+              "text": "Genetika adalah ilmu yang mempelajari cara sifat diwariskan dari orang tua ke anak. Konsep ini pertama kali dipelajari secara sistematis oleh seorang biarawan Austria bernama Gregor Johann Mendel pada abad ke-19 melalui percobaan persilangan pada tanaman kacang polong."
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Istilah Penting"
+              "text": "Istilah Penting yang Perlu Dikuasai"
             },
             {
               "type": "list",
               "items": [
-                "Gen: unit pewarisan sifat pada kromosom",
-                "Alel: variasi dari suatu gen (dominan/resesif)",
-                "Genotipe: susunan gen (Aa, AA, aa)",
-                "Fenotipe: sifat yang tampak (tinggi, pendek)",
-                "Homozigot: alel sama (AA atau aa)",
-                "Heterozigot: alel berbeda (Aa)"
+                "Gen: unit terkecil pewarisan sifat yang terletak di kromosom, terbuat dari DNA",
+                "Alel: variasi atau bentuk alternatif dari suatu gen (misalnya alel dominan dan resesif)",
+                "Genotipe: susunan gen dalam sel tubuh yang tidak terlihat (contoh: AA, Aa, aa)",
+                "Fenotipe: sifat atau ciri fisik yang tampak pada individu (contoh: tinggi, pendek, berambut keriting)",
+                "Homozigot: individu yang memiliki dua alel identik pada lokus gen yang sama (AA atau aa)",
+                "Heterozigot: individu yang memiliki dua alel berbeda pada lokus gen yang sama (Aa)"
               ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Alel Dominan vs Resesif"
+            },
+            {
+              "type": "text",
+              "text": "Dalam pasangan alel, salah satu bisa lebih kuat (dominan) dan menutupi sifat alel lainnya (resesif). Alel dominan ditulis dengan huruf besar (A), sedangkan alel resesif dengan huruf kecil (a)."
+            },
+            {
+              "type": "highlight",
+              "text": "Individu heterozigot (Aa) akan menunjukkan sifat dominan karena alel A menutupi alel a."
+            }
+          ]
+        },
+        {
+          "id": "hukum-mendel-1",
+          "title": "Hukum Mendel I",
+          "estMinutes": 18,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Hukum Pemisahan (Segregasi)"
+            },
+            {
+              "type": "text",
+              "text": "Hukum Mendel I menyatakan bahwa pada pembentukan gamet (sel kelamin), pasangan alel akan saling memisah sehingga setiap gamet hanya membawa satu alel dari setiap pasangan gen."
             },
             {
               "type": "heading",
@@ -4084,7 +4223,11 @@
             },
             {
               "type": "text",
-              "text": "Persilangan dengan satu sifat beda. Contoh: Aa × Aa"
+              "text": "Persilangan monohibrid adalah persilangan antara dua individu yang memiliki satu pasang sifat berbeda. Ini adalah percobaan dasar untuk memahami cara sifat diwariskan."
+            },
+            {
+              "type": "text",
+              "text": "Contoh persilangan: Tanaman tinggi (Aa) × tanaman tinggi (Aa). Kedua orang tua memiliki fenotipe tinggi, tetapi mereka pembawa sifat pendek (carrier)."
             },
             {
               "type": "table",
@@ -4108,55 +4251,237 @@
             },
             {
               "type": "text",
-              "text": "Hasil: AA : Aa : aa = 1 : 2 : 1 (genotipe)"
+              "text": "Dari tabel Punnett di atas, kita dapat membaca hasil persilangan:"
             },
             {
-              "type": "text",
-              "text": "Fenotipe: Dominan : Resesif = 3 : 1"
+              "type": "list",
+              "items": [
+                "Genotipe: 1 AA : 2 Aa : 1 aa",
+                "Fenotipe: 3 tinggi (dominan) : 1 pendek (resesif)"
+              ]
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Golongan Darah Sistem ABO"
+              "text": "Mengapa Rasio 3:1?"
+            },
+            {
+              "type": "text",
+              "text": "Genotipe AA dan Aa sama-sama menunjukkan sifat dominan (tinggi), sehingga dari 4 kotak, 3 menunjukkan fenotipe dominan dan 1 menunjukkan fenotipe resesif."
+            },
+            {
+              "type": "math",
+              "tex": "P(Aa \\times Aa) \\rightarrow \\frac{1}{4}AA : \\frac{2}{4}Aa : \\frac{1}{4}aa",
+              "display": true
+            },
+            {
+              "type": "highlight",
+              "text": "Rasio 3:1 hanya muncul jika kedua orang tua heterozigot dan alel dominan sifatnya sempurna (complete dominance)."
+            }
+          ]
+        },
+        {
+          "id": "persilangan-dihibrid",
+          "title": "Persilangan Dihibrid",
+          "estMinutes": 15,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Hukum Mendel II (Pemasukan Bebas)"
+            },
+            {
+              "type": "text",
+              "text": "Hukum Mendel II menyatakan bahwa alel dari gen yang berbeda akan dipasangkan secara bebas saat pembentukan gamet. Ini berarti pewarisan satu sifat tidak mempengaruhi pewarisan sifat lainnya."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Persilangan Dihibrid"
+            },
+            {
+              "type": "text",
+              "text": "Persilangan dihibrid melibatkan dua pasang sifat berbeda sekaligus, misalnya bentuk biji (bulat/kisut) dan warna biji (kuning/hijau) pada kacang polong Mendel."
+            },
+            {
+              "type": "text",
+              "text": "Jika kita menyilangkan AaBb × AaBb, rasio fenotipe yang dihasilkan adalah:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "9 bulat kuning (A_B_)",
+                "3 bulat hijau (A_bb)",
+                "3 kisut kuning (aaB_)",
+                "1 kisut hijau (aabb)"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Rasio fenotipe dihibrid adalah 9:3:3:1 — ini merupakan perluasan dari persilangan monohibrid."
+            },
+            {
+              "type": "text",
+              "text": "Di tingkat SMP, kamu cukup memahami konsep dasarnya: sifat-sifat diwariskan secara independen, bukan harus menghafal tabel 16 kotak."
+            }
+          ]
+        },
+        {
+          "id": "golongan-darah-abo",
+          "title": "Golongan Darah Sistem ABO",
+          "estMinutes": 20,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Pewarisan Sifat dalam Kehidupan Nyata"
+            },
+            {
+              "type": "text",
+              "text": "Salah satu contoh paling relevan dari genetika dalam kehidupan sehari-hari adalah sistem golongan darah ABO pada manusia. Sistem ini dikendalikan oleh satu gen dengan tiga alel: I^A, I^B, dan i."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tabel Golongan Darah ABO"
             },
             {
               "type": "table",
               "headers": [
                 "Golongan Darah",
                 "Genotipe",
-                "Dapat Memberi ke",
+                "Antigen di Permukaan SEL",
+                "Dapat Mendonor ke",
                 "Dapat Menerima dari"
               ],
               "rows": [
                 [
                   "A",
                   "I^A I^A atau I^A i",
+                  "A",
                   "A, AB",
                   "A, O"
                 ],
                 [
                   "B",
                   "I^B I^B atau I^B i",
+                  "B",
                   "B, AB",
                   "B, O"
                 ],
                 [
                   "AB",
                   "I^A I^B",
+                  "A dan B",
                   "AB saja",
-                  "Semua golongan"
+                  "Semua golongan (A, B, AB, O)"
                 ],
                 [
                   "O",
                   "ii",
-                  "Semua golongan",
+                  "Tidak ada",
+                  "Semua golongan (A, B, AB, O)",
                   "O saja"
                 ]
               ]
             },
             {
+              "type": "heading",
+              "level": 2,
+              "text": "Konsep Dominansi pada Golongan Darah"
+            },
+            {
+              "type": "text",
+              "text": "Alel I^A dan I^B bersifat kodominan — keduanya tampak bersamaan pada golongan darah AB. Alel i bersifat resesif, sehingga hanya tampak jika tidak ada alel I^A atau I^B (genotipe ii)."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pentingnya Golongan Darah dalam Transfusi"
+            },
+            {
+              "type": "text",
+              "text": "Saat transfusi darah, sel darah merah donor akan diperiksa oleh sistem kekebalan resipien. Jika antigen donor tidak dikenali, antibodi dalam plasma resipien akan menyerang sel darah donor."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Golongan darah O tidak memiliki antigen A maupun B, sehingga tidak akan ditolak oleh tubuh penerima mana pun → disebut donor universal",
+                "Golongan darah AB memiliki antigen A dan B, tetapi tidak memiliki antibodi anti-A atau anti-B → dapat menerima dari semua golongan, disebut resipien universal"
+              ]
+            },
+            {
               "type": "highlight",
               "text": "Golongan darah O = donor universal. Golongan darah AB = resipien universal."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Persilangan Golongan Darah"
+            },
+            {
+              "type": "text",
+              "text": "Persilangan Ayah (I^A i) × Ibu (I^B i):"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "",
+                "I^A",
+                "i"
+              ],
+              "rows": [
+                [
+                  "I^B",
+                  "I^A I^B (AB)",
+                  "I^B i (B)"
+                ],
+                [
+                  "i",
+                  "I^A i (A)",
+                  "ii (O)"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Hasil: Anak bisa memiliki golongan darah A, B, AB, atau O dengan peluang masing-masing 25%."
+            }
+          ]
+        },
+        {
+          "id": "tips-soal-genetika",
+          "title": "Tips Menyelesaikan Soal Genetika",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Strategi Cepat Mengerjakan Soal"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Langkah 1: Identifikasi alel dominan (huruf besar) dan resesif (huruf kecil)",
+                "Langkah 2: Tentukan genotipe orang tua dari fenotipe yang diketahui",
+                "Langkah 3: Buat tabel Punnett untuk melihat semua kemungkinan kombinasi",
+                "Langkah 4: Hitung rasio genotipe dan fenotipe dari kotak tabel",
+                "Langkah 5: Perhatikan apakah soal menanyakan peluang absolut atau persentase"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Soal Harian"
+            },
+            {
+              "type": "text",
+              "text": "\"Dalam suatu keluarga, ayah berambut lurus (aa) dan ibu berambut keriting (AA). Berapa persen anak mereka yang berambut keriting?\""
+            },
+            {
+              "type": "text",
+              "text": "Penyelesaian: aa × AA → 100% Aa (keriting). Semua anak akan berambut keriting karena alel A dominan terhadap a."
+            },
+            {
+              "type": "highlight",
+              "text": "Jika orang tua homozigot berbeda, semua anak akan heterozigot dengan fenotipe dominan."
             }
           ]
         }
@@ -4164,33 +4489,83 @@
       "flashcards": [
         {
           "id": "fc1",
-          "question": "Apa perbedaan genotipe dan fenotipe?",
-          "answer": "Genotipe = susunan gen; Fenotipe = sifat yang tampak"
+          "question": "Siapa ilmuwan yang dikenal sebagai Bapak Genetika?",
+          "answer": "Gregor Johann Mendel, biarawan Austria yang meneliti kacang polong"
         },
         {
           "id": "fc2",
+          "question": "Apa perbedaan genotipe dan fenotipe?",
+          "answer": "Genotipe = susunan gen dalam sel (AA, Aa, aa); Fenotipe = sifat yang tampak pada tubuh (tinggi, pendek)"
+        },
+        {
+          "id": "fc3",
+          "question": "Apa itu alel?",
+          "answer": "Variasi dari suatu gen yang menentukan bentuk tertentu dari suatu sifat (contoh: alel tinggi dan alel pendek)"
+        },
+        {
+          "id": "fc4",
+          "question": "Rasio genotipe persilangan Aa × Aa?",
+          "answer": "1 AA : 2 Aa : 1 aa"
+        },
+        {
+          "id": "fc5",
           "question": "Rasio fenotipe persilangan Aa × Aa?",
           "answer": "3 : 1 (dominan : resesif)"
         },
         {
-          "id": "fc3",
-          "question": "Genotipe golongan darah AB?",
-          "answer": "I^A I^B"
-        },
-        {
-          "id": "fc4",
-          "question": "Apa itu heterozigot?",
-          "answer": "Individu dengan dua alel berbeda (contoh: Aa)"
-        },
-        {
-          "id": "fc5",
-          "question": "Golongan darah apa yang disebut donor universal?",
-          "answer": "Golongan darah O — dapat mendonorkan darah ke semua golongan"
-        },
-        {
           "id": "fc6",
-          "question": "Rasio genotipe persilangan Aa × Aa?",
-          "answer": "1 AA : 2 Aa : 1 aa"
+          "question": "Apa itu homozigot dominan?",
+          "answer": "Individu dengan dua alel dominan identik (AA)"
+        },
+        {
+          "id": "fc7",
+          "question": "Apa itu heterozigot?",
+          "answer": "Individu dengan dua alel berbeda pada lokus gen yang sama (contoh: Aa)"
+        },
+        {
+          "id": "fc8",
+          "question": "Apa isi Hukum Mendel I (Pemisahan)?",
+          "answer": "Pasangan alel saling memisah saat pembentukan gamet, sehingga setiap gamet hanya membawa satu alel"
+        },
+        {
+          "id": "fc9",
+          "question": "Apa isi Hukum Mendel II (Pemasukan Bebas)?",
+          "answer": "Alel dari gen yang berbeda dipasangkan secara bebas satu sama lain"
+        },
+        {
+          "id": "fc10",
+          "question": "Rasio fenotipe persilangan dihibrid (AaBb × AaBb)?",
+          "answer": "9 : 3 : 3 : 1"
+        },
+        {
+          "id": "fc11",
+          "question": "Berapa banyak alel yang mengendalikan golongan darah ABO?",
+          "answer": "Tiga alel: I^A, I^B, dan i"
+        },
+        {
+          "id": "fc12",
+          "question": "Genotipe golongan darah AB?",
+          "answer": "I^A I^B (kodominan)"
+        },
+        {
+          "id": "fc13",
+          "question": "Genotipe golongan darah O?",
+          "answer": "ii (homozigot resesif)"
+        },
+        {
+          "id": "fc14",
+          "question": "Golongan darah apa yang disebut donor universal?",
+          "answer": "Golongan darah O — dapat mendonorkan darah ke semua golongan karena tidak memiliki antigen A atau B"
+        },
+        {
+          "id": "fc15",
+          "question": "Golongan darah apa yang disebut resipien universal?",
+          "answer": "Golongan darah AB — dapat menerima dari semua golongan karena tidak memiliki antibodi anti-A atau anti-B"
+        },
+        {
+          "id": "fc16",
+          "question": "Mengapa golongan darah AB disebut kodominan?",
+          "answer": "Karena alel I^A dan I^B sama-sama tampak pada fenotipe, tidak saling menutupi"
         }
       ],
       "quiz": {
@@ -4198,67 +4573,82 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Persilangan Aa × Aa menghasilkan rasio genotipe?",
-            "options": [
-              "1:1",
-              "1:2:1",
-              "3:1",
-              "9:3:3:1"
-            ],
+            "question": "Siapa ilmuwan yang pertama kali mempelajari pewarisan sifat secara sistematis melalui percobaan kacang polong?",
+            "options": [],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Gregor Johann Mendel adalah biarawan Austria yang dikenal sebagai Bapak Genetika karena penelitiannya pada tanaman kacang polong pada abad ke-19."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Golongan darah O memiliki genotipe?",
-            "options": [
-              "I^A I^A",
-              "I^B I^B",
-              "I^A I^B",
-              "ii"
-            ],
-            "answer": 3,
-            "explanation": ""
+            "question": "Persilangan Aa × Aa menghasilkan rasio genotipe?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Persilangan monohibrid Aa × Aa menghasilkan genotipe 1 AA : 2 Aa : 1 aa. Rasio 3:1 adalah rasio fenotipe, bukan genotipe."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
-            "question": "Ayah bergolongan darah A (I^A i) dan ibu bergolongan darah B (I^B i). Kemungkinan golongan darah anak adalah?",
-            "options": [
-              "A dan B saja",
-              "A, B, AB, dan O",
-              "O saja",
-              "AB saja"
-            ],
-            "answer": 1,
-            "explanation": "Persilangan I^Ai × I^Bi menghasilkan I^AI^B (AB), I^Ai (A), I^Bi (B), ii (O)"
+            "question": "Golongan darah O memiliki genotipe?",
+            "options": [],
+            "answer": 3,
+            "explanation": "Golongan darah O adalah homozigot resesif dengan genotipe ii. Alel i bersifat resesif terhadap I^A dan I^B."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Individu dengan genotipe AA disebut?",
-            "options": [
-              "Heterozigot resesif",
-              "Heterozigot dominan",
-              "Homozigot dominan",
-              "Homozigot resesif"
-            ],
-            "answer": 2,
-            "explanation": ""
+            "question": "Ayah bergolongan darah A (I^A i) dan ibu bergolongan darah B (I^B i). Kemungkinan golongan darah anak adalah?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Persilangan I^A i × I^B i menghasilkan empat kemungkinan: I^A I^B (AB), I^A i (A), I^B i (B), dan ii (O). Masing-masing dengan peluang 25%."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
+            "question": "Individu dengan genotipe AA disebut?",
+            "options": [],
+            "answer": 2,
+            "explanation": "AA memiliki dua alel dominan yang identik, sehingga disebut homozigot dominan. Heterozigot memiliki alel berbeda (Aa)."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
             "question": "Golongan darah yang dapat menerima transfusi dari semua golongan darah lain adalah?",
-            "options": [
-              "A",
-              "B",
-              "O",
-              "AB"
-            ],
+            "options": [],
             "answer": 3,
-            "explanation": "Golongan darah AB adalah resipien universal karena tidak memiliki antibodi a maupun b."
+            "explanation": "Golongan darah AB adalah resipien universal karena tidak memiliki antibodi anti-A maupun anti-B dalam plasmanya, sehingga tidak menolak sel darah donor dari golongan mana pun."
+          },
+          {
+            "id": "q7",
+            "type": "multiple_choice",
+            "question": "Hukum Mendel II dikenal juga sebagai Hukum...?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Hukum Mendel II disebut Hukum Pemasukan Bebas (Independent Assortment), yang menyatakan alel dari gen berbeda dipasangkan secara bebas saat pembentukan gamet."
+          },
+          {
+            "id": "q8",
+            "type": "multiple_choice",
+            "question": "Pada persilangan dihibrid (AaBb × AaBb), berapa jumlah fenotipe berbeda yang dihasilkan?",
+            "options": [],
+            "answer": 2,
+            "explanation": "Persilangan dihibrid menghasilkan 4 fenotipe berbeda dengan rasio 9:3:3:1, yaitu dominan-dominan, dominan-resesif, resesif-dominan, dan resesif-resesif."
+          },
+          {
+            "id": "q9",
+            "type": "multiple_choice",
+            "question": "Mengapa golongan darah O bisa mendonorkan darah ke semua golongan?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Golongan darah O tidak memiliki antigen A atau B pada permukaan sel darah merahnya, sehingga tidak akan dikenali sebagai asing dan diserang oleh sistem kekebalan penerima."
+          },
+          {
+            "id": "q10",
+            "type": "multiple_choice",
+            "question": "Jika orang tua berambut lurus (aa) dan berambut keriting (AA), maka semua anak mereka akan...?",
+            "options": [],
+            "answer": 1,
+            "explanation": "Persilangan aa × AA menghasilkan 100% Aa. Karena alel A (keriting) dominan terhadap a (lurus), semua anak akan berambut keriting."
           }
         ]
       }
@@ -4266,12 +4656,12 @@
     {
       "id": "bioteknologi",
       "title": "Bioteknologi",
-      "description": "Penerapan bioteknologi konvensional dan modern",
+      "description": "Penerapan bioteknologi konvensional dan modern dalam kehidupan sehari-hari",
       "lessons": [
         {
           "id": "bioteknologi-materi",
           "title": "Bioteknologi",
-          "estMinutes": 10,
+          "estMinutes": 20,
           "content": [
             {
               "type": "heading",
@@ -4279,7 +4669,7 @@
             },
             {
               "type": "text",
-              "text": "Bioteknologi adalah pemanfaatan organisme hidup atau bagiannya untuk menghasilkan produk yang bermanfaat bagi manusia."
+              "text": "Bioteknologi adalah pemanfaatan organisme hidup atau bagiannya (sel, jaringan, gen) untuk menghasilkan produk atau jasa yang bermanfaat bagi manusia. Prinsip dasarnya adalah memanfaatkan kemampuan metabolik mikroorganisme untuk mengubah bahan baku menjadi produk bernilai ekonomi tinggi. Bioteknologi sudah ada sejak ribuan tahun lalu, bahkan sebelum manusia mengenal istilah \"bioteknologi\" itu sendiri."
             },
             {
               "type": "heading",
@@ -4287,32 +4677,36 @@
               "text": "Bioteknologi Konvensional vs Modern"
             },
             {
+              "type": "text",
+              "text": "Bioteknologi konvensional telah dikenal sejak ribuan tahun silam, sedangkan bioteknologi modern berkembang pesat sejak penemuan struktur DNA oleh Watson dan Crick pada tahun 1953."
+            },
+            {
               "type": "table",
               "headers": [
                 "Aspek",
-                "Konvensional",
-                "Modern"
+                "Bioteknologi Konvensional",
+                "Bioteknologi Modern"
               ],
               "rows": [
                 [
-                  "Teknik",
-                  "Fermentasi sederhana",
-                  "Rekayasa genetika, kloning"
+                  "Waktu",
+                  "Sejak ribuan tahun lalu",
+                  "Sejak abad ke-20"
                 ],
                 [
                   "Peralatan",
-                  "Sederhana",
-                  "Canggih/hi-tech"
+                  "Sederhana (perabot dapur)",
+                  "Canggih (laboratorium)"
                 ],
                 [
-                  "Skala",
-                  "Kecil/rumahan",
-                  "Industri/laboratorium"
+                  "Teknik",
+                  "Fermentasi alami",
+                  "Rekayasa genetika"
                 ],
                 [
                   "Contoh",
-                  "Tempe, tape, yoghurt, keju",
-                  "Insulin buatan, tanaman transgenik, vaksin DNA"
+                  "Tempe, yoghurt, tape",
+                  "Tanaman transgenik, vaksin rekombinan"
                 ]
               ]
             },
@@ -4322,53 +4716,195 @@
               "text": "Mikroorganisme dalam Fermentasi"
             },
             {
+              "type": "text",
+              "text": "Fermentasi merupakan metabolisme anaerob yang menghasilkan energi tanpa menggunakan oksigen. Mikroorganisme menguraikan substrat organik menjadi produk sampingan seperti alkohol, asam laktat, atau CO₂. Proses ini tidak memerlukan peralatan canggih, sehingga dapat dilakukan di rumah dengan hasil yang tetap berkualitas."
+            },
+            {
               "type": "table",
               "headers": [
-                "Produk",
+                "Produk Fermentasi",
+                "Bahan Baku",
                 "Mikroorganisme",
-                "Bahan Baku"
+                "Hasil Utama"
               ],
               "rows": [
                 [
                   "Tempe",
+                  "Kedelai",
                   "Rhizopus oligosporus",
-                  "Kedelai"
-                ],
-                [
-                  "Tape",
-                  "Saccharomyces cerevisiae",
-                  "Singkong/beras ketan"
+                  "Protein, rasa gurih"
                 ],
                 [
                   "Yoghurt",
-                  "Lactobacillus bulgaricus + Streptococcus thermophilus",
-                  "Susu"
+                  "Susu",
+                  "Lactobacillus bulgaricus & Streptococcus thermophilus",
+                  "Asam laktat, tekstur kental"
                 ],
                 [
-                  "Keju",
-                  "Lactobacillus sp.",
-                  "Susu"
+                  "Tape",
+                  "Singkong / beras ketan",
+                  "Saccharomyces cerevisiae",
+                  "Alkohol (etanol), CO₂"
                 ],
                 [
                   "Roti",
+                  "Tepung terigu",
                   "Saccharomyces cerevisiae",
-                  "Tepung terigu"
+                  "CO₂ (mengembang)"
                 ],
                 [
-                  "Kecap/tauco",
-                  "Aspergillus wentii",
-                  "Kedelai"
+                  "Cuka",
+                  "Etanol",
+                  "Acetobacter aceti",
+                  "Asam asetat"
                 ],
                 [
-                  "Nata de coco",
-                  "Acetobacter xylinum",
-                  "Air kelapa"
+                  "Kecap",
+                  "Kedelai",
+                  "Aspergillus oryzae",
+                  "Rasa umami, warna coklat"
                 ]
               ]
             },
             {
               "type": "highlight",
-              "text": "Fermentasi = proses penguraian bahan organik oleh mikroorganisme secara anaerob (tanpa oksigen)."
+              "text": "Fermentasi = proses penguraian bahan organik oleh mikroorganisme secara anaerob (tanpa oksigen) untuk menghasilkan energi ATP."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Prinsip Dasar Fermentasi"
+            },
+            {
+              "type": "list",
+              "items": []
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bioteknologi Modern"
+            },
+            {
+              "type": "text",
+              "text": "Bioteknologi modern memanfaatkan teknik rekayasa genetika untuk memodifikasi materi genetik organisme. Teknik-teknik utama meliputi rekayasa genetika, kloning, PCR, sekuensing DNA, dan CRISPR-Cas9. Teknik ini memungkinkan ilmuwan mempercepat evolusi alam dengan cara yang sangat presisi."
+            },
+            {
+              "type": "list",
+              "items": []
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Aplikasi Bioteknologi Modern"
+            },
+            {
+              "type": "text",
+              "text": "Bioteknologi modern telah memberikan banyak kontribusi penting dalam bidang kesehatan, pertanian, dan lingkungan."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Bidang",
+                "Aplikasi",
+                "Manfaat"
+              ],
+              "rows": [
+                [
+                  "Pertanian",
+                  "Padi emas (Golden Rice)",
+                  "Mengandung vitamin A tinggi, mencegah kebutaan"
+                ],
+                [
+                  "Pertanian",
+                  "Tanaman tahan hama",
+                  "Mengurangi penggunaan pestisida kimia"
+                ],
+                [
+                  "Kesehatan",
+                  "Vaksin rekombinan (Hepatitis B)",
+                  "Lebih aman dan efektif"
+                ],
+                [
+                  "Kesehatan",
+                  "Insulin manusia rekombinan",
+                  "Mengobati diabetes dengan insulin identik manusia"
+                ],
+                [
+                  "Lingkungan",
+                  "Bioremediasi",
+                  "Membersihkan tumpahan minyak dan limbah beracun"
+                ],
+                [
+                  "Forensik",
+                  "DNA profiling",
+                  "Mengidentifikasi pelaku kejahatan melalui sidik jari DNA"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Organisme hasil rekayasa genetika yang mengandung gen asing disebut organisme transgenik atau GMO (Genetically Modified Organism)."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bioteknologi dalam Kehidupan Sehari-hari"
+            },
+            {
+              "type": "text",
+              "text": "Bioteknologi tidak hanya ada di laboratorium, tapi juga ada di dapur, rumah sakit, dan lingkungan sekitar kita. Setiap kali kamu makan tempe, minum yoghurt, atau mencuci pakaian dengan deterjen enzim, kamu sudah merasakan manfaat bioteknologi."
+            },
+            {
+              "type": "list",
+              "items": []
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Keuntungan dan Risiko Bioteknologi"
+            },
+            {
+              "type": "text",
+              "text": "Seperti teknologi lainnya, bioteknologi memiliki dua sisi: manfaat besar dan potensi risiko. Oleh karena itu, penggunaannya harus diatur dengan bijak."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Aspek",
+                "Keuntungan",
+                "Risiko"
+              ],
+              "rows": [
+                [
+                  "Kesehatan",
+                  "Vaksin lebih aman, insulin lebih murah",
+                  "Efek samping jangka panjang belum diketahui sepenuhnya"
+                ],
+                [
+                  "Pertanian",
+                  "Hasil panen meningkat, tahan kekeringan",
+                  "Keragaman genetik menurun"
+                ],
+                [
+                  "Lingkungan",
+                  "Mengurangi pestisida kimia",
+                  "Potensi invasi spesies GMO ke alam liar"
+                ],
+                [
+                  "Ekonomi",
+                  "Produk lebih murah dan melimpah",
+                  "Monopoli perusahaan bioteknologi besar"
+                ],
+                [
+                  "Etika",
+                  "Penyembuhan penyakit genetik",
+                  "Isu \"main-main\" dengan kodrat manusia"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Penggunaan bioteknologi harus seimbang antara manfaat, risiko, dan pertimbangan etika agar tidak merugikan manusia dan lingkungan."
             }
           ]
         }
@@ -4376,33 +4912,78 @@
       "flashcards": [
         {
           "id": "fc1",
-          "question": "Mikroorganisme yang berperan dalam pembuatan tempe?",
-          "answer": "Rhizopus oligosporus"
+          "question": "Apa pengertian bioteknologi?",
+          "answer": "Pemanfaatan organisme hidup atau bagiannya untuk menghasilkan produk atau jasa yang bermanfaat bagi manusia."
         },
         {
           "id": "fc2",
-          "question": "Mikroorganisme dalam pembuatan yoghurt?",
-          "answer": "Lactobacillus bulgaricus dan Streptococcus thermophilus"
+          "question": "Apa perbedaan utama bioteknologi konvensional dan modern?",
+          "answer": "Konvensional menggunakan fermentasi sederhana dengan peralatan sederhana, sedangkan modern menggunakan rekayasa genetika dengan peralatan canggih."
         },
         {
           "id": "fc3",
-          "question": "Perbedaan bioteknologi konvensional dan modern?",
-          "answer": "Konvensional: menggunakan fermentasi sederhana; Modern: menggunakan rekayasa genetika dan alat canggih"
+          "question": "Mikroorganisme apa yang digunakan dalam pembuatan tempe?",
+          "answer": "Rhizopus oligosporus."
         },
         {
           "id": "fc4",
-          "question": "Contoh produk bioteknologi modern?",
-          "answer": "Insulin buatan, tanaman transgenik, vaksin DNA"
+          "question": "Apa produk sampingan fermentasi tape?",
+          "answer": "Alkohol (etanol) dan CO₂."
         },
         {
           "id": "fc5",
-          "question": "Mikroorganisme dalam pembuatan tape?",
-          "answer": "Saccharomyces cerevisiae"
+          "question": "Mengapa roti mengembang saat dipanggang?",
+          "answer": "Karena ragi (Saccharomyces cerevisiae) menghasilkan CO₂ yang membuat adonan mengembang."
         },
         {
           "id": "fc6",
-          "question": "Apa itu fermentasi?",
-          "answer": "Proses penguraian bahan organik oleh mikroorganisme secara anaerob (tanpa oksigen)"
+          "question": "Apa itu organisme transgenik?",
+          "answer": "Organisme hasil rekayasa genetika yang mengandung gen asing dari organisme lain."
+        },
+        {
+          "id": "fc7",
+          "question": "Apa manfaat padi emas?",
+          "answer": "Mengandung vitamin A tinggi untuk mencegah kebutaan akibat kekurangan vitamin A."
+        },
+        {
+          "id": "fc8",
+          "question": "Apa fungsi PCR dalam bioteknologi modern?",
+          "answer": "Mengamplifikasi (memperbanyak) DNA dalam jumlah besar untuk keperluan diagnosis dan penelitian."
+        },
+        {
+          "id": "fc9",
+          "question": "Apa itu bioremediasi?",
+          "answer": "Penggunaan mikroorganisme untuk membersihkan pencemaran lingkungan, seperti tumpahan minyak."
+        },
+        {
+          "id": "fc10",
+          "question": "Apa risiko utama penggunaan tanaman transgenik?",
+          "answer": "Keragaman genetik menurun dan potensi resistensi hama."
+        },
+        {
+          "id": "fc11",
+          "question": "Bakteri apa yang mengubah etanol menjadi asam asetat dalam pembuatan cuka?",
+          "answer": "Acetobacter aceti."
+        },
+        {
+          "id": "fc12",
+          "question": "Apa peran enzim dalam deterjen?",
+          "answer": "Memecah noda pada pakaian secara biologis sehingga lebih mudah dibersihkan."
+        },
+        {
+          "id": "fc13",
+          "question": "Mengapa fermentasi dapat mengawetkan makanan?",
+          "answer": "Karena asam laktat yang dihasilkan menurunkan pH, sehingga menghambat pertumbuhan bakteri pembusuk."
+        },
+        {
+          "id": "fc14",
+          "question": "Apa itu CRISPR-Cas9?",
+          "answer": "Teknik \"gunting gen\" yang memungkinkan penyuntingan DNA dengan sangat tepat dan presisi."
+        },
+        {
+          "id": "fc15",
+          "question": "Dari mana asal antibiotik penisilin?",
+          "answer": "Jamur Penicillium notatum."
         }
       ],
       "quiz": {
@@ -4410,67 +4991,82 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Mikroorganisme yang digunakan dalam pembuatan tempe adalah?",
-            "options": [
-              "Saccharomyces cerevisiae",
-              "Lactobacillus bulgaricus",
-              "Rhizopus oligosporus",
-              "Acetobacter xylinum"
-            ],
-            "answer": 2,
-            "explanation": ""
+            "question": "Proses fermentasi dalam pembuatan tempe dilakukan oleh mikroorganisme...",
+            "options": [],
+            "answer": 1,
+            "explanation": "Rhizopus oligosporus adalah kapang yang digunakan dalam fermentasi kedelai untuk membuat tempe."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Pembuatan insulin manusia menggunakan bakteri termasuk bioteknologi?",
-            "options": [
-              "Konvensional",
-              "Modern",
-              "Tradisional",
-              "Sederhana"
-            ],
-            "answer": 1,
-            "explanation": ""
+            "question": "Berikut yang termasuk bioteknologi konvensional adalah...",
+            "options": [],
+            "answer": 2,
+            "explanation": "Pembuatan yoghurt melalui fermentasi termasuk bioteknologi konvensional yang sudah dikenal sejak lama."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
-            "question": "Yoghurt merupakan produk bioteknologi yang memanfaatkan mikroorganisme?",
-            "options": [
-              "Rhizopus sp.",
-              "Aspergillus wentii",
-              "Acetobacter xylinum",
-              "Lactobacillus bulgaricus"
-            ],
-            "answer": 3,
-            "explanation": ""
+            "question": "Tanaman transgenik yang dikembangkan untuk mengatasi kekurangan vitamin A adalah...",
+            "options": [],
+            "answer": 0,
+            "explanation": "Padi emas (Golden Rice) merupakan tanaman transgenik yang dihasilkan dengan menyisipkan gen vitamin A ke dalam padi."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Nata de coco dibuat dari air kelapa dengan bantuan mikroorganisme?",
-            "options": [
-              "Saccharomyces cerevisiae",
-              "Acetobacter xylinum",
-              "Rhizopus oligosporus",
-              "Lactobacillus sp."
-            ],
-            "answer": 1,
-            "explanation": ""
+            "question": "Mikroorganisme yang digunakan dalam pembuatan cuka adalah...",
+            "options": [],
+            "answer": 2,
+            "explanation": "Acetobacter aceti adalah bakteri yang mengubah etanol menjadi asam asetat dalam proses pembuatan cuka."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
-            "question": "Pernyataan yang BENAR tentang perbedaan bioteknologi konvensional dan modern adalah?",
-            "options": [
-              "Konvensional menggunakan rekayasa gen, modern menggunakan fermentasi",
-              "Konvensional berskala besar dengan alat canggih",
-              "Konvensional menggunakan fermentasi sederhana, modern menggunakan rekayasa genetika",
-              "Modern tidak melibatkan mikroorganisme sama sekali"
-            ],
+            "question": "Teknik bioteknologi modern yang digunakan untuk memperbanyak DNA secara cepat adalah...",
+            "options": [],
+            "answer": 0,
+            "explanation": "PCR (Polymerase Chain Reaction) adalah teknik untuk mengamplifikasi DNA dalam jumlah besar dalam waktu singkat."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Manakah yang BUKAN termasuk produk fermentasi?",
+            "options": [],
+            "answer": 3,
+            "explanation": "Gula pasir dihasilkan dari pemurnian tebu atau bit, bukan melalui proses fermentasi mikroorganisme."
+          },
+          {
+            "id": "q7",
+            "type": "multiple_choice",
+            "question": "Apa fungsi CO₂ yang dihasilkan ragi dalam adonan roti?",
+            "options": [],
+            "answer": 1,
+            "explanation": "CO₂ yang dihasilkan ragi terperangkap dalam gluten tepung, membentuk gelembung yang membuat adonan mengembang."
+          },
+          {
+            "id": "q8",
+            "type": "multiple_choice",
+            "question": "Organisme hasil rekayasa genetika yang mengandung gen asing disebut...",
+            "options": [],
+            "answer": 1,
+            "explanation": "Organisme transgenik atau GMO (Genetically Modified Organism) adalah organisme yang telah dimodifikasi dengan menyisipkan gen dari organisme lain."
+          },
+          {
+            "id": "q9",
+            "type": "multiple_choice",
+            "question": "Teknik \"gunting gen\" yang digunakan untuk menyunting DNA dengan presisi tinggi adalah...",
+            "options": [],
             "answer": 2,
-            "explanation": ""
+            "explanation": "CRISPR-Cas9 adalah teknologi bioteknologi modern yang memungkinkan ilmuwan menyunting DNA dengan sangat tepat seperti menggunakan gunting."
+          },
+          {
+            "id": "q10",
+            "type": "multiple_choice",
+            "question": "Mengapa fermentasi dapat mengawetkan makanan seperti asinan dan yoghurt?",
+            "options": [],
+            "answer": 0,
+            "explanation": "Asam laktat yang dihasilkan bakteri asam laktat menurunkan pH, menciptakan kondisi yang tidak cocok bagi bakteri pembusuk untuk tumbuh."
           }
         ]
       }

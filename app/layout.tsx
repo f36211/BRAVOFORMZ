@@ -18,8 +18,8 @@ const jetbrains = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "BravoFormz — Study smarter",
-  description: "A private study platform for class 8B. Notion-style notes, Anki-style flashcards.",
+  title: "BravoFormz",
+  description: "Buatan patur ye 9B",
   generator: "v0.app",
 }
 

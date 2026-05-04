@@ -6,6 +6,9 @@ export type ContentBlock =
   | { type: "list"; items: string[]; ordered?: boolean }
   | { type: "table"; headers: string[]; rows: string[][] }
   | { type: "math"; tex: string; display?: boolean }
+  | { type: "chart"; chartType: "bar" | "line" | "area"; data: { name: string; value: number }[] }
+  | { type: "simulation"; simType: "atom" | "cells" | "newton" | "circuit" | "magnet" | "wave" | "piston" | "geometry" }
+  | { type: "image"; url: string; caption?: string }
 
 export type Lesson = {
   id: string
