@@ -794,7 +794,6 @@
                   "100 ekor",
                   "1 kambing"
                 ],
-                
                 [
                   "Sapi/Kerbau",
                   "30 ekor",
@@ -1117,7 +1116,7 @@
               "10",
               "13"
             ],
-            "answer": 4,
+            "answer": 3,
             "explanation": "Rukun shalat ada 13: niat, berdiri (bagi yang mampu), takbiratul ihram, membaca Al-Fatihah, rukuk, i’tidal, sujud, duduk antara dua sujud, tuma’ninah, tasyahud akhir, duduk tasyahud akhir, shalawat kepada Nabi, dan salam."
           },
           {

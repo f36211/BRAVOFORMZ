@@ -2,7 +2,11 @@
   "id": "bahasa-sunda",
   "name": "Bahasa Sunda",
   "description": "Basa indung — undak usuk, sastra, jeung budaya Sunda",
-  "grade": [7, 8, 9],
+  "grade": [
+    7,
+    8,
+    9
+  ],
   "icon": "Languages",
   "color": "soft",
   "topics": [
@@ -17,35 +21,134 @@
           "title": "Basa Lemes jeung Basa Loma",
           "estMinutes": 8,
           "content": [
-            { "type": "heading", "text": "Undak Usuk Basa Sunda" },
-            { "type": "text", "text": "Undak usuk basa nyaéta tingkatan basa Sunda anu dipaké dumasar kana saha lawan nyarita. Aya basa lemes jeung basa loma." },
-            { "type": "table", "headers": ["Indonesia", "Loma (akrab)", "Lemes (hormat)"], "rows": [
-              ["Saya", "Urang / Aing", "Abdi"],
-              ["Kamu", "Manéh / Sia", "Anjeun"],
-              ["Dia", "Manéhna", "Anjeunna"],
-              ["Makan", "Dahar", "Tuang"],
-              ["Minum", "Nginum", "Leueut"],
-              ["Tidur", "Sare", "Kulem"],
-              ["Rumah", "Imah", "Bumi"],
-              ["Pergi", "Indit", "Angkat"],
-              ["Datang", "Datang", "Sumping"],
-              ["Berbicara", "Ngomong", "Nyarios"]
-            ]},
-            { "type": "highlight", "text": "Basa lemes dipaké ka jalma sepuh, guru, atawa nu dihormat. Basa loma dipaké ka batur sapantar." }
+            {
+              "type": "heading",
+              "text": "Undak Usuk Basa Sunda"
+            },
+            {
+              "type": "text",
+              "text": "Undak usuk basa nyaéta tingkatan basa Sunda anu dipaké dumasar kana saha lawan nyarita. Aya basa lemes jeung basa loma."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Indonesia",
+                "Loma (akrab)",
+                "Lemes (hormat)"
+              ],
+              "rows": [
+                [
+                  "Saya",
+                  "Urang / Aing",
+                  "Abdi"
+                ],
+                [
+                  "Kamu",
+                  "Manéh / Sia",
+                  "Anjeun"
+                ],
+                [
+                  "Dia",
+                  "Manéhna",
+                  "Anjeunna"
+                ],
+                [
+                  "Makan",
+                  "Dahar",
+                  "Tuang"
+                ],
+                [
+                  "Minum",
+                  "Nginum",
+                  "Leueut"
+                ],
+                [
+                  "Tidur",
+                  "Sare",
+                  "Kulem"
+                ],
+                [
+                  "Rumah",
+                  "Imah",
+                  "Bumi"
+                ],
+                [
+                  "Pergi",
+                  "Indit",
+                  "Angkat"
+                ],
+                [
+                  "Datang",
+                  "Datang",
+                  "Sumping"
+                ],
+                [
+                  "Berbicara",
+                  "Ngomong",
+                  "Nyarios"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Basa lemes dipaké ka jalma sepuh, guru, atawa nu dihormat. Basa loma dipaké ka batur sapantar."
+            }
           ]
         }
       ],
       "flashcards": [
-        { "id": "fc1", "question": "Basa lemes tina 'makan'?", "answer": "Tuang" },
-        { "id": "fc2", "question": "Basa lemes tina 'rumah'?", "answer": "Bumi" },
-        { "id": "fc3", "question": "Basa lemes tina 'saya'?", "answer": "Abdi" },
-        { "id": "fc4", "question": "Basa lemes tina 'datang'?", "answer": "Sumping" },
-        { "id": "fc5", "question": "Iraha ngagunakeun basa lemes?", "answer": "Ka jalma sepuh, guru, atawa nu dihormat" }
+        {
+          "id": "fc1",
+          "question": "Basa lemes tina 'makan'?",
+          "answer": "Tuang"
+        },
+        {
+          "id": "fc2",
+          "question": "Basa lemes tina 'rumah'?",
+          "answer": "Bumi"
+        },
+        {
+          "id": "fc3",
+          "question": "Basa lemes tina 'saya'?",
+          "answer": "Abdi"
+        },
+        {
+          "id": "fc4",
+          "question": "Basa lemes tina 'datang'?",
+          "answer": "Sumping"
+        },
+        {
+          "id": "fc5",
+          "question": "Iraha ngagunakeun basa lemes?",
+          "answer": "Ka jalma sepuh, guru, atawa nu dihormat"
+        }
       ],
       "quiz": {
         "questions": [
-          { "id": "q1", "type": "multiple_choice", "question": "Basa lemes tina 'indit' nyaéta?", "options": ["Datang", "Angkat", "Mulang", "Cicing"], "answer": 1 },
-          { "id": "q2", "type": "multiple_choice", "question": "Pikeun nyarita ka guru, urang kudu maké basa?", "options": ["Loma", "Lemes", "Kasar", "Bébas"], "answer": 1 }
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Basa lemes tina 'indit' nyaéta?",
+            "options": [
+              "Datang",
+              "Angkat",
+              "Mulang",
+              "Cicing"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Pikeun nyarita ka guru, urang kudu maké basa?",
+            "options": [
+              "Loma",
+              "Lemes",
+              "Kasar",
+              "Bébas"
+            ],
+            "answer": 1
+          }
         ]
       }
     },
@@ -60,41 +163,119 @@
           "title": "Struktur jeung Unsur Kawih",
           "estMinutes": 10,
           "content": [
-            { "type": "heading", "text": "Kawih Sunda" },
-            { "type": "text", "text": "Kawih nyaéta lagu Sunda anu teu kaiket ku aturan (teu kauger), ngandung unsur seni jeung sastra." },
-            { "type": "heading", "level": 2, "text": "Struktur Kawih" },
-            { "type": "list", "items": [
-              "Jejer (Tema) — pokok pikiran kawih",
-              "Nada/Suasana — kaayaan anu karasa",
-              "Rasa — sikep pangarang",
-              "Amanat — pesen anu ditepikeun"
-            ]},
-            { "type": "heading", "level": 2, "text": "Unsur Kawih" },
-            { "type": "table", "headers": ["Unsur Intrinsik", "Unsur Ekstrinsik"], "rows": [
-              ["Tema, rasa, nada, amanat", "Latar belakang pencipta"],
-              ["Rumpaka (lirik)", "Kondisi sosial budaya"]
-            ]},
-            { "type": "heading", "level": 2, "text": "Jenis Kawih" },
-            { "type": "list", "items": [
-              "Kawih Buhun — kawih lama, saacana jaman Jepang",
-              "Kawih Jaman Jepang — muncul saat pendudukan Jepang",
-              "Kawih Kiwari — kawih modern/masa kini",
-              "Kakawihan Barudak — lagu kaulinan anak-anak"
-            ]},
-            { "type": "highlight", "text": "Rumpaka = lirik atawa kekecapan dina kawih." }
+            {
+              "type": "heading",
+              "text": "Kawih Sunda"
+            },
+            {
+              "type": "text",
+              "text": "Kawih nyaéta lagu Sunda anu teu kaiket ku aturan (teu kauger), ngandung unsur seni jeung sastra."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Struktur Kawih"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Jejer (Tema) — pokok pikiran kawih",
+                "Nada/Suasana — kaayaan anu karasa",
+                "Rasa — sikep pangarang",
+                "Amanat — pesen anu ditepikeun"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Unsur Kawih"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Unsur Intrinsik",
+                "Unsur Ekstrinsik"
+              ],
+              "rows": [
+                [
+                  "Tema, rasa, nada, amanat",
+                  "Latar belakang pencipta"
+                ],
+                [
+                  "Rumpaka (lirik)",
+                  "Kondisi sosial budaya"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Jenis Kawih"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kawih Buhun — kawih lama, saacana jaman Jepang",
+                "Kawih Jaman Jepang — muncul saat pendudukan Jepang",
+                "Kawih Kiwari — kawih modern/masa kini",
+                "Kakawihan Barudak — lagu kaulinan anak-anak"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Rumpaka = lirik atawa kekecapan dina kawih."
+            }
           ]
         }
       ],
       "flashcards": [
-        { "id": "fc1", "question": "Naon hartina kawih?", "answer": "Lagu Sunda nu teu kaiket ku aturan, ngandung unsur seni jeung sastra" },
-        { "id": "fc2", "question": "Naon anu disebut rumpaka?", "answer": "Lirik atawa kekecapan dina kawih" },
-        { "id": "fc3", "question": "Struktur kawih?", "answer": "Jejer, nada/suasana, rasa, amanat" },
-        { "id": "fc4", "question": "Kawih Buhun nyaéta?", "answer": "Kawih lama, saacana jaman Jepang" }
+        {
+          "id": "fc1",
+          "question": "Naon hartina kawih?",
+          "answer": "Lagu Sunda nu teu kaiket ku aturan, ngandung unsur seni jeung sastra"
+        },
+        {
+          "id": "fc2",
+          "question": "Naon anu disebut rumpaka?",
+          "answer": "Lirik atawa kekecapan dina kawih"
+        },
+        {
+          "id": "fc3",
+          "question": "Struktur kawih?",
+          "answer": "Jejer, nada/suasana, rasa, amanat"
+        },
+        {
+          "id": "fc4",
+          "question": "Kawih Buhun nyaéta?",
+          "answer": "Kawih lama, saacana jaman Jepang"
+        }
       ],
       "quiz": {
         "questions": [
-          { "id": "q1", "type": "multiple_choice", "question": "Nu dimaksud rumpaka téh nyaéta?", "options": ["Lirik", "Melodi", "Irama", "Nada"], "answer": 0 },
-          { "id": "q2", "type": "multiple_choice", "question": "Kawih kabagi jadi dua unsur nyaéta?", "options": ["Buhun jeung kiwari", "Intrinsik jeung ekstrinsik", "Tema jeung amanat", "Rasa jeung nada"], "answer": 1 }
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Nu dimaksud rumpaka téh nyaéta?",
+            "options": [
+              "Lirik",
+              "Melodi",
+              "Irama",
+              "Nada"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Kawih kabagi jadi dua unsur nyaéta?",
+            "options": [
+              "Buhun jeung kiwari",
+              "Intrinsik jeung ekstrinsik",
+              "Tema jeung amanat",
+              "Rasa jeung nada"
+            ],
+            "answer": 1
+          }
         ]
       }
     },
@@ -109,36 +290,123 @@
           "title": "Kawih Sunda Populer",
           "estMinutes": 8,
           "content": [
-            { "type": "heading", "text": "Kawih-Kawih Sunda Populer" },
-            { "type": "table", "headers": ["Judul Kawih", "Pencipta", "Tema/Amanat"], "rows": [
-              ["Sabilulungan", "-", "Hirup sauyunan (hidup rukun/bersatu)"],
-              ["Karatagan Pahlawan", "Koko Koswara", "Penghormatan kepada pahlawan"],
-              ["Tanah Sunda", "-", "Bangga akan tanah Sunda yang indah"],
-              ["Mojang Priangan", "-", "Keindahan gadis Priangan"],
-              ["Pahlawan Toha", "-", "Perjuangan Muhamad Toha"],
-              ["Bubuy Bulan", "-", "Kawih Sunda klasik"]
-            ]},
-            { "type": "heading", "level": 2, "text": "Kawih Pahlawan Toha" },
-            { "type": "quote", "text": "Getih suci nyiram bumi / Tulang setra mulang lemah / Babakti nyungkem pertiwi", "translation": "Darah suci menyiram bumi / Tulang belulang kembali ke tanah / Berbakti menyembah pertiwi" },
-            { "type": "list", "items": [
-              "Tema: Perjuangan Muhamad Toha",
-              "Jenis: Kawih Pupujian (penghormatan)",
-              "Latar sejarah: Bandung Lautan Api"
-            ]},
-            { "type": "highlight", "text": "Amanat kawih 'Sabilulungan': hirup sauyunan (hidup rukun, bersatu)." }
+            {
+              "type": "heading",
+              "text": "Kawih-Kawih Sunda Populer"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Judul Kawih",
+                "Pencipta",
+                "Tema/Amanat"
+              ],
+              "rows": [
+                [
+                  "Sabilulungan",
+                  "-",
+                  "Hirup sauyunan (hidup rukun/bersatu)"
+                ],
+                [
+                  "Karatagan Pahlawan",
+                  "Koko Koswara",
+                  "Penghormatan kepada pahlawan"
+                ],
+                [
+                  "Tanah Sunda",
+                  "-",
+                  "Bangga akan tanah Sunda yang indah"
+                ],
+                [
+                  "Mojang Priangan",
+                  "-",
+                  "Keindahan gadis Priangan"
+                ],
+                [
+                  "Pahlawan Toha",
+                  "-",
+                  "Perjuangan Muhamad Toha"
+                ],
+                [
+                  "Bubuy Bulan",
+                  "-",
+                  "Kawih Sunda klasik"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kawih Pahlawan Toha"
+            },
+            {
+              "type": "quote",
+              "text": "Getih suci nyiram bumi / Tulang setra mulang lemah / Babakti nyungkem pertiwi",
+              "translation": "Darah suci menyiram bumi / Tulang belulang kembali ke tanah / Berbakti menyembah pertiwi"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Tema: Perjuangan Muhamad Toha",
+                "Jenis: Kawih Pupujian (penghormatan)",
+                "Latar sejarah: Bandung Lautan Api"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Amanat kawih 'Sabilulungan': hirup sauyunan (hidup rukun, bersatu)."
+            }
           ]
         }
       ],
       "flashcards": [
-        { "id": "fc1", "question": "Amanat kawih Sabilulungan?", "answer": "Hirup sauyunan (hidup rukun/bersatu)" },
-        { "id": "fc2", "question": "Siapa pencipta Karatagan Pahlawan?", "answer": "Koko Koswara" },
-        { "id": "fc3", "question": "Kawih Pahlawan Toha nyaritakeun?", "answer": "Perjuangan Muhamad Toha (Bandung Lautan Api)" },
-        { "id": "fc4", "question": "Eusi kawih Tanah Sunda?", "answer": "Bangga akan tanah Sunda yang indah dan subur" }
+        {
+          "id": "fc1",
+          "question": "Amanat kawih Sabilulungan?",
+          "answer": "Hirup sauyunan (hidup rukun/bersatu)"
+        },
+        {
+          "id": "fc2",
+          "question": "Siapa pencipta Karatagan Pahlawan?",
+          "answer": "Koko Koswara"
+        },
+        {
+          "id": "fc3",
+          "question": "Kawih Pahlawan Toha nyaritakeun?",
+          "answer": "Perjuangan Muhamad Toha (Bandung Lautan Api)"
+        },
+        {
+          "id": "fc4",
+          "question": "Eusi kawih Tanah Sunda?",
+          "answer": "Bangga akan tanah Sunda yang indah dan subur"
+        }
       ],
       "quiz": {
         "questions": [
-          { "id": "q1", "type": "multiple_choice", "question": "Kawih Pahlawan Toha mangrupa pangéling-ngéling kana kajadian?", "options": ["Perang Padri", "Bandung Lautan Api", "Agresi Militer", "Serangan Umum"], "answer": 1 },
-          { "id": "q2", "type": "multiple_choice", "question": "Lagu Karatagan Pahlawan diciptakeun ku?", "options": ["Ismail Marzuki", "Koko Koswara", "Mang Koko", "Nining Meida"], "answer": 1 }
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Kawih Pahlawan Toha mangrupa pangéling-ngéling kana kajadian?",
+            "options": [
+              "Perang Padri",
+              "Bandung Lautan Api",
+              "Agresi Militer",
+              "Serangan Umum"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Lagu Karatagan Pahlawan diciptakeun ku?",
+            "options": [
+              "Ismail Marzuki",
+              "Koko Koswara",
+              "Mang Koko",
+              "Nining Meida"
+            ],
+            "answer": 1
+          }
         ]
       }
     },
@@ -153,33 +421,108 @@
           "title": "Gaya Bahasa dina Sastra Sunda",
           "estMinutes": 8,
           "content": [
-            { "type": "heading", "text": "Gaya Bahasa (Majas)" },
-            { "type": "table", "headers": ["Majas", "Harti", "Conto"], "rows": [
-              ["Personifikasi", "Barang teu nyawa diupamakeun siga jelema", "Angin ngahariring (angin bernyanyi)"],
-              ["Metafora", "Ngabandingkeun langsung tanpa kecap pangbandingan", "Hirupna saperti mimpi"],
-              ["Hiperbola", "Lebih-lebihan", "Cimata ngocor saperti walungan"],
-              ["Litotes", "Ngaleutikan ti kanyataan", "Abdi mah jalmi leutik"]
-            ]},
-            { "type": "heading", "level": 2, "text": "Conto dina Kawih" },
-            { "type": "list", "items": [
-              "Personifikasi: 'Bulan jeung bentang padang caang' (bulan dan bintang terang)",
-              "Hiperbola: 'Halodo panjang, sawah patinggarenclang' (kemarau panjang, sawah retak)",
-              "Metafora: 'Mojang Priangan nu geulis kawanti-wanti'"
-            ]},
-            { "type": "highlight", "text": "Personifikasi: barang henteu nyawa diupamakeun boga polah cara jelema." }
+            {
+              "type": "heading",
+              "text": "Gaya Bahasa (Majas)"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Majas",
+                "Harti",
+                "Conto"
+              ],
+              "rows": [
+                [
+                  "Personifikasi",
+                  "Barang teu nyawa diupamakeun siga jelema",
+                  "Angin ngahariring (angin bernyanyi)"
+                ],
+                [
+                  "Metafora",
+                  "Ngabandingkeun langsung tanpa kecap pangbandingan",
+                  "Hirupna saperti mimpi"
+                ],
+                [
+                  "Hiperbola",
+                  "Lebih-lebihan",
+                  "Cimata ngocor saperti walungan"
+                ],
+                [
+                  "Litotes",
+                  "Ngaleutikan ti kanyataan",
+                  "Abdi mah jalmi leutik"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Conto dina Kawih"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Personifikasi: 'Bulan jeung bentang padang caang' (bulan dan bintang terang)",
+                "Hiperbola: 'Halodo panjang, sawah patinggarenclang' (kemarau panjang, sawah retak)",
+                "Metafora: 'Mojang Priangan nu geulis kawanti-wanti'"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Personifikasi: barang henteu nyawa diupamakeun boga polah cara jelema."
+            }
           ]
         }
       ],
       "flashcards": [
-        { "id": "fc1", "question": "Naon anu disebut personifikasi?", "answer": "Barang teu nyawa diupamakeun siga jelema" },
-        { "id": "fc2", "question": "Conto hiperbola?", "answer": "Cimata ngocor saperti walungan" },
-        { "id": "fc3", "question": "Naon hartina litotes?", "answer": "Ngaleutikan ti kanyataan (merendahkan)" },
-        { "id": "fc4", "question": "Metafora nyaéta?", "answer": "Ngabandingkeun langsung tanpa kecap pangbandingan" }
+        {
+          "id": "fc1",
+          "question": "Naon anu disebut personifikasi?",
+          "answer": "Barang teu nyawa diupamakeun siga jelema"
+        },
+        {
+          "id": "fc2",
+          "question": "Conto hiperbola?",
+          "answer": "Cimata ngocor saperti walungan"
+        },
+        {
+          "id": "fc3",
+          "question": "Naon hartina litotes?",
+          "answer": "Ngaleutikan ti kanyataan (merendahkan)"
+        },
+        {
+          "id": "fc4",
+          "question": "Metafora nyaéta?",
+          "answer": "Ngabandingkeun langsung tanpa kecap pangbandingan"
+        }
       ],
       "quiz": {
         "questions": [
-          { "id": "q1", "type": "multiple_choice", "question": "Gaya bahasa 'angin ngahariring' nyaéta?", "options": ["Metafora", "Personifikasi", "Hiperbola", "Litotes"], "answer": 1 },
-          { "id": "q2", "type": "multiple_choice", "question": "Gaya bahasa nu ngalebih-lebihkeun nyaéta?", "options": ["Personifikasi", "Metafora", "Hiperbola", "Litotes"], "answer": 2 }
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Gaya bahasa 'angin ngahariring' nyaéta?",
+            "options": [
+              "Metafora",
+              "Personifikasi",
+              "Hiperbola",
+              "Litotes"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Gaya bahasa nu ngalebih-lebihkeun nyaéta?",
+            "options": [
+              "Personifikasi",
+              "Metafora",
+              "Hiperbola",
+              "Litotes"
+            ],
+            "answer": 2
+          }
         ]
       }
     },
@@ -194,45 +537,122 @@
           "title": "17 Pupuh dina Sastra Sunda",
           "estMinutes": 10,
           "content": [
-            { "type": "heading", "text": "Pupuh dina Sastra Sunda" },
-            { "type": "text", "text": "Pupuh nyaéta puisi tradisional Sunda anu kauger ku guru wilangan jeung guru lagu. Aya 17 pupuh anu kabagi dua: Sekar Ageung jeung Sekar Alit." },
-            { "type": "heading", "level": 2, "text": "Sekar Ageung (4 pupuh)" },
-            { "type": "table", "headers": ["Pupuh", "Watek"], "rows": [
-              ["Kinanti", "Silih asih, prihatin"],
-              ["Sinom", "Gumbira, senang"],
-              ["Asmarandana", "Asih (cinta)"],
-              ["Dangdanggula", "Agung, mesra"]
-            ]},
-            { "type": "heading", "level": 2, "text": "Sekar Alit (13 pupuh)" },
-            { "type": "list", "items": [
-              "Balakbak — banyol/lucu",
-              "Durma — ambek/marah",
-              "Gambuh — bingung, sedih",
-              "Gurisa — ngalamun",
-              "Jurudemung — kagét, héran",
-              "Ladrang — caang pikir",
-              "Lambang — bungah/gembira",
-              "Magatru — prihatin",
-              "Maskumambang — sedih, prihatin",
-              "Mijil — sedih, cinta",
-              "Pangkur — ambek, keuheul",
-              "Pucung — banyol/lucu",
-              "Wirangrong — wirang/malu"
-            ]},
-            { "type": "highlight", "text": "Tiap pupuh boga watek nu béda — Pucung sok haleuang lucu, Asmarandana ngagambarkeun asih." }
+            {
+              "type": "heading",
+              "text": "Pupuh dina Sastra Sunda"
+            },
+            {
+              "type": "text",
+              "text": "Pupuh nyaéta puisi tradisional Sunda anu kauger ku guru wilangan jeung guru lagu. Aya 17 pupuh anu kabagi dua: Sekar Ageung jeung Sekar Alit."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sekar Ageung (4 pupuh)"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Pupuh",
+                "Watek"
+              ],
+              "rows": [
+                [
+                  "Kinanti",
+                  "Silih asih, prihatin"
+                ],
+                [
+                  "Sinom",
+                  "Gumbira, senang"
+                ],
+                [
+                  "Asmarandana",
+                  "Asih (cinta)"
+                ],
+                [
+                  "Dangdanggula",
+                  "Agung, mesra"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sekar Alit (13 pupuh)"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Balakbak — banyol/lucu",
+                "Durma — ambek/marah",
+                "Gambuh — bingung, sedih",
+                "Gurisa — ngalamun",
+                "Jurudemung — kagét, héran",
+                "Ladrang — caang pikir",
+                "Lambang — bungah/gembira",
+                "Magatru — prihatin",
+                "Maskumambang — sedih, prihatin",
+                "Mijil — sedih, cinta",
+                "Pangkur — ambek, keuheul",
+                "Pucung — banyol/lucu",
+                "Wirangrong — wirang/malu"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Tiap pupuh boga watek nu béda — Pucung sok haleuang lucu, Asmarandana ngagambarkeun asih."
+            }
           ]
         }
       ],
       "flashcards": [
-        { "id": "fc1", "question": "Sabaraha jumlah pupuh dina sastra Sunda?", "answer": "17 pupuh" },
-        { "id": "fc2", "question": "Pupuh anu watekna asih?", "answer": "Asmarandana" },
-        { "id": "fc3", "question": "Sebutkeun 4 Sekar Ageung!", "answer": "Kinanti, Sinom, Asmarandana, Dangdanggula" },
-        { "id": "fc4", "question": "Pupuh nu watekna lucu/banyol?", "answer": "Pucung atau Balakbak" }
+        {
+          "id": "fc1",
+          "question": "Sabaraha jumlah pupuh dina sastra Sunda?",
+          "answer": "17 pupuh"
+        },
+        {
+          "id": "fc2",
+          "question": "Pupuh anu watekna asih?",
+          "answer": "Asmarandana"
+        },
+        {
+          "id": "fc3",
+          "question": "Sebutkeun 4 Sekar Ageung!",
+          "answer": "Kinanti, Sinom, Asmarandana, Dangdanggula"
+        },
+        {
+          "id": "fc4",
+          "question": "Pupuh nu watekna lucu/banyol?",
+          "answer": "Pucung atau Balakbak"
+        }
       ],
       "quiz": {
         "questions": [
-          { "id": "q1", "type": "multiple_choice", "question": "Pupuh anu kaasup Sekar Ageung nyaéta?", "options": ["Pucung", "Mijil", "Sinom", "Pangkur"], "answer": 2 },
-          { "id": "q2", "type": "multiple_choice", "question": "Pupuh nu ngagambarkeun rasa ambek/marah?", "options": ["Asmarandana", "Durma", "Kinanti", "Sinom"], "answer": 1 }
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Pupuh anu kaasup Sekar Ageung nyaéta?",
+            "options": [
+              "Pucung",
+              "Mijil",
+              "Sinom",
+              "Pangkur"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Pupuh nu ngagambarkeun rasa ambek/marah?",
+            "options": [
+              "Asmarandana",
+              "Durma",
+              "Kinanti",
+              "Sinom"
+            ],
+            "answer": 1
+          }
         ]
       }
     }

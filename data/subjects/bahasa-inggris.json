@@ -2,7 +2,11 @@
   "id": "bahasa-inggris",
   "name": "Bahasa Inggris",
   "description": "Grammar, vocabulary, dan keterampilan komunikasi",
-  "grade": [7, 8, 9],
+  "grade": [
+    7,
+    8,
+    9
+  ],
   "icon": "Languages",
   "color": "neutral",
   "topics": [
@@ -17,22 +21,45 @@
           "title": "Simple Present Tense",
           "estMinutes": 8,
           "content": [
-            { "type": "heading", "text": "Simple Present Tense" },
+            {
+              "type": "heading",
+              "text": "Simple Present Tense"
+            },
             {
               "type": "text",
               "text": "Simple Present Tense digunakan untuk menyatakan kebiasaan, fakta umum, atau kebenaran yang berlaku saat ini."
             },
-            { "type": "heading", "level": 2, "text": "Rumus" },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Rumus"
+            },
             {
               "type": "table",
-              "headers": ["Bentuk", "Pola"],
+              "headers": [
+                "Bentuk",
+                "Pola"
+              ],
               "rows": [
-                ["(+) Positif", "S + V1 (s/es) + O"],
-                ["(-) Negatif", "S + do/does + not + V1 + O"],
-                ["(?) Tanya", "Do/Does + S + V1 + O?"]
+                [
+                  "(+) Positif",
+                  "S + V1 (s/es) + O"
+                ],
+                [
+                  "(-) Negatif",
+                  "S + do/does + not + V1 + O"
+                ],
+                [
+                  "(?) Tanya",
+                  "Do/Does + S + V1 + O?"
+                ]
               ]
             },
-            { "type": "heading", "level": 2, "text": "Contoh" },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh"
+            },
             {
               "type": "list",
               "items": [
@@ -42,7 +69,11 @@
                 "The sun rises in the east."
               ]
             },
-            { "type": "heading", "level": 2, "text": "Time Signal" },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Time Signal"
+            },
             {
               "type": "list",
               "items": [
@@ -51,15 +82,34 @@
                 "on Mondays, on weekends"
               ]
             },
-            { "type": "highlight", "text": "Untuk subjek He / She / It → tambahkan -s atau -es pada kata kerja." }
+            {
+              "type": "highlight",
+              "text": "Untuk subjek He / She / It → tambahkan -s atau -es pada kata kerja."
+            }
           ]
         }
       ],
       "flashcards": [
-        { "id": "fc1", "question": "Pola Simple Present positif?", "answer": "S + V1(s/es) + O" },
-        { "id": "fc2", "question": "Bentuk negatif dari 'She likes tea'?", "answer": "She does not like tea." },
-        { "id": "fc3", "question": "Apa time signal Simple Present?", "answer": "every day, always, usually, often" },
-        { "id": "fc4", "question": "Subjek apa yang pakai -s/-es?", "answer": "He, She, It" }
+        {
+          "id": "fc1",
+          "question": "Pola Simple Present positif?",
+          "answer": "S + V1(s/es) + O"
+        },
+        {
+          "id": "fc2",
+          "question": "Bentuk negatif dari 'She likes tea'?",
+          "answer": "She does not like tea."
+        },
+        {
+          "id": "fc3",
+          "question": "Apa time signal Simple Present?",
+          "answer": "every day, always, usually, often"
+        },
+        {
+          "id": "fc4",
+          "question": "Subjek apa yang pakai -s/-es?",
+          "answer": "He, She, It"
+        }
       ],
       "quiz": {
         "questions": [
@@ -102,16 +152,43 @@
           "title": "Common Greetings",
           "estMinutes": 4,
           "content": [
-            { "type": "heading", "text": "Greetings & Introductions" },
+            {
+              "type": "heading",
+              "text": "Greetings & Introductions"
+            },
             {
               "type": "table",
-              "headers": ["English", "Indonesian", "Used When"],
+              "headers": [
+                "English",
+                "Indonesian",
+                "Used When"
+              ],
               "rows": [
-                ["Good morning", "Selamat pagi", "00:00 – 12:00"],
-                ["Good afternoon", "Selamat siang", "12:00 – 18:00"],
-                ["Good evening", "Selamat malam", "18:00 – 00:00"],
-                ["How are you?", "Apa kabar?", "Sapaan umum"],
-                ["Nice to meet you", "Senang berkenalan", "Pertemuan pertama"]
+                [
+                  "Good morning",
+                  "Selamat pagi",
+                  "00:00 – 12:00"
+                ],
+                [
+                  "Good afternoon",
+                  "Selamat siang",
+                  "12:00 – 18:00"
+                ],
+                [
+                  "Good evening",
+                  "Selamat malam",
+                  "18:00 – 00:00"
+                ],
+                [
+                  "How are you?",
+                  "Apa kabar?",
+                  "Sapaan umum"
+                ],
+                [
+                  "Nice to meet you",
+                  "Senang berkenalan",
+                  "Pertemuan pertama"
+                ]
               ]
             },
             {
@@ -123,9 +200,21 @@
         }
       ],
       "flashcards": [
-        { "id": "fc1", "question": "Translate: Good afternoon", "answer": "Selamat siang" },
-        { "id": "fc2", "question": "Translate: Apa kabar?", "answer": "How are you?" },
-        { "id": "fc3", "question": "Reply to 'Nice to meet you'?", "answer": "Nice to meet you too." }
+        {
+          "id": "fc1",
+          "question": "Translate: Good afternoon",
+          "answer": "Selamat siang"
+        },
+        {
+          "id": "fc2",
+          "question": "Translate: Apa kabar?",
+          "answer": "How are you?"
+        },
+        {
+          "id": "fc3",
+          "question": "Reply to 'Nice to meet you'?",
+          "answer": "Nice to meet you too."
+        }
       ],
       "quiz": {
         "questions": [
@@ -133,7 +222,12 @@
             "id": "q1",
             "type": "multiple_choice",
             "question": "Which greeting is used at 7 PM?",
-            "options": ["Good morning", "Good afternoon", "Good evening", "Good night"],
+            "options": [
+              "Good morning",
+              "Good afternoon",
+              "Good evening",
+              "Good night"
+            ],
             "answer": 2
           }
         ]

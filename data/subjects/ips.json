@@ -2,7 +2,11 @@
   "id": "ips",
   "name": "IPS",
   "description": "Sejarah, geografi, ekonomi, dan sosiologi",
-  "grade": [7, 8, 9],
+  "grade": [
+    7,
+    8,
+    9
+  ],
   "icon": "Globe",
   "color": "neutral",
   "topics": [
@@ -17,40 +21,121 @@
           "title": "Letak Wilayah Indonesia",
           "estMinutes": 10,
           "content": [
-            { "type": "heading", "text": "Letak Indonesia" },
-            { "type": "heading", "level": 2, "text": "Letak Astronomis" },
-            { "type": "list", "items": [
-              "6° LU - 11° LS (garis lintang)",
-              "95° BT - 141° BT (garis bujur)",
-              "Beriklim tropis dengan curah hujan tinggi"
-            ]},
-            { "type": "heading", "level": 2, "text": "Letak Geografis" },
-            { "type": "list", "items": [
-              "Di antara Benua Asia dan Australia",
-              "Di antara Samudra Hindia dan Pasifik",
-              "Posisi strategis untuk perdagangan internasional"
-            ]},
-            { "type": "heading", "level": 2, "text": "Pengaruh Letak Indonesia" },
-            { "type": "table", "headers": ["Aspek", "Pengaruh"], "rows": [
-              ["Iklim", "Tropis, panas sepanjang tahun"],
-              ["Perdagangan", "Jalur perdagangan internasional"],
-              ["Budaya", "Pengaruh berbagai peradaban"],
-              ["Keamanan", "Rawan bencana alam"]
-            ]},
-            { "type": "highlight", "text": "Peta adalah gambar permukaan bumi yang diperkecil dengan skala tertentu." }
+            {
+              "type": "heading",
+              "text": "Letak Indonesia"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Letak Astronomis"
+            },
+            {
+              "type": "list",
+              "items": [
+                "6° LU - 11° LS (garis lintang)",
+                "95° BT - 141° BT (garis bujur)",
+                "Beriklim tropis dengan curah hujan tinggi"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Letak Geografis"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Di antara Benua Asia dan Australia",
+                "Di antara Samudra Hindia dan Pasifik",
+                "Posisi strategis untuk perdagangan internasional"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pengaruh Letak Indonesia"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Aspek",
+                "Pengaruh"
+              ],
+              "rows": [
+                [
+                  "Iklim",
+                  "Tropis, panas sepanjang tahun"
+                ],
+                [
+                  "Perdagangan",
+                  "Jalur perdagangan internasional"
+                ],
+                [
+                  "Budaya",
+                  "Pengaruh berbagai peradaban"
+                ],
+                [
+                  "Keamanan",
+                  "Rawan bencana alam"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Peta adalah gambar permukaan bumi yang diperkecil dengan skala tertentu."
+            }
           ]
         }
       ],
       "flashcards": [
-        { "id": "fc1", "question": "Letak astronomis Indonesia?", "answer": "6°LU-11°LS dan 95°BT-141°BT" },
-        { "id": "fc2", "question": "Indonesia terletak di antara benua?", "answer": "Asia dan Australia" },
-        { "id": "fc3", "question": "Iklim Indonesia?", "answer": "Tropis" },
-        { "id": "fc4", "question": "Keuntungan letak geografis Indonesia?", "answer": "Jalur perdagangan internasional" }
+        {
+          "id": "fc1",
+          "question": "Letak astronomis Indonesia?",
+          "answer": "6°LU-11°LS dan 95°BT-141°BT"
+        },
+        {
+          "id": "fc2",
+          "question": "Indonesia terletak di antara benua?",
+          "answer": "Asia dan Australia"
+        },
+        {
+          "id": "fc3",
+          "question": "Iklim Indonesia?",
+          "answer": "Tropis"
+        },
+        {
+          "id": "fc4",
+          "question": "Keuntungan letak geografis Indonesia?",
+          "answer": "Jalur perdagangan internasional"
+        }
       ],
       "quiz": {
         "questions": [
-          { "id": "q1", "type": "multiple_choice", "question": "Indonesia terletak di antara samudra?", "options": ["Atlantik dan Pasifik", "Hindia dan Pasifik", "Hindia dan Atlantik", "Arktik dan Pasifik"], "answer": 1 },
-          { "id": "q2", "type": "multiple_choice", "question": "Iklim Indonesia adalah?", "options": ["Subtropis", "Tropis", "Kutub", "Sedang"], "answer": 1 }
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Indonesia terletak di antara samudra?",
+            "options": [
+              "Atlantik dan Pasifik",
+              "Hindia dan Pasifik",
+              "Hindia dan Atlantik",
+              "Arktik dan Pasifik"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Iklim Indonesia adalah?",
+            "options": [
+              "Subtropis",
+              "Tropis",
+              "Kutub",
+              "Sedang"
+            ],
+            "answer": 1
+          }
         ]
       }
     },
@@ -65,35 +150,130 @@
           "title": "Bentuk-bentuk Interaksi Sosial",
           "estMinutes": 10,
           "content": [
-            { "type": "heading", "text": "Interaksi Sosial" },
-            { "type": "text", "text": "Interaksi sosial adalah hubungan timbal balik antara individu, individu dengan kelompok, atau kelompok dengan kelompok." },
-            { "type": "heading", "level": 2, "text": "Bentuk Interaksi Asosiatif (Positif)" },
-            { "type": "table", "headers": ["Bentuk", "Pengertian", "Contoh"], "rows": [
-              ["Kerja sama", "Bekerja bersama mencapai tujuan", "Gotong royong"],
-              ["Akomodasi", "Menyelesaikan konflik", "Mediasi, arbitrasi"],
-              ["Asimilasi", "Peleburan budaya", "Perkawinan beda suku"],
-              ["Akulturasi", "Percampuran budaya tanpa hilang", "Wayang Wahyu"]
-            ]},
-            { "type": "heading", "level": 2, "text": "Bentuk Interaksi Disosiatif (Negatif)" },
-            { "type": "table", "headers": ["Bentuk", "Pengertian"], "rows": [
-              ["Persaingan", "Berlomba mencapai tujuan"],
-              ["Kontravensi", "Sikap tidak suka tersembunyi"],
-              ["Konflik", "Pertentangan terbuka"]
-            ]},
-            { "type": "highlight", "text": "Sosialisasi adalah proses belajar nilai dan norma dalam masyarakat." }
+            {
+              "type": "heading",
+              "text": "Interaksi Sosial"
+            },
+            {
+              "type": "text",
+              "text": "Interaksi sosial adalah hubungan timbal balik antara individu, individu dengan kelompok, atau kelompok dengan kelompok."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bentuk Interaksi Asosiatif (Positif)"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Bentuk",
+                "Pengertian",
+                "Contoh"
+              ],
+              "rows": [
+                [
+                  "Kerja sama",
+                  "Bekerja bersama mencapai tujuan",
+                  "Gotong royong"
+                ],
+                [
+                  "Akomodasi",
+                  "Menyelesaikan konflik",
+                  "Mediasi, arbitrasi"
+                ],
+                [
+                  "Asimilasi",
+                  "Peleburan budaya",
+                  "Perkawinan beda suku"
+                ],
+                [
+                  "Akulturasi",
+                  "Percampuran budaya tanpa hilang",
+                  "Wayang Wahyu"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bentuk Interaksi Disosiatif (Negatif)"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Bentuk",
+                "Pengertian"
+              ],
+              "rows": [
+                [
+                  "Persaingan",
+                  "Berlomba mencapai tujuan"
+                ],
+                [
+                  "Kontravensi",
+                  "Sikap tidak suka tersembunyi"
+                ],
+                [
+                  "Konflik",
+                  "Pertentangan terbuka"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Sosialisasi adalah proses belajar nilai dan norma dalam masyarakat."
+            }
           ]
         }
       ],
       "flashcards": [
-        { "id": "fc1", "question": "Apa itu interaksi sosial?", "answer": "Hubungan timbal balik antar individu/kelompok" },
-        { "id": "fc2", "question": "Contoh interaksi asosiatif?", "answer": "Kerja sama, akomodasi, asimilasi" },
-        { "id": "fc3", "question": "Apa itu asimilasi?", "answer": "Peleburan dua budaya menjadi satu" },
-        { "id": "fc4", "question": "Apa itu akulturasi?", "answer": "Percampuran budaya tanpa menghilangkan budaya asli" }
+        {
+          "id": "fc1",
+          "question": "Apa itu interaksi sosial?",
+          "answer": "Hubungan timbal balik antar individu/kelompok"
+        },
+        {
+          "id": "fc2",
+          "question": "Contoh interaksi asosiatif?",
+          "answer": "Kerja sama, akomodasi, asimilasi"
+        },
+        {
+          "id": "fc3",
+          "question": "Apa itu asimilasi?",
+          "answer": "Peleburan dua budaya menjadi satu"
+        },
+        {
+          "id": "fc4",
+          "question": "Apa itu akulturasi?",
+          "answer": "Percampuran budaya tanpa menghilangkan budaya asli"
+        }
       ],
       "quiz": {
         "questions": [
-          { "id": "q1", "type": "multiple_choice", "question": "Gotong royong termasuk interaksi?", "options": ["Konflik", "Persaingan", "Kerja sama", "Kontravensi"], "answer": 2 },
-          { "id": "q2", "type": "multiple_choice", "question": "Pertentangan terbuka disebut?", "options": ["Persaingan", "Konflik", "Akomodasi", "Asimilasi"], "answer": 1 }
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Gotong royong termasuk interaksi?",
+            "options": [
+              "Konflik",
+              "Persaingan",
+              "Kerja sama",
+              "Kontravensi"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Pertentangan terbuka disebut?",
+            "options": [
+              "Persaingan",
+              "Konflik",
+              "Akomodasi",
+              "Asimilasi"
+            ],
+            "answer": 1
+          }
         ]
       }
     },
@@ -108,39 +288,117 @@
           "title": "Kegiatan dan Pelaku Ekonomi",
           "estMinutes": 10,
           "content": [
-            { "type": "heading", "text": "Kegiatan Ekonomi" },
-            { "type": "table", "headers": ["Kegiatan", "Pengertian", "Contoh"], "rows": [
-              ["Produksi", "Menghasilkan barang/jasa", "Petani, pabrik"],
-              ["Distribusi", "Menyalurkan barang", "Pedagang, ekspedisi"],
-              ["Konsumsi", "Menggunakan barang/jasa", "Pembeli, konsumen"]
-            ]},
-            { "type": "heading", "level": 2, "text": "Pelaku Ekonomi" },
-            { "type": "list", "items": [
-              "Rumah tangga keluarga (konsumen)",
-              "Rumah tangga produsen (perusahaan)",
-              "Rumah tangga negara (pemerintah)",
-              "Masyarakat luar negeri (ekspor-impor)"
-            ]},
-            { "type": "heading", "level": 2, "text": "Permintaan dan Penawaran" },
-            { "type": "list", "items": [
-              "Hukum permintaan: harga naik → permintaan turun",
-              "Hukum penawaran: harga naik → penawaran naik",
-              "Harga keseimbangan: titik temu permintaan dan penawaran"
-            ]},
-            { "type": "highlight", "text": "Pasar adalah tempat bertemunya penjual dan pembeli." }
+            {
+              "type": "heading",
+              "text": "Kegiatan Ekonomi"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Kegiatan",
+                "Pengertian",
+                "Contoh"
+              ],
+              "rows": [
+                [
+                  "Produksi",
+                  "Menghasilkan barang/jasa",
+                  "Petani, pabrik"
+                ],
+                [
+                  "Distribusi",
+                  "Menyalurkan barang",
+                  "Pedagang, ekspedisi"
+                ],
+                [
+                  "Konsumsi",
+                  "Menggunakan barang/jasa",
+                  "Pembeli, konsumen"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pelaku Ekonomi"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Rumah tangga keluarga (konsumen)",
+                "Rumah tangga produsen (perusahaan)",
+                "Rumah tangga negara (pemerintah)",
+                "Masyarakat luar negeri (ekspor-impor)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Permintaan dan Penawaran"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Hukum permintaan: harga naik → permintaan turun",
+                "Hukum penawaran: harga naik → penawaran naik",
+                "Harga keseimbangan: titik temu permintaan dan penawaran"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Pasar adalah tempat bertemunya penjual dan pembeli."
+            }
           ]
         }
       ],
       "flashcards": [
-        { "id": "fc1", "question": "3 kegiatan ekonomi utama?", "answer": "Produksi, distribusi, konsumsi" },
-        { "id": "fc2", "question": "Hukum permintaan?", "answer": "Harga naik → permintaan turun" },
-        { "id": "fc3", "question": "Pelaku ekonomi?", "answer": "RT keluarga, produsen, negara, luar negeri" },
-        { "id": "fc4", "question": "Apa itu distribusi?", "answer": "Menyalurkan barang dari produsen ke konsumen" }
+        {
+          "id": "fc1",
+          "question": "3 kegiatan ekonomi utama?",
+          "answer": "Produksi, distribusi, konsumsi"
+        },
+        {
+          "id": "fc2",
+          "question": "Hukum permintaan?",
+          "answer": "Harga naik → permintaan turun"
+        },
+        {
+          "id": "fc3",
+          "question": "Pelaku ekonomi?",
+          "answer": "RT keluarga, produsen, negara, luar negeri"
+        },
+        {
+          "id": "fc4",
+          "question": "Apa itu distribusi?",
+          "answer": "Menyalurkan barang dari produsen ke konsumen"
+        }
       ],
       "quiz": {
         "questions": [
-          { "id": "q1", "type": "multiple_choice", "question": "Petani termasuk pelaku kegiatan?", "options": ["Konsumsi", "Distribusi", "Produksi", "Perdagangan"], "answer": 2 },
-          { "id": "q2", "type": "multiple_choice", "question": "Jika harga naik, menurut hukum permintaan?", "options": ["Permintaan naik", "Permintaan turun", "Permintaan tetap", "Tidak berpengaruh"], "answer": 1 }
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Petani termasuk pelaku kegiatan?",
+            "options": [
+              "Konsumsi",
+              "Distribusi",
+              "Produksi",
+              "Perdagangan"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Jika harga naik, menurut hukum permintaan?",
+            "options": [
+              "Permintaan naik",
+              "Permintaan turun",
+              "Permintaan tetap",
+              "Tidak berpengaruh"
+            ],
+            "answer": 1
+          }
         ]
       }
     },
@@ -155,37 +413,104 @@
           "title": "Proklamasi Kemerdekaan Indonesia",
           "estMinutes": 12,
           "content": [
-            { "type": "heading", "text": "Proklamasi 17 Agustus 1945" },
-            { "type": "heading", "level": 2, "text": "Kronologi" },
-            { "type": "list", "ordered": true, "items": [
-              "Peristiwa Rengasdengklok (16 Agustus 1945): Soekarno-Hatta diamankan pemuda",
-              "Perumusan teks proklamasi di rumah Laksamana Maeda",
-              "Pembacaan proklamasi di Pegangsaan Timur 56 (pukul 10.00)",
-              "Pengibaran bendera Merah Putih oleh Latief Hendraningrat"
-            ]},
-            { "type": "quote", "text": "Teks Proklamasi", "translation": "Kami bangsa Indonesia dengan ini menjatakan kemerdekaan Indonesia. Hal-hal jang mengenai pemindahan kekoeasaan d.l.l., diselenggarakan dengan tjara saksama dan dalam tempo jang sesingkat-singkatnja." },
-            { "type": "heading", "level": 2, "text": "Tokoh Proklamasi" },
-            { "type": "list", "items": [
-              "Soekarno — membacakan proklamasi",
-              "Hatta — mendampingi, ikut merumuskan teks",
-              "Ahmad Soebardjo — konseptor teks",
-              "Sayuti Melik — mengetik teks proklamasi"
-            ]},
-            { "type": "highlight", "text": "Proklamasi adalah pernyataan resmi lahirnya negara Republik Indonesia." }
+            {
+              "type": "heading",
+              "text": "Proklamasi 17 Agustus 1945"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kronologi"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Peristiwa Rengasdengklok (16 Agustus 1945): Soekarno-Hatta diamankan pemuda",
+                "Perumusan teks proklamasi di rumah Laksamana Maeda",
+                "Pembacaan proklamasi di Pegangsaan Timur 56 (pukul 10.00)",
+                "Pengibaran bendera Merah Putih oleh Latief Hendraningrat"
+              ]
+            },
+            {
+              "type": "quote",
+              "text": "Teks Proklamasi",
+              "translation": "Kami bangsa Indonesia dengan ini menjatakan kemerdekaan Indonesia. Hal-hal jang mengenai pemindahan kekoeasaan d.l.l., diselenggarakan dengan tjara saksama dan dalam tempo jang sesingkat-singkatnja."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tokoh Proklamasi"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Soekarno — membacakan proklamasi",
+                "Hatta — mendampingi, ikut merumuskan teks",
+                "Ahmad Soebardjo — konseptor teks",
+                "Sayuti Melik — mengetik teks proklamasi"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Proklamasi adalah pernyataan resmi lahirnya negara Republik Indonesia."
+            }
           ]
         }
       ],
       "flashcards": [
-        { "id": "fc1", "question": "Tanggal proklamasi kemerdekaan?", "answer": "17 Agustus 1945" },
-        { "id": "fc2", "question": "Siapa yang membacakan proklamasi?", "answer": "Ir. Soekarno" },
-        { "id": "fc3", "question": "Di mana teks proklamasi dirumuskan?", "answer": "Rumah Laksamana Maeda" },
-        { "id": "fc4", "question": "Peristiwa Rengasdengklok terjadi tanggal?", "answer": "16 Agustus 1945" },
-        { "id": "fc5", "question": "Siapa yang mengetik teks proklamasi?", "answer": "Sayuti Melik" }
+        {
+          "id": "fc1",
+          "question": "Tanggal proklamasi kemerdekaan?",
+          "answer": "17 Agustus 1945"
+        },
+        {
+          "id": "fc2",
+          "question": "Siapa yang membacakan proklamasi?",
+          "answer": "Ir. Soekarno"
+        },
+        {
+          "id": "fc3",
+          "question": "Di mana teks proklamasi dirumuskan?",
+          "answer": "Rumah Laksamana Maeda"
+        },
+        {
+          "id": "fc4",
+          "question": "Peristiwa Rengasdengklok terjadi tanggal?",
+          "answer": "16 Agustus 1945"
+        },
+        {
+          "id": "fc5",
+          "question": "Siapa yang mengetik teks proklamasi?",
+          "answer": "Sayuti Melik"
+        }
       ],
       "quiz": {
         "questions": [
-          { "id": "q1", "type": "multiple_choice", "question": "Proklamasi dibacakan di?", "options": ["Rumah Maeda", "Pegangsaan Timur 56", "Rengasdengklok", "Istana Merdeka"], "answer": 1 },
-          { "id": "q2", "type": "multiple_choice", "question": "Yang mendampingi Soekarno membacakan proklamasi?", "options": ["Sayuti Melik", "Ahmad Soebardjo", "Mohammad Hatta", "Latief Hendraningrat"], "answer": 2 }
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Proklamasi dibacakan di?",
+            "options": [
+              "Rumah Maeda",
+              "Pegangsaan Timur 56",
+              "Rengasdengklok",
+              "Istana Merdeka"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Yang mendampingi Soekarno membacakan proklamasi?",
+            "options": [
+              "Sayuti Melik",
+              "Ahmad Soebardjo",
+              "Mohammad Hatta",
+              "Latief Hendraningrat"
+            ],
+            "answer": 2
+          }
         ]
       }
     },
@@ -200,43 +525,111 @@
           "title": "Globalisasi dan Dampaknya",
           "estMinutes": 10,
           "content": [
-            { "type": "heading", "text": "Globalisasi" },
-            { "type": "text", "text": "Globalisasi adalah proses integrasi dunia tanpa batas geografis, ditandai dengan kemajuan teknologi dan komunikasi." },
-            { "type": "heading", "level": 2, "text": "Dampak Positif" },
-            { "type": "list", "items": [
-              "Kemudahan akses informasi",
-              "Peningkatan ilmu pengetahuan",
-              "Kemajuan teknologi",
-              "Peluang ekonomi global"
-            ]},
-            { "type": "heading", "level": 2, "text": "Dampak Negatif" },
-            { "type": "list", "items": [
-              "Lunturnya budaya lokal",
-              "Konsumerisme",
-              "Kesenjangan sosial",
-              "Masuknya budaya asing negatif"
-            ]},
-            { "type": "heading", "level": 2, "text": "Sikap Menghadapi Globalisasi" },
-            { "type": "list", "items": [
-              "Selektif terhadap budaya asing",
-              "Melestarikan budaya lokal",
-              "Meningkatkan kualitas SDM",
-              "Berpikir kritis"
-            ]},
-            { "type": "highlight", "text": "Kearifan lokal adalah nilai-nilai luhur budaya daerah yang perlu dilestarikan." }
+            {
+              "type": "heading",
+              "text": "Globalisasi"
+            },
+            {
+              "type": "text",
+              "text": "Globalisasi adalah proses integrasi dunia tanpa batas geografis, ditandai dengan kemajuan teknologi dan komunikasi."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dampak Positif"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kemudahan akses informasi",
+                "Peningkatan ilmu pengetahuan",
+                "Kemajuan teknologi",
+                "Peluang ekonomi global"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Dampak Negatif"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Lunturnya budaya lokal",
+                "Konsumerisme",
+                "Kesenjangan sosial",
+                "Masuknya budaya asing negatif"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sikap Menghadapi Globalisasi"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Selektif terhadap budaya asing",
+                "Melestarikan budaya lokal",
+                "Meningkatkan kualitas SDM",
+                "Berpikir kritis"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Kearifan lokal adalah nilai-nilai luhur budaya daerah yang perlu dilestarikan."
+            }
           ]
         }
       ],
       "flashcards": [
-        { "id": "fc1", "question": "Apa itu globalisasi?", "answer": "Proses integrasi dunia tanpa batas geografis" },
-        { "id": "fc2", "question": "Dampak positif globalisasi?", "answer": "Kemudahan akses informasi, kemajuan teknologi" },
-        { "id": "fc3", "question": "Dampak negatif globalisasi?", "answer": "Lunturnya budaya lokal, konsumerisme" },
-        { "id": "fc4", "question": "Sikap menghadapi globalisasi?", "answer": "Selektif, melestarikan budaya lokal" }
+        {
+          "id": "fc1",
+          "question": "Apa itu globalisasi?",
+          "answer": "Proses integrasi dunia tanpa batas geografis"
+        },
+        {
+          "id": "fc2",
+          "question": "Dampak positif globalisasi?",
+          "answer": "Kemudahan akses informasi, kemajuan teknologi"
+        },
+        {
+          "id": "fc3",
+          "question": "Dampak negatif globalisasi?",
+          "answer": "Lunturnya budaya lokal, konsumerisme"
+        },
+        {
+          "id": "fc4",
+          "question": "Sikap menghadapi globalisasi?",
+          "answer": "Selektif, melestarikan budaya lokal"
+        }
       ],
       "quiz": {
         "questions": [
-          { "id": "q1", "type": "multiple_choice", "question": "Yang bukan dampak positif globalisasi?", "options": ["Kemajuan teknologi", "Lunturnya budaya lokal", "Akses informasi mudah", "Peluang ekonomi"], "answer": 1 },
-          { "id": "q2", "type": "multiple_choice", "question": "Cara menyikapi globalisasi dengan benar adalah?", "options": ["Menolak semua budaya asing", "Menerima semua budaya asing", "Selektif terhadap budaya asing", "Mengabaikan budaya lokal"], "answer": 2 }
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Yang bukan dampak positif globalisasi?",
+            "options": [
+              "Kemajuan teknologi",
+              "Lunturnya budaya lokal",
+              "Akses informasi mudah",
+              "Peluang ekonomi"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Cara menyikapi globalisasi dengan benar adalah?",
+            "options": [
+              "Menolak semua budaya asing",
+              "Menerima semua budaya asing",
+              "Selektif terhadap budaya asing",
+              "Mengabaikan budaya lokal"
+            ],
+            "answer": 2
+          }
         ]
       }
     },
@@ -251,41 +644,122 @@
           "title": "Uang dan Fungsinya",
           "estMinutes": 8,
           "content": [
-            { "type": "heading", "text": "Uang dan Lembaga Keuangan" },
-            { "type": "heading", "level": 2, "text": "Fungsi Uang" },
-            { "type": "table", "headers": ["Fungsi Asli", "Fungsi Turunan"], "rows": [
-              ["Alat tukar", "Alat pembayaran"],
-              ["Satuan hitung", "Penimbun kekayaan"],
-              ["-", "Pemindah kekayaan"],
-              ["-", "Standar pembayaran masa depan"]
-            ]},
-            { "type": "heading", "level": 2, "text": "Lembaga Keuangan Bank" },
-            { "type": "list", "items": [
-              "Bank sentral (Bank Indonesia): mengatur kebijakan moneter",
-              "Bank umum: menerima simpanan, memberi kredit",
-              "Bank syariah: berdasarkan prinsip Islam"
-            ]},
-            { "type": "heading", "level": 2, "text": "Lembaga Keuangan Non-Bank" },
-            { "type": "list", "items": [
-              "Pegadaian: pinjaman dengan jaminan barang",
-              "Asuransi: perlindungan risiko",
-              "Koperasi: simpan pinjam anggota",
-              "Leasing: sewa guna usaha"
-            ]},
-            { "type": "highlight", "text": "Pilih lembaga keuangan sesuai kebutuhan: bank untuk tabungan, pegadaian untuk pinjaman cepat dengan jaminan." }
+            {
+              "type": "heading",
+              "text": "Uang dan Lembaga Keuangan"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fungsi Uang"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Fungsi Asli",
+                "Fungsi Turunan"
+              ],
+              "rows": [
+                [
+                  "Alat tukar",
+                  "Alat pembayaran"
+                ],
+                [
+                  "Satuan hitung",
+                  "Penimbun kekayaan"
+                ],
+                [
+                  "-",
+                  "Pemindah kekayaan"
+                ],
+                [
+                  "-",
+                  "Standar pembayaran masa depan"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Lembaga Keuangan Bank"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Bank sentral (Bank Indonesia): mengatur kebijakan moneter",
+                "Bank umum: menerima simpanan, memberi kredit",
+                "Bank syariah: berdasarkan prinsip Islam"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Lembaga Keuangan Non-Bank"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pegadaian: pinjaman dengan jaminan barang",
+                "Asuransi: perlindungan risiko",
+                "Koperasi: simpan pinjam anggota",
+                "Leasing: sewa guna usaha"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Pilih lembaga keuangan sesuai kebutuhan: bank untuk tabungan, pegadaian untuk pinjaman cepat dengan jaminan."
+            }
           ]
         }
       ],
       "flashcards": [
-        { "id": "fc1", "question": "Fungsi asli uang?", "answer": "Alat tukar dan satuan hitung" },
-        { "id": "fc2", "question": "Fungsi Bank Indonesia?", "answer": "Mengatur kebijakan moneter (bank sentral)" },
-        { "id": "fc3", "question": "Contoh lembaga keuangan non-bank?", "answer": "Pegadaian, asuransi, koperasi" },
-        { "id": "fc4", "question": "Apa fungsi pegadaian?", "answer": "Memberi pinjaman dengan jaminan barang" }
+        {
+          "id": "fc1",
+          "question": "Fungsi asli uang?",
+          "answer": "Alat tukar dan satuan hitung"
+        },
+        {
+          "id": "fc2",
+          "question": "Fungsi Bank Indonesia?",
+          "answer": "Mengatur kebijakan moneter (bank sentral)"
+        },
+        {
+          "id": "fc3",
+          "question": "Contoh lembaga keuangan non-bank?",
+          "answer": "Pegadaian, asuransi, koperasi"
+        },
+        {
+          "id": "fc4",
+          "question": "Apa fungsi pegadaian?",
+          "answer": "Memberi pinjaman dengan jaminan barang"
+        }
       ],
       "quiz": {
         "questions": [
-          { "id": "q1", "type": "multiple_choice", "question": "Fungsi uang sebagai alat tukar termasuk fungsi?", "options": ["Turunan", "Asli", "Tambahan", "Modern"], "answer": 1 },
-          { "id": "q2", "type": "multiple_choice", "question": "Lembaga yang memberikan perlindungan risiko adalah?", "options": ["Bank", "Pegadaian", "Asuransi", "Koperasi"], "answer": 2 }
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Fungsi uang sebagai alat tukar termasuk fungsi?",
+            "options": [
+              "Turunan",
+              "Asli",
+              "Tambahan",
+              "Modern"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Lembaga yang memberikan perlindungan risiko adalah?",
+            "options": [
+              "Bank",
+              "Pegadaian",
+              "Asuransi",
+              "Koperasi"
+            ],
+            "answer": 2
+          }
         ]
       }
     }
