@@ -271,7 +271,12 @@
             "id": "q1",
             "type": "multiple_choice",
             "question": "Perubahan wujud dari cair menjadi gas disebut?",
-            "options": [],
+            "options": [
+              "Membeku",
+              "Mengembun",
+              "Menguap",
+              "Menyublim"
+            ],
             "answer": 2,
             "explanation": "Menguap adalah perubahan wujud zat dari cair menjadi gas, seperti air yang mendidih menghasilkan uap."
           },
@@ -279,73 +284,118 @@
             "id": "q2",
             "type": "multiple_choice",
             "question": "Contoh zat yang dapat menyublim adalah?",
-            "options": [],
+            "options": [
+              "Air",
+              "Minyak",
+              "Kapur barus",
+              "Besi"
+            ],
             "answer": 2,
-            "explanation": "Kapur barus (kamfer) dapat berubah dari padat langsung menjadi gas tanpa mencair terlebih dahulu."
+            "explanation": "Kapur barus dapat berubah langsung dari padat menjadi gas tanpa melalui fase cair."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
             "question": "Partikel zat padat memiliki ciri?",
-            "options": [],
+            "options": [
+              "Bergerak bebas sangat cepat",
+              "Jarak sangat jauh",
+              "Tersusun rapat dan bergetar di tempat",
+              "Tidak memiliki gaya tarik"
+            ],
             "answer": 2,
-            "explanation": "Partikel zat padat bergetar di tempat dengan susunan yang teratur dan rapat karena gaya tarik antarpartikel sangat kuat."
+            "explanation": "Partikel zat padat tersusun rapat dan hanya bergetar di tempat karena gaya tarik sangat kuat."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
             "question": "Proses embun yang terbentuk di pagi hari merupakan contoh?",
-            "options": [],
+            "options": [
+              "Menguap",
+              "Mengembun",
+              "Menyublim",
+              "Mencair"
+            ],
             "answer": 1,
-            "explanation": "Embun terbentuk dari uap air (gas) yang berubah menjadi titik-titik air (cair) karena suhu udara dingin — proses mengembun."
+            "explanation": "Embun terbentuk dari uap air (gas) yang berubah menjadi cair karena suhu dingin."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
             "question": "Perhatikan gambar partikel suatu zat: tersusun teratur dan sangat rapat. Zat tersebut berwujud?",
-            "options": [],
+            "options": [
+              "Gas",
+              "Cair",
+              "Padat",
+              "Plasma"
+            ],
             "answer": 2,
-            "explanation": "Partikel zat padat tersusun teratur dan sangat rapat, hanya bergetar di tempat."
+            "explanation": "Partikel zat padat tersusun teratur dan sangat rapat."
           },
           {
             "id": "q6",
             "type": "multiple_choice",
             "question": "Mengapa zat gas mudah untuk dimampatkan?",
-            "options": [],
+            "options": [
+              "Karena partikelnya rapat",
+              "Karena jarak antarpartikel jauh",
+              "Karena tidak memiliki massa",
+              "Karena tidak bergerak"
+            ],
             "answer": 1,
-            "explanation": "Gas mudah dimampatkan karena jarak antarpartikelnya sangat jauh dan gaya tarik antarpartikel sangat lemah, sehingga partikel mudah didekatkan dengan tekanan."
+            "explanation": "Jarak antarpartikel gas sangat jauh sehingga mudah dimampatkan."
           },
           {
             "id": "q7",
             "type": "multiple_choice",
             "question": "Perubahan wujud zat dari padat menjadi cair disebut?",
-            "options": [],
+            "options": [
+              "Membeku",
+              "Mencair",
+              "Menguap",
+              "Mengembun"
+            ],
             "answer": 1,
-            "explanation": "Mencair adalah perubahan wujud dari padat menjadi cair, contohnya es batu yang mencair menjadi air."
+            "explanation": "Mencair adalah perubahan dari padat ke cair, seperti es menjadi air."
           },
           {
             "id": "q8",
             "type": "multiple_choice",
             "question": "Kayu yang dibakar menjadi arang merupakan contoh perubahan?",
-            "options": [],
+            "options": [
+              "Fisika",
+              "Kimia",
+              "Wujud",
+              "Sementara"
+            ],
             "answer": 1,
-            "explanation": "Kayu yang dibakar menjadi arang adalah perubahan kimia karena menghasilkan zat baru (arang) dengan sifat berbeda dari kayu, dan disertai perubahan warna serta timbulnya bau."
+            "explanation": "Terjadi perubahan kimia karena terbentuk zat baru yaitu arang."
           },
           {
             "id": "q9",
             "type": "multiple_choice",
-            "question": "Zat cair memiliki sifat?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Zat cair memiliki volume tetap tetapi bentuknya mengikuti wadah tempatnya berada, karena partikelnya dapat bergerak bebas terbatas."
+            "question": "Zat gas memiliki sifat?",
+            "options": [
+              "Bentuk tetap",
+              "Volume tetap",
+              "Mengikuti wadah dan mudah dimampatkan",
+              "Tidak bisa bergerak"
+            ],
+            "answer": 2,
+            "explanation": "Gas mengikuti bentuk dan volume wadah serta mudah dimampatkan."
           },
           {
             "id": "q10",
             "type": "multiple_choice",
-            "question": "Massa jenis air adalah 1 g/cm³. Benda dengan massa jenis 0,8 g/cm³ jika dimasukkan ke dalam air akan?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Benda dengan massa jenis lebih kecil dari air (1 g/cm³) akan mengapung di permukaan air."
+            "question": "Massa jenis suatu benda lebih besar dari air. Apa yang terjadi jika dimasukkan ke air?",
+            "options": [
+              "Mengapung",
+              "Melayang",
+              "Tenggelam",
+              "Menguap"
+            ],
+            "answer": 2,
+            "explanation": "Benda dengan massa jenis lebih besar dari air akan tenggelam."
           }
         ]
       }
@@ -655,7 +705,12 @@
             "id": "q1",
             "type": "multiple_choice",
             "question": "Benda bermassa 5 kg diberi gaya 20 N. Berapakah percepatannya?",
-            "options": [],
+            "options": [
+              "2 m/s²",
+              "4 m/s²",
+              "5 m/s²",
+              "10 m/s²"
+            ],
             "answer": 1,
             "explanation": "Menggunakan rumus F = m × a, maka a = F/m = 20/5 = 4 m/s². Jawaban yang benar adalah B."
           },
@@ -663,7 +718,12 @@
             "id": "q2",
             "type": "multiple_choice",
             "question": "Hukum Newton I juga disebut hukum?",
-            "options": [],
+            "options": [
+              "Aksi-Reaksi",
+              "Inersia",
+              "Percepatan",
+              "Gravitasi"
+            ],
             "answer": 1,
             "explanation": "Hukum Newton I dikenal sebagai Hukum Kelembaman atau Hukum Inersia karena menjelaskan sifat benda yang mempertahankan keadaan geraknya."
           },
@@ -671,7 +731,12 @@
             "id": "q3",
             "type": "multiple_choice",
             "question": "Grafik v-t yang menunjukkan GLB adalah?",
-            "options": [],
+            "options": [
+              "Garis miring ke atas",
+              "Garis miring ke bawah",
+              "Garis mendatar",
+              "Garis melengkung"
+            ],
             "answer": 2,
             "explanation": "GLB memiliki kecepatan konstan sepanjang waktu, sehingga grafik v-t berupa garis horizontal."
           },
@@ -679,41 +744,92 @@
             "id": "q4",
             "type": "multiple_choice",
             "question": "Sebuah benda diam di atas meja. Pasangan gaya aksi-reaksi berdasarkan Hukum Newton III adalah?",
-            "options": [],
+            "options": [
+              "Gaya gesek dan gaya dorong",
+              "Gaya benda ke meja dan gaya meja ke benda",
+              "Gaya berat dan gaya gesek",
+              "Gaya dorong dan gaya berat"
+            ],
             "answer": 1,
-            "explanation": "Benda menarik meja ke bawah karena gravitasi (aksi), meja mendorong benda ke atas dengan gaya normal (reaksi). Kedua gaya sama besar dan berlawanan arah."
+            "explanation": "Benda menarik meja ke bawah, meja mendorong benda ke atas dengan gaya yang sama besar dan berlawanan arah."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
             "question": "Benda bermassa 10 kg mengalami percepatan 3 m/s². Besar gaya yang bekerja adalah?",
-            "options": [],
+            "options": [
+              "13 N",
+              "30 N",
+              "7 N",
+              "300 N"
+            ],
             "answer": 1,
-            "explanation": "Menggunakan rumus F = m × a = 10 × 3 = 30 N. Jawaban yang benar adalah B."
+            "explanation": "Menggunakan rumus F = m × a = 10 × 3 = 30 N."
           },
           {
             "id": "q6",
             "type": "multiple_choice",
-            "question": "Sebuah mobil bergerak dengan kecepatan 60 km/jam di jalan tol yang lurus. Mobil tersebut mengalami gerak?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Mobil bergerak dengan kecepatan konstan di jalan tol lurus, sehingga mengalami Gerak Lurus Beraturan (GLB) dengan percepatan nol."
+            "question": "Sebuah mobil bergerak dengan kecepatan tetap di jalan lurus. Gaya resultan yang bekerja pada mobil adalah?",
+            "options": [
+              "Besar",
+              "Nol",
+              "Berubah-ubah",
+              "Maksimum"
+            ],
+            "answer": 1,
+            "explanation": "Jika kecepatan tetap (GLB), maka percepatan nol sehingga resultan gaya juga nol (Hukum Newton I)."
           },
           {
             "id": "q7",
             "type": "multiple_choice",
-            "question": "Mengapa truk bermuatan berat lebih sulit berhenti daripada truk kosong?",
-            "options": [],
+            "question": "Mengapa truk bermuatan berat lebih sulit dipercepat dibandingkan truk kosong?",
+            "options": [
+              "Karena massanya lebih besar",
+              "Karena gayanya lebih kecil",
+              "Karena kecepatannya tinggi",
+              "Karena tidak ada gaya"
+            ],
             "answer": 0,
-            "explanation": "Truk bermuatan memiliki massa lebih besar, sehingga inersianya lebih besar (Hukum Newton I). Menurut Hukum Newton II, untuk gaya rem yang sama, percepatan perlambatan lebih kecil, jadi butuh waktu dan jarak lebih jauh untuk berhenti."
+            "explanation": "Menurut Hukum Newton II, semakin besar massa, semakin kecil percepatan untuk gaya yang sama."
           },
           {
             "id": "q8",
             "type": "multiple_choice",
-            "question": "Saat roket meluncur ke atas, gas panas ditembakkan ke bawah. Ini merupakan contoh?",
-            "options": [],
+            "question": "Saat kita berjalan, kaki mendorong tanah ke belakang dan tubuh terdorong ke depan. Ini contoh?",
+            "options": [
+              "Hukum Newton I",
+              "Hukum Newton II",
+              "Hukum Newton III",
+              "Gaya gravitasi"
+            ],
             "answer": 2,
-            "explanation": "Roket mendorong gas ke bawah (aksi), gas mendorong roket ke atas (reaksi). Gaya aksi dan reaksi sama besar dan berlawanan arah, sesuai Hukum Newton III."
+            "explanation": "Gaya aksi (kaki mendorong tanah) dan reaksi (tanah mendorong kaki) sama besar berlawanan arah."
+          },
+          {
+            "id": "q9",
+            "type": "multiple_choice",
+            "question": "Jika gaya diperbesar 2 kali dan massa tetap, maka percepatan menjadi?",
+            "options": [
+              "Tetap",
+              "Setengah",
+              "Dua kali lipat",
+              "Nol"
+            ],
+            "answer": 2,
+            "explanation": "Dari rumus F = m × a, jika gaya bertambah, percepatan juga bertambah sebanding."
+          },
+          {
+            "id": "q10",
+            "type": "multiple_choice",
+            "question": "Saat mobil direm mendadak, penumpang terdorong ke depan. Ini menunjukkan?",
+            "options": [
+              "Hukum Newton II",
+              "Hukum Newton III",
+              "Hukum Newton I",
+              "Gaya listrik"
+            ],
+            "answer": 2,
+            "explanation": "Tubuh penumpang cenderung mempertahankan geraknya (inersia), sesuai Hukum Newton I."
           }
         ]
       }
@@ -2019,66 +2135,132 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Enzim pepsin bekerja di organ?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Pepsin bekerja di lambung pada kondisi asam (pH 1,5-2) untuk memecah protein menjadi pepton."
+            "question": "Enzim yang berfungsi memecah maltosa menjadi glukosa adalah?",
+            "options": [
+              "Amilase",
+              "Lipase",
+              "Maltase",
+              "Pepsin"
+            ],
+            "answer": 2,
+            "explanation": "Maltase bekerja di usus halus untuk mengubah maltosa menjadi glukosa yang dapat diserap tubuh."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Organ yang menyerap air dan membentuk feses adalah?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Usus besar menyerap sisa air dan mineral dari sisa makanan, mengubahnya menjadi feses padat."
+            "question": "Gerakan yang mendorong makanan sepanjang saluran pencernaan disebut?",
+            "options": [
+              "Peristaltik",
+              "Difusi",
+              "Osmosis",
+              "Respirasi"
+            ],
+            "answer": 0,
+            "explanation": "Gerak peristaltik adalah kontraksi otot dinding saluran pencernaan yang mendorong makanan ke depan."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
-            "question": "Urutan organ pencernaan yang benar adalah?",
-            "options": [],
+            "question": "Organ yang menghasilkan empedu adalah?",
+            "options": [
+              "Lambung",
+              "Hati",
+              "Pankreas",
+              "Usus halus"
+            ],
             "answer": 1,
-            "explanation": "Urutan saluran pencernaan: mulut → kerongkongan → lambung → usus halus → usus besar → anus."
+            "explanation": "Hati menghasilkan empedu yang membantu mengemulsikan lemak agar mudah dicerna."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Enzim yang dihasilkan pankreas untuk mencerna protein menjadi asam amino adalah?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Tripsin dari pankreas bekerja di usus halus untuk memecah protein dan pepton menjadi asam amino."
+            "question": "Apa fungsi utama usus halus dalam sistem pencernaan?",
+            "options": [
+              "Menghancurkan makanan secara mekanis",
+              "Menyimpan makanan sementara",
+              "Menghasilkan empedu",
+              "Menyerap nutrisi"
+            ],
+            "answer": 3,
+            "explanation": "Usus halus berfungsi sebagai tempat utama penyerapan nutrisi seperti glukosa, asam amino, dan asam lemak."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
-            "question": "Penyakit maag (gastritis) terjadi akibat?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Gastritis adalah peradangan dinding lambung yang dapat disebabkan oleh infeksi H. pylori, asam berlebih, atau stres."
+            "question": "Gangguan pencernaan yang ditandai dengan sulit buang air besar disebut?",
+            "options": [
+              "Diare",
+              "Maag",
+              "Konstipasi",
+              "Apendisitis"
+            ],
+            "answer": 2,
+            "explanation": "Konstipasi atau sembelit terjadi karena kurang serat, kurang minum, atau kurang aktivitas fisik."
           },
           {
             "id": "q6",
             "type": "multiple_choice",
-            "question": "Fungsi villi di usus halus adalah?",
-            "options": [],
+            "question": "Apa fungsi utama enzim amilase di mulut?",
+            "options": [
+              "Memecah protein menjadi asam amino",
+              "Memecah amilum menjadi maltosa",
+              "Memecah lemak menjadi asam lemak",
+              "Membunuh bakteri"
+            ],
             "answer": 1,
-            "explanation": "Villi adalah lipatan-lipatan seperti jari di dinding usus halus yang memperluas permukaan penyerapan nutrisi hingga ratusan meter persegi."
+            "explanation": "Amilase memecah amilum (karbohidrat kompleks) menjadi maltosa (gula lebih sederhana)."
           },
           {
             "id": "q7",
             "type": "multiple_choice",
-            "question": "Mengapa empedu penting dalam pencernaan lemak?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Empedu tidak menguraikan lemak secara kimiawi, melainkan mengemulsinya (memecah tetesan besar menjadi kecil) sehingga lipase dapat mencernanya."
+            "question": "Bagian usus halus yang pertama kali menerima makanan dari lambung adalah?",
+            "options": [
+              "Duodenum",
+              "Jejenum",
+              "Ileum",
+              "Kolon"
+            ],
+            "answer": 0,
+            "explanation": "Duodenum adalah bagian pertama usus halus yang menerima kima dari lambung."
           },
           {
             "id": "q8",
             "type": "multiple_choice",
-            "question": "Asam klorida (HCl) di lambung berfungsi untuk?",
-            "options": [],
+            "question": "Zat apa yang membantu mengemulsikan lemak di usus halus?",
+            "options": [
+              "Air liur",
+              "Asam lambung",
+              "Enzim pepsin",
+              "Empedu"
+            ],
+            "answer": 3,
+            "explanation": "Empedu membantu memecah lemak menjadi tetesan kecil agar mudah dicerna oleh enzim lipase."
+          },
+          {
+            "id": "q9",
+            "type": "multiple_choice",
+            "question": "Apa nama struktur di usus halus yang memperluas permukaan penyerapan?",
+            "options": [
+              "Alveolus",
+              "Neuron",
+              "Vili",
+              "Glomerulus"
+            ],
+            "answer": 2,
+            "explanation": "Vili adalah tonjolan kecil seperti jari yang memperluas area penyerapan nutrisi."
+          },
+          {
+            "id": "q10",
+            "type": "multiple_choice",
+            "question": "Penyakit yang disebabkan oleh naiknya asam lambung ke kerongkongan adalah?",
+            "options": [
+              "Diare",
+              "GERD",
+              "Apendisitis",
+              "Konstipasi"
+            ],
             "answer": 1,
-            "explanation": "HCl membunuh kuman yang masuk bersama makanan dan mengubah pepsinogen (tidak aktif) menjadi pepsin (aktif)."
+            "explanation": "GERD terjadi ketika asam lambung naik ke esofagus dan menyebabkan rasa panas di dada."
           }
         ]
       }
@@ -3346,58 +3528,67 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Proses penyaringan darah di ginjal terjadi di?",
-            "options": [],
+            "question": "Organ ekskresi yang berfungsi mengeluarkan keringat adalah?",
+            "options": [
+              "Ginjal",
+              "Kulit",
+              "Hati",
+              "Paru-paru"
+            ],
             "answer": 1,
-            "explanation": "Filtrasi atau penyaringan darah terjadi di glomerulus, yaitu gulungan kapiler darah yang dibungkus kapsula Bowman. Tekanan darah tinggi mendorong zat-zat kecil keluar dari darah."
+            "explanation": "Kulit mengeluarkan keringat yang mengandung air, garam, dan sedikit urea sebagai bagian dari proses ekskresi."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Urutan proses pembentukan urin yang benar adalah?",
-            "options": [],
+            "question": "Zat utama yang dikeluarkan oleh paru-paru adalah?",
+            "options": [
+              "Urea",
+              "Bilirubin",
+              "Karbon dioksida",
+              "Glukosa"
+            ],
             "answer": 2,
-            "explanation": "Urutan yang benar adalah Filtrasi (penyaringan di glomerulus) → Reabsorpsi (penyerapan kembali di tubulus proksimal) → Augmentasi (penambahan zat sisa di tubulus distal)."
+            "explanation": "Paru-paru mengeluarkan karbon dioksida (CO₂) dan uap air sebagai hasil sisa respirasi."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
-            "question": "Organ ekskresi yang mengeluarkan bilirubin adalah?",
-            "options": [],
-            "answer": 3,
-            "explanation": "Hati mengeluarkan bilirubin sebagai hasil pemecahan sel darah merah. Bilirubin kemudian ikut ke dalam empedu dan feses, memberikan warna kuning pada urin dan feses."
+            "question": "Saluran yang membawa urin dari ginjal ke kandung kemih adalah?",
+            "options": [
+              "Uretra",
+              "Nefron",
+              "Ureter",
+              "Glomerulus"
+            ],
+            "answer": 2,
+            "explanation": "Ureter adalah saluran yang menghubungkan ginjal dengan kandung kemih untuk mengalirkan urin."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Jika protein ditemukan dalam urin seseorang, kemungkinan terjadi kerusakan pada?",
-            "options": [],
+            "question": "Gangguan pada ginjal yang ditandai dengan adanya batu akibat endapan mineral disebut?",
+            "options": [
+              "Nefritis",
+              "Batu ginjal",
+              "Hematuria",
+              "Diabetes insipidus"
+            ],
             "answer": 1,
-            "explanation": "Glomerulus yang sehat menyaring darah dan menahan protein besar agar tidak lolos. Jika glomerulus rusak, protein (albumin) akan lolos ke urin, kondisi ini disebut albuminuria."
+            "explanation": "Batu ginjal terbentuk karena endapan mineral seperti kalsium akibat kurang minum atau sering menahan kencing."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
-            "question": "Pada tahap reabsorpsi, zat yang diserap kembali ke darah adalah?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Pada reabsorpsi, tubulus proksimal menyerap kembali zat-zat berguna seperti glukosa, air, asam amino, dan garam mineral ke dalam kapiler darah. Urea dan racun tetap berada dalam urin."
-          },
-          {
-            "id": "q6",
-            "type": "multiple_choice",
-            "question": "Mengapa kita dianjurkan minum minimal 8 gelas air putih per hari?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Minum air putih cukup membantu ginjal menyaring darah dan mencegah pengendapan mineral (kalsium) yang dapat membentuk batu ginjal. Air juga membantu melarutkan zat sisa agar mudah dikeluarkan."
-          },
-          {
-            "id": "q7",
-            "type": "multiple_choice",
-            "question": "Berapa banyak nefron yang dimiliki oleh ginjal manusia?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Setiap ginjal manusia memiliki sekitar 1 juta nefron. Nefron adalah unit fungsional terkecil ginjal yang bertugas menyaring darah dan membentuk urin."
+            "question": "Fungsi utama hati dalam sistem ekskresi adalah?",
+            "options": [
+              "Menyaring darah dan membentuk urin",
+              "Mengeluarkan keringat",
+              "Mengeluarkan CO₂",
+              "Menghasilkan empedu dan menetralkan racun"
+            ],
+            "answer": 3,
+            "explanation": "Hati berfungsi menghasilkan empedu dan menetralkan racun serta mengeluarkan bilirubin sebagai zat sisa."
           }
         ]
       }
@@ -3612,66 +3803,67 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Metode pemisahan yang digunakan untuk memurnikan air kotor adalah?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Filtrasi memisahkan zat padat dari cairan berdasarkan perbedaan ukuran partikel. Air kotor mengandung lumpur yang bisa disaring."
+            "question": "Metode pemisahan yang memanfaatkan perbedaan massa jenis dengan cara diputar cepat adalah?",
+            "options": [
+              "Filtrasi",
+              "Sentrifugasi",
+              "Sublimasi",
+              "Kromatografi"
+            ],
+            "answer": 1,
+            "explanation": "Sentrifugasi memisahkan zat berdasarkan massa jenis dengan cara diputar cepat sehingga komponen yang lebih berat mengendap."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Garam dapur (NaCl) termasuk?",
-            "options": [],
+            "question": "Campuran yang tidak dapat dibedakan dengan mata telanjang disebut?",
+            "options": [
+              "Senyawa",
+              "Unsur",
+              "Homogen",
+              "Heterogen"
+            ],
             "answer": 2,
-            "explanation": "NaCl tersusun dari dua unsur (Natrium dan Klorin) yang bergabung secara kimia dengan perbandingan tetap 1:1."
+            "explanation": "Campuran homogen memiliki komponen yang tercampur merata sehingga tampak sebagai satu fase."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
-            "question": "Pemisahan minyak bumi menjadi bensin, solar, dan avtur menggunakan metode?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Minyak bumi mengandung banyak komponen dengan titik didih berbeda. Distilasi bertingkat memisahkannya berdasarkan titik didih masing-masing."
+            "question": "Metode pemisahan tinta pada kertas biasanya menggunakan?",
+            "options": [
+              "Distilasi",
+              "Filtrasi",
+              "Kromatografi",
+              "Dekantasi"
+            ],
+            "answer": 2,
+            "explanation": "Kromatografi memisahkan zat berdasarkan perbedaan kecepatan geraknya pada medium seperti kertas."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Pembuatan garam dari air laut memanfaatkan metode?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Air laut diuapkan hingga garam membentuk kristal. Ini adalah kristalisasi berdasarkan penguapan pelarut (air)."
+            "question": "Pemisahan zat yang dapat menyublim seperti kapur barus menggunakan metode?",
+            "options": [
+              "Sublimasi",
+              "Kristalisasi",
+              "Sentrifugasi",
+              "Ekstraksi"
+            ],
+            "answer": 0,
+            "explanation": "Sublimasi digunakan untuk zat yang dapat berubah langsung dari padat ke gas tanpa melalui fase cair."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
-            "question": "Kromatografi memisahkan campuran berdasarkan?",
-            "options": [],
+            "question": "Memisahkan ampas teh dari air teh paling tepat menggunakan?",
+            "options": [
+              "Distilasi",
+              "Filtrasi",
+              "Kromatografi",
+              "Sublimasi"
+            ],
             "answer": 1,
-            "explanation": "Kromatografi memanfaatkan perbedaan kecepatan zat saat bergerak melalui medium (seperti kertas saring), sehingga pigmen terpisah."
-          },
-          {
-            "id": "q6",
-            "type": "multiple_choice",
-            "question": "Air garam termasuk jenis campuran?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Air garam tercampur merata sehingga tidak bisa dibedakan mata telanjang. Ini adalah ciri campuran homogen."
-          },
-          {
-            "id": "q7",
-            "type": "multiple_choice",
-            "question": "Kapur barus yang menyusut tanpa meninggalkan cairan merupakan contoh?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Sublimasi adalah perubahan langsung dari padat ke gas. Kapur barus (kamper) menyublim saat terkena udara."
-          },
-          {
-            "id": "q8",
-            "type": "multiple_choice",
-            "question": "Campuran pasir dan air bisa dipisahkan dengan?",
-            "options": [],
-            "answer": 0,
-            "explanation": "Pasir dan air bisa dipisahkan dengan dekantasi (dituang perlahan setelah pasir mengendap) atau filtrasi (disaring langsung)."
+            "explanation": "Filtrasi memisahkan padatan (ampas teh) dari cairan (air teh) berdasarkan ukuran partikel."
           }
         ]
       }
@@ -4121,82 +4313,67 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Bidang miring panjang 6 m dan tinggi 2 m. Keuntungan mekanisnya adalah?",
-            "options": [],
-            "answer": 0,
-            "explanation": "KM = l/h = 6/2 = 3. Semakin panjang bidang miring dengan tinggi sama, semakin besar KM-nya."
+            "question": "Pada tuas, titik tempat batang berputar disebut?",
+            "options": [
+              "Titik beban",
+              "Titik kuasa",
+              "Titik tumpu",
+              "Titik gaya"
+            ],
+            "answer": 2,
+            "explanation": "Titik tumpu adalah titik tempat tuas berputar atau bertumpu."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Tuas dengan lengan kuasa 80 cm dan lengan beban 20 cm. Jika gaya kuasa 15 N, besar beban yang dapat diangkat adalah?",
-            "options": [],
-            "answer": 0,
-            "explanation": "Fk × lk = Fb × lb → 15 × 80 = Fb × 20 → Fb = 1200/20 = 60 N"
+            "question": "Tuas golongan III memiliki ciri?",
+            "options": [
+              "Beban di tengah",
+              "Titik tumpu di tengah",
+              "Kuasa di tengah",
+              "Semua sama"
+            ],
+            "answer": 2,
+            "explanation": "Pada tuas golongan III, gaya kuasa berada di antara titik tumpu dan beban."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
-            "question": "Katrol yang hanya mengubah arah gaya tanpa mengurangi besar gaya adalah?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Katrol tetap memiliki KM = 1, artinya hanya mengubah arah gaya tanpa mengurangi besarnya."
+            "question": "Katrol bebas memiliki keuntungan mekanis sebesar?",
+            "options": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "answer": 1,
+            "explanation": "Katrol bebas memiliki KM = 2, artinya gaya yang diperlukan setengah dari beban."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Sekrup merupakan contoh penerapan prinsip?",
-            "options": [],
+            "question": "Alat berikut yang termasuk roda dan poros adalah?",
+            "options": [
+              "Gunting",
+              "Tangga",
+              "Setir mobil",
+              "Katrol"
+            ],
             "answer": 2,
-            "explanation": "Sekrup adalah bidang miring yang dibentuk melingkar pada poros."
+            "explanation": "Setir mobil adalah contoh roda dan poros, di mana roda besar memutar poros kecil."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
-            "question": "Semakin panjang bidang miring dengan tinggi yang sama, keuntungan mekanisnya?",
-            "options": [],
-            "answer": 1,
-            "explanation": "KM = l/h; jika l semakin besar dan h tetap, maka KM semakin besar. Tapi jarak yang ditempuh juga semakin jauh!"
-          },
-          {
-            "id": "q6",
-            "type": "multiple_choice",
-            "question": "Roda dan poros dengan jari-jari roda 30 cm dan poros 5 cm. Keuntungan mekanisnya adalah?",
-            "options": [],
-            "answer": 0,
-            "explanation": "KM = R/r = 30/5 = 6. Artinya gaya pada roda 6 kali lebih kecil dari gaya yang dihasilkan pada poros."
-          },
-          {
-            "id": "q7",
-            "type": "multiple_choice",
-            "question": "Tuas Golongan II selalu memiliki keuntungan mekanis?",
-            "options": [],
+            "question": "Tujuan utama penggunaan pesawat sederhana adalah?",
+            "options": [
+              "Mengurangi energi",
+              "Menambah massa benda",
+              "Mempermudah pekerjaan manusia",
+              "Menghilangkan gaya"
+            ],
             "answer": 2,
-            "explanation": "Tuas Golongan II (beban di tengah) selalu menguntungkan mekanis karena lengan kuasa selalu lebih panjang dari lengan beban."
-          },
-          {
-            "id": "q8",
-            "type": "multiple_choice",
-            "question": "Katrol majemuk dengan 4 tali menanggung beban. Keuntungan mekanisnya adalah?",
-            "options": [],
-            "answer": 2,
-            "explanation": "KM katrol majemuk = jumlah tali yang menanggung beban = 4."
-          },
-          {
-            "id": "q9",
-            "type": "multiple_choice",
-            "question": "Mengapa pesawat sederhana tidak mengurangi usaha total?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Pesawat sederhana mengubah arah/besar gaya tapi usaha (W = F × s) tetap sama. Gaya kecil = jarak jauh, gaya besar = jarak dekat."
-          },
-          {
-            "id": "q10",
-            "type": "multiple_choice",
-            "question": "Contoh penerapan roda dan poros dalam kehidupan sehari-hari adalah?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Setir mobil adalah contoh roda dan poros, di mana putaran setir (roda besar) mengendalikan roda depan (poros) dengan gaya yang lebih kecil."
+            "explanation": "Pesawat sederhana digunakan untuk mempermudah pekerjaan dengan mengubah arah atau besar gaya."
           }
         ]
       }
@@ -4388,58 +4565,67 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Gelombang dengan frekuensi 400 Hz dan panjang gelombang 0,5 m. Cepat rambatnya?",
-            "options": [],
+            "question": "Frekuensi suatu getaran adalah 10 Hz. Berapakah periodenya?",
+            "options": [
+              "0,1 s",
+              "1 s",
+              "10 s",
+              "0,01 s"
+            ],
             "answer": 0,
-            "explanation": "v = λ × f = 0,5 × 400 = 200 m/s"
+            "explanation": "T = 1/f = 1/10 = 0,1 sekon."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Gelombang bunyi termasuk gelombang?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Bunyi adalah gelombang longitudinal karena partikel udara bergetar searah dengan arah rambat bunyi."
+            "question": "Gelombang yang arah getarnya sejajar dengan arah rambat disebut?",
+            "options": [
+              "Gelombang transversal",
+              "Gelombang longitudinal",
+              "Gelombang elektromagnetik",
+              "Gelombang stasioner"
+            ],
+            "answer": 1,
+            "explanation": "Gelombang longitudinal memiliki arah getar sejajar dengan arah rambat, contohnya gelombang bunyi."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
-            "question": "Jika periode suatu getaran 0,02 s, maka frekuensinya adalah?",
-            "options": [],
-            "answer": 0,
-            "explanation": "f = 1/T = 1/0,02 = 50 Hz"
+            "question": "Berikut ini yang merupakan contoh gelombang transversal adalah?",
+            "options": [
+              "Gelombang bunyi",
+              "Gelombang slinky",
+              "Gelombang cahaya",
+              "Gelombang gempa P"
+            ],
+            "answer": 2,
+            "explanation": "Gelombang cahaya adalah gelombang transversal karena arah getarnya tegak lurus arah rambat."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Gelombang cahaya termasuk jenis gelombang?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Cahaya adalah gelombang transversal dan elektromagnetik."
+            "question": "Sebuah gelombang memiliki panjang gelombang 4 m dan frekuensi 5 Hz. Cepat rambatnya adalah?",
+            "options": [
+              "9 m/s",
+              "20 m/s",
+              "1,25 m/s",
+              "25 m/s"
+            ],
+            "answer": 1,
+            "explanation": "v = λ × f = 4 × 5 = 20 m/s."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
-            "question": "Cepat rambat gelombang 340 m/s dengan frekuensi 170 Hz. Panjang gelombangnya?",
-            "options": [],
-            "answer": 0,
-            "explanation": "λ = v/f = 340/170 = 2 m"
-          },
-          {
-            "id": "q6",
-            "type": "multiple_choice",
-            "question": "Sebuah gelombang memiliki periode 0,25 s dan panjang gelombang 5 m. Berapa cepat rambat gelombang tersebut?",
-            "options": [],
-            "answer": 1,
-            "explanation": "v = λ/T = 5/0,25 = 20 m/s"
-          },
-          {
-            "id": "q7",
-            "type": "multiple_choice",
-            "question": "Gelombang air permukaan termasuk gelombang?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Gelombang air permukaan termasuk gelombang transversal karena partikel air bergerak naik-turun (tegak lurus) sedangkan gelombang merambat ke samping."
+            "question": "Pernyataan yang benar tentang gelombang adalah?",
+            "options": [
+              "Gelombang memindahkan materi",
+              "Gelombang tidak membawa energi",
+              "Gelombang membawa energi tanpa memindahkan materi",
+              "Gelombang hanya terjadi di air"
+            ],
+            "answer": 2,
+            "explanation": "Gelombang membawa energi dari satu tempat ke tempat lain tanpa memindahkan materi secara keseluruhan."
           }
         ]
       }
@@ -4720,66 +4906,67 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Tempat terjadinya pembuahan (fertilisasi) pada sistem reproduksi perempuan adalah?",
-            "options": [],
+            "question": "Organ yang menjadi tempat berkembangnya janin selama kehamilan adalah?",
+            "options": [
+              "Ovarium",
+              "Tuba fallopi",
+              "Uterus",
+              "Serviks"
+            ],
             "answer": 2,
-            "explanation": "Fertilisasi terjadi di tuba fallopi ketika sperma bertemu sel telur. Setelah itu, zigot bergerak ke uterus untuk menempel pada dinding rahim."
+            "explanation": "Uterus (rahim) adalah tempat zigot menempel (nidasi) dan berkembang menjadi janin."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Organ reproduksi yang menghasilkan sperma adalah?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Testis adalah organ utama yang menghasilkan sperma dan hormon testosteron. Epididimis hanya mematangkan dan menyimpan sperma."
+            "question": "Fungsi tuba fallopi adalah?",
+            "options": [
+              "Menghasilkan hormon",
+              "Tempat perkembangan janin",
+              "Saluran keluarnya menstruasi",
+              "Tempat terjadinya fertilisasi"
+            ],
+            "answer": 3,
+            "explanation": "Tuba fallopi berfungsi sebagai tempat pertemuan sperma dan sel telur (fertilisasi)."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
-            "question": "Penyakit kanker serviks disebabkan oleh?",
-            "options": [],
+            "question": "Penyakit HIV/AIDS menyerang sistem?",
+            "options": [
+              "Pernapasan",
+              "Pencernaan",
+              "Imun (kekebalan tubuh)",
+              "Peredaran darah"
+            ],
             "answer": 2,
-            "explanation": "Kanker serviks disebabkan oleh infeksi virus HPV (Human Papillomavirus). Pencegahannya dengan vaksinasi HPV dan Pap smear rutin."
+            "explanation": "HIV menyerang sistem imun sehingga tubuh menjadi rentan terhadap berbagai infeksi."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Hormon yang dihasilkan oleh testis adalah?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Testis menghasilkan hormon testosteron yang berperan dalam perkembangan karakteristik seksual sekunder laki-laki."
+            "question": "Fase dalam siklus menstruasi saat dinding rahim luruh disebut?",
+            "options": [
+              "Fase ovulasi",
+              "Fase luteal",
+              "Fase folikuler",
+              "Fase menstruasi"
+            ],
+            "answer": 3,
+            "explanation": "Fase menstruasi adalah saat lapisan endometrium luruh dan keluar sebagai darah menstruasi."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
-            "question": "Jika sel telur tidak dibuahi, yang terjadi adalah?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Jika sel telur tidak dibuahi, kadar hormon estrogen dan progesteron menurun, menyebabkan lapisan endometrium luruh dan keluar sebagai menstruasi."
-          },
-          {
-            "id": "q6",
-            "type": "multiple_choice",
-            "question": "Fungsi kelenjar prostat adalah?",
-            "options": [],
+            "question": "Organ yang berfungsi sebagai saluran keluarnya bayi saat lahir adalah?",
+            "options": [
+              "Serviks",
+              "Vagina",
+              "Uterus",
+              "Ovarium"
+            ],
             "answer": 1,
-            "explanation": "Kelenjar prostat menghasilkan cairan basa yang melindungi sperma dari lingkungan asam vagina, meningkatkan peluang sperma bertahan hidup."
-          },
-          {
-            "id": "q7",
-            "type": "multiple_choice",
-            "question": "Pada fase manakah sel telur matang dilepaskan dari ovarium?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Fase ovulasi terjadi sekitar hari ke-14 siklus, ketika folikel pecah dan sel telur matang dilepaskan menuju tuba fallopi."
-          },
-          {
-            "id": "q8",
-            "type": "multiple_choice",
-            "question": "Apa yang terbentuk setelah sperma berhasil membuahi sel telur?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Hasil pembuahan sperma dan sel telur disebut zigot. Zigot kemudian membelah diri dan berkembang menjadi embrio, lalu janin."
+            "explanation": "Vagina berfungsi sebagai jalan lahir bayi serta saluran keluarnya darah menstruasi."
           }
         ]
       }
@@ -5023,66 +5210,67 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Bagian otak yang mengatur keseimbangan dan koordinasi gerak adalah?",
-            "options": [],
+            "question": "Bagian neuron yang berfungsi menerima impuls dari neuron lain adalah?",
+            "options": [
+              "Akson",
+              "Dendrit",
+              "Badan sel",
+              "Terminal akson"
+            ],
             "answer": 1,
-            "explanation": "Otak kecil (cerebellum) berfungsi mengatur keseimbangan, koordinasi gerak, dan tonus otot. Jika rusak, seseorang akan kesulitan berjalan tegak."
+            "explanation": "Dendrit berfungsi menerima impuls dari neuron lain atau reseptor."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Gerak refleks berbeda dari gerak biasa karena?",
-            "options": [],
+            "question": "Gerak refleks diproses di bagian mana?",
+            "options": [
+              "Otak besar",
+              "Otak kecil",
+              "Sumsum tulang belakang",
+              "Batang otak"
+            ],
             "answer": 2,
-            "explanation": "Gerak refleks diproses langsung di sumsum tulang belakang tanpa melalui otak besar, sehingga responsnya sangat cepat untuk melindungi tubuh dari bahaya."
+            "explanation": "Gerak refleks diproses langsung di sumsum tulang belakang tanpa melalui otak besar."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
-            "question": "Neuron yang membawa impuls dari reseptor ke otak disebut?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Neuron sensorik (afferent) membawa impuls dari reseptor (kulit, mata, telinga) menuju sistem saraf pusat (otak atau sumsum tulang belakang)."
+            "question": "Neuron yang membawa impuls dari otak ke otot disebut?",
+            "options": [
+              "Neuron sensorik",
+              "Neuron konektor",
+              "Neuron pusat",
+              "Neuron motorik"
+            ],
+            "answer": 3,
+            "explanation": "Neuron motorik membawa impuls dari sistem saraf pusat ke efektor seperti otot."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Fungsi akson pada neuron adalah?",
-            "options": [],
+            "question": "Fungsi selubung mielin adalah?",
+            "options": [
+              "Menghasilkan energi",
+              "Mempercepat penghantaran impuls",
+              "Menghasilkan neurotransmitter",
+              "Menghubungkan neuron"
+            ],
             "answer": 1,
-            "explanation": "Akson adalah serat panjang yang menghantarkan impuls listrik dari badan sel ke neuron lain, otot, atau kelenjar. Selubung mielin dihasilkan oleh sel Schwann, bukan akson."
+            "explanation": "Selubung mielin melindungi akson dan mempercepat hantaran impuls saraf."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
-            "question": "Otak besar (cerebrum) berfungsi untuk?",
-            "options": [],
+            "question": "Contoh gerak sadar adalah?",
+            "options": [
+              "Menarik tangan dari api",
+              "Berkedip",
+              "Menulis di buku",
+              "Refleks lutut"
+            ],
             "answer": 2,
-            "explanation": "Otak besar (cerebrum) adalah pusat aktivitas sadar seperti berpikir, berbicara, mengingat, dan menggerakkan otot secara sadar."
-          },
-          {
-            "id": "q6",
-            "type": "multiple_choice",
-            "question": "Apa yang terjadi di sinaps?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Di sinaps, impuls listrik diubah menjadi sinyal kimia berupa neurotransmitter yang melewati celah sinaptik, lalu diubah kembali menjadi impuls listrik di neuron penerima."
-          },
-          {
-            "id": "q7",
-            "type": "multiple_choice",
-            "question": "Saraf otonom terdiri dari?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Saraf otonom dibagi menjadi sistem simpatik (respons \"lawan atau lari\") dan parasimpatik (respons \"istirahat dan pencernaan\") yang mengatur organ dalam secara otomatis."
-          },
-          {
-            "id": "q8",
-            "type": "multiple_choice",
-            "question": "Contoh gerak refleks yang benar adalah?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Menarik tangan dari api adalah gerak refleks otomatis yang melindungi tubuh dari luka bakar tanpa perlu dipikirkan terlebih dahulu."
+            "explanation": "Menulis adalah gerak sadar karena melibatkan otak besar dan dilakukan dengan kesadaran."
           }
         ]
       }
@@ -5277,66 +5465,67 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Sebuah balok bermassa 24 kg diletakkan di atas lantai dengan sisi alas 0,5 m × 1 m. Jika g = 10 m/s², berapa tekanan balok terhadap lantai?",
-            "options": [],
+            "question": "Sebuah benda diberi gaya 100 N pada luas 2 m². Berapakah tekanannya?",
+            "options": [
+              "20 Pa",
+              "50 Pa",
+              "100 Pa",
+              "200 Pa"
+            ],
             "answer": 1,
-            "explanation": "F = m × g = 24 × 10 = 240 N. A = 0,5 × 1 = 0,5 m². P = F/A = 240/0,5 = 480 Pa."
+            "explanation": "P = F/A = 100 / 2 = 50 Pa."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Tekanan hidrostatis pada kedalaman 5 m di dalam air (ρ = 1000 kg/m³, g = 10 m/s²) adalah?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Ph = ρ × g × h = 1000 × 10 × 5 = 50.000 Pa"
+            "question": "Tekanan hidrostatis dipengaruhi oleh faktor berikut, kecuali?",
+            "options": [
+              "Massa jenis zat cair",
+              "Kedalaman",
+              "Percepatan gravitasi",
+              "Luas permukaan cairan"
+            ],
+            "answer": 3,
+            "explanation": "Tekanan hidrostatis hanya dipengaruhi oleh ρ, g, dan h. Luas permukaan tidak berpengaruh."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
-            "question": "Dongkrak hidrolik bekerja berdasarkan?",
-            "options": [],
+            "question": "Jika sebuah benda melayang di dalam air, maka hubungan massa jenisnya adalah?",
+            "options": [
+              "ρ benda > ρ air",
+              "ρ benda < ρ air",
+              "ρ benda = ρ air",
+              "ρ benda = 0"
+            ],
             "answer": 2,
-            "explanation": "Dongkrak hidrolik memanfaatkan Hukum Pascal: tekanan diteruskan sama besar ke segala arah dalam zat cair tertutup."
+            "explanation": "Benda melayang jika massa jenisnya sama dengan zat cair (ρb = ρf)."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Benda terapung jika?",
-            "options": [],
+            "question": "Pada Hukum Pascal, jika luas penampang diperbesar, maka gaya yang dihasilkan akan?",
+            "options": [
+              "Tetap",
+              "Berkurang",
+              "Bertambah",
+              "Nol"
+            ],
             "answer": 2,
-            "explanation": "Benda terapung ketika massa jenis benda < massa jenis zat cair, sehingga gaya apung lebih besar dari berat benda."
+            "explanation": "F2 = F1 × (A2/A1). Jika A2 lebih besar, maka gaya output akan lebih besar."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
-            "question": "Pada dongkrak hidrolik, luas penampang kecil 10 cm² dan besar 100 cm². Jika gaya input 50 N, gaya output adalah?",
-            "options": [],
-            "answer": 2,
-            "explanation": "F2 = F1 × (A2/A1) = 50 × (100/10) = 500 N"
-          },
-          {
-            "id": "q6",
-            "type": "multiple_choice",
-            "question": "Semakin dalam suatu titik dalam zat cair, tekanan hidrostatis yang dialami?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Sesuai rumus Ph = ρgh, tekanan hidrostatis berbanding lurus dengan kedalaman (h)."
-          },
-          {
-            "id": "q7",
-            "type": "multiple_choice",
-            "question": "Mengapa ujung paku dibuat runcing?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Ujung runcing memperkecil luas bidang tekan (A), sehingga tekanan (P = F/A) menjadi lebih besar dan paku mudah menancap."
-          },
-          {
-            "id": "q8",
-            "type": "multiple_choice",
-            "question": "Kapal laut terbuat dari baja yang massa jenisnya lebih besar dari air, tetapi bisa terapung karena?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Lambung kapal berongga memperbesar volume air yang dipindahkan, sehingga gaya apung besar enough untuk menahan berat kapal (Hukum Archimedes)."
+            "question": "Sebuah benda dicelupkan ke dalam zat cair dan tenggelam. Hal ini terjadi karena?",
+            "options": [
+              "Gaya apung lebih besar dari berat benda",
+              "Gaya apung sama dengan berat benda",
+              "Massa jenis zat cair lebih besar",
+              "Gaya apung lebih kecil dari berat benda"
+            ],
+            "answer": 3,
+            "explanation": "Benda tenggelam jika gaya apung < berat benda (ρ benda > ρ cair)."
           }
         ]
       }
@@ -5698,82 +5887,67 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Tegangan 12V, arus 2A. Berapakah hambatannya?",
-            "options": [],
-            "answer": 0,
-            "explanation": "Menggunakan Hukum Ohm: R = V/I = 12/2 = 6 Ω"
+            "question": "Dua muatan masing-masing 2 C dan 3 C berjarak 1 m. Jika jarak diperbesar menjadi 2 m, gaya Coulomb menjadi?",
+            "options": [
+              "Tetap",
+              "Menjadi 2 kali lipat",
+              "Menjadi 1/2 kali",
+              "Menjadi 1/4 kali"
+            ],
+            "answer": 3,
+            "explanation": "Gaya Coulomb berbanding terbalik dengan kuadrat jarak (1/r²). Jika jarak menjadi 2 kali, gaya menjadi 1/4 kali."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Muatan sejenis akan?",
-            "options": [],
+            "question": "Arus listrik sebesar 3 A mengalir selama 10 detik. Berapa muatan listrik yang mengalir?",
+            "options": [
+              "0,3 C",
+              "30 C",
+              "13 C",
+              "300 C"
+            ],
             "answer": 1,
-            "explanation": "Muatan sejenis (+ dengan + atau − dengan −) akan saling tolak-menolak."
+            "explanation": "Q = I × t = 3 × 10 = 30 Coulomb."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
-            "question": "Lampu 100 W dinyalakan selama 5 jam. Energi listrik yang terpakai adalah?",
-            "options": [],
-            "answer": 3,
-            "explanation": "W = P × t = 100 W × 5 h = 500 Wh = 0,5 kWh. Jadi jawaban B dan C keduanya benar."
+            "question": "Sebuah lampu memiliki hambatan 12 Ω dan dialiri arus 2 A. Berapa tegangannya?",
+            "options": [
+              "6 V",
+              "12 V",
+              "24 V",
+              "14 V"
+            ],
+            "answer": 2,
+            "explanation": "V = I × R = 2 × 12 = 24 Volt."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Dua resistor 6 Ω dan 3 Ω dirangkai paralel. Hambatan totalnya?",
-            "options": [],
-            "answer": 1,
-            "explanation": "1/R_total = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 → R_total = 6/3 = 2 Ω"
+            "question": "Manakah yang termasuk isolator?",
+            "options": [
+              "Tembaga",
+              "Aluminium",
+              "Karet",
+              "Perak"
+            ],
+            "answer": 2,
+            "explanation": "Karet adalah isolator karena memiliki hambatan jenis besar sehingga sulit menghantarkan listrik."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
-            "question": "Petir merupakan contoh gejala?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Petir terjadi karena pelepasan muatan listrik statis yang terkumpul di awan ke bumi atau awan lain."
-          },
-          {
-            "id": "q6",
-            "type": "multiple_choice",
-            "question": "Tiga resistor 2 Ω, 3 Ω, dan 6 Ω dirangkai seri. Hambatan totalnya?",
-            "options": [],
-            "answer": 0,
-            "explanation": "Rangkaian seri: R_total = R₁ + R₂ + R₃ = 2 + 3 + 6 = 11 Ω"
-          },
-          {
-            "id": "q7",
-            "type": "multiple_choice",
-            "question": "Sebuah setrika 400 W digunakan selama 30 menit. Energi dalam kWh adalah?",
-            "options": [],
-            "answer": 1,
-            "explanation": "W = P × t = 400 W × 0,5 jam = 200 Wh = 0,2 kWh. Perhatikan satuan waktu harus dalam jam untuk kWh."
-          },
-          {
-            "id": "q8",
-            "type": "multiple_choice",
-            "question": "Dalam rangkaian paralel, jika satu lampu putus, maka?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Keunggulan rangkaian paralel adalah setiap cabang bekerja mandiri. Jika satu cabang putus, cabang lain tetap berfungsi."
-          },
-          {
-            "id": "q9",
-            "type": "multiple_choice",
-            "question": "Balon digosokkan ke rambut kering lalu didekatkan pada dinding. Balon menempel. Fenomena ini disebut?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Balon bermuatan akibat gesekan dengan rambut, lalu menarik dinding yang netral melalui induksi. Proses awalnya adalah pengisian muatan oleh gesekan."
-          },
-          {
-            "id": "q10",
-            "type": "multiple_choice",
-            "question": "Sebuah penghantar panjangnya 2 m, luas penampang 0,5 mm², dengan hambatan jenis 1,7 × 10⁻⁸ Ω·m. Hambatannya adalah?",
-            "options": [],
-            "answer": 2,
-            "explanation": "R = ρL/A = (1,7 × 10⁻⁸ × 2) / (0,5 × 10⁻⁶) = 3,4 × 10⁻⁸ / 0,5 × 10⁻⁶ = 6,8 × 10⁻² Ω = 0,068 Ω. Perhatikan konversi luas dari mm² ke m² (×10⁻⁶)."
+            "question": "Pada rangkaian seri, jika salah satu komponen dilepas maka yang terjadi adalah?",
+            "options": [
+              "Arus bertambah",
+              "Semua komponen tetap menyala",
+              "Tegangan meningkat",
+              "Rangkaian terputus dan semua mati"
+            ],
+            "answer": 3,
+            "explanation": "Dalam rangkaian seri, jika satu komponen terputus maka seluruh rangkaian tidak dapat dialiri arus."
           }
         ]
       }
@@ -5994,82 +6168,67 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Benda manakah yang termasuk benda magnetik?",
-            "options": [],
+            "question": "Teknologi kereta maglev (magnetic levitation) mengapung di atas rel tanpa roda. Prinsip fisika yang dimanfaatkan adalah?",
+            "options": [
+              "Kutub tidak senama saling tolak-menolak",
+              "Kutub senama saling tolak-menolak",
+              "Medan magnet tidak dapat menembus udara",
+              "Semua benda dapat ditarik oleh magnet kuat"
+            ],
             "answer": 1,
-            "explanation": "Benda magnetik (ferromagnetik) adalah benda yang dapat ditarik magnet, yaitu besi, baja, nikel, dan kobalt. Tembaga dan aluminium termasuk benda non-magnetik."
+            "explanation": "Kereta maglev memanfaatkan gaya tolak antara kutub senama magnet pada kereta dan rel, sehingga kereta dapat mengapung dan bergerak dengan gesekan minimal."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Cara membuat magnet yang sifatnya hanya sementara adalah?",
-            "options": [],
+            "question": "Besi yang dipanaskan hingga suhu 800°C akan kehilangan sifat kemagnetannya. Fenomena ini disebut?",
+            "options": [
+              "Induksi magnetik",
+              "Titik Curie",
+              "Domain magnet",
+              "Elektromagnetik"
+            ],
             "answer": 1,
-            "explanation": "Induksi dengan magnet permanen menghasilkan magnet sementara. Benda ferromagnetik yang didekatkan dengan magnet permanen akan bersifat magnet, tetapi sifatnya hilang jika dijauhkan."
+            "explanation": "Titik Curie besi adalah sekitar 770°C. Di atas suhu ini, susunan domain magnet menjadi acak sehingga besi kehilangan sifat kemagnetannya."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
-            "question": "Sifat magnet dapat hilang jika?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Pemanasan di atas titik Curie membuat susunan domain magnet menjadi acak, sehingga sifat magnet hilang. Penyimpanan kering, menjauhkan dari logam, atau mendekatkan magnet lain tidak menghilangkan sifat magnet."
+            "question": "Speaker dan earphone dapat mengubah sinyal listrik menjadi getaran suara karena memanfaatkan?",
+            "options": [
+              "Gaya tarik antara kutub tidak senama",
+              "Sifat magnet yang menembus plastik",
+              "Interaksi medan magnet dengan kumparan berarus listrik",
+              "Perubahan medan magnet menjadi energi panas"
+            ],
+            "answer": 2,
+            "explanation": "Speaker dan earphone memiliki kumparan yang berinteraksi dengan medan magnet. Arus listrik yang mengalir menyebabkan kumparan bergetar dan menghasilkan suara."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Dua magnet dengan kutub U dan S didekatkan, maka?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Kutub tidak senama (U-S) saling tarik-menarik. Hanya kutub senama (U-U atau S-S) yang saling tolak-menolak."
+            "question": "Perbedaan utama antara magnet permanen dan elektromagnet adalah?",
+            "options": [
+              "Magnet permanen lebih kuat dari elektromagnet",
+              "Elektromagnet hanya bersifat magnet saat dialiri arus listrik",
+              "Elektromagnet tidak memiliki kutub utara dan selatan",
+              "Magnet permanen hanya dapat menarik besi, sedangkan elektromagnet dapat menarik semua logam"
+            ],
+            "answer": 1,
+            "explanation": "Magnet permanen selalu bersifat magnet, sedangkan elektromagnet hanya bersifat magnet selama dialiri arus listrik. Kekuatan keduanya tergantung pada bahan dan kondisi."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
-            "question": "Elektromagnet bersifat magnet hanya ketika?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Elektromagnet hanya bersifat magnet selama dialiri arus listrik (DC). Jika arus listrik dimatikan, sifat magnetnya langsung hilang."
-          },
-          {
-            "id": "q6",
-            "type": "multiple_choice",
-            "question": "Ujung paku yang digosok magnet ke arah tertentu akan menjadi kutub?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Ujung terakhir yang bersentuhan dengan magnet akan memiliki kutub berlawanan dengan kutub magnet yang menggosok. Jika kutub utara magnet menggosok paku, ujung terakhir paku menjadi kutub selatan."
-          },
-          {
-            "id": "q7",
-            "type": "multiple_choice",
-            "question": "Mengapa garis medan magnet tidak pernah saling memotong?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Garis medan magnet tidak saling memotong karena pada setiap titik medan magnet hanya memiliki satu arah. Jika garis memotong, akan ada dua arah medan pada titik yang sama, yang mustahil secara fisika."
-          },
-          {
-            "id": "q8",
-            "type": "multiple_choice",
-            "question": "Benda non-magnetik yang dapat ditembus medan magnet adalah?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Medan magnet dapat menembus benda non-magnetik seperti kertas, kayu, dan plastik. Besi, baja, nikel, dan kobalt adalah benda magnetik yang akan ditarik oleh medan magnet, bukan ditembus."
-          },
-          {
-            "id": "q9",
-            "type": "multiple_choice",
-            "question": "Prinsip kerja kompas berdasarkan?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Kompas bekerja berdasarkan interaksi medan magnet bumi dengan jarum magnet. Jarum magnet yang bebas berputar akan sejajar dengan garis medan magnet bumi, menunjuk arah utara-selatan."
-          },
-          {
-            "id": "q10",
-            "type": "multiple_choice",
-            "question": "Pada kaidah tangan kanan untuk elektromagnet, ibu jari menunjuk?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Pada kaidah tangan kanan: empat jari menunjuk arah arus listrik, sedangkan ibu jari menunjuk arah kutub utara (U/N) elektromagnet."
+            "question": "Ujung jarum kompas yang menunjuk arah Utara geografis sebenarnya adalah kutub selatan magnet jarum kompas. Mengapa demikian?",
+            "options": [
+              "Karena kutub utara magnet bumi berada di dekat Kutub Selatan geografis",
+              "Karena kutub selatan magnet bumi berada di dekat Kutub Selatan geografis",
+              "Karena jarum kompas tidak memiliki kutub magnet",
+              "Karena medan magnet bumi tidak mempengaruhi jarum kompas"
+            ],
+            "answer": 0,
+            "explanation": "Kutub utara magnet bumi sebenarnya berada di dekat Kutub Selatan geografis Bumi. Oleh karena itu, kutub selatan jarum kompas ditarik ke arah utara geografis."
           }
         ]
       }
@@ -6493,82 +6652,62 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Siapa ilmuwan yang pertama kali mempelajari pewarisan sifat secara sistematis melalui percobaan kacang polong?",
-            "options": [],
+            "question": "Individu dengan genotipe Aa pada suatu sifat akan menunjukkan fenotipe...?",
+            "options": [
+              "Sifat resesif karena alel a lebih lemah",
+              "Sifat dominan karena alel A menutupi alel a",
+              "Campuran antara sifat dominan dan resesif",
+              "Tidak menunjukkan sifat apapun"
+            ],
             "answer": 1,
-            "explanation": "Gregor Johann Mendel adalah biarawan Austria yang dikenal sebagai Bapak Genetika karena penelitiannya pada tanaman kacang polong pada abad ke-19."
+            "explanation": "Pada genotipe heterozigot (Aa), alel dominan (A) menutupi alel resesif (a), sehingga individu menunjukkan fenotipe sifat dominan."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Persilangan Aa × Aa menghasilkan rasio genotipe?",
+            "question": "Persilangan antara dua tanaman tinggi heterozigot (Aa × Aa) menghasilkan rasio fenotipe...?",
             "options": [],
             "answer": 1,
-            "explanation": "Persilangan monohibrid Aa × Aa menghasilkan genotipe 1 AA : 2 Aa : 1 aa. Rasio 3:1 adalah rasio fenotipe, bukan genotipe."
+            "explanation": "Persilangan Aa × Aa menghasilkan genotipe 1 AA : 2 Aa : 1 aa. Karena AA dan Aa sama-sama menunjukkan fenotipe dominan (tinggi), rasio fenotipe yang dihasilkan adalah 3 tinggi : 1 pendek atau 3:1."
           },
           {
             "id": "q3",
             "type": "multiple_choice",
-            "question": "Golongan darah O memiliki genotipe?",
-            "options": [],
-            "answer": 3,
-            "explanation": "Golongan darah O adalah homozigot resesif dengan genotipe ii. Alel i bersifat resesif terhadap I^A dan I^B."
+            "question": "Dua orang tua bergolongan darah A (I^A i) dan golongan darah B (I^B i) memiliki anak bergolongan darah O. Hal ini membuktikan bahwa...?",
+            "options": [
+              "Alel i bersifat dominan terhadap I^A dan I^B",
+              "Kedua orang tua adalah carrier (pembawa) alel resesif i",
+              "Terjadi mutasi genetik pada alel golongan darah",
+              "Golongan darah O bersifat dominan"
+            ],
+            "answer": 1,
+            "explanation": "Anak bergolongan darah O memiliki genotipe ii, yang berarti mewarisi satu alel i dari ayah dan satu alel i dari ibu. Meskipun fenotipe orang tuanya A dan B, keduanya membawa alel resesif i (carrier)."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Ayah bergolongan darah A (I^A i) dan ibu bergolongan darah B (I^B i). Kemungkinan golongan darah anak adalah?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Persilangan I^A i × I^B i menghasilkan empat kemungkinan: I^A I^B (AB), I^A i (A), I^B i (B), dan ii (O). Masing-masing dengan peluang 25%."
+            "question": "Persilangan antara individu bergolongan darah AB (I^A I^B) dan golongan darah O (ii) akan menghasilkan anak-anak dengan golongan darah...?",
+            "options": [
+              "A dan B saja",
+              "A, B, AB, dan O",
+              "AB dan O saja",
+              "A dan O saja"
+            ],
+            "answer": 0,
+            "explanation": "Persilangan I^A I^B × ii menghasilkan 50% I^A i (golongan darah A) dan 50% I^B i (golongan darah B). Orang tua AB hanya dapat memberikan alel I^A atau I^B, sedangkan orang tua O hanya dapat memberikan alel i."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
-            "question": "Individu dengan genotipe AA disebut?",
-            "options": [],
-            "answer": 2,
-            "explanation": "AA memiliki dua alel dominan yang identik, sehingga disebut homozigot dominan. Heterozigot memiliki alel berbeda (Aa)."
-          },
-          {
-            "id": "q6",
-            "type": "multiple_choice",
-            "question": "Golongan darah yang dapat menerima transfusi dari semua golongan darah lain adalah?",
-            "options": [],
-            "answer": 3,
-            "explanation": "Golongan darah AB adalah resipien universal karena tidak memiliki antibodi anti-A maupun anti-B dalam plasmanya, sehingga tidak menolak sel darah donor dari golongan mana pun."
-          },
-          {
-            "id": "q7",
-            "type": "multiple_choice",
-            "question": "Hukum Mendel II dikenal juga sebagai Hukum...?",
-            "options": [],
+            "question": "Seorang siswa bergolongan darah A (I^A i) menikah dengan pasangan yang juga bergolongan darah A (I^A i). Peluang anak mereka bergolongan darah O adalah...?",
+            "options": [
+              "0%",
+              "25%",
+              "50%",
+              "75%"
+            ],
             "answer": 1,
-            "explanation": "Hukum Mendel II disebut Hukum Pemasukan Bebas (Independent Assortment), yang menyatakan alel dari gen berbeda dipasangkan secara bebas saat pembentukan gamet."
-          },
-          {
-            "id": "q8",
-            "type": "multiple_choice",
-            "question": "Pada persilangan dihibrid (AaBb × AaBb), berapa jumlah fenotipe berbeda yang dihasilkan?",
-            "options": [],
-            "answer": 2,
-            "explanation": "Persilangan dihibrid menghasilkan 4 fenotipe berbeda dengan rasio 9:3:3:1, yaitu dominan-dominan, dominan-resesif, resesif-dominan, dan resesif-resesif."
-          },
-          {
-            "id": "q9",
-            "type": "multiple_choice",
-            "question": "Mengapa golongan darah O bisa mendonorkan darah ke semua golongan?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Golongan darah O tidak memiliki antigen A atau B pada permukaan sel darah merahnya, sehingga tidak akan dikenali sebagai asing dan diserang oleh sistem kekebalan penerima."
-          },
-          {
-            "id": "q10",
-            "type": "multiple_choice",
-            "question": "Jika orang tua berambut lurus (aa) dan berambut keriting (AA), maka semua anak mereka akan...?",
-            "options": [],
-            "answer": 1,
-            "explanation": "Persilangan aa × AA menghasilkan 100% Aa. Karena alel A (keriting) dominan terhadap a (lurus), semua anak akan berambut keriting."
+            "explanation": "Persilangan I^A i × I^A i menghasilkan genotipe 1 I^A I^A : 2 I^A i : 1 ii. Genotipe ii merupakan golongan darah O dengan peluang 1 dari 4 atau 25%."
           }
         ]
       }
@@ -6912,7 +7051,12 @@
             "id": "q1",
             "type": "multiple_choice",
             "question": "Proses fermentasi dalam pembuatan tempe dilakukan oleh mikroorganisme...",
-            "options": [],
+            "options": [
+              "Saccharomyces cerevisiae",
+              "Rhizopus oligosporus",
+              "Lactobacillus bulgaricus",
+              "Acetobacter aceti"
+            ],
             "answer": 1,
             "explanation": "Rhizopus oligosporus adalah kapang yang digunakan dalam fermentasi kedelai untuk membuat tempe."
           },
@@ -6920,7 +7064,12 @@
             "id": "q2",
             "type": "multiple_choice",
             "question": "Berikut yang termasuk bioteknologi konvensional adalah...",
-            "options": [],
+            "options": [
+              "Tanaman transgenik",
+              "Vaksin rekombinan",
+              "Pembuatan yoghurt",
+              "Teknik CRISPR-Cas9"
+            ],
             "answer": 2,
             "explanation": "Pembuatan yoghurt melalui fermentasi termasuk bioteknologi konvensional yang sudah dikenal sejak lama."
           },
@@ -6928,7 +7077,12 @@
             "id": "q3",
             "type": "multiple_choice",
             "question": "Tanaman transgenik yang dikembangkan untuk mengatasi kekurangan vitamin A adalah...",
-            "options": [],
+            "options": [
+              "Padi emas (Golden Rice)",
+              "Jagung manis",
+              "Kedelai hitam",
+              "Gandum utuh"
+            ],
             "answer": 0,
             "explanation": "Padi emas (Golden Rice) merupakan tanaman transgenik yang dihasilkan dengan menyisipkan gen vitamin A ke dalam padi."
           },
@@ -6936,7 +7090,12 @@
             "id": "q4",
             "type": "multiple_choice",
             "question": "Mikroorganisme yang digunakan dalam pembuatan cuka adalah...",
-            "options": [],
+            "options": [
+              "Saccharomyces cerevisiae",
+              "Lactobacillus bulgaricus",
+              "Acetobacter aceti",
+              "Rhizopus oligosporus"
+            ],
             "answer": 2,
             "explanation": "Acetobacter aceti adalah bakteri yang mengubah etanol menjadi asam asetat dalam proses pembuatan cuka."
           },
@@ -6944,7 +7103,12 @@
             "id": "q5",
             "type": "multiple_choice",
             "question": "Teknik bioteknologi modern yang digunakan untuk memperbanyak DNA secara cepat adalah...",
-            "options": [],
+            "options": [
+              "PCR",
+              "Fermentasi",
+              "Kloning",
+              "Bioremediasi"
+            ],
             "answer": 0,
             "explanation": "PCR (Polymerase Chain Reaction) adalah teknik untuk mengamplifikasi DNA dalam jumlah besar dalam waktu singkat."
           },
@@ -6952,7 +7116,12 @@
             "id": "q6",
             "type": "multiple_choice",
             "question": "Manakah yang BUKAN termasuk produk fermentasi?",
-            "options": [],
+            "options": [
+              "Tempe",
+              "Yoghurt",
+              "Tape",
+              "Gula pasir"
+            ],
             "answer": 3,
             "explanation": "Gula pasir dihasilkan dari pemurnian tebu atau bit, bukan melalui proses fermentasi mikroorganisme."
           },
@@ -6960,7 +7129,12 @@
             "id": "q7",
             "type": "multiple_choice",
             "question": "Apa fungsi CO₂ yang dihasilkan ragi dalam adonan roti?",
-            "options": [],
+            "options": [
+              "Memberikan rasa manis pada roti",
+              "Membuat adonan mengembang",
+              "Menghasilkan warna kecoklatan",
+              "Mengawetkan roti lebih lama"
+            ],
             "answer": 1,
             "explanation": "CO₂ yang dihasilkan ragi terperangkap dalam gluten tepung, membentuk gelembung yang membuat adonan mengembang."
           },
@@ -6968,7 +7142,12 @@
             "id": "q8",
             "type": "multiple_choice",
             "question": "Organisme hasil rekayasa genetika yang mengandung gen asing disebut...",
-            "options": [],
+            "options": [
+              "Organisme anaerob",
+              "Organisme transgenik",
+              "Organisme autotrof",
+              "Organisme dekomposer"
+            ],
             "answer": 1,
             "explanation": "Organisme transgenik atau GMO (Genetically Modified Organism) adalah organisme yang telah dimodifikasi dengan menyisipkan gen dari organisme lain."
           },
@@ -6976,7 +7155,12 @@
             "id": "q9",
             "type": "multiple_choice",
             "question": "Teknik \"gunting gen\" yang digunakan untuk menyunting DNA dengan presisi tinggi adalah...",
-            "options": [],
+            "options": [
+              "PCR",
+              "Kloning",
+              "CRISPR-Cas9",
+              "Fermentasi"
+            ],
             "answer": 2,
             "explanation": "CRISPR-Cas9 adalah teknologi bioteknologi modern yang memungkinkan ilmuwan menyunting DNA dengan sangat tepat seperti menggunakan gunting."
           },
@@ -6984,9 +7168,79 @@
             "id": "q10",
             "type": "multiple_choice",
             "question": "Mengapa fermentasi dapat mengawetkan makanan seperti asinan dan yoghurt?",
-            "options": [],
+            "options": [
+              "Karena asam laktat menurunkan pH dan menghambat bakteri pembusuk",
+              "Karena alkohol yang dihasilkan membunuh semua mikroorganisme",
+              "Karena suhu tinggi selama fermentasi meluruhkan bakteri",
+              "Karena oksigen habis sehingga bakteri tidak bisa hidup"
+            ],
             "answer": 0,
             "explanation": "Asam laktat yang dihasilkan bakteri asam laktat menurunkan pH, menciptakan kondisi yang tidak cocok bagi bakteri pembusuk untuk tumbuh."
+          },
+          {
+            "id": "q11",
+            "type": "multiple_choice",
+            "question": "Pemanfaatan mikroorganisme untuk membersihkan tumpahan minyak atau limbah beracun disebut...",
+            "options": [
+              "Fermentasi",
+              "Bioremediasi",
+              "Rekayasa genetika",
+              "Kloning"
+            ],
+            "answer": 1,
+            "explanation": "Bioremediasi adalah pemanfaatan mikroorganisme untuk menguraikan atau menetralkan pencemaran lingkungan seperti tumpahan minyak dan limbah beracun."
+          },
+          {
+            "id": "q12",
+            "type": "multiple_choice",
+            "question": "Keunggulan insulin rekombinan dibandingkan insulin dari hewan adalah...",
+            "options": [
+              "Dapat disuntikkan melalui mulut",
+              "Strukturnya identik dengan insulin manusia sehingga lebih aman",
+              "Tidak memerlukan penyimpanan di lemari es",
+              "Harganya jauh lebih murah karena dari tanaman"
+            ],
+            "answer": 1,
+            "explanation": "Insulin rekombinan diproduksi dengan menyisipkan gen insulin manusia ke dalam mikroorganisme, sehingga strukturnya identik dengan insulin manusia dan risiko alergi lebih kecil."
+          },
+          {
+            "id": "q13",
+            "type": "multiple_choice",
+            "question": "Antibiotik penisilin yang digunakan untuk mengobati infeksi bakteri berasal dari...",
+            "options": [
+              "Bakteri Streptococcus",
+              "Kapang Rhizopus oligosporus",
+              "Jamur Penicillium notatum",
+              "Bakteri Acetobacter aceti"
+            ],
+            "answer": 2,
+            "explanation": "Penisilin adalah antibiotik alami yang dihasilkan oleh jamur Penicillium notatum dan merupakan salah satu produk bioteknologi penting di bidang kesehatan."
+          },
+          {
+            "id": "q14",
+            "type": "multiple_choice",
+            "question": "Mengapa fermentasi dikatakan sebagai proses anaerob?",
+            "options": [
+              "Karena mikroorganisme menghasilkan energi tanpa menggunakan oksigen",
+              "Karena dilakukan di ruangan tertutup tanpa cahaya matahari",
+              "Karena tidak memerlukan suhu tinggi untuk berlangsung",
+              "Karena hanya menggunakan satu jenis mikroorganisme"
+            ],
+            "answer": 0,
+            "explanation": "Fermentasi adalah metabolisme anaerob, artinya mikroorganisme menguraikan substrat untuk menghasilkan energi (ATP) tanpa memerlukan oksigen."
+          },
+          {
+            "id": "q15",
+            "type": "multiple_choice",
+            "question": "Salah satu risiko penggunaan tanaman transgenik yang perlu diwaspadai adalah...",
+            "options": [
+              "Tanaman menjadi lebih cepat busuk setelah dipanen",
+              "Penurunan keragaman genetik dan potensi invasi ke alam liar",
+              "Tanaman tidak dapat dikonsumsi oleh manusia sama sekali",
+              "Harga bibit menjadi lebih murah dibanding bibit biasa"
+            ],
+            "answer": 1,
+            "explanation": "Penggunaan tanaman transgenik yang terlalu dominan dapat menyebabkan penurunan keragaman genetik. Selain itu, ada risiko spesies GMO melarikan diri ke alam liar dan mengganggu ekosistem alami."
           }
         ]
       }
