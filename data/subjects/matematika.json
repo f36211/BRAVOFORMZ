@@ -13,36 +13,45 @@
     {
       "id": "bilangan",
       "title": "Bilangan dan Operasinya",
-      "description": "Bilangan bulat, pecahan, dan berpangkat",
+      "description": "Memahami konsep bilangan bulat, rasional, irasional, perpangkatan, serta aplikasinya dalam kehidupan sehari-hari.",
       "lessons": [
         {
           "id": "bilangan-bulat",
           "title": "Bilangan Bulat dan Rasional",
-          "estMinutes": 10,
+          "estMinutes": 15,
           "content": [
             {
               "type": "heading",
+              "level": 1,
               "text": "Bilangan Bulat dan Rasional"
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Jenis Bilangan"
+              "text": "Jenis Bilangan dalam Kehidupan"
+            },
+            {
+              "type": "text",
+              "text": "Bilangan bukan sekadar angka di buku, tapi ada di sekitar kita. Bayangkan suhu udara di puncak gunung yang mencapai -5°C (bilangan bulat negatif) atau saat kamu membagi satu loyang martabak menjadi 8 bagian sama besar (pecahan/rasional)."
             },
             {
               "type": "list",
               "items": [
-                "Bilangan bulat: ..., -2, -1, 0, 1, 2, ...",
-                "Bilangan cacah: 0, 1, 2, 3, ...",
-                "Bilangan asli: 1, 2, 3, 4, ...",
-                "Bilangan rasional: dapat dinyatakan sebagai a/b (b ≠ 0)",
-                "Bilangan irasional: tidak dapat dinyatakan sebagai pecahan (π, √2)"
+                "Bilangan bulat: ..., -2, -1, 0, 1, 2, ... (Digunakan untuk suhu, kedalaman laut, atau skor permainan).",
+                "Bilangan cacah: 0, 1, 2, 3, ... (Digunakan untuk menghitung jumlah benda).",
+                "Bilangan asli: 1, 2, 3, 4, ... (Bilangan yang kita gunakan untuk mulai menghitung).",
+                "Bilangan rasional: dapat dinyatakan sebagai a/b dengan b ≠ 0 (Contoh: 0,5; 3/4; 2).",
+                "Bilangan irasional: tidak dapat dinyatakan sebagai pecahan sederhana (Contoh: nilai π pada lingkaran atau √2)."
               ]
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Operasi Bilangan Bulat"
+              "text": "Aturan Operasi Bilangan Bulat"
+            },
+            {
+              "type": "highlight",
+              "text": "Ingat aturan \"Sapose\" (Sama Positif) dan \"Bene\" (Beda Negatif) untuk perkalian dan pembagian."
             },
             {
               "type": "list",
@@ -50,13 +59,17 @@
                 "Positif × Positif = Positif",
                 "Negatif × Negatif = Positif",
                 "Positif × Negatif = Negatif",
-                "(-a) × (-b) = ab"
+                "Negatif × Positif = Negatif"
               ]
             },
             {
               "type": "heading",
               "level": 2,
               "text": "Operasi Pecahan"
+            },
+            {
+              "type": "text",
+              "text": "Menjumlahkan pecahan ibarat menyamakan ukuran potongan kue sebelum digabung."
             },
             {
               "type": "math",
@@ -74,6 +87,118 @@
               "display": true
             }
           ]
+        },
+        {
+          "id": "bilangan-berpangkat",
+          "title": "Bilangan Berpangkat dan Akar",
+          "estMinutes": 20,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Bilangan Berpangkat dan Bentuk Akar"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mengapa Harus Berpangkat?"
+            },
+            {
+              "type": "text",
+              "text": "Pangkat digunakan untuk menuliskan perkalian berulang agar lebih ringkas. Misalnya, dalam biologi, pembelahan sel bakteri sering dinyatakan dalam bentuk eksponen."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sifat Utama Eksponen"
+            },
+            {
+              "type": "list",
+              "items": [
+                "a^m \\times a^n = a^{m+n}",
+                "a^m \\div a^n = a^{m-n}",
+                "(a^m)^n = a^{m \\times n}",
+                "a^0 = 1 (untuk semua a \\neq 0)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menyederhanakan Bentuk Akar"
+            },
+            {
+              "type": "text",
+              "text": "Akar adalah kebalikan dari pangkat dua. Kita bisa menyederhanakannya dengan mencari faktor angka kuadrat sempurna (4, 9, 16, 25...)."
+            },
+            {
+              "type": "math",
+              "tex": "\\sqrt{a \\times b} = \\sqrt{a} \\times \\sqrt{b}",
+              "display": true
+            },
+            {
+              "type": "text",
+              "text": "Contoh: \\sqrt{12} = \\sqrt{4 \\times 3} = 2\\sqrt{3}"
+            }
+          ]
+        },
+        {
+          "id": "aritmetika-sosial",
+          "title": "Aplikasi Bilangan",
+          "estMinutes": 15,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Bilangan dalam Ekonomi"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Untung dan Rugi"
+            },
+            {
+              "type": "text",
+              "text": "Dalam perdagangan, kita menggunakan operasi bilangan untuk menghitung keuntungan. Untung terjadi jika harga jual lebih besar dari harga beli."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Kondisi",
+                "Rumus",
+                "Keterangan"
+              ],
+              "rows": [
+                [
+                  "Untung",
+                  "Jual - Beli",
+                  "Harga jual > Harga beli"
+                ],
+                [
+                  "Rugi",
+                  "Beli - Jual",
+                  "Harga jual < Harga beli"
+                ],
+                [
+                  "Persentase Untung",
+                  "(Untung / Beli) x 100%",
+                  "Menghitung efisiensi bisnis"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Diskon dan Bunga Tunggal"
+            },
+            {
+              "type": "text",
+              "text": "Diskon adalah potongan harga menggunakan konsep persen (per seratus)."
+            },
+            {
+              "type": "highlight",
+              "text": "Harga Akhir = Harga Awal - (Persen Diskon \\times Harga Awal)"
+            }
+          ]
         }
       ],
       "flashcards": [
@@ -85,17 +210,37 @@
         {
           "id": "fc2",
           "question": "Apa itu bilangan irasional?",
-          "answer": "Bilangan yang tidak dapat dinyatakan sebagai pecahan"
+          "answer": "Bilangan yang tidak dapat dinyatakan sebagai pecahan a/b"
         },
         {
           "id": "fc3",
-          "question": "Contoh bilangan irasional?",
-          "answer": "π, √2, √3"
+          "question": "Contoh bilangan irasional dalam geometri?",
+          "answer": "π (Pi) yang digunakan untuk menghitung luas lingkaran"
         },
         {
           "id": "fc4",
           "question": "Cara membagi pecahan?",
-          "answer": "Kali dengan kebalikan pembagi"
+          "answer": "Mengalikan bilangan pertama dengan kebalikan dari pembaginya"
+        },
+        {
+          "id": "fc5",
+          "question": "Hasil dari 2³ × 2²?",
+          "answer": "2⁵ = 32 (pangkat dijumlahkan)"
+        },
+        {
+          "id": "fc6",
+          "question": "Berapakah nilai dari 1.000.000 pangkat 0?",
+          "answer": "1 (Semua bilangan kecuali nol jika dipangkatkan 0 hasilnya adalah 1)"
+        },
+        {
+          "id": "fc7",
+          "question": "Bentuk sederhana dari √12?",
+          "answer": "2√3"
+        },
+        {
+          "id": "fc8",
+          "question": "Jika harga beli 10.000 dan dijual 12.000, berapa persen untungnya?",
+          "answer": "20%"
         }
       ],
       "quiz": {
@@ -103,15 +248,15 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Hasil dari (-8) ÷ (-2) adalah?",
+            "question": "Seorang penyelam berada 15 meter di bawah permukaan laut, lalu naik 7 meter. Di posisi berapakah ia sekarang?",
             "options": [
-              "-4",
-              "4",
-              "-16",
-              "16"
+              "-22 meter",
+              "-8 meter",
+              "8 meter",
+              "22 meter"
             ],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Posisi awal -15, naik berarti ditambah 7. -15 + 7 = -8 meter."
           },
           {
             "id": "q2",
@@ -124,42 +269,78 @@
               "2/5"
             ],
             "answer": 2,
-            "explanation": ""
+            "explanation": "√2 tidak bisa diubah ke pecahan biasa dengan pembilang dan penyebut bilangan bulat."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Hasil dari 3⁴ ÷ 3² adalah?",
+            "options": [
+              "3",
+              "6",
+              "9",
+              "12"
+            ],
+            "answer": 2,
+            "explanation": "Sifat pembagian pangkat: 3⁴ ÷ 3² = 3^{4-2} = 3² = 9."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Ibu membeli tas seharga Rp200.000 dengan diskon 15%. Berapa uang yang harus dibayar Ibu?",
+            "options": [
+              "Rp170.000",
+              "Rp185.000",
+              "Rp30.000",
+              "Rp215.000"
+            ],
+            "answer": 0,
+            "explanation": "Diskon = 15/100 x 200.000 = 30.000. Harga bayar = 200.000 - 30.000 = 170.000."
           }
         ]
       }
     },
     {
       "id": "perbandingan",
-      "title": "Perbandingan",
-      "description": "Rasio, skala, dan proporsi",
+      "title": "Perbandingan dan Rasio",
+      "description": "Memahami hubungan antar besaran melalui rasio, skala, perbandingan senilai, dan berbalik nilai dalam kehidupan sehari-hari.",
       "lessons": [
         {
           "id": "perbandingan-skala",
           "title": "Perbandingan dan Skala",
-          "estMinutes": 8,
+          "estMinutes": 15,
           "content": [
             {
               "type": "heading",
-              "text": "Perbandingan dan Skala"
+              "level": 1,
+              "text": "Dasar Perbandingan dan Skala"
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Perbandingan Senilai"
+              "text": "Pengertian Rasio"
             },
             {
               "type": "text",
-              "text": "Dua besaran dikatakan senilai jika satu besaran naik, besaran lain juga naik."
+              "text": "Rasio adalah membandingkan dua nilai atau lebih untuk melihat hubungan ukurannya. Rasio bisa ditulis dengan titik dua (a:b) atau bentuk pecahan."
+            },
+            {
+              "type": "highlight",
+              "text": "Rasio tidak memiliki satuan asalkan kedua besaran yang dibandingkan memiliki satuan yang sama."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Perbandingan Senilai (Proporsi Langsung)"
+            },
+            {
+              "type": "text",
+              "text": "Dua besaran dikatakan senilai jika kenaikan nilai satu besaran diikuti oleh kenaikan nilai besaran lainnya dengan rasio yang tetap. Contoh: Semakin banyak bensin yang dibeli, semakin besar biaya yang harus dibayar."
             },
             {
               "type": "math",
-              "tex": "\\frac{a_1}{a_2} = \\frac{b_1}{b_2}",
+              "tex": "\\frac{a_1}{b_1} = \\frac{a_2}{b_2}",
               "display": true
-            },
-            {
-              "type": "text",
-              "text": "Contoh: jumlah barang dan total harga"
             },
             {
               "type": "heading",
@@ -168,7 +349,7 @@
             },
             {
               "type": "text",
-              "text": "Dua besaran dikatakan berbalik nilai jika satu besaran naik, besaran lain turun."
+              "text": "Dua besaran dikatakan berbalik nilai jika saat satu besaran bertambah besar, besaran lainnya justru berkurang. Contoh: Semakin banyak jumlah pemanen, semakin sedikit waktu yang dibutuhkan untuk memanen padi di sawah."
             },
             {
               "type": "math",
@@ -176,22 +357,91 @@
               "display": true
             },
             {
+              "type": "heading",
+              "level": 2,
+              "text": "Skala pada Peta dan Model"
+            },
+            {
               "type": "text",
-              "text": "Contoh: kecepatan dan waktu tempuh"
+              "text": "Skala digunakan untuk mengecilkan ukuran objek sebenarnya agar dapat digambarkan di atas kertas tanpa mengubah bentuk aslinya."
+            },
+            {
+              "type": "math",
+              "tex": "Skala = \\frac{Jarak\\ pada\\ Gambar}{Jarak\\ Sebenarnya}",
+              "display": true
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Contoh Kasus",
+                "Jenis Perbandingan",
+                "Logika"
+              ],
+              "rows": [
+                [
+                  "Jumlah Buku vs Harga",
+                  "Senilai",
+                  "Buku makin banyak, Harga makin mahal"
+                ],
+                [
+                  "Kecepatan vs Waktu",
+                  "Berbalik Nilai",
+                  "Makin cepat lari, Waktu makin singkat"
+                ],
+                [
+                  "Resep Masakan",
+                  "Senilai",
+                  "Porsi makin banyak, Bahan makin banyak"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "aplikasi-rasio",
+          "title": "Penerapan Rasio dalam Kehidupan",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Rasio dan Proporsi di Sekitar Kita"
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Skala Peta"
+              "text": "Memasak dengan Rasio"
             },
             {
-              "type": "math",
-              "tex": "Skala = \\frac{Jarak\\ pada\\ peta}{Jarak\\ sebenarnya}",
-              "display": true
+              "type": "text",
+              "text": "Seorang koki menggunakan rasio untuk memastikan rasa makanan tetap sama meskipun porsinya berubah. Misalnya rasio beras dan air untuk memasak nasi adalah 1:2. Jika memasak 3 gelas beras, maka butuh 6 gelas air."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Foto Berskala (Aspek Rasio)"
+            },
+            {
+              "type": "text",
+              "text": "Saat kamu mengubah ukuran foto di HP tanpa membuat wajah terlihat \"gepeng\" atau \"lonjong\", kamu sedang mempertahankan rasio panjang dan lebarnya."
             },
             {
               "type": "highlight",
-              "text": "Skala 1:100.000 artinya 1 cm di peta = 100.000 cm = 1 km sebenarnya"
+              "text": "Jika rasio awal 4:3, maka ukuran 8cm x 6cm akan tetap terlihat proporsional."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Skala pada Denah Rumah"
+            },
+            {
+              "type": "text",
+              "text": "Arsitek menggunakan skala agar ukuran kamar di kertas sesuai dengan ukuran asli saat dibangun."
+            },
+            {
+              "type": "math",
+              "tex": "Jarak\\ Sebenarnya = \\frac{Jarak\\ pada\\ Gambar}{Skala}",
+              "display": true
             }
           ]
         }
@@ -199,23 +449,33 @@
       "flashcards": [
         {
           "id": "fc1",
-          "question": "Rumus perbandingan senilai?",
-          "answer": "a₁/a₂ = b₁/b₂"
+          "question": "Apa itu rasio?",
+          "answer": "Perbandingan antara dua nilai atau lebih untuk melihat hubungan ukurannya."
         },
         {
           "id": "fc2",
-          "question": "Contoh perbandingan berbalik nilai?",
-          "answer": "Kecepatan dan waktu tempuh"
+          "question": "Rumus perbandingan senilai?",
+          "answer": "a₁/b₁ = a₂/b₂ (atau a₁/a₂ = b₁/b₂)"
         },
         {
           "id": "fc3",
+          "question": "Contoh perbandingan berbalik nilai?",
+          "answer": "Hubungan antara kecepatan kendaraan dengan waktu tempuh."
+        },
+        {
+          "id": "fc4",
           "question": "Skala 1:50.000, 2 cm di peta = ? km",
           "answer": "1 km (2 × 50.000 cm = 100.000 cm = 1 km)"
         },
         {
-          "id": "fc4",
+          "id": "fc5",
           "question": "Apa ciri perbandingan senilai?",
-          "answer": "Satu besaran naik, besaran lain juga naik"
+          "answer": "Jika nilai satu besaran naik, besaran lainnya juga ikut naik secara proporsional."
+        },
+        {
+          "id": "fc6",
+          "question": "Apa arti skala 1 : 200 pada sebuah denah?",
+          "answer": "1 cm pada denah mewakili 200 cm (2 meter) pada ukuran aslinya."
         }
       ],
       "quiz": {
@@ -223,7 +483,7 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "5 pekerja menyelesaikan pekerjaan dalam 12 hari. Berapa hari jika 10 pekerja?",
+            "question": "5 pekerja menyelesaikan pekerjaan dalam 12 hari. Berapa hari jika dikerjakan oleh 10 pekerja?",
             "options": [
               "24 hari",
               "6 hari",
@@ -231,12 +491,12 @@
               "15 hari"
             ],
             "answer": 1,
-            "explanation": "Berbalik nilai: 5 × 12 = 10 × x, maka x = 6 hari"
+            "explanation": "Ini berbalik nilai: 5 × 12 = 10 × x, maka 60 = 10x, x = 6 hari. Pekerja bertambah, waktu berkurang."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Hubungan jumlah barang dan total harga adalah?",
+            "question": "Hubungan antara jumlah barang yang dibeli dengan total harga yang harus dibayar adalah?",
             "options": [
               "Berbalik nilai",
               "Senilai",
@@ -244,7 +504,33 @@
               "Acak"
             ],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Senilai karena semakin banyak barang, harga totalnya pasti semakin tinggi."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Harga 3 buah sabun adalah Rp15.000. Berapakah harga 7 buah sabun yang sama?",
+            "options": [
+              "Rp30.000",
+              "Rp35.000",
+              "Rp40.000",
+              "Rp45.000"
+            ],
+            "answer": 1,
+            "explanation": "Gunakan perbandingan senilai: (15.000 / 3) * 7 = 5.000 * 7 = Rp35.000."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Sebuah peta memiliki skala 1 : 1.000.000. Jika jarak dua kota di peta adalah 5 cm, berapa jarak sebenarnya?",
+            "options": [
+              "5 km",
+              "50 km",
+              "500 km",
+              "5.000 km"
+            ],
+            "answer": 1,
+            "explanation": "Jarak sebenarnya = 5 cm × 1.000.000 = 5.000.000 cm = 50 km."
           }
         ]
       }
@@ -252,8 +538,80 @@
     {
       "id": "himpunan",
       "title": "Himpunan",
-      "description": "Himpunan, operasi, dan diagram Venn",
+      "description": "Memahami konsep kumpulan objek yang terdefinisi jelas, cara menyatakannya, operasi antar himpunan, serta aplikasinya dalam memecahkan masalah sehari-hari.",
       "lessons": [
+        {
+          "id": "konsep-himpunan",
+          "title": "Mengenal Konsep Himpunan",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Apa Itu Himpunan?"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Definisi Himpunan"
+            },
+            {
+              "type": "text",
+              "text": "Himpunan adalah kumpulan benda atau objek yang didefinisikan dengan jelas. \"Jelas\" artinya semua orang setuju apakah suatu benda termasuk dalam kumpulan tersebut atau tidak."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Contoh Himpunan: Kumpulan hewan berkaki empat, kumpulan warna pelangi, kumpulan bilangan prima kurang dari 10.",
+                "Bukan Himpunan (Subjektif): Kumpulan lukisan indah, kumpulan makanan enak, kumpulan siswa cerdas."
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Objek di dalam himpunan disebut anggota atau elemen, dilambangkan dengan simbol ∈."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Cara Menyatakan Himpunan"
+            },
+            {
+              "type": "text",
+              "text": "Ada tiga cara utama untuk menuliskan sebuah himpunan agar mudah dipahami."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Metode",
+                "Contoh",
+                "Keterangan"
+              ],
+              "rows": [
+                [
+                  "Deskripsi",
+                  "A = {Bilangan ganjil kurang dari 10}",
+                  "Menjelaskan dengan kata-kata"
+                ],
+                [
+                  "Tabulasi (Roster)",
+                  "A = {1, 3, 5, 7, 9}",
+                  "Mendaftar semua anggota di dalam kurung kurawal"
+                ],
+                [
+                  "Notasi Pembentuk",
+                  "A = {x",
+                  "x < 10, x ∈ Bilangan Ganjil}",
+                  "Menggunakan variabel dan syarat keanggotaan"
+                ]
+              ]
+            },
+            {
+              "type": "math",
+              "tex": "A = \\{ x \\mid 1 < x \\leq 5, x \\in \\mathbb{Z} \\}",
+              "display": true
+            }
+          ]
+        },
         {
           "id": "operasi-himpunan",
           "title": "Operasi Himpunan",
@@ -261,6 +619,7 @@
           "content": [
             {
               "type": "heading",
+              "level": 1,
               "text": "Himpunan dan Operasinya"
             },
             {
@@ -271,10 +630,14 @@
             {
               "type": "list",
               "items": [
-                "Himpunan semesta (S): himpunan yang memuat semua anggota",
-                "Himpunan kosong (∅): himpunan tanpa anggota",
-                "Himpunan bagian (⊂): A ⊂ B jika semua anggota A ada di B"
+                "Himpunan semesta (S): himpunan yang memuat semua anggota yang dibicarakan.",
+                "Himpunan kosong (∅): himpunan yang tidak memiliki anggota sama sekali. Contoh: Himpunan manusia yang pernah ke Matahari.",
+                "Himpunan bagian (⊂): A ⊂ B jika semua anggota A ada di dalam B."
               ]
+            },
+            {
+              "type": "text",
+              "text": "Operasi biner pada himpunan adalah operasi yang menggabungkan dua himpunan untuk menghasilkan himpunan baru (seperti Irisan, Gabungan, dan Selisih)."
             },
             {
               "type": "heading",
@@ -292,17 +655,17 @@
                 [
                   "Irisan",
                   "A ∩ B",
-                  "Anggota yang ada di A dan B"
+                  "Anggota yang ada di A DAN juga ada di B"
                 ],
                 [
                   "Gabungan",
                   "A ∪ B",
-                  "Semua anggota A dan B"
+                  "Semua anggota A ATAU anggota B (digabung)"
                 ],
                 [
                   "Selisih",
                   "A - B",
-                  "Anggota A yang tidak ada di B"
+                  "Anggota A yang tidak menjadi anggota B"
                 ],
                 [
                   "Komplemen",
@@ -318,11 +681,62 @@
             },
             {
               "type": "text",
-              "text": "Diagram Venn digunakan untuk menggambarkan hubungan antar himpunan secara visual."
+              "text": "Diagram Venn digunakan untuk menggambarkan hubungan antar himpunan secara visual menggunakan lingkaran di dalam sebuah persegi panjang (Semesta)."
             },
             {
               "type": "highlight",
-              "text": "n(A ∪ B) = n(A) + n(B) - n(A ∩ B)"
+              "text": "Rumus Kardinalitas: n(A ∪ B) = n(A) + n(B) - n(A ∩ B)"
+            }
+          ]
+        },
+        {
+          "id": "penerapan-himpunan",
+          "title": "Penerapan Himpunan dalam Kehidupan",
+          "estMinutes": 15,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Himpunan di Sekitar Kita"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Analisis Data Survey"
+            },
+            {
+              "type": "text",
+              "text": "Himpunan sangat berguna untuk mengolah data survey. Misalnya, dalam sebuah kelas dilakukan pendataan hobi siswa."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kelompok siswa yang suka Matematika.",
+                "Kelompok siswa yang suka Olahraga.",
+                "Kelompok siswa yang suka keduanya (Irisan)."
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Dengan menggunakan Diagram Venn, kita bisa menghitung jumlah total siswa tanpa menghitung orang yang sama dua kali."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Kasus"
+            },
+            {
+              "type": "text",
+              "text": "Dari 30 siswa, 20 suka Bakso, 15 suka Mie Ayam, dan 5 suka keduanya. Berapa siswa yang tidak suka keduanya?"
+            },
+            {
+              "type": "math",
+              "tex": "n(S) = [n(A) - n(A \\cap B)] + [n(B) - n(A \\cap B)] + n(A \\cap B) + n(None)",
+              "display": true
+            },
+            {
+              "type": "highlight",
+              "text": "Himpunan membantu kita mengelompokkan data agar terorganisir, seperti kategori produk di minimarket atau genre film di aplikasi streaming."
             }
           ]
         }
@@ -347,6 +761,16 @@
           "id": "fc4",
           "question": "Apa itu komplemen A?",
           "answer": "Anggota semesta yang tidak ada di A"
+        },
+        {
+          "id": "fc5",
+          "question": "Mengapa \"Kumpulan film bagus\" bukan himpunan?",
+          "answer": "Karena \"bagus\" bersifat subjektif dan tidak terdefinisi jelas bagi setiap orang."
+        },
+        {
+          "id": "fc6",
+          "question": "Apa lambang himpunan kosong?",
+          "answer": "{ } atau ∅"
         }
       ],
       "quiz": {
@@ -362,12 +786,12 @@
               "{}"
             ],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Irisan (∩) mencari anggota yang sama di kedua himpunan. Anggota yang sama adalah 2 dan 3."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "n(A)=10, n(B)=8, n(A∩B)=3. n(A∪B)=?",
+            "question": "n(A)=10, n(B)=8, n(A∩B)=3. Berapakah n(A∪B)?",
             "options": [
               "15",
               "18",
@@ -375,7 +799,33 @@
               "5"
             ],
             "answer": 0,
-            "explanation": "n(A∪B) = 10 + 8 - 3 = 15"
+            "explanation": "Menggunakan rumus n(A∪B) = n(A) + n(B) - n(A∩B) = 10 + 8 - 3 = 15."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Manakah yang merupakan himpunan yang terdefinisi dengan jelas?",
+            "options": [
+              "Kumpulan lukisan yang mahal",
+              "Kumpulan siswa yang tinggi",
+              "Kumpulan bilangan asli antara 5 dan 10",
+              "Kumpulan makanan yang pedas"
+            ],
+            "answer": 2,
+            "explanation": "Bilangan asli antara 5 dan 10 adalah {6, 7, 8, 9}. Ini terdefinisi pasti, tidak bergantung pendapat orang."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Jika S = {1, 2, 3, 4, 5} dan A = {2, 4}, maka A' (komplemen A) adalah...",
+            "options": [
+              "{2, 4}",
+              "{1, 3, 5}",
+              "{1, 2, 3, 4, 5}",
+              "{ }"
+            ],
+            "answer": 1,
+            "explanation": "Komplemen A adalah semua anggota Semesta (S) yang tidak ada di dalam himpunan A."
           }
         ]
       }
@@ -383,16 +833,17 @@
     {
       "id": "aritmatika-sosial",
       "title": "Aritmatika Sosial",
-      "description": "Untung, rugi, diskon, bruto, neto, tara",
+      "description": "Memahami penerapan matematika dalam transaksi ekonomi sehari-hari seperti perdagangan (untung-rugi), diskon, bruto-neto-tara, serta bunga bank dan perpajakan.",
       "lessons": [
         {
           "id": "untung-rugi",
           "title": "Untung, Rugi, dan Persentase",
-          "estMinutes": 10,
+          "estMinutes": 15,
           "content": [
             {
               "type": "heading",
-              "text": "Aritmatika Sosial"
+              "level": 1,
+              "text": "Dasar Perdagangan"
             },
             {
               "type": "heading",
@@ -400,10 +851,29 @@
               "text": "Keuntungan dan Kerugian"
             },
             {
+              "type": "text",
+              "text": "Dalam dunia perdagangan, kita mengenal Harga Beli (modal) dan Harga Jual. Selisih antara keduanya menentukan apakah seorang pedagang mendapat untung atau rugi."
+            },
+            {
               "type": "list",
               "items": [
                 "Untung = Harga jual - Harga beli (jika HJ > HB)",
                 "Rugi = Harga beli - Harga jual (jika HB > HJ)",
+                "Impas = Kondisi di mana Harga Jual sama dengan Harga Beli (HJ = HB)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menghitung Persentase"
+            },
+            {
+              "type": "text",
+              "text": "Persentase digunakan untuk membandingkan besarnya untung atau rugi terhadap modal awal (Harga Beli)."
+            },
+            {
+              "type": "list",
+              "items": [
                 "Persentase untung = (Untung/HB) × 100%",
                 "Persentase rugi = (Rugi/HB) × 100%"
               ]
@@ -414,11 +884,16 @@
               "text": "Diskon dan Pajak"
             },
             {
+              "type": "text",
+              "text": "Diskon (Rabat) adalah potongan harga yang diberikan penjual, sedangkan Pajak adalah pungutan wajib untuk negara."
+            },
+            {
               "type": "list",
               "items": [
-                "Diskon = potongan harga",
-                "Harga setelah diskon = Harga awal × (100% - diskon%)",
-                "PPN = Pajak Pertambahan Nilai (biasanya 10% atau 11%)"
+                "Diskon = potongan harga dari harga kotor (label)",
+                "Harga bersih setelah diskon = Harga awal × (100% - diskon%)",
+                "PPN (Pajak Pertambahan Nilai) = Menambah harga yang harus dibayar konsumen (biasanya 11%)",
+                "PPh (Pajak Penghasilan) = Mengurangi pendapatan atau gaji yang diterima"
               ]
             },
             {
@@ -427,23 +902,31 @@
               "text": "Bruto, Neto, Tara"
             },
             {
+              "type": "text",
+              "text": "Istilah ini sering ditemukan pada kemasan produk makanan atau karung hasil bumi."
+            },
+            {
               "type": "table",
               "headers": [
                 "Istilah",
-                "Pengertian"
+                "Pengertian",
+                "Hubungan"
               ],
               "rows": [
                 [
                   "Bruto",
-                  "Berat kotor (berat barang + kemasan)"
+                  "Berat kotor (isi + kemasan)",
+                  "Bruto = Neto + Tara"
                 ],
                 [
                   "Neto",
-                  "Berat bersih (berat barang saja)"
+                  "Berat bersih (isi saja)",
+                  "Neto = Bruto - Tara"
                 ],
                 [
                   "Tara",
-                  "Berat kemasan"
+                  "Berat kemasan (bungkus)",
+                  "Tara = Bruto - Neto"
                 ]
               ]
             },
@@ -455,6 +938,67 @@
             {
               "type": "highlight",
               "text": "Persentase tara = (Tara/Bruto) × 100%"
+            }
+          ]
+        },
+        {
+          "id": "bunga-tunggal",
+          "title": "Bunga Tunggal dan Perbankan",
+          "estMinutes": 15,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Menabung dan Meminjam"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Konsep Bunga Tunggal"
+            },
+            {
+              "type": "text",
+              "text": "Bunga tunggal adalah bunga yang dihitung hanya berdasarkan modal awal saja, tidak berubah seiring waktu jika modal tetap. Biasanya dinyatakan dalam persen (%) per tahun."
+            },
+            {
+              "type": "list",
+              "items": [
+                "M = Modal awal (tabungan atau pinjaman awal)",
+                "p = Persentase bunga (per tahun)",
+                "t = Waktu atau lama menabung (dalam tahun)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Rumus Bunga"
+            },
+            {
+              "type": "text",
+              "text": "Jika waktu tabungan dalam bulan, maka pembaginya adalah 12."
+            },
+            {
+              "type": "math",
+              "tex": "Bunga = M \\times p \\times t",
+              "display": true
+            },
+            {
+              "type": "math",
+              "tex": "Tabungan Akhir = M + Bunga",
+              "display": true
+            },
+            {
+              "type": "highlight",
+              "text": "Jika menabung selama n bulan, maka Bunga = M \\times p \\times \\frac{n}{12}"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Nyata"
+            },
+            {
+              "type": "text",
+              "text": "Ayah menabung Rp2.000.000 di bank dengan bunga 6% per tahun. Setelah 10 bulan, Ayah akan menerima bunga sebesar Rp100.000."
             }
           ]
         }
@@ -479,6 +1023,16 @@
           "id": "fc4",
           "question": "Harga 100.000 diskon 20%, jadi?",
           "answer": "80.000 (100.000 × 80%)"
+        },
+        {
+          "id": "fc5",
+          "question": "Apa bedanya PPN dan PPh?",
+          "answer": "PPN menambah harga belanja, PPh memotong penghasilan/gaji."
+        },
+        {
+          "id": "fc6",
+          "question": "Bagaimana mencari bunga jika menabung n bulan?",
+          "answer": "Bunga = M × persen bunga × (n/12)"
         }
       ],
       "quiz": {
@@ -507,7 +1061,46 @@
               "5 kg"
             ],
             "answer": 0,
-            "explanation": ""
+            "explanation": "Neto = Bruto - Tara. 5 kg - 0,5 kg = 4,5 kg."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Seorang pedagang membeli 5 karung beras dengan bruto masing-masing 50 kg dan tara 2%. Jika harga beli seluruhnya Rp2.450.000, berapa harga pokok tiap kg beras bersih (neto)?",
+            "options": [
+              "Rp9.800",
+              "Rp10.000",
+              "Rp10.200",
+              "Rp11.000"
+            ],
+            "answer": 1,
+            "explanation": "Bruto total = 5 x 50 = 250 kg. Tara = 2% x 250 = 5 kg. Neto = 250 - 5 = 245 kg. Harga pokok = 2.450.000 / 245 = Rp10.000/kg."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Ibu makan di restoran seharga Rp200.000 dan dikenakan PPN 11%. Berapa total yang harus dibayar Ibu?",
+            "options": [
+              "Rp178.000",
+              "Rp211.000",
+              "Rp222.000",
+              "Rp200.000"
+            ],
+            "answer": 2,
+            "explanation": "PPN = 11% x 200.000 = 22.000. Total bayar = 200.000 + 22.000 = 222.000."
+          },
+          {
+            "id": "q5",
+            "type": "multiple_choice",
+            "question": "Budi menabung Rp1.000.000 dengan bunga tunggal 12% per tahun. Berapa besar bunga setelah 6 bulan?",
+            "options": [
+              "Rp120.000",
+              "Rp60.000",
+              "Rp100.000",
+              "Rp12.000"
+            ],
+            "answer": 1,
+            "explanation": "Bunga = 1.000.000 x 12/100 x 6/12 = 60.000."
           }
         ]
       }
@@ -515,15 +1108,49 @@
     {
       "id": "aljabar",
       "title": "Aljabar",
-      "description": "Bentuk aljabar dan persamaan linear",
+      "description": "Memahami bahasa matematika melalui simbol, variabel, persamaan linear, relasi fungsi, hingga pola bilangan.",
       "lessons": [
         {
-          "id": "persamaan-linear",
-          "title": "Persamaan Linear",
-          "estMinutes": 12,
+          "id": "bentuk-aljabar",
+          "title": "Bentuk Aljabar",
+          "estMinutes": 10,
           "content": [
             {
               "type": "heading",
+              "level": 1,
+              "text": "Mengenal Bentuk Aljabar"
+            },
+            {
+              "type": "text",
+              "text": "Aljabar membantu kita menyelesaikan masalah yang mengandung nilai belum diketahui (variabel)."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Variabel: Huruf pengganti bilangan yang nilainya bisa berubah (contoh: x, y, a, b).",
+                "Koefisien: Angka yang mengalikan variabel (contoh: 3 pada 3x).",
+                "Konstanta: Angka tetap yang tidak memiliki variabel (contoh: 5 pada 3x + 5).",
+                "Suku: Bagian aljabar yang dipisahkan tanda + atau - (contoh: 2x dan 7 adalah suku-suku dari 2x + 7)."
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Operasi penjumlahan dan pengurangan hanya bisa dilakukan pada suku sejenis (memiliki variabel dan pangkat yang sama)."
+            },
+            {
+              "type": "text",
+              "text": "Contoh nyata: Harga 3 buku (3b) dan 2 pensil (2p) dapat ditulis $3b + 2p$."
+            }
+          ]
+        },
+        {
+          "id": "persamaan-linear",
+          "title": "Persamaan Linear",
+          "estMinutes": 15,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
               "text": "Persamaan dan Pertidaksamaan Linear"
             },
             {
@@ -538,7 +1165,11 @@
             },
             {
               "type": "text",
-              "text": "Contoh: 2x + 6 = 0 → x = -3"
+              "text": "Kalimat terbuka yang dihubungkan tanda sama dengan (=) dan variabelnya berpangkat satu."
+            },
+            {
+              "type": "text",
+              "text": "Contoh: 2x + 6 = 0 → 2x = -6 → x = -3."
             },
             {
               "type": "heading",
@@ -552,27 +1183,192 @@
             {
               "type": "list",
               "items": [
-                "Metode substitusi: ganti salah satu variabel",
-                "Metode eliminasi: hilangkan salah satu variabel",
-                "Metode grafik: titik potong dua garis"
+                "Metode substitusi: Mengganti salah satu variabel dengan bentuk variabel lain.",
+                "Metode eliminasi: Menghilangkan salah satu variabel dengan menyamakan koefisiennya.",
+                "Metode grafik: Mencari titik potong dari dua garis pada koordinat Kartesius."
               ]
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Contoh SPLDV"
+              "text": "Contoh SPLDV dalam Kehidupan"
             },
             {
               "type": "text",
-              "text": "x + y = 5 dan x - y = 1"
+              "text": "Misal x adalah harga burger dan y harga minuman. Jika x + y = 15.000 dan x - y = 5.000 (selisih harga)."
             },
             {
               "type": "text",
-              "text": "Eliminasi: 2x = 6 → x = 3, maka y = 2"
+              "text": "Eliminasi: 2x = 20.000 → x = 10.000. Maka y = 5.000."
             },
             {
               "type": "highlight",
               "text": "Periksa jawaban dengan substitusi ke persamaan awal!"
+            }
+          ]
+        },
+        {
+          "id": "relasi-fungsi",
+          "title": "Relasi dan Fungsi",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Relasi dan Fungsi"
+            },
+            {
+              "type": "text",
+              "text": "Relasi adalah hubungan antara anggota himpunan asal ke himpunan kawan."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Domain: Daerah asal (himpunan semua nilai input).",
+                "Kodomain: Daerah kawan (himpunan tujuan).",
+                "Range: Daerah hasil (anggota kodomain yang punya pasangan di domain)."
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Fungsi (Pemetaan) adalah relasi khusus di mana setiap anggota domain dipasangkan tepat satu dengan anggota kodomain."
+            },
+            {
+              "type": "math",
+              "tex": "f(x) = ax + b",
+              "display": true
+            },
+            {
+              "type": "text",
+              "text": "Contoh: Jika f(x) = 2x + 1, maka f(3) = 2(3) + 1 = 7."
+            }
+          ]
+        },
+        {
+          "id": "persamaan-garis",
+          "title": "Persamaan Garis Lurus",
+          "estMinutes": 15,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Persamaan Garis Lurus"
+            },
+            {
+              "type": "math",
+              "tex": "y = mx + c",
+              "display": true
+            },
+            {
+              "type": "text",
+              "text": "Persamaan ini jika digambar pada koordinat Kartesius akan membentuk garis lurus."
+            },
+            {
+              "type": "list",
+              "items": [
+                "m = Gradien atau kemiringan garis.",
+                "c = Konstanta atau titik potong pada sumbu y."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Mencari Gradien (m)"
+            },
+            {
+              "type": "text",
+              "text": "Gradien melalui dua titik $(x_1, y_1)$ dan $(x_2, y_2)$:"
+            },
+            {
+              "type": "math",
+              "tex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
+              "display": true
+            },
+            {
+              "type": "highlight",
+              "text": "Dua garis sejajar memiliki gradien sama ($m_1 = m_2$). Dua garis tegak lurus memiliki hasil kali gradien -1 ($m_1 \\times m_2 = -1$)."
+            }
+          ]
+        },
+        {
+          "id": "pola-bilangan",
+          "title": "Pola Bilangan",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Pola dan Barisan Bilangan"
+            },
+            {
+              "type": "text",
+              "text": "Mempelajari keteraturan angka untuk memprediksi nilai berikutnya."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Barisan Aritmatika: Selisih antar suku selalu tetap (disebut beda, b). Contoh: 2, 5, 8, 11... (b=3).",
+                "Barisan Geometri: Perbandingan antar suku selalu tetap (disebut rasio, r). Contoh: 3, 6, 12, 24... (r=2)."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Rumus Suku ke-n (Un)"
+            },
+            {
+              "type": "math",
+              "tex": "U_n = a + (n-1)b \\quad \\text{(Aritmatika)}",
+              "display": true
+            },
+            {
+              "type": "math",
+              "tex": "U_n = a \\cdot r^{n-1} \\quad \\text{(Geometri)}",
+              "display": true
+            },
+            {
+              "type": "text",
+              "text": "Dimana a adalah suku pertama ($U_1$)."
+            }
+          ]
+        },
+        {
+          "id": "faktorisasi-aljabar",
+          "title": "Faktorisasi Suku Aljabar",
+          "estMinutes": 15,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Pemfaktoran Bentuk Kuadrat"
+            },
+            {
+              "type": "text",
+              "text": "Mengubah bentuk penjumlahan aljabar menjadi bentuk perkalian."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Selisih Dua Kuadrat"
+            },
+            {
+              "type": "math",
+              "tex": "a^2 - b^2 = (a + b)(a - b)",
+              "display": true
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Bentuk Kuadrat Sempurna"
+            },
+            {
+              "type": "math",
+              "tex": "x^2 + 2ax + a^2 = (x + a)^2",
+              "display": true
+            },
+            {
+              "type": "text",
+              "text": "Pemfaktoran sangat berguna untuk menyederhanakan pecahan aljabar dan menyelesaikan persamaan kuadrat di kelas 9."
             }
           ]
         }
@@ -597,6 +1393,31 @@
           "id": "fc4",
           "question": "x + y = 7, x - y = 3. x = ?",
           "answer": "x = 5 (eliminasi: 2x = 10)"
+        },
+        {
+          "id": "fc5",
+          "question": "Koefisien x dari 3x - 5?",
+          "answer": "3"
+        },
+        {
+          "id": "fc6",
+          "question": "Rumus gradien 2 titik?",
+          "answer": "m = (y2-y1)/(x2-x1)"
+        },
+        {
+          "id": "fc7",
+          "question": "Apa itu Range?",
+          "answer": "Daerah hasil fungsi (yang memiliki pasangan)"
+        },
+        {
+          "id": "fc8",
+          "question": "Apa beda barisan aritmatika dan geometri?",
+          "answer": "Aritmatika ditambah/dikurang (beda), Geometri dikali/dibagi (rasio)"
+        },
+        {
+          "id": "fc9",
+          "question": "Hasil dari (x+2)(x-2)?",
+          "answer": "x² - 4"
         }
       ],
       "quiz": {
@@ -612,12 +1433,12 @@
               "x = 8"
             ],
             "answer": 1,
-            "explanation": ""
+            "explanation": "2x = 8, maka x = 8/2 = 4."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "x + y = 10, x - y = 4. Nilai y?",
+            "question": "x + y = 10, x - y = 4. Nilai y adalah?",
             "options": [
               "7",
               "3",
@@ -625,7 +1446,46 @@
               "6"
             ],
             "answer": 1,
-            "explanation": "x = 7, y = 3"
+            "explanation": "Eliminasi x: (x+y)-(x-y) = 10-4 -> 2y = 6 -> y = 3."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Gradien garis y = 4x - 2 adalah?",
+            "options": [
+              "-2",
+              "2",
+              "4",
+              "-4"
+            ],
+            "answer": 2,
+            "explanation": "Sesuai bentuk y = mx + c, nilai m (gradien) adalah 4."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Suku ke-10 dari barisan aritmatika 2, 5, 8, ... adalah?",
+            "options": [
+              "27",
+              "29",
+              "30",
+              "32"
+            ],
+            "answer": 1,
+            "explanation": "a = 2, b = 3. U10 = 2 + (10-1)3 = 2 + 27 = 29."
+          },
+          {
+            "id": "q5",
+            "type": "multiple_choice",
+            "question": "Hasil penyederhanaan dari 3x + 5y - x - 7y adalah?",
+            "options": [
+              "2x - 2y",
+              "4x + 12y",
+              "2x + 2y",
+              "3x - 2y"
+            ],
+            "answer": 0,
+            "explanation": "Dekatkan suku sejenis: (3x - x) + (5y - 7y) = 2x - 2y."
           }
         ]
       }
@@ -633,28 +1493,33 @@
     {
       "id": "geometri",
       "title": "Geometri Bangun Datar",
-      "description": "Segitiga, segiempat, dan lingkaran",
+      "description": "Mempelajari sifat, ukuran (keliling dan luas), hubungan antar garis dan sudut, teorema Pythagoras, transformasi, serta kesebangunan pada bidang datar.",
       "lessons": [
         {
           "id": "bangun-datar",
           "title": "Luas dan Keliling Bangun Datar",
-          "estMinutes": 12,
+          "estMinutes": 15,
           "content": [
             {
               "type": "heading",
-              "text": "Rumus Bangun Datar"
+              "level": 1,
+              "text": "Pengukuran Bangun Datar"
+            },
+            {
+              "type": "text",
+              "text": "Bangun datar adalah objek dua dimensi yang memiliki panjang dan lebar. Memahami luas dan keliling sangat penting untuk menghitung kebutuhan bahan dalam konstruksi atau desain."
             },
             {
               "type": "table",
               "headers": [
                 "Bangun",
-                "Luas",
-                "Keliling"
+                "Luas (L)",
+                "Keliling (K)"
               ],
               "rows": [
                 [
                   "Persegi (s)",
-                  "s²",
+                  "s × s",
                   "4s"
                 ],
                 [
@@ -670,12 +1535,12 @@
                 [
                   "Lingkaran",
                   "πr²",
-                  "2πr"
+                  "2πr atau πd"
                 ],
                 [
                   "Trapesium",
                   "½(a+b) × t",
-                  "Jumlah sisi"
+                  "Jumlah seluruh sisi"
                 ],
                 [
                   "Jajar genjang",
@@ -690,31 +1555,240 @@
                 [
                   "Layang-layang",
                   "½ × d₁ × d₂",
-                  "Jumlah sisi"
+                  "2(sisi₁ + sisi₂)"
                 ]
               ]
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Lingkaran"
-            },
-            {
-              "type": "math",
-              "tex": "L = \\pi r^2 \\quad K = 2\\pi r = \\pi d",
-              "display": true
+              "text": "Bagian-Bagian Lingkaran"
             },
             {
               "type": "list",
               "items": [
-                "Busur = bagian keliling lingkaran",
-                "Juring = daerah 'irisan pizza'",
-                "Tembereng = daerah antara busur dan tali busur"
+                "Busur: Garis lengkung yang merupakan bagian dari keliling lingkaran.",
+                "Juring: Daerah di dalam lingkaran yang dibatasi oleh dua jari-jari dan satu busur (seperti potongan pizza).",
+                "Tembereng: Daerah yang dibatasi oleh sebuah busur dan tali busur.",
+                "Apotema: Garis terpendek dari titik pusat ke tali busur (tegak lurus)."
               ]
             },
             {
               "type": "highlight",
-              "text": "π ≈ 22/7 atau 3,14"
+              "text": "Konstanta π (phi) digunakan untuk lingkaran. Gunakan 22/7 jika jari-jari kelipatan 7, dan 3,14 untuk angka lainnya."
+            }
+          ]
+        },
+        {
+          "id": "garis-sudut",
+          "title": "Garis dan Sudut",
+          "estMinutes": 15,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Hubungan Antar Sudut"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Jenis-Jenis Sudut"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Sudut Berpelurus (Suplemen): Dua sudut yang jumlahnya 180°.",
+                "Sudut Berpenyiku (Komplemen): Dua sudut yang jumlahnya 90°.",
+                "Sudut Bertolak belakang: Dua sudut yang saling bertolak belakang memiliki besar yang sama."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sudut pada Dua Garis Sejajar dipotong Transversal"
+            },
+            {
+              "type": "text",
+              "text": "Jika ada dua garis sejajar yang dipotong oleh satu garis lain, maka terbentuk hubungan sudut:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Sudut Sehadap: Besarnya sama (misal: ∠A1 = ∠B1).",
+                "Sudut Dalam Berseberangan: Besarnya sama (misal: ∠A3 = ∠B1).",
+                "Sudut Luar Berseberangan: Besarnya sama (misal: ∠A2 = ∠B4).",
+                "Sudut Dalam Sepihak: Jumlahnya 180° (misal: ∠A3 + ∠B2 = 180°)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "koordinat",
+          "title": "Koordinat Kartesius",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Menentukan Posisi Titik"
+            },
+            {
+              "type": "text",
+              "text": "Koordinat Kartesius digunakan untuk menentukan letak suatu titik pada bidang datar menggunakan dua sumbu: Sumbu X (horizontal) dan Sumbu Y (vertikal)."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Titik ditulis (x, y).",
+                "x disebut Absis (jarak dari sumbu Y).",
+                "y disebut Ordinat (jarak dari sumbu X).",
+                "Kuadran I (+,+), Kuadran II (-,+), Kuadran III (-,-), Kuadran IV (+,-)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pythagoras",
+          "title": "Teorema Pythagoras",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Hubungan Sisi Segitiga Siku-Siku"
+            },
+            {
+              "type": "text",
+              "text": "Teorema ini menyatakan bahwa kuadrat sisi miring sama dengan jumlah kuadrat sisi-sisi tegaknya. Hanya berlaku pada segitiga siku-siku."
+            },
+            {
+              "type": "math",
+              "tex": "a^2 + b^2 = c^2",
+              "display": true
+            },
+            {
+              "type": "highlight",
+              "text": "c adalah hipotenusa atau sisi terpanjang yang berada di depan sudut 90°."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Triple Pythagoras"
+            },
+            {
+              "type": "text",
+              "text": "Kelompok tiga bilangan asli yang memenuhi rumus Pythagoras. Membantu menghitung lebih cepat tanpa akar."
+            },
+            {
+              "type": "list",
+              "items": [
+                "3, 4, 5 (dan kelipatannya: 6, 8, 10)",
+                "5, 12, 13",
+                "8, 15, 17",
+                "7, 24, 25"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "transformasi",
+          "title": "Transformasi Geometri",
+          "estMinutes": 15,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Perubahan Posisi dan Ukuran"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Translasi (Pergeseran): Memindahkan titik dengan jarak dan arah tertentu $(x+a, y+b)$.",
+                "Refleksi (Pencerminan): Memindahkan titik dengan sifat cermin. Jarak benda ke cermin = jarak bayangan ke cermin.",
+                "Rotasi (Perputaran): Memutar titik terhadap pusat tertentu sejauh sudut $\\theta$.",
+                "Dilatasi (Perkalian): Memperbesar atau memperkecil bangun datar dengan faktor skala $k$."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kesebangunan",
+          "title": "Kongruen & Kesebangunan",
+          "estMinutes": 15,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Kesamaan dan Kemiripan"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kongruen (Identik)"
+            },
+            {
+              "type": "text",
+              "text": "Dua bangun dikatakan kongruen jika bentuk dan ukurannya sama persis. Simbolnya $\\cong$."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Sisi-sisi yang bersesuaian sama panjang.",
+                "Sudut-sudut yang bersesuaian sama besar."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kesebangunan (Proporsional)"
+            },
+            {
+              "type": "text",
+              "text": "Dua bangun dikatakan sebangun jika bentuknya sama tetapi ukurannya berbeda namun memiliki perbandingan yang tetap. Simbolnya $\\sim$."
+            },
+            {
+              "type": "math",
+              "tex": "\\frac{Sisi_1}{Sisi_2} = \\text{konstan}",
+              "display": true
+            },
+            {
+              "type": "text",
+              "text": "Penerapan dalam kehidupan nyata: Peta (skala), miniatur gedung, dan bayangan pohon."
+            }
+          ]
+        },
+        {
+          "id": "lingkaran-lanjutan",
+          "title": "Sudut dan Garis Singgung Lingkaran",
+          "estMinutes": 15,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Sudut Pusat dan Sudut Keliling"
+            },
+            {
+              "type": "text",
+              "text": "Sudut pusat adalah sudut yang titik sudutnya di pusat lingkaran, sedangkan sudut keliling di busur lingkaran."
+            },
+            {
+              "type": "math",
+              "tex": "\\text{Sudut Pusat} = 2 \\times \\text{Sudut Keliling} \\quad \\text{(jika menghadap busur sama)}",
+              "display": true
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Garis Singgung Lingkaran"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Garis singgung selalu tegak lurus (90°) dengan jari-jari di titik singgung.",
+                "Panjang dua garis singgung dari satu titik di luar lingkaran ke lingkaran adalah sama panjang.",
+                "GSPL (Garis Singgung Persekutuan Luar): $l = \\sqrt{p^2 - (R-r)^2}$.",
+                "GSPD (Garis Singgung Persekutuan Dalam): $d = \\sqrt{p^2 - (R+r)^2}$."
+              ]
             }
           ]
         }
@@ -722,23 +1796,58 @@
       "flashcards": [
         {
           "id": "fc1",
-          "question": "Luas lingkaran r = 7?",
+          "question": "Luas lingkaran dengan r = 7?",
           "answer": "154 (22/7 × 49)"
         },
         {
           "id": "fc2",
-          "question": "Keliling persegi s = 5?",
+          "question": "Keliling persegi dengan sisi s = 5?",
           "answer": "20 (4 × 5)"
         },
         {
           "id": "fc3",
-          "question": "Luas segitiga a=6, t=8?",
+          "question": "Luas segitiga dengan alas 6 dan tinggi 8?",
           "answer": "24 (½ × 6 × 8)"
         },
         {
           "id": "fc4",
-          "question": "Luas trapesium sejajar 5,7 tinggi 4?",
+          "question": "Luas trapesium dengan sisi sejajar 5 & 7 serta tinggi 4?",
           "answer": "24 (½(5+7) × 4)"
+        },
+        {
+          "id": "fc5",
+          "question": "Berapa jumlah dua sudut yang saling berpelurus?",
+          "answer": "180°"
+        },
+        {
+          "id": "fc6",
+          "question": "Apa rumus Teorema Pythagoras?",
+          "answer": "a² + b² = c²"
+        },
+        {
+          "id": "fc7",
+          "question": "Apa yang dimaksud dengan Translasi?",
+          "answer": "Pergeseran posisi titik tanpa mengubah bentuk atau ukuran."
+        },
+        {
+          "id": "fc8",
+          "question": "Apa hubungan sudut pusat dan sudut keliling?",
+          "answer": "Sudut Pusat = 2 × Sudut Keliling (jika busur sama)"
+        },
+        {
+          "id": "fc9",
+          "question": "Berapa sudut antara jari-jari dan garis singgung?",
+          "answer": "90° (Tegak lurus)"
+        },
+        {
+          "id": "fc10",
+          "question": "Sebutkan satu set Triple Pythagoras!",
+          "answer": "3, 4, 5 atau 5, 12, 13"
+        },
+        {
+          "id": "fc11",
+          "question": "Apa syarat dua bangun dikatakan sebangun?",
+          "answer": "Sudut sama besar dan perbandingan sisi-sisi yang bersesuaian sama."
         }
       ],
       "quiz": {
@@ -746,28 +1855,80 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Luas lingkaran jari-jari 14 cm (π=22/7)?",
+            "question": "Sebuah taman berbentuk lingkaran memiliki jari-jari 14 meter. Berapakah luas taman tersebut?",
             "options": [
-              "308 cm²",
-              "616 cm²",
-              "154 cm²",
-              "88 cm²"
+              "308 m²",
+              "616 m²",
+              "154 m²",
+              "88 m²"
             ],
             "answer": 1,
-            "explanation": "L = 22/7 × 14² = 616 cm²"
+            "explanation": "L = πr² = 22/7 × 14 × 14 = 22 × 2 × 14 = 616 m²."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Keliling persegi panjang 8×5?",
+            "question": "Berapakah keliling persegi panjang yang memiliki panjang 8 cm dan lebar 5 cm?",
             "options": [
-              "40",
-              "26",
-              "13",
-              "80"
+              "40 cm",
+              "26 cm",
+              "13 cm",
+              "80 cm"
             ],
             "answer": 1,
-            "explanation": ""
+            "explanation": "K = 2(p + l) = 2(8 + 5) = 2(13) = 26 cm."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Sebuah segitiga siku-siku memiliki sisi tegak 9 cm dan 12 cm. Berapakah panjang sisi miringnya?",
+            "options": [
+              "15 cm",
+              "21 cm",
+              "18 cm",
+              "25 cm"
+            ],
+            "answer": 0,
+            "explanation": "c² = 9² + 12² = 81 + 144 = 225. √225 = 15 cm."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Jika sudut pusat sebuah lingkaran adalah 80°, berapakah besar sudut keliling yang menghadap busur yang sama?",
+            "options": [
+              "160°",
+              "80°",
+              "40°",
+              "20°"
+            ],
+            "answer": 2,
+            "explanation": "Sudut Keliling = ½ × Sudut Pusat = ½ × 80° = 40°."
+          },
+          {
+            "id": "q5",
+            "type": "multiple_choice",
+            "question": "Syarat dua segitiga dipastikan kongruen adalah sebagai berikut, KECUALI...",
+            "options": [
+              "Sisi, Sisi, Sisi",
+              "Sisi, Sudut, Sisi",
+              "Sudut, Sudut, Sudut",
+              "Sudut, Sisi, Sudut"
+            ],
+            "answer": 2,
+            "explanation": "Sudut, Sudut, Sudut (Sd, Sd, Sd) hanya membuktikan kesebangunan, bukan kongruensi."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Titik A(2, 3) ditranslasikan oleh T(4, -1). Di manakah posisi titik bayangannya?",
+            "options": [
+              "(6, 2)",
+              "(-2, 4)",
+              "(6, 4)",
+              "(2, 2)"
+            ],
+            "answer": 0,
+            "explanation": "(2+4, 3-1) = (6, 2)."
           }
         ]
       }
@@ -775,16 +1936,63 @@
     {
       "id": "bangun-ruang",
       "title": "Bangun Ruang",
-      "description": "Volume dan luas permukaan bangun ruang",
+      "description": "Mempelajari karakteristik, jaring-jaring, luas permukaan, dan volume bangun ruang sisi datar serta sisi lengkung dalam konteks kehidupan sehari-hari.",
       "lessons": [
         {
-          "id": "volume-luas",
-          "title": "Volume dan Luas Permukaan",
-          "estMinutes": 15,
+          "id": "unsur-sisi-datar",
+          "title": "Unsur-unsur Bangun Ruang Sisi Datar",
+          "estMinutes": 10,
           "content": [
             {
               "type": "heading",
+              "level": 1,
+              "text": "Mengenal Sisi, Rusuk, dan Titik Sudut"
+            },
+            {
+              "type": "text",
+              "text": "Sebelum menghitung volume, kita harus mengenal bagian-bagian penyusun bangun ruang. Bangun ruang sisi datar (seperti kubus, balok, prisma, dan limas) memiliki komponen yang pasti."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Sisi: Bidang datar yang membatasi bagian dalam dan luar bangun ruang.",
+                "Rusuk: Garis pertemuan antara dua sisi.",
+                "Titik Sudut: Titik pertemuan antara tiga rusuk atau lebih."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Rumus Euler"
+            },
+            {
+              "type": "text",
+              "text": "Untuk bangun ruang sisi datar yang cembung, terdapat hubungan unik antara jumlah Titik Sudut (V), Rusuk (E), dan Sisi (F)."
+            },
+            {
+              "type": "math",
+              "tex": "V - E + F = 2",
+              "display": true
+            },
+            {
+              "type": "highlight",
+              "text": "Contoh: Kubus memiliki 8 Titik Sudut, 12 Rusuk, dan 6 Sisi. 8 - 12 + 6 = 2."
+            }
+          ]
+        },
+        {
+          "id": "volume-luas",
+          "title": "Volume dan Luas Permukaan",
+          "estMinutes": 20,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
               "text": "Bangun Ruang Sisi Datar dan Lengkung"
+            },
+            {
+              "type": "text",
+              "text": "Volume adalah isi atau kapasitas ruang, sedangkan luas permukaan adalah total luas seluruh bidang yang menyelimuti bangun tersebut."
             },
             {
               "type": "table",
@@ -837,16 +2045,113 @@
               "text": "Hubungan Volume"
             },
             {
+              "type": "text",
+              "text": "Matematikawan menemukan hubungan menarik antara bangun-bangun yang memiliki alas dan tinggi yang sama."
+            },
+            {
               "type": "list",
               "items": [
-                "Volume kerucut = ⅓ volume tabung",
+                "Volume kerucut = ⅓ volume tabung (dengan r dan t yang sama)",
                 "Volume bola = ⁴⁄₃ volume tabung setengah",
-                "Volume limas = ⅓ volume prisma"
+                "Volume limas = ⅓ volume prisma (dengan alas dan t yang sama)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Garis Pelukis pada Kerucut"
+            },
+            {
+              "type": "text",
+              "text": "Berbeda dengan tinggi (t) yang tegak lurus ke alas, garis pelukis (s) adalah sisi miring kerucut. Kita mencarinya dengan rumus Pythagoras."
+            },
+            {
+              "type": "math",
+              "tex": "s = \\sqrt{r^2 + t^2}",
+              "display": true
+            },
+            {
+              "type": "highlight",
+              "text": "Hati-hati! Gunakan 's' (garis pelukis) untuk luas permukaan, tapi gunakan 't' (tinggi) untuk volume kerucut."
+            }
+          ]
+        },
+        {
+          "id": "jaring-dan-gabungan",
+          "title": "Jaring-Jaring & Gabungan Bangun Ruang",
+          "estMinutes": 15,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Jaring-Jaring Bangun Ruang"
+            },
+            {
+              "type": "text",
+              "text": "Jaring-jaring adalah gabungan bangun datar penyusun bangun ruang yang jika dilipat akan membentuk bangun ruang tersebut. Ini seperti \"membongkar\" kardus menjadi lembaran datar."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Jaring-jaring Kubus: Terdiri dari 6 persegi dengan pola tertentu (seperti pola salib).",
+                "Jaring-jaring Tabung: Terdiri dari 2 lingkaran (alas & tutup) dan 1 persegi panjang (selimut).",
+                "Jaring-jaring Kerucut: Terdiri dari 1 lingkaran (alas) dan 1 juring lingkaran (selimut)."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Gabungan Bangun Ruang"
+            },
+            {
+              "type": "text",
+              "text": "Dalam kehidupan nyata, banyak benda adalah gabungan. Misalnya: pensil (silinder + kerucut) atau kapsul obat (silinder + 2 setengah bola)."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Volume Gabungan: Cukup jumlahkan volume masing-masing bangun penyusun.",
+                "Luas Permukaan Gabungan: Jumlahkan luas sisi luar yang tampak. Bagian yang saling berhimpit/menempel TIDAK DIHITUNG."
               ]
             },
             {
               "type": "highlight",
-              "text": "s pada kerucut adalah garis pelukis (bukan tinggi)"
+              "text": "Contoh: Jika sebuah kerucut diletakkan tepat di atas tabung, maka tutup tabung dan alas kerucut tertutup (tidak dihitung dalam luas permukaan luar)."
+            }
+          ]
+        },
+        {
+          "id": "masalah-kontekstual",
+          "title": "Masalah Kontekstual",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Penerapan di Dunia Nyata"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kapasitas Tangki Air"
+            },
+            {
+              "type": "text",
+              "text": "Jika kita punya tangki berbentuk tabung dengan jari-jari 1 m dan tinggi 2 m, berapa liter air yang bisa ditampung? (Ingat: $1 m^3 = 1000 liter$)."
+            },
+            {
+              "type": "math",
+              "tex": "V = \\pi \\times 1^2 \\times 2 = 2\\pi \\approx 6,28 m^3 = 6280 liter.",
+              "display": true
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Luas Kulit Bola"
+            },
+            {
+              "type": "text",
+              "text": "Tahukah kamu? Luas permukaan bola tepat sama dengan luas selimut tabung yang jari-jari dan tingginya sama dengan diameter bola tersebut. Hal ini digunakan untuk menghitung kebutuhan bahan pembuat bola sepak atau kubah masjid."
             }
           ]
         }
@@ -871,6 +2176,26 @@
           "id": "fc4",
           "question": "Volume tabung r=7, t=10?",
           "answer": "1540 (22/7 × 49 × 10)"
+        },
+        {
+          "id": "fc5",
+          "question": "Jaring-jaring tabung terdiri dari bangun datar apa saja?",
+          "answer": "2 lingkaran (alas dan tutup) dan 1 persegi panjang (selimut)"
+        },
+        {
+          "id": "fc6",
+          "question": "Apa itu rumus Euler untuk bangun ruang?",
+          "answer": "V - E + F = 2 (Titik Sudut - Rusuk + Sisi = 2)"
+        },
+        {
+          "id": "fc7",
+          "question": "Bagaimana cara mencari garis pelukis (s) kerucut?",
+          "answer": "Menggunakan Pythagoras: s = √(r² + t²)"
+        },
+        {
+          "id": "fc8",
+          "question": "Jika dua bangun ruang digabung, apakah luas permukaannya tinggal dijumlahkan?",
+          "answer": "Tidak, luas bagian yang berhimpitan (menempel) harus dikurangi karena tidak berada di permukaan luar."
         }
       ],
       "quiz": {
@@ -878,20 +2203,20 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Volume balok 4×3×5?",
+            "question": "Sebuah balok memiliki panjang 4 cm, lebar 3 cm, dan tinggi 5 cm. Berapakah volumenya?",
             "options": [
-              "12",
-              "60",
-              "30",
-              "47"
+              "12 cm³",
+              "60 cm³",
+              "30 cm³",
+              "47 cm³"
             ],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Volume balok = p × l × t = 4 × 3 × 5 = 60 cm³."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Luas permukaan bola r=7 (π=22/7)?",
+            "question": "Luas permukaan bola dengan jari-jari 7 cm (π=22/7) adalah...",
             "options": [
               "154 cm²",
               "308 cm²",
@@ -899,7 +2224,46 @@
               "1232 cm²"
             ],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Luas Permukaan Bola = 4πr² = 4 × 22/7 × 7 × 7 = 4 × 22 × 7 = 616 cm²."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Jika sebuah limas memiliki luas alas 60 cm² dan tinggi 10 cm, berapakah volumenya?",
+            "options": [
+              "600 cm³",
+              "300 cm³",
+              "200 cm³",
+              "100 cm³"
+            ],
+            "answer": 2,
+            "explanation": "Volume Limas = ⅓ × Luas Alas × Tinggi = ⅓ × 60 × 10 = 200 cm³."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Prisma segitiga memiliki 5 sisi dan 6 titik sudut. Berapakah jumlah rusuknya menurut hukum Euler?",
+            "options": [
+              "7",
+              "8",
+              "9",
+              "12"
+            ],
+            "answer": 2,
+            "explanation": "V - E + F = 2 -> 6 - E + 5 = 2 -> 11 - E = 2 -> E = 9."
+          },
+          {
+            "id": "q5",
+            "type": "multiple_choice",
+            "question": "Sebuah kerucut memiliki jari-jari 6 cm dan tinggi 8 cm. Berapakah panjang garis pelukisnya (s)?",
+            "options": [
+              "10 cm",
+              "14 cm",
+              "24 cm",
+              "100 cm"
+            ],
+            "answer": 0,
+            "explanation": "s = √(6² + 8²) = √(36 + 64) = √100 = 10 cm."
           }
         ]
       }
@@ -907,21 +2271,26 @@
     {
       "id": "statistika",
       "title": "Statistika",
-      "description": "Mean, median, modus, dan penyajian data",
+      "description": "Memahami pengumpulan, pengolahan, penyajian, dan analisis data dalam kehidupan sehari-hari.",
       "lessons": [
         {
           "id": "ukuran-pemusatan",
           "title": "Ukuran Pemusatan Data",
-          "estMinutes": 10,
+          "estMinutes": 15,
           "content": [
             {
               "type": "heading",
-              "text": "Ukuran Pemusatan Data"
+              "level": 1,
+              "text": "Mengenal Ukuran Pemusatan Data"
             },
             {
               "type": "heading",
               "level": 2,
               "text": "Mean (Rata-rata)"
+            },
+            {
+              "type": "text",
+              "text": "Mean adalah nilai rata-rata dari sekumpulan data. Bayangkan kamu membagi rata semua kelereng kepada teman-temanmu agar setiap orang mendapat jumlah yang sama."
             },
             {
               "type": "math",
@@ -934,10 +2303,14 @@
               "text": "Median (Nilai Tengah)"
             },
             {
+              "type": "text",
+              "text": "Median adalah nilai yang berada tepat di tengah setelah data diurutkan dari yang terkecil ke terbesar."
+            },
+            {
               "type": "list",
               "items": [
-                "Data ganjil: nilai tengah setelah diurutkan",
-                "Data genap: rata-rata dua nilai tengah"
+                "Data ganjil: Nilai yang berada di posisi tengah.",
+                "Data genap: Rata-rata dari dua nilai yang berada di tengah."
               ]
             },
             {
@@ -947,37 +2320,139 @@
             },
             {
               "type": "text",
-              "text": "Nilai yang paling sering muncul dalam data."
+              "text": "Modus adalah nilai yang paling sering muncul atau memiliki frekuensi tertinggi. Sebuah data bisa memiliki lebih dari satu modus atau tidak punya modus sama sekali."
+            },
+            {
+              "type": "highlight",
+              "text": "Modus sangat berguna untuk mengetahui tren, misalnya ukuran sepatu yang paling banyak dibeli di toko."
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Contoh"
+              "text": "Contoh Kasus"
             },
             {
               "type": "text",
-              "text": "Data: 5, 7, 7, 8, 9, 10"
+              "text": "Data nilai ulangan harian: 5, 7, 7, 8, 9, 10"
             },
             {
               "type": "list",
               "items": [
-                "Mean = (5+7+7+8+9+10)/6 = 46/6 ≈ 7,67",
-                "Median = (7+8)/2 = 7,5",
+                "Mean = (5 + 7 + 7 + 8 + 9 + 10) / 6 = 46 / 6 ≈ 7,67",
+                "Median = (7 + 8) / 2 = 7,5",
                 "Modus = 7 (muncul 2 kali)"
               ]
+            }
+          ]
+        },
+        {
+          "id": "penyajian-data",
+          "title": "Penyajian Data Visual",
+          "estMinutes": 20,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Mengubah Angka Menjadi Gambar"
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Penyajian Data"
+              "text": "Mengapa Data Harus Disajikan?"
+            },
+            {
+              "type": "text",
+              "text": "Data mentah seringkali sulit dibaca. Dengan grafik, kita bisa melihat pola atau perbandingan dengan lebih cepat dan menarik."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Jenis-jenis Diagram"
             },
             {
               "type": "list",
               "items": [
-                "Diagram batang: membandingkan kategori",
-                "Diagram garis: menunjukkan perubahan",
-                "Diagram lingkaran: menunjukkan proporsi"
+                "Diagram Batang: Paling cocok untuk membandingkan jumlah antar kategori (contoh: jumlah siswa berdasarkan hobi).",
+                "Diagram Garis: Digunakan untuk melihat perkembangan data dari waktu ke waktu (contoh: suhu badan pasien atau harga emas).",
+                "Diagram Lingkaran: Menunjukkan bagian-bagian dari keseluruhan dalam bentuk persen atau derajat (contoh: komposisi anggaran OSIS)."
               ]
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Jenis Diagram",
+                "Kegunaan Utama",
+                "Contoh Nyata"
+              ],
+              "rows": [
+                [
+                  "Batang",
+                  "Perbandingan",
+                  "Data tinggi badan siswa kelas 7"
+                ],
+                [
+                  "Garis",
+                  "Tren Waktu",
+                  "Laporan penjualan harian kantin"
+                ],
+                [
+                  "Lingkaran",
+                  "Proporsi",
+                  "Persentase jenis sampah di sekolah"
+                ]
+              ]
+            },
+            {
+              "type": "image",
+              "url": "[https://upload.wikimedia.org/wikipedia/commons/b/b3/Simple_bar_chart.png](https://upload.wikimedia.org/wikipedia/commons/b/b3/Simple_bar_chart.png)",
+              "caption": "Contoh diagram batang untuk membandingkan frekuensi data."
+            }
+          ]
+        },
+        {
+          "id": "ukuran-penyebaran",
+          "title": "Ukuran Penyebaran Data",
+          "estMinutes": 15,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Sebaran dan Jangkauan Data"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Jangkauan (Range)"
+            },
+            {
+              "type": "text",
+              "text": "Jangkauan adalah selisih antara nilai terbesar dan nilai terkecil dalam sekumpulan data. Ini membantu kita melihat seberapa jauh data \"tersebar\"."
+            },
+            {
+              "type": "math",
+              "tex": "J = x_{max} - x_{min}",
+              "display": true
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kuartil"
+            },
+            {
+              "type": "text",
+              "text": "Kuartil membagi data yang sudah diurutkan menjadi empat bagian yang sama besar."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Kuartil Bawah (Q1): Nilai tengah antara nilai terkecil dan median.",
+                "Kuartil Tengah (Q2): Sama dengan Median.",
+                "Kuartil Atas (Q3): Nilai tengah antara median dan nilai terbesar."
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Jangkauan Interkuartil (QR = Q3 - Q1) membantu kita melihat penyebaran data di bagian tengah, sehingga tidak terganggu oleh nilai yang terlalu ekstrem."
             }
           ]
         }
@@ -1002,6 +2477,16 @@
           "id": "fc4",
           "question": "Diagram untuk proporsi?",
           "answer": "Diagram lingkaran (pie chart)"
+        },
+        {
+          "id": "fc5",
+          "question": "Apa itu Jangkauan?",
+          "answer": "Selisih antara nilai tertinggi dan nilai terendah"
+        },
+        {
+          "id": "fc6",
+          "question": "Kapan menggunakan diagram garis?",
+          "answer": "Saat ingin menunjukkan perubahan data dari waktu ke waktu (tren)"
         }
       ],
       "quiz": {
@@ -1014,15 +2499,15 @@
               "6",
               "8",
               "10",
-              "40"
+              "12"
             ],
             "answer": 1,
-            "explanation": "Mean = 40/5 = 8"
+            "explanation": "Mean = (4+6+8+10+12)/5 = 40/5 = 8"
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Modus dari 2,3,3,4,5,5,5,6?",
+            "question": "Modus dari data: 2, 3, 3, 4, 5, 5, 5, 6?",
             "options": [
               "2",
               "3",
@@ -1030,7 +2515,33 @@
               "6"
             ],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Angka 5 muncul sebanyak 3 kali, paling sering dibanding angka lainnya."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Berapa jangkauan dari data: 12, 15, 10, 20, 8?",
+            "options": [
+              "8",
+              "10",
+              "12",
+              "20"
+            ],
+            "answer": 2,
+            "explanation": "Jangkauan = Nilai Terbesar - Nilai Terkecil = 20 - 8 = 12. Oh tunggu, 20 - 8 adalah 12 (Opsi C)."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Manakah diagram yang paling cocok untuk melihat kenaikan suhu dari pagi hingga malam?",
+            "options": [
+              "Lingkaran",
+              "Batang",
+              "Garis",
+              "Gambar"
+            ],
+            "answer": 2,
+            "explanation": "Diagram garis sangat efektif untuk menunjukkan tren perubahan dalam periode waktu tertentu."
           }
         ]
       }
@@ -1038,16 +2549,21 @@
     {
       "id": "peluang",
       "title": "Peluang",
-      "description": "Peluang kejadian dan frekuensi harapan",
+      "description": "Memahami konsep peluang kejadian, ruang sampel, frekuensi harapan, serta perbedaan peluang teoretik dan empirik dalam kehidupan sehari-hari.",
       "lessons": [
         {
           "id": "peluang-dasar",
           "title": "Konsep Peluang",
-          "estMinutes": 8,
+          "estMinutes": 10,
           "content": [
             {
               "type": "heading",
+              "level": 1,
               "text": "Peluang Kejadian"
+            },
+            {
+              "type": "text",
+              "text": "Peluang adalah nilai yang menunjukkan seberapa besar kemungkinan suatu peristiwa akan terjadi. Dalam matematika, kita membandingkan banyaknya kejadian yang kita inginkan dengan total seluruh kemungkinan yang ada."
             },
             {
               "type": "math",
@@ -1056,20 +2572,20 @@
             },
             {
               "type": "text",
-              "text": "P(A) = peluang kejadian A, n(A) = banyak kejadian A, n(S) = banyak ruang sampel"
+              "text": "P(A) = peluang kejadian A, n(A) = banyak anggota kejadian A, n(S) = banyak anggota ruang sampel (total kemungkinan)."
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Sifat Peluang"
+              "text": "Sifat-Sifat Peluang"
             },
             {
               "type": "list",
               "items": [
-                "0 ≤ P(A) ≤ 1",
-                "P(A) = 0 → kejadian mustahil",
-                "P(A) = 1 → kejadian pasti",
-                "P(A) + P(A') = 1"
+                "0 ≤ P(A) ≤ 1 (Nilai peluang tidak pernah negatif dan tidak lebih dari 1)",
+                "P(A) = 0 → Kejadian mustahil (Contoh: Matahari terbit dari barat)",
+                "P(A) = 1 → Kejadian pasti (Contoh: Manusia akan mati)",
+                "P(A) + P(A') = 1 (Peluang kejadian A ditambah peluang bukan A sama dengan 1)"
               ]
             },
             {
@@ -1078,17 +2594,120 @@
               "text": "Frekuensi Harapan"
             },
             {
+              "type": "text",
+              "text": "Frekuensi harapan adalah perkiraan berapa kali suatu kejadian muncul jika percobaan dilakukan berulang kali."
+            },
+            {
               "type": "math",
               "tex": "F_h = n \\times P(A)",
               "display": true
             },
             {
+              "type": "highlight",
+              "text": "Contoh: Peluang muncul mata dadu 6 adalah 1/6. Jika dadu dilempar 60 kali, maka kita berharap angka 6 muncul sebanyak 10 kali (60 × 1/6)."
+            }
+          ]
+        },
+        {
+          "id": "ruang-sampel",
+          "title": "Ruang Sampel dan Titik Sampel",
+          "estMinutes": 15,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Menentukan Ruang Sampel"
+            },
+            {
               "type": "text",
-              "text": "n = banyak percobaan"
+              "text": "Sebelum menghitung peluang, kita harus tahu semua kemungkinan yang bisa terjadi. Kumpulan semua hasil yang mungkin disebut Ruang Sampel (S)."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Ruang Sampel"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Alat",
+                "Ruang Sampel (S)",
+                "n(S)"
+              ],
+              "rows": [
+                [
+                  "Satu Koin",
+                  "{Angka, Gambar}",
+                  "2"
+                ],
+                [
+                  "Satu Dadu",
+                  "{1, 2, 3, 4, 5, 6}",
+                  "6"
+                ],
+                [
+                  "Dua Koin",
+                  "{AA, AG, GA, GG}",
+                  "4"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Cara Menentukan n(S)"
+            },
+            {
+              "type": "text",
+              "text": "Untuk dua kejadian atau lebih, kita bisa menggunakan tabel atau diagram pohon. Misalnya, melempar dua dadu sekaligus memiliki total kemungkinan 6 × 6 = 36."
+            },
+            {
+              "type": "image",
+              "url": "[https://upload.wikimedia.org/wikipedia/commons/c/c4/2-dice-outcomes.png](https://upload.wikimedia.org/wikipedia/commons/c/c4/2-dice-outcomes.png)",
+              "caption": "Tabel ruang sampel untuk pelemparan dua buah dadu (36 kemungkinan)."
+            }
+          ]
+        },
+        {
+          "id": "empirik-teoretik",
+          "title": "Peluang Empirik vs Peluang Teoretik",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Eksperimen vs Teori"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peluang Teoretik"
+            },
+            {
+              "type": "text",
+              "text": "Peluang yang dihitung berdasarkan teori matematika tanpa melakukan percobaan. Contoh: Secara teori, peluang koin muncul angka adalah 1/2."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Peluang Empirik"
+            },
+            {
+              "type": "text",
+              "text": "Peluang yang diperoleh dari hasil percobaan nyata. Jika kamu melempar koin 10 kali dan ternyata angka muncul 6 kali, maka peluang empiriknya adalah 6/10."
+            },
+            {
+              "type": "math",
+              "tex": "P(E) = \\frac{f}{n}",
+              "display": true
+            },
+            {
+              "type": "text",
+              "text": "f = frekuensi kejadian yang muncul, n = total percobaan."
             },
             {
               "type": "highlight",
-              "text": "Contoh: Peluang dadu muncul 6 = 1/6. Jika dilempar 60 kali, frekuensi harapan = 60 × 1/6 = 10 kali."
+              "text": "Semakin banyak percobaan dilakukan (n semakin besar), maka nilai peluang empirik akan semakin mendekati nilai peluang teoretik."
             }
           ]
         }
@@ -1096,23 +2715,33 @@
       "flashcards": [
         {
           "id": "fc1",
-          "question": "Rumus peluang?",
-          "answer": "P(A) = n(A)/n(S)"
+          "question": "Apa rumus peluang suatu kejadian?",
+          "answer": "P(A) = n(A) / n(S)"
         },
         {
           "id": "fc2",
-          "question": "Peluang dadu muncul genap?",
-          "answer": "3/6 = 1/2 (ada 3 angka genap)"
+          "question": "Apa arti peluang bernilai 0?",
+          "answer": "Kejadian tersebut mustahil terjadi."
         },
         {
           "id": "fc3",
-          "question": "Rumus frekuensi harapan?",
-          "answer": "Fh = n × P(A)"
+          "question": "Jika P(A) = 0,3, berapa peluang bukan A?",
+          "answer": "0,7 (karena 1 - 0,3 = 0,7)"
         },
         {
           "id": "fc4",
-          "question": "Nilai peluang selalu antara?",
-          "answer": "0 sampai 1"
+          "question": "Berapa n(S) untuk pelemparan dua buah koin?",
+          "answer": "4 (AA, AG, GA, GG)"
+        },
+        {
+          "id": "fc5",
+          "question": "Apa itu frekuensi harapan?",
+          "answer": "Banyaknya percobaan dikalikan peluang kejadian."
+        },
+        {
+          "id": "fc6",
+          "question": "Peluang muncul mata dadu prima pada dadu standar?",
+          "answer": "3/6 atau 1/2 (angka 2, 3, 5)"
         }
       ],
       "quiz": {
@@ -1120,7 +2749,7 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Peluang koin muncul angka?",
+            "question": "Sebuah koin dilempar satu kali. Berapakah peluang munculnya Gambar?",
             "options": [
               "1/4",
               "1/3",
@@ -1128,12 +2757,12 @@
               "1"
             ],
             "answer": 2,
-            "explanation": ""
+            "explanation": "n(A) = 1 (Gambar), n(S) = 2 (Angka, Gambar). Maka P = 1/2."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Dadu dilempar 120 kali, frekuensi harapan muncul 5?",
+            "question": "Sebuah dadu dilempar 120 kali. Berapakah frekuensi harapan munculnya mata dadu 5?",
             "options": [
               "10",
               "20",
@@ -1141,7 +2770,33 @@
               "60"
             ],
             "answer": 1,
-            "explanation": "Fh = 120 × 1/6 = 20"
+            "explanation": "P(5) = 1/6. Fh = 120 × 1/6 = 20."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Dalam sebuah kantong terdapat 3 bola merah dan 5 bola biru. Berapa peluang terambilnya satu bola merah?",
+            "options": [
+              "3/5",
+              "5/8",
+              "3/8",
+              "1/2"
+            ],
+            "answer": 2,
+            "explanation": "n(Merah) = 3. Total bola n(S) = 3 + 5 = 8. Maka P = 3/8."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Rudi melempar koin 50 kali dan muncul Angka sebanyak 20 kali. Peluang empirik munculnya Gambar adalah...",
+            "options": [
+              "20/50",
+              "30/50",
+              "1/2",
+              "1"
+            ],
+            "answer": 1,
+            "explanation": "Jika Angka muncul 20 kali, maka Gambar muncul 50 - 20 = 30 kali. Peluang empirik Gambar = 30/50."
           }
         ]
       }
