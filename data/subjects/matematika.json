@@ -115,10 +115,10 @@
             {
               "type": "list",
               "items": [
-                "a^m \\times a^n = a^{m+n}",
-                "a^m \\div a^n = a^{m-n}",
-                "(a^m)^n = a^{m \\times n}",
-                "a^0 = 1 (untuk semua a \\neq 0)"
+                "\\(a^m \\times a^n = a^{m+n}\\)",
+                "\\(a^m \\div a^n = a^{m-n}\\)",
+                "\\((a^m)^n = a^{m \\times n}\\)",
+                "\\(a^0 = 1\\) (untuk semua \\(a \\neq 0\\))"
               ]
             },
             {
@@ -607,7 +607,7 @@
             },
             {
               "type": "math",
-              "tex": "A = \\{ x \\mid 1 < x \\leq 5, x \\in \\mathbb{Z} \\}",
+              "tex": "A = { x \\mid 1 < x \\leq 5, x \\in \\mathbb{Z} }",
               "display": true
             }
           ]
@@ -739,6 +739,169 @@
               "text": "Himpunan membantu kita mengelompokkan data agar terorganisir, seperti kategori produk di minimarket atau genre film di aplikasi streaming."
             }
           ]
+        },
+        {
+          "id": "diagram-venn-lanjut",
+          "title": "Diagram Venn Lebih Lanjut",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Memahami Diagram Venn Lebih Dalam"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Interpretasi Diagram"
+            },
+            {
+              "type": "text",
+              "text": "Diagram Venn tidak hanya untuk dua himpunan, tetapi bisa untuk tiga himpunan atau lebih. Setiap irisan menunjukkan hubungan antar kelompok."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Irisan dua himpunan: bagian tengah dua lingkaran",
+                "Irisan tiga himpunan: bagian tengah semua lingkaran",
+                "Bagian luar lingkaran: anggota yang tidak termasuk himpunan mana pun"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Diagram Venn membantu visualisasi data agar lebih mudah dipahami."
+            }
+          ]
+        },
+        {
+          "id": "kardinalitas",
+          "title": "Kardinalitas dan Perhitungan Anggota",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Menghitung Banyak Anggota Himpunan"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Apa itu Kardinalitas?"
+            },
+            {
+              "type": "text",
+              "text": "Kardinalitas adalah banyaknya anggota dalam suatu himpunan. Dilambangkan dengan n(A)."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Himpunan",
+                "Anggota",
+                "Kardinalitas"
+              ],
+              "rows": [
+                [
+                  "A = {1,2,3}",
+                  "3 anggota",
+                  "n(A)=3"
+                ],
+                [
+                  "B = {a,b}",
+                  "2 anggota",
+                  "n(B)=2"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Rumus Penting"
+            },
+            {
+              "type": "text",
+              "text": "Untuk dua himpunan, kita gunakan rumus agar tidak menghitung anggota dua kali."
+            },
+            {
+              "type": "math",
+              "tex": "n(A \\cup B) = n(A) + n(B) - n(A \\cap B)",
+              "display": true
+            },
+            {
+              "type": "highlight",
+              "text": "Jangan lupa mengurangi irisan agar tidak terhitung dua kali."
+            }
+          ]
+        },
+        {
+          "id": "subset-power",
+          "title": "Himpunan Bagian dan Kuasa",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Himpunan Bagian"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Subset dan Power Set"
+            },
+            {
+              "type": "text",
+              "text": "Himpunan bagian adalah himpunan yang semua anggotanya terdapat dalam himpunan lain."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Jika A = {1,2}, maka subset-nya: {}, {1}, {2}, {1,2}",
+                "Banyaknya subset = 2^n (n = jumlah anggota)"
+              ]
+            },
+            {
+              "type": "math",
+              "tex": "|P(A)| = 2^n",
+              "display": true
+            },
+            {
+              "type": "highlight",
+              "text": "Power set adalah kumpulan semua himpunan bagian."
+            }
+          ]
+        },
+        {
+          "id": "problem-solving",
+          "title": "Pemecahan Masalah Himpunan",
+          "estMinutes": 15,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Strategi Menyelesaikan Soal"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Langkah-langkah"
+            },
+            {
+              "type": "text",
+              "text": "Untuk menyelesaikan soal himpunan, terutama cerita, gunakan langkah sistematis."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Tentukan himpunan yang diketahui",
+                "Gambar Diagram Venn",
+                "Masukkan data ke diagram",
+                "Gunakan rumus jika diperlukan"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Menggambar diagram sangat membantu menghindari kesalahan."
+            }
+          ]
         }
       ],
       "flashcards": [
@@ -771,6 +934,16 @@
           "id": "fc6",
           "question": "Apa lambang himpunan kosong?",
           "answer": "{ } atau ∅"
+        },
+        {
+          "id": "fc7",
+          "question": "Apa itu kardinalitas?",
+          "answer": "Banyaknya anggota dalam suatu himpunan"
+        },
+        {
+          "id": "fc8",
+          "question": "Rumus jumlah subset?",
+          "answer": "2^n"
         }
       ],
       "quiz": {
@@ -799,7 +972,7 @@
               "5"
             ],
             "answer": 0,
-            "explanation": "Menggunakan rumus n(A∪B) = n(A) + n(B) - n(A∩B) = 10 + 8 - 3 = 15."
+            "explanation": "Menggunakan rumus n(A∪B) = 10 + 8 - 3 = 15."
           },
           {
             "id": "q3",
@@ -812,20 +985,33 @@
               "Kumpulan makanan yang pedas"
             ],
             "answer": 2,
-            "explanation": "Bilangan asli antara 5 dan 10 adalah {6, 7, 8, 9}. Ini terdefinisi pasti, tidak bergantung pendapat orang."
+            "explanation": "Bilangan asli antara 5 dan 10 adalah {6,7,8,9}."
           },
           {
             "id": "q4",
             "type": "multiple_choice",
-            "question": "Jika S = {1, 2, 3, 4, 5} dan A = {2, 4}, maka A' (komplemen A) adalah...",
+            "question": "Jika S = {1,2,3,4,5} dan A = {2,4}, maka A' adalah...",
             "options": [
-              "{2, 4}",
-              "{1, 3, 5}",
-              "{1, 2, 3, 4, 5}",
-              "{ }"
+              "{2,4}",
+              "{1,3,5}",
+              "{1,2,3,4,5}",
+              "{}"
             ],
             "answer": 1,
-            "explanation": "Komplemen A adalah semua anggota Semesta (S) yang tidak ada di dalam himpunan A."
+            "explanation": "Komplemen adalah anggota semesta yang tidak ada di A."
+          },
+          {
+            "id": "q5",
+            "type": "multiple_choice",
+            "question": "Jika A memiliki 3 anggota, berapa jumlah subset-nya?",
+            "options": [
+              "3",
+              "6",
+              "8",
+              "9"
+            ],
+            "answer": 2,
+            "explanation": "Jumlah subset = 2^n = 2^3 = 8."
           }
         ]
       }
@@ -1001,6 +1187,251 @@
               "text": "Ayah menabung Rp2.000.000 di bank dengan bunga 6% per tahun. Setelah 10 bulan, Ayah akan menerima bunga sebesar Rp100.000."
             }
           ]
+        },
+        {
+          "id": "harga-lanjut",
+          "title": "Harga Jual dan Harga Beli Lanjutan",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Menentukan Harga dalam Perdagangan"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menentukan Harga Jual"
+            },
+            {
+              "type": "text",
+              "text": "Kadang pedagang sudah menentukan persentase keuntungan yang diinginkan. Dari situ, kita bisa mencari harga jual."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Harga jual = Harga beli + Untung",
+                "Jika untung p%, maka HJ = HB × (100% + p%)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menentukan Harga Beli"
+            },
+            {
+              "type": "text",
+              "text": "Jika diketahui harga jual dan persentase keuntungan, kita bisa mencari harga beli."
+            },
+            {
+              "type": "list",
+              "items": [
+                "HB = HJ / (100% + p%)"
+              ]
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Diketahui",
+                "Ditanya",
+                "Rumus"
+              ],
+              "rows": [
+                [
+                  "HB & % untung",
+                  "HJ",
+                  "HJ = HB × (1 + p)"
+                ],
+                [
+                  "HJ & % untung",
+                  "HB",
+                  "HB = HJ ÷ (1 + p)"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Persentase harus diubah ke bentuk desimal saat dihitung (misal 20% = 0,2)."
+            }
+          ]
+        },
+        {
+          "id": "diskon-bertingkat",
+          "title": "Diskon Bertingkat dan Harga Akhir",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Diskon Lebih dari Satu Kali"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Diskon Bertingkat"
+            },
+            {
+              "type": "text",
+              "text": "Dalam kehidupan nyata, toko sering memberikan diskon lebih dari satu kali, misalnya diskon 20% lalu tambahan 10%."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Diskon tidak dijumlahkan langsung",
+                "Hitung secara bertahap dari harga terakhir"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh"
+            },
+            {
+              "type": "text",
+              "text": "Harga awal Rp100.000, diskon 20% lalu 10%."
+            },
+            {
+              "type": "math",
+              "tex": "Harga akhir = 100000 \\times 0.8 \\times 0.9",
+              "display": true
+            },
+            {
+              "type": "highlight",
+              "text": "Diskon bertingkat selalu lebih kecil dari penjumlahan diskon langsung."
+            }
+          ]
+        },
+        {
+          "id": "pajak",
+          "title": "Pajak dalam Kehidupan Sehari-hari",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Peran Pajak"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Jenis Pajak"
+            },
+            {
+              "type": "text",
+              "text": "Pajak digunakan untuk pembangunan negara seperti jalan, sekolah, dan rumah sakit."
+            },
+            {
+              "type": "list",
+              "items": [
+                "PPN: pajak saat membeli barang/jasa",
+                "PPh: pajak dari penghasilan"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Perhitungan"
+            },
+            {
+              "type": "text",
+              "text": "Pajak biasanya dihitung dari harga sebelum pajak."
+            },
+            {
+              "type": "math",
+              "tex": "Total = Harga \\times (1 + p)",
+              "display": true
+            },
+            {
+              "type": "highlight",
+              "text": "Pajak selalu menambah harga yang harus dibayar (untuk konsumen)."
+            }
+          ]
+        },
+        {
+          "id": "perbandingan-harga",
+          "title": "Perbandingan Harga dan Keuntungan",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Membandingkan Dua Penawaran"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Memilih yang Lebih Menguntungkan"
+            },
+            {
+              "type": "text",
+              "text": "Dalam kehidupan sehari-hari, kita sering membandingkan dua toko atau lebih untuk mendapatkan harga terbaik."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Hitung harga akhir setelah diskon",
+                "Bandingkan nilai uang yang dibayar"
+              ]
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Toko",
+                "Harga Awal",
+                "Diskon"
+              ],
+              "rows": [
+                [
+                  "A",
+                  "100.000",
+                  "20%"
+                ],
+                [
+                  "B",
+                  "120.000",
+                  "30%"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Harga lebih besar belum tentu lebih mahal setelah diskon."
+            }
+          ]
+        },
+        {
+          "id": "aplikasi",
+          "title": "Aplikasi Aritmatika Sosial dalam Kehidupan",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Matematika dalam Kehidupan Nyata"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Penggunaan"
+            },
+            {
+              "type": "text",
+              "text": "Aritmatika sosial sangat sering digunakan dalam kehidupan sehari-hari."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Menghitung kembalian saat belanja",
+                "Menentukan keuntungan saat jualan online",
+                "Menghitung diskon saat promo",
+                "Menabung di bank"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Aritmatika sosial membantu kita menjadi lebih bijak dalam mengelola uang."
+            }
+          ]
         }
       ],
       "flashcards": [
@@ -1033,6 +1464,16 @@
           "id": "fc6",
           "question": "Bagaimana mencari bunga jika menabung n bulan?",
           "answer": "Bunga = M × persen bunga × (n/12)"
+        },
+        {
+          "id": "fc7",
+          "question": "Apa itu diskon bertingkat?",
+          "answer": "Diskon yang diberikan lebih dari satu kali secara berurutan"
+        },
+        {
+          "id": "fc8",
+          "question": "Bagaimana cara memilih harga terbaik?",
+          "answer": "Bandingkan harga akhir setelah semua diskon"
         }
       ],
       "quiz": {
@@ -1074,7 +1515,7 @@
               "Rp11.000"
             ],
             "answer": 1,
-            "explanation": "Bruto total = 5 x 50 = 250 kg. Tara = 2% x 250 = 5 kg. Neto = 250 - 5 = 245 kg. Harga pokok = 2.450.000 / 245 = Rp10.000/kg."
+            "explanation": "Neto total = 245 kg, harga per kg = 2.450.000 ÷ 245 = 10.000."
           },
           {
             "id": "q4",
@@ -1087,12 +1528,12 @@
               "Rp200.000"
             ],
             "answer": 2,
-            "explanation": "PPN = 11% x 200.000 = 22.000. Total bayar = 200.000 + 22.000 = 222.000."
+            "explanation": "PPN = 22.000, total = 222.000."
           },
           {
             "id": "q5",
             "type": "multiple_choice",
-            "question": "Budi menabung Rp1.000.000 dengan bunga tunggal 12% per tahun. Berapa besar bunga setelah 6 bulan?",
+            "question": "Budi menabung Rp1.000.000 dengan bunga tunggal 12% per tahun. Berapa bunga setelah 6 bulan?",
             "options": [
               "Rp120.000",
               "Rp60.000",
@@ -1100,7 +1541,20 @@
               "Rp12.000"
             ],
             "answer": 1,
-            "explanation": "Bunga = 1.000.000 x 12/100 x 6/12 = 60.000."
+            "explanation": "Bunga = 1.000.000 × 12% × 6/12 = 60.000."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Harga Rp100.000 diskon 20% lalu 10%. Harga akhir?",
+            "options": [
+              "70.000",
+              "72.000",
+              "75.000",
+              "80.000"
+            ],
+            "answer": 1,
+            "explanation": "100.000 × 0.8 × 0.9 = 72.000."
           }
         ]
       }
@@ -1371,6 +1825,170 @@
               "text": "Pemfaktoran sangat berguna untuk menyederhanakan pecahan aljabar dan menyelesaikan persamaan kuadrat di kelas 9."
             }
           ]
+        },
+        {
+          "id": "operasi-aljabar",
+          "title": "Operasi Aljabar Lanjutan",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Operasi dalam Aljabar"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Penjumlahan dan Pengurangan"
+            },
+            {
+              "type": "text",
+              "text": "Suku sejenis dapat dijumlahkan atau dikurangkan dengan menjumlahkan koefisiennya."
+            },
+            {
+              "type": "list",
+              "items": [
+                "3x + 2x = 5x",
+                "5y - 2y = 3y"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Perkalian Aljabar"
+            },
+            {
+              "type": "text",
+              "text": "Gunakan sifat distributif untuk mengalikan bentuk aljabar."
+            },
+            {
+              "type": "math",
+              "tex": "a(b + c) = ab + ac",
+              "display": true
+            },
+            {
+              "type": "highlight",
+              "text": "Perkalian harus memperhatikan semua suku."
+            }
+          ]
+        },
+        {
+          "id": "substitusi",
+          "title": "Substitusi dan Nilai Aljabar",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Menghitung Nilai Variabel"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Substitusi Nilai"
+            },
+            {
+              "type": "text",
+              "text": "Substitusi berarti mengganti variabel dengan nilai tertentu untuk menghitung hasil."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Jika x = 2, maka 3x + 5 = 3(2) + 5 = 11"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Selalu kerjakan operasi sesuai urutan (kali dulu, baru tambah)."
+            }
+          ]
+        },
+        {
+          "id": "aplikasi-aljabar",
+          "title": "Persamaan dalam Kehidupan Nyata",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Aljabar di Sekitar Kita"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Kasus"
+            },
+            {
+              "type": "text",
+              "text": "Aljabar sering digunakan dalam kehidupan sehari-hari seperti menghitung biaya."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Total harga = harga barang × jumlah barang",
+                "Menentukan umur seseorang di masa depan",
+                "Menghitung jarak dan waktu perjalanan"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Aljabar membantu memecahkan masalah yang belum diketahui nilainya."
+            }
+          ]
+        },
+        {
+          "id": "grafik-fungsi",
+          "title": "Grafik Fungsi Linear",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Menggambar Grafik"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Cara Menggambar"
+            },
+            {
+              "type": "text",
+              "text": "Untuk menggambar grafik fungsi, kita bisa membuat tabel nilai."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "x",
+                "y = 2x + 1",
+                "Titik"
+              ],
+              "rows": [
+                [
+                  "0",
+                  "1",
+                  "(0,1)"
+                ],
+                [
+                  "1",
+                  "3",
+                  "(1,3)"
+                ],
+                [
+                  "2",
+                  "5",
+                  "(2,5)"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Plot titik-titik tersebut pada bidang koordinat, lalu hubungkan menjadi garis lurus."
+            },
+            {
+              "type": "highlight",
+              "text": "Grafik fungsi linear selalu berbentuk garis lurus."
+            }
+          ]
         }
       ],
       "flashcards": [
@@ -1418,6 +2036,11 @@
           "id": "fc9",
           "question": "Hasil dari (x+2)(x-2)?",
           "answer": "x² - 4"
+        },
+        {
+          "id": "fc10",
+          "question": "Apa itu substitusi?",
+          "answer": "Mengganti variabel dengan nilai tertentu"
         }
       ],
       "quiz": {
@@ -1433,7 +2056,7 @@
               "x = 8"
             ],
             "answer": 1,
-            "explanation": "2x = 8, maka x = 8/2 = 4."
+            "explanation": "2x = 8, maka x = 4."
           },
           {
             "id": "q2",
@@ -1446,7 +2069,7 @@
               "6"
             ],
             "answer": 1,
-            "explanation": "Eliminasi x: (x+y)-(x-y) = 10-4 -> 2y = 6 -> y = 3."
+            "explanation": "2y = 6, maka y = 3."
           },
           {
             "id": "q3",
@@ -1459,7 +2082,7 @@
               "-4"
             ],
             "answer": 2,
-            "explanation": "Sesuai bentuk y = mx + c, nilai m (gradien) adalah 4."
+            "explanation": "Gradien adalah koefisien x yaitu 4."
           },
           {
             "id": "q4",
@@ -1472,7 +2095,7 @@
               "32"
             ],
             "answer": 1,
-            "explanation": "a = 2, b = 3. U10 = 2 + (10-1)3 = 2 + 27 = 29."
+            "explanation": "U10 = 2 + 9×3 = 29."
           },
           {
             "id": "q5",
@@ -1485,7 +2108,20 @@
               "3x - 2y"
             ],
             "answer": 0,
-            "explanation": "Dekatkan suku sejenis: (3x - x) + (5y - 7y) = 2x - 2y."
+            "explanation": "Gabungkan suku sejenis."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Jika x = 3, nilai 2x + 4 adalah?",
+            "options": [
+              "6",
+              "7",
+              "10",
+              "12"
+            ],
+            "answer": 2,
+            "explanation": "2(3) + 4 = 10."
           }
         ]
       }

@@ -11,6 +11,13 @@ import {
   XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer 
 } from "recharts"
 
+import { Mafs, Coordinates, Plot, Theme, useMovablePoint, Line as MafsLine } from "mafs"
+import "mafs/core.css"
+import "mafs/font.css"
+
+import { Canvas } from "@react-three/fiber"
+import { OrbitControls, Box, Sphere, Cylinder, Cone } from "@react-three/drei"
+
 const mathjaxConfig = {
   loader: { load: ["[tex]/ams"] },
   tex: {
@@ -309,6 +316,8 @@ function Block({ block, index }: { block: ContentBlock; index: number }) {
     }
     case "simulation": {
       switch (block.simType) {
+        case "math-graph": return <MathGraph config={block.config} />
+        case "math-3d": return <Math3D config={block.config} />
         case "atom": return <AtomSimulation />
         case "cells": return <CellsSimulation />
         case "newton": return <NewtonSimulation />
@@ -670,5 +679,105 @@ function CellsSimulation() {
         </div>
       </div>
     </div>
+  )
+}
+
+function MathGraph({ config }: { config: any }) {
+  if (config?.type === 'linear') {
+    return <LinearGraph />
+  }
+
+  // Fallback to simple function plotter
+  return (
+    <div className="my-8 rounded-2xl border border-border bg-card overflow-hidden">
+      <div className="p-4 flex items-center gap-2 text-[10px] font-mono uppercase tracking-widest text-muted-foreground border-b border-border">
+        <Zap className="size-3" /> Interactive Math Graph
+      </div>
+      <div className="p-4">
+        <Mafs height={300}>
+          <Coordinates.Cartesian />
+          {config?.functions?.map((fnStr: string, i: number) => {
+            try {
+              // eslint-disable-next-line no-new-func
+              const fn = new Function("x", `return ${fnStr}`) as (x: number) => number
+              return <Plot.OfX key={i} y={fn} color={Theme.blue} />
+            } catch (e) {
+              return null
+            }
+          })}
+        </Mafs>
+      </div>
+    </div>
+  )
+}
+
+function LinearGraph() {
+  const pt1 = useMovablePoint([0, 1])
+  const pt2 = useMovablePoint([2, 5])
+  
+  // calculate m and c
+  const m = (pt2.y - pt1.y) / (pt2.x - pt1.x)
+  const c = pt1.y - m * pt1.x
+  
+  return (
+    <div className="my-8 rounded-2xl border border-border bg-card overflow-hidden">
+      <div className="p-4 flex flex-col gap-2 border-b border-border bg-muted/30">
+        <div className="flex items-center gap-2 text-[10px] font-mono uppercase tracking-widest text-muted-foreground">
+          <Zap className="size-3" /> Interaktif: Persamaan Garis Lurus
+        </div>
+        <div className="text-sm font-mono text-foreground">
+          y = {m.toFixed(2)}x {c >= 0 ? '+' : '-'} {Math.abs(c).toFixed(2)}
+        </div>
+        <div className="text-xs text-muted-foreground">
+          Geser titik-titik pada grafik untuk melihat perubahan persamaan.
+        </div>
+      </div>
+      <div className="p-4 bg-background">
+        <Mafs height={300}>
+          <Coordinates.Cartesian />
+          <MafsLine.ThroughPoints point1={pt1.element} point2={pt2.element} color={Theme.indigo} />
+          {pt1.element}
+          {pt2.element}
+        </Mafs>
+      </div>
+    </div>
+  )
+}
+
+function Math3D({ config }: { config: any }) {
+  const shape = config?.shape || "cube"
+  
+  return (
+    <div className="my-8 rounded-2xl border border-border bg-muted/30 overflow-hidden relative" style={{ height: 400 }}>
+       <div className="absolute top-4 left-4 z-10 flex items-center gap-2 text-[10px] font-mono uppercase tracking-widest text-muted-foreground bg-background/80 p-2 rounded-lg backdrop-blur">
+        <Zap className="size-3" /> 3D Visualizer (Drag to rotate)
+      </div>
+      <Canvas camera={{ position: [3, 3, 3], fov: 50 }}>
+        <ambientLight intensity={0.5} />
+        <directionalLight position={[10, 10, 5]} intensity={1} />
+        <OrbitControls autoRotate autoRotateSpeed={2} />
+        <RotatingShape shape={shape} />
+      </Canvas>
+    </div>
+  )
+}
+
+function RotatingShape({ shape }: { shape: string }) {
+  const meshRef = useRef<any>(null)
+  
+  const renderShape = () => {
+    switch (shape) {
+      case "cube": return <Box args={[2, 2, 2]}><meshStandardMaterial color="royalblue" /></Box>
+      case "sphere": return <Sphere args={[1.5, 32, 32]}><meshStandardMaterial color="hotpink" /></Sphere>
+      case "cylinder": return <Cylinder args={[1, 1, 3, 32]}><meshStandardMaterial color="orange" /></Cylinder>
+      case "cone": return <Cone args={[1.5, 3, 32]}><meshStandardMaterial color="mediumpurple" /></Cone>
+      default: return <Box args={[2, 2, 2]}><meshStandardMaterial color="royalblue" /></Box>
+    }
+  }
+  
+  return (
+    <mesh ref={meshRef}>
+      {renderShape()}
+    </mesh>
   )
 }
