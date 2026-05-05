@@ -38,7 +38,7 @@ export default function SubjectPage() {
           <div className="flex items-center justify-center md:justify-start gap-2 text-[11px] font-mono uppercase tracking-[0.14em] text-muted-foreground">
             <span>Subject</span>
             <span>·</span>
-            <span>Grade {subject.grade.join(", ")}</span>
+            <span>Grade {subject.grade?.join(", ") || "-"}</span>
           </div>
           <h1 className="text-3xl md:text-5xl font-medium tracking-tight">{subject.name}</h1>
           <p className="text-sm md:text-lg text-muted-foreground max-w-2xl text-pretty mx-auto md:mx-0">

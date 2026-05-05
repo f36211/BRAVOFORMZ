@@ -2,6 +2,11 @@
   "id": "pendidikan-pancasila-smp",
   "name": "Pendidikan Pancasila (PP)",
   "description": "Mata pelajaran Pendidikan Pancasila untuk SMP Kelas IX berdasarkan Kurikulum Merdeka. Mencakup materi sejarah Pancasila, UUD 1945, kebinekaan, persatuan dan kesatuan, hak dan kewajiban warga negara, serta menjaga keutuhan NKRI.",
+  "grade": [
+    9
+  ],
+  "icon": "Shield",
+  "color": "soft",
   "topics": [
     {
       "id": "sejarah-pancasila",
