@@ -1,7 +1,7 @@
 {
-  "id": "bahasa-inggris",
+  "id": "bahasa-inggris-skl-psaj",
   "name": "Bahasa Inggris",
-  "description": "Grammar, vocabulary, dan keterampilan komunikasi",
+  "description": "Materi lengkap SKL PSAJ Bahasa Inggris SMPIT Ummul Quro Kelas IX - Kurikulum Merdeka Tahun Pelajaran 2025/2026. mencakup Menyimak-Berbicara, Membaca-Memirsa, dan Menulis-Mempresentasikan.",
   "grade": [
     7,
     8,
@@ -11,22 +11,876 @@
   "color": "neutral",
   "topics": [
     {
-      "id": "tenses",
-      "title": "Tenses Dasar",
-      "description": "Simple Present, Past, dan Future",
+      "id": "listening-speaking",
+      "title": "Listening & Speaking",
+      "description": "Ungkapan kepastian, ketidakpastian, memberi pendapat, serta kesukaan dan ketidaksukaan.",
       "lessons": [
         {
-          "id": "simple-present",
-          "title": "Simple Present Tense",
+          "id": "certainty-uncertainty",
+          "title": "Certainty & Uncertainty",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Certainty & Uncertainty"
+            },
+            {
+              "type": "text",
+              "text": "Certainty adalah ungkapan kepastian, sedangkan Uncertainty adalah ungkapan ketidakpastian. Keduanya digunakan saat berdiskusi atau memberikan pendapat tentang sesuatu."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Expressions of Certainty"
+            },
+            {
+              "type": "list",
+              "items": [
+                "I'm sure that...",
+                "I'm certain that...",
+                "There's no doubt that...",
+                "Definitely!",
+                "Of course!",
+                "Absolutely!"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Expressions of Uncertainty"
+            },
+            {
+              "type": "list",
+              "items": [
+                "I'm not sure whether...",
+                "I doubt that...",
+                "Perhaps / Maybe...",
+                "It's possible that...",
+                "I'm uncertain about...",
+                "I don't think so."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Dialog"
+            },
+            {
+              "type": "quote",
+              "text": "A: Are you sure the test is tomorrow?\nB: Yes, I'm certain that the test is tomorrow.\nA: Really? I doubt that. I heard it's next Monday.\nB: Maybe you're right. I'm not sure anymore.",
+              "translation": "Contoh percakapan certainty dan uncertainty."
+            },
+            {
+              "type": "highlight",
+              "text": "Gunakan 'I'm certain' untuk kepastian tinggi dan 'I doubt' / 'I'm not sure' untuk ketidakpastian."
+            }
+          ]
+        },
+        {
+          "id": "giving-opinion",
+          "title": "Giving and Asking for Opinion",
           "estMinutes": 8,
           "content": [
             {
               "type": "heading",
-              "text": "Simple Present Tense"
+              "text": "Giving and Asking for Opinion"
             },
             {
               "type": "text",
-              "text": "Simple Present Tense digunakan untuk menyatakan kebiasaan, fakta umum, atau kebenaran yang berlaku saat ini."
+              "text": "Ungkapan untuk meminta dan memberi pendapat dalam diskusi formal maupun informal."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Asking for Opinion"
+            },
+            {
+              "type": "list",
+              "items": [
+                "What do you think about...?",
+                "What's your opinion on...?",
+                "Do you have any idea about...?",
+                "How do you feel about...?"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Giving Opinion"
+            },
+            {
+              "type": "list",
+              "items": [
+                "In my opinion...",
+                "I think / I believe...",
+                "From my point of view...",
+                "As far as I'm concerned...",
+                "I would say that..."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Agreeing and Disagreeing"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Agree",
+                "Disagree"
+              ],
+              "rows": [
+                [
+                  "I agree with you.",
+                  "I don't agree with you."
+                ],
+                [
+                  "That's a good point.",
+                  "I'm afraid I disagree."
+                ],
+                [
+                  "I think so too.",
+                  "I see your point, but..."
+                ],
+                [
+                  "Exactly!",
+                  "That's not always true."
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Gunakan 'I think' untuk pendapat umum dan 'I strongly believe' untuk pendapat yang lebih kuat."
+            }
+          ]
+        },
+        {
+          "id": "like-dislike",
+          "title": "Like and Dislike",
+          "estMinutes": 6,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Like and Dislike"
+            },
+            {
+              "type": "text",
+              "text": "Ungkapan kesukaan dan ketidaksukaan terhadap sesuatu."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Expressing Likes"
+            },
+            {
+              "type": "list",
+              "items": [
+                "I like...",
+                "I love...",
+                "I enjoy...",
+                "I'm fond of...",
+                "I'm keen on...",
+                "I'm interested in..."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Expressing Dislikes"
+            },
+            {
+              "type": "list",
+              "items": [
+                "I don't like...",
+                "I hate...",
+                "I can't stand...",
+                "I'm not fond of...",
+                "I'm not interested in...",
+                "I dislike..."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh"
+            },
+            {
+              "type": "list",
+              "items": [
+                "I love playing football.",
+                "She enjoys reading novels.",
+                "I can't stand loud music.",
+                "He is not fond of spicy food."
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Setelah 'like', 'love', 'enjoy', gunakan V-ing (gerund)."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-ls-1",
+          "question": "Ungkapan certainty yang kuat?",
+          "answer": "I'm certain that... / There's no doubt that..."
+        },
+        {
+          "id": "fc-ls-2",
+          "question": "Ungkapan uncertainty?",
+          "answer": "I'm not sure... / I doubt that... / Maybe..."
+        },
+        {
+          "id": "fc-ls-3",
+          "question": "Cara meminta pendapat?",
+          "answer": "What do you think about...?"
+        },
+        {
+          "id": "fc-ls-4",
+          "question": "Cara memberi pendapat formal?",
+          "answer": "In my opinion... / From my point of view..."
+        },
+        {
+          "id": "fc-ls-5",
+          "question": "Ungkapan like yang kuat?",
+          "answer": "I love... / I'm fond of..."
+        },
+        {
+          "id": "fc-ls-6",
+          "question": "Ungkapan dislike yang kuat?",
+          "answer": "I hate... / I can't stand..."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q-ls-1",
+            "type": "multiple_choice",
+            "question": "Which sentence shows UNCERTAINTY?",
+            "options": [
+              "I'm sure about it.",
+              "I doubt that he will come.",
+              "There's no doubt.",
+              "Definitely!"
+            ],
+            "answer": 1,
+            "explanation": "'I doubt that' menunjukkan ketidakpastian."
+          },
+          {
+            "id": "q-ls-2",
+            "type": "multiple_choice",
+            "question": "Choose the correct expression to ask for opinion:",
+            "options": [
+              "I think it's good.",
+              "What do you think about this?",
+              "I agree with you.",
+              "I don't like it."
+            ],
+            "answer": 1,
+            "explanation": "'What do you think about this?' adalah cara meminta pendapat."
+          },
+          {
+            "id": "q-ls-3",
+            "type": "multiple_choice",
+            "question": "Fill in the blank: I _______ listening to music.",
+            "options": [
+              "like",
+              "am liking",
+              "likes",
+              "is like"
+            ],
+            "answer": 0,
+            "explanation": "Setelah like gunakan V-ing, dan subjek I menggunakan like (bukan likes)."
+          }
+        ]
+      }
+    },
+    {
+      "id": "procedure-text",
+      "title": "Procedure Text",
+      "description": "Teks prosedur: fungsi sosial, struktur, fitur kebahasaan, dan mencari informasi spesifik.",
+      "lessons": [
+        {
+          "id": "procedure-structure",
+          "title": "Struktur dan Fitur Teks Prosedur",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Procedure Text"
+            },
+            {
+              "type": "text",
+              "text": "Procedure text adalah teks yang berisi langkah-langkah atau cara melakukan sesuatu. Tujuan utamanya adalah memberikan instruksi atau panduan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fungsi Sosial"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Memberikan instruksi cara melakukan sesuatu",
+                "Memberikan panduan langkah demi langkah",
+                "Membantu pembaca mencapai tujuan tertentu"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Struktur Teks Prosedur"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Goal / Aim: Tujuan dari prosedur (judul)",
+                "Materials / Ingredients: Bahan-bahan yang dibutuhkan (jika ada)",
+                "Steps / Methods: Langkah-langkah yang harus dilakukan"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fitur Kebahasaan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Menggunakan imperative sentence (kalimat perintah): Cut, Mix, Put, Add",
+                "Menggunakan action verbs: turn, stir, pour, boil",
+                "Menggunakan sequence connectors: first, then, next, after that, finally",
+                "Menggunakan adverbs of manner: slowly, carefully, gently"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Teks Prosedur"
+            },
+            {
+              "type": "quote",
+              "text": "How to Make a Cup of Tea\n\nMaterials:\n- 1 tea bag\n- 1 cup of hot water\n- Sugar (optional)\n\nSteps:\n1. First, boil the water until it is hot.\n2. Then, put the tea bag into the cup.\n3. Next, pour the hot water into the cup.\n4. After that, wait for 3 minutes.\n5. Finally, add sugar if you like and stir well.",
+              "translation": "Contoh teks prosedur cara membuat teh."
+            },
+            {
+              "type": "highlight",
+              "text": "Perhatikan penggunaan kata sambung urutan: First, Then, Next, After that, Finally."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-proc-1",
+          "question": "Apa tujuan teks prosedur?",
+          "answer": "Memberikan instruksi/langkah-langkah cara melakukan sesuatu."
+        },
+        {
+          "id": "fc-proc-2",
+          "question": "Sebutkan 3 bagian struktur teks prosedur!",
+          "answer": "Goal, Materials/Ingredients, Steps/Methods."
+        },
+        {
+          "id": "fc-proc-3",
+          "question": "Contoh sequence connectors?",
+          "answer": "First, then, next, after that, finally."
+        },
+        {
+          "id": "fc-proc-4",
+          "question": "Jenis kalimat utama dalam teks prosedur?",
+          "answer": "Imperative sentence (kalimat perintah)."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q-proc-1",
+            "type": "multiple_choice",
+            "question": "What is the social function of a procedure text?",
+            "options": [
+              "To tell a story",
+              "To describe something",
+              "To give instructions",
+              "To entertain readers"
+            ],
+            "answer": 2,
+            "explanation": "Teks prosedur berfungsi untuk memberikan instruksi/langkah-langkah."
+          },
+          {
+            "id": "q-proc-2",
+            "type": "multiple_choice",
+            "question": "Which of these is a sequence connector?",
+            "options": [
+              "Because",
+              "However",
+              "First",
+              "Although"
+            ],
+            "answer": 2,
+            "explanation": "'First' adalah sequence connector yang menunjukkan urutan."
+          },
+          {
+            "id": "q-proc-3",
+            "type": "multiple_choice",
+            "question": "'Cut the paper into small pieces.' This is an example of:",
+            "options": [
+              "Descriptive sentence",
+              "Imperative sentence",
+              "Narrative sentence",
+              "Expository sentence"
+            ],
+            "answer": 1,
+            "explanation": "Kalimat perintah (imperative) adalah ciri khas teks prosedur."
+          }
+        ]
+      }
+    },
+    {
+      "id": "report-text",
+      "title": "Report Text",
+      "description": "Teks report: fungsi sosial, struktur, fitur kebahasaan, dan menemukan informasi spesifik.",
+      "lessons": [
+        {
+          "id": "report-structure",
+          "title": "Struktur dan Fitur Teks Report",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Report Text"
+            },
+            {
+              "type": "text",
+              "text": "Report text adalah teks yang mendeskripsikan sesuatu secara umum, seperti hewan, tumbuhan, fenomena alam, atau benda. Tujuannya untuk memberikan informasi faktual."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fungsi Sosial"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Mendeskripsikan sesuatu secara umum",
+                "Memberikan informasi faktual dan objektif",
+                "Mengklasifikasikan sesuatu berdasarkan ciri-cirinya"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Struktur Teks Report"
+            },
+            {
+              "type": "list",
+              "items": [
+                "General Classification: Pengenalan umum tentang topik",
+                "Description: Deskripsi bagian-bagian, ciri-ciri, sifat, atau perilaku"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fitur Kebahasaan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Menggunakan simple present tense",
+                "Menggunakan noun phrases: a large mammal, sharp teeth",
+                "Menggunakan technical vocabulary",
+                "Menggunakan linking verbs: is, are, has, have",
+                "Bersifat objektif (tidak menggunakan opini pribadi)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Teks Report"
+            },
+            {
+              "type": "quote",
+              "text": "The Elephant\n\nThe elephant is the largest land animal. It has a long trunk and large ears. Elephants live in Africa and Asia. They eat grass, leaves, and fruits. An elephant can live up to 70 years. They are known as intelligent animals because they have good memory.",
+              "translation": "Contoh teks report tentang gajah."
+            },
+            {
+              "type": "highlight",
+              "text": "Teks report menggunakan simple present tense dan bersifat umum (general), bukan tentang individu tertentu."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-rep-1",
+          "question": "Apa fungsi sosial teks report?",
+          "answer": "Mendeskripsikan sesuatu secara umum dan memberikan informasi faktual."
+        },
+        {
+          "id": "fc-rep-2",
+          "question": "Sebutkan 2 struktur teks report!",
+          "answer": "General Classification dan Description."
+        },
+        {
+          "id": "fc-rep-3",
+          "question": "Tense yang digunakan dalam teks report?",
+          "answer": "Simple Present Tense."
+        },
+        {
+          "id": "fc-rep-4",
+          "question": "Apa perbedaan report dan descriptive text?",
+          "answer": "Report bersifat umum (general), descriptive tentang sesuatu yang spesifik."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q-rep-1",
+            "type": "multiple_choice",
+            "question": "What is the social function of a report text?",
+            "options": [
+              "To tell how to make something",
+              "To describe something in general",
+              "To retell past events",
+              "To advertise a product"
+            ],
+            "answer": 1,
+            "explanation": "Teks report mendeskripsikan sesuatu secara umum."
+          },
+          {
+            "id": "q-rep-2",
+            "type": "multiple_choice",
+            "question": "Which tense is mostly used in report texts?",
+            "options": [
+              "Simple Past",
+              "Present Continuous",
+              "Simple Present",
+              "Future Tense"
+            ],
+            "answer": 2,
+            "explanation": "Teks report umumnya menggunakan Simple Present Tense."
+          },
+          {
+            "id": "q-rep-3",
+            "type": "multiple_choice",
+            "question": "The first paragraph of a report text is called:",
+            "options": [
+              "Orientation",
+              "General Classification",
+              "Goal",
+              "Resolution"
+            ],
+            "answer": 1,
+            "explanation": "Paragraf pertama teks report adalah General Classification."
+          }
+        ]
+      }
+    },
+    {
+      "id": "narrative-text",
+      "title": "Narrative Text",
+      "description": "Teks narrative: fungsi sosial, struktur, fitur kebahasaan, dan menemukan informasi rinci.",
+      "lessons": [
+        {
+          "id": "narrative-structure",
+          "title": "Struktur dan Fitur Teks Narrative",
+          "estMinutes": 14,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Narrative Text"
+            },
+            {
+              "type": "text",
+              "text": "Narrative text adalah teks yang menceritakan sebuah kisah atau peristiwa, biasanya berbentuk cerita fiksi, legenda, atau dongeng. Tujuannya untuk menghibur pembaca."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fungsi Sosial"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Menghibur pembaca (to amuse/entertain)",
+                "Mengajarkan nilai moral (to teach a moral value)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Struktur Teks Narrative"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Orientation: Pengenalan tokoh, latar, dan waktu",
+                "Complication: Masalah atau konflik yang terjadi",
+                "Resolution: Penyelesaian masalah",
+                "Re-orientation (opsional): Kesimpulan atau pesan moral"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fitur Kebahasaan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Menggunakan simple past tense",
+                "Menggunakan action verbs: went, ran, cried, shouted",
+                "Menggunakan conjunctions of time: once upon a time, one day, then, finally",
+                "Menggunakan direct dan indirect speech",
+                "Menggunakan adverbs of manner: slowly, happily, carefully"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Teks Narrative (Ringkas)"
+            },
+            {
+              "type": "quote",
+              "text": "The Lion and the Mouse\n\nOnce upon a time, a lion was sleeping in the forest. A little mouse ran over his face and woke him up. The lion caught the mouse and wanted to eat her.\n\nThe mouse begged, 'Please let me go. I will help you someday.' The lion laughed but let her go.\n\nA few days later, the lion was caught in a hunter's net. He roared loudly. The little mouse heard him and came quickly. She bit the net and set the lion free.\n\nMoral: Even small friends can be great help.",
+              "translation": "Contoh narrative text singkat."
+            },
+            {
+              "type": "highlight",
+              "text": "Perhatikan penggunaan simple past tense: was sleeping, ran, caught, woke, laughed, bit."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-nar-1",
+          "question": "Apa fungsi sosial teks narrative?",
+          "answer": "Untuk menghibur dan mengajarkan nilai moral."
+        },
+        {
+          "id": "fc-nar-2",
+          "question": "Sebutkan 3 struktur teks narrative!",
+          "answer": "Orientation, Complication, Resolution."
+        },
+        {
+          "id": "fc-nar-3",
+          "question": "Tense yang digunakan teks narrative?",
+          "answer": "Simple Past Tense."
+        },
+        {
+          "id": "fc-nar-4",
+          "question": "Contoh time conjunction dalam narrative?",
+          "answer": "Once upon a time, one day, then, finally."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q-nar-1",
+            "type": "multiple_choice",
+            "question": "What is the main purpose of a narrative text?",
+            "options": [
+              "To give instructions",
+              "To describe animals",
+              "To entertain readers",
+              "To report facts"
+            ],
+            "answer": 2,
+            "explanation": "Teks narrative bertujuan untuk menghibur pembaca."
+          },
+          {
+            "id": "q-nar-2",
+            "type": "multiple_choice",
+            "question": "Which part tells the problem in a narrative?",
+            "options": [
+              "Orientation",
+              "Complication",
+              "Resolution",
+              "Re-orientation"
+            ],
+            "answer": 1,
+            "explanation": "Complication adalah bagian yang menceritakan masalah/konflik."
+          },
+          {
+            "id": "q-nar-3",
+            "type": "multiple_choice",
+            "question": "'The wolf ran into the forest.' What tense is used?",
+            "options": [
+              "Simple Present",
+              "Simple Past",
+              "Present Continuous",
+              "Future"
+            ],
+            "answer": 1,
+            "explanation": "'Ran' adalah bentuk simple past tense dari run."
+          }
+        ]
+      }
+    },
+    {
+      "id": "advertisement",
+      "title": "Advertisement (Teks Iklan)",
+      "description": "Teks iklan: fungsi sosial, struktur, fitur kebahasaan, dan menemukan informasi rinci.",
+      "lessons": [
+        {
+          "id": "advertisement-structure",
+          "title": "Struktur dan Fitur Teks Iklan",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Advertisement Text"
+            },
+            {
+              "type": "text",
+              "text": "Advertisement adalah teks yang dibuat untuk mempromosikan produk, jasa, atau acara. Tujuannya untuk membujuk pembaca agar membeli atau menggunakan sesuatu."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fungsi Sosial"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Membujuk pembaca (to persuade)",
+                "Mempromosikan produk atau jasa",
+                "Memberikan informasi tentang kelebihan produk"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Struktur Teks Iklan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Headline: Judul menarik perhatian",
+                "Product Description: Penjelasan produk/jasa",
+                "Benefits: Kelebihan atau manfaat",
+                "Call to Action: Ajakan untuk bertindak (Buy now! Call us!)",
+                "Contact Information: Informasi kontak"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fitur Kebahasaan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Menggunakan kata sifat positif: delicious, amazing, best, fantastic",
+                "Menggunakan kata kerja ajakan: buy, get, call, visit, order",
+                "Menggunakan kalimat imperatif",
+                "Menggunakan slogan yang mudah diingat",
+                "Menggunakan gambar yang menarik"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Teks Iklan"
+            },
+            {
+              "type": "quote",
+              "text": "FRESH FRUIT JUICE - The Best Drink for Your Health!\n\nMade from 100% real fruits. No sugar added!\n\nBenefits:\n- Rich in vitamins\n- Boosts your energy\n- Keeps you fresh all day\n\nSpecial Price: Only Rp15,000\n\nVisit our store or call 0812-3456-7890.\nBUY NOW!",
+              "translation": "Contoh teks iklan minuman jus."
+            },
+            {
+              "type": "highlight",
+              "text": "Perhatikan penggunaan kata sifat positif (best, rich, special) dan call to action (BUY NOW!)."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-adv-1",
+          "question": "Apa fungsi sosial teks iklan?",
+          "answer": "Untuk membujuk/mempromosikan produk atau jasa."
+        },
+        {
+          "id": "fc-adv-2",
+          "question": "Sebutkan 3 bagian struktur iklan!",
+          "answer": "Headline, Product Description, Call to Action."
+        },
+        {
+          "id": "fc-adv-3",
+          "question": "Jenis kata yang sering digunakan dalam iklan?",
+          "answer": "Kata sifat positif: amazing, best, fantastic, delicious."
+        },
+        {
+          "id": "fc-adv-4",
+          "question": "Apa itu 'Call to Action'?",
+          "answer": "Ajakan untuk bertindak, seperti 'Buy now!' atau 'Call us!'"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q-adv-1",
+            "type": "multiple_choice",
+            "question": "What is the social function of an advertisement?",
+            "options": [
+              "To tell a story",
+              "To describe an animal",
+              "To persuade people to buy something",
+              "To give instructions"
+            ],
+            "answer": 2,
+            "explanation": "Iklan bertujuan untuk membujuk orang agar membeli."
+          },
+          {
+            "id": "q-adv-2",
+            "type": "multiple_choice",
+            "question": "Which of these is a 'call to action'?",
+            "options": [
+              "The product is good.",
+              "Buy now!",
+              "This is a new product.",
+              "It costs Rp10,000."
+            ],
+            "answer": 1,
+            "explanation": "'Buy now!' adalah ajakan untuk bertindak (call to action)."
+          },
+          {
+            "id": "q-adv-3",
+            "type": "multiple_choice",
+            "question": "Advertisements often use _______ words to attract buyers.",
+            "options": [
+              "negative",
+              "positive",
+              "neutral",
+              "technical"
+            ],
+            "answer": 1,
+            "explanation": "Iklan menggunakan kata-kata positif untuk menarik pembeli."
+          }
+        ]
+      }
+    },
+    {
+      "id": "present-continuous",
+      "title": "Present Continuous Tense",
+      "description": "Membaca dan merespon teks yang berkaitan dengan aktivitas yang sedang terjadi.",
+      "lessons": [
+        {
+          "id": "present-continuous-lesson",
+          "title": "Present Continuous Tense",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Present Continuous Tense"
+            },
+            {
+              "type": "text",
+              "text": "Present Continuous Tense digunakan untuk menyatakan aktivitas yang sedang berlangsung pada saat ini (now) atau di sekitar waktu sekarang."
             },
             {
               "type": "heading",
@@ -42,15 +896,15 @@
               "rows": [
                 [
                   "(+) Positif",
-                  "S + V1 (s/es) + O"
+                  "S + am/is/are + V-ing + O"
                 ],
                 [
                   "(-) Negatif",
-                  "S + do/does + not + V1 + O"
+                  "S + am/is/are + not + V-ing + O"
                 ],
                 [
                   "(?) Tanya",
-                  "Do/Does + S + V1 + O?"
+                  "Am/Is/Are + S + V-ing + O?"
                 ]
               ]
             },
@@ -62,10 +916,10 @@
             {
               "type": "list",
               "items": [
-                "She reads a book every night.",
-                "They do not play football on Sunday.",
-                "Does he speak English?",
-                "The sun rises in the east."
+                "She is reading a book now.",
+                "They are playing football in the yard.",
+                "I am not watching TV at the moment.",
+                "Is he studying English? Yes, he is."
               ]
             },
             {
@@ -76,159 +930,1083 @@
             {
               "type": "list",
               "items": [
-                "every day / week / month",
-                "always, usually, often, sometimes, never",
-                "on Mondays, on weekends"
+                "now",
+                "at the moment",
+                "right now",
+                "currently",
+                "today",
+                "this week"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Penggunaan Lain"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Rencana di masa depan yang sudah pasti: I am meeting my friend tomorrow.",
+                "Perubahan atau perkembangan: The weather is getting colder."
               ]
             },
             {
               "type": "highlight",
-              "text": "Untuk subjek He / She / It → tambahkan -s atau -es pada kata kerja."
+              "text": "Gunakan am untuk I, is untuk He/She/It, dan are untuk You/We/They."
             }
           ]
         }
       ],
       "flashcards": [
         {
-          "id": "fc1",
-          "question": "Pola Simple Present positif?",
-          "answer": "S + V1(s/es) + O"
+          "id": "fc-pc-1",
+          "question": "Rumus Present Continuous positif?",
+          "answer": "S + am/is/are + V-ing + O"
         },
         {
-          "id": "fc2",
-          "question": "Bentuk negatif dari 'She likes tea'?",
-          "answer": "She does not like tea."
+          "id": "fc-pc-2",
+          "question": "Time signal Present Continuous?",
+          "answer": "now, at the moment, right now, currently"
         },
         {
-          "id": "fc3",
-          "question": "Apa time signal Simple Present?",
-          "answer": "every day, always, usually, often"
+          "id": "fc-pc-3",
+          "question": "Bentuk V-ing dari 'run'?",
+          "answer": "running"
         },
         {
-          "id": "fc4",
-          "question": "Subjek apa yang pakai -s/-es?",
-          "answer": "He, She, It"
+          "id": "fc-pc-4",
+          "question": "Apa penggunaan lain Present Continuous?",
+          "answer": "Rencana masa depan yang sudah pasti."
         }
       ],
       "quiz": {
         "questions": [
           {
-            "id": "q1",
+            "id": "q-pc-1",
             "type": "multiple_choice",
             "question": "Choose the correct sentence:",
             "options": [
-              "He go to school every day.",
-              "He goes to school every day.",
-              "He going to school every day.",
-              "He gone to school every day."
-            ],
-            "answer": 1,
-            "explanation": "Subjek 'He' → kata kerja 'go' menjadi 'goes' (tambah -es)."
-          },
-          {
-            "id": "q2",
-            "type": "multiple_choice",
-            "question": "Negative form: 'They play tennis.'",
-            "options": [
-              "They not play tennis.",
-              "They does not play tennis.",
-              "They do not play tennis.",
-              "They no play tennis."
+              "She is eat right now.",
+              "She eating now.",
+              "She is eating now.",
+              "She are eating now."
             ],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Rumus yang benar: S + is + V-ing."
+          },
+          {
+            "id": "q-pc-2",
+            "type": "multiple_choice",
+            "question": "Negative form: 'They are playing games.'",
+            "options": [
+              "They not are playing games.",
+              "They are not playing games.",
+              "They don't playing games.",
+              "They aren't play games."
+            ],
+            "answer": 1,
+            "explanation": "Negatif: S + are + not + V-ing."
+          },
+          {
+            "id": "q-pc-3",
+            "type": "multiple_choice",
+            "question": "Which sentence uses Present Continuous for future plan?",
+            "options": [
+              "I play football tomorrow.",
+              "I am playing football tomorrow.",
+              "I played football yesterday.",
+              "I will playing football tomorrow."
+            ],
+            "answer": 1,
+            "explanation": "Present Continuous dapat digunakan untuk rencana masa depan yang sudah pasti."
           }
         ]
       }
     },
     {
-      "id": "greetings",
-      "title": "Greetings & Introductions",
-      "description": "Sapaan dan perkenalan diri",
+      "id": "short-message",
+      "title": "Short Message",
+      "description": "Memahami dan menyimpulkan informasi teks pesan singkat.",
       "lessons": [
         {
-          "id": "common-greetings",
-          "title": "Common Greetings",
-          "estMinutes": 4,
+          "id": "short-message-lesson",
+          "title": "Short Message (Pesan Singkat)",
+          "estMinutes": 8,
           "content": [
             {
               "type": "heading",
-              "text": "Greetings & Introductions"
+              "text": "Short Message"
+            },
+            {
+              "type": "text",
+              "text": "Short message adalah pesan singkat yang ditulis untuk menyampaikan informasi penting secara cepat. Biasanya berbentuk SMS, chat, atau catatan singkat."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Struktur Pesan Singkat"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Salutation: Sapaan singkat (Hi, Hello, Dear)",
+                "Body: Isi pesan (informasi utama)",
+                "Closing: Penutup (Thanks, See you, Regards)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fitur Kebahasaan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Bahasa singkat dan jelas",
+                "Menggunakan singkatan umum: ASAP (as soon as possible), FYI (for your information)",
+                "Tidak perlu kalimat yang terlalu panjang",
+                "Langsung ke inti pesan"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Pesan Singkat"
+            },
+            {
+              "type": "quote",
+              "text": "Hi Rina,\n\nDon't forget we have English class at 2 PM today. Bring your dictionary and notebook. See you there!\n\n- Aldo",
+              "translation": "Contoh pesan singkat."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Common Abbreviations"
             },
             {
               "type": "table",
               "headers": [
-                "English",
-                "Indonesian",
-                "Used When"
+                "Singkatan",
+                "Arti"
               ],
               "rows": [
                 [
-                  "Good morning",
-                  "Selamat pagi",
-                  "00:00 – 12:00"
+                  "ASAP",
+                  "as soon as possible"
                 ],
                 [
-                  "Good afternoon",
-                  "Selamat siang",
-                  "12:00 – 18:00"
+                  "FYI",
+                  "for your information"
                 ],
                 [
-                  "Good evening",
-                  "Selamat malam",
-                  "18:00 – 00:00"
+                  "BTW",
+                  "by the way"
                 ],
                 [
-                  "How are you?",
-                  "Apa kabar?",
-                  "Sapaan umum"
+                  "LOL",
+                  "laughing out loud"
                 ],
                 [
-                  "Nice to meet you",
-                  "Senang berkenalan",
-                  "Pertemuan pertama"
+                  "TTYL",
+                  "talk to you later"
                 ]
               ]
             },
             {
-              "type": "quote",
-              "text": "A: Hi, I'm Rina. Nice to meet you.\nB: Hi Rina, I'm Aldo. Nice to meet you too.",
-              "translation": "Contoh percakapan perkenalan."
+              "type": "highlight",
+              "text": "Pesan singkat harus jelas, singkat, dan langsung menyampaikan maksud."
             }
           ]
         }
       ],
       "flashcards": [
         {
-          "id": "fc1",
-          "question": "Translate: Good afternoon",
-          "answer": "Selamat siang"
+          "id": "fc-sm-1",
+          "question": "Apa tujuan short message?",
+          "answer": "Menyampaikan informasi penting secara cepat dan singkat."
         },
         {
-          "id": "fc2",
-          "question": "Translate: Apa kabar?",
-          "answer": "How are you?"
+          "id": "fc-sm-2",
+          "question": "Apa arti ASAP?",
+          "answer": "as soon as possible (secepatnya)"
         },
         {
-          "id": "fc3",
-          "question": "Reply to 'Nice to meet you'?",
-          "answer": "Nice to meet you too."
+          "id": "fc-sm-3",
+          "question": "Apa arti FYI?",
+          "answer": "for your information (untuk informasi Anda)"
+        },
+        {
+          "id": "fc-sm-4",
+          "question": "Sebutkan 3 bagian short message!",
+          "answer": "Salutation, Body, Closing."
         }
       ],
       "quiz": {
         "questions": [
           {
-            "id": "q1",
+            "id": "q-sm-1",
             "type": "multiple_choice",
-            "question": "Which greeting is used at 7 PM?",
+            "question": "What does 'ASAP' mean?",
             "options": [
-              "Good morning",
-              "Good afternoon",
-              "Good evening",
-              "Good night"
+              "As soon as possible",
+              "As slow as possible",
+              "Always say a prayer",
+              "A special apple pie"
+            ],
+            "answer": 0,
+            "explanation": "ASAP = as soon as possible."
+          },
+          {
+            "id": "q-sm-2",
+            "type": "multiple_choice",
+            "question": "A short message usually contains:",
+            "options": [
+              "A long story",
+              "A poem",
+              "Brief and clear information",
+              "A novel chapter"
             ],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Pesan singkat berisi informasi yang singkat dan jelas."
+          },
+          {
+            "id": "q-sm-3",
+            "type": "multiple_choice",
+            "question": "'BTW' stands for:",
+            "options": [
+              "Be there waiting",
+              "By the way",
+              "Between two worlds",
+              "Big tiger walk"
+            ],
+            "answer": 1,
+            "explanation": "BTW = by the way."
+          }
+        ]
+      }
+    },
+    {
+      "id": "comparison-degree",
+      "title": "Comparison Degree",
+      "description": "Menganalisis ide utama dan informasi khusus pada teks yang berkaitan dengan perbandingan.",
+      "lessons": [
+        {
+          "id": "comparison-degree-lesson",
+          "title": "Degrees of Comparison",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Degrees of Comparison"
+            },
+            {
+              "type": "text",
+              "text": "Degrees of Comparison digunakan untuk membandingkan sifat atau kualitas antara dua atau lebih benda, orang, atau hewan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tiga Tingkat Perbandingan"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Tingkat",
+                "Penggunaan",
+                "Pola Kata Sifat Pendek",
+                "Pola Kata Sifat Panjang"
+              ],
+              "rows": [
+                [
+                  "Positive",
+                  "Tidak membandingkan",
+                  "as + adj + as",
+                  "as + adj + as"
+                ],
+                [
+                  "Comparative",
+                  "Membandingkan 2",
+                  "adj + -er + than",
+                  "more + adj + than"
+                ],
+                [
+                  "Superlative",
+                  "Membandingkan 3+",
+                  "the + adj + -est",
+                  "the most + adj"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Kata Sifat Pendek (1-2 suku kata)"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Positive: tall → John is as tall as Mike.",
+                "Comparative: taller → John is taller than Mike.",
+                "Superlative: tallest → John is the tallest student in class."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Kata Sifat Panjang (2+ suku kata)"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Positive: beautiful → She is as beautiful as her sister.",
+                "Comparative: more beautiful → She is more beautiful than her sister.",
+                "Superlative: most beautiful → She is the most beautiful girl in town."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kata Sifat Tidak Beraturan"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Positive",
+                "Comparative",
+                "Superlative"
+              ],
+              "rows": [
+                [
+                  "good",
+                  "better",
+                  "the best"
+                ],
+                [
+                  "bad",
+                  "worse",
+                  "the worst"
+                ],
+                [
+                  "far",
+                  "farther/further",
+                  "the farthest/furthest"
+                ],
+                [
+                  "little",
+                  "less",
+                  "the least"
+                ],
+                [
+                  "much/many",
+                  "more",
+                  "the most"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Perhatikan: good → better → best; bad → worse → worst."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-cd-1",
+          "question": "Rumus comparative kata sifat pendek?",
+          "answer": "adj + -er + than"
+        },
+        {
+          "id": "fc-cd-2",
+          "question": "Rumus superlative kata sifat panjang?",
+          "answer": "the most + adj"
+        },
+        {
+          "id": "fc-cd-3",
+          "question": "Bentuk comparative dari 'good'?",
+          "answer": "better"
+        },
+        {
+          "id": "fc-cd-4",
+          "question": "Bentuk superlative dari 'bad'?",
+          "answer": "the worst"
+        },
+        {
+          "id": "fc-cd-5",
+          "question": "Contoh kalimat positive degree?",
+          "answer": "She is as tall as her brother."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q-cd-1",
+            "type": "multiple_choice",
+            "question": "The comparative form of 'expensive' is:",
+            "options": [
+              "expensiver",
+              "more expensive",
+              "most expensive",
+              "expensivest"
+            ],
+            "answer": 1,
+            "explanation": "Kata sifat panjang (2+ suku kata) menggunakan 'more' untuk comparative."
+          },
+          {
+            "id": "q-cd-2",
+            "type": "multiple_choice",
+            "question": "Choose the correct sentence:",
+            "options": [
+              "She is more taller than me.",
+              "She is taller than me.",
+              "She is the taller than me.",
+              "She is tall than me."
+            ],
+            "answer": 1,
+            "explanation": "Comparative dari tall adalah taller (tidak perlu more)."
+          },
+          {
+            "id": "q-cd-3",
+            "type": "multiple_choice",
+            "question": "'This is _______ book I have ever read.'",
+            "options": [
+              "good",
+              "better",
+              "the best",
+              "more good"
+            ],
+            "answer": 2,
+            "explanation": "Superlative dari good adalah the best."
+          }
+        ]
+      }
+    },
+    {
+      "id": "recount-text",
+      "title": "Recount Text",
+      "description": "Memahami teks recount yang menceritakan kembali peristiwa masa lalu.",
+      "lessons": [
+        {
+          "id": "recount-structure",
+          "title": "Struktur dan Fitur Teks Recount",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Recount Text"
+            },
+            {
+              "type": "text",
+              "text": "Recount text adalah teks yang menceritakan kembali peristiwa atau pengalaman yang sudah terjadi di masa lalu. Tujuannya untuk menceritakan, menghibur, atau menginformasikan."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fungsi Sosial"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Menceritakan pengalaman pribadi",
+                "Menginformasikan peristiwa historis",
+                "Menghibur pembaca dengan kisah masa lalu"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Struktur Teks Recount"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Orientation: Pengenalan tokoh, waktu, dan tempat kejadian",
+                "Events: Urutan peristiwa yang terjadi",
+                "Re-orientation (opsional): Kesimpulan atau perasaan penulis"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fitur Kebahasaan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Menggunakan simple past tense",
+                "Menggunakan action verbs",
+                "Menggunakan conjunctions of time: first, then, after that, finally",
+                "Menggunakan adverbs of time: yesterday, last week, two days ago, in 2020"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Teks Recount"
+            },
+            {
+              "type": "quote",
+              "text": "My Holiday in Bali\n\nLast month, I went to Bali with my family. We stayed there for three days.\n\nOn the first day, we visited Kuta Beach. The sand was white and the water was clear. We played volleyball and swam in the sea.\n\nOn the second day, we went to Ubud. We saw beautiful rice terraces and visited a traditional market. I bought some souvenirs for my friends.\n\nOn the last day, we relaxed at the hotel pool. It was a wonderful holiday. I hope I can visit Bali again someday.",
+              "translation": "Contoh teks recount tentang liburan."
+            },
+            {
+              "type": "highlight",
+              "text": "Perhatikan penggunaan simple past tense: went, stayed, visited, played, swam, bought."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-rec-1",
+          "question": "Apa fungsi sosial teks recount?",
+          "answer": "Menceritakan kembali peristiwa/pengalaman masa lalu."
+        },
+        {
+          "id": "fc-rec-2",
+          "question": "Sebutkan 3 struktur teks recount!",
+          "answer": "Orientation, Events, Re-orientation."
+        },
+        {
+          "id": "fc-rec-3",
+          "question": "Tense yang digunakan teks recount?",
+          "answer": "Simple Past Tense."
+        },
+        {
+          "id": "fc-rec-4",
+          "question": "Contoh adverb of time dalam recount?",
+          "answer": "yesterday, last week, two days ago, in 2020."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q-rec-1",
+            "type": "multiple_choice",
+            "question": "What is the purpose of a recount text?",
+            "options": [
+              "To give instructions",
+              "To retell past events",
+              "To describe animals",
+              "To advertise"
+            ],
+            "answer": 1,
+            "explanation": "Recount text menceritakan kembali peristiwa masa lalu."
+          },
+          {
+            "id": "q-rec-2",
+            "type": "multiple_choice",
+            "question": "Which tense is used in recount texts?",
+            "options": [
+              "Simple Present",
+              "Present Continuous",
+              "Simple Past",
+              "Future"
+            ],
+            "answer": 2,
+            "explanation": "Teks recount menggunakan Simple Past Tense."
+          },
+          {
+            "id": "q-rec-3",
+            "type": "multiple_choice",
+            "question": "'Last year, I _______ to Yogyakarta.'",
+            "options": [
+              "go",
+              "goes",
+              "went",
+              "going"
+            ],
+            "answer": 2,
+            "explanation": "'Went' adalah bentuk past tense dari go."
+          }
+        ]
+      }
+    },
+    {
+      "id": "family-tree-public-places",
+      "title": "Family Tree & Public Places",
+      "description": "Memahami informasi keluarga dan menyebutkan nama serta letak bangunan publik.",
+      "lessons": [
+        {
+          "id": "family-tree-lesson",
+          "title": "Family Tree & Public Places",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Family Tree (Pohon Keluarga)"
+            },
+            {
+              "type": "text",
+              "text": "Family tree adalah diagram yang menunjukkan hubungan antar anggota keluarga. Dalam bahasa Inggris, penting untuk mengetahui kosakata keluarga."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kosakata Keluarga"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Bahasa Inggris",
+                "Bahasa Indonesia"
+              ],
+              "rows": [
+                [
+                  "grandfather/grandmother",
+                  "kakek/nenek"
+                ],
+                [
+                  "father/mother",
+                  "ayah/ibu"
+                ],
+                [
+                  "uncle/aunt",
+                  "paman/bibi"
+                ],
+                [
+                  "brother/sister",
+                  "saudara laki-laki/perempuan"
+                ],
+                [
+                  "cousin",
+                  "sepupu"
+                ],
+                [
+                  "nephew/niece",
+                  "keponakan laki-laki/perempuan"
+                ],
+                [
+                  "husband/wife",
+                  "suami/istri"
+                ],
+                [
+                  "son/daughter",
+                  "anak laki-laki/perempuan"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Public Places (Tempat Umum)"
+            },
+            {
+              "type": "text",
+              "text": "Menyebutkan nama dan letak bangunan publik menggunakan preposition of place."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Preposition of Place"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Preposition",
+                "Arti",
+                "Contoh"
+              ],
+              "rows": [
+                [
+                  "in",
+                  "di dalam",
+                  "The bank is in the city center."
+                ],
+                [
+                  "on",
+                  "di atas",
+                  "The book is on the table."
+                ],
+                [
+                  "at",
+                  "di (titik tertentu)",
+                  "She is at the hospital."
+                ],
+                [
+                  "next to",
+                  "di sebelah",
+                  "The school is next to the mosque."
+                ],
+                [
+                  "between",
+                  "di antara",
+                  "The park is between the bank and the post office."
+                ],
+                [
+                  "behind",
+                  "di belakang",
+                  "The kitchen is behind the dining room."
+                ],
+                [
+                  "in front of",
+                  "di depan",
+                  "The bus stop is in front of the school."
+                ],
+                [
+                  "near",
+                  "dekat",
+                  "The supermarket is near my house."
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Kalimat"
+            },
+            {
+              "type": "list",
+              "items": [
+                "The hospital is next to the bank.",
+                "The post office is between the library and the police station.",
+                "My father works at the office in the city center.",
+                "There is a new supermarket near my neighborhood."
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Gunakan 'at' untuk titik tertentu, 'in' untuk area/daerah, dan 'on' untuk permukaan."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-fp-1",
+          "question": "Bahasa Inggris 'nenek'?",
+          "answer": "grandmother / grandma"
+        },
+        {
+          "id": "fc-fp-2",
+          "question": "Bahasa Inggris 'sepupu'?",
+          "answer": "cousin"
+        },
+        {
+          "id": "fc-fp-3",
+          "question": "Preposition untuk 'di sebelah'?",
+          "answer": "next to"
+        },
+        {
+          "id": "fc-fp-4",
+          "question": "Preposition untuk 'di antara'?",
+          "answer": "between"
+        },
+        {
+          "id": "fc-fp-5",
+          "question": "Preposition untuk 'di depan'?",
+          "answer": "in front of"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q-fp-1",
+            "type": "multiple_choice",
+            "question": "My mother's brother is my _______.",
+            "options": [
+              "father",
+              "uncle",
+              "cousin",
+              "grandfather"
+            ],
+            "answer": 1,
+            "explanation": "Saudara laki-laki ibu adalah paman (uncle)."
+          },
+          {
+            "id": "q-fp-2",
+            "type": "multiple_choice",
+            "question": "The library is _______ the school and the bank.",
+            "options": [
+              "next to",
+              "between",
+              "behind",
+              "in front of"
+            ],
+            "answer": 1,
+            "explanation": "'Between' digunakan untuk posisi di antara dua benda."
+          },
+          {
+            "id": "q-fp-3",
+            "type": "multiple_choice",
+            "question": "She works _______ the hospital.",
+            "options": [
+              "in",
+              "on",
+              "at",
+              "under"
+            ],
+            "answer": 2,
+            "explanation": "'At' digunakan untuk titik/lokasi tertentu seperti hospital."
+          }
+        ]
+      }
+    },
+    {
+      "id": "descriptive-text",
+      "title": "Descriptive Text",
+      "description": "Menemukan informasi eksplisit pada teks deskripsi tentang gambaran hewan.",
+      "lessons": [
+        {
+          "id": "descriptive-structure",
+          "title": "Struktur dan Fitur Teks Deskripsi",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Descriptive Text"
+            },
+            {
+              "type": "text",
+              "text": "Descriptive text adalah teks yang mendeskripsikan sesuatu secara spesifik dan detail. Tujuannya untuk menggambarkan objek, orang, hewan, atau tempat tertentu sehingga pembaca dapat membayangkannya."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fungsi Sosial"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Mendeskripsikan objek tertentu secara detail",
+                "Menggambarkan ciri fisik dan karakteristik",
+                "Membuat pembaca merasakan atau membayangkan sesuatu"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Struktur Teks Deskripsi"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Identification: Pengenalan objek yang dideskripsikan",
+                "Description: Deskripsi bagian-bagian, kualitas, karakteristik, dan sifat objek"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Fitur Kebahasaan"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Menggunakan simple present tense",
+                "Menggunakan kata sifat (adjectives) yang detail: beautiful, fierce, fluffy, enormous",
+                "Menggunakan linking verbs: is, am, are, looks, seems",
+                "Menggunakan kata keterangan (adverbs): very, quite, extremely"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Contoh Teks Deskripsi (Hewan)"
+            },
+            {
+              "type": "quote",
+              "text": "My Cat, Milo\n\nI have a pet cat named Milo. He is a Persian cat with long, white fur. His eyes are round and blue, like two beautiful sapphires.\n\nMilo has a small pink nose and soft paws. He is very playful but sometimes lazy. He loves to sleep on the sofa all day.\n\nEvery morning, Milo waits for me at the door. He is not just a pet; he is my best friend.",
+              "translation": "Contoh teks deskripsi tentang kucing."
+            },
+            {
+              "type": "highlight",
+              "text": "Teks deskripsi bersifat spesifik (tentang Milo), berbeda dengan teks report yang bersifat umum (tentang kucing secara umum)."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-desc-1",
+          "question": "Apa fungsi sosial teks deskripsi?",
+          "answer": "Mendeskripsikan objek tertentu secara detail."
+        },
+        {
+          "id": "fc-desc-2",
+          "question": "Sebutkan 2 struktur teks deskripsi!",
+          "answer": "Identification dan Description."
+        },
+        {
+          "id": "fc-desc-3",
+          "question": "Perbedaan descriptive dan report text?",
+          "answer": "Descriptive = spesifik; Report = umum/general."
+        },
+        {
+          "id": "fc-desc-4",
+          "question": "Contoh linking verb dalam descriptive text?",
+          "answer": "is, am, are, looks, seems."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q-desc-1",
+            "type": "multiple_choice",
+            "question": "What is the purpose of a descriptive text?",
+            "options": [
+              "To give instructions",
+              "To describe a specific thing in detail",
+              "To retell past events",
+              "To advertise"
+            ],
+            "answer": 1,
+            "explanation": "Teks deskripsi mendeskripsikan sesuatu yang spesifik secara detail."
+          },
+          {
+            "id": "q-desc-2",
+            "type": "multiple_choice",
+            "question": "Which text describes a specific cat named Milo?",
+            "options": [
+              "Report text",
+              "Descriptive text",
+              "Narrative text",
+              "Procedure text"
+            ],
+            "answer": 1,
+            "explanation": "Teks yang mendeskripsikan Milo secara spesifik adalah descriptive text."
+          },
+          {
+            "id": "q-desc-3",
+            "type": "multiple_choice",
+            "question": "'His fur is very soft and white.' This sentence uses:",
+            "options": [
+              "Simple Past",
+              "Simple Present",
+              "Present Continuous",
+              "Future"
+            ],
+            "answer": 1,
+            "explanation": "Teks deskripsi menggunakan Simple Present Tense."
+          }
+        ]
+      }
+    },
+    {
+      "id": "writing-presenting",
+      "title": "Writing & Presenting",
+      "description": "Menyusun paragraf acak, menemukan informasi spesifik, dan membuat iklan produk.",
+      "lessons": [
+        {
+          "id": "writing-tips",
+          "title": "Tips Menulis dan Mempresentasikan",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Writing & Presenting"
+            },
+            {
+              "type": "text",
+              "text": "Peserta didik mengomunikasikan ide dan pengalaman melalui paragraf sederhana dan terstruktur, menggunakan kosakata spesifik dan struktur kalimat sederhana."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menyusun Paragraf Acak (Narrative)"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Baca semua paragraf terlebih dahulu",
+                "Cari paragraf yang berisi orientation (pengenalan)",
+                "Urutkan events berdasarkan time signals",
+                "Akhiri dengan resolution atau re-orientation"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Membuat Iklan Produk"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Buat headline yang menarik perhatian",
+                "Deskripsikan produk dengan kata sifat positif",
+                "Sebutkan manfaat/kelebihan produk",
+                "Tambahkan harga dan informasi kontak",
+                "Gunakan call to action yang kuat"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Menemukan Informasi Spesifik dari Teks Report"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Baca judul dan identifikasi topik utama",
+                "Cari kata kunci (keywords) yang ditanyakan",
+                "Perhatikan detail seperti angka, nama tempat, atau ciri khusus",
+                "Pastikan jawaban sesuai dengan yang ditanyakan"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Saat menyusun paragraf acak, perhatikan kata sambung waktu dan urutan logis cerita."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-wp-1",
+          "question": "Langkah pertama menyusun paragraf acak narrative?",
+          "answer": "Cari paragraf orientation (pengenalan tokoh, waktu, tempat)."
+        },
+        {
+          "id": "fc-wp-2",
+          "question": "Apa yang perlu ada dalam iklan produk?",
+          "answer": "Headline, deskripsi produk, manfaat, harga, kontak, call to action."
+        },
+        {
+          "id": "fc-wp-3",
+          "question": "Tips mencari informasi spesifik?",
+          "answer": "Baca judul, cari kata kunci, perhatikan detail angka/nama/tempat."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q-wp-1",
+            "type": "multiple_choice",
+            "question": "When arranging jumbled paragraphs of a narrative, you should look for:",
+            "options": [
+              "The longest paragraph",
+              "The orientation first",
+              "The conclusion first",
+              "The most difficult words"
+            ],
+            "answer": 1,
+            "explanation": "Orientation adalah bagian pengenalan yang biasanya ada di awal."
+          },
+          {
+            "id": "q-wp-2",
+            "type": "multiple_choice",
+            "question": "Which is important in an advertisement?",
+            "options": [
+              "A sad story",
+              "A strong call to action",
+              "A complicated sentence",
+              "A long introduction"
+            ],
+            "answer": 1,
+            "explanation": "Call to action penting dalam iklan untuk mengajak pembaca bertindak."
+          },
+          {
+            "id": "q-wp-3",
+            "type": "multiple_choice",
+            "question": "To find specific information in a report text, you should:",
+            "options": [
+              "Memorize the whole text",
+              "Look for keywords related to the question",
+              "Only read the first sentence",
+              "Guess the answer"
+            ],
+            "answer": 1,
+            "explanation": "Cari kata kunci yang berhubungan dengan pertanyaan untuk menemukan informasi spesifik."
           }
         ]
       }
