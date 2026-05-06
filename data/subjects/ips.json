@@ -2,52 +2,37 @@
   "id": "ips",
   "name": "IPS",
   "description": "Sejarah, geografi, ekonomi, dan sosiologi",
-  "grade": [
-    7,
-    8,
-    9
-  ],
+  "grade": [7, 8, 9],
   "icon": "Globe",
   "color": "neutral",
   "topics": [
     {
-      "id": "letak-indonesia",
-      "title": "Letak dan Kondisi Indonesia",
-      "description": "Letak geografis dan astronomis Indonesia",
+      "id": "geografi-indonesia",
+      "title": "Geografi Indonesia",
+      "description": "Letak, kondisi wilayah, peta, dan interaksi antar wilayah (SKL 1-3, 5)",
       "lessons": [
         {
-          "id": "letak-wilayah",
+          "id": "letak-indonesia",
           "title": "Letak Wilayah Indonesia",
           "estMinutes": 10,
           "content": [
-            {
-              "type": "heading",
-              "text": "Letak Indonesia"
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Letak Astronomis"
-            },
+            { "type": "heading", "text": "Letak Indonesia" },
+            { "type": "heading", "level": 2, "text": "Letak Astronomis" },
             {
               "type": "list",
               "items": [
-                "6° LU - 11° LS (garis lintang)",
-                "95° BT - 141° BT (garis bujur)",
-                "Beriklim tropis dengan curah hujan tinggi"
+                "6°LU – 11°LS (lintang)",
+                "95°BT – 141°BT (bujur)",
+                "Beriklim tropis, curah hujan tinggi"
               ]
             },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Letak Geografis"
-            },
+            { "type": "heading", "level": 2, "text": "Letak Geografis" },
             {
               "type": "list",
               "items": [
                 "Di antara Benua Asia dan Australia",
                 "Di antara Samudra Hindia dan Pasifik",
-                "Posisi strategis untuk perdagangan internasional"
+                "Posisi strategis jalur perdagangan dunia"
               ]
             },
             {
@@ -57,32 +42,92 @@
             },
             {
               "type": "table",
-              "headers": [
-                "Aspek",
-                "Pengaruh"
-              ],
+              "headers": ["Aspek", "Pengaruh"],
               "rows": [
-                [
-                  "Iklim",
-                  "Tropis, panas sepanjang tahun"
-                ],
-                [
-                  "Perdagangan",
-                  "Jalur perdagangan internasional"
-                ],
-                [
-                  "Budaya",
-                  "Pengaruh berbagai peradaban"
-                ],
-                [
-                  "Keamanan",
-                  "Rawan bencana alam"
-                ]
+                ["Iklim", "Tropis, panas sepanjang tahun"],
+                ["Perdagangan", "Jalur perdagangan internasional"],
+                ["Budaya", "Pengaruh berbagai peradaban"],
+                ["Bencana", "Rawan gempa & gunung berapi (Cincin Api Pasifik)"]
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Komponen Peta" },
+            {
+              "type": "list",
+              "items": [
+                "Judul peta",
+                "Skala (perbandingan jarak peta : jarak nyata)",
+                "Legenda (keterangan simbol)",
+                "Orientasi/mata angin",
+                "Garis astronomi (lintang & bujur)",
+                "Inset (peta kecil penjelas)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Interaksi Antar Wilayah"
+            },
+            {
+              "type": "text",
+              "text": "Interaksi antar wilayah terjadi karena perbedaan sumber daya, iklim, dan kebutuhan. Faktor pendorong: komplementaritas (saling melengkapi), transferabilitas (kemudahan perpindahan), dan intervensi (hambatan antara)."
+            },
+            {
+              "type": "highlight",
+              "text": "Teori Gravitasi: semakin besar penduduk dan semakin dekat jarak dua wilayah, semakin kuat interaksinya."
+            }
+          ]
+        },
+        {
+          "id": "kondisi-wilayah",
+          "title": "Kondisi Wilayah Indonesia",
+          "estMinutes": 10,
+          "content": [
+            { "type": "heading", "text": "Kondisi Wilayah Indonesia" },
+            { "type": "heading", "level": 2, "text": "Bentuk Muka Bumi" },
+            {
+              "type": "list",
+              "items": [
+                "Indonesia terdiri dari 17.000+ pulau (negara kepulauan terbesar di dunia)",
+                "Dataran rendah: pesisir pantai, cocok untuk pertanian padi & permukiman",
+                "Dataran tinggi/pegunungan: suhu sejuk, cocok untuk perkebunan teh, kopi, sayuran",
+                "Gunung berapi aktif: 127 gunung api aktif (bagian Cincin Api Pasifik)",
+                "Perairan: 2/3 wilayah Indonesia berupa laut, kaya sumber daya kelautan"
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Kondisi Iklim" },
+            {
+              "type": "table",
+              "headers": ["Jenis Iklim", "Keterangan"],
+              "rows": [
+                ["Tropis (Matahari)", "Suhu rata-rata 26–28°C, penyinaran matahari sepanjang tahun"],
+                ["Musim (Muson)", "2 musim: hujan (Okt–Apr, Muson Barat) & kemarau (Apr–Okt, Muson Timur)"],
+                ["Laut", "Curah hujan tinggi karena dikelilingi laut, kelembapan udara tinggi"]
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Persebaran Flora dan Fauna" },
+            {
+              "type": "table",
+              "headers": ["Zona", "Batas", "Contoh Flora", "Contoh Fauna"],
+              "rows": [
+                ["Asiatis (Barat)", "Barat Garis Wallace", "Meranti, jati, raflesia", "Gajah, harimau, orangutan, badak"],
+                ["Peralihan (Tengah)", "Antara Wallace & Weber", "Eboni, kayu hitam", "Komodo, anoa, maleo, babirusa"],
+                ["Australis (Timur)", "Timur Garis Weber", "Kayu cendana, sagu", "Kanguru, kasuari, cenderawasih"]
               ]
             },
             {
               "type": "highlight",
-              "text": "Peta adalah gambar permukaan bumi yang diperkecil dengan skala tertentu."
+              "text": "Garis Wallace memisahkan fauna Asiatis & Peralihan. Garis Weber memisahkan fauna Peralihan & Australis."
+            },
+            { "type": "heading", "level": 2, "text": "Jenis Tanah" },
+            {
+              "type": "table",
+              "headers": ["Jenis Tanah", "Ciri", "Lokasi"],
+              "rows": [
+                ["Vulkanik (Andosol)", "Sangat subur, hasil letusan gunung api", "Jawa, Sumatera, Bali"],
+                ["Alluvial", "Subur, endapan sungai", "Dataran rendah & pantai"],
+                ["Laterit", "Kurang subur, curah hujan tinggi", "Kalimantan, Sumatera"],
+                ["Gambut (Organosol)", "Dari sisa tumbuhan rawa", "Kalimantan, Sumatera, Papua"]
+              ]
             }
           ]
         }
@@ -91,22 +136,42 @@
         {
           "id": "fc1",
           "question": "Letak astronomis Indonesia?",
-          "answer": "6°LU-11°LS dan 95°BT-141°BT"
+          "answer": "6°LU–11°LS dan 95°BT–141°BT"
         },
         {
           "id": "fc2",
-          "question": "Indonesia terletak di antara benua?",
+          "question": "Indonesia terletak di antara dua benua?",
           "answer": "Asia dan Australia"
         },
         {
           "id": "fc3",
-          "question": "Iklim Indonesia?",
-          "answer": "Tropis"
+          "question": "Indonesia terletak di antara dua samudra?",
+          "answer": "Samudra Hindia dan Samudra Pasifik"
         },
         {
           "id": "fc4",
-          "question": "Keuntungan letak geografis Indonesia?",
-          "answer": "Jalur perdagangan internasional"
+          "question": "Apa itu skala peta?",
+          "answer": "Perbandingan antara jarak di peta dengan jarak sesungguhnya di lapangan"
+        },
+        {
+          "id": "fc5",
+          "question": "3 faktor pendorong interaksi antar wilayah?",
+          "answer": "Komplementaritas, transferabilitas, intervensi"
+        },
+        {
+          "id": "fc6",
+          "question": "Garis Wallace memisahkan zona fauna apa?",
+          "answer": "Zona Asiatis (barat) dan zona Peralihan (tengah)"
+        },
+        {
+          "id": "fc7",
+          "question": "Ciri dan lokasi tanah vulkanik?",
+          "answer": "Sangat subur, berasal dari letusan gunung api, banyak di Jawa, Sumatera, dan Bali"
+        },
+        {
+          "id": "fc8",
+          "question": "2 musim di Indonesia dan penyebabnya?",
+          "answer": "Musim hujan (Okt–Apr, Muson Barat) dan musim kemarau (Apr–Okt, Muson Timur)"
         }
       ],
       "quiz": {
@@ -122,41 +187,78 @@
               "Arktik dan Pasifik"
             ],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Indonesia diapit Samudra Hindia (barat-selatan) dan Samudra Pasifik (timur-utara)."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Iklim Indonesia adalah?",
+            "question": "Komponen peta yang menjelaskan simbol disebut?",
+            "options": ["Skala", "Inset", "Legenda", "Orientasi"],
+            "answer": 2,
+            "explanation": "Legenda adalah keterangan simbol-simbol yang digunakan dalam peta."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Faktor pendorong interaksi antar wilayah ketika dua wilayah saling membutuhkan disebut?",
             "options": [
-              "Subtropis",
-              "Tropis",
-              "Kutub",
-              "Sedang"
+              "Transferabilitas",
+              "Intervensi",
+              "Komplementaritas",
+              "Gravitasi"
             ],
-            "answer": 1,
-            "explanation": ""
+            "answer": 2,
+            "explanation": "Komplementaritas berarti dua wilayah saling melengkapi kebutuhan satu sama lain."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Fauna komodo, anoa, dan babirusa termasuk zona?",
+            "options": ["Asiatis", "Australis", "Peralihan", "Neotropik"],
+            "answer": 2,
+            "explanation": "Komodo, anoa, dan babirusa adalah fauna unik zona Peralihan (antara Garis Wallace dan Weber)."
+          },
+          {
+            "id": "q5",
+            "type": "multiple_choice",
+            "question": "Tanah paling subur di Indonesia yang berasal dari letusan gunung api disebut?",
+            "options": ["Alluvial", "Laterit", "Vulkanik (Andosol)", "Gambut"],
+            "answer": 2,
+            "explanation": "Tanah vulkanik (andosol) sangat subur karena mengandung mineral dari letusan gunung api."
           }
         ]
       }
     },
     {
-      "id": "interaksi-sosial",
-      "title": "Interaksi Sosial",
-      "description": "Bentuk-bentuk interaksi dalam masyarakat",
+      "id": "sosialisasi-interaksi",
+      "title": "Sosialisasi & Interaksi Sosial",
+      "description": "Agen sosialisasi dan bentuk interaksi sosial (SKL 4, 8)",
       "lessons": [
         {
-          "id": "bentuk-interaksi",
-          "title": "Bentuk-bentuk Interaksi Sosial",
+          "id": "sosialisasi",
+          "title": "Sosialisasi dan Interaksi Sosial",
           "estMinutes": 10,
           "content": [
-            {
-              "type": "heading",
-              "text": "Interaksi Sosial"
-            },
+            { "type": "heading", "text": "Sosialisasi" },
             {
               "type": "text",
-              "text": "Interaksi sosial adalah hubungan timbal balik antara individu, individu dengan kelompok, atau kelompok dengan kelompok."
+              "text": "Sosialisasi adalah proses belajar nilai, norma, dan budaya agar individu dapat menyesuaikan diri dalam masyarakat."
+            },
+            { "type": "heading", "level": 2, "text": "Agen-Agen Sosialisasi" },
+            {
+              "type": "table",
+              "headers": ["Agen", "Peran"],
+              "rows": [
+                ["Keluarga", "Sosialisasi primer, pertama dan utama"],
+                ["Kelompok bermain (teman sebaya)", "Belajar norma dari teman"],
+                ["Sekolah", "Sosialisasi formal dan akademik"],
+                ["Media massa", "Menyebarkan nilai dan informasi"]
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Interaksi Sosial" },
+            {
+              "type": "text",
+              "text": "Interaksi sosial adalah hubungan timbal balik antar individu atau kelompok. Syarat: kontak sosial + komunikasi."
             },
             {
               "type": "heading",
@@ -165,11 +267,7 @@
             },
             {
               "type": "table",
-              "headers": [
-                "Bentuk",
-                "Pengertian",
-                "Contoh"
-              ],
+              "headers": ["Bentuk", "Pengertian", "Contoh"],
               "rows": [
                 [
                   "Kerja sama",
@@ -178,17 +276,17 @@
                 ],
                 [
                   "Akomodasi",
-                  "Menyelesaikan konflik",
-                  "Mediasi, arbitrasi"
+                  "Upaya menyelesaikan konflik",
+                  "Mediasi, arbitrasi, kompromi"
                 ],
                 [
                   "Asimilasi",
-                  "Peleburan budaya",
-                  "Perkawinan beda suku"
+                  "Peleburan dua budaya menjadi satu",
+                  "Perkawinan campur beda suku"
                 ],
                 [
                   "Akulturasi",
-                  "Percampuran budaya tanpa hilang",
+                  "Percampuran budaya tanpa menghilangkan aslinya",
                   "Wayang Wahyu"
                 ]
               ]
@@ -200,28 +298,19 @@
             },
             {
               "type": "table",
-              "headers": [
-                "Bentuk",
-                "Pengertian"
-              ],
+              "headers": ["Bentuk", "Pengertian"],
               "rows": [
                 [
-                  "Persaingan",
-                  "Berlomba mencapai tujuan"
+                  "Persaingan (kompetisi)",
+                  "Berlomba mencapai tujuan secara positif"
                 ],
-                [
-                  "Kontravensi",
-                  "Sikap tidak suka tersembunyi"
-                ],
-                [
-                  "Konflik",
-                  "Pertentangan terbuka"
-                ]
+                ["Kontravensi", "Sikap tidak suka yang tersembunyi"],
+                ["Konflik", "Pertentangan terbuka"]
               ]
             },
             {
               "type": "highlight",
-              "text": "Sosialisasi adalah proses belajar nilai dan norma dalam masyarakat."
+              "text": "Sosialisasi primer terjadi di keluarga; sosialisasi sekunder terjadi di lembaga lain (sekolah, teman, media)."
             }
           ]
         }
@@ -229,23 +318,28 @@
       "flashcards": [
         {
           "id": "fc1",
-          "question": "Apa itu interaksi sosial?",
-          "answer": "Hubungan timbal balik antar individu/kelompok"
+          "question": "Apa itu sosialisasi?",
+          "answer": "Proses belajar nilai dan norma agar individu dapat menyesuaikan diri dalam masyarakat"
         },
         {
           "id": "fc2",
-          "question": "Contoh interaksi asosiatif?",
-          "answer": "Kerja sama, akomodasi, asimilasi"
+          "question": "4 agen sosialisasi utama?",
+          "answer": "Keluarga, teman sebaya, sekolah, media massa"
         },
         {
           "id": "fc3",
-          "question": "Apa itu asimilasi?",
-          "answer": "Peleburan dua budaya menjadi satu"
+          "question": "Syarat interaksi sosial?",
+          "answer": "Kontak sosial + komunikasi"
         },
         {
           "id": "fc4",
           "question": "Apa itu akulturasi?",
-          "answer": "Percampuran budaya tanpa menghilangkan budaya asli"
+          "answer": "Percampuran dua budaya tanpa menghilangkan budaya aslinya"
+        },
+        {
+          "id": "fc5",
+          "question": "Perbedaan asimilasi dan akulturasi?",
+          "answer": "Asimilasi: dua budaya lebur jadi satu. Akulturasi: berpadu tapi masing-masing tetap ada."
         }
       ],
       "quiz": {
@@ -253,83 +347,89 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Gotong royong termasuk interaksi?",
-            "options": [
-              "Konflik",
-              "Persaingan",
-              "Kerja sama",
-              "Kontravensi"
-            ],
+            "question": "Agen sosialisasi yang pertama dan utama adalah?",
+            "options": ["Sekolah", "Media massa", "Keluarga", "Teman sebaya"],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Keluarga adalah agen sosialisasi primer — tempat sosialisasi pertama dan paling berpengaruh."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Pertentangan terbuka disebut?",
-            "options": [
-              "Persaingan",
-              "Konflik",
-              "Akomodasi",
-              "Asimilasi"
-            ],
-            "answer": 1,
-            "explanation": ""
+            "question": "Gotong royong merupakan contoh interaksi?",
+            "options": ["Konflik", "Persaingan", "Kerja sama", "Kontravensi"],
+            "answer": 2,
+            "explanation": "Gotong royong adalah kerja sama — bentuk interaksi asosiatif."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Pertentangan terbuka antar individu/kelompok disebut?",
+            "options": ["Persaingan", "Akomodasi", "Kontravensi", "Konflik"],
+            "answer": 3,
+            "explanation": "Konflik adalah interaksi disosiatif berupa pertentangan terbuka."
           }
         ]
       }
     },
     {
-      "id": "kegiatan-ekonomi",
-      "title": "Kegiatan Ekonomi",
-      "description": "Produksi, distribusi, konsumsi",
+      "id": "kebutuhan-ekonomi",
+      "title": "Kebutuhan Manusia & Kegiatan Ekonomi",
+      "description": "Skala prioritas, kegiatan ekonomi, pelaku, permintaan, penawaran (SKL 6, 11-13)",
       "lessons": [
         {
-          "id": "pelaku-ekonomi",
-          "title": "Kegiatan dan Pelaku Ekonomi",
-          "estMinutes": 10,
+          "id": "kebutuhan-manusia",
+          "title": "Kebutuhan Manusia dan Kegiatan Ekonomi",
+          "estMinutes": 12,
           "content": [
-            {
-              "type": "heading",
-              "text": "Kegiatan Ekonomi"
-            },
+            { "type": "heading", "text": "Kebutuhan Manusia" },
             {
               "type": "table",
-              "headers": [
-                "Kegiatan",
-                "Pengertian",
-                "Contoh"
-              ],
+              "headers": ["Klasifikasi", "Jenis", "Contoh"],
               "rows": [
                 [
-                  "Produksi",
-                  "Menghasilkan barang/jasa",
-                  "Petani, pabrik"
+                  "Intensitas",
+                  "Primer, Sekunder, Tersier",
+                  "Makan; pakaian; mobil mewah"
                 ],
-                [
-                  "Distribusi",
-                  "Menyalurkan barang",
-                  "Pedagang, ekspedisi"
-                ],
-                [
-                  "Konsumsi",
-                  "Menggunakan barang/jasa",
-                  "Pembeli, konsumen"
-                ]
+                ["Waktu", "Sekarang, masa depan", "Obat saat sakit; tabungan"],
+                ["Subjek", "Individu, kolektif", "Kacamata; jalan raya"],
+                ["Wujud", "Material, immaterial", "Baju; pendidikan"]
               ]
             },
             {
-              "type": "heading",
-              "level": 2,
-              "text": "Pelaku Ekonomi"
+              "type": "text",
+              "text": "Skala prioritas: mengurutkan kebutuhan dari yang paling penting dan mendesak terlebih dahulu, mempertimbangkan kondisi keuangan."
             },
+            { "type": "heading", "level": 2, "text": "Kegiatan Ekonomi" },
+            {
+              "type": "table",
+              "headers": ["Kegiatan", "Pengertian", "Contoh"],
+              "rows": [
+                [
+                  "Produksi",
+                  "Menghasilkan/menambah nilai barang/jasa",
+                  "Petani, pabrik, guru"
+                ],
+                [
+                  "Distribusi",
+                  "Menyalurkan dari produsen ke konsumen",
+                  "Pedagang, ekspedisi, agen"
+                ],
+                [
+                  "Konsumsi",
+                  "Menggunakan/menghabiskan barang/jasa",
+                  "Pembeli, pengguna jasa"
+                ]
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Pelaku Ekonomi" },
             {
               "type": "list",
               "items": [
-                "Rumah tangga keluarga (konsumen)",
-                "Rumah tangga produsen (perusahaan)",
-                "Rumah tangga negara (pemerintah)",
-                "Masyarakat luar negeri (ekspor-impor)"
+                "Rumah Tangga Keluarga: konsumen + menyediakan faktor produksi (tenaga kerja, tanah, modal)",
+                "Perusahaan (Produsen): menghasilkan barang/jasa",
+                "Pemerintah: regulator + konsumen + produsen (BUMN)",
+                "Luar Negeri: ekspor-impor"
               ]
             },
             {
@@ -338,16 +438,24 @@
               "text": "Permintaan dan Penawaran"
             },
             {
-              "type": "list",
-              "items": [
-                "Hukum permintaan: harga naik → permintaan turun",
-                "Hukum penawaran: harga naik → penawaran naik",
-                "Harga keseimbangan: titik temu permintaan dan penawaran"
+              "type": "table",
+              "headers": ["Konsep", "Hukum", "Faktor Pengaruh"],
+              "rows": [
+                [
+                  "Permintaan",
+                  "Harga ↑ → Permintaan ↓",
+                  "Harga, selera, pendapatan, harga barang lain, ekspektasi"
+                ],
+                [
+                  "Penawaran",
+                  "Harga ↑ → Penawaran ↑",
+                  "Harga, teknologi, biaya produksi, jumlah produsen"
+                ]
               ]
             },
             {
               "type": "highlight",
-              "text": "Pasar adalah tempat bertemunya penjual dan pembeli."
+              "text": "Harga keseimbangan (equilibrium): titik temu antara jumlah permintaan dan penawaran di pasar."
             }
           ]
         }
@@ -355,136 +463,28 @@
       "flashcards": [
         {
           "id": "fc1",
-          "question": "3 kegiatan ekonomi utama?",
+          "question": "Urutan kebutuhan berdasarkan intensitas?",
+          "answer": "Primer (utama) → Sekunder → Tersier"
+        },
+        {
+          "id": "fc2",
+          "question": "3 kegiatan ekonomi?",
           "answer": "Produksi, distribusi, konsumsi"
         },
         {
-          "id": "fc2",
+          "id": "fc3",
+          "question": "4 pelaku ekonomi?",
+          "answer": "RT Keluarga, Perusahaan/Produsen, Pemerintah, Luar Negeri"
+        },
+        {
+          "id": "fc4",
           "question": "Hukum permintaan?",
-          "answer": "Harga naik → permintaan turun"
-        },
-        {
-          "id": "fc3",
-          "question": "Pelaku ekonomi?",
-          "answer": "RT keluarga, produsen, negara, luar negeri"
-        },
-        {
-          "id": "fc4",
-          "question": "Apa itu distribusi?",
-          "answer": "Menyalurkan barang dari produsen ke konsumen"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q1",
-            "type": "multiple_choice",
-            "question": "Petani termasuk pelaku kegiatan?",
-            "options": [
-              "Konsumsi",
-              "Distribusi",
-              "Produksi",
-              "Perdagangan"
-            ],
-            "answer": 2,
-            "explanation": ""
-          },
-          {
-            "id": "q2",
-            "type": "multiple_choice",
-            "question": "Jika harga naik, menurut hukum permintaan?",
-            "options": [
-              "Permintaan naik",
-              "Permintaan turun",
-              "Permintaan tetap",
-              "Tidak berpengaruh"
-            ],
-            "answer": 1,
-            "explanation": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "sejarah-kemerdekaan",
-      "title": "Sejarah Kemerdekaan",
-      "description": "Proklamasi dan perjuangan kemerdekaan",
-      "lessons": [
-        {
-          "id": "proklamasi",
-          "title": "Proklamasi Kemerdekaan Indonesia",
-          "estMinutes": 12,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Proklamasi 17 Agustus 1945"
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Kronologi"
-            },
-            {
-              "type": "list",
-              "ordered": true,
-              "items": [
-                "Peristiwa Rengasdengklok (16 Agustus 1945): Soekarno-Hatta diamankan pemuda",
-                "Perumusan teks proklamasi di rumah Laksamana Maeda",
-                "Pembacaan proklamasi di Pegangsaan Timur 56 (pukul 10.00)",
-                "Pengibaran bendera Merah Putih oleh Latief Hendraningrat"
-              ]
-            },
-            {
-              "type": "quote",
-              "text": "Teks Proklamasi",
-              "translation": "Kami bangsa Indonesia dengan ini menjatakan kemerdekaan Indonesia. Hal-hal jang mengenai pemindahan kekoeasaan d.l.l., diselenggarakan dengan tjara saksama dan dalam tempo jang sesingkat-singkatnja."
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Tokoh Proklamasi"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Soekarno — membacakan proklamasi",
-                "Hatta — mendampingi, ikut merumuskan teks",
-                "Ahmad Soebardjo — konseptor teks",
-                "Sayuti Melik — mengetik teks proklamasi"
-              ]
-            },
-            {
-              "type": "highlight",
-              "text": "Proklamasi adalah pernyataan resmi lahirnya negara Republik Indonesia."
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc1",
-          "question": "Tanggal proklamasi kemerdekaan?",
-          "answer": "17 Agustus 1945"
-        },
-        {
-          "id": "fc2",
-          "question": "Siapa yang membacakan proklamasi?",
-          "answer": "Ir. Soekarno"
-        },
-        {
-          "id": "fc3",
-          "question": "Di mana teks proklamasi dirumuskan?",
-          "answer": "Rumah Laksamana Maeda"
-        },
-        {
-          "id": "fc4",
-          "question": "Peristiwa Rengasdengklok terjadi tanggal?",
-          "answer": "16 Agustus 1945"
+          "answer": "Jika harga naik, jumlah permintaan turun (berbanding terbalik)"
         },
         {
           "id": "fc5",
-          "question": "Siapa yang mengetik teks proklamasi?",
-          "answer": "Sayuti Melik"
+          "question": "Hukum penawaran?",
+          "answer": "Jika harga naik, jumlah penawaran naik (berbanding lurus)"
         }
       ],
       "quiz": {
@@ -492,95 +492,125 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Proklamasi dibacakan di?",
-            "options": [
-              "Rumah Maeda",
-              "Pegangsaan Timur 56",
-              "Rengasdengklok",
-              "Istana Merdeka"
-            ],
-            "answer": 1,
-            "explanation": ""
+            "question": "Petani menghasilkan padi termasuk kegiatan?",
+            "options": ["Konsumsi", "Distribusi", "Produksi", "Perdagangan"],
+            "answer": 2,
+            "explanation": "Menghasilkan barang = kegiatan produksi."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Yang mendampingi Soekarno membacakan proklamasi?",
+            "question": "Jika harga beras naik, permintaan beras akan?",
+            "options": ["Naik", "Turun", "Tetap", "Fluktuatif"],
+            "answer": 1,
+            "explanation": "Sesuai hukum permintaan: harga naik → permintaan turun."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Ekspor-impor dilakukan oleh pelaku ekonomi?",
             "options": [
-              "Sayuti Melik",
-              "Ahmad Soebardjo",
-              "Mohammad Hatta",
-              "Latief Hendraningrat"
+              "RT Keluarga",
+              "Perusahaan",
+              "Pemerintah",
+              "Luar Negeri"
             ],
-            "answer": 2,
-            "explanation": ""
+            "answer": 3,
+            "explanation": "Masyarakat/lembaga luar negeri berperan dalam kegiatan ekspor-impor."
           }
         ]
       }
     },
     {
-      "id": "globalisasi",
-      "title": "Globalisasi dan Modernisasi",
-      "description": "Dampak globalisasi dan modernisasi",
+      "id": "praaksara",
+      "title": "Kehidupan Praaksara",
+      "description": "Kehidupan masyarakat masa sebelum mengenal tulisan (SKL 7)",
       "lessons": [
         {
-          "id": "dampak-globalisasi",
-          "title": "Globalisasi dan Dampaknya",
+          "id": "masa-praaksara",
+          "title": "Kehidupan Masyarakat Praaksara",
           "estMinutes": 10,
           "content": [
-            {
-              "type": "heading",
-              "text": "Globalisasi"
-            },
+            { "type": "heading", "text": "Kehidupan Praaksara" },
             {
               "type": "text",
-              "text": "Globalisasi adalah proses integrasi dunia tanpa batas geografis, ditandai dengan kemajuan teknologi dan komunikasi."
+              "text": "Praaksara/prasejarah adalah masa sebelum manusia mengenal tulisan. Sumber sejarah: fosil, artefak, dan karbon dating."
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Dampak Positif"
+              "text": "Pembagian Zaman Berdasarkan Geologi"
             },
             {
               "type": "list",
               "items": [
-                "Kemudahan akses informasi",
-                "Peningkatan ilmu pengetahuan",
-                "Kemajuan teknologi",
-                "Peluang ekonomi global"
+                "Arkaikum: bumi belum berpenghuni",
+                "Paleozoikum: muncul makhluk bersel satu",
+                "Mesozoikum: zaman reptil raksasa (dinosaurus)",
+                "Neozoikum: muncul mamalia dan manusia purba"
               ]
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Dampak Negatif"
+              "text": "Pembagian Berdasarkan Arkeologi"
             },
             {
-              "type": "list",
-              "items": [
-                "Lunturnya budaya lokal",
-                "Konsumerisme",
-                "Kesenjangan sosial",
-                "Masuknya budaya asing negatif"
+              "type": "table",
+              "headers": ["Zaman", "Ciri", "Alat"],
+              "rows": [
+                [
+                  "Paleolitikum (Batu Tua)",
+                  "Nomaden, food gathering",
+                  "Kapak genggam, chopper"
+                ],
+                [
+                  "Mesolitikum (Batu Tengah)",
+                  "Semi nomaden",
+                  "Kapak pendek, pebble"
+                ],
+                [
+                  "Neolitikum (Batu Muda)",
+                  "Menetap, food producing",
+                  "Kapak persegi, kapak lonjong"
+                ],
+                [
+                  "Megalitikum (Batu Besar)",
+                  "Mengenal religi",
+                  "Menhir, dolmen, sarkofagus"
+                ],
+                ["Zaman Logam", "Perunggu & besi", "Nekara, moko, kapak corong"]
               ]
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Sikap Menghadapi Globalisasi"
+              "text": "Manusia Purba di Indonesia"
             },
             {
-              "type": "list",
-              "items": [
-                "Selektif terhadap budaya asing",
-                "Melestarikan budaya lokal",
-                "Meningkatkan kualitas SDM",
-                "Berpikir kritis"
+              "type": "table",
+              "headers": ["Nama", "Lokasi Ditemukan", "Penemu"],
+              "rows": [
+                [
+                  "Meganthropus paleojavanicus",
+                  "Sangiran, Jawa Tengah",
+                  "Von Koenigswald (1936)"
+                ],
+                [
+                  "Pithecanthropus erectus",
+                  "Trinil, Ngawi, Jawa Timur",
+                  "Eugene Dubois (1891)"
+                ],
+                [
+                  "Homo sapiens (Homo wajakensis)",
+                  "Wajak, Tulungagung",
+                  "Eugene Dubois"
+                ]
               ]
             },
             {
               "type": "highlight",
-              "text": "Kearifan lokal adalah nilai-nilai luhur budaya daerah yang perlu dilestarikan."
+              "text": "Food gathering = mencari/mengumpulkan makanan (nomaden). Food producing = bercocok tanam (menetap)."
             }
           ]
         }
@@ -588,23 +618,28 @@
       "flashcards": [
         {
           "id": "fc1",
-          "question": "Apa itu globalisasi?",
-          "answer": "Proses integrasi dunia tanpa batas geografis"
+          "question": "Apa itu praaksara?",
+          "answer": "Masa sebelum manusia mengenal tulisan"
         },
         {
           "id": "fc2",
-          "question": "Dampak positif globalisasi?",
-          "answer": "Kemudahan akses informasi, kemajuan teknologi"
+          "question": "Ciri utama zaman Neolitikum?",
+          "answer": "Sudah menetap dan bercocok tanam (food producing)"
         },
         {
           "id": "fc3",
-          "question": "Dampak negatif globalisasi?",
-          "answer": "Lunturnya budaya lokal, konsumerisme"
+          "question": "Siapa penemu Pithecanthropus erectus?",
+          "answer": "Eugene Dubois (1891) di Trinil, Jawa Timur"
         },
         {
           "id": "fc4",
-          "question": "Sikap menghadapi globalisasi?",
-          "answer": "Selektif, melestarikan budaya lokal"
+          "question": "Peninggalan zaman Megalitikum?",
+          "answer": "Menhir (tugu batu), dolmen (meja batu), sarkofagus (peti mati batu)"
+        },
+        {
+          "id": "fc5",
+          "question": "Perbedaan food gathering dan food producing?",
+          "answer": "Food gathering: mengumpulkan makanan (nomaden). Food producing: bercocok tanam (menetap)."
         }
       ],
       "quiz": {
@@ -612,106 +647,133 @@
           {
             "id": "q1",
             "type": "multiple_choice",
-            "question": "Yang bukan dampak positif globalisasi?",
+            "question": "Zaman batu yang ditandai kehidupan menetap dan bercocok tanam adalah?",
             "options": [
-              "Kemajuan teknologi",
-              "Lunturnya budaya lokal",
-              "Akses informasi mudah",
-              "Peluang ekonomi"
+              "Paleolitikum",
+              "Mesolitikum",
+              "Neolitikum",
+              "Megalitikum"
             ],
-            "answer": 1,
-            "explanation": ""
+            "answer": 2,
+            "explanation": "Neolitikum ditandai dengan food producing — manusia mulai menetap dan bercocok tanam."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Cara menyikapi globalisasi dengan benar adalah?",
+            "question": "Manusia purba paling tua di Indonesia adalah?",
             "options": [
-              "Menolak semua budaya asing",
-              "Menerima semua budaya asing",
-              "Selektif terhadap budaya asing",
-              "Mengabaikan budaya lokal"
+              "Homo sapiens",
+              "Pithecanthropus erectus",
+              "Meganthropus paleojavanicus",
+              "Homo wajakensis"
             ],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Meganthropus paleojavanicus dianggap manusia purba paling tua yang ditemukan di Indonesia."
           }
         ]
       }
     },
     {
-      "id": "uang-perbankan",
-      "title": "Uang dan Lembaga Keuangan",
-      "description": "Fungsi uang, bank, dan lembaga keuangan",
+      "id": "kerajaan-hindu-buddha-islam",
+      "title": "Kerajaan Hindu-Buddha & Sejarah Islam",
+      "description": "Kehidupan masyarakat masa Hindu-Buddha dan Islam di Indonesia (SKL 9-10)",
       "lessons": [
         {
-          "id": "fungsi-uang",
-          "title": "Uang dan Fungsinya",
-          "estMinutes": 8,
+          "id": "hindu-buddha",
+          "title": "Kerajaan Hindu-Buddha & Islam",
+          "estMinutes": 15,
           "content": [
-            {
-              "type": "heading",
-              "text": "Uang dan Lembaga Keuangan"
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Fungsi Uang"
-            },
+            { "type": "heading", "text": "Kerajaan Hindu-Buddha" },
             {
               "type": "table",
-              "headers": [
-                "Fungsi Asli",
-                "Fungsi Turunan"
-              ],
+              "headers": ["Kerajaan", "Lokasi", "Raja Terkenal", "Ciri Khas"],
               "rows": [
                 [
-                  "Alat tukar",
-                  "Alat pembayaran"
+                  "Kutai (Hindu tertua)",
+                  "Kalimantan Timur",
+                  "Mulawarman",
+                  "Prasasti Yupa"
                 ],
                 [
-                  "Satuan hitung",
-                  "Penimbun kekayaan"
+                  "Tarumanegara",
+                  "Jawa Barat",
+                  "Purnawarman",
+                  "Prasasti Ciaruteun"
                 ],
                 [
-                  "-",
-                  "Pemindah kekayaan"
+                  "Sriwijaya (Budha)",
+                  "Sumatera Selatan",
+                  "Balaputradewa",
+                  "Maritim, pusat perdagangan"
                 ],
+                ["Mataram Hindu", "Jawa Tengah", "Sanjaya", "Candi Prambanan"],
                 [
-                  "-",
-                  "Standar pembayaran masa depan"
+                  "Majapahit (terbesar)",
+                  "Jawa Timur",
+                  "Hayam Wuruk + Gajah Mada",
+                  "Sumpah Palapa, Nusantara"
                 ]
               ]
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Lembaga Keuangan Bank"
+              "text": "Sejarah Islam di Indonesia"
             },
+            {
+              "type": "text",
+              "text": "Islam masuk ke Indonesia melalui jalur perdagangan dari Arab, India, dan China pada abad ke-7 M. Berkembang pesat abad ke-13 M."
+            },
+            {
+              "type": "table",
+              "headers": ["Saluran Islamisasi", "Penjelasan"],
+              "rows": [
+                ["Perdagangan", "Pedagang Muslim yang singgah di pelabuhan"],
+                ["Perkawinan", "Pedagang Muslim menikah dengan penduduk lokal"],
+                ["Pendidikan", "Pesantren dan ulama menyebarkan Islam"],
+                [
+                  "Tasawuf/Dakwah",
+                  "Wali Songo menyebarkan Islam dengan budaya lokal"
+                ],
+                ["Kesenian", "Wayang, gamelan, sastra bercorak Islam"]
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Kerajaan Islam Besar" },
             {
               "type": "list",
               "items": [
-                "Bank sentral (Bank Indonesia): mengatur kebijakan moneter",
-                "Bank umum: menerima simpanan, memberi kredit",
-                "Bank syariah: berdasarkan prinsip Islam"
+                "Samudera Pasai: kerajaan Islam pertama di Indonesia (Aceh)",
+                "Demak: kerajaan Islam pertama di Jawa, pusat Wali Songo",
+                "Mataram Islam: Sultan Agung menyerang Batavia",
+                "Ternate & Tidore: penghasil rempah, basisnya di Maluku",
+                "Gowa-Tallo: kerajaan Islam di Sulawesi Selatan"
               ]
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Lembaga Keuangan Non-Bank"
+              "text": "Perbedaan Masa Hindu-Buddha vs Islam"
             },
             {
-              "type": "list",
-              "items": [
-                "Pegadaian: pinjaman dengan jaminan barang",
-                "Asuransi: perlindungan risiko",
-                "Koperasi: simpan pinjam anggota",
-                "Leasing: sewa guna usaha"
+              "type": "table",
+              "headers": ["Aspek", "Hindu-Buddha", "Islam"],
+              "rows": [
+                [
+                  "Sistem pemerintahan",
+                  "Raja dianggap titisan dewa",
+                  "Sultan sebagai pemimpin agama & negara"
+                ],
+                [
+                  "Peninggalan",
+                  "Candi, prasasti, arca",
+                  "Masjid, makam, nisan, keraton"
+                ],
+                ["Pengaruh asing", "India", "Arab, India, China"]
               ]
             },
             {
               "type": "highlight",
-              "text": "Pilih lembaga keuangan sesuai kebutuhan: bank untuk tabungan, pegadaian untuk pinjaman cepat dengan jaminan."
+              "text": "Wali Songo adalah 9 ulama penyebar Islam di Jawa. Gajah Mada mengucapkan Sumpah Palapa: tidak akan menikmati kesenangan hingga Nusantara bersatu."
             }
           ]
         }
@@ -719,23 +781,800 @@
       "flashcards": [
         {
           "id": "fc1",
-          "question": "Fungsi asli uang?",
+          "question": "Kerajaan Hindu tertua di Indonesia?",
+          "answer": "Kutai (Kalimantan Timur), rajanya Mulawarman, peninggalan Prasasti Yupa"
+        },
+        {
+          "id": "fc2",
+          "question": "Kerajaan Hindu-Buddha terbesar di Indonesia?",
+          "answer": "Majapahit, Raja Hayam Wuruk, Mahapatih Gajah Mada (Sumpah Palapa)"
+        },
+        {
+          "id": "fc3",
+          "question": "Kerajaan Islam pertama di Indonesia?",
+          "answer": "Samudera Pasai di Aceh"
+        },
+        {
+          "id": "fc4",
+          "question": "5 saluran penyebaran Islam di Indonesia?",
+          "answer": "Perdagangan, perkawinan, pendidikan, tasawuf/dakwah, kesenian"
+        },
+        {
+          "id": "fc5",
+          "question": "Apa itu Sumpah Palapa?",
+          "answer": "Sumpah Gajah Mada untuk menyatukan Nusantara di bawah Majapahit"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Kerajaan Sriwijaya dikenal sebagai kerajaan?",
+            "options": [
+              "Agraris Hindu",
+              "Maritim Buddha",
+              "Islam Terbesar",
+              "Agraris Islam"
+            ],
+            "answer": 1,
+            "explanation": "Sriwijaya adalah kerajaan maritim beragama Buddha, pusat perdagangan di Selat Malaka."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Wali Songo menyebarkan Islam di?",
+            "options": ["Sumatera", "Jawa", "Kalimantan", "Sulawesi"],
+            "answer": 1,
+            "explanation": "Wali Songo adalah 9 ulama penyebar Islam terutama di Pulau Jawa."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Kerajaan Islam pertama di Jawa adalah?",
+            "options": ["Mataram Islam", "Demak", "Banten", "Cirebon"],
+            "answer": 1,
+            "explanation": "Demak adalah kerajaan Islam pertama di Jawa, pusat dakwah Wali Songo."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sda-sdm-lembaga-sosial",
+      "title": "SDA, SDM & Lembaga Sosial",
+      "description": "Potensi SDA, dinamika penduduk, dan lembaga sosial (SKL 14-15)",
+      "lessons": [
+        {
+          "id": "sda-sdm",
+          "title": "SDA, SDM & Lembaga Sosial",
+          "estMinutes": 12,
+          "content": [
+            { "type": "heading", "text": "Sumber Daya Alam (SDA)" },
+            {
+              "type": "table",
+              "headers": ["Jenis SDA", "Contoh"],
+              "rows": [
+                ["Hutan Produksi", "Kayu, rotan (bahan baku industri)"],
+                [
+                  "Hutan Konservasi",
+                  "Cagar alam, taman nasional (lindungi hayati)"
+                ],
+                ["Hutan Lindung", "Mencegah banjir, erosi, longsor"],
+                [
+                  "Tambang Gol. A (Strategis)",
+                  "Minyak bumi, gas, batu bara, nikel, timah"
+                ],
+                [
+                  "Tambang Gol. B (Vital)",
+                  "Emas, perak, tembaga, bauksit, besi"
+                ],
+                ["Tambang Gol. C (Industri)", "Pasir, batu apung, tanah liat"],
+                ["Kelautan", "Perikanan, energi laut (OTEC), wisata bahari"]
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Mitigasi kebencanaan: upaya mengurangi risiko bencana melalui pengelolaan SDA yang bijak (reboisasi, terasering, normalisasi sungai)."
+            },
+            { "type": "heading", "level": 2, "text": "Dinamika Penduduk" },
+            {
+              "type": "list",
+              "items": [
+                "Pertumbuhan penduduk = (lahir – mati) + (masuk – keluar)",
+                "Masalah: ledakan penduduk, pengangguran, kemiskinan",
+                "Solusi: KB (Keluarga Berencana), transmigrasi, urbanisasi terkendali"
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Lembaga Sosial" },
+            {
+              "type": "table",
+              "headers": ["Lembaga", "Fungsi Utama", "Contoh"],
+              "rows": [
+                [
+                  "Keluarga",
+                  "Reproduksi, sosialisasi, afeksi, ekonomi",
+                  "RT inti, RT besar"
+                ],
+                [
+                  "Pendidikan",
+                  "Transfer ilmu dan nilai",
+                  "Sekolah, pesantren, universitas"
+                ],
+                [
+                  "Ekonomi",
+                  "Memenuhi kebutuhan materi",
+                  "Bank, pasar, koperasi"
+                ],
+                ["Agama", "Pedoman hidup spiritual", "Masjid, gereja, pura"],
+                [
+                  "Politik",
+                  "Mengatur kekuasaan dan negara",
+                  "DPR, partai politik, pemerintah"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Lembaga sosial adalah sistem norma yang mengatur perilaku masyarakat untuk memenuhi kebutuhan tertentu."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "3 jenis hutan berdasarkan fungsi?",
+          "answer": "Hutan Produksi, Hutan Konservasi, Hutan Lindung"
+        },
+        {
+          "id": "fc2",
+          "question": "Batu bara termasuk tambang golongan?",
+          "answer": "Golongan A (Strategis)"
+        },
+        {
+          "id": "fc3",
+          "question": "Apa itu OTEC?",
+          "answer": "Ocean Thermal Energy Conversion: memanfaatkan perbedaan suhu laut untuk energi"
+        },
+        {
+          "id": "fc4",
+          "question": "5 jenis lembaga sosial?",
+          "answer": "Keluarga, Pendidikan, Ekonomi, Agama, Politik"
+        },
+        {
+          "id": "fc5",
+          "question": "Apa itu mitigasi kebencanaan?",
+          "answer": "Upaya mengurangi risiko bencana melalui pengelolaan lingkungan yang bijak"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Hutan yang berfungsi mencegah erosi dan banjir adalah?",
+            "options": ["Produksi", "Konservasi", "Lindung", "Mangrove"],
+            "answer": 2,
+            "explanation": "Hutan Lindung melindungi sistem penyangga kehidupan termasuk mencegah banjir dan erosi."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Lembaga yang berfungsi transfer ilmu dan nilai adalah lembaga?",
+            "options": ["Ekonomi", "Agama", "Pendidikan", "Politik"],
+            "answer": 2,
+            "explanation": "Lembaga pendidikan (sekolah, pesantren) berfungsi mentransfer ilmu dan nilai kepada generasi berikutnya."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bangsa-barat-kemerdekaan",
+      "title": "Bangsa Barat, Penjajahan & Kemerdekaan",
+      "description": "Kedatangan Eropa, penjajahan, Jepang, pergerakan nasional, proklamasi (SKL 16-22)",
+      "lessons": [
+        {
+          "id": "kedatangan-bangsa-barat",
+          "title": "Kedatangan Bangsa Barat & Penjajahan",
+          "estMinutes": 15,
+          "content": [
+            { "type": "heading", "text": "Faktor Kedatangan Bangsa Eropa" },
+            {
+              "type": "list",
+              "items": [
+                "Gold: mencari kekayaan (rempah-rempah bernilai tinggi)",
+                "Glory: mencari kejayaan dan daerah jajahan",
+                "Gospel: menyebarkan agama Kristen",
+                "Semangat Reconquista (mengusir Islam dari Eropa)",
+                "Jatuhnya Konstantinopel (1453) ke Turki Usmani → jalur sutra terputus → cari jalur baru"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Penjajahan Portugis & Spanyol"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Portugis pertama datang ke Maluku (1512), menguasai perdagangan rempah",
+                "Spanyol datang dari arah Pasifik ke Maluku → konflik dengan Portugis → Perjanjian Saragosa (1529): Maluku untuk Portugis",
+                "Portugis kalah bersaing dengan VOC Belanda"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Penjajahan Belanda (VOC & Hindia Belanda)"
+            },
+            {
+              "type": "table",
+              "headers": ["Kebijakan", "Keterangan", "Dampak"],
+              "rows": [
+                [
+                  "VOC (1602)",
+                  "Kongsi dagang Belanda, monopoli rempah",
+                  "Rakyat sengsara, harga diatur Belanda"
+                ],
+                [
+                  "Kerja Paksa (Rodi)",
+                  "Membangun infrastruktur tanpa upah",
+                  "Penderitaan rakyat"
+                ],
+                [
+                  "Tanam Paksa/Cultuurstelsel (1830)",
+                  "Wajib tanam 1/5 lahan untuk Belanda",
+                  "Kelaparan massal, penderitaan rakyat"
+                ],
+                [
+                  "Politik Etis (1901)",
+                  "Irigasi, transmigrasi, edukasi",
+                  "Munculnya kaum terdidik yang lalu berjuang"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pendudukan Jepang (1942-1945)"
+            },
+            {
+              "type": "table",
+              "headers": ["Bidang", "Dampak"],
+              "rows": [
+                ["Ekonomi", "Romusha (kerja paksa), penyitaan aset"],
+                ["Sosial", "Penderitaan rakyat, penindasan"],
+                [
+                  "Positif",
+                  "Pelatihan militer (PETA), penggunaan bahasa Indonesia"
+                ],
+                [
+                  "Organisasi bentukan",
+                  "BPUPKI (Mei 1945), PPKI (Agustus 1945)"
+                ]
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Pergerakan Nasional" },
+            {
+              "type": "list",
+              "items": [
+                "Budi Utomo (20 Mei 1908): organisasi modern pertama, diperingati sebagai Hari Kebangkitan Nasional",
+                "Sumpah Pemuda (28 Oktober 1928): satu tanah air, satu bangsa, satu bahasa — Indonesia",
+                "Partai Nasional Indonesia/PNI (1927): dipimpin Soekarno"
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Proklamasi Kemerdekaan" },
+            {
+              "type": "list",
+              "items": [
+                "16 Agustus 1945: Peristiwa Rengasdengklok — Soekarno-Hatta diamankan golongan muda",
+                "Teks proklamasi dirumuskan di rumah Laksamana Maeda, diketik Sayuti Melik",
+                "17 Agustus 1945 pukul 10.00: Proklamasi dibacakan di Jl. Pegangsaan Timur 56, Jakarta"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Peristiwa Rengasdengklok tujuannya agar Soekarno-Hatta segera memproklamasikan kemerdekaan tanpa menunggu Jepang."
+            }
+          ]
+        },
+        {
+          "id": "pasca-kemerdekaan",
+          "title": "Perekonomian Pasca Kemerdekaan",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Ekonomi Indonesia Pasca Kemerdekaan"
+            },
+            { "type": "heading", "level": 2, "text": "Awal Kemerdekaan" },
+            {
+              "type": "list",
+              "items": [
+                "ORI (Oeang Republik Indonesia): uang pertama RI",
+                "BRI & BNI didirikan sebagai bank nasional",
+                "Plan Kasimo: swasembada pangan",
+                "Diplomasi Beras: kirim 500.000 ton beras ke India",
+                "Indoff: perantara dagang dengan Singapura (lolos blokade Belanda)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Demokrasi Liberal (1950-1959)"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Gerakan Benteng (1950): bantu pengusaha pribumi",
+                "Nasionalisasi De Javasche Bank (1951) → Bank Indonesia (1953)",
+                "Sistem Ekonomi Ali-Baba (1954): kerjasama pribumi (Ali) & non-pribumi (Baba)",
+                "Nasionalisasi perusahaan Belanda (1957)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Demokrasi Terpimpin (1959-1965)"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Depernas (1959): Rencana Pembangunan Semesta Berencana",
+                "Bappenas (1963): gantikan Depernas",
+                "Dekon/Deklarasi Ekonomi (1963): ekonomi nasional bebas imperialisme",
+                "Inflasi 600%: pencetakan uang tak terkendali",
+                "Redenominasi (13/12/1965): Rp1.000 → Rp1"
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Kerja sama ekonomi antarnegara: manfaatnya adalah meningkatkan pertumbuhan ekonomi, memperluas pasar, dan transfer teknologi. Tantangannya: persaingan global, ketimpangan, dan ketergantungan."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "3G — faktor kedatangan bangsa Eropa?",
+          "answer": "Gold (kekayaan), Glory (kejayaan), Gospel (agama)"
+        },
+        {
+          "id": "fc2",
+          "question": "Apa itu Cultuurstelsel/Tanam Paksa?",
+          "answer": "Kebijakan Belanda (1830): rakyat wajib menyerahkan 1/5 lahan untuk tanaman ekspor Belanda"
+        },
+        {
+          "id": "fc3",
+          "question": "Budi Utomo didirikan kapan?",
+          "answer": "20 Mei 1908, diperingati sebagai Hari Kebangkitan Nasional"
+        },
+        {
+          "id": "fc4",
+          "question": "Isi Sumpah Pemuda (28 Oktober 1928)?",
+          "answer": "Satu tanah air Indonesia, satu bangsa Indonesia, satu bahasa Indonesia"
+        },
+        {
+          "id": "fc5",
+          "question": "Mengapa terjadi Peristiwa Rengasdengklok?",
+          "answer": "Golongan muda mengamankan Soekarno-Hatta agar segera memproklamasikan kemerdekaan"
+        },
+        {
+          "id": "fc6",
+          "question": "Siapa yang mengetik teks proklamasi?",
+          "answer": "Sayuti Melik"
+        },
+        {
+          "id": "fc7",
+          "question": "Apa itu Romusha?",
+          "answer": "Kerja paksa rakyat Indonesia pada masa pendudukan Jepang"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Tanam Paksa diterapkan oleh?",
+            "options": ["Portugis", "Spanyol", "Belanda", "Inggris"],
+            "answer": 2,
+            "explanation": "Tanam Paksa (Cultuurstelsel 1830) adalah kebijakan Belanda di bawah Van den Bosch."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Dampak positif pendudukan Jepang bagi Indonesia?",
+            "options": [
+              "Romusha",
+              "Cultuurstelsel",
+              "Latihan militer PETA",
+              "Monopoli rempah"
+            ],
+            "answer": 2,
+            "explanation": "PETA (Pembela Tanah Air) adalah pelatihan militer untuk pribumi yang kelak menjadi modal perjuangan kemerdekaan."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Proklamasi kemerdekaan Indonesia dibacakan di?",
+            "options": [
+              "Rumah Laksamana Maeda",
+              "Rengasdengklok",
+              "Pegangsaan Timur 56",
+              "Istana Merdeka"
+            ],
+            "answer": 2,
+            "explanation": "Proklamasi dibacakan di Jl. Pegangsaan Timur No. 56, Jakarta pada 17 Agustus 1945."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "De Javasche Bank dinasionalisasi menjadi?",
+            "options": ["BRI", "BNI", "Bank Mandiri", "Bank Indonesia"],
+            "answer": 3,
+            "explanation": "De Javasche Bank dinasionalisasi tahun 1951 dan resmi menjadi Bank Indonesia (BI) tahun 1953."
+          }
+        ]
+      }
+    },
+    {
+      "id": "konflik-mobilitas",
+      "title": "Konflik & Mobilitas Sosial",
+      "description": "Penyebab konflik, penyelesaian, dan jenis mobilitas sosial (SKL 23-24)",
+      "lessons": [
+        {
+          "id": "konflik-mobilitas-sosial",
+          "title": "Konflik dan Mobilitas Sosial",
+          "estMinutes": 10,
+          "content": [
+            { "type": "heading", "text": "Konflik Sosial" },
+            {
+              "type": "text",
+              "text": "Konflik sosial adalah pertentangan antara individu/kelompok yang terjadi karena perbedaan kepentingan, nilai, atau sumber daya."
+            },
+            { "type": "heading", "level": 2, "text": "Penyebab Konflik" },
+            {
+              "type": "list",
+              "items": [
+                "Perbedaan kepentingan dan tujuan",
+                "Perbedaan nilai dan norma",
+                "Ketimpangan sosial-ekonomi",
+                "Perbedaan suku, agama, ras (SARA)",
+                "Persaingan sumber daya terbatas"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Upaya Penyelesaian Konflik"
+            },
+            {
+              "type": "table",
+              "headers": ["Cara", "Pengertian"],
+              "rows": [
+                [
+                  "Mediasi",
+                  "Penyelesaian dengan bantuan pihak ketiga (mediator) tanpa kewenangan memutus"
+                ],
+                [
+                  "Arbitrasi",
+                  "Penyelesaian dengan pihak ketiga (arbiter) yang berwenang memutuskan"
+                ],
+                ["Negosiasi", "Perundingan langsung antar pihak yang bertikai"],
+                [
+                  "Konsiliasi",
+                  "Pertemuan damai antar pihak dengan bantuan lembaga resmi"
+                ],
+                ["Adjudikasi", "Penyelesaian melalui pengadilan"]
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Mobilitas Sosial" },
+            {
+              "type": "text",
+              "text": "Mobilitas sosial adalah perpindahan posisi seseorang/kelompok dari satu lapisan sosial ke lapisan lain."
+            },
+            {
+              "type": "table",
+              "headers": ["Jenis", "Arah", "Contoh"],
+              "rows": [
+                [
+                  "Vertikal naik",
+                  "Ke lapisan lebih tinggi",
+                  "Petani jadi pengusaha"
+                ],
+                [
+                  "Vertikal turun",
+                  "Ke lapisan lebih rendah",
+                  "Pengusaha bangkrut"
+                ],
+                [
+                  "Horizontal",
+                  "Lapisan sama, posisi berbeda",
+                  "Pindah profesi setara"
+                ],
+                [
+                  "Antargenerasi naik",
+                  "Anak lebih tinggi dari ortu",
+                  "Anak buruh jadi dokter"
+                ],
+                [
+                  "Antargenerasi turun",
+                  "Anak lebih rendah dari ortu",
+                  "Anak pengusaha jadi buruh"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Faktor Pendorong Mobilitas"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pendidikan tinggi",
+                "Kemampuan dan prestasi",
+                "Perkawinan",
+                "Perubahan situasi politik/ekonomi"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Saluran mobilitas sosial: pendidikan, organisasi politik, angkatan bersenjata, lembaga agama, perkawinan."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Apa itu konflik sosial?",
+          "answer": "Pertentangan antara individu/kelompok karena perbedaan kepentingan, nilai, atau sumber daya"
+        },
+        {
+          "id": "fc2",
+          "question": "Perbedaan mediasi dan arbitrasi?",
+          "answer": "Mediasi: pihak ketiga hanya membantu tanpa memutus. Arbitrasi: pihak ketiga berwenang memutuskan."
+        },
+        {
+          "id": "fc3",
+          "question": "Apa itu mobilitas sosial vertikal naik?",
+          "answer": "Perpindahan dari lapisan sosial bawah ke lapisan yang lebih tinggi"
+        },
+        {
+          "id": "fc4",
+          "question": "Contoh mobilitas antargenerasi naik?",
+          "answer": "Anak buruh menjadi dokter (statusnya lebih tinggi dari orang tua)"
+        },
+        {
+          "id": "fc5",
+          "question": "Penyelesaian konflik melalui pengadilan disebut?",
+          "answer": "Adjudikasi"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Penyelesaian konflik dengan bantuan pihak ketiga yang tidak berwenang memutus disebut?",
+            "options": ["Arbitrasi", "Mediasi", "Adjudikasi", "Konsiliasi"],
+            "answer": 1,
+            "explanation": "Mediasi menggunakan mediator yang hanya membantu komunikasi, tidak berwenang memutuskan."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Seorang buruh anaknya menjadi pengacara terkenal. Ini contoh mobilitas?",
+            "options": [
+              "Horizontal",
+              "Vertikal turun",
+              "Vertikal naik antargenerasi",
+              "Vertikal turun antargenerasi"
+            ],
+            "answer": 2,
+            "explanation": "Status anak lebih tinggi dari orang tua = mobilitas vertikal naik antargenerasi."
+          }
+        ]
+      }
+    },
+    {
+      "id": "uang-perbankan",
+      "title": "Uang & Lembaga Keuangan",
+      "description": "Fungsi uang, bank, LKBB, dan kebijakan mengatasi inflasi (SKL 25, 31)",
+      "lessons": [
+        {
+          "id": "uang",
+          "title": "Uang dan Fungsinya",
+          "estMinutes": 10,
+          "content": [
+            { "type": "heading", "text": "Uang" },
+            {
+              "type": "text",
+              "text": "Uang adalah segala sesuatu yang diterima secara umum sebagai alat pembayaran yang sah."
+            },
+            { "type": "heading", "level": 2, "text": "Syarat Uang (APDSD)" },
+            {
+              "type": "list",
+              "items": [
+                "Acceptability: diterima umum",
+                "Portability: mudah dibawa",
+                "Durability: tahan lama",
+                "Stability of Value: nilai stabil",
+                "Divisibility: mudah dibagi tanpa mengurangi nilai"
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Fungsi Uang" },
+            {
+              "type": "table",
+              "headers": ["Fungsi Asli", "Fungsi Turunan"],
+              "rows": [
+                ["Alat tukar (Medium of Exchange)", "Alat pembayaran yang sah"],
+                ["Satuan hitung (Unit of Account)", "Alat penimbun kekayaan"],
+                ["-", "Alat pemindah kekayaan"],
+                ["-", "Alat pembayar utang"]
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Jenis & Nilai Uang" },
+            {
+              "type": "table",
+              "headers": ["Konsep", "Penjelasan"],
+              "rows": [
+                [
+                  "Uang Kartal",
+                  "Uang logam & kertas, diterbitkan Bank Indonesia"
+                ],
+                [
+                  "Uang Giral",
+                  "Cek, Bilyet Giro, ATM, E-money; diterbitkan Bank Umum"
+                ],
+                ["Nilai Nominal", "Nilai yang tertulis pada uang"],
+                ["Nilai Intrinsik", "Nilai bahan pembuat uang"],
+                ["Nilai Internal", "Daya beli uang terhadap barang/jasa"],
+                [
+                  "Nilai Eksternal (Kurs)",
+                  "Nilai uang terhadap mata uang asing"
+                ],
+                [
+                  "Full Bodied Money",
+                  "Nilai nominal = nilai intrinsik (uang emas)"
+                ],
+                ["Token Money", "Nilai nominal > nilai intrinsik (uang kertas)"]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bank-lkbb",
+          "title": "Bank & Lembaga Keuangan Non-Bank",
+          "estMinutes": 12,
+          "content": [
+            { "type": "heading", "text": "Lembaga Keuangan Bank" },
+            {
+              "type": "text",
+              "text": "Bank berasal dari 'Banco' (Italia) = meja. Bank menghimpun dana masyarakat dan menyalurkan dalam bentuk kredit."
+            },
+            {
+              "type": "table",
+              "headers": ["Jenis Bank", "Fungsi", "Contoh"],
+              "rows": [
+                [
+                  "Bank Sentral",
+                  "Cetak uang, jaga Rupiah, banker's bank",
+                  "Bank Indonesia (BI)"
+                ],
+                [
+                  "Bank Umum",
+                  "Simpanan, kredit, konvensional/syariah",
+                  "BCA, BRI, BNI, Mandiri, BSI"
+                ],
+                [
+                  "BPR",
+                  "Skala kecil; ❌ giro, ❌ valas, ❌ asuransi",
+                  "Bank Pasar, Bank Desa"
+                ]
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Produk Bank" },
+            {
+              "type": "list",
+              "items": [
+                "Kredit Pasif (simpan): Tabungan, Giro (pakai Cek), Deposito Berjangka",
+                "Kredit Aktif (pinjam): KUR, KPR, Kredit Surat Berharga",
+                "Jasa: Transfer, Inkaso, Safe Deposit Box"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Lembaga Keuangan Non-Bank (LKBB)"
+            },
+            {
+              "type": "table",
+              "headers": ["Lembaga", "Fungsi", "Contoh"],
+              "rows": [
+                [
+                  "Asuransi",
+                  "Pengalihan risiko (Tertanggung→Penanggung via Polis, Premi, Klaim)",
+                  "BPJS, Prudential"
+                ],
+                [
+                  "Dana Pensiun",
+                  "Tabungan hari tua pekerja",
+                  "BPJS Ketenagakerjaan, Taspen, Asabri"
+                ],
+                [
+                  "Leasing",
+                  "Pinjaman berupa barang modal",
+                  "FIF, Adira, Mandala"
+                ],
+                ["Pegadaian", "Pinjaman dengan jaminan barang", "PT Pegadaian"],
+                [
+                  "Fintech",
+                  "Layanan keuangan digital",
+                  "Dana, OVO, GoPay, ShopeePay"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kebijakan Mengatasi Inflasi"
+            },
+            {
+              "type": "table",
+              "headers": ["Kebijakan", "Penanggung Jawab", "Instrumen"],
+              "rows": [
+                [
+                  "Moneter",
+                  "Bank Indonesia",
+                  "Naikkan suku bunga (diskonto), naikkan GWM, jual SBI (Operasi Pasar Terbuka), perketat pagu kredit"
+                ],
+                [
+                  "Fiskal",
+                  "Pemerintah",
+                  "Naikkan pajak, kurangi belanja negara, turunkan subsidi"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "APBN: Surplus (pendapatan > belanja), Defisit (pendapatan < belanja), Berimbang (pendapatan = belanja)."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "2 fungsi asli uang?",
           "answer": "Alat tukar dan satuan hitung"
         },
         {
           "id": "fc2",
-          "question": "Fungsi Bank Indonesia?",
-          "answer": "Mengatur kebijakan moneter (bank sentral)"
+          "question": "Perbedaan uang kartal dan giral?",
+          "answer": "Kartal: fisik (logam/kertas) dari BI. Giral: surat berharga (cek, ATM, e-money) dari Bank Umum."
         },
         {
           "id": "fc3",
-          "question": "Contoh lembaga keuangan non-bank?",
-          "answer": "Pegadaian, asuransi, koperasi"
+          "question": "Fungsi Bank Indonesia?",
+          "answer": "Bank sentral: cetak uang, jaga nilai Rupiah, banker's bank"
         },
         {
           "id": "fc4",
-          "question": "Apa fungsi pegadaian?",
-          "answer": "Memberi pinjaman dengan jaminan barang"
+          "question": "Apa yang dimaksud Politik Diskonto?",
+          "answer": "Kebijakan BI menaikkan suku bunga agar uang beredar berkurang (atasi inflasi)"
+        },
+        {
+          "id": "fc5",
+          "question": "Istilah asuransi: Premi adalah?",
+          "answer": "Iuran yang dibayar tertanggung (nasabah) kepada penanggung (lembaga asuransi)"
+        },
+        {
+          "id": "fc6",
+          "question": "Tentukan lembaga keuangan: butuh pinjaman cepat dengan jaminan perhiasan?",
+          "answer": "Pegadaian"
         }
       ],
       "quiz": {
@@ -744,27 +1583,661 @@
             "id": "q1",
             "type": "multiple_choice",
             "question": "Fungsi uang sebagai alat tukar termasuk fungsi?",
-            "options": [
-              "Turunan",
-              "Asli",
-              "Tambahan",
-              "Modern"
-            ],
+            "options": ["Turunan", "Asli", "Tambahan", "Modern"],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Fungsi asli uang: alat tukar dan satuan hitung."
           },
           {
             "id": "q2",
             "type": "multiple_choice",
-            "question": "Lembaga yang memberikan perlindungan risiko adalah?",
+            "question": "Lembaga keuangan yang memberikan perlindungan terhadap risiko adalah?",
+            "options": ["Pegadaian", "Leasing", "Asuransi", "Dana Pensiun"],
+            "answer": 2,
+            "explanation": "Asuransi adalah lembaga pengalihan risiko dari tertanggung ke penanggung."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Kebijakan Bank Indonesia menaikkan suku bunga untuk mengurangi inflasi disebut?",
             "options": [
-              "Bank",
-              "Pegadaian",
-              "Asuransi",
-              "Koperasi"
+              "Pagu Kredit",
+              "Giro Wajib Minimum",
+              "Operasi Pasar Terbuka",
+              "Politik Diskonto"
+            ],
+            "answer": 3,
+            "explanation": "Politik Diskonto: naikkan suku bunga → orang lebih suka menabung → uang beredar berkurang."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "BPR TIDAK boleh melakukan kegiatan?",
+            "options": [
+              "Simpanan tabungan",
+              "Pemberian kredit",
+              "Penerbitan Giro",
+              "Deposito"
             ],
             "answer": 2,
-            "explanation": ""
+            "explanation": "BPR dilarang menerbitkan Giro, melakukan transaksi valas, dan menjual asuransi."
+          }
+        ]
+      }
+    },
+    {
+      "id": "perdagangan-internasional",
+      "title": "Perdagangan Internasional",
+      "description": "Faktor pendorong, manfaat, dan dampak perdagangan antardaerah & internasional (SKL 26)",
+      "lessons": [
+        {
+          "id": "perdagangan",
+          "title": "Perdagangan Antardaerah & Internasional",
+          "estMinutes": 12,
+          "content": [
+            { "type": "heading", "text": "Perdagangan Antardaerah/Antarpulau" },
+            {
+              "type": "text",
+              "text": "Perdagangan antar penduduk/lembaga di daerah/pulau berbeda dalam satu negara atas dasar kesepakatan bersama."
+            },
+            { "type": "heading", "level": 2, "text": "Faktor Pendorong" },
+            {
+              "type": "list",
+              "items": [
+                "Perbedaan faktor produksi (SDA tiap daerah berbeda). Contoh: Wonosobo → sayur; Purwakarta → keramik",
+                "Perbedaan harga barang antar daerah. Contoh: mangga di Sumut Rp10.000, di Jakarta Rp18.000"
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Faktor Penghambat" },
+            {
+              "type": "list",
+              "items": [
+                "Infrastruktur yang kurang memadai",
+                "Biaya transportasi tinggi",
+                "Monopoli perdagangan di daerah tertentu",
+                "Regulasi daerah yang sulit"
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Manfaat Perdagangan" },
+            {
+              "type": "list",
+              "items": [
+                "Menyediakan alternatif alat pemuas kebutuhan",
+                "Meningkatkan produktivitas produsen",
+                "Memperluas lapangan kerja"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Perdagangan Internasional"
+            },
+            {
+              "type": "table",
+              "headers": ["Faktor Pendorong", "Manfaat bagi Indonesia"],
+              "rows": [
+                ["Perbedaan SDA antar negara", "Mendapat devisa dari ekspor"],
+                ["Perbedaan teknologi", "Transfer teknologi dari negara maju"],
+                [
+                  "Perbedaan selera konsumen",
+                  "Memperluas pasar produk Indonesia"
+                ],
+                ["Efisiensi/spesialisasi produksi", "Memperluas lapangan kerja"]
+              ]
+            },
+            {
+              "type": "list",
+              "items": [
+                "Ekspor: menjual barang/jasa ke luar negeri → mendapat devisa",
+                "Impor: membeli barang/jasa dari luar negeri → membayar devisa",
+                "Devisa: mata uang asing yang bisa dipakai transaksi internasional"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Tantangan perdagangan internasional: persaingan global, proteksionisme negara lain, fluktuasi nilai tukar, dan ketimpangan perdagangan."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "2 faktor utama pendorong perdagangan antardaerah?",
+          "answer": "Perbedaan faktor produksi dan perbedaan harga barang antar daerah"
+        },
+        {
+          "id": "fc2",
+          "question": "Apa itu devisa?",
+          "answer": "Mata uang asing yang dapat digunakan untuk transaksi internasional"
+        },
+        {
+          "id": "fc3",
+          "question": "Apa itu ekspor?",
+          "answer": "Menjual barang/jasa ke luar negeri sehingga mendapatkan devisa"
+        },
+        {
+          "id": "fc4",
+          "question": "Faktor pendorong perdagangan internasional?",
+          "answer": "Perbedaan SDA, teknologi, selera, dan efisiensi/spesialisasi produksi"
+        },
+        {
+          "id": "fc5",
+          "question": "Manfaat perdagangan internasional bagi Indonesia?",
+          "answer": "Mendapat devisa, transfer teknologi, memperluas pasar, lapangan kerja"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Perbedaan hasil alam antar daerah mendorong perdagangan karena faktor?",
+            "options": [
+              "Perbedaan selera",
+              "Perbedaan faktor produksi",
+              "Monopoli daerah",
+              "Infrastruktur"
+            ],
+            "answer": 1,
+            "explanation": "Tiap daerah punya keunggulan SDA berbeda yang mendorong saling berdagang."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Mata uang asing untuk transaksi internasional disebut?",
+            "options": ["Valuta", "Kurs", "Devisa", "Non-devisa"],
+            "answer": 2,
+            "explanation": "Devisa adalah mata uang asing (atau aset setara) yang dapat digunakan untuk pembayaran internasional."
+          }
+        ]
+      }
+    },
+    {
+      "id": "perubahan-globalisasi",
+      "title": "Perubahan Sosial, Globalisasi & Kearifan Lokal",
+      "description": "Bentuk perubahan sosial, globalisasi, modernisasi, dan kearifan lokal (SKL 27-30)",
+      "lessons": [
+        {
+          "id": "perubahan-globalisasi",
+          "title": "Perubahan Sosial, Globalisasi & Kearifan Lokal",
+          "estMinutes": 12,
+          "content": [
+            { "type": "heading", "text": "Perubahan Sosial" },
+            {
+              "type": "text",
+              "text": "Perubahan sosial adalah perubahan pada struktur, fungsi, nilai, dan norma dalam masyarakat."
+            },
+            {
+              "type": "table",
+              "headers": ["Bentuk", "Ciri", "Contoh"],
+              "rows": [
+                ["Evolusi", "Lambat, bertahap", "Perkembangan alat komunikasi"],
+                [
+                  "Revolusi",
+                  "Cepat, mendasar",
+                  "Revolusi Industri, Revolusi Perancis"
+                ],
+                [
+                  "Direncanakan",
+                  "Ada rencana sebelumnya",
+                  "Program KB, pembangunan"
+                ],
+                [
+                  "Tidak direncanakan",
+                  "Di luar kehendak",
+                  "Bencana alam, pandemi"
+                ],
+                [
+                  "Pengaruh kecil",
+                  "Tidak memengaruhi inti sosial",
+                  "Perubahan mode pakaian"
+                ],
+                ["Pengaruh besar", "Memengaruhi inti sosial", "Reformasi 1998"]
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Globalisasi" },
+            {
+              "type": "text",
+              "text": "Globalisasi: proses integrasi dunia tanpa batas geografis, didorong kemajuan teknologi dan komunikasi."
+            },
+            {
+              "type": "table",
+              "headers": ["Dampak Positif", "Dampak Negatif"],
+              "rows": [
+                ["Kemudahan akses informasi", "Lunturnya budaya lokal"],
+                ["Kemajuan teknologi & ilmu", "Konsumerisme berlebihan"],
+                ["Peluang ekonomi global", "Kesenjangan sosial meningkat"],
+                ["Percepatan pembangunan", "Masuknya budaya asing negatif"]
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Modernisasi" },
+            {
+              "type": "text",
+              "text": "Modernisasi: perubahan masyarakat dari pola tradisional ke modern berdasarkan ilmu pengetahuan dan teknologi. Dampak positif: efisiensi. Dampak negatif: westernisasi, individualis."
+            },
+            { "type": "heading", "level": 2, "text": "Kearifan Lokal" },
+            {
+              "type": "text",
+              "text": "Kearifan lokal adalah nilai-nilai luhur budaya daerah yang perlu dilestarikan sebagai identitas bangsa."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Contoh: gotong royong, adat istiadat, kearifan lingkungan (Subak Bali, Sasi Maluku)",
+                "Sikap melestarikan: bangga budaya sendiri, aktif mempraktikkan, mewariskan pada generasi muda"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Sikap tepat menghadapi globalisasi: SELEKTIF — terima yang positif, tolak yang negatif, tetap jaga identitas budaya lokal."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Perbedaan perubahan sosial evolusi dan revolusi?",
+          "answer": "Evolusi: lambat bertahap. Revolusi: cepat dan mendasar."
+        },
+        {
+          "id": "fc2",
+          "question": "Dampak negatif globalisasi?",
+          "answer": "Lunturnya budaya lokal, konsumerisme, kesenjangan sosial, budaya asing negatif masuk"
+        },
+        {
+          "id": "fc3",
+          "question": "Apa itu modernisasi?",
+          "answer": "Perubahan dari pola tradisional ke modern berdasarkan ilmu pengetahuan dan teknologi"
+        },
+        {
+          "id": "fc4",
+          "question": "Apa itu kearifan lokal?",
+          "answer": "Nilai-nilai luhur budaya daerah yang perlu dilestarikan sebagai identitas bangsa"
+        },
+        {
+          "id": "fc5",
+          "question": "Contoh kearifan lokal yang menjaga lingkungan?",
+          "answer": "Subak Bali (irigasi tradisional), Sasi Maluku (larangan panen sebelum waktunya)"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Reformasi 1998 termasuk perubahan sosial?",
+            "options": [
+              "Evolusi pengaruh kecil",
+              "Revolusi pengaruh besar",
+              "Evolusi direncanakan",
+              "Perubahan tidak direncanakan kecil"
+            ],
+            "answer": 1,
+            "explanation": "Reformasi 1998 terjadi cepat dan mengubah inti sistem sosial-politik Indonesia = revolusi besar."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Yang BUKAN dampak positif globalisasi?",
+            "options": [
+              "Kemajuan teknologi",
+              "Akses informasi mudah",
+              "Lunturnya budaya lokal",
+              "Peluang ekonomi global"
+            ],
+            "answer": 2,
+            "explanation": "Lunturnya budaya lokal adalah dampak NEGATIF globalisasi."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Sikap yang tepat menghadapi globalisasi adalah?",
+            "options": [
+              "Menolak semua budaya asing",
+              "Menerima semua budaya asing",
+              "Selektif dan menjaga budaya lokal",
+              "Mengabaikan budaya lokal"
+            ],
+            "answer": 2,
+            "explanation": "Sikap selektif: menerima yang positif, menolak yang negatif, tetap melestarikan budaya lokal."
+          }
+        ]
+      }
+    },
+    {
+      "id": "masyarakat-abad21",
+      "title": "Masyarakat Abad 21 & Ekonomi Digital",
+      "description": "Masyarakat jaringan, ekonomi digital, dan literasi finansial (SKL 32-34)",
+      "lessons": [
+        {
+          "id": "masyarakat-digital",
+          "title": "Masyarakat Jaringan, Ekonomi Digital & Literasi Finansial",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Masyarakat Abad 21 (Masyarakat Jaringan)"
+            },
+            {
+              "type": "text",
+              "text": "Masyarakat jaringan (network society) adalah masyarakat yang terhubung dan berinteraksi secara digital melalui internet dan teknologi."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Ciri: keterbukaan informasi, kolaborasi virtual, mobilitas tinggi, fleksibilitas",
+                "Kecakapan abad 21: 4C — Critical thinking, Creativity, Collaboration, Communication",
+                "Tantangan: hoaks, cyberbullying, privasi data, kesenjangan digital"
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Ekonomi Digital" },
+            {
+              "type": "table",
+              "headers": ["Bentuk", "Contoh"],
+              "rows": [
+                [
+                  "E-commerce (perdagangan online)",
+                  "Tokopedia, Shopee, Lazada"
+                ],
+                ["Fintech (keuangan digital)", "OVO, GoPay, Dana, ShopeePay"],
+                ["Startup teknologi", "Gojek, Grab, Traveloka"],
+                ["Ekonomi gig/freelance", "Ojek online, content creator"],
+                [
+                  "Media sosial sebagai bisnis",
+                  "Influencer, endorse, iklan digital"
+                ]
+              ]
+            },
+            { "type": "heading", "level": 2, "text": "Literasi Finansial" },
+            {
+              "type": "text",
+              "text": "Literasi finansial adalah kemampuan memahami dan menerapkan keterampilan keuangan dalam pengambilan keputusan."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Prinsip: catat pemasukan & pengeluaran, buat anggaran, tabung sebelum belanja",
+                "Prioritas: kebutuhan → keinginan",
+                "Hindari: utang konsumtif, pinjaman online ilegal, investasi bodong",
+                "Mulai menabung sejak dini, investasi produktif"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Literasi finansial yang baik: mampu membuat keputusan keuangan yang tepat — menabung, berinvestasi, dan menghindari utang tidak perlu."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Apa itu masyarakat jaringan?",
+          "answer": "Masyarakat yang terhubung dan berinteraksi secara digital melalui internet dan teknologi"
+        },
+        {
+          "id": "fc2",
+          "question": "4C kecakapan abad 21?",
+          "answer": "Critical thinking, Creativity, Collaboration, Communication"
+        },
+        {
+          "id": "fc3",
+          "question": "3 contoh bentuk ekonomi digital?",
+          "answer": "E-commerce (Shopee), fintech (GoPay), startup teknologi (Gojek)"
+        },
+        {
+          "id": "fc4",
+          "question": "Apa itu literasi finansial?",
+          "answer": "Kemampuan memahami dan menerapkan keterampilan keuangan dalam pengambilan keputusan"
+        },
+        {
+          "id": "fc5",
+          "question": "Prinsip dasar literasi finansial?",
+          "answer": "Catat keuangan, buat anggaran, tabung sebelum belanja, prioritaskan kebutuhan atas keinginan"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Tokopedia dan Shopee termasuk contoh?",
+            "options": [
+              "Fintech",
+              "E-commerce",
+              "Startup logistik",
+              "Media sosial"
+            ],
+            "answer": 1,
+            "explanation": "Tokopedia dan Shopee adalah platform perdagangan elektronik (e-commerce)."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Prinsip literasi finansial yang tepat adalah?",
+            "options": [
+              "Belanja dulu, tabung sisanya",
+              "Tabung dulu, belanja sisanya",
+              "Utang untuk kebutuhan konsumsi",
+              "Investasi tanpa belajar dulu"
+            ],
+            "answer": 1,
+            "explanation": "Prinsip bijak: sisihkan tabungan lebih dulu dari penghasilan, baru belanja dengan sisanya."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pembangunan-kerjasama",
+      "title": "Pembangunan & Kerja Sama Internasional",
+      "description": "Tolak ukur pembangunan, negara maju, SDGs, dan kerja sama internasional (SKL 35-38)",
+      "lessons": [
+        {
+          "id": "pembangunan-sdgs",
+          "title": "Pembangunan Berkelanjutan & Kerja Sama Internasional",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Tolak Ukur Keberhasilan Pembangunan"
+            },
+            {
+              "type": "table",
+              "headers": ["Indikator", "Penjelasan"],
+              "rows": [
+                [
+                  "PDB (Produk Domestik Bruto)",
+                  "Total nilai barang/jasa yang dihasilkan dalam suatu negara"
+                ],
+                [
+                  "HDI/IPM (Human Dev. Index)",
+                  "Indeks gabungan pendidikan, kesehatan, dan pendapatan"
+                ],
+                [
+                  "Tingkat kemiskinan & pengangguran",
+                  "Semakin rendah = semakin baik pembangunannya"
+                ],
+                [
+                  "Pemerataan pendapatan (Gini ratio)",
+                  "Gini mendekati 0 = merata; mendekati 1 = sangat timpang"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Karakteristik Negara Maju vs Berkembang"
+            },
+            {
+              "type": "table",
+              "headers": ["Aspek", "Negara Maju", "Negara Berkembang"],
+              "rows": [
+                [
+                  "Pendapatan per kapita",
+                  "Tinggi (>$12.000/tahun)",
+                  "Rendah-menengah"
+                ],
+                [
+                  "Teknologi",
+                  "Canggih, industri maju",
+                  "Terbatas, masih berkembang"
+                ],
+                [
+                  "Pendidikan & kesehatan",
+                  "Tinggi, merata",
+                  "Masih rendah/belum merata"
+                ],
+                [
+                  "Sektor dominan",
+                  "Industri & jasa",
+                  "Pertanian & pertambangan"
+                ],
+                [
+                  "Contoh",
+                  "AS, Jepang, Jerman, Inggris",
+                  "Indonesia, India, Brasil, Nigeria"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "SDGs (Sustainable Development Goals)"
+            },
+            {
+              "type": "text",
+              "text": "SDGs adalah 17 tujuan pembangunan global yang ditetapkan PBB tahun 2015, berlaku hingga 2030 untuk semua negara."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Tujuan 1: Tanpa Kemiskinan",
+                "Tujuan 2: Tanpa Kelaparan",
+                "Tujuan 3: Kehidupan Sehat & Sejahtera",
+                "Tujuan 4: Pendidikan Berkualitas",
+                "Tujuan 5: Kesetaraan Gender",
+                "Tujuan 7: Energi Bersih & Terjangkau",
+                "Tujuan 13: Penanganan Perubahan Iklim",
+                "Tujuan 16: Perdamaian, Keadilan & Kelembagaan Kuat",
+                "... (17 tujuan total)"
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kerja Sama Internasional Indonesia"
+            },
+            {
+              "type": "table",
+              "headers": ["Organisasi", "Jenis", "Peran Indonesia"],
+              "rows": [
+                [
+                  "PBB (UN)",
+                  "Global, politik-keamanan",
+                  "Anggota aktif, pasukan perdamaian"
+                ],
+                [
+                  "ASEAN",
+                  "Regional Asia Tenggara",
+                  "Salah satu pendiri (1967)"
+                ],
+                ["G20", "Forum ekonomi global", "Anggota, tuan rumah 2022"],
+                [
+                  "WTO",
+                  "Perdagangan internasional",
+                  "Anggota, fasilitasi ekspor"
+                ],
+                [
+                  "IMF & Bank Dunia",
+                  "Keuangan internasional",
+                  "Mendapat pinjaman & bantuan teknis"
+                ],
+                ["OKI", "Negara Islam", "Anggota, solidaritas muslim"]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Politik luar negeri Indonesia: BEBAS AKTIF — tidak memihak blok manapun dan aktif berkontribusi dalam perdamaian dunia."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Kepanjangan SDGs?",
+          "answer": "Sustainable Development Goals — 17 tujuan pembangunan global PBB hingga 2030"
+        },
+        {
+          "id": "fc2",
+          "question": "Apa itu HDI/IPM?",
+          "answer": "Human Development Index: indeks gabungan pendidikan, kesehatan, dan pendapatan per kapita"
+        },
+        {
+          "id": "fc3",
+          "question": "Perbedaan negara maju dan berkembang dari segi ekonomi?",
+          "answer": "Maju: pendapatan tinggi, dominan industri/jasa. Berkembang: pendapatan rendah, dominan pertanian."
+        },
+        {
+          "id": "fc4",
+          "question": "ASEAN didirikan kapan dan di mana?",
+          "answer": "8 Agustus 1967, Bangkok, Thailand. Indonesia termasuk pendiri."
+        },
+        {
+          "id": "fc5",
+          "question": "Prinsip politik luar negeri Indonesia?",
+          "answer": "Bebas aktif — tidak memihak blok manapun dan aktif dalam perdamaian dunia"
+        },
+        {
+          "id": "fc6",
+          "question": "SDGs ditetapkan oleh siapa dan kapan?",
+          "answer": "PBB (Perserikatan Bangsa-Bangsa) tahun 2015, berlaku hingga 2030"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "SDGs ditetapkan oleh?",
+            "options": ["ASEAN", "G20", "PBB", "WTO"],
+            "answer": 2,
+            "explanation": "SDGs ditetapkan PBB (United Nations) tahun 2015 sebagai agenda pembangunan global."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Ciri utama negara maju?",
+            "options": [
+              "Sektor pertanian dominan",
+              "Pendapatan per kapita rendah",
+              "Teknologi canggih, pendapatan tinggi",
+              "Angka pengangguran tinggi"
+            ],
+            "answer": 2,
+            "explanation": "Negara maju: teknologi canggih, pendapatan tinggi, dominan industri & jasa."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Indonesia menjadi tuan rumah G20 pada tahun?",
+            "options": ["2019", "2020", "2021", "2022"],
+            "answer": 3,
+            "explanation": "Indonesia menjadi tuan rumah KTT G20 di Bali tahun 2022."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Program pembangunan Indonesia yang sesuai SDGs Tujuan 1 (Tanpa Kemiskinan) adalah?",
+            "options": [
+              "Program KB",
+              "Program Bantuan Sosial (Bansos)",
+              "Wajib Belajar 9 Tahun",
+              "Reboisasi hutan"
+            ],
+            "answer": 1,
+            "explanation": "Bantuan Sosial (Bansos) langsung menyasar pengentasan kemiskinan sesuai SDGs Tujuan 1."
           }
         ]
       }
