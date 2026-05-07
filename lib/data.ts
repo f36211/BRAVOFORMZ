@@ -25,6 +25,8 @@ const subjects = [
   matematika,
   bahasaArab,
   bahasaInggris,
+  prakarya,
+  pjok,
 ] as unknown as Subject[]
 
 export const appData: AppData = {
