@@ -1,0 +1,2272 @@
+{
+    "id": "prakarya",
+    "name": "Prakarya",
+    "description": "Kerajinan, Rekayasa, Budidaya, dan Pengolahan",
+    "grade": [
+        7,
+        8,
+        9
+    ],
+    "icon": "Hammer",
+    "color": "soft",
+    "topics": [
+        {
+            "id": "kerajinan-serat-alam-7",
+            "title": "Kerajinan Bahan Serat Alam (Kelas 7)",
+            "description": "Mengenal dan mengolah bahan serat alam menjadi produk kerajinan yang bernilai estetis dan ekonomis.",
+            "grade": 7,
+            "category": "Kerajinan",
+            "lessons": [
+                {
+                    "id": "serat-alam-pengenalan",
+                    "title": "Mengenal Bahan Serat Alam",
+                    "estMinutes": 20,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Apa Itu Bahan Serat Alam?",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Bahan serat alam adalah bahan yang berasal dari alam, baik dari tumbuhan maupun hewan, yang memiliki sifat lentur dan dapat digunakan untuk membuat kerajinan. Serat alam dikenal ramah lingkungan, mudah didapat, dan harganya terjangkau."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Jenis-Jenis Serat Alam",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Serat tumbuhan: kapas, rami, yute, abaka, sisal, sabut kelapa, daun pandan, bambu",
+                                "Serat hewan: wol (domba), sutera (ulat sutera), bulu alpaka",
+                                "Serat mineral: asbes (jarang digunakan karena berbahaya)"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Sifat-Sifat Bahan Serat Alam",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Serat alam umumnya memiliki sifat menyerap air (higroskopis), kuat dan tahan lama, dapat diwarnai dengan zat pewarna alami maupun sintetis, serta dapat terurai secara alami (biodegradable) sehingga ramah lingkungan."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Contoh Produk Kerajinan dari Serat Alam",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Anyaman tikar dari daun pandan atau mendong",
+                                "Tas dari serat rami atau sabut kelapa",
+                                "Hiasan dinding dari bambu",
+                                "Kain tenun dari serat kapas",
+                                "Topi anyaman dari daun lontar"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "serat-alam-pengolahan",
+                    "title": "Proses Pengolahan Serat Alam",
+                    "estMinutes": 25,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Tahapan Pengolahan Serat Alam",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Sebelum dijadikan produk kerajinan, serat alam perlu melalui proses pengolahan agar kualitasnya optimal. Berikut adalah tahapan pengolahan serat alam secara umum."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Langkah-Langkah Pengolahan",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "1. Pemanenan: mengambil bahan serat dari sumbernya (tanaman/hewan)",
+                                "2. Pemisahan: memisahkan serat dari bagian yang tidak diperlukan",
+                                "3. Pencucian: membersihkan kotoran dan sisa-sisa yang menempel",
+                                "4. Pengeringan: menjemur serat di bawah sinar matahari hingga kering",
+                                "5. Pewarnaan (opsional): memberikan warna menggunakan zat alami atau sintetis",
+                                "6. Penganyaman/Pemintalan: mengolah serat menjadi bentuk yang siap digunakan"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik Dasar Membuat Kerajinan Serat",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Ada beberapa teknik dasar dalam membuat kerajinan dari serat alam, antara lain teknik anyam (plaiting), teknik tenun (weaving), teknik makramé (simpul-menyimpul), teknik rajut (knitting), dan teknik tapestri."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Alat dan Bahan Membuat Anyaman Dasar",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Daun pandan kering atau bambu yang sudah dihaluskan",
+                                "Gunting atau pisau lipat",
+                                "Penggaris",
+                                "Jarum besar (jika diperlukan)",
+                                "Lem/perekat (jika diperlukan)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "serat-alam-proyek",
+                    "title": "Proyek: Membuat Anyaman Sederhana",
+                    "estMinutes": 40,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Membuat Anyaman dari Daun Pandan",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Anyaman adalah teknik kerajinan tertua yang dikenal manusia. Dalam proyek ini, kamu akan belajar membuat anyaman dasar (anyaman silang) menggunakan daun pandan atau bahan serat alam lainnya yang mudah didapat."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Alat dan Bahan",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Daun pandan yang sudah dikeringkan (atau irisan bambu tipis)",
+                                "Gunting",
+                                "Penggaris",
+                                "Cat/pewarna (opsional)",
+                                "Jarum jahit besar"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Langkah Kerja",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "1. Siapkan daun pandan kering, potong dengan lebar 1-2 cm dan panjang seragam.",
+                                "2. Susun beberapa helai sebagai lusi (vertikal) di atas meja kerja.",
+                                "3. Ambil satu helai sebagai pakan (horizontal), selipkan melewati lusi secara selang-seling (atas-bawah-atas-bawah).",
+                                "4. Tekan pakan ke atas hingga rapat.",
+                                "5. Ambil helai pakan kedua, selipkan dengan pola berlawanan (bawah-atas-bawah-atas).",
+                                "6. Ulangi proses hingga mencapai ukuran yang diinginkan.",
+                                "7. Rapikan tepi anyaman dengan melipat atau menjahit.",
+                                "8. Anyaman siap dibentuk menjadi tatakan gelas, tas mini, atau hiasan dinding."
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Tips Sukses",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Pastikan helai serat dalam kondisi lembap sedikit agar tidak mudah patah saat dianyam. Keringkan kembali produk jadi di bawah sinar matahari agar bentuknya terjaga."
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-serat-1",
+                    "question": "Apa yang dimaksud dengan serat alam?",
+                    "answer": "Serat alam adalah bahan serat yang berasal dari alam, baik dari tumbuhan (kapas, rami, bambu) maupun dari hewan (wol, sutera)."
+                },
+                {
+                    "id": "fc-serat-2",
+                    "question": "Sebutkan 3 contoh serat yang berasal dari tumbuhan!",
+                    "answer": "Kapas, rami, yute, sisal, sabut kelapa, daun pandan, bambu (sebutkan 3 di antaranya)."
+                },
+                {
+                    "id": "fc-serat-3",
+                    "question": "Apa keunggulan serat alam dibanding serat sintetis?",
+                    "answer": "Serat alam bersifat ramah lingkungan (biodegradable), menyerap keringat, dan lebih alami."
+                },
+                {
+                    "id": "fc-serat-4",
+                    "question": "Apa yang dimaksud teknik anyam dalam kerajinan serat?",
+                    "answer": "Teknik anyam adalah cara membuat kerajinan dengan cara menyilangkan atau menjalin bahan serat secara berselang-seling membentuk pola tertentu."
+                },
+                {
+                    "id": "fc-serat-5",
+                    "question": "Apa sifat higroskopis pada serat alam?",
+                    "answer": "Higroskopis berarti serat alam mampu menyerap air atau kelembapan dari lingkungan sekitarnya."
+                },
+                {
+                    "id": "fc-serat-6",
+                    "question": "Contoh serat alam yang berasal dari hewan adalah...",
+                    "answer": "Wol dari bulu domba dan sutera dari kepompong ulat sutera."
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-serat-1",
+                        "type": "multiple_choice",
+                        "question": "Bahan serat alam yang berasal dari hewan adalah...",
+                        "options": [
+                            "Kapas",
+                            "Rami",
+                            "Wol",
+                            "Bambu"
+                        ],
+                        "answer": 2,
+                        "explanation": "Wol berasal dari bulu domba, merupakan serat alam yang bersumber dari hewan."
+                    },
+                    {
+                        "id": "q-serat-2",
+                        "type": "multiple_choice",
+                        "question": "Teknik membuat kerajinan dengan cara menyilangkan serat secara selang-seling disebut teknik...",
+                        "options": [
+                            "Makramé",
+                            "Anyam",
+                            "Tenun",
+                            "Rajut"
+                        ],
+                        "answer": 1,
+                        "explanation": "Teknik anyam dilakukan dengan menyilangkan atau menjalin helai serat secara berselang-seling (atas-bawah)."
+                    },
+                    {
+                        "id": "q-serat-3",
+                        "type": "multiple_choice",
+                        "question": "Sifat serat alam yang dapat menyerap air disebut...",
+                        "options": [
+                            "Elastis",
+                            "Higroskopis",
+                            "Biodegradable",
+                            "Lentur"
+                        ],
+                        "answer": 1,
+                        "explanation": "Higroskopis adalah kemampuan bahan untuk menyerap air atau kelembapan dari sekitarnya."
+                    },
+                    {
+                        "id": "q-serat-4",
+                        "type": "multiple_choice",
+                        "question": "Bahan berikut yang BUKAN termasuk serat alam dari tumbuhan adalah...",
+                        "options": [
+                            "Kapas",
+                            "Yute",
+                            "Sutera",
+                            "Rami"
+                        ],
+                        "answer": 2,
+                        "explanation": "Sutera berasal dari kepompong ulat sutera (hewan), bukan dari tumbuhan."
+                    },
+                    {
+                        "id": "q-serat-5",
+                        "type": "multiple_choice",
+                        "question": "Keunggulan utama kerajinan dari serat alam dibanding bahan sintetis adalah...",
+                        "options": [
+                            "Harganya lebih mahal",
+                            "Lebih tahan lama dari plastik",
+                            "Ramah lingkungan dan biodegradable",
+                            "Tidak bisa diwarnai"
+                        ],
+                        "answer": 2,
+                        "explanation": "Serat alam bersifat biodegradable sehingga dapat terurai oleh alam dan lebih ramah lingkungan dibanding bahan sintetis."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "kerajinan-bahan-lunak-8",
+            "title": "Kerajinan Bahan Lunak (Kelas 8)",
+            "description": "Mengeksplorasi bahan lunak alami dan buatan untuk menciptakan produk kerajinan tangan yang kreatif.",
+            "grade": 8,
+            "category": "Kerajinan",
+            "lessons": [
+                {
+                    "id": "bahan-lunak-pengenalan",
+                    "title": "Mengenal Bahan Lunak dalam Kerajinan",
+                    "estMinutes": 20,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Pengertian Bahan Lunak",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Bahan lunak adalah bahan yang memiliki sifat fisik lembut, lentur, mudah dibentuk, tidak mudah patah, dan dapat dikembalikan ke bentuk semula. Bahan lunak digunakan dalam berbagai produk kerajinan karena kemudahannya dalam proses pembentukan."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Jenis Bahan Lunak",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Bahan lunak alami: tanah liat, getah nyatu, kulit hewan (basah), lilin lebah",
+                                "Bahan lunak buatan: plastisin, lilin (malam buatan), clay polimer, fiberglass, gipsum, sabun"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Karakteristik Bahan Lunak Alami vs Buatan",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Bahan lunak alami (seperti tanah liat) bersifat plastis, dapat mengeras sendiri atau dengan pembakaran, dan ramah lingkungan. Bahan lunak buatan (seperti clay polimer) lebih mudah diwarnai, tidak mudah retak, dan mengeras dengan dipanaskan dalam oven."
+                        }
+                    ]
+                },
+                {
+                    "id": "bahan-lunak-tanah-liat",
+                    "title": "Kerajinan dari Tanah Liat",
+                    "estMinutes": 35,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Teknik Membentuk Tanah Liat",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Tanah liat merupakan bahan kerajinan tertua yang digunakan manusia. Teknik dasar membentuk tanah liat ada tiga: teknik pijit (pinch), teknik lilit (coil), dan teknik lempengan (slab)."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik Pijit (Pinch)",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Ambil tanah liat, bentuk menjadi bola.",
+                                "Tekan ibu jari ke tengah bola untuk membuat lubang.",
+                                "Pijat dinding tanah liat secara merata hingga berbentuk mangkuk atau vas.",
+                                "Haluskan permukaan dengan tangan basah atau alat scrapers."
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik Lilit (Coil)",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Gulung tanah liat menjadi gulungan panjang seperti ular.",
+                                "Susun gulungan berlapis-lapis membentuk dinding objek.",
+                                "Tekan dan haluskan setiap lapisan agar menyatu kuat.",
+                                "Rapikan permukaan dengan alat atau tangan basah."
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Proses Penyelesaian (Finishing)",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Setelah dibentuk, karya tanah liat dikeringkan terlebih dahulu di tempat teduh selama 1-2 hari agar tidak retak. Selanjutnya dibakar dalam kiln (tungku pembakaran) pada suhu 900-1200°C, lalu didekorasi dengan glasir atau cat akrilik."
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-lunak-1",
+                    "question": "Apa yang dimaksud bahan lunak dalam kerajinan?",
+                    "answer": "Bahan lunak adalah bahan yang lembut, mudah dibentuk, dan lentur, seperti tanah liat, lilin, atau clay polimer."
+                },
+                {
+                    "id": "fc-lunak-2",
+                    "question": "Sebutkan 2 contoh bahan lunak alami!",
+                    "answer": "Tanah liat dan getah nyatu (getah dari pohon nyatu)."
+                },
+                {
+                    "id": "fc-lunak-3",
+                    "question": "Apa perbedaan bahan lunak alami dan buatan?",
+                    "answer": "Bahan lunak alami berasal dari alam (tanah liat), sedangkan bahan lunak buatan merupakan hasil olahan industri (plastisin, clay polimer)."
+                },
+                {
+                    "id": "fc-lunak-4",
+                    "question": "Apa itu teknik pijit dalam kerajinan tanah liat?",
+                    "answer": "Teknik pijit (pinch) adalah teknik membentuk tanah liat dengan cara menekan dan memijat tanah liat menggunakan jari-jari tangan."
+                },
+                {
+                    "id": "fc-lunak-5",
+                    "question": "Mengapa karya tanah liat dikeringkan dulu sebelum dibakar?",
+                    "answer": "Agar kadar air berkurang perlahan sehingga karya tidak retak atau pecah saat proses pembakaran di tungku."
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-lunak-1",
+                        "type": "multiple_choice",
+                        "question": "Bahan yang digunakan untuk membuat kerajinan bahan lunak alami adalah...",
+                        "options": [
+                            "Tanah liat",
+                            "Kayu jati",
+                            "Batu kali",
+                            "Logam"
+                        ],
+                        "answer": 0,
+                        "explanation": "Tanah liat bersifat plastis, mudah dibentuk, dan merupakan bahan lunak alami yang paling umum digunakan."
+                    },
+                    {
+                        "id": "q-lunak-2",
+                        "type": "multiple_choice",
+                        "question": "Teknik membentuk tanah liat dengan cara menggulung menjadi pilinan panjang disebut teknik...",
+                        "options": [
+                            "Pijit",
+                            "Lempengan",
+                            "Lilit",
+                            "Cetak"
+                        ],
+                        "answer": 2,
+                        "explanation": "Teknik lilit (coil) dilakukan dengan menggulung tanah liat menjadi pilinan dan menyusunnya berlapis-lapis."
+                    },
+                    {
+                        "id": "q-lunak-3",
+                        "type": "multiple_choice",
+                        "question": "Bahan lunak buatan yang mengeras ketika dipanaskan dalam oven adalah...",
+                        "options": [
+                            "Tanah liat",
+                            "Clay polimer",
+                            "Getah nyatu",
+                            "Lilin lebah"
+                        ],
+                        "answer": 1,
+                        "explanation": "Clay polimer adalah bahan lunak buatan yang mengeras saat dipanaskan dalam oven pada suhu rendah."
+                    },
+                    {
+                        "id": "q-lunak-4",
+                        "type": "multiple_choice",
+                        "question": "Tujuan pengeringan karya tanah liat sebelum dibakar adalah...",
+                        "options": [
+                            "Agar warnanya lebih cerah",
+                            "Mencegah retak saat pembakaran",
+                            "Agar lebih mudah dihias",
+                            "Mempercepat proses glasir"
+                        ],
+                        "answer": 1,
+                        "explanation": "Pengeringan dilakukan untuk mengurangi kadar air perlahan sehingga karya tidak retak atau pecah saat dibakar."
+                    },
+                    {
+                        "id": "q-lunak-5",
+                        "type": "multiple_choice",
+                        "question": "Berikut yang BUKAN termasuk bahan lunak buatan adalah...",
+                        "options": [
+                            "Plastisin",
+                            "Clay polimer",
+                            "Tanah liat",
+                            "Gipsum"
+                        ],
+                        "answer": 2,
+                        "explanation": "Tanah liat adalah bahan lunak yang berasal dari alam (alami), bukan buatan."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "kerajinan-bahan-keras-9",
+            "title": "Kerajinan Bahan Keras (Kelas 9)",
+            "description": "Mempelajari pengolahan bahan keras seperti kayu, bambu, logam, dan batu untuk menciptakan produk kerajinan bernilai tinggi.",
+            "grade": 9,
+            "category": "Kerajinan",
+            "lessons": [
+                {
+                    "id": "bahan-keras-pengenalan",
+                    "title": "Mengenal Bahan Keras dalam Kerajinan",
+                    "estMinutes": 20,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Pengertian Bahan Keras",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Bahan keras adalah bahan yang memiliki sifat fisik kuat, padat, tidak mudah berubah bentuk, dan memerlukan alat khusus untuk mengolahnya. Kerajinan dari bahan keras umumnya memiliki nilai estetis tinggi dan tahan lama."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Jenis Bahan Keras",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Bahan keras alami: kayu (jati, mahoni, pinus), bambu, batu, tempurung kelapa, tulang, tanduk",
+                                "Bahan keras buatan: logam (besi, tembaga, aluminium), kaca, fiberglass, plastik keras"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Prinsip Keselamatan Kerja",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Mengolah bahan keras memerlukan perhatian khusus pada keselamatan. Selalu gunakan alat pelindung seperti sarung tangan, kacamata pelindung, dan masker. Pastikan alat dalam kondisi baik dan lingkungan kerja bersih dan aman."
+                        }
+                    ]
+                },
+                {
+                    "id": "bahan-keras-kayu",
+                    "title": "Kerajinan dari Kayu dan Bambu",
+                    "estMinutes": 30,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Teknik Pengolahan Kayu",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Kayu merupakan bahan keras alami yang paling banyak digunakan dalam kerajinan. Teknik pengolahan kayu meliputi ukir, pahat, bubut, dan konstruksi. Kayu jati dan mahoni terkenal karena kuat, tahan lama, dan indah seratnya."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Alat-Alat Kerajinan Kayu",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Gergaji (potong dan belah)",
+                                "Pahat dan palu kayu",
+                                "Amplas berbagai nomor",
+                                "Kuas dan cat/vernis",
+                                "Bor tangan atau bor listrik",
+                                "Pensil dan penggaris untuk pola"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Tahapan Membuat Kerajinan Kayu",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "1. Desain: buat sketsa produk yang akan dibuat",
+                                "2. Pemilihan kayu: pilih jenis dan kualitas kayu yang sesuai",
+                                "3. Pemotongan: potong kayu sesuai pola",
+                                "4. Pembentukan: pahat, ukir, atau rakitkomponen",
+                                "5. Penghalusan: amplas dari nomor kasar ke halus",
+                                "6. Finishing: cat, vernis, atau minyak jati untuk perlindungan dan keindahan"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-keras-1",
+                    "question": "Apa yang dimaksud bahan keras dalam kerajinan?",
+                    "answer": "Bahan keras adalah bahan yang kuat, padat, tidak mudah berubah bentuk, dan memerlukan alat khusus untuk diolah, seperti kayu, batu, dan logam."
+                },
+                {
+                    "id": "fc-keras-2",
+                    "question": "Sebutkan 3 jenis kayu yang sering digunakan dalam kerajinan!",
+                    "answer": "Kayu jati, mahoni, dan pinus."
+                },
+                {
+                    "id": "fc-keras-3",
+                    "question": "Apa perbedaan bahan keras alami dan buatan?",
+                    "answer": "Bahan keras alami berasal langsung dari alam (kayu, batu, bambu), sedangkan bahan keras buatan merupakan hasil olahan manusia (logam, kaca, fiberglass)."
+                },
+                {
+                    "id": "fc-keras-4",
+                    "question": "Mengapa perlu menggunakan alat pelindung saat mengolah bahan keras?",
+                    "answer": "Karena bahan keras memerlukan alat tajam dan berat yang dapat menyebabkan cedera jika tidak digunakan dengan hati-hati."
+                },
+                {
+                    "id": "fc-keras-5",
+                    "question": "Apa fungsi vernis dalam finishing kerajinan kayu?",
+                    "answer": "Vernis berfungsi untuk melindungi kayu dari kelembapan dan serangga, sekaligus memberikan keindahan pada permukaan kayu."
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-keras-1",
+                        "type": "multiple_choice",
+                        "question": "Berikut yang termasuk bahan keras alami adalah...",
+                        "options": [
+                            "Fiberglass",
+                            "Logam",
+                            "Bambu",
+                            "Plastik keras"
+                        ],
+                        "answer": 2,
+                        "explanation": "Bambu adalah bahan keras yang berasal langsung dari alam (tumbuhan), berbeda dengan logam dan fiberglass yang merupakan hasil olahan."
+                    },
+                    {
+                        "id": "q-keras-2",
+                        "type": "multiple_choice",
+                        "question": "Urutan pengamplasan yang benar pada kerajinan kayu adalah...",
+                        "options": [
+                            "Halus ke kasar",
+                            "Kasar ke halus",
+                            "Sembarang nomor",
+                            "Hanya amplas kasar"
+                        ],
+                        "answer": 1,
+                        "explanation": "Pengamplasan dilakukan dari nomor kasar (grit rendah) terlebih dahulu untuk membentuk, lalu dilanjutkan ke nomor halus (grit tinggi) untuk menghasilkan permukaan yang mulus."
+                    },
+                    {
+                        "id": "q-keras-3",
+                        "type": "multiple_choice",
+                        "question": "Alat yang digunakan untuk mengukir kayu adalah...",
+                        "options": [
+                            "Gergaji",
+                            "Pahat dan palu",
+                            "Kuas",
+                            "Amplas"
+                        ],
+                        "answer": 1,
+                        "explanation": "Pahat dan palu digunakan untuk mengukir atau membentuk kayu dengan cara memotong serat kayu secara detail."
+                    },
+                    {
+                        "id": "q-keras-4",
+                        "type": "multiple_choice",
+                        "question": "Jenis kayu yang paling terkenal karena kekuatan dan seratnya yang indah adalah...",
+                        "options": [
+                            "Kayu pinus",
+                            "Kayu jati",
+                            "Kayu sengon",
+                            "Kayu jabon"
+                        ],
+                        "answer": 1,
+                        "explanation": "Kayu jati terkenal karena sangat kuat, tahan lama, tahan terhadap serangga, dan memiliki serat yang indah."
+                    },
+                    {
+                        "id": "q-keras-5",
+                        "type": "multiple_choice",
+                        "question": "Tahap finishing pada kerajinan kayu bertujuan untuk...",
+                        "options": [
+                            "Memotong kayu",
+                            "Membuat pola desain",
+                            "Melindungi dan memperindah permukaan kayu",
+                            "Memilih jenis kayu"
+                        ],
+                        "answer": 2,
+                        "explanation": "Finishing dengan cat, vernis, atau minyak jati bertujuan untuk melindungi kayu dari kerusakan dan sekaligus memperindah tampilannya."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "rekayasa-konstruksi-7",
+            "title": "Rekayasa Produk Konstruksi (Kelas 7)",
+            "description": "Memahami prinsip rekayasa dan konstruksi miniatur bangunan serta jembatan sederhana.",
+            "grade": 7,
+            "category": "Rekayasa",
+            "lessons": [
+                {
+                    "id": "konstruksi-pengenalan",
+                    "title": "Dasar-Dasar Rekayasa Konstruksi",
+                    "estMinutes": 25,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Apa Itu Rekayasa Konstruksi?",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Rekayasa konstruksi adalah bidang yang mempelajari cara merancang dan membangun struktur. Dalam pelajaran Prakarya, kita belajar membuat miniatur konstruksi seperti jembatan, bangunan, atau menara menggunakan bahan-bahan sederhana."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Jenis-Jenis Konstruksi",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Konstruksi gedung: rumah, sekolah, gedung bertingkat",
+                                "Konstruksi jembatan: jembatan gantung, jembatan lengkung, jembatan balok",
+                                "Konstruksi menara: menara listrik, menara telekomunikasi, menara air",
+                                "Konstruksi jalan: jalan raya, jalan tol, terowongan"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Prinsip Dasar Konstruksi yang Kuat",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Konstruksi yang baik harus memenuhi prinsip: kuat (mampu menahan beban), stabil (tidak mudah goyah), dan ekonomis (efisien dalam penggunaan bahan). Bentuk segitiga dikenal sebagai bentuk paling kuat dalam konstruksi karena dapat mendistribusikan beban secara merata."
+                        }
+                    ]
+                },
+                {
+                    "id": "konstruksi-proyek",
+                    "title": "Membuat Miniatur Jembatan",
+                    "estMinutes": 45,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Proyek: Miniatur Jembatan Balok dari Stik Es Krim",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Pada proyek ini, kamu akan membuat miniatur jembatan menggunakan stik es krim dan lem. Proyek ini akan mengajarkanmu tentang prinsip distribusi beban dan kekuatan struktur."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Alat dan Bahan",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Stik es krim (50-100 buah)",
+                                "Lem tembak atau lem kayu",
+                                "Penggaris",
+                                "Gunting atau cutter",
+                                "Pensil",
+                                "Papan alas kerja"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Langkah Pembuatan",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "1. Rencanakan desain jembatan: tentukan panjang, lebar, dan tinggi.",
+                                "2. Buat dua batang penopang sisi kiri dan kanan jembatan.",
+                                "3. Hubungkan kedua sisi dengan penopang melintang menggunakan pola segitiga.",
+                                "4. Buat lantai jembatan dengan menyusun stik secara paralel.",
+                                "5. Rekatkan semua bagian dengan lem tembak.",
+                                "6. Tunggu hingga lem mengering sempurna (minimal 30 menit).",
+                                "7. Uji kekuatan jembatan dengan meletakkan beban di atasnya secara bertahap."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-konstruksi-1",
+                    "question": "Mengapa bentuk segitiga sering digunakan dalam konstruksi?",
+                    "answer": "Karena segitiga adalah bentuk yang paling kuat dan stabil, mampu mendistribusikan beban secara merata ke seluruh sudutnya."
+                },
+                {
+                    "id": "fc-konstruksi-2",
+                    "question": "Sebutkan 3 prinsip dasar konstruksi yang baik!",
+                    "answer": "Kuat (mampu menahan beban), stabil (tidak mudah goyah), dan ekonomis (efisien dalam penggunaan bahan)."
+                },
+                {
+                    "id": "fc-konstruksi-3",
+                    "question": "Apa perbedaan jembatan gantung dan jembatan balok?",
+                    "answer": "Jembatan gantung menggunakan kabel baja sebagai penopang utama, sedangkan jembatan balok mengandalkan balok horizontal di atas tiang penyangga."
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-konstruksi-1",
+                        "type": "multiple_choice",
+                        "question": "Bentuk geometri yang paling kuat dalam struktur konstruksi adalah...",
+                        "options": [
+                            "Lingkaran",
+                            "Persegi",
+                            "Segitiga",
+                            "Persegi panjang"
+                        ],
+                        "answer": 2,
+                        "explanation": "Segitiga adalah bentuk yang paling kuat karena ketiga sisinya saling mengunci dan mendistribusikan beban secara merata."
+                    },
+                    {
+                        "id": "q-konstruksi-2",
+                        "type": "multiple_choice",
+                        "question": "Tiga syarat utama sebuah konstruksi yang baik adalah...",
+                        "options": [
+                            "Indah, mahal, dan besar",
+                            "Kuat, stabil, dan ekonomis",
+                            "Tinggi, lebar, dan panjang",
+                            "Baru, modern, dan megah"
+                        ],
+                        "answer": 1,
+                        "explanation": "Konstruksi yang baik harus kuat (mampu menahan beban), stabil (tidak mudah goyah), dan ekonomis (efisien bahan dan biaya)."
+                    },
+                    {
+                        "id": "q-konstruksi-3",
+                        "type": "multiple_choice",
+                        "question": "Jenis jembatan yang menggunakan kabel baja sebagai penopang utama adalah jembatan...",
+                        "options": [
+                            "Balok",
+                            "Lengkung",
+                            "Gantung",
+                            "Rangka"
+                        ],
+                        "answer": 2,
+                        "explanation": "Jembatan gantung (suspension bridge) menggunakan kabel baja besar yang digantungkan pada menara untuk menopang dek jembatan."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "rekayasa-elektronika-8",
+            "title": "Rekayasa Elektronika Sederhana (Kelas 8)",
+            "description": "Mempelajari dasar-dasar elektronika dan membuat rangkaian listrik sederhana untuk produk berguna.",
+            "grade": 8,
+            "category": "Rekayasa",
+            "lessons": [
+                {
+                    "id": "elektronika-dasar",
+                    "title": "Dasar-Dasar Elektronika",
+                    "estMinutes": 30,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Komponen Dasar Elektronika",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Elektronika adalah ilmu yang mempelajari aliran elektron dalam komponen-komponen listrik. Dalam membuat produk elektronika sederhana, kita perlu memahami komponen-komponen dasar dan fungsinya masing-masing."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Komponen Pasif",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Resistor: menghambat aliran arus listrik, satuannya Ohm (Ω)",
+                                "Kapasitor: menyimpan muatan listrik sementara, satuannya Farad (F)",
+                                "Induktor: menyimpan energi dalam bentuk medan magnet"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Komponen Aktif",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Dioda: mengalirkan arus hanya satu arah",
+                                "LED (Light Emitting Diode): dioda yang memancarkan cahaya",
+                                "Transistor: memperkuat atau memutus aliran listrik",
+                                "IC (Integrated Circuit): rangkaian terintegrasi dalam satu chip"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Alat Ukur Listrik",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Multimeter adalah alat yang digunakan untuk mengukur tegangan (Volt), arus (Ampere), dan hambatan (Ohm) dalam rangkaian listrik. Pemahaman penggunaan multimeter sangat penting dalam rekayasa elektronika."
+                        }
+                    ]
+                },
+                {
+                    "id": "elektronika-proyek",
+                    "title": "Membuat Lampu Tidur LED Sederhana",
+                    "estMinutes": 40,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Proyek: Lampu Tidur LED",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Kamu akan membuat lampu tidur sederhana menggunakan LED, resistor, dan baterai. Proyek ini mengajarkan cara merangkai sirkuit dasar dan membuat produk yang bermanfaat."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Komponen yang Diperlukan",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "LED warna-warni (5 buah)",
+                                "Resistor 220 Ohm (5 buah)",
+                                "Baterai 9V dan klip baterai",
+                                "Saklar mini",
+                                "Papan PCB atau breadboard",
+                                "Kabel jumper",
+                                "Wadah kreatif (bekas botol, toples, atau kotak)"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Langkah Perakitan",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "1. Hubungkan kaki panjang LED (anoda) ke resistor 220 Ohm.",
+                                "2. Hubungkan ujung resistor lainnya ke terminal positif baterai.",
+                                "3. Hubungkan kaki pendek LED (katoda) ke terminal negatif baterai.",
+                                "4. Pasang saklar pada jalur positif agar bisa dinyalakan/dimatikan.",
+                                "5. Uji rangkaian sebelum memasang ke dalam wadah.",
+                                "6. Pasang rangkaian ke dalam wadah dekoratif.",
+                                "7. Hias wadah sesuai kreativitas."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-elek-1",
+                    "question": "Apa fungsi resistor dalam rangkaian listrik?",
+                    "answer": "Resistor berfungsi untuk menghambat aliran arus listrik sehingga komponen lain tidak rusak karena arus yang terlalu besar."
+                },
+                {
+                    "id": "fc-elek-2",
+                    "question": "Apa perbedaan kaki anoda dan katoda pada LED?",
+                    "answer": "Anoda (+) adalah kaki panjang LED yang dihubungkan ke sumber positif, sedangkan katoda (-) adalah kaki pendek yang dihubungkan ke negatif."
+                },
+                {
+                    "id": "fc-elek-3",
+                    "question": "Apa kegunaan multimeter dalam elektronika?",
+                    "answer": "Multimeter digunakan untuk mengukur tegangan listrik (Volt), arus listrik (Ampere), dan hambatan listrik (Ohm)."
+                },
+                {
+                    "id": "fc-elek-4",
+                    "question": "Apa kepanjangan dari LED?",
+                    "answer": "LED adalah singkatan dari Light Emitting Diode, yaitu dioda yang mampu memancarkan cahaya saat dialiri listrik."
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-elek-1",
+                        "type": "multiple_choice",
+                        "question": "Komponen elektronika yang berfungsi untuk menghambat arus listrik adalah...",
+                        "options": [
+                            "LED",
+                            "Kapasitor",
+                            "Resistor",
+                            "Transistor"
+                        ],
+                        "answer": 2,
+                        "explanation": "Resistor berfungsi untuk menghambat atau memperkecil aliran arus listrik dalam rangkaian."
+                    },
+                    {
+                        "id": "q-elek-2",
+                        "type": "multiple_choice",
+                        "question": "Satuan hambatan listrik adalah...",
+                        "options": [
+                            "Ampere",
+                            "Volt",
+                            "Watt",
+                            "Ohm"
+                        ],
+                        "answer": 3,
+                        "explanation": "Hambatan listrik diukur dalam satuan Ohm (Ω), dinamai dari ilmuwan Georg Ohm."
+                    },
+                    {
+                        "id": "q-elek-3",
+                        "type": "multiple_choice",
+                        "question": "Kaki panjang pada LED disebut...",
+                        "options": [
+                            "Katoda",
+                            "Anoda",
+                            "Basis",
+                            "Kolektor"
+                        ],
+                        "answer": 1,
+                        "explanation": "Kaki panjang LED disebut anoda (kutub positif), sedangkan kaki pendek disebut katoda (kutub negatif)."
+                    },
+                    {
+                        "id": "q-elek-4",
+                        "type": "multiple_choice",
+                        "question": "Alat yang digunakan untuk mengukur tegangan, arus, dan hambatan listrik adalah...",
+                        "options": [
+                            "Osiloskop",
+                            "Multimeter",
+                            "Galvanometer",
+                            "Amperemeter"
+                        ],
+                        "answer": 1,
+                        "explanation": "Multimeter adalah alat serbaguna yang dapat mengukur tegangan (Volt), arus (Ampere), dan hambatan (Ohm)."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "budidaya-sayuran-7",
+            "title": "Budidaya Tanaman Sayuran (Kelas 7)",
+            "description": "Mempelajari cara menanam dan merawat berbagai jenis tanaman sayuran di lingkungan sekolah atau rumah.",
+            "grade": 7,
+            "category": "Budidaya",
+            "lessons": [
+                {
+                    "id": "sayuran-pengenalan",
+                    "title": "Mengenal Tanaman Sayuran",
+                    "estMinutes": 20,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Jenis-Jenis Tanaman Sayuran",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Tanaman sayuran adalah tanaman yang bagian-bagiannya (daun, buah, umbi, batang) dapat dikonsumsi oleh manusia. Berdasarkan bagian yang dimakan, sayuran dibedakan menjadi beberapa kelompok."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Pengelompokan Sayuran",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Sayuran daun: kangkung, bayam, sawi, selada, spinach",
+                                "Sayuran buah: tomat, cabai, terong, timun, labu",
+                                "Sayuran umbi: kentang, wortel, lobak, beet",
+                                "Sayuran batang: asparagus, rebung, seledri",
+                                "Sayuran bunga: brokoli, kembang kol, bunga pepaya"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Syarat Tumbuh Sayuran",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Setiap tanaman sayuran memerlukan kondisi tertentu untuk tumbuh optimal. Secara umum, sayuran membutuhkan tanah yang gembur dan subur, sinar matahari yang cukup (6-8 jam per hari), pengairan yang teratur, serta suhu yang sesuai."
+                        }
+                    ]
+                },
+                {
+                    "id": "sayuran-budidaya",
+                    "title": "Teknik Budidaya Sayuran",
+                    "estMinutes": 35,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Tahapan Budidaya Tanaman Sayuran",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Budidaya sayuran meliputi beberapa tahapan penting dari persiapan lahan hingga panen. Ikuti setiap tahapan dengan benar untuk mendapatkan hasil panen yang optimal."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Persiapan Lahan dan Media Tanam",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Gemburkan tanah dengan cangkul atau garpu",
+                                "Campurkan pupuk kompos atau pupuk kandang dengan tanah",
+                                "Buat bedengan dengan lebar 100-120 cm",
+                                "Siram media tanam hingga lembap sebelum tanam"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Penanaman dan Perawatan",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Buat lubang tanam dengan jarak sesuai jenis sayuran",
+                                "Tanam bibit atau benih, tutup kembali dengan tanah",
+                                "Siram setiap pagi dan sore hari",
+                                "Beri pupuk susulan setelah 2 minggu",
+                                "Kendalikan gulma (rumput liar) secara rutin",
+                                "Pantau hama dan penyakit, gunakan pestisida organik jika perlu"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Waktu Panen",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Setiap sayuran memiliki umur panen yang berbeda. Bayam dan kangkung dapat dipanen dalam 3-4 minggu, sedangkan tomat memerlukan 60-80 hari. Panen dilakukan saat sayuran sudah mencapai ukuran dan tingkat kematangan yang optimal."
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-sayur-1",
+                    "question": "Berikan 3 contoh sayuran daun!",
+                    "answer": "Kangkung, bayam, dan sawi."
+                },
+                {
+                    "id": "fc-sayur-2",
+                    "question": "Berapa lama umur panen bayam dan kangkung?",
+                    "answer": "Bayam dan kangkung dapat dipanen dalam waktu 3-4 minggu setelah tanam."
+                },
+                {
+                    "id": "fc-sayur-3",
+                    "question": "Apa manfaat pupuk kompos untuk tanaman sayuran?",
+                    "answer": "Pupuk kompos menyuburkan tanah, memperbaiki struktur tanah, dan menyediakan unsur hara organik yang dibutuhkan tanaman."
+                },
+                {
+                    "id": "fc-sayur-4",
+                    "question": "Apa yang dimaksud bedengan dalam budidaya sayuran?",
+                    "answer": "Bedengan adalah petak tanah yang ditinggikan dan diberi bentuk tertentu sebagai tempat menanam sayuran."
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-sayur-1",
+                        "type": "multiple_choice",
+                        "question": "Wortel dan kentang termasuk kelompok sayuran...",
+                        "options": [
+                            "Daun",
+                            "Buah",
+                            "Umbi",
+                            "Batang"
+                        ],
+                        "answer": 2,
+                        "explanation": "Wortel dan kentang merupakan sayuran umbi karena bagian yang dimakan adalah umbi akarnya yang tumbuh di dalam tanah."
+                    },
+                    {
+                        "id": "q-sayur-2",
+                        "type": "multiple_choice",
+                        "question": "Sayuran yang paling cepat dipanen (3-4 minggu) adalah...",
+                        "options": [
+                            "Tomat",
+                            "Wortel",
+                            "Bayam dan kangkung",
+                            "Kentang"
+                        ],
+                        "answer": 2,
+                        "explanation": "Bayam dan kangkung termasuk sayuran berumur pendek yang dapat dipanen hanya dalam 3-4 minggu setelah tanam."
+                    },
+                    {
+                        "id": "q-sayur-3",
+                        "type": "multiple_choice",
+                        "question": "Tujuan menggemburkan tanah sebelum menanam sayuran adalah...",
+                        "options": [
+                            "Agar tanah terlihat rapi",
+                            "Memudahkan akar tumbuh dan menyerap air",
+                            "Mengurangi jumlah pupuk",
+                            "Mempercepat penguapan air"
+                        ],
+                        "answer": 1,
+                        "explanation": "Tanah yang gembur memudahkan akar tanaman berkembang dan menyerap air serta nutrisi dari dalam tanah."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "budidaya-ikan-hias-9",
+            "title": "Budidaya Ikan Hias (Kelas 9)",
+            "description": "Mempelajari teknik budidaya ikan hias air tawar dan laut, mulai dari persiapan wadah hingga pemanenan dan pemasaran.",
+            "grade": 9,
+            "category": "Budidaya",
+            "lessons": [
+                {
+                    "id": "ikan-hias-komoditas",
+                    "title": "Komoditas Ikan Hias Air Tawar",
+                    "estMinutes": 25,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Komoditas Ikan Hias Air Tawar",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Ikan hias merupakan salah satu komoditas perikanan yang memiliki nilai ekonomi tinggi. Indonesia merupakan salah satu pengekspor ikan hias terbesar di dunia. Budidaya ikan hias dapat dilakukan dalam skala rumah tangga hingga industri."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Jenis Ikan Hias Air Tawar Populer",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Koi (Cyprinus Carpio L) – berasal dari China, terkenal dengan warna-warninya yang indah",
+                                "Cupang (Betta sp.) – terdiri dari jenis Halfmoon, Crowntail (serit), dan Plakat",
+                                "Arwana (Scleropages sp.) – ikan premium bernilai tinggi",
+                                "Ikan Mas Koki (Carassius Auratus) – bentuk tubuh unik dan bervariasi",
+                                "Guppy (Poecilia Reticulata) – mudah berkembang biak dan dirawat",
+                                "Louhan (Kelompok Cichlid) – terkenal dengan tonjolan di kepala",
+                                "Discus (Symphysodon Discus) – bentuk bulat seperti piringan, warna atraktif"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Jenis Ikan Hias Air Laut yang Diekspor",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Blue Tangs – ikan biru cantik dari terumbu karang",
+                                "Yellow Tangs – ikan kuning cerah",
+                                "Clownfish / Badut – terkenal sejak film animasi Finding Nemo",
+                                "Butterfly Fish – bermotif menyerupai kupu-kupu"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ikan-hias-wadah",
+                    "title": "Persiapan Wadah Budidaya Ikan Hias",
+                    "estMinutes": 35,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Jenis Wadah Budidaya Ikan Hias",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Pemilihan wadah budidaya sangat penting untuk keberhasilan budidaya ikan hias. Wadah yang tepat akan mendukung pertumbuhan ikan secara optimal."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Jenis-Jenis Wadah",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Kolam: cocok untuk skala besar, terbuat dari beton atau terpal",
+                                "Bak fiber/terpal: fleksibel, mudah dipindah, cocok untuk skala menengah",
+                                "Akuarium: cocok untuk pemeliharaan indoor dan pameran ikan hias"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Membuat Akuarium dari Galon Bekas",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Sebagai alternatif hemat, akuarium dapat dibuat dari galon bekas air mineral. Ini merupakan upaya kreatif dan ramah lingkungan dalam budidaya ikan hias."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Bahan dan Alat Pembuatan Akuarium Galon",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Galon bekas air mineral",
+                                "Cutter dan solder",
+                                "Lem silikon",
+                                "Lem tembak",
+                                "Hamplas untuk menghaluskan pinggiran",
+                                "Keran pembuangan air",
+                                "Lakban bening"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Langkah Pembuatan Akuarium Galon",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "1. Potong bagian galon yang akan dijadikan bukaan menggunakan cutter",
+                                "2. Tentukan posisi vertikal atau horizontal sesuai kebutuhan ikan",
+                                "3. Lubangi bagian bawah galon menggunakan solder yang dipanaskan untuk keran pembuangan",
+                                "4. Haluskan pinggiran lubang dengan hamplas agar tidak melukai tangan",
+                                "5. Pasang keran pembuangan dan perkuat dengan lem silikon",
+                                "6. Perkuat sambungan dengan lakban dan keringkan selama 24 jam",
+                                "7. Uji coba kebocoran dengan mengisi air selama 24 jam",
+                                "8. Bersihkan sisa lem dengan cutter, isi air dan diamkan 3 hari sebelum digunakan"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ikan-hias-pemeliharaan",
+                    "title": "Pemeliharaan Ikan Hias",
+                    "estMinutes": 30,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Instalasi Aerasi",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Instalasi aerasi adalah sistem yang menghasilkan gelembung udara dalam air untuk meningkatkan kadar oksigen terlarut. Oksigen terlarut sangat dibutuhkan ikan untuk bernapas dan tumbuh dengan baik."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Sarana Produksi Budidaya",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Benih: anakan ikan dari mulai menetas sampai ukuran tertentu",
+                                "Air bersih: bebas klorin dan logam berat berbahaya",
+                                "Pakan alami: cacing sutra, kutu air, jentik nyamuk",
+                                "Pakan buatan: pelet berkualitas tinggi sesuai jenis ikan",
+                                "Tanaman air: menambah oksigen dan keindahan akuarium",
+                                "Obat-obatan: untuk pencegahan dan pengobatan penyakit"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Penyakit Umum Ikan Hias",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Penyakit bintik putih (White Spot): disebabkan parasit Ichthyophthirius",
+                                "Penyakit Trichodiniasis: disebabkan parasit Trichodina sp.",
+                                "Penyakit Tetrahymena: menyerang cupang dan ikan kecil",
+                                "Penyakit cacing: menyerang insang dan kulit ikan"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Pemanenan Ikan Hias",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Panen total adalah menjual semua hasil budidaya sekaligus, sedangkan panen parsial dilakukan bertahap berdasarkan ukuran, umur, atau jenis kelamin. Pemanenan sebaiknya dilakukan pada pagi atau sore hari karena suhu lebih rendah dan stabil, sehingga ikan tidak stres."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Pengemasan untuk Pengiriman",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Pengemasan terbuka: untuk pengiriman jarak dekat, menggunakan drum plastik atau ember",
+                                "Pengemasan tertutup: untuk pengiriman jarak jauh, menggunakan kantong plastik berisi air (1/3) dan gas oksigen (2/3), diikat dengan karet gelang"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-ikan-1",
+                    "question": "Sebutkan 3 jenis ikan cupang (Betta sp.)!",
+                    "answer": "Halfmoon (setengah bulan), Crowntail atau Serit (ekor mahkota), dan Plakat Halfmoon."
+                },
+                {
+                    "id": "fc-ikan-2",
+                    "question": "Ikan koi berasal dari negara mana?",
+                    "answer": "Ikan koi berasal dari China, bukan Jepang seperti yang banyak orang kira."
+                },
+                {
+                    "id": "fc-ikan-3",
+                    "question": "Apa fungsi instalasi aerasi dalam budidaya ikan hias?",
+                    "answer": "Instalasi aerasi berfungsi untuk menambah kadar oksigen terlarut dalam air dan membantu membersihkan air di dalam wadah budidaya."
+                },
+                {
+                    "id": "fc-ikan-4",
+                    "question": "Apa yang dimaksud benih dalam budidaya ikan hias?",
+                    "answer": "Benih adalah anakan ikan dari mulai menetas sampai mencapai ukuran tertentu yang siap untuk dipelihara atau dijual."
+                },
+                {
+                    "id": "fc-ikan-5",
+                    "question": "Mengapa pemanenan ikan sebaiknya dilakukan pagi atau sore hari?",
+                    "answer": "Karena suhu lingkungan pada pagi dan sore hari lebih rendah dan stabil, sehingga ikan tidak stres dan kematian dapat diminimalkan."
+                },
+                {
+                    "id": "fc-ikan-6",
+                    "question": "Apa perbedaan panen total dan panen parsial?",
+                    "answer": "Panen total adalah menjual semua ikan sekaligus tanpa sortasi. Panen parsial dilakukan bertahap berdasarkan ukuran, umur, atau jenis kelamin ikan."
+                },
+                {
+                    "id": "fc-ikan-7",
+                    "question": "Apa contoh pakan alami untuk ikan hias?",
+                    "answer": "Cacing sutra, kutu air, dan jentik nyamuk (larva nyamuk)."
+                },
+                {
+                    "id": "fc-ikan-8",
+                    "question": "Bagaimana cara mengemas ikan untuk pengiriman jarak jauh?",
+                    "answer": "Ikan dikemas dalam kantong plastik berisi air (1/3 bagian) dan gas oksigen (2/3 bagian), kemudian diikat kencang dengan karet gelang."
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-ikan-1",
+                        "type": "multiple_choice",
+                        "question": "Halfmoon, serit (crown tail), dan plakat merupakan jenis dari ikan hias...",
+                        "options": [
+                            "Nemo",
+                            "Arwana",
+                            "Guppy",
+                            "Cupang"
+                        ],
+                        "answer": 3,
+                        "explanation": "Halfmoon, Crowntail (serit), dan Plakat adalah varietas ikan cupang (Betta sp.) yang dibedakan berdasarkan bentuk ekornya."
+                    },
+                    {
+                        "id": "q-ikan-2",
+                        "type": "multiple_choice",
+                        "question": "Fungsi instalasi aerasi dalam budidaya ikan hias adalah...",
+                        "options": [
+                            "Menumbuhkan plankton sebagai pakan alami",
+                            "Menjaga kebersihan pakan ikan",
+                            "Menambah oksigen dan membersihkan air",
+                            "Menghindari ikan dari penyakit"
+                        ],
+                        "answer": 2,
+                        "explanation": "Aerasi berfungsi menggerakkan air sehingga kadar oksigen terlarut meningkat dan air tetap bersih dari sisa metabolisme ikan."
+                    },
+                    {
+                        "id": "q-ikan-3",
+                        "type": "multiple_choice",
+                        "question": "Pakan alami yang digunakan untuk budidaya ikan hias adalah...",
+                        "options": [
+                            "Cacing sutra",
+                            "Kutu air",
+                            "Serangga",
+                            "Jangkrik"
+                        ],
+                        "answer": 0,
+                        "explanation": "Cacing sutra (Tubifex sp.) merupakan pakan alami favorit untuk ikan hias karena kandungan nutrisinya tinggi dan disukai berbagai jenis ikan."
+                    },
+                    {
+                        "id": "q-ikan-4",
+                        "type": "multiple_choice",
+                        "question": "Dalam produksi budidaya ikan hias, anakan ikan dari mulai menetas sampai ukuran tertentu disebut...",
+                        "options": [
+                            "Ikan",
+                            "Induk",
+                            "Larva",
+                            "Benih"
+                        ],
+                        "answer": 3,
+                        "explanation": "Benih adalah istilah untuk anakan ikan yang sudah melewati fase larva hingga siap dipelihara atau dipasarkan."
+                    },
+                    {
+                        "id": "q-ikan-5",
+                        "type": "multiple_choice",
+                        "question": "Tujuan pencucian wadah budidaya ikan hias adalah...",
+                        "options": [
+                            "Menumbuhkan plankton sebagai pakan alami",
+                            "Meningkatkan kadar oksigen",
+                            "Menghilangkan jamur dan kotoran yang menempel",
+                            "Mengatur kadar pH air"
+                        ],
+                        "answer": 2,
+                        "explanation": "Pencucian wadah dilakukan untuk menghilangkan jamur, kotoran, dan sisa-sisa bahan organik yang dapat membahayakan ikan."
+                    },
+                    {
+                        "id": "q-ikan-6",
+                        "type": "multiple_choice",
+                        "question": "Contoh ikan hias air tawar, kecuali...",
+                        "options": [
+                            "Koi",
+                            "Mujaer",
+                            "Cupang",
+                            "Nemo"
+                        ],
+                        "answer": 3,
+                        "explanation": "Nemo (Clownfish) adalah ikan hias air laut, bukan air tawar. Koi, cupang, dan mujaer adalah ikan air tawar."
+                    },
+                    {
+                        "id": "q-ikan-7",
+                        "type": "multiple_choice",
+                        "question": "Ikan koi merupakan ikan endemik khas dataran...",
+                        "options": [
+                            "China",
+                            "Eropa",
+                            "Amerika",
+                            "Afrika"
+                        ],
+                        "answer": 0,
+                        "explanation": "Meskipun sering diasosiasikan dengan Jepang, para peneliti sepakat bahwa ikan koi berasal dari dataran China."
+                    },
+                    {
+                        "id": "q-ikan-8",
+                        "type": "multiple_choice",
+                        "question": "Tahapan budidaya agar ikan tetap sehat dan terpenuhi kebutuhan nutrisinya adalah...",
+                        "options": [
+                            "Mengganti air secara berkala",
+                            "Pembersihan wadah",
+                            "Pemberian obat",
+                            "Pemberian pakan"
+                        ],
+                        "answer": 3,
+                        "explanation": "Pemberian pakan yang tepat (jumlah, jenis, dan frekuensi) adalah tahapan utama untuk memenuhi kebutuhan nutrisi ikan agar tumbuh sehat."
+                    },
+                    {
+                        "id": "q-ikan-9",
+                        "type": "multiple_choice",
+                        "question": "Makanan buatan untuk ikan hias adalah...",
+                        "options": [
+                            "Larva nyamuk",
+                            "Cacing sutra",
+                            "Pelet",
+                            "Kutu air"
+                        ],
+                        "answer": 2,
+                        "explanation": "Pelet adalah pakan buatan yang dibuat dari campuran bahan-bahan bernutrisi dan dipres menjadi butiran kecil."
+                    },
+                    {
+                        "id": "q-ikan-10",
+                        "type": "multiple_choice",
+                        "question": "Berikut karakteristik ikan discus, kecuali...",
+                        "options": [
+                            "Bentuknya seperti peluru",
+                            "Memiliki warna-warni yang atraktif",
+                            "Pembawaannya lembut",
+                            "Dapat berkembang biak di suhu 25-30°C"
+                        ],
+                        "answer": 0,
+                        "explanation": "Ikan discus berbentuk bulat seperti piringan (discus = piringan), bukan seperti peluru. Ikan yang berbentuk memanjang adalah jenis ikan lain."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pengolahan-minuman-7",
+            "title": "Pengolahan Minuman Segar (Kelas 7)",
+            "description": "Belajar membuat berbagai jenis minuman segar dari bahan-bahan alami yang sehat dan menyegarkan.",
+            "grade": 7,
+            "category": "Pengolahan",
+            "lessons": [
+                {
+                    "id": "minuman-segar-pengenalan",
+                    "title": "Mengenal Minuman Segar",
+                    "estMinutes": 20,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Jenis-Jenis Minuman Segar",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Minuman segar adalah minuman yang dibuat dari bahan-bahan alami tanpa atau dengan sedikit bahan pengawet, disajikan dalam kondisi dingin atau segar. Minuman segar bermanfaat untuk menyegarkan tubuh dan memasok cairan yang dibutuhkan tubuh."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Klasifikasi Minuman Segar",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Minuman buah: jus jeruk, es buah, sari apel",
+                                "Minuman herbal: wedang jahe, teh rosela, jamu tradisional",
+                                "Minuman fermentasi: yogurt drink, kombucha, kefir",
+                                "Minuman campuran: es campur, es teler, minuman boba"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Keamanan Pangan dalam Minuman",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Dalam membuat minuman segar, kebersihan dan keamanan pangan harus selalu diutamakan. Cuci tangan sebelum mengolah, gunakan bahan-bahan segar, sterilkan alat, dan hindari penggunaan pewarna dan pemanis buatan berlebihan."
+                        }
+                    ]
+                },
+                {
+                    "id": "minuman-proyek",
+                    "title": "Membuat Es Buah Segar",
+                    "estMinutes": 40,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Proyek: Es Buah Nusantara",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Es buah adalah minuman khas Indonesia yang menyegarkan. Dalam proyek ini, kamu akan membuat es buah menggunakan berbagai buah tropis segar yang mudah didapat."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Bahan-Bahan",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Semangka 200g (potong dadu)",
+                                "Melon 200g (potong dadu atau bulat dengan sendok khusus)",
+                                "Nanas 100g (potong kecil)",
+                                "Kelapa muda serut 100g",
+                                "Nata de coco 100g",
+                                "Sirup melon atau frambozen secukupnya",
+                                "Susu kental manis secukupnya",
+                                "Es serut atau es batu secukupnya",
+                                "Air putih matang 300ml"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Langkah Pembuatan",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "1. Cuci semua buah-buahan dengan air mengalir.",
+                                "2. Kupas dan potong buah sesuai ukuran yang diinginkan.",
+                                "3. Siapkan wadah/gelas saji.",
+                                "4. Masukkan es serut atau es batu ke dalam gelas.",
+                                "5. Tambahkan potongan buah di atasnya.",
+                                "6. Tambahkan nata de coco dan kelapa muda.",
+                                "7. Tuangkan air putih secukupnya.",
+                                "8. Beri sirup dan susu kental manis sesuai selera.",
+                                "9. Aduk perlahan dan sajikan segera."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-minum-1",
+                    "question": "Apa yang dimaksud minuman segar?",
+                    "answer": "Minuman segar adalah minuman dari bahan alami tanpa atau sedikit pengawet, disajikan dalam kondisi dingin atau segar untuk menyegarkan tubuh."
+                },
+                {
+                    "id": "fc-minum-2",
+                    "question": "Sebutkan 2 contoh minuman herbal tradisional Indonesia!",
+                    "answer": "Wedang jahe dan teh rosela (atau jamu tradisional seperti beras kencur)."
+                },
+                {
+                    "id": "fc-minum-3",
+                    "question": "Mengapa kebersihan sangat penting dalam membuat minuman segar?",
+                    "answer": "Karena minuman yang tidak higienis dapat mengandung kuman berbahaya yang menyebabkan penyakit seperti diare dan keracunan makanan."
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-minum-1",
+                        "type": "multiple_choice",
+                        "question": "Minuman yang dibuat melalui proses fermentasi adalah...",
+                        "options": [
+                            "Jus jeruk",
+                            "Yogurt drink",
+                            "Es buah",
+                            "Sirup buah"
+                        ],
+                        "answer": 1,
+                        "explanation": "Yogurt drink dibuat melalui proses fermentasi susu oleh bakteri asam laktat (Lactobacillus sp.)."
+                    },
+                    {
+                        "id": "q-minum-2",
+                        "type": "multiple_choice",
+                        "question": "Tindakan pertama sebelum membuat minuman segar adalah...",
+                        "options": [
+                            "Menyiapkan gelas saji",
+                            "Mencuci tangan dengan sabun",
+                            "Memotong buah-buahan",
+                            "Menyiapkan es batu"
+                        ],
+                        "answer": 1,
+                        "explanation": "Mencuci tangan dengan sabun adalah langkah pertama dalam menjaga kebersihan dan keamanan pangan saat mengolah makanan atau minuman."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pengolahan-seralia-8",
+            "title": "Pengolahan Bahan Pangan Seralia dan Umbi (Kelas 8)",
+            "description": "Mempelajari pengolahan berbagai bahan pangan dari seralia (gandum, beras, jagung) dan umbi-umbian menjadi produk olahan bernilai tinggi.",
+            "grade": 8,
+            "category": "Pengolahan",
+            "lessons": [
+                {
+                    "id": "seralia-pengenalan",
+                    "title": "Mengenal Bahan Pangan Seralia dan Umbi",
+                    "estMinutes": 20,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Pengertian Seralia dan Umbi",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Seralia adalah tanaman yang menghasilkan biji-bijian sebagai bahan pangan utama, seperti beras, jagung, gandum, sorghum, dan oat. Umbi-umbian adalah tanaman yang menghasilkan umbi sebagai cadangan makanan, seperti singkong, ubi jalar, dan kentang."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Kandungan Gizi",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Seralia kaya karbohidrat, serat, vitamin B kompleks, dan mineral",
+                                "Umbi kaya karbohidrat, vitamin C, kalium, dan serat",
+                                "Keduanya merupakan sumber energi utama bagi tubuh"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Produk Olahan Seralia dan Umbi",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Dari beras: nasi, bubur, kerupuk, tape, dan beras kencur",
+                                "Dari jagung: tortilla, popcorn, sirup jagung, dan tepung maizena",
+                                "Dari singkong: tapai, keripik, getuk, dan tepung tapioka",
+                                "Dari ubi jalar: donat ubi, keripik, puding, dan brownies"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-seralia-1",
+                    "question": "Apa yang dimaksud bahan pangan seralia?",
+                    "answer": "Seralia adalah kelompok tanaman yang menghasilkan biji-bijian sebagai bahan pangan utama, meliputi beras, jagung, gandum, dan sorghum."
+                },
+                {
+                    "id": "fc-seralia-2",
+                    "question": "Kandungan gizi utama pada bahan pangan seralia adalah...",
+                    "answer": "Karbohidrat, serat pangan, vitamin B kompleks, dan berbagai mineral."
+                },
+                {
+                    "id": "fc-seralia-3",
+                    "question": "Sebutkan 3 produk olahan dari singkong!",
+                    "answer": "Tapai singkong, keripik singkong, getuk, dan tepung tapioka (sebutkan 3 di antaranya)."
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-seralia-1",
+                        "type": "multiple_choice",
+                        "question": "Tepung maizena terbuat dari...",
+                        "options": [
+                            "Gandum",
+                            "Jagung",
+                            "Singkong",
+                            "Beras"
+                        ],
+                        "answer": 1,
+                        "explanation": "Tepung maizena (cornstarch) terbuat dari pati jagung yang diproses dan dikeringkan menjadi tepung halus."
+                    },
+                    {
+                        "id": "q-seralia-2",
+                        "type": "multiple_choice",
+                        "question": "Produk fermentasi yang terbuat dari singkong adalah...",
+                        "options": [
+                            "Keripik singkong",
+                            "Tapai singkong",
+                            "Getuk",
+                            "Tepung tapioka"
+                        ],
+                        "answer": 1,
+                        "explanation": "Tapai (tape) singkong dibuat melalui proses fermentasi singkong menggunakan ragi yang mengandung khamir Saccharomyces cerevisiae."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pengolahan-hewani-nabati-9",
+            "title": "Pengolahan Bahan Pangan Hewani dan Nabati (Kelas 9)",
+            "description": "Mempelajari teknik pengolahan bahan pangan dari hewan dan tumbuhan menjadi produk makanan siap konsumsi maupun setengah jadi.",
+            "grade": 9,
+            "category": "Pengolahan",
+            "lessons": [
+                {
+                    "id": "hewani-pengenalan",
+                    "title": "Bahan Pangan Hewani: Daging dan Unggas",
+                    "estMinutes": 25,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Mengenal Bahan Pangan Hewani",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Bahan pangan hewani adalah bahan makanan yang berasal dari hewan, meliputi daging, ikan, telur, susu, dan produk turunannya. Bahan pangan hewani kaya protein berkualitas tinggi, lemak, vitamin, dan mineral yang dibutuhkan tubuh."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Jenis-Jenis Daging dan Karakteristiknya",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Daging sapi: serat halus, warna merah, lemak lebih banyak dari ayam",
+                                "Daging kambing: bau khas (prengus), serat agak kasar, hangat",
+                                "Daging kerbau: serat merah agak gelap, tekstur lebih kasar, lemak lebih rendah",
+                                "Daging ayam: putih, lembut, lemak lebih rendah, mudah diolah",
+                                "Daging ikan: putih atau merah (tuna), kaya omega-3, rendah lemak jenuh"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Cara Memilih Daging yang Segar",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Warna merah segar (tidak pucat atau kecoklatan)",
+                                "Tekstur elastis (jika ditekan kembali ke bentuk semula)",
+                                "Bau segar, tidak berbau busuk atau asam",
+                                "Tidak berlendir",
+                                "Permukaan tidak terlalu basah"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "hewani-telur-susu",
+                    "title": "Pengolahan Telur dan Susu",
+                    "estMinutes": 25,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Produk Olahan Telur",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Telur merupakan bahan pangan hewani yang sangat serbaguna dan bergizi. Selain dikonsumsi langsung, telur dapat diolah menjadi berbagai produk setengah jadi maupun produk jadi."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Jenis Telur dalam Pengolahan Pangan",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Telur ayam broiler: paling umum, produksi massal, harga terjangkau",
+                                "Telur ayam kampung: lebih kecil, kuning telur lebih oranye, rasa lebih gurih",
+                                "Telur bebek: lebih besar, kuning telur lebih besar, untuk telur asin",
+                                "Telur puyuh: kecil berbintik, untuk berbagai olahan"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Cara Memilih Telur Segar",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Cara termudah memilih telur segar adalah dengan memasukkannya ke dalam air. Telur segar akan tenggelam (berbaring di dasar), telur setengah segar akan berdiri di dasar, dan telur tidak segar akan mengapung karena ruang udara di dalamnya membesar."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Produk Olahan Susu",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Yogurt: susu yang difermentasi menggunakan bakteri Lactobacillus",
+                                "Keju: susu yang digumpalkan, dipadatkan, dan difermentasi",
+                                "Mentega: lemak susu yang dipisahkan dan dikocok",
+                                "Krim: bagian berlemak dari susu yang dipisahkan",
+                                "Es krim: susu, krim, gula, dan perisa yang dibekukan"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "hewani-teknik-pengolahan",
+                    "title": "Teknik Pengolahan Bahan Pangan Hewani",
+                    "estMinutes": 30,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Teknik-Teknik Pengolahan Panas",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Pengolahan panas adalah cara paling umum dalam mengolah bahan pangan hewani. Panas berfungsi membunuh kuman, meningkatkan cita rasa, dan mengubah tekstur bahan makanan."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Macam-Macam Teknik Memasak",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Merebus (boiling): memasak dalam air mendidih 100°C – untuk membuat sup, soto",
+                                "Mengukus (steaming): memasak dengan uap panas – untuk makanan lebih sehat",
+                                "Menggoreng (frying): memasak dalam minyak panas – deep frying atau pan frying",
+                                "Menumis (sauteing): menggoreng sebentar dengan sedikit minyak dan api besar",
+                                "Memanggang (baking/grilling): memasak dengan panas kering dari oven atau bara api",
+                                "Mengasap (smoking): memasak dengan asap panas untuk pengawetan dan rasa"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik Pengawetan Bahan Pangan Hewani",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Pengasapan: daging asap, ikan asap – membunuh kuman dan menambah cita rasa",
+                                "Pengasinan: telur asin, ikan asin – garam menarik kadar air",
+                                "Pembekuan: memperlambat pertumbuhan bakteri dan pembusukan",
+                                "Pengeringan: dendeng, ikan kering – mengurangi kadar air",
+                                "Pengalengan: kornet, sardine – diproses dalam kaleng tertutup"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Bumbu dalam Pengolahan Pangan",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Cabai: rasa pedas, memberikan warna merah pada masakan",
+                                "Bawang merah: aroma dan rasa gurih khas",
+                                "Jahe: hangat, mengurangi bau amis pada ikan dan daging",
+                                "Jeruk nipis: asam, membantu mengurangi bau amis ikan",
+                                "Pala: rempah khas Maluku, aroma harum dan khas"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "hewani-tahapan",
+                    "title": "Tahapan Pengolahan Pangan",
+                    "estMinutes": 20,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Tahapan dalam Proses Pengolahan Pangan",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Dalam setiap kegiatan pengolahan pangan, terdapat tahapan-tahapan yang harus dilakukan secara sistematis untuk menghasilkan produk yang berkualitas."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Empat Tahapan Pengolahan",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "1. Perencanaan: menentukan menu, mencari resep, menyiapkan anggaran, dan menyusun jadwal kegiatan",
+                                "2. Pembuatan/Pelaksanaan: mempersiapkan alat dan bahan, mengolah bahan pangan sesuai resep",
+                                "3. Penyajian: menata produk makanan dengan menarik untuk dihidangkan",
+                                "4. Evaluasi: mencicipi dan menilai hasil masakan, memperbaiki kekurangan untuk kesempatan berikutnya"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Pengemasan Produk Pangan",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Pengemasan yang tepat melindungi produk pangan dari kontaminasi, memperpanjang umur simpan, dan meningkatkan nilai jual. Kornet dikemas dalam kaleng untuk menjaga sterilitas. Dendeng bisa dikemas dalam plastik kedap udara. Penyajian tradisional dapat menggunakan daun pisang atau wadah anyaman."
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-hewani-1",
+                    "question": "Apa ciri-ciri daging kerbau dibanding sapi?",
+                    "answer": "Daging kerbau berwarna merah agak gelap, tekstur serat lebih kasar, dan kandungan lemak lebih rendah dibanding daging sapi."
+                },
+                {
+                    "id": "fc-hewani-2",
+                    "question": "Bagaimana cara mengecek kesegaran telur dengan air?",
+                    "answer": "Masukkan telur ke dalam air. Telur segar tenggelam, telur setengah segar berdiri di dasar, telur tidak segar mengapung."
+                },
+                {
+                    "id": "fc-hewani-3",
+                    "question": "Sebutkan 3 produk olahan susu!",
+                    "answer": "Yogurt, keju, mentega, krim, dan es krim (sebutkan 3 di antaranya)."
+                },
+                {
+                    "id": "fc-hewani-4",
+                    "question": "Apa manfaat susu bagi tubuh?",
+                    "answer": "Susu merupakan sumber kalsium yang baik untuk kesehatan tulang dan gigi, serta mengandung protein, lemak, dan vitamin."
+                },
+                {
+                    "id": "fc-hewani-5",
+                    "question": "Bumbu apa yang digunakan untuk mengurangi bau amis ikan?",
+                    "answer": "Jeruk nipis dan jahe digunakan untuk merendam ikan sebelum dimasak agar bau amisnya berkurang."
+                },
+                {
+                    "id": "fc-hewani-6",
+                    "question": "Apa perbedaan teknik mengukus dan merebus?",
+                    "answer": "Merebus memasak bahan dalam air mendidih, sedangkan mengukus memasak bahan menggunakan uap air panas tanpa kontak langsung dengan air."
+                },
+                {
+                    "id": "fc-hewani-7",
+                    "question": "Sebutkan 4 tahapan dalam proses pengolahan pangan!",
+                    "answer": "Perencanaan, Pembuatan/Pelaksanaan, Penyajian, dan Evaluasi."
+                },
+                {
+                    "id": "fc-hewani-8",
+                    "question": "Mengapa kornet dikemas dalam kaleng?",
+                    "answer": "Kemasan kaleng bersifat kedap udara dan steril sehingga aman dari bakteri, tahan terhadap cuaca, dan dapat memperpanjang umur simpan kornet."
+                },
+                {
+                    "id": "fc-hewani-9",
+                    "question": "Apa tujuan pengolahan bahan pangan hewani?",
+                    "answer": "Untuk memperlambat kerusakan, memperbaiki tekstur dan rasa, memperbaiki bentuk olahan, dan memperpanjang masa simpan."
+                },
+                {
+                    "id": "fc-hewani-10",
+                    "question": "Sumber protein hewani yang kadar lemak jenuhnya paling rendah adalah...",
+                    "answer": "Daging ayam dan ikan memiliki kadar lemak jenuh lebih rendah dibanding daging merah (sapi, kambing, kerbau)."
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-hewani-1",
+                        "type": "multiple_choice",
+                        "question": "Bumbu yang memiliki karakteristik rasa pedas dan memberi efek warna merah pada masakan adalah...",
+                        "options": [
+                            "Bawang merah",
+                            "Jahe",
+                            "Cabai",
+                            "Pala"
+                        ],
+                        "answer": 2,
+                        "explanation": "Cabai mengandung capsaicin yang memberikan rasa pedas, dan pigmen karotenoid yang memberikan warna merah pada masakan."
+                    },
+                    {
+                        "id": "q-hewani-2",
+                        "type": "multiple_choice",
+                        "question": "Sumber olahan daging hewan yang memiliki kadar lemak jenuh lebih rendah adalah...",
+                        "options": [
+                            "Daging sapi",
+                            "Daging kambing",
+                            "Daging ayam",
+                            "Daging babi"
+                        ],
+                        "answer": 2,
+                        "explanation": "Daging ayam (terutama bagian dada tanpa kulit) memiliki kadar lemak jenuh yang lebih rendah dibanding daging merah seperti sapi dan kambing."
+                    },
+                    {
+                        "id": "q-hewani-3",
+                        "type": "multiple_choice",
+                        "question": "Berikut yang BUKAN merupakan cara pengolahan bahan pangan hewani adalah...",
+                        "options": [
+                            "Pengasapan",
+                            "Pembekuan",
+                            "Pengeringan",
+                            "Pembakaran"
+                        ],
+                        "answer": 3,
+                        "explanation": "Pembakaran bukan merupakan teknik pengawetan/pengolahan pangan hewani yang standar. Teknik yang umum adalah pengasapan, pembekuan, pengeringan, dan pengasinan."
+                    },
+                    {
+                        "id": "q-hewani-4",
+                        "type": "multiple_choice",
+                        "question": "Produk olahan susu yang dihasilkan melalui proses fermentasi adalah...",
+                        "options": [
+                            "Bakso",
+                            "Nugget",
+                            "Yogurt",
+                            "Dendeng"
+                        ],
+                        "answer": 2,
+                        "explanation": "Yogurt dibuat melalui proses fermentasi susu menggunakan bakteri asam laktat (Lactobacillus bulgaricus dan Streptococcus thermophilus)."
+                    },
+                    {
+                        "id": "q-hewani-5",
+                        "type": "multiple_choice",
+                        "question": "Ciri-ciri daging kerbau yang benar adalah...",
+                        "options": [
+                            "Serat halus, warna merah cerah, lemak tinggi",
+                            "Serat merah agak gelap, tekstur lebih kasar, lemak lebih rendah",
+                            "Warna putih, serat lembut, mudah diolah",
+                            "Bau prengus kuat, warna hitam, lemak tinggi"
+                        ],
+                        "answer": 1,
+                        "explanation": "Daging kerbau memiliki ciri serat berwarna merah agak gelap, tekstur serat yang lebih kasar, dan kandungan lemak yang lebih rendah dibanding sapi."
+                    },
+                    {
+                        "id": "q-hewani-6",
+                        "type": "multiple_choice",
+                        "question": "Agar bau amis ikan berkurang saat diolah, ikan direndam menggunakan...",
+                        "options": [
+                            "Bawang putih",
+                            "Bawang merah",
+                            "Jeruk nipis",
+                            "Pala"
+                        ],
+                        "answer": 2,
+                        "explanation": "Jeruk nipis mengandung asam sitrat yang dapat menetralisir senyawa penyebab bau amis (trimetilamin) pada ikan."
+                    },
+                    {
+                        "id": "q-hewani-7",
+                        "type": "multiple_choice",
+                        "question": "Salah satu manfaat susu bagi tubuh adalah...",
+                        "options": [
+                            "Sumber serat alami",
+                            "Sumber kalsium",
+                            "Sumber omega-3",
+                            "Sumber selenium"
+                        ],
+                        "answer": 1,
+                        "explanation": "Susu merupakan sumber kalsium terbaik yang sangat penting untuk kesehatan tulang dan gigi."
+                    },
+                    {
+                        "id": "q-hewani-8",
+                        "type": "multiple_choice",
+                        "question": "Bu Siska mencicipi hasil masakannya sebelum dihidangkan untuk memastikan rasa. Tahapan ini disebut tahapan...",
+                        "options": [
+                            "Perencanaan",
+                            "Pembuatan",
+                            "Evaluasi",
+                            "Penyajian"
+                        ],
+                        "answer": 2,
+                        "explanation": "Mencicipi dan menilai hasil masakan adalah bagian dari tahapan evaluasi untuk memastikan kualitas produk sebelum disajikan."
+                    },
+                    {
+                        "id": "q-hewani-9",
+                        "type": "multiple_choice",
+                        "question": "Pengemasan kornet yang aman dari bakteri dan cuaca serta biasa dijumpai dalam kehidupan sehari-hari adalah...",
+                        "options": [
+                            "Kaleng",
+                            "Plastik bening",
+                            "Kardus berwarna",
+                            "Daun pisang"
+                        ],
+                        "answer": 0,
+                        "explanation": "Kaleng merupakan kemasan yang steril, kedap udara, dan tahan terhadap kondisi lingkungan sehingga ideal untuk mengemas kornet."
+                    },
+                    {
+                        "id": "q-hewani-10",
+                        "type": "multiple_choice",
+                        "question": "Rina mencari resep dan memutuskan membuat kerupuk terasi dari bahan setengah jadi terasi udang. Tahapan yang dilakukan Rina adalah...",
+                        "options": [
+                            "Pengemasan",
+                            "Evaluasi",
+                            "Pembuatan",
+                            "Perencanaan"
+                        ],
+                        "answer": 3,
+                        "explanation": "Mencari resep dan menentukan produk yang akan dibuat termasuk dalam tahapan perencanaan."
+                    },
+                    {
+                        "id": "q-hewani-11",
+                        "type": "multiple_choice",
+                        "question": "Cara memilih telur yang baik sebelum diawetkan menjadi produk setengah jadi adalah...",
+                        "options": [
+                            "Memasukkan ke dalam air garam",
+                            "Memasukkan ke dalam air",
+                            "Memasukkan ke dalam air panas",
+                            "Memasukkan ke dalam minyak"
+                        ],
+                        "answer": 1,
+                        "explanation": "Memasukkan telur ke dalam air biasa adalah cara paling mudah: telur segar tenggelam, telur tidak segar mengapung karena kantong udara di dalamnya membesar."
+                    },
+                    {
+                        "id": "q-hewani-12",
+                        "type": "multiple_choice",
+                        "question": "Bagian lunak di tubuh hewan yang terbungkus kulit dan melekat pada tulang sebagai bahan olahan pangan disebut...",
+                        "options": [
+                            "Daging",
+                            "Unggas",
+                            "Ikan",
+                            "Seafood"
+                        ],
+                        "answer": 0,
+                        "explanation": "Daging adalah bagian lunak tubuh hewan yang terbungkus kulit dan melekat pada tulang, yang dapat dikonsumsi sebagai sumber protein."
+                    },
+                    {
+                        "id": "q-hewani-13",
+                        "type": "multiple_choice",
+                        "question": "Hewan yang menghasilkan daging berwarna putih adalah...",
+                        "options": [
+                            "Ikan, ayam, dan sapi",
+                            "Kambing, burung dara, dan ikan",
+                            "Ayam, kerbau, dan kalkun",
+                            "Kalkun, ayam, dan burung dara"
+                        ],
+                        "answer": 3,
+                        "explanation": "Kalkun, ayam, dan burung dara merupakan unggas yang menghasilkan daging berwarna putih. Sapi, kambing, dan kerbau menghasilkan daging merah."
+                    },
+                    {
+                        "id": "q-hewani-14",
+                        "type": "multiple_choice",
+                        "question": "Tujuan pengolahan bahan pangan hewani BUKAN untuk...",
+                        "options": [
+                            "Memperlambat kerusakan",
+                            "Memperbaiki tekstur dan rasa",
+                            "Memperbaiki bentuk olahan",
+                            "Mempersingkat penyimpanan"
+                        ],
+                        "answer": 3,
+                        "explanation": "Tujuan pengolahan pangan hewani adalah untuk memperpanjang (bukan mempersingkat) masa simpan, memperlambat kerusakan, dan memperbaiki kualitas produk."
+                    },
+                    {
+                        "id": "q-hewani-15",
+                        "type": "multiple_choice",
+                        "question": "Telur yang digunakan untuk membuat telur asin adalah...",
+                        "options": [
+                            "Telur bebek",
+                            "Telur ayam kampung",
+                            "Telur puyuh",
+                            "Telur ayam broiler"
+                        ],
+                        "answer": 0,
+                        "explanation": "Telur bebek paling sering digunakan untuk membuat telur asin karena ukurannya lebih besar, kulit lebih tebal, dan kuning telur lebih besar sehingga lebih cocok untuk diasinkan."
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,2553 @@
+{
+    "id": "pjok",
+    "name": "PJOK",
+    "description": "Pendidikan Jasmani, Olahraga, dan Kesehatan",
+    "grade": [
+        7,
+        8,
+        9
+    ],
+    "icon": "Activity",
+    "color": "soft",
+    "topics": [
+        {
+            "id": "sepak-bola",
+            "title": "Sepak Bola",
+            "description": "Teknik dasar dan peraturan permainan sepak bola untuk SMP",
+            "lessons": [
+                {
+                    "id": "sepak-bola-dasar",
+                    "title": "Dasar-Dasar Sepak Bola",
+                    "estMinutes": 20,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Pengertian Sepak Bola",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Sepak bola merupakan permainan yang dimainkan oleh dua tim berbeda, dengan 11 orang pemain setiap tim. Saat bermain, olahraga ini menggunakan bola yang terbuat dari bahan kulit. Pemain tidak diperkenankan memainkan bola menggunakan tangan kecuali untuk posisi penjaga gawang. Tujuan utama dari permainan sepak bola yakni memasukkan bola ke gawang dengan sebanyak-banyaknya. Tim yang meraih skor terbanyak berhak menjadi pemenangnya."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Ukuran Lapangan dan Aturan Penting",
+                            "level": 2
+                        },
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Elemen",
+                                "Ukuran / Keterangan"
+                            ],
+                            "rows": [
+                                [
+                                    "Jumlah Pemain per Tim",
+                                    "11 orang"
+                                ],
+                                [
+                                    "Panjang Lapangan",
+                                    "100 – 110 meter"
+                                ],
+                                [
+                                    "Lebar Lapangan",
+                                    "64 – 75 meter"
+                                ],
+                                [
+                                    "Jarak Tendangan Penalti",
+                                    "11 meter"
+                                ],
+                                [
+                                    "Bahan Bola",
+                                    "Kulit"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik Dasar Sepak Bola",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Berikut adalah teknik-teknik dasar yang wajib dikuasai oleh setiap pemain sepak bola:"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Menggiring Bola (Dribbling): membawa bola sambil bergerak, menghindari lawan, dan mempertahankan penguasaan bola menggunakan kaki bagian dalam, luar, dan punggung kaki.",
+                                "Mengoper Bola (Passing): mengirimkan bola kepada rekan satu tim, mencakup operan pendek, panjang, atau lambung.",
+                                "Menendang Bola (Shooting/Kicking): digunakan untuk mencetak gol atau memberikan umpan jarak jauh.",
+                                "Mengontrol Bola (Trapping): menghentikan bola menggunakan kaki, paha, atau dada agar tidak direbut lawan.",
+                                "Menyundul Bola (Heading): menyundul bola yang berada di udara menggunakan dahi untuk mencetak gol atau menghentikan serangan."
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik Khusus Sepak Bola",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Merebut Bola (Tackling): merebut bola dari lawan dengan menghalangi atau mengambil bola dari kaki lawan.",
+                                "Penjagaan Gawang (Goalkeeping): khusus untuk penjaga gawang untuk menghalau bola yang menuju gawang.",
+                                "Lemparan ke Dalam: memasukkan bola ke lapangan setelah bola keluar dari batas lapangan.",
+                                "Juggling: mengendalikan bola di udara menggunakan kaki, paha, dada, dan kepala."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "sepak-bola-penalti",
+                    "title": "Tendangan Penalti dan Teknik Khusus",
+                    "estMinutes": 15,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Tendangan Penalti dalam Sepak Bola",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Tendangan penalti adalah tendangan hukuman yang diberikan kepada tim lawan apabila terjadi pelanggaran di dalam kotak penalti. Tendangan penalti dilakukan dari titik yang berjarak 11 meter dari garis gawang. Hanya penjaga gawang yang boleh berada di antara pelaku tendangan dan gawang saat penalti dilakukan."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Pelanggaran yang Mengakibatkan Penalti",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Pemain bertahan menjegal lawan di dalam kotak penalti",
+                                "Pemain bertahan (bukan kiper) menyentuh bola dengan tangan di dalam kotak penalti",
+                                "Kiper keluar dari garis gawang sebelum tendangan penalti dilakukan"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Posisi Pemain dalam Sepak Bola",
+                            "level": 2
+                        },
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Posisi",
+                                "Tugas Utama"
+                            ],
+                            "rows": [
+                                [
+                                    "Penjaga Gawang (Goalkeeper)",
+                                    "Menjaga gawang agar tidak kemasukan bola"
+                                ],
+                                [
+                                    "Bek (Defender)",
+                                    "Melindungi area pertahanan tim"
+                                ],
+                                [
+                                    "Gelandang (Midfielder)",
+                                    "Menghubungkan lini pertahanan dan penyerangan"
+                                ],
+                                [
+                                    "Penyerang (Forward/Striker)",
+                                    "Mencetak gol ke gawang lawan"
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-sb-1",
+                    "question": "Berapa jumlah pemain dalam satu tim sepak bola?",
+                    "answer": "11 orang pemain"
+                },
+                {
+                    "id": "fc-sb-2",
+                    "question": "Berapa jarak tendangan penalti dalam sepak bola?",
+                    "answer": "11 meter dari garis gawang"
+                },
+                {
+                    "id": "fc-sb-3",
+                    "question": "Apa yang dimaksud dengan teknik dribbling?",
+                    "answer": "Menggiring bola sambil bergerak untuk menghindari lawan dan mempertahankan penguasaan bola"
+                },
+                {
+                    "id": "fc-sb-4",
+                    "question": "Apa yang dimaksud dengan heading?",
+                    "answer": "Teknik menyundul bola yang berada di udara menggunakan dahi"
+                },
+                {
+                    "id": "fc-sb-5",
+                    "question": "Berapa panjang lapangan sepak bola?",
+                    "answer": "100 hingga 110 meter"
+                },
+                {
+                    "id": "fc-sb-6",
+                    "question": "Berapa lebar lapangan sepak bola?",
+                    "answer": "64 hingga 75 meter"
+                },
+                {
+                    "id": "fc-sb-7",
+                    "question": "Apa yang dimaksud dengan trapping?",
+                    "answer": "Teknik mengontrol atau menghentikan bola menggunakan kaki, paha, atau dada agar tidak direbut lawan"
+                },
+                {
+                    "id": "fc-sb-8",
+                    "question": "Siapa saja yang boleh memegang bola dengan tangan dalam permainan sepak bola?",
+                    "answer": "Hanya penjaga gawang (goalkeeper)"
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-sb-1",
+                        "type": "multiple_choice",
+                        "question": "Berapa jarak titik tendangan penalti dari garis gawang dalam sepak bola?",
+                        "options": [
+                            "9 meter",
+                            "11 meter",
+                            "15 meter",
+                            "12 meter"
+                        ],
+                        "answer": 1,
+                        "explanation": "Jarak tendangan penalti dalam sepak bola adalah 11 meter dari garis gawang."
+                    },
+                    {
+                        "id": "q-sb-2",
+                        "type": "multiple_choice",
+                        "question": "Teknik apa yang digunakan saat menyundul bola dalam sepak bola?",
+                        "options": [
+                            "Menggunakan telapak tangan",
+                            "Menggunakan dahi",
+                            "Menggunakan dagu",
+                            "Menggunakan ubun-ubun kepala"
+                        ],
+                        "answer": 1,
+                        "explanation": "Menyundul bola (heading) dilakukan dengan menggunakan dahi, bukan bagian kepala lainnya."
+                    },
+                    {
+                        "id": "q-sb-3",
+                        "type": "multiple_choice",
+                        "question": "Manakah yang termasuk teknik khusus dalam sepak bola?",
+                        "options": [
+                            "Dribbling",
+                            "Passing",
+                            "Goalkeeping",
+                            "Trapping"
+                        ],
+                        "answer": 2,
+                        "explanation": "Goalkeeping (penjagaan gawang) adalah teknik khusus yang hanya dilakukan oleh penjaga gawang."
+                    },
+                    {
+                        "id": "q-sb-4",
+                        "type": "multiple_choice",
+                        "question": "Berapa jumlah pemain dalam satu regu sepak bola?",
+                        "options": [
+                            "9 orang",
+                            "10 orang",
+                            "11 orang",
+                            "12 orang"
+                        ],
+                        "answer": 2,
+                        "explanation": "Setiap tim sepak bola terdiri dari 11 orang pemain di lapangan."
+                    },
+                    {
+                        "id": "q-sb-5",
+                        "type": "multiple_choice",
+                        "question": "Teknik mengoper bola kepada rekan satu tim disebut?",
+                        "options": [
+                            "Dribbling",
+                            "Shooting",
+                            "Passing",
+                            "Juggling"
+                        ],
+                        "answer": 2,
+                        "explanation": "Passing adalah teknik dasar untuk mengirimkan bola kepada rekan satu tim."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "lari-jarak-pendek",
+            "title": "Lari Jarak Pendek (Sprint)",
+            "description": "Teknik, start, dan peraturan lari jarak pendek dalam atletik",
+            "lessons": [
+                {
+                    "id": "ljp-teknik",
+                    "title": "Teknik dan Aturan Lari Jarak Pendek",
+                    "estMinutes": 15,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Lari Jarak Pendek",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Lari jarak pendek atau sprint adalah salah satu jenis lari yang dilakukan dengan kekuatan dan kecepatan penuh sepanjang garis lintasan dari start hingga finish. Pemenangnya ditentukan berdasarkan catatan waktu yang paling singkat. Lari jarak pendek termasuk dalam cabang olahraga atletik."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Nomor Lari Jarak Pendek",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Lari 100 meter",
+                                "Lari 200 meter",
+                                "Lari 400 meter"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Jenis-Jenis Start",
+                            "level": 2
+                        },
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Jenis Start",
+                                "Digunakan Pada"
+                            ],
+                            "rows": [
+                                [
+                                    "Start Jongkok (Crouch Start)",
+                                    "Lari jarak pendek (100m, 200m, 400m)"
+                                ],
+                                [
+                                    "Start Berdiri (Standing Start)",
+                                    "Lari jarak menengah dan jauh"
+                                ],
+                                [
+                                    "Start Melayang (Flying Start)",
+                                    "Lari estafet (penerima tongkat)"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Kesalahan Umum pada Lari Jarak Pendek",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Posisi start yang salah sehingga kurang optimal",
+                                "Melakukan kesalahan start (false start) sebelum aba-aba",
+                                "Gerakan tangan yang tidak seimbang saat berlari",
+                                "Menurunkan kecepatan sebelum melewati garis finish",
+                                "Memasuki lintasan pelari lain",
+                                "Penggunaan doping"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik Memasuki Garis Finish",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Mencondongkan dada ke depan sambil mengayunkan kedua tangan ke belakang (The Lunge)",
+                                "Memutar badan dan membusungkan salah satu bahu ke depan",
+                                "Menundukkan kepala agar dada mencapai garis finish lebih awal",
+                                "Tetap berlari dengan kecepatan maksimal hingga melewati garis finish"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-ljp-1",
+                    "question": "Apa saja jarak yang dilombakan pada lari jarak pendek?",
+                    "answer": "100 meter, 200 meter, dan 400 meter"
+                },
+                {
+                    "id": "fc-ljp-2",
+                    "question": "Jenis start apa yang digunakan pada lari jarak pendek?",
+                    "answer": "Start jongkok (crouch start)"
+                },
+                {
+                    "id": "fc-ljp-3",
+                    "question": "Apa yang dimaksud dengan false start?",
+                    "answer": "Kesalahan start, yaitu pelari bergerak sebelum aba-aba diberikan"
+                },
+                {
+                    "id": "fc-ljp-4",
+                    "question": "Apa nama teknik memasuki garis finish dengan mencondongkan dada ke depan?",
+                    "answer": "The Lunge"
+                },
+                {
+                    "id": "fc-ljp-5",
+                    "question": "Apa yang menjadi penentu pemenang dalam lari jarak pendek?",
+                    "answer": "Catatan waktu yang paling singkat"
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-ljp-1",
+                        "type": "multiple_choice",
+                        "question": "Manakah yang BUKAN termasuk nomor lari jarak pendek?",
+                        "options": [
+                            "100 meter",
+                            "200 meter",
+                            "400 meter",
+                            "800 meter"
+                        ],
+                        "answer": 3,
+                        "explanation": "800 meter adalah nomor lari jarak menengah. Lari jarak pendek mencakup 100m, 200m, dan 400m."
+                    },
+                    {
+                        "id": "q-ljp-2",
+                        "type": "multiple_choice",
+                        "question": "Start yang digunakan dalam lari jarak pendek adalah?",
+                        "options": [
+                            "Start berdiri",
+                            "Start melayang",
+                            "Start jongkok",
+                            "Start duduk"
+                        ],
+                        "answer": 2,
+                        "explanation": "Lari jarak pendek menggunakan start jongkok (crouch start) untuk menghasilkan akselerasi maksimal."
+                    },
+                    {
+                        "id": "q-ljp-3",
+                        "type": "multiple_choice",
+                        "question": "Seorang pelari dapat didiskualifikasi jika?",
+                        "options": [
+                            "Berlari terlalu cepat",
+                            "Melakukan kesalahan start (false start)",
+                            "Mencondongkan dada ke depan saat finish",
+                            "Mengayunkan tangan saat berlari"
+                        ],
+                        "answer": 1,
+                        "explanation": "Pelari dapat didiskualifikasi jika melakukan kesalahan start, memasuki lintasan pelari lain, atau menggunakan doping."
+                    },
+                    {
+                        "id": "q-ljp-4",
+                        "type": "multiple_choice",
+                        "question": "Teknik memasuki garis finish dengan mencondongkan dada ke depan dikenal dengan istilah?",
+                        "options": [
+                            "The Drive",
+                            "The Lunge",
+                            "The Lean",
+                            "The Push"
+                        ],
+                        "answer": 1,
+                        "explanation": "Teknik mencondongkan dada ke depan saat memasuki garis finish dikenal dengan istilah 'The Lunge'."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bola-kasti",
+            "title": "Bola Kasti",
+            "description": "Permainan tradisional bola kasti: teknik dasar dan peraturan",
+            "lessons": [
+                {
+                    "id": "kasti-dasar",
+                    "title": "Pengenalan dan Teknik Bola Kasti",
+                    "estMinutes": 15,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Pengertian Bola Kasti",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Permainan bola kasti adalah permainan yang dimainkan oleh dua regu dengan cara melempar, menangkap, dan memukul bola kasti dengan tongkat. Permainan ini juga disebut sebagai gebokan. Bola yang digunakan adalah bola tenis, sehingga permainan ini masuk ke dalam kategori permainan bola kecil. Bola kasti merupakan permainan tradisional yang mengutamakan kerjasama, kekompakan, ketangkasan, dan kesenangan."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Regu dalam Bola Kasti",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Regu Pemukul: bertugas memukul bola dan berlari menuju tiang hinggap",
+                                "Regu Penjaga: bertugas melempar, menangkap bola, dan mematikan pemain lawan"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik Melempar Bola Kasti",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Lemparan Datar: dilakukan untuk melempar bola kepada lawan (sesama penjaga)",
+                                "Lemparan Melambung: dilakukan oleh pelambung untuk melempar bola kepada pemukul",
+                                "Lemparan Menyusur Tanah: lemparan yang arahnya sejajar dengan tanah"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik Menangkap Bola Kasti",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Menangkap Bola Datar: kedua telapak tangan dibuka membentuk setengah bola",
+                                "Menangkap Bola Menyusur Tanah: berdiri tegak, kedua telapak tangan saling berhadapan di depan kaki kanan",
+                                "Menangkap Bola Melambung: menekuk siku dan meregangkan jari-jari tangan"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik Memukul Bola Kasti",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Memukul Bola Lurus: mengarahkan bola lurus ke depan",
+                                "Memukul Bola Menyamping: mengarahkan bola ke samping kiri atau kanan",
+                                "Memukul Bola Lambung: mengarahkan bola ke atas",
+                                "Memukul Bola Merendah: mengarahkan bola dengan cepat dan memantul ke tanah"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik Berlari dalam Bola Kasti",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Berlari lurus atau zig-zag menuju tiang hinggap",
+                                "Berlari secepat mungkin",
+                                "Memahami rute dan tiang hinggap",
+                                "Membaca situasi permainan"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-kasti-1",
+                    "question": "Bola apa yang digunakan dalam permainan bola kasti?",
+                    "answer": "Bola tenis"
+                },
+                {
+                    "id": "fc-kasti-2",
+                    "question": "Nama lain dari permainan bola kasti adalah?",
+                    "answer": "Gebokan"
+                },
+                {
+                    "id": "fc-kasti-3",
+                    "question": "Sebutkan dua regu dalam permainan bola kasti!",
+                    "answer": "Regu pemukul dan regu penjaga"
+                },
+                {
+                    "id": "fc-kasti-4",
+                    "question": "Apa yang dimaksud dengan lemparan melambung dalam kasti?",
+                    "answer": "Lemparan yang dilakukan oleh pelambung untuk melempar bola kepada pemukul"
+                },
+                {
+                    "id": "fc-kasti-5",
+                    "question": "Bagaimana cara menangkap bola datar dalam kasti?",
+                    "answer": "Kedua telapak tangan dibuka membentuk setengah bola"
+                },
+                {
+                    "id": "fc-kasti-6",
+                    "question": "Bola kasti termasuk dalam kategori permainan apa?",
+                    "answer": "Permainan bola kecil"
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-kasti-1",
+                        "type": "multiple_choice",
+                        "question": "Bola yang digunakan dalam permainan bola kasti adalah?",
+                        "options": [
+                            "Bola karet",
+                            "Bola tenis",
+                            "Bola plastik",
+                            "Bola kain"
+                        ],
+                        "answer": 1,
+                        "explanation": "Permainan bola kasti menggunakan bola tenis, sehingga termasuk kategori permainan bola kecil."
+                    },
+                    {
+                        "id": "q-kasti-2",
+                        "type": "multiple_choice",
+                        "question": "Nama lain dari permainan bola kasti adalah?",
+                        "options": [
+                            "Rounders",
+                            "Gebokan",
+                            "Kippers",
+                            "Bola pukul"
+                        ],
+                        "answer": 1,
+                        "explanation": "Bola kasti juga disebut sebagai gebokan."
+                    },
+                    {
+                        "id": "q-kasti-3",
+                        "type": "multiple_choice",
+                        "question": "Jenis lemparan yang digunakan pelambung untuk melempar bola kepada pemukul adalah?",
+                        "options": [
+                            "Lemparan datar",
+                            "Lemparan menyusur tanah",
+                            "Lemparan melambung",
+                            "Lemparan melingkar"
+                        ],
+                        "answer": 2,
+                        "explanation": "Lemparan melambung dilakukan oleh pelambung untuk melempar bola kepada pemukul."
+                    },
+                    {
+                        "id": "q-kasti-4",
+                        "type": "multiple_choice",
+                        "question": "Teknik memukul bola yang bertujuan mengarahkan bola dengan cepat dan memantul ke tanah disebut?",
+                        "options": [
+                            "Memukul bola lurus",
+                            "Memukul bola menyamping",
+                            "Memukul bola lambung",
+                            "Memukul bola merendah"
+                        ],
+                        "answer": 3,
+                        "explanation": "Memukul bola merendah bertujuan untuk mengarahkan bola dengan cepat dan memantul ke tanah."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "senam-lantai",
+            "title": "Senam Lantai",
+            "description": "Gerakan dasar senam lantai meliputi guling depan, belakang, kayang, handstand, dan sikap lilin",
+            "lessons": [
+                {
+                    "id": "senam-lantai-dasar",
+                    "title": "Pengertian dan Gerakan Dasar Senam Lantai",
+                    "estMinutes": 20,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Pengertian Senam Lantai",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Senam lantai adalah jenis senam yang dilakukan di atas lantai, biasanya dengan menggunakan matras. Gerakan-gerakannya meliputi mengguling, melompat, meloncat, berputar, dan menumpu dengan berbagai bagian tubuh. Senam lantai bermanfaat untuk meningkatkan kekuatan, kelenturan, keseimbangan, dan koordinasi tubuh."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Jenis-jenis Senam Lantai",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Gerakan Dasar: guling depan, guling belakang, guling lenting, kayang, handstand, headstand, lompat jongkok, dan meroda",
+                                "Gerakan dengan Alat: menggunakan alat bantu seperti kuda-kuda pelana",
+                                "Gerakan tanpa Alat: sikap lilin, child's pose, dan berbagai gerakan keseimbangan"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Gerakan Utama Senam Lantai",
+                            "level": 2
+                        },
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Gerakan",
+                                "Deskripsi",
+                                "Manfaat"
+                            ],
+                            "rows": [
+                                [
+                                    "Guling Depan (Forward Roll)",
+                                    "Tubuh berguling ke arah depan bertumpu pada tangan dan kaki",
+                                    "Melatih koordinasi dan kekuatan"
+                                ],
+                                [
+                                    "Guling Belakang (Backward Roll)",
+                                    "Tubuh berguling ke arah belakang bertumpu pada tangan dan kaki",
+                                    "Melatih keseimbangan dan kekuatan"
+                                ],
+                                [
+                                    "Handstand",
+                                    "Tubuh berdiri dengan tumpuan tangan dan lengan",
+                                    "Melatih kekuatan dan keseimbangan"
+                                ],
+                                [
+                                    "Headstand",
+                                    "Tubuh berdiri dengan tumpuan kepala dan tangan",
+                                    "Melatih kekuatan dan keseimbangan"
+                                ],
+                                [
+                                    "Kayang (Bridge)",
+                                    "Punggung membentuk busur dengan abdomen menghadap langit-langit",
+                                    "Melatih kekuatan otot punggung dan bahu"
+                                ],
+                                [
+                                    "Sikap Lilin",
+                                    "Tubuh bertumpu pada punggung bagian atas dengan kaki lurus ke atas",
+                                    "Melatih keseimbangan"
+                                ],
+                                [
+                                    "Meroda (Cartwheel)",
+                                    "Tubuh memutar ke samping seperti roda dengan bertumpu pada tangan",
+                                    "Melatih kelentukan dan koordinasi"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Cara Melakukan Sikap Lilin",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Sikap lilin adalah gerakan yang melibatkan posisi tubuh seperti lilin, dengan bertumpu pada punggung bagian atas dan kaki lurus ke atas. Langkah-langkahnya: (1) Berbaring telentang di matras, (2) Angkat kedua kaki lurus ke atas, (3) Topang pinggang dengan kedua tangan, (4) Pertahankan posisi kaki lurus ke atas membentuk garis lurus dengan tubuh."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Cara Melakukan Kayang",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Kayang adalah gerakan di mana punggung membentuk busur dengan abdomen menghadap langit-langit. Langkah-langkahnya: (1) Berbaring terlentang di matras, (2) Tekuk lutut dan letakkan kaki rata di lantai, (3) Letakkan telapak tangan di dekat kepala dengan jari mengarah ke bahu, (4) Angkat tubuh dengan mendorong tangan dan kaki sehingga tubuh membentuk busur."
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-sl-1",
+                    "question": "Apa yang dimaksud dengan senam lantai?",
+                    "answer": "Jenis senam yang dilakukan di atas lantai menggunakan matras, meliputi gerakan mengguling, melompat, meloncat, berputar, dan menumpu"
+                },
+                {
+                    "id": "fc-sl-2",
+                    "question": "Apa yang dimaksud dengan sikap lilin?",
+                    "answer": "Gerakan yang posisinya seperti lilin, dengan bertumpu pada punggung bagian atas dan kaki lurus ke atas"
+                },
+                {
+                    "id": "fc-sl-3",
+                    "question": "Apa yang dimaksud dengan kayang?",
+                    "answer": "Gerakan di mana punggung membentuk busur (busur ke atas) dengan abdomen menghadap langit-langit, bertumpu pada tangan dan kaki"
+                },
+                {
+                    "id": "fc-sl-4",
+                    "question": "Apa manfaat utama senam lantai?",
+                    "answer": "Meningkatkan kekuatan, kelenturan, keseimbangan, dan koordinasi tubuh"
+                },
+                {
+                    "id": "fc-sl-5",
+                    "question": "Apa yang dimaksud dengan meroda (cartwheel)?",
+                    "answer": "Gerakan tubuh memutar ke samping seperti roda dengan bertumpu pada tangan, melatih kelentukan dan koordinasi"
+                },
+                {
+                    "id": "fc-sl-6",
+                    "question": "Apa perbedaan handstand dan headstand?",
+                    "answer": "Handstand bertumpu pada tangan dan lengan, sedangkan headstand bertumpu pada kepala dan tangan"
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-sl-1",
+                        "type": "multiple_choice",
+                        "question": "Gerakan sikap lilin dalam senam lantai ditandai dengan?",
+                        "options": [
+                            "Kaki melingkar di lantai",
+                            "Tubuh bertumpu pada punggung dengan kaki lurus ke atas",
+                            "Berdiri menggunakan tangan",
+                            "Tubuh membentuk busur"
+                        ],
+                        "answer": 1,
+                        "explanation": "Sikap lilin adalah posisi tubuh bertumpu pada punggung bagian atas dengan kaki lurus ke atas seperti bentuk lilin."
+                    },
+                    {
+                        "id": "q-sl-2",
+                        "type": "multiple_choice",
+                        "question": "Gerakan kayang dalam senam lantai melatih otot?",
+                        "options": [
+                            "Otot perut dan kaki",
+                            "Otot punggung dan bahu",
+                            "Otot tangan dan jari",
+                            "Otot leher dan kepala"
+                        ],
+                        "answer": 1,
+                        "explanation": "Gerakan kayang (bridge) melatih kekuatan otot punggung dan bahu karena tubuh membentuk busur."
+                    },
+                    {
+                        "id": "q-sl-3",
+                        "type": "multiple_choice",
+                        "question": "Gerakan handstand dilakukan dengan bertumpu pada?",
+                        "options": [
+                            "Kepala dan tangan",
+                            "Tangan dan lengan",
+                            "Kaki dan tangan",
+                            "Punggung dan tangan"
+                        ],
+                        "answer": 1,
+                        "explanation": "Handstand adalah gerakan berdiri dengan tumpuan tangan dan lengan."
+                    },
+                    {
+                        "id": "q-sl-4",
+                        "type": "multiple_choice",
+                        "question": "Meroda (cartwheel) dalam senam lantai bermanfaat untuk melatih?",
+                        "options": [
+                            "Kekuatan dan daya tahan",
+                            "Kelentukan dan koordinasi",
+                            "Kecepatan dan kelincahan",
+                            "Keseimbangan dan kekuatan"
+                        ],
+                        "answer": 1,
+                        "explanation": "Gerakan meroda melatih kelentukan dan koordinasi tubuh."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "renang",
+            "title": "Renang",
+            "description": "Empat gaya renang utama, teknik dasar, dan manfaat berenang",
+            "lessons": [
+                {
+                    "id": "renang-gaya",
+                    "title": "Gaya-Gaya Renang dan Manfaat Berenang",
+                    "estMinutes": 20,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Pengertian Renang",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Renang adalah cabang olahraga yang menggunakan anggota tubuh terutama bagian tangan dan kaki untuk bergerak di dalam air. Latihan berenang dapat membantu membentuk dan memperkuat otot tubuh karena melibatkan hampir seluruh bagian tubuh dalam gerakan berenang."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Manfaat Berenang",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Melatih otot lengan dan bahu (deltoid, pektoral, trapezius, latissimus dorsi)",
+                                "Melatih otot perut dan core terutama pada gaya dada dan gaya kupu-kupu",
+                                "Melatih otot kaki (paha, betis, otot panggul)",
+                                "Melatih otot punggung terutama pada gaya punggung",
+                                "Meningkatkan daya tahan dan kesehatan jantung",
+                                "Meningkatkan fleksibilitas dan pertumbuhan massa otot",
+                                "Menjaga kesehatan mental"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Empat Gaya Renang Utama",
+                            "level": 2
+                        },
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Gaya Renang",
+                                "Posisi Tubuh",
+                                "Gerakan Kaki",
+                                "Cara Bernapas"
+                            ],
+                            "rows": [
+                                [
+                                    "Gaya Bebas (Front Crawl)",
+                                    "Horizontal di permukaan air",
+                                    "Gerakan gilir (flutter kick)",
+                                    "Memutar kepala ke samping"
+                                ],
+                                [
+                                    "Gaya Dada (Breaststroke)",
+                                    "Horizontal di permukaan air",
+                                    "Gerakan seperti katak",
+                                    "Memutar kepala ke depan"
+                                ],
+                                [
+                                    "Gaya Punggung (Backstroke)",
+                                    "Telentang di atas air",
+                                    "Gerakan gilir seperti gaya bebas",
+                                    "Wajah menghadap ke atas (bebas bernapas)"
+                                ],
+                                [
+                                    "Gaya Kupu-kupu (Butterfly)",
+                                    "Horizontal di permukaan air",
+                                    "Gerakan seperti lumba-lumba (dolphin kick)",
+                                    "Memutar kepala ke depan"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik Dasar Renang",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Meluncur: gerakan awal untuk memulai renang, meluncur di atas air setelah beranjak dari dinding kolam",
+                                "Mengapung: kemampuan untuk tetap terapung di atas air untuk menjaga keseimbangan",
+                                "Teknik Pernapasan: mengatur napas dengan benar untuk menjaga stamina dan asupan oksigen"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-renang-1",
+                    "question": "Sebutkan empat gaya renang utama!",
+                    "answer": "Gaya bebas (front crawl), gaya dada (breaststroke), gaya punggung (backstroke), dan gaya kupu-kupu (butterfly)"
+                },
+                {
+                    "id": "fc-renang-2",
+                    "question": "Pada gaya renang apa perenang berada dalam posisi telentang?",
+                    "answer": "Gaya punggung (backstroke)"
+                },
+                {
+                    "id": "fc-renang-3",
+                    "question": "Gerakan kaki pada gaya dada menyerupai gerakan hewan apa?",
+                    "answer": "Katak"
+                },
+                {
+                    "id": "fc-renang-4",
+                    "question": "Gerakan kaki pada gaya kupu-kupu menyerupai gerakan hewan apa?",
+                    "answer": "Lumba-lumba (dolphin kick)"
+                },
+                {
+                    "id": "fc-renang-5",
+                    "question": "Apa manfaat berenang bagi otot tubuh?",
+                    "answer": "Berenang membantu membentuk dan memperkuat otot karena melibatkan hampir seluruh bagian tubuh melawan tekanan air"
+                },
+                {
+                    "id": "fc-renang-6",
+                    "question": "Otot apa yang terlatih saat berenang gaya punggung?",
+                    "answer": "Otot-otot punggung"
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-renang-1",
+                        "type": "multiple_choice",
+                        "question": "Pada gaya renang mana perenang berada dalam posisi telentang?",
+                        "options": [
+                            "Gaya bebas",
+                            "Gaya dada",
+                            "Gaya punggung",
+                            "Gaya kupu-kupu"
+                        ],
+                        "answer": 2,
+                        "explanation": "Pada gaya punggung (backstroke), perenang berada dalam posisi telentang di atas air."
+                    },
+                    {
+                        "id": "q-renang-2",
+                        "type": "multiple_choice",
+                        "question": "Gerakan kaki pada gaya dada menyerupai gerakan?",
+                        "options": [
+                            "Lumba-lumba",
+                            "Katak",
+                            "Ikan",
+                            "Kupu-kupu"
+                        ],
+                        "answer": 1,
+                        "explanation": "Gerakan kaki pada gaya dada (breaststroke) seperti gerakan katak."
+                    },
+                    {
+                        "id": "q-renang-3",
+                        "type": "multiple_choice",
+                        "question": "Teknik dasar renang yang pertama kali harus dipelajari pemula adalah?",
+                        "options": [
+                            "Gaya kupu-kupu",
+                            "Meluncur dan mengapung",
+                            "Teknik topspin",
+                            "Gaya dada"
+                        ],
+                        "answer": 1,
+                        "explanation": "Teknik dasar yang penting untuk pemula adalah meluncur dan mengapung sebelum mempelajari gaya renang."
+                    },
+                    {
+                        "id": "q-renang-4",
+                        "type": "multiple_choice",
+                        "question": "Gaya renang mana yang paling mudah dan sering digunakan pemula?",
+                        "options": [
+                            "Gaya kupu-kupu",
+                            "Gaya punggung",
+                            "Gaya dada",
+                            "Gaya bebas"
+                        ],
+                        "answer": 3,
+                        "explanation": "Gaya bebas (front crawl) paling sering digunakan dan dikenal sebagai gaya paling mudah untuk pemula."
+                    },
+                    {
+                        "id": "q-renang-5",
+                        "type": "multiple_choice",
+                        "question": "Manakah otot yang terlatih saat berenang gaya dada dan gaya kupu-kupu?",
+                        "options": [
+                            "Otot lengan saja",
+                            "Otot kaki saja",
+                            "Otot perut dan core",
+                            "Otot punggung saja"
+                        ],
+                        "answer": 2,
+                        "explanation": "Gaya dada dan gaya kupu-kupu terutama melatih otot perut dan core."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bola-basket",
+            "title": "Bola Basket",
+            "description": "Teknik dasar, posisi pemain, dan peraturan bola basket",
+            "lessons": [
+                {
+                    "id": "basket-dasar",
+                    "title": "Dasar-Dasar Bola Basket",
+                    "estMinutes": 20,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Pengertian dan Aturan Bola Basket",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Bola basket adalah olahraga tim yang dimainkan oleh 5 orang dalam satu regu dengan cadangan 5 orang. Terdapat 2 wasit dalam permainan bola basket; wasit 1 disebut referee dan wasit 2 disebut umpire. Waktu permainan adalah 4 x 10 menit dengan waktu istirahat 10 menit."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Ukuran Lapangan Bola Basket",
+                            "level": 2
+                        },
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Standar",
+                                "Panjang",
+                                "Lebar"
+                            ],
+                            "rows": [
+                                [
+                                    "NBA (National Basketball Association)",
+                                    "28,7 meter",
+                                    "15,2 meter"
+                                ],
+                                [
+                                    "FIBA (Federasi Bola Basket Internasional)",
+                                    "28 meter",
+                                    "15 meter"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Tiga Posisi Utama dalam Bola Basket",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Forward: pemain yang tugas utamanya mencetak poin dengan memasukkan bola ke keranjang lawan",
+                                "Defense: pemain yang tugas utamanya menjaga pemain lawan agar kesulitan memasukkan bola",
+                                "Playmaker: pemain kunci yang mengatur alur bola dan strategi permainan"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik Dasar Bola Basket",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Passing (operan): Chest Pass (dari dada), Overhead Pass (dari atas kepala), Bounce Pass (memantul ke lantai), Baseball Pass (dari atas/belakang kepala), Behind Back Pass (dari belakang tubuh)",
+                                "Catching (menangkap): menangkap bola dengan telapak tangan terbuka lebar dan jari-jari terentang",
+                                "Dribbling (menggiring): menggiring bola dengan kepala tegak lurus, tubuh setengah membungkuk",
+                                "Pivot: memutar dengan satu kaki sebagai poros untuk menyelamatkan bola dari lawan",
+                                "Shooting: mencetak angka dengan memasukkan bola ke ring (1-3 poin tergantung jarak)",
+                                "Lay Up: melangkah dua kali lalu memasukkan bola ke ring dari jarak dekat",
+                                "Rebound: mengambil bola yang gagal masuk ring dari pantulan",
+                                "Screen: membebaskan teman dari penjagaan lawan dengan menutup arah gerak lawan"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-bb-1",
+                    "question": "Berapa jumlah pemain bola basket dalam satu regu di lapangan?",
+                    "answer": "5 orang pemain dengan cadangan 5 orang"
+                },
+                {
+                    "id": "fc-bb-2",
+                    "question": "Apa sebutan wasit pertama dan kedua dalam bola basket?",
+                    "answer": "Wasit 1 disebut referee, wasit 2 disebut umpire"
+                },
+                {
+                    "id": "fc-bb-3",
+                    "question": "Berapa waktu permainan bola basket?",
+                    "answer": "4 x 10 menit dengan istirahat 10 menit"
+                },
+                {
+                    "id": "fc-bb-4",
+                    "question": "Apa yang dimaksud dengan chest pass dalam bola basket?",
+                    "answer": "Teknik melempar bola basket dari posisi dada"
+                },
+                {
+                    "id": "fc-bb-5",
+                    "question": "Apa yang dimaksud dengan bounce pass?",
+                    "answer": "Teknik melempar bola basket dengan cara memantulkannya ke lantai"
+                },
+                {
+                    "id": "fc-bb-6",
+                    "question": "Apa yang dimaksud dengan lay up shoot?",
+                    "answer": "Gerakan memasukkan bola ke ring dengan melangkah dua kali, dilakukan dari jarak dekat"
+                },
+                {
+                    "id": "fc-bb-7",
+                    "question": "Berapa poin yang didapat dari tembakan di luar garis tiga angka?",
+                    "answer": "3 poin"
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-bb-1",
+                        "type": "multiple_choice",
+                        "question": "Berapa jumlah pemain bola basket dalam satu regu yang bermain di lapangan?",
+                        "options": [
+                            "4 orang",
+                            "5 orang",
+                            "6 orang",
+                            "7 orang"
+                        ],
+                        "answer": 1,
+                        "explanation": "Jumlah pemain dalam permainan bola basket adalah 5 orang dalam satu regu dengan cadangan 5 orang."
+                    },
+                    {
+                        "id": "q-bb-2",
+                        "type": "multiple_choice",
+                        "question": "Teknik passing bola basket dengan cara memantulkan bola ke lantai disebut?",
+                        "options": [
+                            "Chest pass",
+                            "Overhead pass",
+                            "Bounce pass",
+                            "Baseball pass"
+                        ],
+                        "answer": 2,
+                        "explanation": "Bounce pass adalah teknik melempar bola basket dengan cara memantulkannya ke lantai."
+                    },
+                    {
+                        "id": "q-bb-3",
+                        "type": "multiple_choice",
+                        "question": "Wasit pertama dalam permainan bola basket disebut?",
+                        "options": [
+                            "Umpire",
+                            "Referee",
+                            "Judge",
+                            "Scorer"
+                        ],
+                        "answer": 1,
+                        "explanation": "Wasit 1 dalam bola basket disebut referee, sedangkan wasit 2 disebut umpire."
+                    },
+                    {
+                        "id": "q-bb-4",
+                        "type": "multiple_choice",
+                        "question": "Teknik memasukkan bola dengan melangkah dua kali lalu memasukkan bola ke ring disebut?",
+                        "options": [
+                            "Dribbling",
+                            "Pivot",
+                            "Lay up",
+                            "Rebound"
+                        ],
+                        "answer": 2,
+                        "explanation": "Lay up shoot adalah gerakan memasukkan bola ke ring dengan melangkah dua kali dari jarak dekat."
+                    },
+                    {
+                        "id": "q-bb-5",
+                        "type": "multiple_choice",
+                        "question": "Berapa panjang lapangan bola basket standar FIBA?",
+                        "options": [
+                            "26 meter",
+                            "28 meter",
+                            "28,7 meter",
+                            "30 meter"
+                        ],
+                        "answer": 1,
+                        "explanation": "Lapangan bola basket standar FIBA memiliki panjang 28 meter dan lebar 15 meter."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bulu-tangkis",
+            "title": "Bulu Tangkis",
+            "description": "Teknik dasar bulu tangkis, jenis permainan, dan strategi tunggal serta ganda",
+            "lessons": [
+                {
+                    "id": "bt-dasar",
+                    "title": "Dasar-Dasar Bulu Tangkis",
+                    "estMinutes": 15,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Pengertian Bulu Tangkis",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Bulu tangkis (badminton) adalah olahraga yang menggunakan raket dan kok sebagai alatnya. Bisa dimainkan secara perseorangan (tunggal putra atau putri) atau ganda (putra, putri, dan campuran). Bulu tangkis dapat dilakukan di luar maupun dalam ruangan."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Jenis Permainan Bulu Tangkis",
+                            "level": 2
+                        },
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Jenis Permainan",
+                                "Keterangan"
+                            ],
+                            "rows": [
+                                [
+                                    "Tunggal Putra (Men's Singles)",
+                                    "Dimainkan satu lawan satu oleh pemain putra"
+                                ],
+                                [
+                                    "Tunggal Putri (Women's Singles)",
+                                    "Dimainkan satu lawan satu oleh pemain putri"
+                                ],
+                                [
+                                    "Ganda Putra (Men's Doubles)",
+                                    "Dimainkan dua lawan dua oleh pemain putra"
+                                ],
+                                [
+                                    "Ganda Putri (Women's Doubles)",
+                                    "Dimainkan dua lawan dua oleh pemain putri"
+                                ],
+                                [
+                                    "Ganda Campuran (Mixed Doubles)",
+                                    "Dimainkan dua lawan dua oleh satu putra dan satu putri"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik untuk Pemain Ganda",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Pemain ganda dalam bulu tangkis harus melatih beberapa aspek untuk bermain efektif:"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Kecepatan gerak dan refleks pukulan",
+                                "Kekuatan pukulan",
+                                "Kerja sama tim yang baik dengan pasangan",
+                                "Menguasai berbagai jenis pukulan: drive, smash, servis, dan wiping"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik untuk Pemain Tunggal",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Teknik pukulan yang beragam dan kuat",
+                                "Gerakan kaki (footwork) yang lincah",
+                                "Servis yang akurat",
+                                "Stamina dan kelincahan yang tinggi",
+                                "Strategi permainan dan kemampuan membaca lawan"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-bt-1",
+                    "question": "Apa nama lain dari bulu tangkis?",
+                    "answer": "Badminton"
+                },
+                {
+                    "id": "fc-bt-2",
+                    "question": "Alat apa yang digunakan dalam permainan bulu tangkis?",
+                    "answer": "Raket dan kok (shuttlecock)"
+                },
+                {
+                    "id": "fc-bt-3",
+                    "question": "Sebutkan jenis pukulan yang harus dikuasai pemain ganda bulu tangkis!",
+                    "answer": "Drive, smash, servis, dan wiping"
+                },
+                {
+                    "id": "fc-bt-4",
+                    "question": "Apa aspek penting yang dibutuhkan pemain tunggal bulu tangkis?",
+                    "answer": "Teknik pukulan, gerakan kaki, servis, stamina, kelincahan, dan kemampuan membaca lawan"
+                },
+                {
+                    "id": "fc-bt-5",
+                    "question": "Apa yang dimaksud dengan ganda campuran dalam bulu tangkis?",
+                    "answer": "Permainan ganda yang dimainkan oleh satu pemain putra dan satu pemain putri"
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-bt-1",
+                        "type": "multiple_choice",
+                        "question": "Bulu tangkis dapat dimainkan di?",
+                        "options": [
+                            "Hanya di dalam ruangan",
+                            "Hanya di luar ruangan",
+                            "Di luar maupun dalam ruangan",
+                            "Hanya di lapangan khusus"
+                        ],
+                        "answer": 2,
+                        "explanation": "Bulu tangkis bisa dilakukan di luar maupun dalam ruangan."
+                    },
+                    {
+                        "id": "q-bt-2",
+                        "type": "multiple_choice",
+                        "question": "Manakah yang BUKAN jenis pukulan yang harus dikuasai pemain ganda bulu tangkis?",
+                        "options": [
+                            "Drive",
+                            "Smash",
+                            "Topspin",
+                            "Servis"
+                        ],
+                        "answer": 2,
+                        "explanation": "Topspin bukan pukulan khas bulu tangkis. Pemain ganda harus menguasai drive, smash, servis, dan wiping."
+                    },
+                    {
+                        "id": "q-bt-3",
+                        "type": "multiple_choice",
+                        "question": "Ganda campuran dalam bulu tangkis dimainkan oleh?",
+                        "options": [
+                            "Dua pemain putra",
+                            "Dua pemain putri",
+                            "Satu putra dan satu putri",
+                            "Dua pemain dari negara yang sama"
+                        ],
+                        "answer": 2,
+                        "explanation": "Ganda campuran (mixed doubles) dimainkan oleh satu pemain putra dan satu pemain putri."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "lari-jarak-menengah",
+            "title": "Lari Jarak Menengah",
+            "description": "Teknik, jarak, dan strategi lari jarak menengah dalam atletik",
+            "lessons": [
+                {
+                    "id": "ljm-teknik",
+                    "title": "Teknik Lari Jarak Menengah",
+                    "estMinutes": 15,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Lari Jarak Menengah",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Lari jarak menengah menempuh jarak 800 meter dan 1500 meter. Lari jarak menengah merupakan bagian dari cabang olahraga atletik yang membutuhkan kombinasi antara kecepatan dan stamina."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Jenis Start pada Lari Jarak Menengah",
+                            "level": 2
+                        },
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Jarak",
+                                "Jenis Start"
+                            ],
+                            "rows": [
+                                [
+                                    "800 meter",
+                                    "Start jongkok (crouch start)"
+                                ],
+                                [
+                                    "1500 meter",
+                                    "Start berdiri (standing start)"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Aturan Lari 800 Meter",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Pada lari 800 meter, masing-masing pelari berlari di lintasannya sendiri. Setelah melewati satu tikungan pertama, barulah pelari-pelari boleh masuk ke dalam lintasan pertama (bersama)."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Kunci Sukses Lari Jarak Menengah",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Penyesuaian antara kecepatan dan kekuatan (stamina)",
+                                "Strategi berlari: tidak terlalu cepat di awal dan menyimpan tenaga untuk akhir",
+                                "Teknik pernapasan yang efisien",
+                                "Posisi tubuh yang benar saat berlari",
+                                "Peningkatan daya tahan kardiovaskular secara bertahap"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-ljm-1",
+                    "question": "Berapa jarak yang ditempuh dalam lari jarak menengah?",
+                    "answer": "800 meter dan 1500 meter"
+                },
+                {
+                    "id": "fc-ljm-2",
+                    "question": "Start apa yang digunakan pada lari 800 meter?",
+                    "answer": "Start jongkok (crouch start)"
+                },
+                {
+                    "id": "fc-ljm-3",
+                    "question": "Start apa yang digunakan pada lari 1500 meter?",
+                    "answer": "Start berdiri (standing start)"
+                },
+                {
+                    "id": "fc-ljm-4",
+                    "question": "Hal terpenting dalam lari jarak menengah adalah?",
+                    "answer": "Penyesuaian antara kecepatan dan kekuatan (stamina) dari masing-masing pelari"
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-ljm-1",
+                        "type": "multiple_choice",
+                        "question": "Berapa jarak yang dilombakan dalam lari jarak menengah?",
+                        "options": [
+                            "100m dan 200m",
+                            "400m dan 800m",
+                            "800m dan 1500m",
+                            "1500m dan 5000m"
+                        ],
+                        "answer": 2,
+                        "explanation": "Lari jarak menengah menempuh jarak 800 meter dan 1500 meter."
+                    },
+                    {
+                        "id": "q-ljm-2",
+                        "type": "multiple_choice",
+                        "question": "Start yang digunakan pada lari 1500 meter adalah?",
+                        "options": [
+                            "Start jongkok",
+                            "Start berdiri",
+                            "Start melayang",
+                            "Start duduk"
+                        ],
+                        "answer": 1,
+                        "explanation": "Lari 1500 meter menggunakan start berdiri (standing start), sedangkan 800m menggunakan start jongkok."
+                    },
+                    {
+                        "id": "q-ljm-3",
+                        "type": "multiple_choice",
+                        "question": "Pada lari 800 meter, kapan pelari boleh masuk ke lintasan pertama bersama?",
+                        "options": [
+                            "Dari awal perlombaan",
+                            "Setelah melewati satu tikungan pertama",
+                            "Setelah setengah jarak",
+                            "Setelah 200 meter pertama"
+                        ],
+                        "answer": 1,
+                        "explanation": "Pada lari 800 meter, masing-masing pelari berlari di lintasannya sendiri, setelah melewati satu tikungan pertama barulah boleh masuk ke lintasan pertama."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "kebugaran-jasmani",
+            "title": "Kebugaran Jasmani",
+            "description": "Komponen kebugaran jasmani, latihan fisik, dan manfaatnya bagi kesehatan",
+            "lessons": [
+                {
+                    "id": "kj-komponen",
+                    "title": "Komponen dan Latihan Kebugaran Jasmani",
+                    "estMinutes": 20,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Pengertian Kebugaran Jasmani",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Kebugaran jasmani adalah kemampuan fisik seseorang untuk melakukan kegiatan sehari-hari tanpa merasa kelelahan yang berlebihan dan masih memiliki cadangan energi. Semakin baik kebugaran jasmani seseorang maka akan semakin baik kemampuannya dalam mengatasi aktivitas sehari-hari. Aktivitas fisik adalah gerakan tubuh yang secara sadar dilakukan oleh otot rangka dan membutuhkan pengeluaran energi."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Unsur-Unsur Kebugaran Jasmani",
+                            "level": 2
+                        },
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Unsur",
+                                "Pengertian",
+                                "Contoh Latihan"
+                            ],
+                            "rows": [
+                                [
+                                    "Kekuatan (Strength)",
+                                    "Kemampuan otot menerima beban untuk bekerja secara maksimal",
+                                    "Push-up, sit-up, pull-up, angkat beban"
+                                ],
+                                [
+                                    "Daya Tahan (Endurance)",
+                                    "Kemampuan menjalankan aktivitas dalam jangka waktu lama tanpa kelelahan",
+                                    "Lari, aerobik, bersepeda, jogging"
+                                ],
+                                [
+                                    "Kecepatan (Speed)",
+                                    "Kemampuan bergerak atau menempuh jarak tertentu dengan cepat",
+                                    "Lari cepat, latihan sprint"
+                                ],
+                                [
+                                    "Kelentukan (Flexibility)",
+                                    "Kemampuan anggota gerak melakukan gerakan pada beberapa sendi",
+                                    "Senam, yoga, pilates, peregangan"
+                                ],
+                                [
+                                    "Keseimbangan (Balance)",
+                                    "Kemampuan tubuh mempertahankan posisi stabil pada setiap perubahan posisi",
+                                    "Berdiri satu kaki, sikap kapal terbang"
+                                ],
+                                [
+                                    "Daya Ledak (Power)",
+                                    "Kemampuan mengerahkan kekuatan secara maksimal dan tiba-tiba",
+                                    "Lompat jauh, tolak peluru"
+                                ],
+                                [
+                                    "Kelincahan (Agility)",
+                                    "Kemampuan mengubah arah gerakan secara mendadak dengan kecepatan tinggi",
+                                    "Lari zigzag, lompat jongkok"
+                                ],
+                                [
+                                    "Koordinasi (Coordination)",
+                                    "Kemampuan otot bekerja sama menghasilkan gerakan yang selaras",
+                                    "Berenang, olahraga raket dan bola"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Tujuan Latihan Fisik",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Meningkatkan kebugaran jasmani secara keseluruhan",
+                                "Meningkatkan kemampuan tubuh melakukan aktivitas fisik tanpa kelelahan berlebihan",
+                                "Meningkatkan kesehatan fisik dan mental",
+                                "Membangun massa otot dan meningkatkan fleksibilitas",
+                                "Menjaga berat badan ideal"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Aktivitas Fisik yang Dianjurkan",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Berolahraga secara teratur (minimal 3-5 kali per minggu)",
+                                "Bersepeda",
+                                "Berlari atau jogging",
+                                "Berjalan kaki",
+                                "Kardio (aerobik)"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-kj-1",
+                    "question": "Apa yang dimaksud dengan kebugaran jasmani?",
+                    "answer": "Kemampuan fisik seseorang untuk melakukan kegiatan sehari-hari tanpa kelelahan berlebihan dan masih memiliki cadangan energi"
+                },
+                {
+                    "id": "fc-kj-2",
+                    "question": "Apa yang dimaksud dengan kekuatan (strength)?",
+                    "answer": "Kemampuan menggunakan otot tubuh dalam menerima beban untuk bekerja secara maksimal"
+                },
+                {
+                    "id": "fc-kj-3",
+                    "question": "Sebutkan contoh latihan daya tahan!",
+                    "answer": "Lari, aerobik, bersepeda, skipping, jogging"
+                },
+                {
+                    "id": "fc-kj-4",
+                    "question": "Apa yang dimaksud dengan kelincahan (agility)?",
+                    "answer": "Kemampuan tubuh mengubah arah gerakan secara mendadak dengan kecepatan tinggi"
+                },
+                {
+                    "id": "fc-kj-5",
+                    "question": "Apa yang dimaksud dengan daya ledak (power)?",
+                    "answer": "Kemampuan tubuh mengerahkan kekuatannya secara maksimal secara tiba-tiba dalam waktu yang sangat cepat"
+                },
+                {
+                    "id": "fc-kj-6",
+                    "question": "Sebutkan contoh latihan keseimbangan!",
+                    "answer": "Berdiri dengan satu kaki, melakukan gerakan sikap kapal terbang"
+                },
+                {
+                    "id": "fc-kj-7",
+                    "question": "Sebutkan contoh latihan kelentukan!",
+                    "answer": "Senam, yoga, pilates, dan peregangan"
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-kj-1",
+                        "type": "multiple_choice",
+                        "question": "Manakah yang merupakan pengertian kebugaran jasmani yang tepat?",
+                        "options": [
+                            "Kemampuan berlari dengan cepat",
+                            "Kemampuan fisik untuk beraktivitas tanpa kelelahan berlebihan dan masih memiliki cadangan energi",
+                            "Kemampuan mengangkat beban berat",
+                            "Kemampuan berenang jarak jauh"
+                        ],
+                        "answer": 1,
+                        "explanation": "Kebugaran jasmani adalah kemampuan fisik seseorang untuk melakukan kegiatan sehari-hari tanpa kelelahan berlebihan dan masih memiliki cadangan energi."
+                    },
+                    {
+                        "id": "q-kj-2",
+                        "type": "multiple_choice",
+                        "question": "Contoh latihan kekuatan (strength) adalah?",
+                        "options": [
+                            "Jogging dan bersepeda",
+                            "Push-up, sit-up, dan pull-up",
+                            "Yoga dan pilates",
+                            "Lari zigzag"
+                        ],
+                        "answer": 1,
+                        "explanation": "Latihan kekuatan meliputi push-up, back-up, pull-up, sit-up, angkat beban, bench press, dan shoulders press."
+                    },
+                    {
+                        "id": "q-kj-3",
+                        "type": "multiple_choice",
+                        "question": "Lari zigzag adalah contoh latihan untuk meningkatkan?",
+                        "options": [
+                            "Kekuatan",
+                            "Daya tahan",
+                            "Kelincahan",
+                            "Kelentukan"
+                        ],
+                        "answer": 2,
+                        "explanation": "Lari zigzag adalah contoh latihan kelincahan (agility), yaitu kemampuan mengubah arah gerakan secara mendadak."
+                    },
+                    {
+                        "id": "q-kj-4",
+                        "type": "multiple_choice",
+                        "question": "Peregangan dinamik, statik, dan pasif merupakan jenis latihan untuk meningkatkan?",
+                        "options": [
+                            "Kecepatan",
+                            "Keseimbangan",
+                            "Daya ledak",
+                            "Kelentukan"
+                        ],
+                        "answer": 3,
+                        "explanation": "Peregangan (dinamik, statik, dan pasif) adalah latihan untuk meningkatkan kelentukan (flexibility)."
+                    },
+                    {
+                        "id": "q-kj-5",
+                        "type": "multiple_choice",
+                        "question": "Apakah tujuan utama latihan fisik?",
+                        "options": [
+                            "Menjadi atlet profesional",
+                            "Meningkatkan kebugaran jasmani dan kesehatan",
+                            "Menurunkan berat badan sebanyak mungkin",
+                            "Membangun otot sebesar mungkin"
+                        ],
+                        "answer": 1,
+                        "explanation": "Tujuan utama latihan fisik adalah meningkatkan kebugaran jasmani dan kesehatan secara keseluruhan, termasuk kesehatan fisik dan mental."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "napza-keselamatan",
+            "title": "Kesehatan: NAPZA dan Keselamatan Jalan Raya",
+            "description": "Bahaya NAPZA, jenis-jenis narkotika, dan pentingnya keselamatan di jalan raya",
+            "lessons": [
+                {
+                    "id": "napza-bahaya",
+                    "title": "Mengenal Bahaya NAPZA",
+                    "estMinutes": 20,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Pengertian NAPZA",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "NAPZA adalah singkatan dari Narkotika, Psikotropika, dan Zat Adiktif lainnya. Secara umum, NAPZA meliputi semua jenis zat yang dapat mempengaruhi sistem saraf pusat dan menyebabkan perubahan fungsi mental, suasana hati, serta perilaku seseorang. Badan Narkotika Nasional (BNN) menegaskan bahwa bahaya NAPZA bisa mengakibatkan kecanduan atau ketergantungan yang berpotensi merusak kesehatan fisik dan mental individu."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Jenis-Jenis NAPZA",
+                            "level": 2
+                        },
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Jenis",
+                                "Pengertian",
+                                "Contoh"
+                            ],
+                            "rows": [
+                                [
+                                    "Narkotika",
+                                    "Zat dari tanaman atau buatan yang meredakan rasa sakit namun menyebabkan ketergantungan",
+                                    "Morfin, heroin, kodein"
+                                ],
+                                [
+                                    "Psikotropika",
+                                    "Zat yang mempengaruhi pikiran, suasana hati, dan perilaku",
+                                    "Amfetamin, LSD, ekstasi"
+                                ],
+                                [
+                                    "Zat Adiktif Lainnya",
+                                    "Zat di luar dua kategori di atas yang memicu ketergantungan",
+                                    "Alkohol, nikotin, obat resep tertentu"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Golongan Narkotika (Peraturan Menkes)",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Golongan I: hanya untuk ilmu pengetahuan, tidak dipakai dalam terapi, potensi kecanduan sangat tinggi. Contoh: heroin, ganja, LSD",
+                                "Golongan II: berkhasiat untuk pengobatan sebagai pilihan terakhir, potensi ketergantungan tinggi. Contoh: amfetamin, morfin",
+                                "Golongan III: berkhasiat dalam pengobatan dan terapi, potensi ketergantungan rendah. Contoh: kodein, etilmorfina"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Bahaya Rokok sebagai Zat Adiktif",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Rokok adalah hasil olahan tembakau yang mengandung nikotin dan tar. Setelah dibakar, rokok menghasilkan asap yang mengandung lebih dari 7.000 jenis bahan kimia, sebagian besar berbahaya. Merokok dapat meningkatkan risiko penyakit serius seperti kanker, penyakit jantung, dan berbagai gangguan kesehatan lainnya, baik untuk perokok aktif maupun pasif."
+                        }
+                    ]
+                },
+                {
+                    "id": "keselamatan-jalan",
+                    "title": "Keselamatan di Jalan Raya",
+                    "estMinutes": 10,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Keselamatan Jalan Raya",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Keselamatan jalan raya adalah suatu upaya mengurangi kecelakaan lalu lintas dengan memperhatikan berbagai faktor penyebab kecelakaan, seperti prasarana, faktor sekeliling, sarana, manusia, dan rambu atau peraturan."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Faktor Penyebab Kecelakaan Lalu Lintas",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Faktor Manusia: kelalaian, mengantuk, menggunakan ponsel saat berkendara, melanggar aturan",
+                                "Faktor Kendaraan: kondisi kendaraan yang tidak layak, ban bocor, rem blong",
+                                "Faktor Prasarana: jalan rusak, marka jalan tidak jelas",
+                                "Faktor Lingkungan: cuaca buruk, jarak pandang terbatas"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Cara Menjaga Keselamatan di Jalan Raya",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Selalu mematuhi aturan lalu lintas",
+                                "Menjaga jarak aman dengan kendaraan di depan",
+                                "Menggunakan sabuk pengaman (untuk pengemudi dan penumpang mobil)",
+                                "Menggunakan helm SNI (untuk pengendara motor)",
+                                "Menghindari penggunaan ponsel saat berkendara",
+                                "Memeriksa kondisi kendaraan secara rutin",
+                                "Menyesuaikan kecepatan dengan kondisi cuaca dan jalan"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-napza-1",
+                    "question": "Apa kepanjangan dari NAPZA?",
+                    "answer": "Narkotika, Psikotropika, dan Zat Adiktif lainnya"
+                },
+                {
+                    "id": "fc-napza-2",
+                    "question": "Apa yang dimaksud dengan narkotika?",
+                    "answer": "Zat dari tanaman atau buatan yang digunakan untuk meredakan rasa sakit tetapi dapat menyebabkan ketergantungan"
+                },
+                {
+                    "id": "fc-napza-3",
+                    "question": "Sebutkan contoh narkotika golongan I!",
+                    "answer": "Heroin, ganja, dan LSD"
+                },
+                {
+                    "id": "fc-napza-4",
+                    "question": "Berapa jumlah bahan kimia berbahaya dalam asap rokok?",
+                    "answer": "Lebih dari 7.000 jenis bahan kimia"
+                },
+                {
+                    "id": "fc-napza-5",
+                    "question": "Apa yang dimaksud dengan psikotropika?",
+                    "answer": "Zat yang dapat mempengaruhi pikiran, suasana hati, dan perilaku"
+                },
+                {
+                    "id": "fc-napza-6",
+                    "question": "Sebutkan contoh zat adiktif lainnya selain narkotika dan psikotropika!",
+                    "answer": "Alkohol, nikotin, dan obat resep tertentu"
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-napza-1",
+                        "type": "multiple_choice",
+                        "question": "NAPZA adalah singkatan dari?",
+                        "options": [
+                            "Narkoba, Psikotropika, dan Zat Asing",
+                            "Narkotika, Psikotropika, dan Zat Adiktif",
+                            "Narkotika, Psikis, dan Zat Aktif",
+                            "Narkoba, Psikis, dan Zat Aditif"
+                        ],
+                        "answer": 1,
+                        "explanation": "NAPZA merupakan singkatan dari Narkotika, Psikotropika, dan Zat Adiktif lainnya."
+                    },
+                    {
+                        "id": "q-napza-2",
+                        "type": "multiple_choice",
+                        "question": "Heroin, ganja, dan LSD termasuk narkotika golongan?",
+                        "options": [
+                            "Golongan I",
+                            "Golongan II",
+                            "Golongan III",
+                            "Golongan IV"
+                        ],
+                        "answer": 0,
+                        "explanation": "Heroin, ganja, dan LSD termasuk narkotika Golongan I yang hanya boleh digunakan untuk kepentingan ilmu pengetahuan."
+                    },
+                    {
+                        "id": "q-napza-3",
+                        "type": "multiple_choice",
+                        "question": "Asap rokok mengandung berapa jenis bahan kimia?",
+                        "options": [
+                            "Lebih dari 100 jenis",
+                            "Lebih dari 1.000 jenis",
+                            "Lebih dari 7.000 jenis",
+                            "Lebih dari 500 jenis"
+                        ],
+                        "answer": 2,
+                        "explanation": "Asap rokok mengandung lebih dari 7.000 jenis bahan kimia, sebagian besar berbahaya."
+                    },
+                    {
+                        "id": "q-napza-4",
+                        "type": "multiple_choice",
+                        "question": "Zat yang dapat mempengaruhi pikiran, suasana hati, dan perilaku disebut?",
+                        "options": [
+                            "Narkotika",
+                            "Psikotropika",
+                            "Zat adiktif",
+                            "Stimulan"
+                        ],
+                        "answer": 1,
+                        "explanation": "Psikotropika adalah zat yang dapat mempengaruhi pikiran, suasana hati, dan perilaku."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bola-voli",
+            "title": "Bola Voli",
+            "description": "Teknik dasar bola voli meliputi servis, passing, dan strategi permainan",
+            "lessons": [
+                {
+                    "id": "voli-teknik",
+                    "title": "Teknik Dasar Bola Voli",
+                    "estMinutes": 20,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Pengertian Bola Voli",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Bola voli adalah olahraga tim yang dimainkan oleh dua tim di atas lapangan yang dipisahkan oleh net. Setiap tim berusaha memukul bola ke area lawan agar jatuh di area lawan dan mendapat poin."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik Servis dalam Bola Voli",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Servis adalah pukulan pertama untuk memulai permainan. Tujuannya adalah mengirim bola ke area lawan dan jika memungkinkan, mencetak poin langsung."
+                        },
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Jenis Servis",
+                                "Keterangan"
+                            ],
+                            "rows": [
+                                [
+                                    "Servis Bawah",
+                                    "Teknik dasar cocok untuk pemula, mengayunkan tangan dari bawah ke atas"
+                                ],
+                                [
+                                    "Servis Atas",
+                                    "Pukulan dari atas kepala, menghasilkan laju bola lebih cepat"
+                                ],
+                                [
+                                    "Jump Serve",
+                                    "Servis dilakukan dengan melompat, pukulan sangat keras"
+                                ],
+                                [
+                                    "Floating Serve",
+                                    "Menghasilkan bola mengambang tanpa putaran, sulit diprediksi arahnya"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik Passing dalam Bola Voli",
+                            "level": 2
+                        },
+                        {
+                            "type": "text",
+                            "text": "Passing adalah teknik mengoper atau menerima bola. Ada dua jenis passing utama:"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Passing Bawah: berdiri dengan membuka kedua kaki selebar bahu, rapatkan dan luruskan kedua lengan di depan badan sehingga kedua ibu jari sejajar, ayunkan kedua lengan secara bersamaan dari bawah ke atas hingga setinggi bahu",
+                                "Passing Atas: menggunakan jari-jari tangan untuk mengoper bola di atas kepala, digunakan untuk mengumpan ke pemain lain atau menyeberangkan bola ke lapangan lawan"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-voli-1",
+                    "question": "Apa yang dimaksud dengan servis dalam bola voli?",
+                    "answer": "Pukulan pertama untuk memulai permainan, bertujuan mengirim bola ke area lawan"
+                },
+                {
+                    "id": "fc-voli-2",
+                    "question": "Jenis servis bola voli apa yang cocok untuk pemula?",
+                    "answer": "Servis bawah"
+                },
+                {
+                    "id": "fc-voli-3",
+                    "question": "Apa yang dimaksud dengan floating serve?",
+                    "answer": "Servis yang menghasilkan bola mengambang tanpa putaran, menyulitkan lawan memprediksi arah bola"
+                },
+                {
+                    "id": "fc-voli-4",
+                    "question": "Apa perbedaan passing bawah dan passing atas dalam bola voli?",
+                    "answer": "Passing bawah menggunakan lengan yang diluruskan untuk menerima bola, sedangkan passing atas menggunakan jari-jari tangan untuk mengoper bola di atas kepala"
+                },
+                {
+                    "id": "fc-voli-5",
+                    "question": "Apa yang dimaksud dengan jump serve dalam bola voli?",
+                    "answer": "Servis yang dilakukan dengan melompat, menghasilkan pukulan yang sangat keras dan sulit diterima lawan"
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-voli-1",
+                        "type": "multiple_choice",
+                        "question": "Servis yang menghasilkan bola mengambang tanpa putaran dalam bola voli disebut?",
+                        "options": [
+                            "Jump serve",
+                            "Servis bawah",
+                            "Floating serve",
+                            "Servis atas"
+                        ],
+                        "answer": 2,
+                        "explanation": "Floating serve menghasilkan bola mengambang tanpa putaran, sehingga sulit diprediksi arahnya oleh lawan."
+                    },
+                    {
+                        "id": "q-voli-2",
+                        "type": "multiple_choice",
+                        "question": "Jenis passing bola voli yang menggunakan jari-jari tangan untuk mengoper bola di atas kepala disebut?",
+                        "options": [
+                            "Passing bawah",
+                            "Passing atas",
+                            "Servis atas",
+                            "Smash"
+                        ],
+                        "answer": 1,
+                        "explanation": "Passing atas menggunakan jari-jari tangan untuk mengoper bola di atas kepala."
+                    },
+                    {
+                        "id": "q-voli-3",
+                        "type": "multiple_choice",
+                        "question": "Teknik servis yang paling tepat untuk pemula dalam bola voli adalah?",
+                        "options": [
+                            "Jump serve",
+                            "Floating serve",
+                            "Servis atas",
+                            "Servis bawah"
+                        ],
+                        "answer": 3,
+                        "explanation": "Servis bawah adalah teknik dasar yang cocok untuk pemula, dilakukan dengan mengayunkan tangan dari bawah ke atas."
+                    },
+                    {
+                        "id": "q-voli-4",
+                        "type": "multiple_choice",
+                        "question": "Pada saat melakukan passing bawah, posisi lengan yang benar adalah?",
+                        "options": [
+                            "Lengan ditekuk di depan dada",
+                            "Lengan diluruskan dengan ibu jari sejajar",
+                            "Lengan diangkat di atas kepala",
+                            "Lengan dirapatkan di samping tubuh"
+                        ],
+                        "answer": 1,
+                        "explanation": "Pada passing bawah, kedua lengan diluruskan dan dirapatkan di depan badan sehingga kedua ibu jari sejajar."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "tenis-meja",
+            "title": "Tenis Meja",
+            "description": "Teknik dasar tenis meja, cara memegang bet, dan strategi permainan",
+            "lessons": [
+                {
+                    "id": "tm-teknik",
+                    "title": "Teknik Dasar Tenis Meja",
+                    "estMinutes": 20,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Pengertian Tenis Meja",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Tenis meja merupakan cabang olahraga yang dimainkan oleh dua orang pemain (tunggal) atau dua pasang pemain (ganda) yang berhadapan dengan lawan menggunakan bola kecil, bet yang terbuat dari bahan kayu dilapisi karet, dan lapangan berupa meja. Induk organisasi tingkat dunia adalah ITTF (International Table Tennis Federation), dan tingkat nasional adalah PTMSI (Persatuan Tenis Meja Seluruh Indonesia)."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Jenis-Jenis Pegangan Raket (Grip)",
+                            "level": 2
+                        },
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Jenis Grip",
+                                "Cara Memegang"
+                            ],
+                            "rows": [
+                                [
+                                    "Shakehand Grip",
+                                    "Memegang raket seperti sedang berjabat tangan, paling umum digunakan"
+                                ],
+                                [
+                                    "Penhold Grip",
+                                    "Memegang raket seperti memegang pena"
+                                ],
+                                [
+                                    "Seemiller Grip",
+                                    "Variasi dari penhold grip yang memudahkan pergantian antara forehand dan backhand"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Teknik Dasar Tenis Meja",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Posisi Tubuh (Stance): kaki terbuka selebar bahu, tubuh sedikit condong ke depan, lutut ditekuk sedikit",
+                                "Gerakan Kaki (Footwork): langkah-langkah cepat lateral dan mundur untuk merespons bola",
+                                "Teknik Servis: memukul bola agar melambung dan melewati net dengan berbagai variasi",
+                                "Pukulan Forehand: pukulan dengan sisi depan raket menghadap ke depan untuk bola dari sisi kanan",
+                                "Pukulan Backhand: pukulan dengan sisi belakang raket menghadap ke depan untuk bola dari sisi kiri",
+                                "Pukulan Topspin: efek putaran ke depan, bola melaju cepat dan tajam untuk menyerang",
+                                "Pukulan Backspin: efek putaran ke belakang, bola melaju rendah untuk pertahanan",
+                                "Teknik Blok: memblokir bola yang datang dengan menyesuaikan sudut raket"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-tm-1",
+                    "question": "Apa singkatan dari induk organisasi tenis meja dunia?",
+                    "answer": "ITTF (International Table Tennis Federation)"
+                },
+                {
+                    "id": "fc-tm-2",
+                    "question": "Apa singkatan dari induk organisasi tenis meja nasional Indonesia?",
+                    "answer": "PTMSI (Persatuan Tenis Meja Seluruh Indonesia)"
+                },
+                {
+                    "id": "fc-tm-3",
+                    "question": "Apa yang dimaksud dengan shakehand grip?",
+                    "answer": "Cara memegang bet tenis meja seperti sedang berjabat tangan, merupakan grip yang paling umum digunakan"
+                },
+                {
+                    "id": "fc-tm-4",
+                    "question": "Apa yang dimaksud dengan penhold grip?",
+                    "answer": "Cara memegang bet tenis meja seperti memegang pena"
+                },
+                {
+                    "id": "fc-tm-5",
+                    "question": "Apa perbedaan pukulan topspin dan backspin?",
+                    "answer": "Topspin memberikan efek putaran ke depan sehingga bola melaju cepat dan tajam (untuk menyerang), sedangkan backspin memberikan efek putaran ke belakang sehingga bola melaju rendah (untuk pertahanan)"
+                },
+                {
+                    "id": "fc-tm-6",
+                    "question": "Bahan apa yang digunakan untuk membuat bet tenis meja?",
+                    "answer": "Kayu yang dilapisi dengan karet"
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-tm-1",
+                        "type": "multiple_choice",
+                        "question": "Induk organisasi tenis meja tingkat dunia adalah?",
+                        "options": [
+                            "PTMSI",
+                            "ITTF",
+                            "FIFA",
+                            "BWF"
+                        ],
+                        "answer": 1,
+                        "explanation": "ITTF (International Table Tennis Federation) adalah induk organisasi tenis meja tingkat dunia."
+                    },
+                    {
+                        "id": "q-tm-2",
+                        "type": "multiple_choice",
+                        "question": "Cara memegang bet tenis meja yang paling umum digunakan adalah?",
+                        "options": [
+                            "Penhold grip",
+                            "Seemiller grip",
+                            "Shakehand grip",
+                            "Backhand grip"
+                        ],
+                        "answer": 2,
+                        "explanation": "Shakehand grip (memegang bet seperti berjabat tangan) adalah grip yang paling umum digunakan dalam tenis meja."
+                    },
+                    {
+                        "id": "q-tm-3",
+                        "type": "multiple_choice",
+                        "question": "Pukulan yang memberikan efek putaran ke depan sehingga bola melaju cepat dan tajam disebut?",
+                        "options": [
+                            "Backspin",
+                            "Topspin",
+                            "Sidespin",
+                            "Blok"
+                        ],
+                        "answer": 1,
+                        "explanation": "Topspin adalah pukulan dengan efek putaran ke depan yang membuat bola melaju cepat dan tajam, digunakan untuk menyerang."
+                    },
+                    {
+                        "id": "q-tm-4",
+                        "type": "multiple_choice",
+                        "question": "Teknik memblokir bola yang datang dari lawan tanpa gerakan rumit dalam tenis meja disebut?",
+                        "options": [
+                            "Smash",
+                            "Topspin",
+                            "Blok",
+                            "Servis"
+                        ],
+                        "answer": 2,
+                        "explanation": "Teknik blok adalah teknik memblokir bola yang datang dari lawan dengan menyesuaikan sudut raket tanpa gerakan yang rumit."
+                    },
+                    {
+                        "id": "q-tm-5",
+                        "type": "multiple_choice",
+                        "question": "Cara memegang bet tenis meja seperti memegang pena disebut?",
+                        "options": [
+                            "Shakehand grip",
+                            "Penhold grip",
+                            "Seemiller grip",
+                            "Forehand grip"
+                        ],
+                        "answer": 1,
+                        "explanation": "Penhold grip adalah cara memegang bet tenis meja seperti memegang pena."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "lari-jarak-jauh",
+            "title": "Lari Jarak Jauh",
+            "description": "Teknik, strategi, dan cara memasuki garis finish dalam lari jarak jauh",
+            "lessons": [
+                {
+                    "id": "ljj-teknik",
+                    "title": "Teknik Lari Jarak Jauh",
+                    "estMinutes": 15,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Lari Jarak Jauh",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Lari jarak jauh atau marathon adalah cabang lari yang mengutamakan ketahanan fisik. Lari jarak jauh menempuh jarak 5.000 meter, 10.000 meter, dan 42.195 meter (marathon penuh). Saat berlari jarak jauh, tubuh secara alami membutuhkan lebih banyak oksigen, sehingga paru-paru bekerja lebih keras. Pola pernapasan yang efisien sangat penting agar pelari bisa mendapatkan oksigen yang cukup ke otot, sehingga meningkatkan daya tahan."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Nomor Lari Jarak Jauh",
+                            "level": 2
+                        },
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Jarak",
+                                "Keterangan"
+                            ],
+                            "rows": [
+                                [
+                                    "5.000 meter (5K)",
+                                    "Lari jarak jauh pendek"
+                                ],
+                                [
+                                    "10.000 meter (10K)",
+                                    "Lari jarak jauh menengah"
+                                ],
+                                [
+                                    "42.195 meter",
+                                    "Marathon penuh (Full Marathon)"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Cara Memasuki Garis Finish",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Mencondongkan Dada ke Depan (The Lunge): condongkan dada ke depan sambil mengayunkan kedua tangan ke belakang untuk mendorong tubuh maju",
+                                "Memutar Badan dan Membusungkan Salah Satu Bahu: agar bahu lebih cepat menyentuh garis finish saat persaingan ketat",
+                                "Menundukkan Kepala: agar dada mencapai garis finish terlebih dahulu",
+                                "Tetap Berlari dengan Kecepatan Maksimal: tidak memperlambat langkah saat mendekati garis finish"
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Kunci Sukses Lari Jarak Jauh",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Teknik pernapasan yang efisien selama berlari",
+                                "Pola langkah yang konsisten dan ekonomis",
+                                "Strategi pengaturan tempo (pacing) yang baik",
+                                "Ketahanan fisik yang tinggi melalui latihan rutin",
+                                "Nutrisi dan hidrasi yang tepat sebelum dan selama berlari"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-ljj-1",
+                    "question": "Berapa jarak yang ditempuh pada lari marathon penuh?",
+                    "answer": "42.195 meter"
+                },
+                {
+                    "id": "fc-ljj-2",
+                    "question": "Sebutkan nomor lari jarak jauh dalam atletik!",
+                    "answer": "5.000 meter, 10.000 meter, dan 42.195 meter (marathon)"
+                },
+                {
+                    "id": "fc-ljj-3",
+                    "question": "Teknik memasuki garis finish dengan mencondongkan dada ke depan disebut?",
+                    "answer": "The Lunge"
+                },
+                {
+                    "id": "fc-ljj-4",
+                    "question": "Mengapa pernapasan penting dalam lari jarak jauh?",
+                    "answer": "Karena otot-otot membutuhkan lebih banyak oksigen saat beraktivitas fisik, dan pola pernapasan yang efisien meningkatkan daya tahan serta memungkinkan berlari lebih jauh"
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-ljj-1",
+                        "type": "multiple_choice",
+                        "question": "Berapa jarak lari marathon penuh?",
+                        "options": [
+                            "10.000 meter",
+                            "21.097 meter",
+                            "42.195 meter",
+                            "50.000 meter"
+                        ],
+                        "answer": 2,
+                        "explanation": "Jarak lari marathon penuh adalah 42.195 meter."
+                    },
+                    {
+                        "id": "q-ljj-2",
+                        "type": "multiple_choice",
+                        "question": "Manakah yang BUKAN termasuk nomor lari jarak jauh?",
+                        "options": [
+                            "5.000 meter",
+                            "10.000 meter",
+                            "42.195 meter",
+                            "1.500 meter"
+                        ],
+                        "answer": 3,
+                        "explanation": "1.500 meter adalah nomor lari jarak menengah, bukan lari jarak jauh."
+                    },
+                    {
+                        "id": "q-ljj-3",
+                        "type": "multiple_choice",
+                        "question": "Teknik memasuki garis finish dengan mencondongkan dada ke depan sambil mengayunkan tangan ke belakang disebut?",
+                        "options": [
+                            "The Drive",
+                            "The Push",
+                            "The Lunge",
+                            "The Lean"
+                        ],
+                        "answer": 2,
+                        "explanation": "Teknik mencondongkan dada ke depan saat finish dikenal dengan istilah 'The Lunge'."
+                    },
+                    {
+                        "id": "q-ljj-4",
+                        "type": "multiple_choice",
+                        "question": "Apa yang membuat lari jarak jauh berbeda dari lari jarak pendek?",
+                        "options": [
+                            "Menggunakan kecepatan penuh",
+                            "Mengutamakan ketahanan fisik dan pengaturan tempo",
+                            "Menggunakan start jongkok",
+                            "Menggunakan lintasan khusus"
+                        ],
+                        "answer": 1,
+                        "explanation": "Lari jarak jauh mengutamakan ketahanan fisik (endurance) dan pengaturan tempo yang baik, berbeda dengan lari jarak pendek yang menggunakan kecepatan penuh."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "senam-irama",
+            "title": "Senam Irama",
+            "description": "Unsur-unsur senam irama dan gerakannya yang selaras dengan musik",
+            "lessons": [
+                {
+                    "id": "irama-dasar",
+                    "title": "Pengertian dan Unsur Senam Irama",
+                    "estMinutes": 15,
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Pengertian Senam Irama",
+                            "level": 1
+                        },
+                        {
+                            "type": "text",
+                            "text": "Senam irama (senam ritmik) adalah gerak latihan yang dilakukan dengan iringan musik atau irama. Senam irama merupakan salah satu dari enam kategori kelompok senam, bersama senam artistik, senam akrobatik, senam aerobic sport, senam trampolin, dan senam ritmik."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Unsur-Unsur Senam Irama",
+                            "level": 2
+                        },
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Unsur",
+                                "Pengertian"
+                            ],
+                            "rows": [
+                                [
+                                    "Kelentukan",
+                                    "Kemampuan otot dan sendi untuk gerakan dengan jangkauan penuh tanpa hambatan"
+                                ],
+                                [
+                                    "Keseimbangan",
+                                    "Kemampuan menjaga posisi tubuh stabil saat melakukan gerakan atau pose tertentu"
+                                ],
+                                [
+                                    "Keluwesan",
+                                    "Kemampuan melakukan gerakan tubuh secara lembut dan tidak kaku"
+                                ],
+                                [
+                                    "Fleksibilitas",
+                                    "Kemampuan otot dan sendi meregang untuk mencapai jangkauan gerakan tertentu"
+                                ],
+                                [
+                                    "Kontinuitas",
+                                    "Aliran gerakan yang lancar dan tidak terputus antar gerakan"
+                                ],
+                                [
+                                    "Ketepatan",
+                                    "Presisi dalam menjalankan gerakan sesuai instruksi dan ritme musik"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Ciri Khas Senam Irama",
+                            "level": 2
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Setiap gerak senam irama diawali dan diakhiri dengan sikap sempurna",
+                                "Membutuhkan kekompakan antar pesenam",
+                                "Gerakan harus selaras dan harmonis dengan iringan musik",
+                                "Mengutamakan keindahan gerak"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "flashcards": [
+                {
+                    "id": "fc-si-1",
+                    "question": "Apa yang dimaksud dengan senam irama?",
+                    "answer": "Gerak latihan yang dilakukan dengan iringan musik atau irama"
+                },
+                {
+                    "id": "fc-si-2",
+                    "question": "Sebutkan enam kategori kelompok senam!",
+                    "answer": "Senam artistik, senam akrobatik, senam aerobic sport, senam trampolin, senam ritmik (irama), dan satu lainnya"
+                },
+                {
+                    "id": "fc-si-3",
+                    "question": "Apa yang dimaksud dengan unsur kontinuitas dalam senam irama?",
+                    "answer": "Aliran gerakan yang lancar dan tidak terputus, sehingga setiap gerakan mengikuti dengan harmonis"
+                },
+                {
+                    "id": "fc-si-4",
+                    "question": "Apa yang dimaksud dengan unsur keluwesan dalam senam irama?",
+                    "answer": "Kemampuan melakukan gerakan tubuh secara lembut dan tidak kaku sehingga aliran gerak dapat berjalan dengan indah"
+                },
+                {
+                    "id": "fc-si-5",
+                    "question": "Bagaimana setiap gerak dalam senam irama dimulai dan diakhiri?",
+                    "answer": "Diawali dan diakhiri dengan sikap sempurna"
+                }
+            ],
+            "quiz": {
+                "questions": [
+                    {
+                        "id": "q-si-1",
+                        "type": "multiple_choice",
+                        "question": "Senam irama adalah gerak latihan yang dilakukan dengan?",
+                        "options": [
+                            "Tanpa alat apapun",
+                            "Iringan musik atau irama",
+                            "Menggunakan matras",
+                            "Menggunakan tongkat"
+                        ],
+                        "answer": 1,
+                        "explanation": "Senam irama secara umum diartikan sebagai gerak latihan yang dilakukan dengan iringan musik atau irama."
+                    },
+                    {
+                        "id": "q-si-2",
+                        "type": "multiple_choice",
+                        "question": "Unsur senam irama yang menekankan aliran gerakan yang lancar dan tidak terputus disebut?",
+                        "options": [
+                            "Kelentukan",
+                            "Keseimbangan",
+                            "Kontinuitas",
+                            "Ketepatan"
+                        ],
+                        "answer": 2,
+                        "explanation": "Kontinuitas menekankan aliran gerakan yang lancar dan tidak terputus dalam senam irama."
+                    },
+                    {
+                        "id": "q-si-3",
+                        "type": "multiple_choice",
+                        "question": "Senam irama termasuk dalam kelompok senam?",
+                        "options": [
+                            "Senam artistik",
+                            "Senam akrobatik",
+                            "Senam ritmik",
+                            "Senam trampolin"
+                        ],
+                        "answer": 2,
+                        "explanation": "Senam irama dikenal juga dengan nama senam ritmik."
+                    },
+                    {
+                        "id": "q-si-4",
+                        "type": "multiple_choice",
+                        "question": "Kemampuan otot dan sendi untuk melakukan gerakan dengan jangkauan penuh tanpa hambatan dalam senam irama disebut?",
+                        "options": [
+                            "Keseimbangan",
+                            "Kelentukan",
+                            "Koordinasi",
+                            "Ketepatan"
+                        ],
+                        "answer": 1,
+                        "explanation": "Kelentukan adalah kemampuan otot dan sendi untuk memungkinkan gerakan tubuh dengan jangkauan penuh dan tanpa hambatan."
+                    }
+                ]
+            }
+        }
+    ]
+}

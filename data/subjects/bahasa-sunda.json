@@ -1,662 +1,1844 @@
 {
-  "id": "bahasa-sunda",
+  "id": "bahasa-sunda-smp",
   "name": "Bahasa Sunda",
-  "description": "Basa indung — undak usuk, sastra, jeung budaya Sunda",
+  "description": "Mata pelajaran Bahasa Sunda untuk SMP kelas 7–9, mencakup kawih, dongeng, sajak, wawancara, carita pondok, warta, dan aksara Sunda. Dirancang untuk memperkuat kemampuan menyimak, berbicara, membaca, dan menulis dalam Bahasa Sunda.",
   "grade": [
     7,
     8,
     9
   ],
-  "icon": "Languages",
+  "icon": "🌿",
   "color": "soft",
   "topics": [
     {
-      "id": "undak-usuk",
-      "title": "Undak Usuk Basa",
-      "description": "Tingkatan bahasa Sunda menurut lawan bicara",
-      "lessons": [
-        {
-          "id": "tingkatan-basa",
-          "title": "Basa Lemes jeung Basa Loma",
-          "estMinutes": 8,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Undak Usuk Basa Sunda"
-            },
-            {
-              "type": "text",
-              "text": "Undak usuk basa nyaéta tingkatan basa Sunda anu dipaké dumasar kana saha lawan nyarita. Aya basa lemes jeung basa loma."
-            },
-            {
-              "type": "table",
-              "headers": [
-                "Indonesia",
-                "Loma (akrab)",
-                "Lemes (hormat)"
-              ],
-              "rows": [
-                [
-                  "Saya",
-                  "Urang / Aing",
-                  "Abdi"
-                ],
-                [
-                  "Kamu",
-                  "Manéh / Sia",
-                  "Anjeun"
-                ],
-                [
-                  "Dia",
-                  "Manéhna",
-                  "Anjeunna"
-                ],
-                [
-                  "Makan",
-                  "Dahar",
-                  "Tuang"
-                ],
-                [
-                  "Minum",
-                  "Nginum",
-                  "Leueut"
-                ],
-                [
-                  "Tidur",
-                  "Sare",
-                  "Kulem"
-                ],
-                [
-                  "Rumah",
-                  "Imah",
-                  "Bumi"
-                ],
-                [
-                  "Pergi",
-                  "Indit",
-                  "Angkat"
-                ],
-                [
-                  "Datang",
-                  "Datang",
-                  "Sumping"
-                ],
-                [
-                  "Berbicara",
-                  "Ngomong",
-                  "Nyarios"
-                ]
-              ]
-            },
-            {
-              "type": "highlight",
-              "text": "Basa lemes dipaké ka jalma sepuh, guru, atawa nu dihormat. Basa loma dipaké ka batur sapantar."
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc1",
-          "question": "Basa lemes tina 'makan'?",
-          "answer": "Tuang"
-        },
-        {
-          "id": "fc2",
-          "question": "Basa lemes tina 'rumah'?",
-          "answer": "Bumi"
-        },
-        {
-          "id": "fc3",
-          "question": "Basa lemes tina 'saya'?",
-          "answer": "Abdi"
-        },
-        {
-          "id": "fc4",
-          "question": "Basa lemes tina 'datang'?",
-          "answer": "Sumping"
-        },
-        {
-          "id": "fc5",
-          "question": "Iraha ngagunakeun basa lemes?",
-          "answer": "Ka jalma sepuh, guru, atawa nu dihormat"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q1",
-            "type": "multiple_choice",
-            "question": "Basa lemes tina 'indit' nyaéta?",
-            "options": [
-              "Datang",
-              "Angkat",
-              "Mulang",
-              "Cicing"
-            ],
-            "answer": 1,
-            "explanation": ""
-          },
-          {
-            "id": "q2",
-            "type": "multiple_choice",
-            "question": "Pikeun nyarita ka guru, urang kudu maké basa?",
-            "options": [
-              "Loma",
-              "Lemes",
-              "Kasar",
-              "Bébas"
-            ],
-            "answer": 1,
-            "explanation": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "kawih",
+      "id": "kawih-sunda",
       "title": "Kawih Sunda",
-      "description": "Lagu Sunda nu teu kaiket ku aturan",
+      "description": "Mempelajari kawih (lagu) Sunda: pengertian, struktur, jenis, unsur intrinsik dan ekstrinsik, serta rumpaka kawih.",
       "lessons": [
         {
-          "id": "struktur-kawih",
-          "title": "Struktur jeung Unsur Kawih",
-          "estMinutes": 10,
+          "id": "kawih-lesson-1",
+          "title": "Pengertian dan Jenis-Jenis Kawih",
+          "estMinutes": 20,
           "content": [
             {
               "type": "heading",
-              "text": "Kawih Sunda"
+              "text": "Naon Ari Kawih Sunda?",
+              "level": 1
             },
             {
               "type": "text",
-              "text": "Kawih nyaéta lagu Sunda anu teu kaiket ku aturan (teu kauger), ngandung unsur seni jeung sastra."
+              "text": "Kawih nyaéta lagu sunda anu teu kauger (terikat) ku aturan pupuh atawa tembang. Kawih boga unsur seni jeung sastra, sarta bisa dinyanyikeun ku saha waé boh kolot, boh barudak. Ieu hal anu ngabédakeun kawih ti tembang anu kauger ku aturan guru wilangan, guru lagu, jeung watek."
             },
             {
               "type": "heading",
-              "level": 2,
-              "text": "Struktur Kawih"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Jejer (Tema) — pokok pikiran kawih",
-                "Nada/Suasana — kaayaan anu karasa",
-                "Rasa — sikep pangarang",
-                "Amanat — pesen anu ditepikeun"
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Unsur Kawih"
+              "text": "Bedana Kawih jeung Tembang",
+              "level": 2
             },
             {
               "type": "table",
               "headers": [
-                "Unsur Intrinsik",
-                "Unsur Ekstrinsik"
+                "Aspék",
+                "Kawih",
+                "Tembang"
               ],
               "rows": [
                 [
-                  "Tema, rasa, nada, amanat",
-                  "Latar belakang pencipta"
+                  "Aturan",
+                  "Teu kauger ku aturan",
+                  "Kauger ku aturan pupuh"
                 ],
                 [
-                  "Rumpaka (lirik)",
-                  "Kondisi sosial budaya"
+                  "Nada/Irama",
+                  "Bébas",
+                  "Ngikutan watek pupuh"
+                ],
+                [
+                  "Palaku",
+                  "Saha waé bisa nyanyi",
+                  "Perlu latihan khusus"
+                ],
+                [
+                  "Contoh",
+                  "Sabilulungan, Budak Jalanan",
+                  "Kinanti, Asmarandana"
                 ]
               ]
             },
             {
               "type": "heading",
-              "level": 2,
-              "text": "Jenis Kawih"
+              "text": "Jenis-Jenis Kawih",
+              "level": 2
             },
             {
               "type": "list",
               "items": [
-                "Kawih Buhun — kawih lama, saacana jaman Jepang",
-                "Kawih Jaman Jepang — muncul saat pendudukan Jepang",
-                "Kawih Kiwari — kawih modern/masa kini",
-                "Kakawihan Barudak — lagu kaulinan anak-anak"
+                "Kawih Buhun – kawih jaman baheula, saacan jaman Jepang. Contoh: Pileuleuyan, Es Lilin.",
+                "Kawih Jaman Jepang – diciptakeun nalika jaman penjajahan Jepang. Contoh: Karatagan Pahlawan (Koko Koswara).",
+                "Kawih Kiwari – kawih jaman kiwari / modern. Contoh: Budak Jalanan, Mojang Priangan.",
+                "Kakawihan Barudak – kawih kaulinan anu dinyanyikeun ku barudak. Contoh: Oray-Orayan, Trang-Trang Kolentrang."
               ]
             },
             {
-              "type": "highlight",
-              "text": "Rumpaka = lirik atawa kekecapan dina kawih."
+              "type": "text",
+              "text": "Catetan penting: Eundeuk-Eundeukan LAIN kaasup kakawihan barudak sabab leuwih asup kana kawih pupujian (pujian keagamaan). Sabilulungan ogé lain kakawihan barudak sabab eusina ngeunaan persatuan urang Sunda."
             }
           ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc1",
-          "question": "Naon hartina kawih?",
-          "answer": "Lagu Sunda nu teu kaiket ku aturan, ngandung unsur seni jeung sastra"
         },
         {
-          "id": "fc2",
-          "question": "Naon anu disebut rumpaka?",
-          "answer": "Lirik atawa kekecapan dina kawih"
-        },
-        {
-          "id": "fc3",
-          "question": "Struktur kawih?",
-          "answer": "Jejer, nada/suasana, rasa, amanat"
-        },
-        {
-          "id": "fc4",
-          "question": "Kawih Buhun nyaéta?",
-          "answer": "Kawih lama, saacana jaman Jepang"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q1",
-            "type": "multiple_choice",
-            "question": "Nu dimaksud rumpaka téh nyaéta?",
-            "options": [
-              "Lirik",
-              "Melodi",
-              "Irama",
-              "Nada"
-            ],
-            "answer": 0,
-            "explanation": ""
-          },
-          {
-            "id": "q2",
-            "type": "multiple_choice",
-            "question": "Kawih kabagi jadi dua unsur nyaéta?",
-            "options": [
-              "Buhun jeung kiwari",
-              "Intrinsik jeung ekstrinsik",
-              "Tema jeung amanat",
-              "Rasa jeung nada"
-            ],
-            "answer": 1,
-            "explanation": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "kawih-populer",
-      "title": "Kawih-Kawih Populer",
-      "description": "Analisis kawih Sunda terkenal",
-      "lessons": [
-        {
-          "id": "kawih-terkenal",
-          "title": "Kawih Sunda Populer",
-          "estMinutes": 8,
+          "id": "kawih-lesson-2",
+          "title": "Struktur jeung Unsur Kawih",
+          "estMinutes": 25,
           "content": [
             {
               "type": "heading",
-              "text": "Kawih-Kawih Sunda Populer"
+              "text": "Struktur Kawih Sunda",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Kawih miboga struktur anu ngawangun eta lagu supaya boga harti anu jero jeung matak ngahudang rasa nu ngaregepkeunana. Struktur kawih diwangun ku opat unsur utama."
             },
             {
               "type": "table",
               "headers": [
-                "Judul Kawih",
-                "Pencipta",
-                "Tema/Amanat"
-              ],
-              "rows": [
-                [
-                  "Sabilulungan",
-                  "-",
-                  "Hirup sauyunan (hidup rukun/bersatu)"
-                ],
-                [
-                  "Karatagan Pahlawan",
-                  "Koko Koswara",
-                  "Penghormatan kepada pahlawan"
-                ],
-                [
-                  "Tanah Sunda",
-                  "-",
-                  "Bangga akan tanah Sunda yang indah"
-                ],
-                [
-                  "Mojang Priangan",
-                  "-",
-                  "Keindahan gadis Priangan"
-                ],
-                [
-                  "Pahlawan Toha",
-                  "-",
-                  "Perjuangan Muhamad Toha"
-                ],
-                [
-                  "Bubuy Bulan",
-                  "-",
-                  "Kawih Sunda klasik"
-                ]
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Kawih Pahlawan Toha"
-            },
-            {
-              "type": "quote",
-              "text": "Getih suci nyiram bumi / Tulang setra mulang lemah / Babakti nyungkem pertiwi",
-              "translation": "Darah suci menyiram bumi / Tulang belulang kembali ke tanah / Berbakti menyembah pertiwi"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Tema: Perjuangan Muhamad Toha",
-                "Jenis: Kawih Pupujian (penghormatan)",
-                "Latar sejarah: Bandung Lautan Api"
-              ]
-            },
-            {
-              "type": "highlight",
-              "text": "Amanat kawih 'Sabilulungan': hirup sauyunan (hidup rukun, bersatu)."
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc1",
-          "question": "Amanat kawih Sabilulungan?",
-          "answer": "Hirup sauyunan (hidup rukun/bersatu)"
-        },
-        {
-          "id": "fc2",
-          "question": "Siapa pencipta Karatagan Pahlawan?",
-          "answer": "Koko Koswara"
-        },
-        {
-          "id": "fc3",
-          "question": "Kawih Pahlawan Toha nyaritakeun?",
-          "answer": "Perjuangan Muhamad Toha (Bandung Lautan Api)"
-        },
-        {
-          "id": "fc4",
-          "question": "Eusi kawih Tanah Sunda?",
-          "answer": "Bangga akan tanah Sunda yang indah dan subur"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q1",
-            "type": "multiple_choice",
-            "question": "Kawih Pahlawan Toha mangrupa pangéling-ngéling kana kajadian?",
-            "options": [
-              "Perang Padri",
-              "Bandung Lautan Api",
-              "Agresi Militer",
-              "Serangan Umum"
-            ],
-            "answer": 1,
-            "explanation": ""
-          },
-          {
-            "id": "q2",
-            "type": "multiple_choice",
-            "question": "Lagu Karatagan Pahlawan diciptakeun ku?",
-            "options": [
-              "Ismail Marzuki",
-              "Koko Koswara",
-              "Mang Koko",
-              "Nining Meida"
-            ],
-            "answer": 1,
-            "explanation": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "gaya-basa",
-      "title": "Gaya Bahasa Sunda",
-      "description": "Majas dina sastra Sunda",
-      "lessons": [
-        {
-          "id": "majas-sunda",
-          "title": "Gaya Bahasa dina Sastra Sunda",
-          "estMinutes": 8,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Gaya Bahasa (Majas)"
-            },
-            {
-              "type": "table",
-              "headers": [
-                "Majas",
-                "Harti",
+                "Unsur Struktur",
+                "Penjelasan",
                 "Conto"
               ],
               "rows": [
                 [
-                  "Personifikasi",
-                  "Barang teu nyawa diupamakeun siga jelema",
-                  "Angin ngahariring (angin bernyanyi)"
+                  "Jejer / Tema",
+                  "Pokok pikiran utama anu dicaritakeun dina kawih",
+                  "Kawih Sabilulungan: tema persatuan"
                 ],
                 [
-                  "Metafora",
-                  "Ngabandingkeun langsung tanpa kecap pangbandingan",
-                  "Hirupna saperti mimpi"
+                  "Nada / Suasana",
+                  "Sikep pangarang ka pokok masalah dina kawih (kritis, gembira, sedih)",
+                  "Kawih Pahlawan Toha: nada kagum jeung sedih"
                 ],
                 [
-                  "Hiperbola",
-                  "Lebih-lebihan",
-                  "Cimata ngocor saperti walungan"
+                  "Rasa",
+                  "Sikep anu nulis rumpaka nu karasa ku nu maca (sedih, bungah, nalangsa)",
+                  "Kawih Mojang Priangan: rasa reueus"
                 ],
                 [
-                  "Litotes",
-                  "Ngaleutikan ti kanyataan",
-                  "Abdi mah jalmi leutik"
+                  "Amanat",
+                  "Pesan atawa anjuran ti pangarang keur nu maca/ngadéngékeun",
+                  "Sabilulungan: hirup sauyunan, silih bantuan"
                 ]
               ]
             },
             {
               "type": "heading",
-              "level": 2,
-              "text": "Conto dina Kawih"
+              "text": "Unsur Intrinsik jeung Ekstrinsik",
+              "level": 2
             },
             {
               "type": "list",
               "items": [
-                "Personifikasi: 'Bulan jeung bentang padang caang' (bulan dan bintang terang)",
-                "Hiperbola: 'Halodo panjang, sawah patinggarenclang' (kemarau panjang, sawah retak)",
-                "Metafora: 'Mojang Priangan nu geulis kawanti-wanti'"
+                "Unsur Intrinsik – unsur anu aya di jero kawih éta sorangan: tema, nada, rasa, amanat, rumpaka (lirik), jeung gaya bahasa.",
+                "Unsur Ekstrinsik – unsur anu aya di luareun kawih: latar belakang pangarang, kondisi sosial, jeung jaman diciptakeunana."
               ]
             },
             {
-              "type": "highlight",
-              "text": "Personifikasi: barang henteu nyawa diupamakeun boga polah cara jelema."
+              "type": "heading",
+              "text": "Gaya Bahasa dina Kawih",
+              "level": 2
+            },
+            {
+              "type": "list",
+              "items": [
+                "Personifikasi – barang anu teu nyawaan diupamakeun boga polah cara jelma. Contoh: 'Bulan téh seuri ka awak kuring'.",
+                "Metafora – ngabandingkeun dua hal sacara langsung tanpa kecap 'saperti'. Contoh: 'Anjeun téh cahaya hatiku'.",
+                "Hiperbola – ngabédakeun hiji hal kalayan kaleuleuwihan. Contoh: 'Cai mata kuring ngabanjiran jagat'.",
+                "Litotes – ngahina diri sorangan. Contoh: 'Mugi gusti kersa narima bakti abdi anu teu sakumaha ieu'."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kawih-lesson-3",
+          "title": "Rumpaka Kawih jeung Analisis",
+          "estMinutes": 30,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Rumpaka Kawih",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Rumpaka kawih nyaéta lirik atawa kecap-kecap anu aya dina hiji kawih. Rumpaka mangrupa ungkapan perasaan, pikiran, jeung pangalaman pangarang anu dituangkeun kana wangun lirik kawih. Naon bedana rumpaka jeung sajak? Rumpaka mangrupakeun lirik anu diparengan ku irama/lagu, sedengkeun sajak nyaéta puisi anu teu merta diparengan ku lagu."
+            },
+            {
+              "type": "heading",
+              "text": "Analisis Kawih 'Pahlawan Toha'",
+              "level": 2
+            },
+            {
+              "type": "text",
+              "text": "Kawih 'Pahlawan Toha' mangrupakeun kawih pangeling-ngeling kana kajadian Bandung Lautan Api. Muhamad Toha nyaéta pahlawan ti Dayeuh Kolot, Bandung Selatan, anu gugur dina kajadian éta."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pada ka-1: nyaritakeun sumanget patriotisme Muhamad Toha anu rela korban jiwa raga keur lemah caina. 'Getih suci nyiram bumi, Tulang setra mulang lemah' hartina anjeunna korban jiwa raga keur tanah air.",
+                "Pada ka-2: nyaritakeun saha jatidiri Muhamad Toha salaku Pahlawan Bandung Selatan ti Dayeuh Kolot.",
+                "Pada ka-3: ngagunakeun simbol 'Tarate nu mangkak' (bunga teratai yang mekar) dina empang keur ngalambangkeun gugurna pahlawan bangsa.",
+                "Tema: Perjoangan / Perjuangan Muhamad Toha",
+                "Nilik kana eusina, ieu kawih kaasup kana kawih Pupujian (pahlawan).",
+                "Kajadian anu diréngkénah: Bandung Lautan Api"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Kawih Sabilulungan – Amanat",
+              "level": 2
+            },
+            {
+              "type": "list",
+              "items": [
+                "Urang kudu hirup sauyunan (bersatu)",
+                "Silih bantuan antar sasama",
+                "Silih pikanyaah (saling menyayangi)",
+                "NU LAIN amanat Sabilulungan: papaseaan (bertengkar / berselisih)"
+              ]
             }
           ]
         }
       ],
       "flashcards": [
         {
-          "id": "fc1",
-          "question": "Naon anu disebut personifikasi?",
-          "answer": "Barang teu nyawa diupamakeun siga jelema"
+          "id": "fc-kawih-1",
+          "question": "Naon watesan kawih Sunda?",
+          "answer": "Lagu Sunda anu teu kauger ku aturan, boga unsur seni jeung sastra, bisa dinyanyikeun ku saha waé."
         },
         {
-          "id": "fc2",
-          "question": "Conto hiperbola?",
-          "answer": "Cimata ngocor saperti walungan"
+          "id": "fc-kawih-2",
+          "question": "Sebutkeun 4 unsur struktur kawih!",
+          "answer": "Jejer/Tema, Nada/Suasana, Rasa, jeung Amanat."
         },
         {
-          "id": "fc3",
-          "question": "Naon hartina litotes?",
-          "answer": "Ngaleutikan ti kanyataan (merendahkan)"
+          "id": "fc-kawih-3",
+          "question": "Naon ari rumpaka kawih?",
+          "answer": "Rumpaka kawih nyaéta lirik atawa kecap-kecap anu aya dina hiji kawih."
         },
         {
-          "id": "fc4",
-          "question": "Metafora nyaéta?",
-          "answer": "Ngabandingkeun langsung tanpa kecap pangbandingan"
+          "id": "fc-kawih-4",
+          "question": "Saha nu nyiptakeun kawih Karatagan Pahlawan?",
+          "answer": "Koko Koswara"
+        },
+        {
+          "id": "fc-kawih-5",
+          "question": "Naon bedana kawih jeung tembang?",
+          "answer": "Kawih teu kauger ku aturan, sedengkeun Tembang kauger ku aturan pupuh (guru wilangan, guru lagu, watek)."
+        },
+        {
+          "id": "fc-kawih-6",
+          "question": "Gaya bahasa naon nu ngagantikeun barang teu nyawaan siga polah jelma?",
+          "answer": "Personifikasi"
+        },
+        {
+          "id": "fc-kawih-7",
+          "question": "Kawih Pahlawan Toha nyaritakeun kajadian naon?",
+          "answer": "Bandung Lautan Api"
+        },
+        {
+          "id": "fc-kawih-8",
+          "question": "Sebutkeun 3 conto kakawihan barudak!",
+          "answer": "Oray-Orayan, Trang-Trang Kolentrang, Cingcangkeling."
+        },
+        {
+          "id": "fc-kawih-9",
+          "question": "Anu lain kaasup kakawihan barudak nyaéta…?",
+          "answer": "Sabilulungan (mangrupa kawih pupujian/persatuan, lain kaulinan barudak)."
+        },
+        {
+          "id": "fc-kawih-10",
+          "question": "Naon amanat kawih Sabilulungan?",
+          "answer": "Urang kudu hirup sauyunan, silih bantuan, jeung silih pikanyaah."
         }
       ],
       "quiz": {
         "questions": [
           {
-            "id": "q1",
+            "id": "q-kawih-1",
             "type": "multiple_choice",
-            "question": "Gaya bahasa 'angin ngahariring' nyaéta?",
+            "question": "Struktur kawih nyaéta...",
             "options": [
-              "Metafora",
-              "Personifikasi",
-              "Hiperbola",
-              "Litotes"
+              "Jejer/Tema, Nada/Suasana, Rasa jeung Amanat",
+              "Jejer/tema, Irama, Lirik jeung Bahasa",
+              "Irama, Nada, Amanat jeung Ketukan",
+              "Tema, Suasana, Topografi jeung Amanat"
             ],
-            "answer": 1,
-            "explanation": ""
+            "answer": 0,
+            "explanation": "Struktur kawih diwangun ku 4 unsur: Jejer/Tema (pokok pikiran), Nada/Suasana (sikep pangarang), Rasa (kaayaan haté), jeung Amanat (pesan)."
           },
           {
-            "id": "q2",
+            "id": "q-kawih-2",
             "type": "multiple_choice",
-            "question": "Gaya bahasa nu ngalebih-lebihkeun nyaéta?",
+            "question": "Nu kaasup kakawihan barudak, iwal (kecuali)…",
             "options": [
-              "Personifikasi",
+              "Oray-Orayan",
+              "Eundeuk-Eundeukan",
+              "Trang-Trang Kolentrang",
+              "Cingcangkeling"
+            ],
+            "answer": 1,
+            "explanation": "Eundeuk-Eundeukan lain kakawihan barudak sabab leuwih asup kana kawih pupujian. Sedengkeun Oray-Orayan, Trang-Trang Kolentrang, jeung Cingcangkeling mangrupa kaulinan barudak."
+          },
+          {
+            "id": "q-kawih-3",
+            "type": "multiple_choice",
+            "question": "Gaya bahasa anu ngagunakeun barang teu nyawaan diupamakeun boga polah cara jelma disebut…",
+            "options": [
               "Metafora",
-              "Hiperbola",
-              "Litotes"
+              "Litotes",
+              "Personifikasi",
+              "Hiperbola"
             ],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Personifikasi nyaéta gaya bahasa anu ngagunakeun barang atawa mahluk teu nyawaan siga miboga sipat/polah jelma."
+          },
+          {
+            "id": "q-kawih-4",
+            "type": "multiple_choice",
+            "question": "Naon bedana kawih jeung tembang?",
+            "options": [
+              "Kawih teu kauger ku aturan, sedengkeun Tembang kauger",
+              "Kawih kauger ku aturan, sedengkeun Tembang teu kauger",
+              "Duanana kauger ku aturan",
+              "Kawih teu kauger, kitu ogé Tembang teu kauger"
+            ],
+            "answer": 0,
+            "explanation": "Kawih teu kauger (bebas aturan), sedengkeun Tembang kauger ku aturan pupuh nyaéta guru wilangan (jumlah suku kata), guru lagu (vokal akhir), jeung watek (karakter lagu)."
+          },
+          {
+            "id": "q-kawih-5",
+            "type": "multiple_choice",
+            "question": "Saha nu nyiptakeun Kawih Karatagan Pahlawan?",
+            "options": [
+              "Yayat S.",
+              "Koko Koswara",
+              "Ibu Mursih",
+              "R. Machyar"
+            ],
+            "answer": 1,
+            "explanation": "Kawih Karatagan Pahlawan diciptakeun ku Koko Koswara, salah sahiji maestro musik Sunda."
+          },
+          {
+            "id": "q-kawih-6",
+            "type": "multiple_choice",
+            "question": "Kawih Pahlawan Toha mangrupakeun pangeling-ngeling kana kajadian…",
+            "options": [
+              "Kamerdekaan RI",
+              "Bandung Lautan Api",
+              "Perang Diponegoro",
+              "Serangan Umum"
+            ],
+            "answer": 1,
+            "explanation": "Kawih Pahlawan Toha nyaritakeun Muhamad Toha, pahlawan ti Dayeuh Kolot anu gugur dina kajadian Bandung Lautan Api."
+          },
+          {
+            "id": "q-kawih-7",
+            "type": "multiple_choice",
+            "question": "Rumpaka kawih téh hartina…",
+            "options": [
+              "Nada",
+              "Lirik/Kecap-kecap dina kawih",
+              "Sajak",
+              "Tulisan"
+            ],
+            "answer": 1,
+            "explanation": "Rumpaka kawih nyaéta lirik atawa kecap-kecap anu aya dina hiji kawih Sunda."
+          },
+          {
+            "id": "q-kawih-8",
+            "type": "multiple_choice",
+            "question": "Dina kawih Sabilulungan, aya amanat anu teu kaasup nyaéta urang kudu…",
+            "options": [
+              "Sauyunan",
+              "Silih bantuan",
+              "Silih pikanyaah",
+              "Papaseaan"
+            ],
+            "answer": 3,
+            "explanation": "Papaseaan (bertengkar) justru bertentangan dengan amanat Sabilulungan. Amanat kawih éta nyaéta sauyunan, silih bantuan, jeung silih pikanyaah."
+          },
+          {
+            "id": "q-kawih-9",
+            "type": "multiple_choice",
+            "question": "Salah sahiji conto lagu kawih nyaéta…",
+            "options": [
+              "Balonku",
+              "Bubuy Bulan",
+              "Pérépét jéngkol",
+              "Burung kakak tua"
+            ],
+            "answer": 1,
+            "explanation": "Bubuy Bulan nyaéta kawih Sunda anu asli. Balonku, Pérépét jéngkol, jeung Burung Kakak Tua mangrupa lagu anak-anak Indonesia, lain kawih Sunda."
+          },
+          {
+            "id": "q-kawih-10",
+            "type": "multiple_choice",
+            "question": "Unsur kawih kabagi jadi dua nyaéta…",
+            "options": [
+              "Unsur intrinsik jeung ekstrinsik",
+              "Unsur lahir jeung unsur batin",
+              "Unsur sastra jeung unsur seni",
+              "Unsur internal jeung unsur eksternal"
+            ],
+            "answer": 0,
+            "explanation": "Kawih miboga dua unsur: intrinsik (tema, nada, rasa, amanat, rumpaka, gaya bahasa) jeung ekstrinsik (latar belakang pangarang, kondisi sosial)."
           }
         ]
       }
     },
     {
-      "id": "pupuh",
-      "title": "Pupuh Sunda",
-      "description": "17 pupuh dina sastra Sunda",
+      "id": "dongeng-sunda",
+      "title": "Dongeng jeung Carita Rahayat",
+      "description": "Mempelajari dongeng dan cerita rakyat Sunda: jenis-jenis dongeng, unsur intrinsik, nilai moral, dan cara bercerita.",
       "lessons": [
         {
-          "id": "17-pupuh",
-          "title": "17 Pupuh dina Sastra Sunda",
-          "estMinutes": 10,
+          "id": "dongeng-lesson-1",
+          "title": "Pengertian jeung Jenis Dongeng",
+          "estMinutes": 20,
           "content": [
             {
               "type": "heading",
-              "text": "Pupuh dina Sastra Sunda"
+              "text": "Naon Ari Dongeng?",
+              "level": 1
             },
             {
               "type": "text",
-              "text": "Pupuh nyaéta puisi tradisional Sunda anu kauger ku guru wilangan jeung guru lagu. Aya 17 pupuh anu kabagi dua: Sekar Ageung jeung Sekar Alit."
+              "text": "Dongeng nyaéta carita pondok kolektif kasusastraan rakyat anu dianggap teu enya-enya kajadian. Dongeng mangrupa warisan budaya lisan anu ngandung ajaran moral, nilai kahirupan, jeung kearifan lokal. Di tatar Sunda, dongeng mindeng disebut ogé 'carita rahayat' atawa 'legenda'."
             },
             {
               "type": "heading",
-              "level": 2,
-              "text": "Sekar Ageung (4 pupuh)"
+              "text": "Jenis-Jenis Dongeng Sunda",
+              "level": 2
             },
             {
               "type": "table",
               "headers": [
-                "Pupuh",
-                "Watek"
+                "Jenis",
+                "Ciri-Ciri",
+                "Conto"
               ],
               "rows": [
                 [
-                  "Kinanti",
-                  "Silih asih, prihatin"
+                  "Mite",
+                  "Nyaritakeun mahluk gaib, dewa, kasakten; dipercaya enya kajadian ku masarakat",
+                  "Sanghyang Déwata Sunda"
                 ],
                 [
-                  "Sinom",
-                  "Gumbira, senang"
+                  "Legenda",
+                  "Nyaritakeun asal-usul tempat atawa kajadian anu dipercaya kungsi kajadian",
+                  "Sangkuriang, Situ Bagendit"
                 ],
                 [
-                  "Asmarandana",
-                  "Asih (cinta)"
+                  "Fabel",
+                  "Tokoh sato anu boga sipat jeung polah saperti jelma",
+                  "Si Kancil jeung Buaya"
                 ],
                 [
-                  "Dangdanggula",
-                  "Agung, mesra"
+                  "Sage",
+                  "Dongeng ngeunaan tokoh-tokoh sejarah nu nyata anu ngandung unsur gaib",
+                  "Prabu Siliwangi"
+                ],
+                [
+                  "Parabel",
+                  "Dongeng anu ngandung piwejang moral atawa agama",
+                  "Dongeng Si Buta ti Gua Hantu"
                 ]
               ]
             },
             {
               "type": "heading",
-              "level": 2,
-              "text": "Sekar Alit (13 pupuh)"
+              "text": "Ciri-Ciri Dongeng",
+              "level": 2
             },
             {
               "type": "list",
               "items": [
-                "Balakbak — banyol/lucu",
-                "Durma — ambek/marah",
-                "Gambuh — bingung, sedih",
-                "Gurisa — ngalamun",
-                "Jurudemung — kagét, héran",
-                "Ladrang — caang pikir",
-                "Lambang — bungah/gembira",
-                "Magatru — prihatin",
-                "Maskumambang — sedih, prihatin",
-                "Mijil — sedih, cinta",
-                "Pangkur — ambek, keuheul",
-                "Pucung — banyol/lucu",
-                "Wirangrong — wirang/malu"
+                "Dimimitian ku kecap 'Baheula' atawa 'Kacarios'",
+                "Tokohna teu jelas identitasna (anonim)",
+                "Latar waktu jeung tempat henteu spésifik",
+                "Ngandung nilai moral jeung budaya",
+                "Disebarkeun sacara lisan turun-temurun",
+                "Mindeng aya unsur magis / gaib"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dongeng-lesson-2",
+          "title": "Unsur Intrinsik Dongeng",
+          "estMinutes": 25,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Unsur-Unsur Intrinsik Dongeng",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Unggal dongeng diwangun ku unsur-unsur intrinsik anu ngajantenkeun éta carita hirup jeung narik. Unsur intrinsik nyaéta unsur anu aya di jero carita éta sorangan."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Téma – pokok pikiran utama anu ngalatarkan carita. Conto: kasatian, kahadéan ngéléhkeun kajahatan.",
+                "Tokoh jeung Penokohan – palaku-palaku dina carita. Tokoh protagonis (hadé), antagonis (jahat), tritagonis (panengah).",
+                "Alur/Plot – runtuyan kajadian dina carita: bubuka → konflik → klimaks → anti-klimaks → panutup.",
+                "Latar (Setting) – latar tempat (dimana), latar waktu (iraha), latar suasana (kaayaan).",
+                "Sudut Pandang – posisi pangarang dina nyaritakeun carita (jalma ka-1, ka-3).",
+                "Gaya Bahasa – cara pangarang ngébréhkeun carita maké kiasan.",
+                "Amanat – pesan moral anu hayang ditepikeun pangarang."
               ]
             },
             {
-              "type": "highlight",
-              "text": "Tiap pupuh boga watek nu béda — Pucung sok haleuang lucu, Asmarandana ngagambarkeun asih."
+              "type": "heading",
+              "text": "Analisis Dongeng Sangkuriang",
+              "level": 2
+            },
+            {
+              "type": "text",
+              "text": "Sangkuriang nyaéta legenda asal-usul Gunung Tangkuban Parahu. Nyaritakeun budak lalaki anu teu uninga boga rasa kabogoh ka indungna sorangan (Dayang Sumbi)."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Unsur",
+                "Analisis"
+              ],
+              "rows": [
+                [
+                  "Téma",
+                  "Kasatian cinta jeung akibat tina lampah teu bener"
+                ],
+                [
+                  "Tokoh Utama",
+                  "Sangkuriang (protagonis/antagonis), Dayang Sumbi (protagonis)"
+                ],
+                [
+                  "Latar Tempat",
+                  "Tatar Sunda, Gunung Tangkuban Parahu"
+                ],
+                [
+                  "Amanat",
+                  "Tong ngumbar nafsu, hormatan ka kolot, jeung takdir teu bisa dirobah ku paksa"
+                ]
+              ]
             }
           ]
         }
       ],
       "flashcards": [
         {
-          "id": "fc1",
-          "question": "Sabaraha jumlah pupuh dina sastra Sunda?",
-          "answer": "17 pupuh"
+          "id": "fc-dongeng-1",
+          "question": "Naon ari dongeng?",
+          "answer": "Carita pondok kolektif kasusastraan rakyat anu dianggap teu enya-enya kajadian, ngandung ajaran moral jeung kearifan lokal."
         },
         {
-          "id": "fc2",
-          "question": "Pupuh anu watekna asih?",
-          "answer": "Asmarandana"
+          "id": "fc-dongeng-2",
+          "question": "Naon bedana mite jeung legenda?",
+          "answer": "Mite nyaritakeun mahluk gaib/dewa, legenda nyaritakeun asal-usul tempat/kajadian anu dipercaya enya-enya kungsi kajadian."
         },
         {
-          "id": "fc3",
-          "question": "Sebutkeun 4 Sekar Ageung!",
-          "answer": "Kinanti, Sinom, Asmarandana, Dangdanggula"
+          "id": "fc-dongeng-3",
+          "question": "Sebutkeun 5 unsur intrinsik dongeng!",
+          "answer": "Téma, Tokoh/Penokohan, Alur/Plot, Latar (Setting), Sudut Pandang, Gaya Bahasa, Amanat."
         },
         {
-          "id": "fc4",
-          "question": "Pupuh nu watekna lucu/banyol?",
-          "answer": "Pucung atau Balakbak"
+          "id": "fc-dongeng-4",
+          "question": "Legenda naon anu nyaritakeun asal-usul Gunung Tangkuban Parahu?",
+          "answer": "Legenda Sangkuriang."
+        },
+        {
+          "id": "fc-dongeng-5",
+          "question": "Naon anu dimaksud alur/plot dina dongeng?",
+          "answer": "Runtuyan kajadian dina carita: bubuka → konflik → klimaks → anti-klimaks → panutup."
         }
       ],
       "quiz": {
         "questions": [
           {
-            "id": "q1",
+            "id": "q-dongeng-1",
             "type": "multiple_choice",
-            "question": "Pupuh anu kaasup Sekar Ageung nyaéta?",
+            "question": "Dongeng anu nyaritakeun tokoh sato anu boga sipat saperti jelma disebut…",
             "options": [
-              "Pucung",
-              "Mijil",
-              "Sinom",
-              "Pangkur"
+              "Mite",
+              "Legenda",
+              "Fabel",
+              "Sage"
             ],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Fabel nyaéta dongeng anu tokoh-tokohna nyaéta sato anu bisa nyarita jeung boga sipat saperti jelma. Conto: Si Kancil jeung Buaya."
           },
           {
-            "id": "q2",
+            "id": "q-dongeng-2",
             "type": "multiple_choice",
-            "question": "Pupuh nu ngagambarkeun rasa ambek/marah?",
+            "question": "Unsur intrinsik dongeng anu nuduhkeun 'dimana jeung iraha kajadianana' disebut…",
             "options": [
-              "Asmarandana",
-              "Durma",
-              "Kinanti",
-              "Sinom"
+              "Téma",
+              "Alur",
+              "Latar/Setting",
+              "Sudut Pandang"
+            ],
+            "answer": 2,
+            "explanation": "Latar atawa setting nyaéta unsur anu nétélakeun latar tempat (dimana), latar waktu (iraha), jeung latar suasana kajadian."
+          },
+          {
+            "id": "q-dongeng-3",
+            "type": "multiple_choice",
+            "question": "Dongeng 'Sangkuriang' kaasup kana jenis dongeng…",
+            "options": [
+              "Mite",
+              "Legenda",
+              "Fabel",
+              "Parabel"
             ],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Sangkuriang kaasup legenda sabab nyaritakeun asal-usul Gunung Tangkuban Parahu jeung dipercaya miboga unsur kajadian nyata di Tatar Sunda."
+          },
+          {
+            "id": "q-dongeng-4",
+            "type": "multiple_choice",
+            "question": "Naon amanat tina dongeng Sangkuriang?",
+            "options": [
+              "Tong ngumbar nafsu, hormatan ka kolot",
+              "Kudu boga cita-cita anu luhur",
+              "Silih bantuan jeung babaturan",
+              "Tong waka nyerah dina usaha"
+            ],
+            "answer": 0,
+            "explanation": "Amanat utama Sangkuriang nyaéta tong ngumbar nafsu, hormatan ka kolot, jeung takdir teu bisa dirobah ku cara paksa."
+          },
+          {
+            "id": "q-dongeng-5",
+            "type": "multiple_choice",
+            "question": "Ciri-ciri dongeng anu paling jelas nyaéta…",
+            "options": [
+              "Latar waktu jeung tokoh jelas",
+              "Dimimitian ku 'Baheula' jeung disebarkeun sacara lisan",
+              "Tokoh utamana manusa biasa",
+              "Eusina kajadian nyata"
+            ],
+            "answer": 1,
+            "explanation": "Ciri khas dongeng nyaéta dimimitian ku 'Baheula' atawa 'Kacarios', latar teu spésifik, disebarkeun sacara lisan turun-temurun, jeung dianggap teu enya kajadian."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sajak-sunda",
+      "title": "Sajak jeung Puisi Sunda",
+      "description": "Memahami sajak Sunda: pengertian, ciri-ciri, jenis, unsur pembangun, dan cara mengapresiasi serta membuat sajak.",
+      "lessons": [
+        {
+          "id": "sajak-lesson-1",
+          "title": "Pengertian jeung Ciri-Ciri Sajak",
+          "estMinutes": 20,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Naon Ari Sajak?",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Sajak nyaéta wangun karya sastra anu medukeun perasaan jeung pikiran pangarang ngaliwatan kecap-kecap anu miboga makna husus, dipilih kalayan ati-ati, jeung mindeng ngagunakeun gaya bahasa. Sajak Sunda disebut ogé 'puisi Sunda modern' sabab teu kauger ku aturan pupuh."
+            },
+            {
+              "type": "heading",
+              "text": "Ciri-Ciri Sajak Sunda",
+              "level": 2
+            },
+            {
+              "type": "list",
+              "items": [
+                "Ngagunakeun kecap anu dipilih kalayan ati-ati (diksi)",
+                "Mindeng ngagunakeun gaya bahasa (kiasan)",
+                "Susunan baris jeung pada miboga harti",
+                "Medukeun perasaan jeung pikiran sacara padét",
+                "Bisa dibacakeun (dibacakan) atawa dinyanyikeun",
+                "Teu kauger ku aturan pupuh (bébas)"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Bedana Sajak jeung Rumpaka Kawih",
+              "level": 2
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Aspék",
+                "Sajak",
+                "Rumpaka Kawih"
+              ],
+              "rows": [
+                [
+                  "Irama",
+                  "Teu merta diparengan lagu",
+                  "Salawasna diparengan lagu/irama"
+                ],
+                [
+                  "Tujuan",
+                  "Dibaca/dideklamasikan",
+                  "Dinyanyikeun"
+                ],
+                [
+                  "Aturan",
+                  "Bébas, teu aya aturan khusus",
+                  "Nuturkeun irama lagu"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sajak-lesson-2",
+          "title": "Unsur Intrinsik Sajak",
+          "estMinutes": 25,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Unsur-Unsur Pembangun Sajak",
+              "level": 1
+            },
+            {
+              "type": "list",
+              "items": [
+                "Diksi – pilihan kecap anu digunakeun pangarang. Kecap anu digunakeun bakal nangtukeun makna jeung kaendahan sajak.",
+                "Imaji – gambaran anu diciptakeun pikeun ngarangsang indera (panempo, pangdéngé, pangrasa). Conto: 'Angin tiis ngagelebug ka beulah dada'.",
+                "Simbol – kecap anu miboga makna leuwih jero ti batan harti saleresna. Conto: 'Mawar' = katémbongna kasih.",
+                "Rima – persamaan sora di tungtung baris. Nambahan kaindahan jeung wirahma sajak.",
+                "Ritme / Wirahma – irama alun jeung teureumna sora nalika maca sajak.",
+                "Tipografi – susunan wangun visual sajak dina kertas.",
+                "Téma – pokok pikiran utama sajak.",
+                "Amanat – pesan anu hayang ditepikeun pangarang."
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Cara Ngapresiasi Sajak",
+              "level": 2
+            },
+            {
+              "type": "list",
+              "items": [
+                "Maca sajak kalayan taliti",
+                "Manggihan téma jeung amanat",
+                "Medar gaya bahasa anu digunakeun",
+                "Neangan harti kecap-kecap anu teu apal",
+                "Manghartikeun sacara luas (denotasi jeung konotasi)",
+                "Nulis tanggapan pribadi"
+              ]
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-sajak-1",
+          "question": "Naon ari sajak Sunda?",
+          "answer": "Wangun karya sastra anu medukeun perasaan jeung pikiran ngaliwatan kecap-kecap anu dipilih kalayan ati-ati, teu kauger ku aturan pupuh."
+        },
+        {
+          "id": "fc-sajak-2",
+          "question": "Naon ari diksi dina sajak?",
+          "answer": "Pilihan kecap anu digunakeun pangarang dina sajak anu nangtukeun makna jeung kaindahan sajak."
+        },
+        {
+          "id": "fc-sajak-3",
+          "question": "Bedakeun sajak jeung rumpaka kawih!",
+          "answer": "Sajak teu merta diparengan lagu/dibacakeun, sedengkeun rumpaka kawih salawasna diparengan ku lagu/irama."
+        },
+        {
+          "id": "fc-sajak-4",
+          "question": "Naon ari imaji dina sajak?",
+          "answer": "Gambaran anu diciptakeun pangarang pikeun ngarangsang indera (panempo, pangdéngé, pangrasa)."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q-sajak-1",
+            "type": "multiple_choice",
+            "question": "Unsur sajak anu patali jeung pilihan kecap disebut…",
+            "options": [
+              "Imaji",
+              "Diksi",
+              "Rima",
+              "Tipografi"
+            ],
+            "answer": 1,
+            "explanation": "Diksi nyaéta pilihan kecap anu digunakeun pangarang dina sajak. Kecap anu dipilih nangtukeun makna jeung kaindahan sajak."
+          },
+          {
+            "id": "q-sajak-2",
+            "type": "multiple_choice",
+            "question": "Persamaan sora di tungtung baris sajak disebut…",
+            "options": [
+              "Diksi",
+              "Imaji",
+              "Rima",
+              "Ritme"
+            ],
+            "answer": 2,
+            "explanation": "Rima nyaéta persamaan sora di tungtung baris sajak anu nambahan kaindahan jeung wirahma."
+          },
+          {
+            "id": "q-sajak-3",
+            "type": "multiple_choice",
+            "question": "Bedana sajak jeung rumpaka kawih nyaéta…",
+            "options": [
+              "Sajak leuwih panjang ti rumpaka kawih",
+              "Sajak teu merta diparengan lagu, rumpaka kawih salawasna diparengan lagu",
+              "Sajak kauger ku aturan, rumpaka kawih teu kauger",
+              "Sajak pikeun barudak, rumpaka kawih pikeun kolot"
+            ],
+            "answer": 1,
+            "explanation": "Bedana poko nyaéta: sajak mindeng dibacakeun/dideklamasikan tanpa lagu, sedengkeun rumpaka kawih salawasna diparengan ku irama/lagu."
+          }
+        ]
+      }
+    },
+    {
+      "id": "wawancara-sunda",
+      "title": "Wawancara dina Bahasa Sunda",
+      "description": "Mempelajari tata cara wawancara: jenis pertanyaan, etika, teknik bertanya, serta menyusun laporan wawancara dalam Bahasa Sunda.",
+      "lessons": [
+        {
+          "id": "wawancara-lesson-1",
+          "title": "Pangertian jeung Jenis Wawancara",
+          "estMinutes": 20,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Naon Ari Wawancara?",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Wawancara nyaéta kagiatan tanya jawab antara pewawancara (interviewer) jeung narasumber (interviewee) pikeun meunangkeun informasi ngeunaan hiji topik. Wawancara mangrupa salah sahiji métode ngumpulkeun data anu sering digunakeun dina jurnalisme, penelitian, jeung kagiatan sakola."
+            },
+            {
+              "type": "heading",
+              "text": "Jenis-Jenis Wawancara",
+              "level": 2
+            },
+            {
+              "type": "list",
+              "items": [
+                "Wawancara Formal – dilaksanakeun sacara resmi, aya daptar pertanyaan anu geus disiapkeun saacanna. Conto: wawancara profési.",
+                "Wawancara Informal – dilaksanakeun sacara santai, pertanyaan teu mesti disiapkeun heula.",
+                "Wawancara Mendalam (in-depth) – nujul lebih dalam ka narasumber pikeun meunangkeun informasi anu jero.",
+                "Wawancara Kelompok – dilaksanakeun ka sawatara narasumber dina waktu anu sareng."
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Étika jeung Tata Cara Wawancara",
+              "level": 2
+            },
+            {
+              "type": "list",
+              "items": [
+                "Nyiapkeun pertanyaan saacanna",
+                "Miharep waktuna tina narasumber kalayan sopan",
+                "Mapay ka narasumber heula (perkenalan)",
+                "Ngadéngékeun jawaban kalayan sabar",
+                "Nyatét atawa ngrékamanana (kalayan ijin)",
+                "Ngagunakeun basa anu sopan jeung hormat",
+                "Hatur nuhun sanggeus wawancara réngsé"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wawancara-lesson-2",
+          "title": "Nyusun Laporan Wawancara",
+          "estMinutes": 25,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Cara Nulis Laporan Wawancara",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Saatos ngalaksanakeun wawancara, hasilna kudu dirapihkeun jadi laporan wawancara anu sistematis. Laporan wawancara bisa ditulis dina wangun tanya-jawab (format Q&A) atawa narasi."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Bagian Laporan",
+                "Eusi"
+              ],
+              "rows": [
+                [
+                  "Bubuka",
+                  "Nami pewawancara, narasumber, tempat, tanggal, jeung tujuan wawancara"
+                ],
+                [
+                  "Badan",
+                  "Pertanyaan jeung jawaban dina wangun tanya-jawab atawa narasi"
+                ],
+                [
+                  "Panutup",
+                  "Kacindekan jeung ucapan hatur nuhun"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Conto Pertanyaan Wawancara anu Efektif",
+              "level": 2
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pertanyaan terbuka: 'Kumaha pangalaman Bapa/Ibu salami jadi guru?' (ngamungkinkeun jawaban panjang)",
+                "Pertanyaan probing: 'Tiasa Bapa/Ibu nétélakeun leuwih jauh?' (ngagali informasi leuwih jero)",
+                "Pertanyaan klarifikasi: 'Naon anu Bapa/Ibu maksad ku éta?' (mariksa pamahaman)",
+                "Hindari pertanyaan tertutup (anu ngan dijawab 'enya' atawa 'henteu')"
+              ]
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-wawancara-1",
+          "question": "Naon ari wawancara?",
+          "answer": "Kagiatan tanya jawab antara pewawancara jeung narasumber pikeun meunangkeun informasi ngeunaan hiji topik."
+        },
+        {
+          "id": "fc-wawancara-2",
+          "question": "Sebutkeun 3 étika penting dina wawancara!",
+          "answer": "Nyiapkeun pertanyaan saacanna, ngagunakeun basa sopan, ngadéngékeun jawaban kalayan sabar, jeung hatur nuhun saatos réngsé."
+        },
+        {
+          "id": "fc-wawancara-3",
+          "question": "Naon bedana pertanyaan terbuka jeung tertutup?",
+          "answer": "Pertanyaan terbuka ngamungkinkeun jawaban panjang/jero, sedengkeun pertanyaan tertutup ngan dijawab 'enya' atawa 'henteu'."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q-wawancara-1",
+            "type": "multiple_choice",
+            "question": "Kagiatan tanya jawab pikeun meunangkeun informasi ti narasumber disebut…",
+            "options": [
+              "Diskusi",
+              "Wawancara",
+              "Debat",
+              "Ceramah"
+            ],
+            "answer": 1,
+            "explanation": "Wawancara nyaéta kagiatan tanya jawab antara pewawancara jeung narasumber pikeun meunangkeun informasi ngeunaan topik anu dipikahayang."
+          },
+          {
+            "id": "q-wawancara-2",
+            "type": "multiple_choice",
+            "question": "Hal anu kudu dilakukeun saacanna nuluykeun wawancara nyaéta…",
+            "options": [
+              "Langsung naroskeun pertanyaan tanpa perkenalan",
+              "Nyiapkeun daptar pertanyaan jeung miharep waktu ti narasumber",
+              "Ngan ngobrol santai tanpa persiapan",
+              "Langsung ngagunakeun alat rékam"
+            ],
+            "answer": 1,
+            "explanation": "Saacanna wawancara, kudu nyiapkeun daptar pertanyaan, miharep waktu ti narasumber kalayan sopan, jeung mapay diri heula."
+          },
+          {
+            "id": "q-wawancara-3",
+            "type": "multiple_choice",
+            "question": "Pertanyaan 'Kumaha pangalaman Bapa salami jadi guru?' mangrupa conto…",
+            "options": [
+              "Pertanyaan tertutup",
+              "Pertanyaan probing",
+              "Pertanyaan terbuka",
+              "Pertanyaan retorika"
+            ],
+            "answer": 2,
+            "explanation": "Éta mangrupa pertanyaan terbuka sabab ngamungkinkeun narasumber méré jawaban anu panjang jeung jero tanpa dibatesan 'enya' atawa 'henteu'."
+          }
+        ]
+      }
+    },
+    {
+      "id": "carita-pondok",
+      "title": "Carita Pondok (Carpon)",
+      "description": "Memahami dan menganalisis carita pondok (cerpen) Sunda: unsur intrinsik, ekstrinsik, nilai-nilai, dan cara menulis cerpen.",
+      "lessons": [
+        {
+          "id": "carpon-lesson-1",
+          "title": "Pangertian jeung Ciri Carita Pondok",
+          "estMinutes": 20,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Naon Ari Carita Pondok (Carpon)?",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Carita Pondok (Carpon) nyaéta karangan prosa fiksi pondok anu nyaritakeun hiji kajadian atawa konflik anu terpusat. Beda jeung novél, carpon miboga alur anu leuwih basajan jeung tokoh anu leuwih saeutik. Dina kasusastraan Sunda, carpon geus mekar ti taun 1930-an."
+            },
+            {
+              "type": "heading",
+              "text": "Ciri-Ciri Carita Pondok",
+              "level": 2
+            },
+            {
+              "type": "list",
+              "items": [
+                "Panjangna teu leuwih 10.000 kecap",
+                "Tokoh jeung konflikna terbatas",
+                "Alur tunggal (ngan hiji konflik utama)",
+                "Latar anu henteu kompléks",
+                "Bisa dibaca dina sakali maca",
+                "Akhir carita mindeng ngandung kejutan atawa pelajaran"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Unsur Intrinsik Carpon",
+              "level": 2
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Unsur",
+                "Keterangan"
+              ],
+              "rows": [
+                [
+                  "Téma",
+                  "Pokok pikiran atawa gagasan utama carita"
+                ],
+                [
+                  "Alur/Plot",
+                  "Runtuyan kajadian: bubuka-komplikasi-klimaks-resolusi-koda"
+                ],
+                [
+                  "Tokoh & Penokohan",
+                  "Siapa anu jadi palaku jeung kumaha sipatna (langsung/teu langsung)"
+                ],
+                [
+                  "Latar",
+                  "Tempat, waktu, jeung suasana kajadian"
+                ],
+                [
+                  "Sudut Pandang",
+                  "Posisi pangarang: jalma ka-1 (kuring), ka-3 (anjeunna/manéhna)"
+                ],
+                [
+                  "Gaya Bahasa",
+                  "Cara pangarang ngébréhkeun carita: dialog, deskripsi, kiasan"
+                ],
+                [
+                  "Amanat",
+                  "Pesan moral anu hayang ditepikeun"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "carpon-lesson-2",
+          "title": "Nilai-Nilai dina Carita Pondok",
+          "estMinutes": 20,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Nilai-Nilai dina Carpon",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Salian ti hiburan, carita pondok ogé ngandung rupa-rupa nilai anu bisa dipetik jeung diterapkeun dina kahirupan sapopoé."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Nilai Moral – ajaran ngeunaan lampah hadé jeung goréng. Conto: kudu jujur, tong bohong.",
+                "Nilai Sosial – ajaran ngeunaan interaksi antar manusa. Conto: silih bantuan jeung tatangga.",
+                "Nilai Budaya – ngeunaan adat istiadat jeung tradisi. Conto: ngahormat ka kolot.",
+                "Nilai Agama – ajaran ngeunaan kapercayaan. Conto: kudu syukur kana ni'mat.",
+                "Nilai Éstétika – kaendahan basa jeung karya seni anu aya dina carita.",
+                "Nilai Pendidikan – pangajaran anu bisa dicokot pikeun nambahan élmu."
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Cara Nulis Carita Pondok",
+              "level": 2
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pilih téma anu narik minat",
+                "Tangtoskeun tokoh jeung sipatna",
+                "Rencanakeun alur sacara garis besar",
+                "Pilih sudut pandang",
+                "Tulis draf mimiti",
+                "Révisi: cek koherensi, gaya bahasa, ejaan Sunda",
+                "Edit final"
+              ]
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-carpon-1",
+          "question": "Naon ari carita pondok (carpon)?",
+          "answer": "Karangan prosa fiksi pondok anu nyaritakeun hiji kajadian atawa konflik, bisa dibaca dina sakali maca."
+        },
+        {
+          "id": "fc-carpon-2",
+          "question": "Sebutkeun 5 unsur intrinsik carpon!",
+          "answer": "Téma, Alur/Plot, Tokoh & Penokohan, Latar, Sudut Pandang, Gaya Bahasa, Amanat."
+        },
+        {
+          "id": "fc-carpon-3",
+          "question": "Naon bedana carpon jeung novél?",
+          "answer": "Carpon leuwih pondok, tokoh jeung konflik terbatas, alur tunggal. Novél leuwih panjang, tokoh jeung konflik kompléks."
+        },
+        {
+          "id": "fc-carpon-4",
+          "question": "Sebutkeun 4 nilai anu teu kauger dina carita pondok!",
+          "answer": "Nilai moral, sosial, budaya, agama, éstétika, jeung pendidikan."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q-carpon-1",
+            "type": "multiple_choice",
+            "question": "Ciri khas carita pondok dibandingkeun novél nyaéta…",
+            "options": [
+              "Leuwih panjang jeung tokoh loba",
+              "Pondok, tokoh jeung konflik terbatas, bisa dibaca sakali maca",
+              "Ngan nyaritakeun kajadian sajarah",
+              "Salawasna miboga akhir anu seneng"
+            ],
+            "answer": 1,
+            "explanation": "Carita pondok miboga ciri: pondok (teu leuwih 10.000 kecap), tokoh jeung konflik terbatas, alur tunggal, jeung bisa dibaca dina sakali maca."
+          },
+          {
+            "id": "q-carpon-2",
+            "type": "multiple_choice",
+            "question": "Unsur intrinsik anu nuduhkeun posisi pangarang dina nyaritakeun carita disebut…",
+            "options": [
+              "Téma",
+              "Alur",
+              "Latar",
+              "Sudut Pandang"
+            ],
+            "answer": 3,
+            "explanation": "Sudut pandang (point of view) nyaéta posisi atawa cara pangarang dina nyaritakeun carita: jalma ka-1 (ngagunakeun 'kuring/abdi') atawa ka-3 (ngagunakeun 'manéhna/anjeunna')."
+          },
+          {
+            "id": "q-carpon-3",
+            "type": "multiple_choice",
+            "question": "Nilai anu patali jeung ajaran interaksi antar manusa dina carita pondok disebut nilai…",
+            "options": [
+              "Moral",
+              "Sosial",
+              "Budaya",
+              "Agama"
+            ],
+            "answer": 1,
+            "explanation": "Nilai sosial nyaéta nilai anu patali jeung interaksi jeung hubungan antar manusa dina masarakat, conto: silih bantuan, gotong royong."
+          }
+        ]
+      }
+    },
+    {
+      "id": "warta-biantara",
+      "title": "Warta jeung Biantara",
+      "description": "Mempelajari cara membaca, memahami, dan menulis berita (warta) serta berpidato (biantara) dalam Bahasa Sunda.",
+      "lessons": [
+        {
+          "id": "warta-lesson-1",
+          "title": "Warta: Naon, Saha, Kumaha",
+          "estMinutes": 20,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Naon Ari Warta?",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Warta nyaéta laporan ngeunaan kajadian atawa fakta anu anyar, penting, jeung narik pikeun diketahui ku masarakat lega. Warta ditulis sacara objektif, faktual, jeung aktual. Warta disebarkeun ngaliwatan média: koran, radio, televisi, atawa média online."
+            },
+            {
+              "type": "heading",
+              "text": "Unsur Warta: 5W + 1H",
+              "level": 2
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Unsur",
+                "Bahasa Sunda",
+                "Pertanyaan"
+              ],
+              "rows": [
+                [
+                  "What",
+                  "Naon",
+                  "Naon anu kajantenan?"
+                ],
+                [
+                  "Who",
+                  "Saha",
+                  "Saha anu kalibet?"
+                ],
+                [
+                  "When",
+                  "Iraha",
+                  "Iraha kajantenanana?"
+                ],
+                [
+                  "Where",
+                  "Di mana",
+                  "Di mana kajadianana?"
+                ],
+                [
+                  "Why",
+                  "Naha",
+                  "Naha éta bisa kajantenan?"
+                ],
+                [
+                  "How",
+                  "Kumaha",
+                  "Kumaha prosésna?"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Ciri-Ciri Warta anu Alus",
+              "level": 2
+            },
+            {
+              "type": "list",
+              "items": [
+                "Faktual – dumasar kana fakta, lain rekaan",
+                "Aktual – anyar jeung relevan",
+                "Objektif – teu memihak",
+                "Singkat jeung jelas",
+                "Lengkap ngandung 5W+1H",
+                "Basa baku jeung resmi"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "biantara-lesson-1",
+          "title": "Biantara dina Bahasa Sunda",
+          "estMinutes": 25,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Naon Ari Biantara?",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Biantara nyaéta ucapan atawa pidato anu ditepikeun ka khalayak (panongton) sacara lisan. Biantara miboga tujuan: mere informasi, ngyakinkeun, atawa ngarangsang aksi ti nu ngadéngékeun. Dina acara formal Sunda, biantara salawasna ngagunakeun undak usuk basa anu bener."
+            },
+            {
+              "type": "heading",
+              "text": "Struktur Biantara",
+              "level": 2
+            },
+            {
+              "type": "list",
+              "items": [
+                "Bubuka: salam bubuka, muji syukur ka Gusti, hormat ka hadirin",
+                "Eusi: pokok-pokok pedaran anu hayang ditepikeun",
+                "Panutup: kacindekan, harepan, salam panutup"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Tips Biantara anu Alus",
+              "level": 2
+            },
+            {
+              "type": "list",
+              "items": [
+                "Siapkeun téks atawa catetan poko saacanna",
+                "Latihan ngomong heubeul saacanna tampil",
+                "Tatap mata hadirin waktu ngomong",
+                "Kontrol sora: ulah terlalu gancang atawa laun",
+                "Ngagunakeun undak usuk basa anu merenah",
+                "Basa awak (gesture) anu alus"
+              ]
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-warta-1",
+          "question": "Sebutkeun unsur-unsur warta (5W+1H)!",
+          "answer": "What (Naon), Who (Saha), When (Iraha), Where (Di mana), Why (Naha), How (Kumaha)."
+        },
+        {
+          "id": "fc-warta-2",
+          "question": "Naon ari biantara?",
+          "answer": "Ucapan atawa pidato anu ditepikeun ka khalayak sacara lisan, bisa pikeun mere informasi, ngyakinkeun, atawa ngarangsang aksi."
+        },
+        {
+          "id": "fc-warta-3",
+          "question": "Sebutkeun 3 ciri warta anu alus!",
+          "answer": "Faktual (dumasar fakta), Aktual (anyar), Objektif (teu memihak), Lengkap (5W+1H)."
+        },
+        {
+          "id": "fc-warta-4",
+          "question": "Sebutkeun struktur biantara anu lengkap!",
+          "answer": "Bubuka (salam, muji syukur, hormat hadirin) → Eusi (pokok pedaran) → Panutup (kacindekan, harepan, salam panutup)."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q-warta-1",
+            "type": "multiple_choice",
+            "question": "Unsur 5W+1H dina warta, 'Iraha' ngawakilan unsur…",
+            "options": [
+              "What",
+              "Why",
+              "When",
+              "Where"
+            ],
+            "answer": 2,
+            "explanation": "'Iraha' hartina 'kapan' nyaéta unsur When, anu naroskeun waktu kajadian warta éta."
+          },
+          {
+            "id": "q-warta-2",
+            "type": "multiple_choice",
+            "question": "Ciri warta anu nétélakeun yén berita ditulis sacara teu memihak disebut…",
+            "options": [
+              "Faktual",
+              "Aktual",
+              "Objektif",
+              "Kronologis"
+            ],
+            "answer": 2,
+            "explanation": "Objektif hartina warta ditulis tanpa memihak ka salah sahiji pihak, sacara adil jeung seimbang."
+          },
+          {
+            "id": "q-warta-3",
+            "type": "multiple_choice",
+            "question": "Bagian biantara anu eusina pokok-pokok pedaran disebut…",
+            "options": [
+              "Bubuka",
+              "Eusi",
+              "Panutup",
+              "Salam"
+            ],
+            "answer": 1,
+            "explanation": "Eusi biantara nyaéta bagian tengah anu ngandung pokok-pokok pedaran anu hayang ditepikeun ka hadirin."
+          },
+          {
+            "id": "q-warta-4",
+            "type": "multiple_choice",
+            "question": "Warta anu 'anyar jeung relevan' boga ciri…",
+            "options": [
+              "Faktual",
+              "Aktual",
+              "Objektif",
+              "Informatif"
+            ],
+            "answer": 1,
+            "explanation": "Aktual hartina warta téh anyar, relevan, jeung masih ngandung nilai berita (belum basi)."
+          }
+        ]
+      }
+    },
+    {
+      "id": "aksara-sunda",
+      "title": "Aksara Sunda Baku",
+      "description": "Mengenal, membaca, dan menulis Aksara Sunda Baku (huruf Sunda) sebagai warisan budaya leluhur Tatar Sunda.",
+      "lessons": [
+        {
+          "id": "aksara-lesson-1",
+          "title": "Mengenal Aksara Sunda Baku",
+          "estMinutes": 25,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Naon Ari Aksara Sunda?",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Aksara Sunda Baku nyaéta sistem tulisan tradisional urang Sunda anu diresmikakeun ku Pemerintah Provinsi Jawa Barat. Aksara Sunda kaasup aksara abugida (alphasyllabary), nyaéta sistem tulisan anu unggal hurupna ngawakilan suku kata konsonan + vokal. Aksara Sunda ngawengku ngaran aksara ngalagéna (aksara dasar), rarangkén (tanda diakritik), jeung angka Sunda."
+            },
+            {
+              "type": "heading",
+              "text": "Aksara Ngalagéna (Aksara Dasar)",
+              "level": 2
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Aksara",
+                "Sora",
+                "Contoh Kecap"
+              ],
+              "rows": [
+                [
+                  "ᮊ",
+                  "Ka",
+                  "Kadal"
+                ],
+                [
+                  "ᮌ",
+                  "Ga",
+                  "Gado"
+                ],
+                [
+                  "ᮎ",
+                  "Ca",
+                  "Cau"
+                ],
+                [
+                  "ᮏ",
+                  "Ja",
+                  "Jalu"
+                ],
+                [
+                  "ᮒ",
+                  "Ta",
+                  "Tahu"
+                ],
+                [
+                  "ᮓ",
+                  "Da",
+                  "Daun"
+                ],
+                [
+                  "ᮕ",
+                  "Pa",
+                  "Padi"
+                ],
+                [
+                  "ᮘ",
+                  "Ba",
+                  "Batu"
+                ],
+                [
+                  "ᮙ",
+                  "Ma",
+                  "Maung"
+                ],
+                [
+                  "ᮚ",
+                  "Ya",
+                  "Yuda"
+                ],
+                [
+                  "ᮛ",
+                  "Ra",
+                  "Rasa"
+                ],
+                [
+                  "ᮜ",
+                  "La",
+                  "Lauk"
+                ],
+                [
+                  "ᮝ",
+                  "Wa",
+                  "Wanda"
+                ],
+                [
+                  "ᮞ",
+                  "Sa",
+                  "Sato"
+                ],
+                [
+                  "ᮠ",
+                  "Ha",
+                  "Haur"
+                ],
+                [
+                  "ᮑ",
+                  "Nya",
+                  "Nyair"
+                ],
+                [
+                  "ᮔ",
+                  "Na",
+                  "Nasi"
+                ],
+                [
+                  "ᮀ",
+                  "Nga",
+                  "Ngala"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Rarangkén (Tanda Vokal)",
+              "level": 2
+            },
+            {
+              "type": "list",
+              "items": [
+                "Panyecék (◌ᮀ) – vokal n/ng",
+                "Panéléng (◌ᮦ) – vokal é",
+                "Pamepet (◌ᮨ) – vokal e (pepet)",
+                "Panolong (◌ᮧ) – vokal o",
+                "Pangwisad – nutup suku kata"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "aksara-lesson-2",
+          "title": "Latihan Maca jeung Nulis Aksara Sunda",
+          "estMinutes": 30,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Cara Maca Aksara Sunda",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Aksara Sunda dibaca ti kénca ka katuhu, sarua jeung tulisan Latin. Unggal aksara ngalagéna boga sora dasar 'a'. Pikeun ngarubah vokal, digunakeun rarangkén (tanda diakritik) anu ditempatkeun di luhur, handap, atawa sisi aksara."
+            },
+            {
+              "type": "heading",
+              "text": "Conto Kecap dina Aksara Sunda",
+              "level": 2
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Latin",
+                "Aksara Sunda",
+                "Harti"
+              ],
+              "rows": [
+                [
+                  "Sunda",
+                  "ᮞᮥᮔ᮪ᮓ",
+                  "Tatar Sunda"
+                ],
+                [
+                  "Maung",
+                  "ᮙᮅᮀ",
+                  "Macan"
+                ],
+                [
+                  "Cai",
+                  "ᮎᮄ",
+                  "Air"
+                ],
+                [
+                  "Batu",
+                  "ᮘᮒᮥ",
+                  "Batu"
+                ],
+                [
+                  "Hiji",
+                  "ᮠᮤᮏᮤ",
+                  "Satu"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Tips Diajar Aksara Sunda",
+              "level": 2
+            },
+            {
+              "type": "list",
+              "items": [
+                "Hafal heula 18 aksara ngalagéna hiji-hiji",
+                "Latihan nulis unggal poé minimal 5 kecap",
+                "Cobian nulis nami sorangan dina aksara Sunda",
+                "Baca tulisan aksara Sunda anu aya di lingkungan (plat jalan, baliho)",
+                "Gunakeun aplikasi aksara Sunda pikeun latihan"
+              ]
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-aksara-1",
+          "question": "Naon ari aksara Sunda baku?",
+          "answer": "Sistem tulisan tradisional urang Sunda (abugida) anu diresmikakeun ku Pemerintah Provinsi Jawa Barat."
+        },
+        {
+          "id": "fc-aksara-2",
+          "question": "Sabaraha jumlah aksara ngalagéna dina aksara Sunda?",
+          "answer": "18 aksara ngalagéna (aksara dasar)."
+        },
+        {
+          "id": "fc-aksara-3",
+          "question": "Naon fungsi rarangkén dina aksara Sunda?",
+          "answer": "Rarangkén nyaéta tanda diakritik anu digunakeun pikeun ngarubah atawa nangtukeun sora vokal aksara."
+        },
+        {
+          "id": "fc-aksara-4",
+          "question": "Aksara Sunda kaasup kana jenis aksara naon?",
+          "answer": "Abugida (alphasyllabary), nyaéta sistem tulisan anu unggal hurupna ngawakilan suku kata konsonan + vokal."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q-aksara-1",
+            "type": "multiple_choice",
+            "question": "Aksara Sunda kaasup kana jenis aksara…",
+            "options": [
+              "Alfabet",
+              "Abugida",
+              "Silabari",
+              "Logograf"
+            ],
+            "answer": 1,
+            "explanation": "Aksara Sunda kaasup abugida (alphasyllabary), nyaéta unggal aksara dasar ngawakilan suku kata konsonan + vokal, jeung bisa dirobah ku rarangkén."
+          },
+          {
+            "id": "q-aksara-2",
+            "type": "multiple_choice",
+            "question": "Jumlah aksara ngalagéna (aksara dasar) Sunda nyaéta…",
+            "options": [
+              "16 aksara",
+              "18 aksara",
+              "20 aksara",
+              "26 aksara"
+            ],
+            "answer": 1,
+            "explanation": "Aksara Sunda Baku miboga 18 aksara ngalagéna (aksara dasar) anu ngawakilan suku kata-suku kata dasar dina basa Sunda."
+          },
+          {
+            "id": "q-aksara-3",
+            "type": "multiple_choice",
+            "question": "Tanda diakritik anu digunakeun pikeun ngarubah vokal dina aksara Sunda disebut…",
+            "options": [
+              "Aksara ngalagéna",
+              "Rarangkén",
+              "Angka Sunda",
+              "Panyecék"
+            ],
+            "answer": 1,
+            "explanation": "Rarangkén nyaéta tanda diakritik anu digunakeun pikeun ngarubah atawa nangtukeun sora vokal dina aksara Sunda. Rarangkén ditempatkeun di luhur, handap, atawa sisi aksara."
+          }
+        ]
+      }
+    },
+    {
+      "id": "undak-usuk-basa",
+      "title": "Undak Usuk Basa Sunda",
+      "description": "Memahami tingkatan bahasa (undak usuk) dalam Bahasa Sunda: basa kasar, basa lemes, basa panengah, dan penggunaannya sesuai konteks.",
+      "lessons": [
+        {
+          "id": "undak-lesson-1",
+          "title": "Tingkatan Basa dina Basa Sunda",
+          "estMinutes": 25,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Naon Ari Undak Usuk Basa?",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Undak usuk basa nyaéta tatacara atawa aturan ngagunakeun basa Sunda anu disesuaikeun jeung kedudukan, umur, jeung kaakraban antara nu nyarita jeung nu diajak nyarita. Ieu mangrupa kekhasan budaya Sunda anu ngébréhkeun rasa hormat jeung sopan santun."
+            },
+            {
+              "type": "heading",
+              "text": "Tingkatan Basa Sunda",
+              "level": 2
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Tingkatan",
+                "Digunakeun pikeun",
+                "Conto"
+              ],
+              "rows": [
+                [
+                  "Basa Kasar (Kohér)",
+                  "Ngobrol jeung babaturan akrab sasamaan",
+                  "Manéh, Sia, Ngomong"
+                ],
+                [
+                  "Basa Lemes Pisan",
+                  "Nyarita ka nu leuwih luhur darajatna/umurna",
+                  "Anjeun, Abdi, Nyarios"
+                ],
+                [
+                  "Basa Lemes (Hormat)",
+                  "Nyarita ngeunaan atawa ka nu leuwih luhur",
+                  "Anjeunna, Ngandika, Tuang"
+                ],
+                [
+                  "Basa Sedeng/Panengah",
+                  "Situasi semi-formal, ka sasama",
+                  "Manéhna, Kuring, Ngobrol"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Kecap-Kecap Penting dina Undak Usuk",
+              "level": 2
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Harti",
+                "Kasar",
+                "Lemes"
+              ],
+              "rows": [
+                [
+                  "Saya/Aku",
+                  "Aing",
+                  "Abdi"
+                ],
+                [
+                  "Kamu/Kau",
+                  "Manéh / Sia",
+                  "Anjeun"
+                ],
+                [
+                  "Makan",
+                  "Dahar",
+                  "Tuang / Neda"
+                ],
+                [
+                  "Pergi",
+                  "Indit",
+                  "Angkat / Mios"
+                ],
+                [
+                  "Tidur",
+                  "Saré",
+                  "Kulem / Ngaboseh"
+                ],
+                [
+                  "Bicara",
+                  "Ngomong",
+                  "Nyarios / Ngandika"
+                ],
+                [
+                  "Lihat",
+                  "Titénan",
+                  "Tingali / Regepkeun"
+                ],
+                [
+                  "Rumah",
+                  "Imah",
+                  "Bumi / Gedong"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc-undak-1",
+          "question": "Naon ari undak usuk basa Sunda?",
+          "answer": "Tatacara ngagunakeun basa Sunda anu disesuaikeun jeung kedudukan, umur, jeung kaakraban antara nu nyarita jeung nu diajak nyarita."
+        },
+        {
+          "id": "fc-undak-2",
+          "question": "Kecap lemes tina 'dahar' nyaéta…",
+          "answer": "Tuang atawa Neda."
+        },
+        {
+          "id": "fc-undak-3",
+          "question": "Kecap lemes tina 'ngomong' nyaéta…",
+          "answer": "Nyarios atawa Ngandika."
+        },
+        {
+          "id": "fc-undak-4",
+          "question": "Kecap lemes tina 'indit' nyaéta…",
+          "answer": "Angkat atawa Mios."
+        },
+        {
+          "id": "fc-undak-5",
+          "question": "Kecap lemes tina 'saré' nyaéta…",
+          "answer": "Kulem atawa Ngaboseh."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q-undak-1",
+            "type": "multiple_choice",
+            "question": "Kecap lemes tina kecap 'dahar' nyaéta…",
+            "options": [
+              "Dahar",
+              "Makan",
+              "Tuang",
+              "Neda"
+            ],
+            "answer": 2,
+            "explanation": "'Tuang' nyaéta kecap lemes tina 'dahar' anu digunakeun nalika nyarita ngeunaan atawa ka nu leuwih luhur umur/darajatna. 'Neda' ogé bisa digunakeun."
+          },
+          {
+            "id": "q-undak-2",
+            "type": "multiple_choice",
+            "question": "Undak usuk basa Sunda digunakeun pikeun…",
+            "options": [
+              "Ngahalangan komunikasi",
+              "Ngébréhkeun rasa hormat jeung sopan santun",
+              "Ngabédakeun golongan masarakat",
+              "Nyieun basa Sunda jadi hésé"
+            ],
+            "answer": 1,
+            "explanation": "Undak usuk basa digunakeun pikeun ngébréhkeun rasa hormat, sopan santun, jeung ngajaga adab dina komunikasi Sunda."
+          },
+          {
+            "id": "q-undak-3",
+            "type": "multiple_choice",
+            "question": "Kecap lemes tina 'indit' nyaéta…",
+            "options": [
+              "Jalan",
+              "Angkat",
+              "Balik",
+              "Maju"
+            ],
+            "answer": 1,
+            "explanation": "'Angkat' atawa 'Mios' nyaéta kecap lemes tina 'indit' anu digunakeun nalika nyarita ngeunaan atawa ka nu leuwih luhur."
+          },
+          {
+            "id": "q-undak-4",
+            "type": "multiple_choice",
+            "question": "Kecap 'Abdi' digunakeun nalika…",
+            "options": [
+              "Nyarita jeung babaturan akrab",
+              "Nyarita ka nu leuwih luhur umur/darajatna",
+              "Nyarita jeung sato",
+              "Nyarita dina situasi santai"
+            ],
+            "answer": 1,
+            "explanation": "'Abdi' nyaéta kecap lemes (basa hormat) tina 'kuring/aing' anu digunakeun nalika nyarita ka nu leuwih luhur umur atawa darajatna."
           }
         ]
       }

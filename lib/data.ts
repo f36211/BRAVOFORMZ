@@ -9,6 +9,8 @@ import ips from "@/data/subjects/ips.json"
 import matematika from "@/data/subjects/matematika.json"
 import bahasaArab from "@/data/subjects/bahasa-arab.json"
 import bahasaInggris from "@/data/subjects/bahasa-inggris.json"
+import prakarya from "@/data/subjects/prakarya.json"
+import pjok from "@/data/subjects/pjok.json"
 
 // Each subject lives in its own JSON file under /data/subjects/.
 // Add a new subject by dropping a *.json file in that folder, then
