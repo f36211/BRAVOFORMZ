@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('ipa.json', 'utf8'\\)\\); console.log\\('JSON valid!'\\)\")",
+      "Bash(node -e \"const fs = require\\('fs'\\); const content = fs.readFileSync\\('ipa.json', 'utf8'\\); const lines = content.split\\('\\\\n'\\); const errorLine = 2168; for\\(let i = errorLine - 3; i <= errorLine + 2; i++\\) { console.log\\(\\\\`\\\\${i}: \\\\${lines[i-1]}\\\\`\\); }\")",
+      "Bash(node -e \"const fs = require\\('fs'\\); const content = fs.readFileSync\\('ipa.json', 'utf8'\\); const lines = content.split\\('\\\\n'\\); for\\(let i = 2160; i <= 2180; i++\\) { console.log\\(\\\\`\\\\${i}: \\\\${lines[i-1]}\\\\`\\); }\")",
+      "Bash(node -e \"const fs = require\\('fs'\\); const content = fs.readFileSync\\('ipa.json', 'utf8'\\); let braceCount = 0; let inString = false; let escape = false; for\\(let i = 0; i < content.length; i++\\) { const c = content[i]; if\\(c === '\\\\\\\\\\\\\\\\' && inString\\) { escape = !escape; continue; } if\\(c === '\\\\\"' && !escape\\) { inString = !inString; } if\\(!inString && c === '{'\\) braceCount++; if\\(!inString && c === '}'\\) braceCount--; if\\(i > 95000 && i < 96000\\) { if\\(c === '{' || c === '}'\\) console.log\\(\\\\`Pos \\\\${i} \\(\\\\${i+1}\\): \\\\${c} \\(brace count: \\\\${braceCount}\\)\\\\`\\); } }\")",
+      "Bash(node *)",
+      "Bash(git checkout *)",
+      "Bash(python -m py_compile data\\\\subjects\\\\summarizer.py)",
+      "Bash(python -m py_compile \"data\\\\subjects\\\\summarizer.py\")"
+    ]
+  }
+}

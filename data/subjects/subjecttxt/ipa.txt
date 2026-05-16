@@ -1,0 +1,480 @@
+Kedua file tersebut adalah dokumen penilaian IPA. Saya akan membaca seluruh isinya sekarang.
+Berikut penjelasan lengkap seluruh materi dari kedua file tersebut, disusun berdasarkan bidang ilmu dan sub-materinya.
+FILE 1: IPA_TPM_1_A01
+A. FISIKA
+1. Besaran, Satuan, dan Alat Ukur
+
+Besaran pokok dan satuannya: massa (kg), panjang (meter), waktu (sekon), suhu (Celsius/Kelvin)
+Penggunaan mikrometer sekrup: membaca skala utama (mm) + skala putar (0,01 mm). Cara membaca = skala utama + (skala nonius x 0,01)
+
+2. Konversi Suhu (Termometer)
+
+Rumus konversi Celsius ke Fahrenheit: $$°F = (°C \times \frac{9}{5}) + 32$$
+Contoh: 85°C = (85 x 9/5) + 32 = 153 + 32 = 185°F
+
+3. Sifat-Sifat Zat (Wujud Zat)
+
+Gas: jarak antar partikel sangat berjauhan, bentuk berubah, dapat mengalir, gaya tarik antar partikel sangat lemah, dapat dimampatkan
+Cair: bentuk berubah, dapat mengalir, jarak antar partikel berdekatan, volumenya tetap
+
+4. Perubahan Fisika dan Kimia
+
+Perubahan fisika: perubahan yang tidak menghasilkan zat baru (contoh: lilin meleleh, beras ditumbuk menjadi tepung, air membeku)
+Perubahan kimia: perubahan yang menghasilkan zat baru (contoh: singkong menjadi tape, besi berkarat)
+
+5. Perpindahan Kalor: Angin Darat dan Angin Laut
+
+Siang hari: daratan lebih cepat panas, udara di daratan naik, digantikan udara dari laut (angin laut)
+Malam hari: daratan lebih cepat dingin, udara di atas laut naik, digantikan udara dari daratan (angin darat)
+Mekanisme: konveksi (perpindahan kalor melalui pergerakan massa udara)
+
+6. Zat Aditif dalam Makanan
+
+Pewarna: tartrazin (CI 19140)
+Penyedap rasa: monosodium (MSG)
+Perbedaan antara pemanis, penyedap, pewarna, dan pengawet
+
+7. Pemisahan Campuran: Filtrasi
+
+Filtrasi (penyaringan): memisahkan zat padat dari cairan menggunakan kertas saring
+Cocok untuk: memisahkan biji jambu dari jus, pasir dari air
+Tidak cocok untuk memisahkan gula dari air (larutan homogen)
+
+8. Revolusi Bumi
+
+Akibat revolusi bumi: perbedaan lama siang dan malam, perbedaan musim, perubahan rasi bintang
+Bukan akibat revolusi: perbedaan waktu di belahan bumi (akibat rotasi), pemampatan bumi di kutub
+
+9. Gaya dan Hukum Newton
+
+Resultan gaya: jumlah total gaya yang bekerja pada benda
+Hukum II Newton: $$F = m \times a$$ (percepatan berbanding lurus dengan resultan gaya)
+Benda dengan massa sama: gaya resultan terbesar menghasilkan percepatan terbesar
+
+10. Jenis Gerak: GLB dan GLBB
+
+GLB (Garis Lurus Beraturan): kecepatan tetap
+GLBB dipercepat: kecepatan bertambah (contoh: sepeda turunan)
+GLBB diperlambat: kecepatan berkurang (contoh: bola dilempar ke atas)
+
+11. Energi Potensial
+
+Rumus: $$Ep = m \times g \times h$$
+Contoh: sangkar burung massa 2 kg, tinggi 8 m, g = 10 m/s², maka Ep = 2 x 10 x 8 = 160 J
+
+12. Usaha (Work) dan Bidang Miring
+
+Rumus usaha: $$W = F \times s$$ (gaya x jarak)
+Menghitung jarak dari usaha dan gaya: $$s = W / F$$
+Bidang miring: menghitung gaya minimum untuk memindahkan benda ke ketinggian tertentu
+
+13. Pesawat Sederhana: Tuas
+
+Tuas jenis pertama: titik tumpu di antara beban dan kuasa (contoh: palu paku)
+Tuas jenis kedua: beban di antara titik tumpu dan kuasa (contoh: gerobak dorong, kaki menekuk)
+Tuas jenis ketiga: kuasa di antara titik tumpu dan beban (contoh: lengan mengangkat beban)
+Keuntungan mekanik: perbandingan panjang lengan kuasa terhadap lengan beban
+
+14. Getaran dan Frekuensi (Bandul)
+
+Frekuensi (f) = jumlah getaran / waktu = 10 getaran / 5 sekon = 2 Hz
+Periode (T) = 1 / f = 1/2 = 0,5 sekon
+
+15. Gelombang: Cepat Rambat
+
+Rumus: $$v = \lambda / T$$ atau $$v = \lambda \times f$$
+Jarak antar puncak gelombang = panjang gelombang
+Menghitung cepat rambat dari jarak dan waktu
+
+16. Optik: Cermin Cekung
+
+Jarak fokus (f) = 12 cm, jarak benda (s) = 20 cm
+Rumus cermin: $$\frac{1}{f} = \frac{1}{s} + \frac{1}{s'}$$
+Benda diletakkan antara F dan 2F menghasilkan bayangan nyata, terbalik, diperbesar
+
+17. Bunyi: Sonar dan Kedalaman Laut
+
+Bunyi merambat bolak-balik (kapal ke dasar laut dan kembali)
+Rumus: kedalaman = (kecepatan bunyi x waktu) / 2
+Contoh: v = 1350 m/s, t = 4 sekon, kedalaman = (1350 x 4) / 2 = 2700 m
+
+B. BIOLOGI
+18. Ciri-Ciri Makhluk Hidup
+
+Pertumbuhan: tahapan kehidupan dari bayi hingga dewasa
+Peka terhadap rangsangan: respons terhadap cahaya (mata silau)
+
+19. Jaringan Tumbuhan: Epidermis
+
+Epidermis: lapisan terluar daun/batang
+Fungsi: melindungi jaringan di bawahnya
+Stomata: lubang kecil pada epidermis untuk pertukaran gas
+
+20. Klasifikasi Makhluk Hidup (Kekerabatan)
+
+Kekerabatan paling dekat ditentukan oleh kesamaan ciri morfologi dan klasifikasi taksonomi
+Contoh: kepiting (no.3) dan lobster (no.1) lebih berkerabat dekat dibandingkan dengan siput (no.2) atau lalat (no.4) karena keduanya termasuk Arthropoda
+
+21. Ekosistem: Rantai Makanan dan Jaring-Jaring Makanan
+
+Komponen ekosistem: produsen (tumbuhan), konsumen primer, konsumen sekunder, konsumen tersier
+Dampak kepunahan predator: populasi mangsa meningkat drastis
+Hubungan makan-dimakan menentukan keseimbangan ekosistem
+
+22. Sistem Pencernaan: Lambung
+
+Lambung (organ no. 2) menghasilkan enzim pepsinogen yang diaktifkan menjadi pepsin
+Fungsi pepsin: menguraikan protein menjadi pepton
+
+23. Sistem Ekskresi: Nefron Ginjal
+
+Glomerulus (bagian M): tempat penyaringan darah (filtrasi)
+Gangguan pada glomerulus: proses penyaringan darah tidak maksimal
+Bagian nefron: glomerulus, kapsul Bowman, tubulus kontortus proksimal, lengkung Henle, tubulus kontortus distal
+
+24. Fotosintesis
+
+Faktor yang mempengaruhi: intensitas cahaya
+Percobaan A (terang): fotosintesis lebih cepat, oksigen lebih banyak
+Percobaan B (teduh): fotosintesis lebih lambat, oksigen lebih sedikit
+Tanaman hydrilla digunakan karena menghasilkan gelembung oksigen yang terlihat
+
+25. Perbandingan Otot
+
+Otot lurik: melekat pada rangka, banyak inti, silindris, tidak mudah lelah
+Otot polos: organ kecuali jantung, satu inti, gelondong, mudah lelah
+Otot jantung: jantung, satu inti, silindris bercabang, tidak mudah lelah
+
+26. Pembuluh Darah: Vena (Pembuluh Balik)
+
+Ciri vena: dinding tipis dan kurang elastis, banyak katup di sepanjang pembuluh
+Bukan ciri vena: arah aliran meninggalkan jantung (itu arteri), denyut terasa (itu arteri)
+
+27. Monokotil dan Dikotil
+
+Perbedaan pada: akar (serabut vs tunggang), batang (tidak berkambium vs berkambium), daun (sejajar vs menyirip/menjari), bunga (kelipatan 3 vs kelipatan 4/5)
+
+28. Interaksi dalam Ekosistem Hutan Hujan Tropis
+
+Predasi: harimau memangsa rusa, serigala memangsa tupai
+Kompetisi: benalu dan anggrek bersaing mendapatkan cahaya
+Simbiosis mutualisme: lebah dan bunga (saling menguntungkan)
+Simbiosis parasitisme: benalu dan pohon randu (benalu diuntungkan, inang dirugikan)
+Simbiosis komensalisme: anggrek hutan dan pohon randu (anggrek mendapat tempat tumbuh, pohon tidak dirugikan)
+
+29. Gerak Refleks dan Sistem Saraf
+
+Rangsangan tidak disengaja pada ujung jari
+Jalur: reseptor, saraf sensorik (X), sumsum tulang belakang, saraf motorik (Y), efektor (otot)
+X = saraf sensorik, Y = saraf motorik
+
+30. Organ Reproduksi Wanita
+
+Tuba falopium (1): tempat fertilisasi
+Ovarium (2): menghasilkan sel telur
+Uterus (3): tempat perkembangan janin
+Serviks (4): leher rahim
+Vagina (5): jalan lahir
+
+31. Gangguan Reproduksi: Kandidiasis
+
+Penyebab: jamur Candida yang berkembang biak di lingkungan lembap
+Gejala: keputihan kental putih, gatal, kemerahan
+Pencegahan: menggunakan celana dalam berbahan katun, tidak terlalu ketat
+
+32. Pewarisan Sifat (Genetika Mendel)
+
+Persilangan biji bulat (BB) x biji keriput (bb) menghasilkan F1 seluruhnya bulat
+F1 x F1: perbandingan fenotipe F2 = 3 bulat: 1 keriput
+Golongan darah: AB (IAIB) x O (IOIO) menghasilkan 50% golongan A dan 50% golongan B
+
+33. Bioteknologi
+
+Konvensional: fermentasi, peralatan sederhana, skala kecil (contoh: tempe, tape, keju, yogurt)
+Modern: rekayasa genetika, peralatan canggih, skala besar (contoh: insulin, domba Dolly/kloing, padi transgenik)
+Mikroorganisme: Rhizopus oligosporus (tempe), Saccharomyces cerevisiae (tape), Lactobacillus bulgaricus (yogurt), Acetobacter xylinum (nata de coco)
+
+34. Struktur Jaringan Daun
+
+X = palisade (jaringan tiang): berperan dalam fotosintesis karena mengandung banyak kloroplas
+Letak: di bawah epidermis atas
+Di bawah palisade terdapat jaringan bunga karang (spons mesofil)
+
+35. Pemisahan Campuran: Evaporasi
+
+Prinsip: penguapan cairan untuk mendapatkan zat terlarut
+Contoh: petani garam menguapkan air laut di bawah terik matahari hingga tersisa kristal garam
+
+36. Sistem Pencernaan: Enzim
+
+Mulut: ptialin menguraikan zat tepung menjadi glukosa
+Lambung: pepsin menguraikan protein menjadi pepton
+Pankreas: lipase menguraikan lemak menjadi asam lemak dan gliserol
+Usus halus: tripsin mengubah protein menjadi asam amino
+
+37. Zat Aditif Makanan
+
+Gula: pemanis
+Garam: penyedap rasa
+Pewarna, pengawet, dan penguat rasa (MSG) juga termasuk zat aditif
+
+38. Penyakit Diabetes Mellitus
+
+Gejala: urine mengandung glukosa (dikelilingi semut)
+Gangguan pada fungsi ginjal dalam reabsorpsi glukosa
+
+39. Pembuluh Nadi (Arteri)
+
+Ciri arteri: dinding tebal, kuat, elastis; aliran meninggalkan jantung; denyut terasa; darah memancar jika terluka; letak tersembunyi di dalam tubuh
+Bukan ciri arteri: banyak katup (itu vena), denyut tidak terasa (itu vena)
+
+40. Sistem Rangka: Sendi
+
+Sendi peluru: gerak ke segala arah (contoh: bahu, pinggul)
+Sendi engsel: gerak ke satu arah (contoh: siku, lutut)
+Sendi pada siku (X) = sendi engsel, gerak ke satu arah
+
+41. Sistem Saraf: Impuls dan Gerak Refleks
+
+Urutan jalur refleks: ujung jari tertusuk paku -> reseptor -> X (saraf sensorik) -> sumsum tulang belakang -> Y (saraf motorik) -> efektor (otot lengan) -> tangan menarik menjauh
+X = saraf sensorik, Y = saraf motorik
+
+42. Kesehatan Reproduksi
+
+Kandidiasis: infeksi jamur pada organ reproduksi wanita
+Pencegahan: menjaga kebersihan, menggunakan pakaian dalam yang menyerap keringat dan tidak ketat
+
+43. Pewarisan Sifat Mendel
+
+Sifat dominan dan resesif
+Perbandingan fenotipe F2 = 3:1 (dominan:resesif)
+Pewarisan golongan darah: AB x O menghasilkan 50% A dan 50% B
+
+44. Bioteknologi Konvensional dan Modern
+
+Konvensional: fermentasi (tempe, tape, keju, yogurt, nata de coco)
+Modern: rekayasa genetika (insulin, kloing, padi transgenik, vaksin)
+Mikroorganisme yang berperan dalam fermentasi
+
+
+FILE 2: IPA_TPM_2_A01
+A. FISIKA
+1. Besaran, Satuan, dan Alat Ukur
+
+Tabel besaran dan satuan: gaya (N, dinamometer), waktu (s, stopwatch), panjang (m, penggaris), kuat arus (A, amperemeter)
+Perbedaan besaran pokok dan turunan
+Mikrometer sekrup: membaca diameter kawat. Skala utama 5,5 mm + skala nonius 0,33 mm = 5,83 mm
+
+2. Konversi Suhu
+
+Mengonversi 40°C ke Fahrenheit: (40 x 9/5) + 32 = 72 + 32 = 104°F
+Hubungan skala Celsius dan Fahrenheit
+
+3. Perubahan Fisika dan Kimia
+
+Perubahan fisika: kertas dipotong-potong (bentuk berubah, zat tetap), air dipanaskan menjadi uap (wujud berubah)
+Perubahan kimia: besi berkarat (zat baru terbentuk), singkong difermentasi menjadi tape (reaksi biokimia)
+
+4. Perpindahan Kalor: Radiasi
+
+Radiasi: perpindahan kalor tanpa medium (melalui gelombang elektromagnetik)
+Contoh: panas api unggun dirasakan orang yang duduk di dekatnya
+Berbeda dengan konduksi (sentuhan langsung) dan konveksi (pergerakan fluida)
+
+5. Gerak: GLBB Dipercepat dan Diperlambat
+
+A ke B: GLBB dipercepat (kecepatan bertambah)
+B ke C: GLBB diperlambat (kecepatan berkurang)
+Dibaca dari grafik atau diagram lintasan benda
+
+6. Gaya dan Usaha
+
+Tiga gaya bekerja pada balok: 30 N, 25 N, 15 N
+Resultan gaya = 30 + 25 + 15 = 70 N (semua searah ke kanan)
+Usaha: W = F x s = 70 x 20 = 1.400 J = 1,4 kJ, arah ke kanan
+
+7. Energi Potensial
+
+Rumus: $$Ep = m \times g \times h$$
+Kelapa: m = 2 kg, h = 6 m, g = 10 m/s², Ep = 2 x 10 x 6 = 120 J
+
+8. Gelombang: Cepat Rambat
+
+Rumus: $$v = s / t$$
+Jarak 30 meter, waktu 12 sekon, v = 30 / 12 = 2,5 m/s
+
+9. Prinsip Pascal: Hidrolik
+
+Rumus: $$F_1 / A_1 = F_2 / A_2$$
+A1 = 20 cm², A2 = 70 cm², F1 = 350 N
+F2 = 350 x (70/20) = 350 x 3,5 = 1.225 N
+Prinsip: tekanan dalam fluida tertutup diteruskan sama besar ke segala arah
+
+10. Listrik Statis
+
+Ketika sisir plastik digosokkan ke rambut, elektron dari rambut pindah ke sisir
+Sisir bermuatan negatif (kelebihan elektron), rambut bermuatan positif (kekurangan elektron)
+
+11. Hukum Coulomb
+
+Rumus: $$F = k \times \frac{q_1 \times q_2}{r^2}$$
+q1 = 3 C, q2 = 4 C, r = 0,3 m, k = 9 x 10⁹ N·m²/C²
+F = 9 x 10⁹ x (3 x 4) / (0,3)² = 9 x 10⁹ x 12 / 0,09 = 1,2 x 10¹² N
+
+12. Rangkaian Listrik: Seri dan Paralel
+
+R1 = 1 ohm (seri) + R2 = 3 ohm dan R3 = 6 ohm (paralel)
+Hambatan paralel: 1/Rp = 1/3 + 1/6 = 2/6 + 1/6 = 3/6, Rp = 2 ohm
+Total hambatan: Rt = R1 + Rp = 1 + 2 = 3 ohm
+Arus: I = V / Rt = 6 / 3 = 2 A
+
+13. Magnet: Cara Membuat Magnet
+
+Menggosok: kutub selatan magnet digosokkan dari A ke B pada batang baja secara searah berulang-ulang
+Ujung A menjadi kutub selatan, ujung B menjadi kutub utara
+Kutub yang terbentuk berlawanan dengan kutub yang digosokkan pada ujung awal
+
+14. GGL Induksi (Elektromagnetisme)
+
+Cara menghasilkan GGL induksi: menggerakkan magnet keluar-masuk kumparan secara berulang
+Perubahan fluks magnetik dalam kumparan menghasilkan arus listrik
+Magnet diam atau arus diputus tidak menghasilkan GGL induksi yang signifikan
+
+15. Tekanan pada Zat Cair
+
+Rumus: $$P = \rho \times g \times h$$
+Penyelam di kedalaman 15 m, jarak dari dasar 3 m
+Kedalaman penyelam dari permukaan = 15 - 3 = 12 m
+P = 1200 x 10 x 12 = 144.000 Pa
+
+B. BIOLOGI
+16. Ekosistem Savana: Jaring-Jaring Makanan
+
+Produsen: rumput, pohon akasia
+Konsumen primer: belalang, zebra, jerapah, banteng, rusa
+Konsumen sekunder: burung sagitarius, ular, kuda nil
+Konsumen tersier: singa, buaya, serigala
+Pengurai: burung nasar (pemakan bangkai)
+Rumput berperan sebagai produsen karena menghasilkan energi melalui fotosintesis
+
+17. Jaringan Daun: Palisade
+
+X = jaringan palisade (tiang)
+Fungsi: berperan dalam fotosintesis karena mengandung kloroplas berlimpah
+Letak tepat di bawah epidermis atas
+
+18. Pemisahan Campuran: Evaporasi
+
+Petani garam menguapkan air laut di bawah sinar matahari
+Prinsip: memisahkan pelarut (air) dari zat terlarut (garam) melalui penguapan
+
+19. Sistem Pencernaan: Enzim
+
+Mulut: ptialin menguraikan zat tepung menjadi glukosa (data I benar)
+Pankreas: lipase menguraikan lemak menjadi asam lemak dan gliserol (data III benar)
+Lambung menghasilkan pepsin (bukan tripsin), tripsin dihasilkan pankreas
+Usus halus menghasilkan lipase usus dan maltase (bukan pepsin)
+
+20. Zat Aditif Makanan
+
+Gula: pemanis
+Garam: penyedap rasa
+Perbedaan fungsi pemanis, penyedap, pengawet, dan pewarna
+
+21. Sistem Ekskresi: Diabetes Mellitus
+
+Gejala: urine mengandung glukosa (dikelilingi semut)
+Penyakit: diabetes mellitus
+Gangguan pada reabsorpsi glukosa di tubulus ginjal
+
+22. Pembuluh Nadi (Arteri)
+
+Ciri-ciri: dinding tebal, kuat, dan elastis (1); aliran meninggalkan jantung (3); denyut terasa, darah memancar jika terluka (5)
+Benar: nomor 1, 3, dan 5
+
+23. Sistem Rangka: Sendi
+
+Sendi pada siku (X) = sendi engsel
+Arah gerak: satu arah (membuka dan menutup seperti engsel pintu)
+Tulang yang terlibat: tulang lengan atas, tulang pengumpil (radius), tulang hasta (ulna)
+
+24. Sistem Saraf: Gerak Refleks
+
+Urutan: ujung jari tertusuk paku -> reseptor -> X (saraf sensorik) -> sumsum tulang belakang -> Y (saraf motorik) -> efektor (otot lengan)
+X = saraf sensorik, Y = saraf motorik
+
+25. Organ Reproduksi Wanita
+
+1 = tuba falopium: tempat fertilisasi
+2 = ovarium: menghasilkan sel telur
+3 = uterus: tempat perkembangan janin
+4 = serviks: leher rahim
+5 = vagina: jalan lahir
+
+26. Gangguan Reproduksi: Kandidiasis
+
+Penyebab: jamur yang berkembang di lingkungan lembap
+Gejala: keputihan kental putih, gatal, kemerahan
+Pencegahan: celana dalam katun, tidak ketat, menjaga sirkulasi udara
+
+27. Pewarisan Sifat Mendel
+
+Persilangan: kedelai bulat (BB) x keriput (bb) -> F1 seluruhnya bulat
+F1 x F1: F2 menunjukkan perbandingan fenotipe 3 bulat: 1 keriput
+Hukum dominansi: sifat dominan menutupi sifat resesif pada F1
+
+28. Pewarisan Golongan Darah
+
+Pria AB (IAIB) x Wanita O (IOIO)
+Keturunan: 50% golongan A (IAIO) dan 50% golongan B (IBIO)
+Tidak ada keturunan AB atau O dari persilangan ini
+
+29. Bioteknologi Konvensional vs Modern
+
+Konvensional: fermentasi, peralatan sederhana, skala kecil (keju, yogurt)
+Modern: rekayasa genetika, peralatan canggih, skala besar (insulin, domba Dolly)
+
+30. Mikroorganisme dalam Bioteknologi
+
+Rhizopus oligosporus -> tempe (benar)
+Lactobacillus bulgaricus -> yogurt (benar)
+Saccharomyces cerevisiae -> tape (bukan nata de coco)
+Acetobacter xylinum -> nata de coco (bukan tape)
+
+C. SOAL URAIAN
+1. Perbedaan Pisces dan Mamalia
+
+Pisces: penutup tubuh sisik, alat gerak sirip, berdarah dingin, fertilisasi eksternal, reproduksi ovipar, bernapas dengan insang
+Mamalia: penutup tubuh rambut/kulit, alat gerak kaki, berdarah panas, fertilisasi internal, reproduksi vivipar, bernapas dengan paru-paru
+
+2. Tuas: Menghitung Gaya dan Keuntungan Mekanik
+
+Beban = 480 N, lengan beban = 20 cm, lengan kuasa = 120 cm
+Gaya kuasa = (beban x lengan beban) / lengan kuasa = (480 x 20) / 120 = 80 N
+Keuntungan mekanik = lengan kuasa / lengan beban = 120 / 20 = 6
+
+3. Tekanan pada Penyelam
+
+Kedalaman penyelam dari permukaan = 15 - 3 = 12 m
+P = rho x g x h = 1200 x 10 x 12 = 144.000 Pa
+
+4. Pewarisan Sifat: Intermediate (Tidak Dominan Penuh)
+
+Mawar merah (MM) x mawar putih (mm) -> F1 seluruhnya merah muda (Mm)
+F1 x F1: F2 = 1 MM (merah): 2 Mm (merah muda): 1 mm (putih)
+Perbandingan genotipe = 1:2:1, perbandingan fenotipe = 1:2:1
+
+5. Perhitungan Rekening Listrik
+
+Daya total per hari:
+2 lampu 5W x 10 jam = 100 Wh
+4 lampu 10W x 10 jam = 400 Wh
+1 pompa air 250W x 2 jam = 500 Wh
+1 kulkas 50W x 24 jam = 1200 Wh
+1 TV 100W x 5 jam = 500 Wh
+1 setrika 200W x 1 jam = 200 Wh
+Total = 2.900 Wh = 2,9 kWh/hari
+
+
+Per bulan: 2,9 x 30 = 87 kWh
+Biaya: 87 x Rp 1.400 = Rp 121.800 + Rp 20.000 (administrasi) = Rp 141.800

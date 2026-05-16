@@ -1,2136 +1,1157 @@
 {
   "id": "bahasa-indonesia",
   "name": "Bahasa Indonesia",
-  "description": "Tata bahasa, sastra, dan keterampilan berbahasa",
+  "description": "Eksplorasi mendalam mengenai keindahan, struktur, dan kekuatan Bahasa Indonesia. Modul premium ini dirancang untuk mengasah kemampuan literasi tingkat tinggi, pemahaman kritis, hingga penguasaan tata bahasa dan sastra secara komprehensif.",
   "grade": [
     7,
     8,
-    9
+    9,
+    10,
+    11,
+    12
   ],
-  "icon": "BookText",
-  "color": "neutral",
+  "icon": "Book",
+  "color": "soft",
   "topics": [
     {
-      "id": "jenis-paragraf",
-      "title": "Jenis-Jenis Paragraf",
-      "description": "Deduktif, induktif, campuran, dan ineratif",
+      "id": "pemahaman-membaca-dan-teks-nonfiksi",
+      "title": "Pemahaman Membaca dan Analisis Teks Nonfiksi",
+      "description": "Bedah tuntas teknik membaca kritis, menemukan gagasan utama, membedakan fakta dan opini, serta menganalisis ragam teks nonfiksi seperti teks berita, teks prosedur, dan teks tanggapan secara analitis dan terstruktur.",
       "lessons": [
         {
-          "id": "struktur-paragraf",
-          "title": "Struktur dan Jenis Paragraf",
-          "estMinutes": 10,
+          "id": "gagasan-utama-dan-ide-pokok",
+          "title": "Membongkar Rahasia Gagasan Utama dan Ide Pokok",
+          "estMinutes": 45,
           "content": [
             {
               "type": "heading",
-              "text": "Jenis-Jenis Paragraf"
+              "text": "Apa Itu Gagasan Utama?",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Gagasan utama, atau sering disebut ide pokok, adalah pondasi atau inti sari dari sebuah paragraf. Bayangkan sebuah bangunan; gagasan utama adalah tiang pancang utamanya. Tanpa gagasan utama, kalimat-kalimat lain dalam paragraf tersebut akan runtuh dan kehilangan arah. Gagasan utama inilah yang ingin disampaikan penulis kepada pembaca sebagai pesan sentral. Dalam membaca cepat maupun membaca kritis, kemampuan menemukan gagasan utama dengan presisi adalah keterampilan paling mendasar yang wajib dikuasai."
+            },
+            {
+              "type": "highlight",
+              "text": "Setiap paragraf yang baik dan padu hanya boleh memiliki SATU gagasan utama. Kalimat-kalimat lainnya berfungsi sebagai kalimat penjelas yang mendukung gagasan tersebut."
+            },
+            {
+              "type": "heading",
+              "text": "Letak Kalimat Utama dalam Paragraf",
+              "level": 2
+            },
+            {
+              "type": "text",
+              "text": "Berdasarkan letak kalimat utamanya, paragraf dalam Bahasa Indonesia diklasifikasikan menjadi tiga jenis utama:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Paragraf Deduktif: Kalimat utama berada di AWAL paragraf. Penulis menyajikan pernyataan umum terlebih dahulu, kemudian dirincikan dengan fakta, contoh, atau alasan pendukung.",
+                "Paragraf Induktif: Kalimat utama berada di AKHIR paragraf. Paragraf ini diawali dengan rincian, fakta khusus, dan diakhiri dengan sebuah kesimpulan yang merupakan gagasan utama.",
+                "Paragraf Campuran (Deduktif-Induktif): Kalimat utama ada di awal dan ditegaskan kembali di akhir paragraf. Ini sering digunakan untuk memberi penekanan ekstra pada poin krusial."
+              ],
+              "ordered": false
+            },
+            {
+              "type": "image",
+              "url": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&q=80&w=1000",
+              "caption": "Membaca kritis membutuhkan fokus untuk memisahkan ide pokok dari detail penjelas."
+            },
+            {
+              "type": "heading",
+              "text": "Studi Kasus: Analisis Paragraf",
+              "level": 2
+            },
+            {
+              "type": "text",
+              "text": "Mari kita bedah sebuah paragraf contoh: 'Olahraga secara rutin memberikan banyak manfaat bagi kesehatan tubuh. Olahraga dapat memperkuat otot dan tulang agar tidak mudah rapuh. Selain itu, olahraga juga mampu meningkatkan daya tahan tubuh terhadap berbagai penyakit. Bahkan, olahraga terbukti dapat menjaga kesehatan mental seseorang agar tetap stabil.' Jika kita perhatikan struktur informasinya, kalimat pertama menyajikan klaim umum yang mencakup semua ide di paragraf tersebut. Kalimat kedua, ketiga, dan keempat hanyalah rincian (manfaat fisik, imun, mental). Oleh karena itu, ini adalah paragraf DEDUKTIF dengan kalimat utama berada di awal."
+            }
+          ]
+        },
+        {
+          "id": "fakta-versus-opini",
+          "title": "Pisau Analisis: Membedakan Fakta dan Opini",
+          "estMinutes": 40,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Dikotomi Informasi: Objektif vs Subjektif",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Di era banjir informasi seperti saat ini, batas antara kebenaran faktual dan pandangan subjektif sering kali kabur. Membedakan fakta dan opini adalah tameng utama literasi digital. Fakta adalah hal, keadaan, atau peristiwa yang merupakan kenyataan atau sesuatu yang benar-benar terjadi. Opini adalah pendapat, pikiran, atau pendirian seseorang mengenai suatu peristiwa."
             },
             {
               "type": "table",
               "headers": [
-                "Jenis Paragraf",
-                "Letak Kalimat Utama",
-                "Ciri"
+                "Aspek Pembeda",
+                "Kalimat Fakta",
+                "Kalimat Opini"
               ],
               "rows": [
                 [
-                  "Deduktif",
-                  "Awal paragraf",
-                  "Umum → khusus"
+                  "Sifat",
+                  "Objektif, tidak memihak",
+                  "Subjektif, bisa berbeda tiap orang"
                 ],
                 [
-                  "Induktif",
-                  "Akhir paragraf",
-                  "Khusus → umum"
+                  "Kebenaran",
+                  "Dapat dibuktikan secara empiris",
+                  "Kebenarannya relatif atau belum pasti"
                 ],
                 [
-                  "Campuran",
-                  "Awal dan akhir",
-                  "Kalimat utama diulang"
+                  "Data",
+                  "Biasanya disertai data kuantitatif akurat (angka, statistik, waktu, tempat)",
+                  "Minim data konkret, sering memuat asumsi"
                 ],
                 [
-                  "Ineratif",
-                  "Tengah paragraf",
-                  "Kalimat penjelas di awal dan akhir"
+                  "Kata Kunci",
+                  "Telah, terjadi, pada tanggal, sebesar",
+                  "Sebaiknya, mungkin, seandainya, menurut, sangat"
                 ]
               ]
             },
             {
-              "type": "heading",
-              "level": 2,
-              "text": "Kalimat Utama dan Penjelas"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Kalimat utama: memuat gagasan utama/ide pokok",
-                "Kalimat penjelas: mendukung dan memperjelas kalimat utama",
-                "Gagasan utama = ide pokok = pikiran utama"
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Koherensi Paragraf"
+              "type": "text",
+              "text": "Mari kita analisis contoh dari teks sejarah proklamasi. Kalimat '(1) Pada tanggal 17 Agustus 1945, Ir. Soekarno dan Drs. Mohammad Hatta memproklamasikan kemerdekaan Indonesia di Jalan Pegangsaan Timur No. 56, Jakarta.' merupakan sebuah FAKTA. Mengapa? Karena terdapat data waktu yang akurat, tempat yang spesifik, dan kejadian tersebut adalah peristiwa sejarah yang terverifikasi (dapat dibuktikan)."
             },
             {
               "type": "text",
-              "text": "Paragraf yang baik harus koherensi, artinya kalimat-kalimat saling berkaitan dan tidak ada yang menyimpang dari topik."
+              "text": "Sebaliknya, kalimat '(4) Seandainya para pahlawan tidak berjuang dengan gigih, kemerdekaan Indonesia tentu tidak akan bisa diraih secepat itu.' adalah OPINI. Kalimat ini menggunakan kata pengandaian 'Seandainya' dan memuat pandangan penulis terkait kemungkinan masa lalu, yang tidak bisa dibuktikan secara sains atau data historis karena bersifat hipotesis."
             },
             {
-              "type": "highlight",
-              "text": "Cara menentukan gagasan utama: cari kalimat yang bisa merangkum seluruh paragraf."
+              "type": "quote",
+              "text": "Kebenaran fakta berbisik melalui data, sedangkan opini berteriak melalui emosi dan sudut pandang.",
+              "translation": "Fact speaks through data, while opinion shouts through emotion and perspective."
             }
           ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc1",
-          "question": "Letak kalimat utama paragraf deduktif?",
-          "answer": "Di awal paragraf"
         },
         {
-          "id": "fc2",
-          "question": "Ciri paragraf induktif?",
-          "answer": "Kalimat utama di akhir, pola khusus ke umum"
-        },
-        {
-          "id": "fc3",
-          "question": "Apa itu koherensi paragraf?",
-          "answer": "Kalimat-kalimat saling berkaitan dan tidak menyimpang dari topik"
-        },
-        {
-          "id": "fc4",
-          "question": "Paragraf dengan kalimat utama di tengah?",
-          "answer": "Paragraf ineratif"
-        },
-        {
-          "id": "fc5",
-          "question": "Pola paragraf campuran?",
-          "answer": "Kalimat utama ada di awal dan diulang/dipertegas di akhir paragraf"
-        },
-        {
-          "id": "fc6",
-          "question": "Apa gagasan utama paragraf ineratif?",
-          "answer": "Kalimat utama terletak di tengah, diapit kalimat penjelas di awal dan akhir"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q1",
-            "type": "multiple_choice",
-            "question": "Paragraf dengan kalimat utama di awal dan akhir adalah?",
-            "options": [
-              "Deduktif",
-              "Induktif",
-              "Campuran",
-              "Ineratif"
-            ],
-            "answer": 2,
-            "explanation": ""
-          },
-          {
-            "id": "q2",
-            "type": "multiple_choice",
-            "question": "Pola paragraf deduktif adalah?",
-            "options": [
-              "Khusus → umum",
-              "Umum → khusus",
-              "Khusus → khusus",
-              "Umum → umum"
-            ],
-            "answer": 1,
-            "explanation": ""
-          },
-          {
-            "id": "q3",
-            "type": "multiple_choice",
-            "question": "Paragraf yang diawali kalimat penjelas dan diakhiri kalimat utama adalah?",
-            "options": [
-              "Deduktif",
-              "Induktif",
-              "Campuran",
-              "Ineratif"
-            ],
-            "answer": 1,
-            "explanation": ""
-          },
-          {
-            "id": "q4",
-            "type": "multiple_choice",
-            "question": "Siswa kelas 9 lebih giat belajar... (kalimat utama di awal, penjelas di tengah, dipertegas di akhir). Paragraf ini termasuk jenis?",
-            "options": [
-              "Ineratif",
-              "Induktif",
-              "Deduktif",
-              "Campuran"
-            ],
-            "answer": 0,
-            "explanation": "Paragraf ineratif memiliki kalimat utama di tengah, tapi bila kalimat utama muncul di awal, tengah dan akhir saling mendukung, bisa ineratif atau campuran tergantung konteks. Soal TPM menjawab ineratif."
-          },
-          {
-            "id": "q5",
-            "type": "multiple_choice",
-            "question": "Cara menentukan gagasan utama paragraf adalah?",
-            "options": [
-              "Cari kalimat yang paling panjang",
-              "Cari kalimat yang bisa merangkum seluruh paragraf",
-              "Cari kalimat pertama saja",
-              "Cari kalimat yang berisi data"
-            ],
-            "answer": 1,
-            "explanation": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "konjungsi",
-      "title": "Konjungsi",
-      "description": "Kata penghubung intra kalimat dan antar kalimat",
-      "lessons": [
-        {
-          "id": "jenis-konjungsi",
-          "title": "Konjungsi Intra dan Antar Kalimat",
-          "estMinutes": 8,
+          "id": "anatomi-teks-berita",
+          "title": "Anatomi Teks Berita dan Unsur ADiKSiMBa",
+          "estMinutes": 50,
           "content": [
             {
               "type": "heading",
-              "text": "Konjungsi (Kata Penghubung)"
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Konjungsi Intra Kalimat"
+              "text": "Jurnalisme dan Struktur Berita",
+              "level": 1
             },
             {
               "type": "text",
-              "text": "Menghubungkan kata, frasa, atau klausa dalam satu kalimat."
-            },
-            {
-              "type": "list",
-              "items": [
-                "Koordinatif: dan, atau, tetapi, melainkan",
-                "Sebab-akibat: karena, sebab, sehingga, agar",
-                "Syarat: jika, apabila, bila, kalau",
-                "Waktu: ketika, saat, sebelum, sesudah"
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Konjungsi Antar Kalimat"
-            },
-            {
-              "type": "text",
-              "text": "Menghubungkan kalimat satu dengan kalimat lainnya. Biasanya terletak di awal kalimat dan diikuti tanda koma."
-            },
-            {
-              "type": "list",
-              "items": [
-                "Pertentangan: Bahkan, namun, akan tetapi",
-                "Akibat: Oleh karena itu, dengan demikian",
-                "Penambahan: Selain itu, di samping itu",
-                "Urutan: Setelah itu, kemudian, lalu"
-              ]
+              "text": "Teks berita adalah teks yang melaporkan kejadian, peristiwa, atau informasi mengenai sesuatu yang telah atau sedang terjadi. Jurnalisme yang baik bertumpu pada kejelasan, keakuratan, dan kelengkapan informasi. Sebuah berita tidak boleh disusun secara sembarangan; ia menggunakan struktur Piramida Terbalik."
             },
             {
               "type": "highlight",
-              "text": "Konjungsi antar kalimat diikuti tanda koma. Konjungsi intra kalimat tidak berdiri di awal kalimat."
+              "text": "Piramida Terbalik: Informasi paling penting ditempatkan di paragraf paling awal (Lead/Kepala Berita), diikuti rincian di tengah (Tubuh Berita), dan informasi tambahan di akhir (Ekor Berita)."
+            },
+            {
+              "type": "heading",
+              "text": "Mengenal ADiKSiMBa (5W+1H)",
+              "level": 2
+            },
+            {
+              "type": "text",
+              "text": "Untuk memastikan berita lengkap, jurnalis wajib memasukkan unsur ADiKSiMBa. Ini adalah akronim bahasa Indonesia yang sejajar dengan formula jurnalistik global 5W+1H:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "A - Apa (What): Peristiwa apa yang sedang terjadi?",
+                "Di - Di mana (Where): Di mana lokasi peristiwanya?",
+                "K - Kapan (When): Kapan peristiwa itu berlangsung?",
+                "Si - Siapa (Who): Siapa saja pihak yang terlibat?",
+                "M - Mengapa (Why): Mengapa hal itu bisa terjadi (latar belakang/penyebab)?",
+                "Ba - Bagaimana (How): Bagaimana proses kejadiannya atau solusinya?"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "text",
+              "text": "Perhatikan cuplikan berikut: 'Banjir besar melanda sejumlah wilayah di Kabupaten Bekasi pada Senin, 4 Mei 2026. Bupati Bekasi, Drs. H. Ade Kuswara Kunang, M.M., langsung turun ke lapangan untuk meninjau kondisi warga terdampak.'\n\nJika ada pertanyaan mengenai frasa 'Bupati Bekasi, Drs. H. Ade Kuswara Kunang, M.M.' yang dicetak tebal, kita dengan mudah mengidentifikasi bahwa unsur tersebut menjawab pertanyaan 'SIAPA' yang melakukan aksi dalam berita tersebut."
             }
           ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc1",
-          "question": "Contoh konjungsi intra kalimat?",
-          "answer": "dan, atau, tetapi, karena, sehingga, ketika"
         },
         {
-          "id": "fc2",
-          "question": "Contoh konjungsi antar kalimat?",
-          "answer": "Bahkan, namun, oleh karena itu, dengan demikian, selain itu"
-        },
-        {
-          "id": "fc3",
-          "question": "Posisi konjungsi antar kalimat?",
-          "answer": "Di awal kalimat, diikuti tanda koma"
-        },
-        {
-          "id": "fc4",
-          "question": "'Sehingga' termasuk konjungsi?",
-          "answer": "Konjungsi intra kalimat (sebab-akibat)"
-        },
-        {
-          "id": "fc5",
-          "question": "Apa perbedaan konjungsi intra dan antar kalimat?",
-          "answer": "Intra: menghubungkan dalam satu kalimat. Antar: menghubungkan dua kalimat berbeda, di awal kalimat."
-        },
-        {
-          "id": "fc6",
-          "question": "Konjungsi 'bahkan' termasuk jenis?",
-          "answer": "Konjungsi antar kalimat (penguatan/penambahan)"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q1",
-            "type": "multiple_choice",
-            "question": "Yang termasuk konjungsi antar kalimat adalah?",
-            "options": [
-              "dan",
-              "tetapi",
-              "bahkan",
-              "karena"
-            ],
-            "answer": 2,
-            "explanation": ""
-          },
-          {
-            "id": "q2",
-            "type": "multiple_choice",
-            "question": "'Dia rajin belajar sehingga lulus ujian.' Konjungsi 'sehingga' menunjukkan?",
-            "options": [
-              "Pertentangan",
-              "Sebab-akibat",
-              "Pilihan",
-              "Waktu"
-            ],
-            "answer": 1,
-            "explanation": ""
-          },
-          {
-            "id": "q3",
-            "type": "multiple_choice",
-            "question": "Konjungsi intra kalimat terdapat pada kalimat?",
-            "options": [
-              "Bahkan, dia tidak mau menyerah.",
-              "Oleh karena itu, kita harus belajar.",
-              "Dia belajar keras karena ingin lulus.",
-              "Dengan demikian, masalah selesai."
-            ],
-            "answer": 2,
-            "explanation": ""
-          },
-          {
-            "id": "q4",
-            "type": "multiple_choice",
-            "question": "'Namun' adalah contoh konjungsi?",
-            "options": [
-              "Intra kalimat waktu",
-              "Intra kalimat syarat",
-              "Antar kalimat pertentangan",
-              "Antar kalimat urutan"
-            ],
-            "answer": 2,
-            "explanation": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "teks-prosedur",
-      "title": "Teks Prosedur",
-      "description": "Struktur, ciri kebahasaan, dan konversi teks prosedur",
-      "lessons": [
-        {
-          "id": "struktur-prosedur",
-          "title": "Struktur Teks Prosedur",
-          "estMinutes": 8,
+          "id": "teks-prosedur-dan-koherensi",
+          "title": "Teks Prosedur dan Seni Menjaga Koherensi Paragraf",
+          "estMinutes": 45,
           "content": [
             {
               "type": "heading",
-              "text": "Teks Prosedur"
+              "text": "Instruksi yang Presisi",
+              "level": 1
             },
             {
               "type": "text",
-              "text": "Teks prosedur adalah teks yang menjelaskan langkah-langkah melakukan sesuatu secara berurutan."
+              "text": "Teks prosedur adalah teks yang berisi cara, tujuan untuk membuat atau melakukan sesuatu melalui langkah-langkah yang sistematis. Tanpa urutan yang logis dan presisi, instruksi dalam teks prosedur akan gagal membawa pembaca pada tujuan yang diharapkan. Ciri kebahasaan teks ini meliputi kalimat imperatif (perintah), konjungsi temporal (kemudian, lalu, setelah itu), dan kata keterangan (secukupnya, perlahan)."
             },
             {
-              "type": "heading",
-              "level": 2,
-              "text": "Struktur Teks Prosedur"
-            },
-            {
-              "type": "list",
-              "ordered": true,
-              "items": [
-                "Tujuan — apa yang akan dicapai/judul kegiatan",
-                "Bahan dan alat — apa yang dibutuhkan",
-                "Langkah-langkah — urutan kerja (harus berurutan!)",
-                "Penutup — hasil akhir atau simpulan"
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Ciri Kebahasaan"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Kalimat perintah (imperatif): Campurkan, aduk, potong, tanamlah, siramlah",
-                "Kata penghubung urutan: pertama, kemudian, selanjutnya, terakhir, lalu",
-                "Kata kerja aktif: menanam, mencuci, menggoreng, menyiram",
-                "Keterangan alat: dengan sendok, menggunakan pisau, menggunakan sekop mini"
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Mengubah Teks Cerpen menjadi Teks Prosedur"
+              "type": "simulation",
+              "simType": "cells"
             },
             {
               "type": "text",
-              "text": "Langkah konversi: (1) Identifikasi kegiatan utama dalam cerpen. (2) Tentukan judul prosedur dari kegiatan tersebut. (3) Temukan bahan dan alat yang disebutkan. (4) Ubah narasi menjadi kalimat perintah berurutan."
+              "text": "Bayangkan sebuah teks prosedur seperti susunan sel dalam sebuah organisme (seperti simulasi di atas). Setiap kalimat adalah sel yang harus terikat kuat dengan sel lainnya membentuk satu jaringan utuh. Keterikatan antarkalimat dalam suatu paragraf ini disebut KOHERENSI (kepaduan makna). Paragraf yang koheren adalah paragraf di mana semua kalimat berfokus pada satu topik pembahasan tanpa melompat ke ide yang tidak relevan."
             },
             {
-              "type": "highlight",
-              "text": "Judul teks prosedur harus spesifik dan menggunakan kata kerja: 'Cara Membuat...', 'Langkah-langkah Menanam...'"
+              "type": "heading",
+              "text": "Mendeteksi Kalimat Sumbang",
+              "level": 2
+            },
+            {
+              "type": "text",
+              "text": "Kadang, dalam sebuah paragraf terdapat kalimat sumbang (kalimat yang merusak koherensi). Coba telaah paragraf berikut:\n\n(1) Sampah organik dapat diolah menjadi pupuk kompos yang bermanfaat bagi tanaman.\n(2) Proses pembuatan kompos cukup mudah dan dapat dilakukan di rumah.\n(3) Harga sayuran di pasar tradisional mengalami kenaikan menjelang hari raya.\n(4) Oleh karena itu, mengolah sampah organik menjadi kompos merupakan langkah nyata pelestarian alam.\n\nKalimat (1), (2), dan (4) berbicara secara runut tentang pengolahan sampah organik menjadi kompos. Namun tiba-tiba kalimat (3) membahas fluktuasi harga sayuran di pasar. Kalimat (3) inilah yang disebut tidak koheren karena keluar dari gagasan utama."
             }
           ]
         }
       ],
       "flashcards": [
         {
-          "id": "fc1",
-          "question": "Struktur teks prosedur?",
-          "answer": "Tujuan, bahan/alat, langkah-langkah, penutup"
+          "id": "fc1-1",
+          "question": "Apa istilah untuk ide sentral yang mendasari terbentuknya sebuah paragraf?",
+          "answer": "Gagasan Utama atau Ide Pokok."
         },
         {
-          "id": "fc2",
-          "question": "Contoh kalimat imperatif dalam prosedur?",
-          "answer": "Tanamlah biji tersebut di dalam pot."
+          "id": "fc1-2",
+          "question": "Paragraf yang kalimat utamanya terletak di awal disebut?",
+          "answer": "Paragraf Deduktif."
         },
         {
-          "id": "fc3",
-          "question": "Kata penghubung urutan dalam prosedur?",
-          "answer": "Pertama, kemudian, selanjutnya, lalu, terakhir"
+          "id": "fc1-3",
+          "question": "Sebutkan dua ciri utama kalimat opini!",
+          "answer": "Subjektif (pendapat pribadi) dan belum terbukti kebenarannya (mengandung kata seperti 'mungkin', 'seharusnya')."
         },
         {
-          "id": "fc4",
-          "question": "Bagaimana cara mengubah cerpen menjadi prosedur?",
-          "answer": "Identifikasi kegiatan utama, tentukan judul, temukan bahan/alat, ubah narasi jadi kalimat perintah berurutan"
+          "id": "fc1-4",
+          "question": "Unsur 'When' dalam 5W1H disebut apa dalam akronim bahasa Indonesia ADiKSiMBa?",
+          "answer": "Kapan (merujuk pada keterangan waktu)."
         },
         {
-          "id": "fc5",
-          "question": "Ciri kalimat perintah (imperatif)?",
-          "answer": "Menggunakan akhiran -lah, kata kerja aktif di awal: Siramlah, Campurkan, Potong"
+          "id": "fc1-5",
+          "question": "Kepaduan makna antar kalimat di dalam sebuah paragraf sehingga membentuk kesatuan ide disebut?",
+          "answer": "Koherensi."
         },
         {
-          "id": "fc6",
-          "question": "Apa perbedaan judul prosedur dan narasi cerpen?",
-          "answer": "Judul prosedur spesifik dan berupa perintah/petunjuk, misal 'Cara Menanam Bunga Harapan'"
+          "id": "fc1-6",
+          "question": "Kalimat yang menyimpang dari topik pembahasan utama dalam sebuah paragraf disebut kalimat?",
+          "answer": "Kalimat sumbang atau tidak padu."
+        },
+        {
+          "id": "fc1-7",
+          "question": "Bagian pertama dari struktur teks berita yang memuat informasi paling penting disebut?",
+          "answer": "Kepala Berita (Lead)."
+        },
+        {
+          "id": "fc1-8",
+          "question": "Apa tujuan utama dari Teks Prosedur?",
+          "answer": "Memberikan petunjuk atau langkah-langkah yang sistematis untuk melakukan atau membuat sesuatu."
+        },
+        {
+          "id": "fc1-9",
+          "question": "Teks yang berisi tinjauan, evaluasi, atau ulasan tentang kelebihan dan kekurangan sebuah karya (seperti buku) disebut teks?",
+          "answer": "Teks Tanggapan (Resensi / Ulasan)."
+        },
+        {
+          "id": "fc1-10",
+          "question": "Konjungsi yang digunakan untuk menunjukkan urutan waktu pada teks prosedur (seperti 'kemudian', 'lalu') disebut konjungsi?",
+          "answer": "Konjungsi Temporal."
         }
       ],
       "quiz": {
         "questions": [
           {
-            "id": "q1",
+            "id": "q1-1",
             "type": "multiple_choice",
-            "question": "Yang bukan contoh teks prosedur adalah?",
+            "question": "Bacalah paragraf berikut: 'Olahraga secara rutin memberikan banyak manfaat bagi kesehatan tubuh. Olahraga dapat memperkuat otot dan tulang agar tidak mudah rapuh. Selain itu, olahraga juga mampu meningkatkan daya tahan tubuh terhadap berbagai penyakit. Bahkan, olahraga terbukti dapat menjaga kesehatan mental seseorang agar tetap stabil.' Kalimat utama pada paragraf tersebut adalah...",
             "options": [
-              "Resep masakan",
-              "Cara menanam bunga",
-              "Berita kecelakaan",
-              "Panduan aplikasi"
+              "Olahraga dapat memperkuat otot dan tulang agar tidak mudah rapuh.",
+              "Olahraga terbukti dapat menjaga kesehatan mental seseorang agar tetap stabil.",
+              "Olahraga secara rutin memberikan banyak manfaat bagi kesehatan tubuh.",
+              "Olahraga juga mampu meningkatkan daya tahan tubuh terhadap berbagai penyakit."
             ],
             "answer": 2,
-            "explanation": "Berita kecelakaan adalah teks berita, bukan prosedur."
+            "explanation": "Paragraf tersebut adalah paragraf deduktif. Kalimat 'Olahraga secara rutin memberikan banyak manfaat bagi kesehatan tubuh' adalah kalimat utama karena pernyataan ini bersifat paling luas (umum) dan menjadi induk dari kalimat-kalimat selanjutnya. Kalimat lainnya (otot kuat, daya tahan tubuh, kesehatan mental) adalah penjabaran dari 'berbagai manfaat' yang disebutkan pada kalimat pertama."
           },
           {
-            "id": "q2",
+            "id": "q1-2",
             "type": "multiple_choice",
-            "question": "Kata yang menunjukkan urutan langkah adalah?",
+            "question": "Perhatikan langkah-langkah berikut:\n1. Tutup rice cooker dan tekan tombol cook\n2. Siapkan beras dan alat masak yang diperlukan\n3. Ukur air sesuai takaran yang tepat lalu tuangkan ke dalam rice cooker\n4. Bersihkan beras dengan cara mencucinya hingga air cucian menjadi jernih\n5. Masukkan beras yang sudah bersih ke dalam rice cooker\n6. Setelah matang, buka tutup rice cooker dan aduk nasi secara perlahan\n\nUrutan logis yang tepat untuk prosedur menanak nasi adalah...",
             "options": [
-              "dan",
-              "tetapi",
-              "kemudian",
-              "atau"
-            ],
-            "answer": 2,
-            "explanation": ""
-          },
-          {
-            "id": "q3",
-            "type": "multiple_choice",
-            "question": "Jika cerpen tentang berkebun diubah jadi prosedur, judul yang tepat adalah?",
-            "options": [
-              "Siti Berkebun",
-              "Menanam Biji Bunga Harapan",
-              "Kisah Bunga Ajaib",
-              "Bunga yang Mekar"
+              "2 – 3 – 4 – 5 – 1 – 6",
+              "2 – 4 – 5 – 3 – 1 – 6",
+              "2 – 4 – 3 – 5 – 1 – 6",
+              "4 – 2 – 3 – 5 – 1 – 6"
             ],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Langkah logis menanak nasi: Pertama, siapkan alat dan bahan (2). Kedua, cuci berasnya (4). Ketiga, masukkan beras yang sudah bersih ke panci rice cooker (5). Keempat, tuang air sesuai takaran (3). Kelima, tutup dan mulai memasak/cook (1). Terakhir, setelah matang, buka dan aduk (6). Jadi urutan yang benar adalah 2 - 4 - 5 - 3 - 1 - 6."
           },
           {
-            "id": "q4",
+            "id": "q1-3",
             "type": "multiple_choice",
-            "question": "Bahan dan alat menanam bunga dalam pot yang tepat adalah?",
+            "question": "Bacalah teks berikut: 'Banjir besar melanda sejumlah wilayah di Kabupaten Karawang akibat hujan deras yang turun tanpa henti selama dua hari berturut-turut. Ratusan warga terpaksa mengungsi ke tempat yang lebih aman karena rumah mereka terendam air setinggi satu meter. Badan Penanggulangan Bencana Daerah segera mengerahkan tim evakuasi ke lokasi terdampak. Kejadian tersebut berlangsung pada *Selasa, 5 Mei 2026*.' Unsur berita yang bercetak tebal dan diapit bintang (*...*) merupakan unsur...",
             "options": [
-              "Pot, tanah, air, pupuk, sekop mini, dan biji bunga",
-              "Pot, tanah, air, pupuk, pacul, dan biji bunga",
-              "Pot, tanah, air, sekop mini, dan biji bunga",
-              "Pot, tanah, air, pacul, dan biji bunga"
-            ],
-            "answer": 0,
-            "explanation": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "fakta-opini",
-      "title": "Fakta dan Opini",
-      "description": "Membedakan kalimat fakta, opini, dan asumsi",
-      "lessons": [
-        {
-          "id": "fakta-opini",
-          "title": "Kalimat Fakta, Opini, dan Asumsi",
-          "estMinutes": 8,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Fakta, Opini, dan Asumsi"
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Kalimat Fakta"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Dapat dibuktikan kebenarannya",
-                "Berdasarkan data, tanggal, nama, tempat",
-                "Bersifat objektif",
-                "Contoh: Adam Osborne lahir di Thailand pada tahun 1939.",
-                "Contoh: Indonesia merdeka pada 17 Agustus 1945."
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Kalimat Opini"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Penilaian atau pendapat subjektif",
-                "Tidak dapat dibuktikan secara pasti",
-                "Kata penanda: menurut saya, mungkin, seharusnya, terbaik, terburuk, dapat dikatakan",
-                "Contoh: Dapat dikatakan bahwa ia adalah penemu yang luar biasa."
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Kalimat Asumsi"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Perkiraan atau dugaan berdasarkan konteks",
-                "Kata penanda: sepertinya, tampaknya, agaknya, diduga",
-                "Contoh: Sepertinya, pantai ini menjadi destinasi favorit banyak orang."
-              ]
-            },
-            {
-              "type": "highlight",
-              "text": "Fakta = dapat dibuktikan. Opini = pendapat/penilaian. Asumsi = perkiraan/dugaan."
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc1",
-          "question": "Ciri kalimat fakta?",
-          "answer": "Dapat dibuktikan kebenarannya, objektif, berisi data/tanggal/nama/tempat"
-        },
-        {
-          "id": "fc2",
-          "question": "Ciri kalimat opini?",
-          "answer": "Pendapat subjektif, tidak dapat dibuktikan pasti, ada kata: menurut, seharusnya, dapat dikatakan"
-        },
-        {
-          "id": "fc3",
-          "question": "Kata penanda asumsi?",
-          "answer": "Sepertinya, tampaknya, agaknya, diduga"
-        },
-        {
-          "id": "fc4",
-          "question": "'Jakarta adalah ibu kota Indonesia.' Fakta atau opini?",
-          "answer": "Fakta"
-        },
-        {
-          "id": "fc5",
-          "question": "Kalimat asumsi berbeda dari opini dalam hal?",
-          "answer": "Asumsi berupa dugaan/perkiraan (sepertinya), opini berupa penilaian/pendapat (seharusnya, menurut saya)"
-        },
-        {
-          "id": "fc6",
-          "question": "'Dapat dikatakan bahwa ia adalah penemu yang luar biasa.' Ini termasuk?",
-          "answer": "Opini, karena menggunakan ungkapan penilaian 'dapat dikatakan' dan 'luar biasa'"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q1",
-            "type": "multiple_choice",
-            "question": "Yang termasuk kalimat fakta adalah?",
-            "options": [
-              "Film ini sangat bagus.",
-              "Bumi berputar mengelilingi matahari.",
-              "Menurutku, dia cantik.",
-              "Seharusnya dia datang."
-            ],
-            "answer": 1,
-            "explanation": ""
-          },
-          {
-            "id": "q2",
-            "type": "multiple_choice",
-            "question": "Kata penanda opini adalah?",
-            "options": [
-              "Tanggal",
-              "Menurut saya",
-              "Nama tempat",
-              "Angka"
-            ],
-            "answer": 1,
-            "explanation": ""
-          },
-          {
-            "id": "q3",
-            "type": "multiple_choice",
-            "question": "Kalimat fakta pada paragraf: '(1) Adam Osborne berkewarganegaraan Amerika. (2) Namun beliau keturunan Inggris lahir di Thailand tahun 1939. (3) Ia dikenal berkat penemuan laptop. (4) Dapat dikatakan ia adalah penemu yang luar biasa.' Nomor berapa?",
-            "options": [
-              "(3) dan (4)",
-              "(2) dan (3)",
-              "(1) dan (4)",
-              "(1) dan (2)"
+              "Unsur siapa (Who)",
+              "Unsur apa (What)",
+              "Unsur di mana (Where)",
+              "Unsur kapan (When)"
             ],
             "answer": 3,
-            "explanation": ""
+            "explanation": "Kutipan bercetak tebal adalah 'Selasa, 5 Mei 2026'. Frasa ini menunjukkan keterangan waktu spesifik kapan peristiwa tersebut terjadi. Dalam unsur ADiKSiMBa (5W1H), keterangan waktu diidentifikasi sebagai unsur 'Kapan' atau 'When'."
           },
           {
-            "id": "q4",
+            "id": "q1-4",
             "type": "multiple_choice",
-            "question": "'Sepertinya, pantai ini menjadi destinasi favorit banyak orang.' Kalimat ini termasuk?",
+            "question": "Perhatikan teks resensi berikut: 'Buku berjudul Jejak Langkah Sang Juara karya Andika Pratama memang menyajikan kisah inspiratif yang menarik untuk dibaca. Namun, terdapat beberapa hal yang perlu mendapat perhatian dari penulis. Penggunaan bahasa dalam buku ini terlalu kaku dan kurang komunikatif sehingga pembaca awam akan kesulitan memahami isinya. Selain itu, penyajian data pendukung dinilai masih sangat minim.' Teks tanggapan tersebut memaparkan tentang...",
             "options": [
-              "Fakta",
-              "Opini",
-              "Asumsi",
-              "Deskripsi"
+              "Keunggulan buku Jejak Langkah Sang Juara yang sangat menginspirasi",
+              "Kekurangan buku Jejak Langkah Sang Juara berupa bahasa kaku dan minim data",
+              "Alasan buku tersebut menjadi terlaris",
+              "Saran penulis kepada pembaca"
+            ],
+            "answer": 1,
+            "explanation": "Walaupun di awal paragraf disebutkan kelebihan secara sekilas ('menyajikan kisah inspiratif'), fokus dan porsi terbesar dari paragraf (dimulai dari konjungsi perlawanan 'Namun') digunakan untuk membeberkan kelemahan-kelemahan buku tersebut, yaitu bahasanya yang kaku dan minimnya data. Maka, paragraf ini secara dominan memaparkan kekurangan buku."
+          },
+          {
+            "id": "q1-5",
+            "type": "multiple_choice",
+            "question": "Bacalah paragraf berikut:\n(1) Sampah organik dapat diolah menjadi pupuk kompos yang bermanfaat bagi tanaman.\n(2) Proses pembuatan kompos cukup mudah dan dapat dilakukan di rumah menggunakan bahan sederhana.\n(3) Harga sayuran di pasar tradisional mengalami kenaikan menjelang hari raya.\n(4) Oleh karena itu, mengolah sampah organik menjadi kompos merupakan langkah nyata menjaga pelestarian lingkungan.\nBukti paragraf tersebut tidak koheren terdapat pada kalimat nomor...",
+            "options": [
+              "(1)",
+              "(2)",
+              "(3)",
+              "(4)"
             ],
             "answer": 2,
-            "explanation": ""
+            "explanation": "Gagasan utama paragraf ini adalah mengenai pemanfaatan dan pengolahan sampah organik menjadi kompos. Kalimat 1, 2, dan 4 saling berkaitan membahas isu tersebut. Kalimat (3) yang membahas 'kenaikan harga sayuran' melenceng jauh dari konteks pengolahan kompos. Karena kalimat ini merusak kepaduan ide pokok, maka kalimat 3 adalah kalimat yang merusak koherensi."
+          },
+          {
+            "id": "q1-6",
+            "type": "multiple_choice",
+            "question": "Perhatikan paragraf rumpang berikut: 'Hutan Mangrove di Tarakan merupakan ekosistem yang sangat _vital_ bagi kehidupan biota laut di sekitarnya. Akar-akar pohon mangrove yang kokoh berfungsi sebagai tempat berlindung ikan dan udang.' Berdasarkan konteks kalimatnya, makna kata 'vital' adalah...",
+            "options": [
+              "Biasa dan tidak terlalu penting",
+              "Sangat penting dan tidak tergantikan",
+              "Indah dan menarik perhatian",
+              "Langka dan sulit ditemukan"
+            ],
+            "answer": 1,
+            "explanation": "Kata serapan 'vital' berasal dari bahasa Inggris yang berarti essential atau krusial. Dalam konteks kalimat yang menjelaskan fungsi luar biasa mangrove sebagai pelindung biota laut dan penahan abrasi, 'vital' bermakna 'sangat penting, krusial, dan sangat diperlukan' bagi keberlangsungan hidup ekosistem."
+          },
+          {
+            "id": "q1-7",
+            "type": "multiple_choice",
+            "question": "Berdasarkan ciri kalimat fakta, manakah di bawah ini yang merupakan kalimat fakta?",
+            "options": [
+              "Menurut saya, transisi energi dari bahan bakar fosil ke energi terbarukan harus segera dilakukan.",
+              "Seandainya pemerintah tidak lalai, krisis energi ini tentu bisa dihindari sejak dekade lalu.",
+              "Harga minyak mentah produksi AS, West Texas Intermediate (WTI), menyentuh angka tertinggi dalam tiga tahun terakhir pada Oktober 2021.",
+              "Krisis energi periode 1970-an mungkin disebabkan oleh konspirasi politik negara-negara maju."
+            ],
+            "answer": 2,
+            "explanation": "Opsi yang benar adalah pernyataan harga minyak WTI pada Oktober 2021 karena itu merupakan sebuah kejadian historis ekonomi yang terdokumentasi, mengandung data nama spesifik, dan waktu pasti. Opsi lainnya mengandung opini yang ditandai dengan kata 'Menurut saya', 'Seandainya', dan 'mungkin'."
+          },
+          {
+            "id": "q1-8",
+            "type": "multiple_choice",
+            "question": "Pada sebuah infografik '7 Kebiasaan Anak Indonesia Hebat', salah satu anjurannya adalah 'Bangun Pagi'. Mengapa bangun pagi sering dikaitkan sebagai argumen yang valid untuk meningkatkan kualitas hidup berdasarkan nalar teks eksposisi/argumentasi?",
+            "options": [
+              "Karena bangun pagi diwajibkan oleh aturan sekolah.",
+              "Anak yang bangun pagi punya lebih banyak waktu mempersiapkan diri sehingga produktivitas hariannya meningkat.",
+              "Anak yang bangun pagi bisa bermain game sebelum berangkat.",
+              "Karena bangun pagi menjamin nilai akademis yang pasti sempurna."
+            ],
+            "answer": 1,
+            "explanation": "Secara logis dan analitis, bangun pagi memungkinkan seseorang mengatur ritme biologis dengan baik, mempersiapkan segala kebutuhan tanpa tergesa-gesa, yang pada akhirnya menunjang peningkatan produktivitas (seperti pilihan jawaban tentang produktivitas). Opsi lain tidak mewakili argumen logis yang komprehensif atau terlalu mutlak (seperti 'menjamin nilai')."
+          },
+          {
+            "id": "q1-9",
+            "type": "multiple_choice",
+            "question": "'Kampung Warna-Warni Jodipan di Malang adalah sebuah pemukiman unik yang menjadi ikon wisata kota tersebut. Setiap rumah di kampung ini dicat dengan warna cerah dan motif beragam...' Gagasan utama kutipan teks tersebut adalah...",
+            "options": [
+              "Jembatan kaca yang menghubungkan dua kampung",
+              "Rumah-rumah berwarna cerah",
+              "Kampung Warna-Warni Jodipan sebagai ikon wisata unik di Malang",
+              "Spot foto populer di Jawa Timur"
+            ],
+            "answer": 2,
+            "explanation": "Paragraf ini memposisikan kalimat pertamanya sebagai kalimat utama (deduktif). Gagasan inti yang dikembangkan adalah perihal Kampung Jodipan yang berstatus sebagai ikon wisata unik. Kalimat selanjutnya (warna cerah, jembatan kaca, spot foto populer) hanyalah gagasan penjelas yang menguraikan MENGAPA kampung itu unik dan menjadi ikon wisata."
+          },
+          {
+            "id": "q1-10",
+            "type": "multiple_choice",
+            "question": "Terdapat sebuah teks: 'Tradisi Lompat Batu atau Hombo Batu adalah tradisi unik masyarakat Nias yang mengharuskan seorang pemuda melompati susunan batu setinggi 2 meter sebagai tanda kedewasaan... Kini tradisi ini telah menjadi ikon budaya kebanggaan mancanegara.' Kesimpulan yang tepat dari paragraf tersebut adalah...",
+            "options": [
+              "Tradisi Hombo Batu hanya boleh dilakukan pemuda yang tinggi dan kuat.",
+              "Pemerintah daerah melarang tradisi tersebut karena berbahaya.",
+              "Tradisi Lompat Batu Nias merupakan simbol kedewasaan yang telah berkembang menjadi ikon budaya kebanggaan masyarakat.",
+              "Tradisi ini adalah ujian fisik yang tidak lagi relevan."
+            ],
+            "answer": 2,
+            "explanation": "Kesimpulan harus merangkum seluruh ide penting dalam paragraf tanpa menyimpang. Paragraf tersebut memuat dua ide utama: esensi awalnya sebagai simbol kedewasaan prajurit, dan status terkininya yang berevolusi menjadi ikon budaya. Hanya pilihan C yang secara utuh dan netral menggabungkan kedua poin esensial ini dari teks asli."
           }
         ]
       }
     },
     {
-      "id": "puisi",
-      "title": "Puisi",
-      "description": "Unsur puisi, majas, dan makna puisi",
+      "id": "sastra-puisi-dan-teks-fiksi",
+      "title": "Apresiasi Sastra: Puisi Rakyat dan Fiksi Naratif",
+      "description": "Menyelami dimensi estetik dan makna dalam karya sastra, mulai dari keindahan rima pada puisi rakyat (Pantun, Syair), analisis majas, hingga mengupas unsur intrinsik dan amanat dalam cerita pendek dan cerita fantasi.",
       "lessons": [
         {
-          "id": "unsur-puisi",
-          "title": "Unsur-unsur dan Majas Puisi",
-          "estMinutes": 10,
+          "id": "puisi-rakyat-pantun-syair",
+          "title": "Kekayaan Puisi Rakyat: Membedah Pantun dan Syair",
+          "estMinutes": 45,
           "content": [
             {
               "type": "heading",
-              "text": "Unsur-unsur Puisi"
+              "text": "Warisan Sastra Nusantara",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Puisi rakyat adalah sastra lisan warisan nenek moyang yang syarat akan nilai moral, agama, dan budi pekerti. Bentuknya sangat terikat oleh aturan ketat (jumlah baris, suku kata, dan rima). Dua jenis puisi rakyat yang paling ikonik adalah Pantun dan Syair."
             },
             {
               "type": "heading",
-              "level": 2,
-              "text": "Unsur Batin (Intrinsik)"
+              "text": "1. Pantun: Sajak Permainan Kata yang Menggigit",
+              "level": 2
+            },
+            {
+              "type": "text",
+              "text": "Pantun adalah puisi Melayu kuno dengan ciri yang sangat khas. Setiap bait terdiri dari empat baris. Dua baris pertama disebut SAMPIRAN (pengantar yang biasanya berkaitan dengan alam), dan dua baris terakhir disebut ISI (pesan utama). Aturan rimanya adalah a-b-a-b bersilang."
+            },
+            {
+              "type": "quote",
+              "text": "Menanam padi di sawah luas,\nDisiram air setiap pagi,\nJika mulut dijaga dan tidak lancang,\nBanyak sahabat datang menghampiri.",
+              "translation": "Baris 1 & 2 = Sampiran. Baris 3 & 4 = Isi. Pesan (Amanat): Menjaga tutur kata membawa banyak sahabat."
+            },
+            {
+              "type": "heading",
+              "text": "2. Syair: Untaian Kisah Tanpa Sampiran",
+              "level": 2
+            },
+            {
+              "type": "text",
+              "text": "Berbeda dengan pantun, Syair berasal dari pengaruh sastra Arab/Persia. Ciri utamanya adalah bersajak a-a-a-a. Hebatnya, seluruh empat baris dalam syair adalah ISI (tidak ada sampiran). Syair biasanya digunakan untuk menceritakan kisah panjang, mitologi, atau petuah agama yang berkesinambungan antar bait."
+            },
+            {
+              "type": "highlight",
+              "text": "Perbedaan Utama: Pantun = rima a-b-a-b, baris 1-2 sampiran, 3-4 isi. Syair = rima a-a-a-a, semua baris adalah isi."
+            }
+          ]
+        },
+        {
+          "id": "unsur-intrinsik-cerpen-dan-fantasi",
+          "title": "Navigasi Dunia Fiksi: Unsur Intrinsik & Amanat",
+          "estMinutes": 50,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Batu Bata Pembangun Cerita",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Sebuah cerita pendek (cerpen) maupun cerita fantasi tidak lahir dari ruang hampa. Mereka dibangun oleh 'Unsur Intrinsik', yaitu komponen-komponen yang berada di dalam tubuh cerita itu sendiri. Jika satu unsur dihilangkan, cerita tersebut akan kehilangan bentuknya."
             },
             {
               "type": "list",
               "items": [
-                "Tema — pokok pikiran puisi",
-                "Rasa — sikap penyair terhadap tema",
-                "Nada — sikap penyair terhadap pembaca",
-                "Amanat — pesan yang ingin disampaikan"
-              ]
+                "Tema: Ruh atau ide dasar cerita (misal: perjuangan, persahabatan, atau penebusan dosa).",
+                "Tokoh & Penokohan: Karakter dalam cerita beserta watak atau sifat psikologis mereka (protagonis, antagonis, tirtagonis).",
+                "Latar (Setting): Dimensi ruang (tempat), waktu (siang, malam, dekade 80-an), dan suasana (mencekam, haru, sepi) terjadinya peristiwa.",
+                "Alur (Plot): Rangkaian kronologis kejadian (maju, mundur/flashback, campuran).",
+                "Sudut Pandang (Point of View): Lensa yang digunakan penulis. Orang pertama ('Aku', 'Saya') terlibat dalam cerita; Orang ketiga ('Dia', menyebut nama tokoh) bertindak sebagai pengamat.",
+                "Amanat: Pesan moral atau philosophical takeaway yang ingin dititipkan pengarang kepada pembaca."
+              ],
+              "ordered": true
+            },
+            {
+              "type": "image",
+              "url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&q=80&w=1000",
+              "caption": "Cerita fantasi membawa pembaca ke alam imajinasi di luar nalar hukum fisika."
+            },
+            {
+              "type": "text",
+              "text": "Menganalisis cerita fantasi memerlukan ekstra kejelian pada elemen 'Keajaiban'. Misalnya dalam cerita tentang 'Raka di Hutan Pelangi', ia menemukan batu bercahaya, melayang, dan berbincang dengan Naga emas bernama Auryn. Kejadian supernatural yang mendobrak realitas (seperti batu ajaib dan naga yang bisa bicara) merupakan ciri mutlak dari teks cerita fantasi."
+            }
+          ]
+        },
+        {
+          "id": "majas-dan-citraan-puisi",
+          "title": "Estetika Bahasa: Majas dan Citraan",
+          "estMinutes": 40,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Melukis dengan Kata",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Bahasa Indonesia memiliki dimensi estetika luar biasa yang dapat dimanipulasi menggunakan Majas (gaya bahasa) dan Citraan (imaji). Tujuan utamanya adalah untuk memancing emosi pembaca, membuat kalimat lebih hidup, dan memberikan efek dramatis."
             },
             {
               "type": "heading",
-              "level": 2,
-              "text": "Unsur Fisik"
+              "text": "Majas Personifikasi dan Metafora",
+              "level": 2
             },
             {
-              "type": "list",
-              "items": [
-                "Diksi — pilihan kata",
-                "Imaji — gambaran indera (visual, auditif, taktil)",
-                "Rima — persamaan bunyi akhir baris",
-                "Ritme — irama dalam puisi",
-                "Tipografi — bentuk visual puisi"
-              ]
+              "type": "text",
+              "text": "Personifikasi adalah gaya bahasa yang memberikan sifat-sifat manusia kepada benda mati atau unsur alam liar. Contohnya: 'Pagi datang menyapa diriku, Angin berbisik lembut di telingaku.' Angin dan pagi tentu tidak memiliki mulut untuk menyapa atau berbisik, namun majas ini membuatnya terasa hidup dan intim."
             },
             {
-              "type": "heading",
-              "level": 2,
-              "text": "Majas dalam Puisi"
+              "type": "text",
+              "text": "Metafora adalah perbandingan langsung dua hal yang berbeda namun memiliki esensi yang mirip, tanpa menggunakan kata penghubung (seperti bagaikan, laksana). Contoh kuat: 'Keringat ibunya adalah hujan rezeki yang membasahi ladang kehidupan mereka.' Kata 'keringat' dibandingkan langsung dengan 'hujan rezeki' untuk menggambarkan betapa krusialnya pengorbanan dan kerja keras sang ibu dalam menghidupi keluarga."
             },
             {
               "type": "table",
               "headers": [
-                "Majas",
-                "Pengertian",
-                "Contoh"
+                "Jenis Majas",
+                "Definisi Singkat",
+                "Contoh Ekstrem"
               ],
               "rows": [
                 [
                   "Personifikasi",
-                  "Benda mati seperti manusia",
-                  "Angin berbisik lembut / Angin menari-nari"
+                  "Benda mati bersikap bagai manusia",
+                  "Kematian mengetuk pintuku malam itu."
                 ],
                 [
                   "Metafora",
-                  "Perbandingan langsung tanpa kata 'seperti'",
-                  "Hidupnya bagai mimpi / Ayah adalah matahari"
+                  "Perbandingan analogi secara langsung",
+                  "Perpustakaan adalah samudra ilmu."
                 ],
                 [
                   "Hiperbola",
-                  "Pengungkapan berlebihan",
-                  "Menangis darah"
+                  "Melebih-lebihkan realitas",
+                  "Air matanya menganak sungai menenggelamkan desa."
                 ],
                 [
-                  "Litotes",
-                  "Merendahkan diri",
-                  "Gubuk kecil saya"
-                ]
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Puisi Rakyat"
-            },
-            {
-              "type": "table",
-              "headers": [
-                "Jenis",
-                "Ciri"
-              ],
-              "rows": [
-                [
-                  "Pantun",
-                  "4 baris, 2 sampiran + 2 isi, bersajak ab-ab"
-                ],
-                [
-                  "Syair",
-                  "4 baris, semua isi, bersajak aa-aa"
-                ],
-                [
-                  "Gurindam",
-                  "2 baris, bersajak aa, berisi nasihat"
+                  "Simile",
+                  "Perbandingan menggunakan konjungsi (seperti, bak)",
+                  "Wajahnya pucat bagaikan mayat."
                 ]
               ]
             }
           ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc1",
-          "question": "4 unsur batin puisi?",
-          "answer": "Tema, rasa, nada, amanat"
         },
         {
-          "id": "fc2",
-          "question": "Apa itu diksi?",
-          "answer": "Pilihan kata dalam puisi"
-        },
-        {
-          "id": "fc3",
-          "question": "Apa itu rima?",
-          "answer": "Persamaan bunyi akhir baris"
-        },
-        {
-          "id": "fc4",
-          "question": "Majas personifikasi?",
-          "answer": "Benda mati digambarkan seperti manusia, contoh: Angin menari-nari"
-        },
-        {
-          "id": "fc5",
-          "question": "Perbedaan pantun, syair, dan gurindam?",
-          "answer": "Pantun: 4 baris, 2 sampiran+2 isi, ab-ab. Syair: 4 baris, semua isi, aa-aa. Gurindam: 2 baris, berisi nasihat."
-        },
-        {
-          "id": "fc6",
-          "question": "Arti amanat dalam puisi?",
-          "answer": "Pesan moral atau nasihat yang ingin disampaikan penyair kepada pembaca"
-        },
-        {
-          "id": "fc7",
-          "question": "Majas dalam kalimat 'Ayah engkau adalah matahari yang menghangatkan hatiku'?",
-          "answer": "Metafora — perbandingan langsung tanpa kata 'seperti' atau 'bagai'"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q1",
-            "type": "multiple_choice",
-            "question": "Pesan yang disampaikan penyair disebut?",
-            "options": [
-              "Tema",
-              "Rasa",
-              "Nada",
-              "Amanat"
-            ],
-            "answer": 3,
-            "explanation": ""
-          },
-          {
-            "id": "q2",
-            "type": "multiple_choice",
-            "question": "'Angin menari-nari' menggunakan majas?",
-            "options": [
-              "Metafora",
-              "Personifikasi",
-              "Hiperbola",
-              "Litotes"
-            ],
-            "answer": 1,
-            "explanation": ""
-          },
-          {
-            "id": "q3",
-            "type": "multiple_choice",
-            "question": "Majas yang tepat untuk melengkapi: 'Bunda engkau adalah … / Dalam dadaku' agar sejajar dengan 'Ayah engkau adalah matahari yang menghangatkan hatiku' adalah?",
-            "options": [
-              "Rembulan yang menari",
-              "Rembulan yang menyinari malam",
-              "Rembulan yang terang cahayanya",
-              "Rembulan yang datang di tiap malam"
-            ],
-            "answer": 1,
-            "explanation": ""
-          },
-          {
-            "id": "q4",
-            "type": "multiple_choice",
-            "question": "Puisi rakyat bersajak aa-aa dan semua baris berisi isi adalah?",
-            "options": [
-              "Pantun",
-              "Syair",
-              "Gurindam",
-              "Haiku"
-            ],
-            "answer": 1,
-            "explanation": ""
-          },
-          {
-            "id": "q5",
-            "type": "multiple_choice",
-            "question": "Makna puisi 'Ada sajadah panjang terbentang / Hamba tunduk dan rukuk / Hamba sujud dan tak lepas kening hamba / Mengingat Dikau' adalah?",
-            "options": [
-              "Puisi tentang sajadah panjang yang selalu dibawa sholat",
-              "Kesadaran hamba akan kewajiban beribadah dan cinta kepada Allah",
-              "Hamba yang tidak pernah sholat hingga akhir hayat",
-              "Kehidupan manusia yang diibaratkan sajadah panjang"
-            ],
-            "answer": 1,
-            "explanation": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "teks-berita",
-      "title": "Teks Berita",
-      "description": "Unsur berita, struktur, dan kata baku",
-      "lessons": [
-        {
-          "id": "unsur-berita",
-          "title": "Unsur-unsur Berita (5W+1H / ADIKSIMBA)",
-          "estMinutes": 8,
+          "id": "mengenal-teks-rekon",
+          "title": "Teks Rekon (Recount): Menghidupkan Masa Lalu",
+          "estMinutes": 45,
           "content": [
             {
               "type": "heading",
-              "text": "Teks Berita"
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Unsur Berita (ADIKSIMBA / 5W+1H)"
-            },
-            {
-              "type": "table",
-              "headers": [
-                "Singkatan",
-                "Pertanyaan",
-                "Keterangan"
-              ],
-              "rows": [
-                [
-                  "Apa (What)",
-                  "Apa yang terjadi?",
-                  "Peristiwa"
-                ],
-                [
-                  "Di mana (Where)",
-                  "Di mana kejadiannya?",
-                  "Tempat"
-                ],
-                [
-                  "Kapan (When)",
-                  "Kapan terjadi?",
-                  "Waktu"
-                ],
-                [
-                  "Siapa (Who)",
-                  "Siapa yang terlibat?",
-                  "Pelaku"
-                ],
-                [
-                  "Mengapa (Why)",
-                  "Mengapa terjadi?",
-                  "Penyebab"
-                ],
-                [
-                  "Bagaimana (How)",
-                  "Bagaimana prosesnya?",
-                  "Kronologi"
-                ]
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Struktur Teks Berita"
-            },
-            {
-              "type": "list",
-              "ordered": true,
-              "items": [
-                "Judul (headline)",
-                "Teras berita (lead) — ringkasan berita, berisi unsur terpenting",
-                "Tubuh berita — uraian lengkap",
-                "Ekor berita — informasi tambahan"
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Kata Baku dan Tidak Baku"
-            },
-            {
-              "type": "table",
-              "headers": [
-                "Baku",
-                "Tidak Baku"
-              ],
-              "rows": [
-                [
-                  "aktivitas",
-                  "aktifitas"
-                ],
-                [
-                  "risiko",
-                  "resiko"
-                ],
-                [
-                  "nasihat",
-                  "nasehat"
-                ],
-                [
-                  "apotek",
-                  "apotik"
-                ],
-                [
-                  "izin",
-                  "ijin"
-                ],
-                [
-                  "teknik",
-                  "tehnik"
-                ]
-              ]
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc1",
-          "question": "5W+1H dalam berita?",
-          "answer": "What (apa), Where (di mana), When (kapan), Who (siapa), Why (mengapa), How (bagaimana)"
-        },
-        {
-          "id": "fc2",
-          "question": "Apa itu teras berita?",
-          "answer": "Ringkasan berita di awal (lead) yang berisi unsur paling penting"
-        },
-        {
-          "id": "fc3",
-          "question": "Kata baku dari 'aktifitas'?",
-          "answer": "aktivitas"
-        },
-        {
-          "id": "fc4",
-          "question": "Kata baku dari 'nasehat'?",
-          "answer": "nasihat"
-        },
-        {
-          "id": "fc5",
-          "question": "Singkatan ADIKSIMBA dalam berita?",
-          "answer": "Apa, Di mana, Kapan, Siapa, Mengapa, Bagaimana"
-        },
-        {
-          "id": "fc6",
-          "question": "Kata baku dari 'apotik'?",
-          "answer": "apotek"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q1",
-            "type": "multiple_choice",
-            "question": "Unsur 'kapan' dalam berita menjawab?",
-            "options": [
-              "What",
-              "When",
-              "Where",
-              "Why"
-            ],
-            "answer": 1,
-            "explanation": ""
-          },
-          {
-            "id": "q2",
-            "type": "multiple_choice",
-            "question": "Mana kata baku yang benar?",
-            "options": [
-              "aktifitas",
-              "resiko",
-              "apotek",
-              "nasehat"
-            ],
-            "answer": 2,
-            "explanation": ""
-          },
-          {
-            "id": "q3",
-            "type": "multiple_choice",
-            "question": "Bagian teks berita yang berisi ringkasan paling penting disebut?",
-            "options": [
-              "Judul",
-              "Teras berita (lead)",
-              "Tubuh berita",
-              "Ekor berita"
-            ],
-            "answer": 1,
-            "explanation": ""
-          },
-          {
-            "id": "q4",
-            "type": "multiple_choice",
-            "question": "Unsur 'mengapa' dalam berita menjelaskan?",
-            "options": [
-              "Pelaku",
-              "Tempat",
-              "Penyebab/alasan",
-              "Kronologi kejadian"
-            ],
-            "answer": 2,
-            "explanation": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "kata-serapan",
-      "title": "Kata Serapan",
-      "description": "Kata serapan dari bahasa asing dan daerah",
-      "lessons": [
-        {
-          "id": "asal-kata",
-          "title": "Kata Serapan Bahasa Indonesia",
-          "estMinutes": 8,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Kata Serapan"
+              "text": "Merajut Ingatan menjadi Kisah",
+              "level": 1
             },
             {
               "type": "text",
-              "text": "Bahasa Indonesia menyerap banyak kata dari bahasa asing dan daerah. Kata serapan disesuaikan ejaannya dengan ejaan Indonesia."
+              "text": "Teks Rekon (atau Recount text) adalah teks yang menceritakan kembali peristiwa masa lalu dengan tujuan memberi informasi, menghibur, atau membagikan pengalaman pribadi. Ciri mutlak teks ini adalah alurnya yang kronologis (berurutan waktu) dan berlatar di masa lampau."
             },
             {
               "type": "heading",
-              "level": 2,
-              "text": "Serapan dari Bahasa Arab"
+              "text": "Tiga Varian Teks Rekon",
+              "level": 2
             },
             {
               "type": "list",
               "items": [
-                "teladan, umat, zaman, akhir, awal",
-                "ilmu, kitab, kursi, masjid, salat",
-                "maaf, berkah, rezeki, amal, kabar"
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Serapan dari Bahasa Inggris"
-            },
-            {
-              "type": "list",
-              "items": [
-                "komputer (computer), televisi (television), radio",
-                "internet, online, digital → digitalisasi",
-                "globalisasi (globalization), registrasi (registration)"
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Serapan dari Bahasa Belanda"
-            },
-            {
-              "type": "list",
-              "items": [
-                "kantor (kantoor), polisi (politie)",
-                "koper (koffer), handuk (handdoek)"
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Contoh Konversi Kata Asing"
-            },
-            {
-              "type": "table",
-              "headers": [
-                "Bahasa Asing",
-                "Kata Serapan Indonesia"
+                "Rekon Pribadi (Personal Recount): Penulis terlibat langsung dalam peristiwa yang diceritakan. Contoh: Pengalaman liburan penulis ke Bali, atau entri buku harian.",
+                "Rekon Faktual (Factual Recount): Menyajikan fakta sejarah, laporan kepolisian, atau jurnal ilmiah kejadian masa lalu yang objektif. Contoh: Laporan kronologi meletusnya Gunung Krakatau atau Teks Proklamasi Kemerdekaan.",
+                "Rekon Imajinatif: Menggunakan struktur sejarah/lampau, namun disisipi imajinasi liar atau fiksi murni. Contoh: 'Suatu malam, aku terbangun di sebuah kerajaan di atas awan, menunggangi naga emas.' Ini mengambil format recount tetapi ceritanya fiksi."
               ],
-              "rows": [
-                [
-                  "international",
-                  "internasional"
-                ],
-                [
-                  "university",
-                  "universitas"
-                ],
-                [
-                  "globalization",
-                  "globalisasi"
-                ],
-                [
-                  "digitalization",
-                  "digitalisasi"
-                ],
-                [
-                  "registration",
-                  "registrasi"
-                ],
-                [
-                  "seminary",
-                  "seminar"
-                ]
-              ]
+              "ordered": true
             },
             {
               "type": "highlight",
-              "text": "Kata 'teladan', 'umat', dan 'zaman' berasal dari bahasa Arab."
+              "text": "Struktur Teks Rekon umumnya sangat sederhana: Orientasi (Pengenalan latar/tokoh) -> Rentetan Peristiwa (Events) -> Reorientasi (Komentar penutup atau simpulan pribadi penulis, opsional)."
             }
           ]
         }
       ],
       "flashcards": [
         {
-          "id": "fc1",
-          "question": "Kata 'teladan' berasal dari bahasa?",
-          "answer": "Arab"
+          "id": "fc2-1",
+          "question": "Apa syarat pola rima pada akhir baris puisi Pantun?",
+          "answer": "Bersajak a-b-a-b atau bersilang."
         },
         {
-          "id": "fc2",
-          "question": "Kata 'kantor' berasal dari bahasa?",
-          "answer": "Belanda (kantoor)"
+          "id": "fc2-2",
+          "question": "Dalam bait pantun, baris pertama dan kedua disebut sebagai apa?",
+          "answer": "Sampiran."
         },
         {
-          "id": "fc3",
-          "question": "Contoh kata serapan dari bahasa Arab?",
-          "answer": "ilmu, kitab, masjid, rezeki, umat, zaman, teladan"
+          "id": "fc2-3",
+          "question": "Jenis puisi rakyat yang semua barisnya berupa isi dan berirama a-a-a-a disebut?",
+          "answer": "Syair."
         },
         {
-          "id": "fc4",
-          "question": "Kata serapan dari 'globalization'?",
-          "answer": "globalisasi"
+          "id": "fc2-4",
+          "question": "Unsur intrinsik yang menunjukkan lokasi, waktu, dan suasana terjadinya cerita disebut?",
+          "answer": "Latar (Setting)."
         },
         {
-          "id": "fc5",
-          "question": "Kata serapan dari 'university'?",
-          "answer": "universitas"
+          "id": "fc2-5",
+          "question": "Pesan moral atau pelajaran hidup yang ingin disampaikan penulis cerita kepada pembaca disebut?",
+          "answer": "Amanat."
         },
         {
-          "id": "fc6",
-          "question": "Kata serapan dari 'registration'?",
-          "answer": "registrasi"
+          "id": "fc2-6",
+          "question": "Gaya bahasa yang membandingkan benda mati/hewan seolah-olah memiliki sifat manusia disebut majas apa?",
+          "answer": "Majas Personifikasi."
         },
         {
-          "id": "fc7",
-          "question": "Kata 'polisi' berasal dari bahasa?",
-          "answer": "Belanda (politie)"
+          "id": "fc2-7",
+          "question": "Jika teks menceritakan kembali peristiwa masa lalu dengan menambahkan bumbu khayalan/fantasi penulis, disebut teks rekon jenis apa?",
+          "answer": "Teks Rekon Imajinatif."
+        },
+        {
+          "id": "fc2-8",
+          "question": "Penggunaan kata 'Aku' atau 'Saya' dalam cerita cerpen mengindikasikan sudut pandang orang ke berapa?",
+          "answer": "Sudut pandang orang pertama."
+        },
+        {
+          "id": "fc2-9",
+          "question": "Majas perbandingan langsung tanpa kata penghubung (seperti: 'Perpustakaan adalah samudra ilmu') disebut?",
+          "answer": "Majas Metafora."
+        },
+        {
+          "id": "fc2-10",
+          "question": "Buku biografi pahlawan nasional yang ditulis oleh seorang sejarawan termasuk ke dalam teks rekon jenis?",
+          "answer": "Teks Rekon Faktual."
         }
       ],
       "quiz": {
         "questions": [
           {
-            "id": "q1",
+            "id": "q2-1",
             "type": "multiple_choice",
-            "question": "Kata serapan dari Arab adalah?",
+            "question": "Cermati pantun rumpang berikut:\nPagi-pagi minum susu,\nDiminum sambil duduk santai,\n(...)\n(...)\nLarik yang tepat untuk melengkapi bagian rumpang (isi) pantun agar rima dan maknanya sesuai adalah...",
             "options": [
-              "komputer",
-              "kantor",
-              "umat",
-              "televisi"
-            ],
-            "answer": 2,
-            "explanation": ""
-          },
-          {
-            "id": "q2",
-            "type": "multiple_choice",
-            "question": "Kata 'polisi' berasal dari bahasa?",
-            "options": [
-              "Arab",
-              "Inggris",
-              "Belanda",
-              "Portugis"
-            ],
-            "answer": 2,
-            "explanation": ""
-          },
-          {
-            "id": "q3",
-            "type": "multiple_choice",
-            "question": "Penulisan kata serapan yang tepat dari 'international, university, globalization, digitalization, registration' adalah?",
-            "options": [
-              "seminary, internasional, universitas, globalisasi, dan registrasi",
-              "internasional, universitas, globalisasi, digitalisasi, dan registrasi",
-              "internasional, universitas, globalisasi, dan gitalisasi",
-              "internasional, globalisasi, gitalisasi, dan registrasi"
-            ],
-            "answer": 1,
-            "explanation": ""
-          },
-          {
-            "id": "q4",
-            "type": "multiple_choice",
-            "question": "Kata 'teladan, umat, zaman' berasal dari bahasa?",
-            "options": [
-              "Belanda",
-              "Spanyol",
-              "Inggris",
-              "Arab"
+              "Pergi ke pasar beli baju / Harganya sungguh mahal sekali",
+              "Jika kamu ingin berilmu / Janganlah malas untuk belajar dan pandai",
+              "Jangan pernah ragu menuntut ilmu / Masa depan cerah akan kau gapai",
+              "Belajar tekun jangan kau lesu / Cita-citamu kelak pasti tercapai"
             ],
             "answer": 3,
-            "explanation": ""
+            "explanation": "Pantun harus bersajak a-b-a-b. Baris (1) berakhiran '-su' (u), baris (2) berakhiran '-tai' (ai). Maka baris (3) harus berakhiran 'u' (agar sama dengan baris 1), dan baris (4) harus berakhiran 'ai' (agar sama dengan baris 2). Pilihan 'Belajar tekun jangan kau leSU / Cita-citamu kelak pasti tercapAI' paling sempurna memenuhi irama a-b-a-b dan menyajikan makna nasehat yang solid."
+          },
+          {
+            "id": "q2-2",
+            "type": "multiple_choice",
+            "question": "Perhatikan kutipan syair berikut:\nJanganlah sombong dengan ilmumu,\nRendah hatilah dalam tingkah lakumu,\nIlmu yang tinggi tiada berguna,\nBila hati penuh dengan angkara.\nMakna filosofis syair tersebut adalah...",
+            "options": [
+              "Orang yang berilmu tinggi berhak merasa di atas orang lain.",
+              "Ilmu yang dimiliki manusia sama sekali tidak ada manfaatnya di dunia nyata.",
+              "Kecerdasan intelektual akan menjadi sia-sia jika pemiliknya memiliki kesombongan dan karakter buruk.",
+              "Sikap rendah hati hanya perlu ditunjukkan jika berhadapan dengan orang yang lebih tua saja."
+            ],
+            "answer": 2,
+            "explanation": "Pesan utama syair ada pada dua baris terakhir: 'Ilmu yang tinggi tiada berguna / Bila hati penuh dengan angkara'. 'Angkara' berarti kejahatan, kesombongan, atau niat buruk. Ini menyiratkan bahwa intelektualitas (ilmu) kehilangan nilai atau manfaatnya jika dibarengi dengan ego/kesombongan, menjadikannya sia-sia secara spiritual maupun moral."
+          },
+          {
+            "id": "q2-3",
+            "type": "multiple_choice",
+            "question": "Bacalah puisi berikut:\nKabut hitam menyelubungi desa,\nTangis pilu memecah pagi buta,\nDaun gugur satu persatu,\nBunga layu tak berbau,\nJiwa terasa hampa dan sepi,\nKepergianmu tinggalkan luka di hati.\n\nSuasana batin yang mendominasi puisi tersebut adalah...",
+            "options": [
+              "Gelisah dan penuh kepanikan",
+              "Sedih dan pilu",
+              "Marah dan penuh dendam",
+              "Pasrah dan damai"
+            ],
+            "answer": 1,
+            "explanation": "Diksi yang digunakan sangat kental dengan konotasi kehilangan dan kedukaan: 'kabut hitam', 'tangis pilu', 'daun gugur', 'bunga layu', 'hampa', 'sepi', 'luka di hati', 'kepergianmu'. Seluruh citraan tersebut membangun atmosfer (suasana) yang muram, sedih, dan penuh kepiluan akibat sebuah kehilangan/kematian."
+          },
+          {
+            "id": "q2-4",
+            "type": "multiple_choice",
+            "question": "Bacalah kutipan cerita fantasi berikut:\n'Suatu hari, Raka menemukan sebuah batu bercahaya di bawah pohon tua. Ketika digenggam, tubuhnya terasa ringan dan ia pun terbang melayang. Di atas langit, ia bertemu naga bersisik emas bernama Auryn yang bisa berbicara layaknya manusia...'\nBukti kemunculan elemen 'keajaiban' yang menjadi ciri khas teks fantasi dalam paragraf tersebut adalah...",
+            "options": [
+              "Raka berjalan-jalan sendirian di bawah pohon yang tua.",
+              "Raka menemukan batu di tepian hutan.",
+              "Raka memiliki keberanian masuk ke hutan dan bertemu binatang liar.",
+              "Raka mampu terbang melayang ke angkasa dan berkomunikasi dengan seekor naga."
+            ],
+            "answer": 3,
+            "explanation": "Keajaiban dalam cerita fantasi merujuk pada hal-hal yang mendobrak hukum alam realitas kita (supranatural). Kemampuan seorang manusia untuk menembus gravitasi dan terbang, serta adanya entitas naga mitologis yang berakal budi dan bisa berbahasa manusia, merupakan bukti konklusif elemen keajaiban fantasi."
+          },
+          {
+            "id": "q2-5",
+            "type": "multiple_choice",
+            "question": "'Dini hari itu, Fariz sudah terbangun meskipun jarum jam baru menunjukkan pukul empat pagi. Ia bergegas menuju dapur. Suara ayam berkokok terdengar sayup-sayup dari kejauhan menandakan fajar akan segera tiba.' Latar waktu dan suasana pada kutipan tersebut dibuktikan oleh frasa...",
+            "options": [
+              "'menuju dapur' dan 'Fariz sudah terbangun'",
+              "'pukul empat pagi', 'dini hari', dan 'fajar akan tiba'",
+              "'ayam berkokok' dan 'menuju dapur'",
+              "'bergegas' dan 'menandakan fajar'"
+            ],
+            "answer": 1,
+            "explanation": "Latar waktu merujuk pada 'kapan' peristiwa itu terjadi. Teks dengan gamblang menyebutkan indikator temporal secara eksplisit: 'Dini hari', 'pukul empat pagi', dan dipertegas dengan penanda alamiah 'fajar akan segera tiba'."
+          },
+          {
+            "id": "q2-6",
+            "type": "multiple_choice",
+            "question": "Perhatikan kalimat bermajas berikut:\n'Di dapur kecil itu, keringat ibunya adalah hujan rezeki yang membasahi ladang kehidupan mereka.'\nBerdasarkan gaya bahasanya, kalimat ini termasuk majas dan bermakna...",
+            "options": [
+              "Personifikasi; Ibu Fariz sedang bekerja di ladang pertanian saat hujan turun deras.",
+              "Metafora; Kerja keras penuh keringat sang ibu merupakan sumber utama yang menghidupi dan menyejahterakan keluarga mereka.",
+              "Hiperbola; Ibu Fariz berkeringat secara berlebihan hingga membasahi lantai layaknya hujan.",
+              "Simile; Hujan turun membasahi ibu Fariz yang sedang bekerja."
+            ],
+            "answer": 1,
+            "explanation": "Majas yang digunakan adalah metafora ('A adalah B' -> keringat adalah hujan rezeki) tanpa perantara seperti 'bagaikan'. Maknanya bukan harfiah tentang cuaca hujan, melainkan kiasan bahwa setiap tetes keringat hasil jerih payah (kerja keras) ibunya adalah berkah finansial ('hujan rezeki') yang merawat dan menghidupi masa depan ('ladang kehidupan') keluarga."
+          },
+          {
+            "id": "q2-7",
+            "type": "multiple_choice",
+            "question": "'Suatu malam, aku terbangun dan mendapati diriku berada di sebuah kerajaan di atas awan. Istana itu berkilauan emas. Aku kemudian diajak berkeliling negeri tersebut menunggangi burung raksasa.' Berdasarkan teks rekon, cuplikan tersebut tergolong jenis...",
+            "options": [
+              "Teks Rekon Pribadi",
+              "Teks Rekon Faktual",
+              "Teks Rekon Sejarah",
+              "Teks Rekon Imajinatif"
+            ],
+            "answer": 3,
+            "explanation": "Meskipun berbentuk pengalaman atau kejadian yang diceritakan ulang seperti recount text ('suatu malam aku terbangun...'), isinya sangat mustahil terjadi di alam nyata (kerajaan di awan, burung raksasa). Karena kontennya berupa fiktif/khayalan, ini diklasifikasikan sebagai teks rekon imajinatif."
+          },
+          {
+            "id": "q2-8",
+            "type": "multiple_choice",
+            "question": "Bacalah kutipan cerita:\n'Genggaman tangan itu teramat kuat hingga tangis pilu pecah tumpah berteriak. Hingga ia tak mampu lagi melihat tubuh terkasih yang sudah pergi. Tuk selama selamanya. Istrinya kini sudah terbaring di tanah keabadian dibalut cahaya yang terus bersinar.'\nMakna kalimat 'terbaring di tanah keabadian' adalah...",
+            "options": [
+              "Istrinya sedang tertidur nyenyak di atas kasur bercahaya.",
+              "Istrinya telah meninggal dunia dan dimakamkan secara damai.",
+              "Istrinya pergi ke luar negeri secara diam-diam dan tidak akan kembali.",
+              "Istrinya menemukan kebahagiaan abadi di kota lain."
+            ],
+            "answer": 1,
+            "explanation": "Istilah 'tubuh terkasih yang sudah pergi untuk selama-selamanya' dan 'terbaring di tanah keabadian' adalah bentuk eufemisme puitis (penghalusan kata) yang merujuk pada peristiwa kematian (pergi tak kembali) dan pemakaman di liang lahat (tanah keabadian/kematian)."
+          },
+          {
+            "id": "q2-9",
+            "type": "multiple_choice",
+            "question": "'Pagi datang menyapa diriku,\nEmbun menetes di ujung daun,\n( ... )\nMembawa semangat mengawali hari.'\nLarik bermajas personifikasi yang paling padu untuk melengkapi puisi tersebut adalah...",
+            "options": [
+              "Sinar matahari terasa sangat hangat",
+              "Udara sangat sejuk dan nyaman dihirup",
+              "Angin berbisik lembut di telingaku",
+              "Langit biru tanpa awan gelap"
+            ],
+            "answer": 2,
+            "explanation": "Majas personifikasi memberikan sifat manusia pada benda mati. Opsi 'Angin berbisik lembut' mengaitkan sifat manusia (kemampuan berbisik) kepada benda alam (angin). Opsi lainnya adalah pernyataan harfiah biasa tanpa majas, sehingga C adalah jawaban paling estetik dan relevan melengkapi irama puisi."
+          },
+          {
+            "id": "q2-10",
+            "type": "multiple_choice",
+            "question": "Dalam cerita legenda, seringkali ditemukan tokoh utama mendapatkan nasihat dari seorang pendeta atau tetua sebelum berangkat melawan monster. Jika diakhir cerita tokoh tersebut berhasil karena menuruti petuah tersebut, unsur intrinsik paling menonjol yang sedang ditekankan penulis adalah...",
+            "options": [
+              "Latar Waktu",
+              "Alur Mundur",
+              "Amanat",
+              "Gaya Bahasa Metafora"
+            ],
+            "answer": 2,
+            "explanation": "Keberhasilan sang tokoh akibat kepatuhannya mendengarkan nasihat/petuah tetua adalah sebuah desain penulisan yang sengaja dibentuk pengarang untuk menyampaikan pesan moral. Pesan moral dalam sastra disebut sebagai Amanat. Penulis ingin menasihati pembaca agar senantiasa mendengarkan petuah bijak."
           }
         ]
       }
     },
     {
-      "id": "teks-narasi-cerpen",
-      "title": "Teks Narasi dan Cerpen",
-      "description": "Unsur intrinsik, sudut pandang, dan watak tokoh dalam teks narasi/cerpen",
+      "id": "tata-bahasa-ejaan-dan-komunikasi",
+      "title": "Mekanika Bahasa: Tata Bahasa, EYD, dan Etika Komunikasi",
+      "description": "Mengasah ketajaman mekanika penulisan (PUEBI/EYD), morfologi kata serapan bahasa asing, kaidah korespondensi persuratan formal, hingga seni retorika dalam pidato argumentatif.",
       "lessons": [
         {
-          "id": "unsur-narasi",
-          "title": "Unsur Intrinsik Teks Narasi",
-          "estMinutes": 10,
+          "id": "ejaan-yang-disempurnakan-eyd",
+          "title": "Bedah Klinis EYD: Kapitalisasi dan Tanda Baca",
+          "estMinutes": 50,
           "content": [
             {
               "type": "heading",
-              "text": "Teks Narasi dan Cerpen"
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Unsur Intrinsik"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Tema — inti cerita",
-                "Alur — urutan cerita (maju, mundur, campuran)",
-                "Tokoh dan penokohan — karakter pelaku",
-                "Latar — tempat, waktu, dan suasana",
-                "Sudut pandang — posisi pengarang dalam cerita",
-                "Amanat — pesan moral cerita"
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Sudut Pandang"
-            },
-            {
-              "type": "table",
-              "headers": [
-                "Jenis",
-                "Ciri",
-                "Contoh"
-              ],
-              "rows": [
-                [
-                  "Orang pertama tunggal",
-                  "Menggunakan 'aku'",
-                  "Aku pergi ke pasar..."
-                ],
-                [
-                  "Orang pertama jamak",
-                  "Menggunakan 'kami'",
-                  "Kami sekeluarga pergi..."
-                ],
-                [
-                  "Orang ketiga tunggal",
-                  "Menggunakan nama/dia/ia",
-                  "Siti menemukan biji bunga..."
-                ],
-                [
-                  "Orang ketiga jamak",
-                  "Menggunakan 'mereka'",
-                  "Mereka berlari bersama..."
-                ]
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Cara Menentukan Watak Tokoh"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Melalui deskripsi langsung pengarang",
-                "Melalui tindakan/perilaku tokoh",
-                "Melalui ucapan tokoh",
-                "Melalui reaksi tokoh lain"
-              ]
-            },
-            {
-              "type": "highlight",
-              "text": "Watak 'rajin' ditunjukkan melalui tindakan tokoh: merawat tanaman setiap hari, menyiram, memberi pupuk."
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc1",
-          "question": "Unsur intrinsik cerpen?",
-          "answer": "Tema, alur, tokoh, latar, sudut pandang, amanat"
-        },
-        {
-          "id": "fc2",
-          "question": "Ciri sudut pandang orang ketiga tunggal?",
-          "answer": "Menggunakan nama tokoh, dia, atau ia"
-        },
-        {
-          "id": "fc3",
-          "question": "Ciri sudut pandang orang pertama?",
-          "answer": "Menggunakan kata 'aku' (tunggal) atau 'kami' (jamak)"
-        },
-        {
-          "id": "fc4",
-          "question": "Cara membuktikan watak tokoh?",
-          "answer": "Melalui tindakan/perilaku, ucapan, deskripsi pengarang, atau reaksi tokoh lain"
-        },
-        {
-          "id": "fc5",
-          "question": "Sudut pandang cerita yang menggunakan 'kami sekeluarga'?",
-          "answer": "Orang pertama jamak"
-        },
-        {
-          "id": "fc6",
-          "question": "Apa itu latar dalam cerpen?",
-          "answer": "Tempat, waktu, dan suasana berlangsungnya cerita"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q1",
-            "type": "multiple_choice",
-            "question": "Cerita yang menggunakan 'Siti adalah seorang gadis kecil yang sangat suka berkebun' menggunakan sudut pandang?",
-            "options": [
-              "Orang pertama tunggal",
-              "Orang pertama jamak",
-              "Orang ketiga tunggal",
-              "Orang ketiga jamak"
-            ],
-            "answer": 2,
-            "explanation": ""
-          },
-          {
-            "id": "q2",
-            "type": "multiple_choice",
-            "question": "Bukti watak tokoh rajin dalam cerpen terdapat pada?",
-            "options": [
-              "Paragraf yang menjelaskan latar tempat",
-              "Paragraf yang menggambarkan tindakan merawat tanaman setiap hari",
-              "Paragraf yang menjelaskan harapan tokoh",
-              "Paragraf yang menjelaskan asal biji bunga"
-            ],
-            "answer": 1,
-            "explanation": ""
-          },
-          {
-            "id": "q3",
-            "type": "multiple_choice",
-            "question": "'Setahun lalu kami sekeluarga pergi menuju destinasi wisata di Parangtritis.' Sudut pandang?",
-            "options": [
-              "Orang pertama tunggal",
-              "Orang pertama jamak",
-              "Orang ketiga tunggal",
-              "Orang ketiga jamak"
-            ],
-            "answer": 1,
-            "explanation": ""
-          },
-          {
-            "id": "q4",
-            "type": "multiple_choice",
-            "question": "Amanat dalam cerpen adalah?",
-            "options": [
-              "Inti cerita",
-              "Urutan kejadian",
-              "Pesan moral yang disampaikan pengarang",
-              "Tempat dan waktu cerita"
-            ],
-            "answer": 2,
-            "explanation": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "teks-eksplanasi",
-      "title": "Teks Eksplanasi",
-      "description": "Struktur, jenis fenomena, dan ciri teks eksplanasi",
-      "lessons": [
-        {
-          "id": "struktur-eksplanasi",
-          "title": "Struktur dan Jenis Teks Eksplanasi",
-          "estMinutes": 8,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Teks Eksplanasi"
+              "text": "Ejaan adalah Seragam Bahasa",
+              "level": 1
             },
             {
               "type": "text",
-              "text": "Teks eksplanasi adalah teks yang menjelaskan proses terjadinya suatu fenomena alam, sosial, budaya, atau ekonomi."
+              "text": "Bayangkan menghadiri acara kenegaraan dengan pakaian tidur. Itulah analoginya ketika kita menulis teks formal tanpa mematuhi aturan EYD (Ejaan Yang Disempurnakan, dahulu dikenal sebagai PUEBI). EYD mengatur kapitalisasi huruf, penulisan preposisi (di, ke, dari), hingga penggunaan tanda baca (titik, koma, kutip)."
+            },
+            {
+              "type": "highlight",
+              "text": "Huruf Kapital WAJIB digunakan pada: Awal kalimat, awal petikan langsung, nama orang, hari, bulan, tahun, agama, kitab suci, gelar kehormatan yang diikuti nama, dan geografi yang menjadi nama diri (contoh: Danau Toba, bukan danau toba)."
             },
             {
               "type": "heading",
-              "level": 2,
-              "text": "Struktur Teks Eksplanasi"
+              "text": "Studi Kasus Kesalahan Fatal",
+              "level": 2
+            },
+            {
+              "type": "text",
+              "text": "Terdapat sebuah kalimat rusak secara ejaan: 'rabu 18 februari 2026 pemerintah kota depok meresmikan taman bermain anak di kelurahan beji yang dibangun menggunakan dana anggaran daerah,' demikian pernyataan pemkot yang dikutip jawapos, kamis (19/2)."
+            },
+            {
+              "type": "text",
+              "text": "Mari kita bedah dan perbaiki seperti seorang ahli bedah bahasa:"
             },
             {
               "type": "list",
-              "ordered": true,
               "items": [
-                "Identifikasi fenomena — penjelasan umum tentang fenomena",
-                "Rangkaian kejadian — proses/sebab-akibat terjadinya fenomena",
-                "Interpretasi/Kesimpulan — penilaian atau ringkasan akhir"
-              ]
+                "'rabu' harus 'Rabu' (Awal kutipan dan nama hari).",
+                "'februari' harus 'Februari' (Nama bulan).",
+                "'pemerintah kota depok' harus 'Pemerintah Kota Depok' (Lembaga dan letak geografis).",
+                "'kelurahan beji' harus 'Kelurahan Beji' (Nama institusi administratif dan wilayah).",
+                "'jawapos' harus 'Jawa Pos' atau ditulis miring *Jawa Pos* (Nama media/institusi).",
+                "'kamis' harus 'Kamis' (Nama hari)."
+              ],
+              "ordered": true
+            },
+            {
+              "type": "quote",
+              "text": "\"Rabu, 18 Februari 2026, Pemerintah Kota Depok meresmikan taman bermain anak di Kelurahan Beji yang dibangun menggunakan dana anggaran daerah,\" demikian pernyataan pemkot yang dikutip Jawa Pos, Kamis (19/2).",
+              "translation": "Ini adalah versi perbaikan yang 100% mematuhi kaidah EYD."
+            }
+          ]
+        },
+        {
+          "id": "kata-serapan-bahasa",
+          "title": "Kosmopolitanisme Bahasa: Kata Serapan",
+          "estMinutes": 40,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Evolusi Kosakata Indonesia",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Bahasa Indonesia adalah bahasa yang sangat dinamis dan terbuka. Kita menyerap ribuan kosakata dari bahasa asing (Arab, Belanda, Inggris, Sanskerta) maupun daerah untuk memperkaya perbendaharaan kata ilmiah dan modern. Proses penyerapan kata bahasa asing dilakukan melalui tiga cara: Adopsi (diambil utuh tanpa ubahan), Adaptasi (ejaan disesuaikan dengan lidah dan aturan fonologi Indonesia), dan Pungutan/Terjemahan (menerjemahkan konsep aslinya)."
             },
             {
               "type": "heading",
-              "level": 2,
-              "text": "Jenis Fenomena dalam Teks Eksplanasi"
+              "text": "Kasus Adaptasi dari Bahasa Inggris",
+              "level": 2
+            },
+            {
+              "type": "text",
+              "text": "Banyak kata serapan dari bahasa Inggris yang sering salah dieja (typo) oleh masyarakat. Aturan baku dari Pusat Bahasa mengharuskan penulisan yang konsisten. Mari kita koreksi kesalahan umum:"
             },
             {
               "type": "table",
               "headers": [
-                "Jenis",
-                "Contoh"
+                "Asal Kata Asing",
+                "Salah Kaprah (Nonbaku)",
+                "Kata Serapan Baku"
               ],
               "rows": [
                 [
-                  "Alam",
-                  "Longsor, gempa bumi, tsunami, banjir"
+                  "Activity",
+                  "Aktifitas / Activity",
+                  "Aktivitas (pakai 'v')"
                 ],
                 [
-                  "Sosial",
-                  "Pernikahan dini, bullying, tren marriage is scary"
+                  "Creativity",
+                  "Kreatifitas",
+                  "Kreativitas (pakai 'v')"
                 ],
                 [
-                  "Budaya",
-                  "Tradisi, kearifan lokal, adat istiadat"
+                  "Management",
+                  "Managemen",
+                  "Manajemen (pakai 'j')"
                 ],
                 [
-                  "Ekonomi",
-                  "Inflasi, kemiskinan, perdagangan"
+                  "Effective",
+                  "Efektip / Efektiv",
+                  "Efektif (pakai 'f')"
+                ],
+                [
+                  "System",
+                  "Sistim",
+                  "Sistem (pakai 'e')"
                 ]
               ]
             },
             {
+              "type": "text",
+              "text": "Dalam teks: 'Sekolah mengadakan pelatihan untuk meningkatkan activity siswa. Mengembangkan creativity dan management waktu agar berjalan secara effective.' Jika kita jadikan bahasa baku yang sempurna, teks itu menjadi: 'Sekolah mengadakan pelatihan untuk meningkatkan aktivitas siswa. Mengembangkan kreativitas dan manajemen waktu agar berjalan secara efektif.'"
+            }
+          ]
+        },
+        {
+          "id": "surat-resmi-dan-etika-wa",
+          "title": "Korespondensi Profesional: Surat Resmi & Etika Digital",
+          "estMinutes": 45,
+          "content": [
+            {
               "type": "heading",
-              "level": 2,
-              "text": "Ciri Kebahasaan"
+              "text": "Arsitektur Surat Resmi",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Surat resmi atau dinas bukan sekadar kertas bertuliskan pesan, melainkan dokumen berkekuatan hukum administratif. Strukturnya sangat rigid/kaku dan wajib dipatuhi. Terdiri atas Kop Surat (Kepala), Nomor/Tanggal/Lampiran/Hal, Alamat Tujuan, Salam Pembuka, Isi (Pendahuluan, Inti, Penutup), Salam Penutup, dan Tanda Tangan berserta Stempel lembaga."
+            },
+            {
+              "type": "text",
+              "text": "Pada bagian alamat tujuan, EYD melarang penggunaan sapaan ganda yang mubazir. Misalnya: 'Kepada Yth. Bapak...' adalah penulisan yang salah. Kita tidak boleh menggunakan 'Kepada' dan 'Yth.' secara bersamaan karena bermakna repetitif. Cukup 'Yth. Bapak/Ibu Wali Murid' atau 'Yth. Seluruh Dewan Guru'."
+            },
+            {
+              "type": "heading",
+              "text": "Etika Komunikasi Digital (Teks Singkat/WA)",
+              "level": 2
+            },
+            {
+              "type": "text",
+              "text": "Di era digital modern, siswa berinteraksi dengan guru via aplikasi seperti WhatsApp. Bahasa Indonesia mengajarkan kesantunan berbahasa. Pesan singkat yang dikirimkan ke otoritas (guru/dosen) HARUS memenuhi unsur kesantunan:"
             },
             {
               "type": "list",
               "items": [
-                "Menggunakan kata penanda waktu: pada masa, ketika, kemudian, saat ini",
-                "Kalimat pasif: terjadi, disebabkan, diakibatkan",
-                "Konjungsi sebab-akibat: karena, sehingga, akibatnya",
-                "Istilah ilmiah sesuai bidangnya"
-              ]
+                "1. Salam Pembuka (Assalamualaikum / Selamat pagi, Pak/Bu).",
+                "2. Permohonan maaf mengganggu waktu (opsional tapi sangat disarankan).",
+                "3. Identitas diri secara jelas (Nama, Kelas, Kelompok).",
+                "4. Tujuan/Maksud yang jelas tanpa bertele-tele.",
+                "5. Meminta kesediaan (Apakah Bapak/Ibu berkenan...).",
+                "6. Ucapan terima kasih sebagai salam penutup."
+              ],
+              "ordered": true
+            },
+            {
+              "type": "text",
+              "text": "Jika Rania mau konsul karya ilmiah ke Pak Darmawan, hindari pesan: 'Pak, kami mau konsul besok ya. Jam 8.' Ini sangat tidak sopan. Pesan yang sempurna: 'Assalamualaikum, Pak Darmawan. Perkenalkan kami kelompok Rania dari kelas VIII B. Kami bermaksud melakukan konsultasi mengenai judul karya ilmiah. Apakah Bapak berkenan memberikan waktu untuk bimbingan? Terima kasih, Pak.'"
+            }
+          ]
+        },
+        {
+          "id": "retorika-pidato-argumentasi",
+          "title": "Seni Berpidato dan Kalimat Persuasif",
+          "estMinutes": 40,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Kekuatan Menggerakkan Massa",
+              "level": 1
+            },
+            {
+              "type": "text",
+              "text": "Pidato atau orasi adalah unjuk gigi retorika (seni berbicara). Pidato yang baik tidak sekadar informatif, melainkan harus MENGGERAKKAN audiens. Untuk menggerakkan massa, seorang orator menggunakan 'Kalimat Persuasif'. Kalimat persuasif adalah kalimat ajakan, himbauan, atau bujukan halus namun tegas."
             },
             {
               "type": "highlight",
-              "text": "Rangkaian kejadian menjelaskan PROSES/sebab-akibat. Identifikasi fenomena menjelaskan APA itu fenomenanya."
+              "text": "Ciri khas kalimat persuasif dalam pidato adalah penggunaan partikel ajakan seperti: 'Mari', 'Marilah', 'Ayo', 'Hendaknya', dan diakhiri dengan tanda seru atau intonasi penekanan."
+            },
+            {
+              "type": "heading",
+              "text": "Struktur Teks Pidato",
+              "level": 2
+            },
+            {
+              "type": "text",
+              "text": "Seperti esai, pidato dibagi menjadi tiga ruang sakral:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pendahuluan: Berisi sapaan hormat (Yang terhormat...), puji syukur kepada Tuhan, dan pengantar topik ringan.",
+                "Isi Pidato: Ini adalah jantung orasi. Berisi argumen pendukung, data konkrit, serta puncak klimaks berupa ajakan/persuasi kepada hadirin.",
+                "Penutup: Simpulan singkat, harapan, permohonan maaf bila ada salah kata (Atas perhatian Bapak/Ibu saya ucapkan terima kasih), dan salam penutup."
+              ],
+              "ordered": false
+            },
+            {
+              "type": "image",
+              "url": "https://images.unsplash.com/photo-1541812833075-8422709214ed?auto=format&fit=crop&q=80&w=1000",
+              "caption": "Orasi yang mengagumkan lahir dari struktur bahasa yang solid dan ajakan persuasif yang tajam."
             }
           ]
         }
       ],
       "flashcards": [
         {
-          "id": "fc1",
-          "question": "Struktur teks eksplanasi?",
-          "answer": "Identifikasi fenomena, rangkaian kejadian, interpretasi/kesimpulan"
+          "id": "fc3-1",
+          "question": "Kata 'pemerintah kota depok' jika ditulis sesuai EYD menjadi?",
+          "answer": "Pemerintah Kota Depok (Kapasitalisasi awal kalimat nama geografi/lembaga)."
         },
         {
-          "id": "fc2",
-          "question": "Contoh fenomena alam dalam teks eksplanasi?",
-          "answer": "Longsor, gempa bumi, tsunami, banjir"
+          "id": "fc3-2",
+          "question": "Bentuk baku dari kata 'aktifitas' dan 'kreatifitas' adalah?",
+          "answer": "Aktivitas dan Kreativitas (menggunakan huruf V, serapan dari 'activity' dan 'creativity')."
         },
         {
-          "id": "fc3",
-          "question": "Contoh fenomena sosial dalam teks eksplanasi?",
-          "answer": "Pernikahan dini, bullying, tren 'marriage is scary'"
+          "id": "fc3-3",
+          "question": "Penulisan kata sapaan alamat surat yang paling tepat dan tidak mubazir: 'Kepada Yth. Bapak' atau 'Yth. Bapak'?",
+          "answer": "'Yth. Bapak' (Kata 'Kepada' dan 'Yth' tidak boleh digabung karena mubazir makna)."
         },
         {
-          "id": "fc4",
-          "question": "Bagian yang menjelaskan proses terjadinya fenomena?",
-          "answer": "Rangkaian kejadian"
+          "id": "fc3-4",
+          "question": "Kalimat yang bertujuan membujuk, merayu, atau mengajak pembaca/pendengar untuk melakukan sesuatu disebut?",
+          "answer": "Kalimat Persuasif."
         },
         {
-          "id": "fc5",
-          "question": "Bagian yang menjelaskan pengertian umum fenomena?",
-          "answer": "Identifikasi fenomena"
+          "id": "fc3-5",
+          "question": "Apa akronim dari EYD?",
+          "answer": "Ejaan Yang Disempurnakan."
         },
         {
-          "id": "fc6",
-          "question": "Bagian penutup teks eksplanasi?",
-          "answer": "Interpretasi atau kesimpulan"
+          "id": "fc3-6",
+          "question": "Bagian penutup pidato biasanya selalu diakhiri dengan?",
+          "answer": "Permohonan maaf (jika ada salah tutur kata), ucapan terima kasih atas perhatian, dan salam penutup."
+        },
+        {
+          "id": "fc3-7",
+          "question": "Manakah yang benar: 'managemen' atau 'manajemen'?",
+          "answer": "Manajemen."
+        },
+        {
+          "id": "fc3-8",
+          "question": "Urutan etika pesan WhatsApp ke guru yang benar adalah?",
+          "answer": "Salam pembuka, perkenalkan identitas (nama/kelas), sampaikan tujuan dengan sopan, ucapkan terima kasih."
+        },
+        {
+          "id": "fc3-9",
+          "question": "Kata 'efektiv' jika diserap ke bahasa Indonesia baku menjadi?",
+          "answer": "Efektif (menggunakan akhiran f)."
+        },
+        {
+          "id": "fc3-10",
+          "question": "Kalimat 'Marilah kita jadikan membaca sebagai kebiasaan sehari-hari' merupakan contoh kalimat apa dalam pidato?",
+          "answer": "Kalimat Persuasif."
         }
       ],
       "quiz": {
         "questions": [
           {
-            "id": "q1",
+            "id": "q3-1",
             "type": "multiple_choice",
-            "question": "Teks tentang 'longsor adalah gerakan tanah...' merupakan bagian struktur?",
+            "question": "Berdasarkan pedoman EYD terkini, perbaikan ejaan pada kalimat: 'rabu 18 februari 2026 pemerintah kota depok meresmikan taman bermain anak di kelurahan beji' yang tepat adalah...",
             "options": [
-              "Orientasi",
-              "Rangkaian kejadian",
-              "Identifikasi fenomena",
-              "Interpretasi atau kesimpulan"
-            ],
-            "answer": 2,
-            "explanation": ""
-          },
-          {
-            "id": "q2",
-            "type": "multiple_choice",
-            "question": "Fenomena 'Marriage is scary' yang menggambarkan ketakutan akan komitmen pernikahan di kalangan muda termasuk jenis?",
-            "options": [
-              "Alam",
-              "Sosial",
-              "Budaya",
-              "Ekonomi"
+              "Rabu 18 februari 2026 pemerintah kota Depok meresmikan taman bermain anak di kelurahan Beji",
+              "Rabu 18 Februari 2026 Pemerintah Kota Depok meresmikan taman bermain anak di Kelurahan Beji",
+              "Rabu, 18 februari 2026 Pemerintah kota depok meresmikan taman bermain anak di Kelurahan beji",
+              "Rabu 18 Februari 2026 pemerintah Kota depok meresmikan taman bermain anak di kelurahan beji"
             ],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Aturan kapitalisasi: Hari wajib kapital (Rabu). Bulan wajib kapital (Februari). Institusi pemerintahan diikuti nama geografis wajib awal huruf kapital (Pemerintah Kota Depok). Nama instansi kewilayahan diikuti nama geografi wajib kapital (Kelurahan Beji). Pilihan B mematuhi semua aturan ini dengan sempurna."
           },
           {
-            "id": "q3",
+            "id": "q3-2",
             "type": "multiple_choice",
-            "question": "Teks eksplanasi tentang longsor termasuk fenomena?",
+            "question": "Cermati teks berikut:\nSekolah mengadakan pelatihan untuk meningkatkan activity siswa dalam organisasi. Selain itu, kegiatan ini bertujuan mengembangkan creativity dan management waktu agar berjalan secara effective.\nPerbaikan kata asing tersebut ke dalam bentuk serapan baku Bahasa Indonesia yang tepat berturut-turut adalah...",
             "options": [
-              "Alam",
-              "Sosial",
-              "Budaya",
-              "Ekonomi"
+              "aktifitas, kreatifitas, managemen, efektiv",
+              "aktivitas, kreativitas, manajemen, efektif",
+              "aktifitas, kreativitas, manajemen, efektip",
+              "aktivitas, kreatifitas, management, efektiv"
+            ],
+            "answer": 1,
+            "explanation": "Proses adaptasi ejaan asing ke Indonesia: 'Activity' menjadi 'aktivitas' (akhiran -vitas dari -vity). 'Creativity' menjadi 'kreativitas'. 'Management' dibaca men-e-jemen dan diserap secara ejaan menjadi 'manajemen'. 'Effective' disesuaikan pelafalannya menjadi 'efektif' (akhiran f). Jawaban yang 100% baku sesuai KBBI adalah pilihan B."
+          },
+          {
+            "id": "q3-3",
+            "type": "multiple_choice",
+            "question": "Cermati kutipan penutup surat resmi berikut:\n'Demikian surat undangan ini kami sampaikan. Atas kehadiran teman-teman, kami ucapkan terima kasih.'\nKalimat penutup yang jauh lebih sopan, resmi, dan sesuai tata bahasa EYD untuk surat ke orang tua/Wali Murid adalah...",
+            "options": [
+              "Atas perhatian serta kehadiran Bapak/Ibu Wali Murid, kami mengucapkan terima kasih.",
+              "Demikian surat pemberitahuan ini kami kirimkan kepada seluruh siswa berprestasi.",
+              "Demikian pengumuman ini kami sampaikan, mohon tidak menghubungi pihak sekolah.",
+              "Kami berharap Bapak/Ibu tidak perlu hadir karena rapor akan dikirim ke rumah."
             ],
             "answer": 0,
-            "explanation": ""
+            "explanation": "Surat yang dikirim ke Wali Murid harus bernada formal dan menghormati posisi mereka. Penggunaan sapaan 'Bapak/Ibu Wali Murid', ditambah ucapan 'Atas perhatian serta kehadiran...' adalah formula standar penutup surat dinas yang menunjukkan apresiasi kesantunan tingkat tinggi dan gramatika yang runut."
           },
           {
-            "id": "q4",
+            "id": "q3-4",
             "type": "multiple_choice",
-            "question": "Teks tentang sebab-akibat pernikahan dini dari sisi ekonomi dan pendidikan merupakan bagian?",
+            "question": "Berdasarkan etika komunikasi teks digital siswa kepada guru. Manakah struktur pesan WhatsApp yang PALING TEPAT jika Rania dan kelompoknya ingin meminta jadwal konsultasi kepada Pak Darmawan?",
             "options": [
-              "Orientasi",
-              "Rangkaian kejadian",
-              "Identifikasi fenomena",
-              "Interpretasi"
+              "Pak Darmawan, kami mau konsultasi karya ilmiah besok ya. Datang aja langsung ke ruangan Bapak jam 8 pagi. Terima kasih.",
+              "Assalamualaikum, Pak Darmawan. Perkenalkan kami kelompok Rania dari kelas VIII B. Kami bermaksud melakukan konsultasi mengenai judul karya ilmiah. Apakah Bapak berkenan memberikan waktu untuk bimbingan? Terima kasih, Pak.",
+              "Assalamualaikum, Pak. Mohon maaf mengganggu. Kami dari kelompok Rania mau konsul besok. Ditunggu balasannya secepatnya. 23:45 WIB.",
+              "Hai Pak Darmawan, kami Rania dkk. Jangan lupa besok kita ada janji bimbingan di jam istirahat ya Pak."
             ],
             "answer": 1,
-            "explanation": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "teks-argumentasi",
-      "title": "Teks Argumentasi",
-      "description": "Pendapat pro-kontra dan teks argumentasi dalam infografis",
-      "lessons": [
-        {
-          "id": "pro-kontra",
-          "title": "Pendapat Pro dan Kontra",
-          "estMinutes": 7,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Teks Argumentasi"
-            },
-            {
-              "type": "text",
-              "text": "Teks argumentasi berisi pendapat yang didukung alasan dan bukti. Dalam diskusi, ada pendapat pro (mendukung) dan kontra (menolak)."
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Pendapat Pro (Mendukung)"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Menyatakan persetujuan terhadap isu",
-                "Memberikan alasan positif/manfaat",
-                "Contoh: 'Kegiatan itu baik karena dapat mendidik anak untuk menambah wawasan.'"
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Pendapat Kontra (Menolak)"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Menyatakan penolakan atau keberatan terhadap isu",
-                "Memberikan alasan negatif/dampak buruk",
-                "Contoh: 'Game online dapat menjadi sumber paparan konten yang tidak pantas.'"
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Struktur Teks Argumentasi"
-            },
-            {
-              "type": "list",
-              "ordered": true,
-              "items": [
-                "Pernyataan pendapat (tesis)",
-                "Argumentasi — alasan dan bukti pendukung",
-                "Penegasan ulang (reiteration)"
-              ]
-            },
-            {
-              "type": "highlight",
-              "text": "Pendapat pro mendukung, kontra menolak. Keduanya harus disertai alasan yang logis."
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc1",
-          "question": "Apa itu pendapat pro?",
-          "answer": "Pendapat yang mendukung suatu isu dengan alasan positif/manfaat"
-        },
-        {
-          "id": "fc2",
-          "question": "Apa itu pendapat kontra?",
-          "answer": "Pendapat yang menolak suatu isu dengan alasan negatif/dampak buruk"
-        },
-        {
-          "id": "fc3",
-          "question": "Struktur teks argumentasi?",
-          "answer": "Tesis, argumentasi, penegasan ulang (reiteration)"
-        },
-        {
-          "id": "fc4",
-          "question": "Contoh pendapat pro gerakan literasi?",
-          "answer": "Kegiatan itu baik karena dapat mendidik anak untuk menambah wawasan dengan cara membaca."
-        },
-        {
-          "id": "fc5",
-          "question": "Contoh pendapat kontra game online?",
-          "answer": "Game online dapat menjadi sumber paparan konten yang tidak pantas, seperti kekerasan dan cyberbullying."
-        }
-      ],
-      "quiz": {
-        "questions": [
+            "explanation": "Pesan kepada sosok otoritas/guru haruslah mengedepankan unggah-ungguh (kesopanan). Struktur yang wajib dipenuhi: Salam pembuka (Assalamualaikum), Perkenalan diri yang komplit (Kelompok Rania kelas VIII B karena guru mengajar ratusan murid), Tujuan yang jelas secara sopan, dan diakhiri pertanyaan ketersediaan waktu ('Apakah bapak berkenan...'). Opsi B memenuhi semua parameter ini."
+          },
           {
-            "id": "q1",
+            "id": "q3-5",
             "type": "multiple_choice",
-            "question": "Pendapat pro (mendukung) gerakan literasi adalah?",
+            "question": "Bacalah cuplikan pidato berikut:\n'Sebelum saya mengakhiri pidato ini, sekali lagi saya mengajak seluruh warga sekolah untuk bersama-sama menjaga kebersihan lingkungan sekolah kita. Marilah kita jadikan sekolah ini sebagai tempat yang nyaman untuk belajar. Atas perhatian Bapak, Ibu, dan teman-teman sekalian, saya ucapkan terima kasih yang sebesar-besarnya.'\nKutipan tersebut merupakan bagian teks pidato...",
             "options": [
-              "Literasi tidak perlu dibiasakan karena tanggung jawab pemerintah",
-              "Kegiatan itu baik karena dapat mendidik anak menambah wawasan",
-              "Kegiatan itu hanya menambah waktu saja",
-              "Kegiatan itu kurang efektif karena belajar tidak hanya melalui membaca"
+              "Pendahuluan/Pembuka",
+              "Isi (Klimaks Argumen)",
+              "Penutup",
+              "Sambutan Tamu"
+            ],
+            "answer": 2,
+            "explanation": "Terdapat frasa eksplisit 'Sebelum saya mengakhiri pidato ini' dan diakhiri dengan ucapan apresiasi klasik penutup forum ('Atas perhatian Bapak, Ibu... saya ucapkan terima kasih'). Ini adalah pola anatomi standar untuk bagian 'Penutup' sebuah pidato."
+          },
+          {
+            "id": "q3-6",
+            "type": "multiple_choice",
+            "question": "Perhatikan teks berikut:\n(1) Budaya membaca di kalangan pelajar Indonesia saat ini masih tergolong rendah.\n(2) Padahal, membaca adalah jendela dunia.\n(3) Marilah kita jadikan membaca sebagai kebiasaan sehari-hari agar kita menjadi generasi yang cerdas.\n(4) Perpustakaan sekolah telah menyediakan berbagai buku secara gratis.\nKalimat yang mengandung corak persuasif ditandai oleh nomor...",
+            "options": [
+              "(1)",
+              "(2)",
+              "(3)",
+              "(4)"
+            ],
+            "answer": 2,
+            "explanation": "Kalimat persuasif adalah kalimat ajakan/bujukan. Kalimat (3) menggunakan partikel 'Marilah' yang secara spesifik merupakan seruan aktif mengajak audiens melakukan sebuah aksi bersama (membaca), sehingga jelas ia adalah kalimat persuasif."
+          },
+          {
+            "id": "q3-7",
+            "type": "multiple_choice",
+            "question": "Dalam penulisan alamat surat resmi. Perhatikan contoh berikut:\n'Kepada Yth. Seluruh Dewan Guru SMPIT Al-Mubarok di Tempat'\nMenurut kaidah kebakuan EYD dan efisiensi bahasa, apa kesalahan pada alamat surat di atas?",
+            "options": [
+              "Pemakaian kata 'Seluruh' tidak diperlukan",
+              "Kata SMPIT harusnya menggunakan huruf kecil semua",
+              "Penggunaan kata 'Kepada' dan 'Yth.' secara bersamaan adalah pemborosan dan mubazir",
+              "Penulisan 'di Tempat' harusnya tidak perlu diberi spasi"
+            ],
+            "answer": 2,
+            "explanation": "Secara gramatikal dan administratif, kata 'Kepada' adalah preposisi penunjuk arah/tujuan surat, sementara 'Yth.' (Yang terhormat) juga berfungsi serupa untuk merujuk pada entitas tujuan. Penggunaan keduanya secara beruntun menjadikan frasa tersebut redundan/mubazir. Surat dinas yang efisien langsung menggunakan 'Yth. [Nama/Jabatan]'."
+          },
+          {
+            "id": "q3-8",
+            "type": "multiple_choice",
+            "question": "Cermati teks argumen ini:\n'Banyak siswa terlambat karena tidur terlalu larut malam. Hal ini membuat fokus berkurang dan prestasi menurun.'\nManakah argumen bantahan (kontra) yang paling logis untuk menyanggah klaim tersebut secara struktural?",
+            "options": [
+              "Siswa sebaiknya mengatur waktu tidur agar fokus di sekolah.",
+              "Tidur larut malam merupakan hak asasi setiap anak yang dijamin undang-undang.",
+              "Prestasi belajar seorang siswa bukan hanya ditentukan oleh durasi tidurnya di malam hari, melainkan juga efektivitas cara belajarnya dan kualitas asupan nutrisinya.",
+              "Keterlambatan sekolah adalah hal yang lumrah dan wajar di kota besar akibat kemacetan lalu lintas, bukan karena tidur."
+            ],
+            "answer": 2,
+            "explanation": "Bantahan (kontra) harus menyerang premis klaim secara logis, bukan sekadar emosional. Teks awal mengklaim korelasi tunggal 'tidur larut -> prestasi turun'. Opsi C membantah dengan sangat analitis bahwa variabel penentu prestasi bersifat jamak (tidak cuma tidur, tapi metode belajar dan gizi), mematahkan klaim kausalitas absolut pada teks."
+          },
+          {
+            "id": "q3-9",
+            "type": "multiple_choice",
+            "question": "Penulisan konjungsi intrakalimat (di dalam kalimat tunggal) pada paragraf berikut yang paling tepat: 'Aku tetap berangkat ke sekolah ___ hujan turun dengan deras. Aku merasa sedikit khawatir ___ jalanan menjadi licin.'",
+            "options": [
+              "karena – walaupun",
+              "walaupun – karena",
+              "tetapi – karena",
+              "dan – tetapi"
             ],
             "answer": 1,
-            "explanation": ""
+            "explanation": "Kondisi kalimat pertama: berangkat sekolah MESKIPUN ada hujan (pertentangan yang ditaklukkan). Maka konjungsi yang tepat adalah 'walaupun'. Kondisi kalimat kedua: khawatir DISEBABKAN jalanan licin (sebab-akibat). Maka konjungsi yang tepat adalah 'karena'. Susunan yang pas adalah 'walaupun - karena'."
           },
           {
-            "id": "q2",
+            "id": "q3-10",
             "type": "multiple_choice",
-            "question": "Pendapat kontra (menolak) game online adalah?",
+            "question": "Kata majemuk di bawah ini yang salah secara morfologi PUEBI/EYD jika merujuk pada penulisan terpisah atau serangkai adalah...",
             "options": [
-              "Game online dapat menjadi sumber relaksasi",
-              "Bermain game bisa memperkuat hubungan sosial",
-              "Game online dapat menjadi sumber paparan konten tidak pantas dan cyberbullying",
-              "Game online mengembangkan keterampilan strategi dan kerja sama"
+              "tanggung jawab",
+              "tanda tangan",
+              "bertanggungjawab",
+              "bekerja sama"
             ],
             "answer": 2,
-            "explanation": ""
-          },
-          {
-            "id": "q3",
-            "type": "multiple_choice",
-            "question": "Tesis dalam teks argumentasi berisi?",
-            "options": [
-              "Alasan dan bukti pendukung",
-              "Pernyataan pendapat awal penulis",
-              "Simpulan akhir",
-              "Data statistik"
-            ],
-            "answer": 1,
-            "explanation": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "teks-rekon",
-      "title": "Teks Rekon",
-      "description": "Struktur dan kosakata teks rekon (biografi/autobiografi)",
-      "lessons": [
-        {
-          "id": "struktur-rekon",
-          "title": "Teks Rekon dan Strukturnya",
-          "estMinutes": 7,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Teks Rekon"
-            },
-            {
-              "type": "text",
-              "text": "Teks rekon menceritakan kembali peristiwa atau pengalaman di masa lalu. Termasuk teks biografi dan autobiografi."
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Struktur Teks Rekon"
-            },
-            {
-              "type": "list",
-              "ordered": true,
-              "items": [
-                "Orientasi — pengenalan tokoh, latar, dan peristiwa (siapa, kapan, di mana)",
-                "Urutan kejadian — rangkaian peristiwa yang dialami tokoh",
-                "Reorientasi — komentar atau simpulan akhir (bisa ada, bisa tidak)"
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Contoh Orientasi"
-            },
-            {
-              "type": "text",
-              "text": "H. Agus Salim lahir di Kota Gadang, Bukit Tinggi, Minangkabau pada 8 Oktober 1884. → Ini adalah bagian ORIENTASI karena memperkenalkan siapa, kapan, dan di mana."
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Ciri Kebahasaan"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Menggunakan kata kerja lampau: lahir, menemukan, memulai, melanjutkan",
-                "Kata keterangan waktu: pada tahun, ketika, sewaktu muda, pada usia",
-                "Kata ganti orang ketiga: ia, beliau, mereka"
-              ]
-            },
-            {
-              "type": "highlight",
-              "text": "Orientasi = memperkenalkan tokoh. Urutan kejadian = rangkaian peristiwa. Reorientasi = simpulan/komentar."
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc1",
-          "question": "Struktur teks rekon?",
-          "answer": "Orientasi, urutan kejadian, reorientasi"
-        },
-        {
-          "id": "fc2",
-          "question": "Apa isi bagian orientasi teks rekon?",
-          "answer": "Pengenalan tokoh, latar tempat dan waktu (siapa, kapan, di mana)"
-        },
-        {
-          "id": "fc3",
-          "question": "Paragraf yang memperkenalkan H. Agus Salim (lahir di Kota Gadang, tanggal, orang tua) termasuk bagian?",
-          "answer": "Orientasi"
-        },
-        {
-          "id": "fc4",
-          "question": "Ciri kebahasaan teks rekon?",
-          "answer": "Kata kerja lampau, keterangan waktu (pada tahun, ketika), kata ganti orang ketiga"
-        },
-        {
-          "id": "fc5",
-          "question": "Apa itu reorientasi dalam teks rekon?",
-          "answer": "Simpulan atau komentar akhir penulis tentang tokoh (bersifat opsional)"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q1",
-            "type": "multiple_choice",
-            "question": "Paragraf 'H. Agus Salim lahir di Kota Gadang... pada 8 Oktober 1884' termasuk bagian?",
-            "options": [
-              "Argumentasi",
-              "Reorientasi",
-              "Orientasi",
-              "Konflik"
-            ],
-            "answer": 2,
-            "explanation": ""
-          },
-          {
-            "id": "q2",
-            "type": "multiple_choice",
-            "question": "Gagasan utama paragraf: 'Sewaktu muda, Chairil memulai pendidikannya di HIS... Chairil tidak lagi bersekolah...' adalah?",
-            "options": [
-              "Tekad Chairil Anwar",
-              "Identitas Chairil Anwar",
-              "Pendidikan Chairil Anwar",
-              "Riwayat muda Chairil Anwar"
-            ],
-            "answer": 2,
-            "explanation": ""
-          },
-          {
-            "id": "q3",
-            "type": "multiple_choice",
-            "question": "Kata yang menunjukkan penggunaan waktu lampau dalam teks rekon adalah?",
-            "options": [
-              "akan datang, esok hari",
-              "sekarang, saat ini",
-              "masa purba, pada zaman dulu",
-              "besok, akan, nanti"
-            ],
-            "answer": 2,
-            "explanation": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "teks-deskripsi",
-      "title": "Teks Deskripsi",
-      "description": "Memahami isi, kohesi, dan koherensi teks deskripsi",
-      "lessons": [
-        {
-          "id": "teks-deskripsi",
-          "title": "Teks Deskripsi: Isi dan Kebahasaan",
-          "estMinutes": 7,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Teks Deskripsi"
-            },
-            {
-              "type": "text",
-              "text": "Teks deskripsi adalah teks yang menggambarkan objek, tempat, atau peristiwa secara detail sehingga pembaca seolah-olah melihat, merasakan, atau mengalami sendiri."
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Ciri Teks Deskripsi"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Menggunakan kata sifat yang detail: cantik, lembut, keras, harum",
-                "Menggunakan indera: melihat, mendengar, mencium, merasa",
-                "Menggambarkan objek secara spesifik dan konkret",
-                "Bersifat subjektif (tergantung sudut pandang penulis)"
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Kohesi dan Koherensi"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Kohesi: keterkaitan bentuk/kata antar kalimat (penggunaan konjungsi, kata ganti, kata hubung)",
-                "Koherensi: keterkaitan makna antar kalimat (tidak menyimpang dari topik)",
-                "Paragraf tidak koherensi: ada kalimat yang tidak berhubungan dengan topik utama"
-              ]
-            },
-            {
-              "type": "highlight",
-              "text": "Paragraf tidak koherensi apabila ada kalimat yang menyimpang/tidak relevan dengan topik paragraf."
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc1",
-          "question": "Apa itu teks deskripsi?",
-          "answer": "Teks yang menggambarkan objek/tempat/peristiwa secara detail agar pembaca seolah mengalaminya"
-        },
-        {
-          "id": "fc2",
-          "question": "Apa itu koherensi paragraf?",
-          "answer": "Keterkaitan makna antar kalimat; semua kalimat relevan dengan topik"
-        },
-        {
-          "id": "fc3",
-          "question": "Bukti paragraf tidak koherensi?",
-          "answer": "Ada kalimat yang menyimpang/tidak berhubungan dengan topik utama paragraf"
-        },
-        {
-          "id": "fc4",
-          "question": "Apa itu kohesi?",
-          "answer": "Keterkaitan bentuk/kata antar kalimat menggunakan konjungsi, kata ganti, atau kata penghubung"
-        },
-        {
-          "id": "fc5",
-          "question": "Cara menyunting teks deskripsi agar koherensi?",
-          "answer": "Hapus atau pindahkan kalimat yang tidak relevan dengan topik utama paragraf"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q1",
-            "type": "multiple_choice",
-            "question": "Pada paragraf: '(1)Berhala terjungkal. (2)Simbol akhir zaman kemusyrikan. (3)Seperti disebutkan Imam al-Bushiri... (4)Isra Miraj adalah perjalanan Nabi. (5)Peristiwa ini terjadi dalam satu malam.' Bukti tidak koherensi terdapat pada?",
-            "options": [
-              "(1) dan (2)",
-              "(2) dan (3)",
-              "(3) dan (4)",
-              "(4) dan (5)"
-            ],
-            "answer": 2,
-            "explanation": ""
-          },
-          {
-            "id": "q2",
-            "type": "multiple_choice",
-            "question": "Kalimat pendukung yang tepat untuk melengkapi paragraf tentang ujian Rasulullah di Thaif adalah?",
-            "options": [
-              "Penindasan yang diterima umat Islam di Madinah",
-              "Pengusiran dari Makkah oleh kaum kafir Quraish",
-              "Bahkan mereka menghina beliau... batu-batu mengenai tubuh sang rasul hingga berdarah",
-              "Rasulullah ditolak keras oleh suku Tsaqif, bahkan mereka menghina beliau dan melemparinya dengan batu"
-            ],
-            "answer": 3,
-            "explanation": ""
-          },
-          {
-            "id": "q3",
-            "type": "multiple_choice",
-            "question": "Teks deskripsi berbeda dari teks eksposisi dalam hal?",
-            "options": [
-              "Deskripsi berisi argumen, eksposisi berisi gambaran",
-              "Deskripsi menggambarkan objek secara detail, eksposisi menjelaskan/memaparkan informasi",
-              "Deskripsi berisi langkah-langkah, eksposisi berisi cerita",
-              "Keduanya sama saja"
-            ],
-            "answer": 1,
-            "explanation": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "buku-fiksi-nonfiksi",
-      "title": "Buku Fiksi dan Nonfiksi",
-      "description": "Bagian-bagian buku dan cara menanggapi isi buku",
-      "lessons": [
-        {
-          "id": "buku-fiksi-nonfiksi",
-          "title": "Buku Fiksi, Nonfiksi, dan Ulasan Buku",
-          "estMinutes": 7,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Buku Fiksi dan Nonfiksi"
-            },
-            {
-              "type": "table",
-              "headers": [
-                "Aspek",
-                "Fiksi",
-                "Nonfiksi"
-              ],
-              "rows": [
-                [
-                  "Isi",
-                  "Hasil imajinasi/rekaan",
-                  "Fakta/kenyataan"
-                ],
-                [
-                  "Contoh",
-                  "Novel, cerpen, dongeng",
-                  "Buku pelajaran, biografi, ensiklopedi"
-                ],
-                [
-                  "Tujuan",
-                  "Menghibur",
-                  "Memberi informasi"
-                ]
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Bagian-Bagian Buku"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Sampul (cover): judul, nama penulis, penerbit",
-                "Kata pengantar: sambutan penulis/penerbit",
-                "Daftar isi: urutan bab/subbab",
-                "Isi/konten: bab-bab isi buku",
-                "Glosarium: daftar istilah",
-                "Daftar pustaka: sumber referensi",
-                "Indeks: daftar kata penting beserta halamannya"
-              ]
-            },
-            {
-              "type": "heading",
-              "level": 2,
-              "text": "Cara Menanggapi Buku (Ulasan)"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Identitas buku: judul, penulis, penerbit, tahun terbit",
-                "Sinopsis: ringkasan isi buku",
-                "Kelebihan buku: hal positif dari buku",
-                "Kekurangan buku: hal yang perlu diperbaiki",
-                "Kesimpulan/rekomendasi"
-              ]
-            },
-            {
-              "type": "highlight",
-              "text": "Penggalan ulasan yang menyebutkan kesalahan pengetikan dan ketidakkonsistenan warna adalah bagian KEKURANGAN buku."
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc1",
-          "question": "Perbedaan buku fiksi dan nonfiksi?",
-          "answer": "Fiksi: hasil imajinasi (novel, cerpen). Nonfiksi: berdasarkan fakta (biografi, buku pelajaran)"
-        },
-        {
-          "id": "fc2",
-          "question": "Bagian buku yang berisi daftar istilah?",
-          "answer": "Glosarium"
-        },
-        {
-          "id": "fc3",
-          "question": "Bagian buku yang berisi urutan bab?",
-          "answer": "Daftar isi"
-        },
-        {
-          "id": "fc4",
-          "question": "Ulasan buku yang menyebutkan kesalahan pengetikan dan ketidakkonsistenan warna adalah bagian?",
-          "answer": "Kekurangan buku"
-        },
-        {
-          "id": "fc5",
-          "question": "Bagian ulasan buku yang berisi ringkasan isi buku?",
-          "answer": "Sinopsis"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q1",
-            "type": "multiple_choice",
-            "question": "Ulasan: 'Masih ditemukan kesalahan pengetikan... tidak ada konsistensi dalam pemberian warna...' adalah gambaran?",
-            "options": [
-              "Sinopsis",
-              "Identitas buku",
-              "Kelebihan buku",
-              "Kekurangan buku"
-            ],
-            "answer": 3,
-            "explanation": ""
-          },
-          {
-            "id": "q2",
-            "type": "multiple_choice",
-            "question": "Contoh buku fiksi adalah?",
-            "options": [
-              "Buku pelajaran IPA",
-              "Ensiklopedi",
-              "Biografi pahlawan",
-              "Novel"
-            ],
-            "answer": 3,
-            "explanation": ""
-          },
-          {
-            "id": "q3",
-            "type": "multiple_choice",
-            "question": "Bagian buku yang berisi kata penting beserta halamannya?",
-            "options": [
-              "Glosarium",
-              "Daftar pustaka",
-              "Indeks",
-              "Daftar isi"
-            ],
-            "answer": 2,
-            "explanation": ""
+            "explanation": "Aturan dasar EYD untuk gabungan kata (kata majemuk): Jika mendapat SATU imbuhan (hanya awalan atau hanya akhiran), penulisannya tetap dipisah (ber- tanggung jawab). Jika mendapat imbuhan LENGKAP awalan-akhiran, penulisannya harus dirangkai/disatukan utuh (pertanggungjawaban). Jadi 'bertanggungjawab' salah, yang benar adalah 'bertanggung jawab'."
           }
         ]
       }
