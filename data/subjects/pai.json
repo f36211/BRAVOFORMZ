@@ -1,252 +1,383 @@
 {
-  "id": "pai-smp-kilat",
-  "name": "PAI & Budi Pekerti (SMP Kilat)",
-  "description": "Catatan ringkas, padat, dan to the point untuk materi PAI.
-Langsung inti, hapalan cepat, full kesimpulan.", "grade": [7, 8, 9], "icon":"BookOpen","color": "green","topics": [{"id": "fiqih-ibadah","title": "Fiqih (Thaharah, Salat, Zakat, Haji, Jenazah)",
-  "description": "Catatan cepet
-aturan Ibadah: dari bersuci sampai tata cara urus jenazah.", "lessons": [ {"id": "bersuci-dan-salat","title": "Thaharah & Rukhsah Salat","estMinutes": 5,"content": [{"type": "heading",
-  "text": "1. Thaharah (Bersuci)",
-  "level": 2
-},
-{
-  "type": "text",
-  "text": "Intinya: Wajib suci sebelum ibadah. Kalo gak ada air,
-ganti tayamum." }, { "type": "list", "ordered": false, "items": [ "Air Suci
-(Boleh dipakai mandi/wudhu): Air hujan, salju, air laut, air embun.", "Sunnah
-Mandi Wajib: Berwudhu dulu tertib, membasuh seluruh tubuh, dahulukan menyiram
-bagian kanan.", "Tayamum (Boleh jika: sakit tdk bisa kena air, kekeringan/air
-sangat minim, musibah). Caranya: tepuk debu suci, usap wajah, usap 2 tangan
-sampai pergelangan." ] }, { "type": "heading", "text": "2. Sujud di Luar Salat","level": 2
-},
-{
-  "type": "list",
-  "ordered": false,
-  "items": [ "Sujud Syukur:
-Dilakukan waktu dapat nikmat / selamat dari kecelakaan atau maut.", "Sujud
-Sahwi: Dilakukan karena lupa gerakan/jumlah rakaat dalam salat.", "Sujud
-Tilawah: Dilakukan pas dengar/baca Ayat Sajdah (contoh: QS. Al-Alaq di akhir)."
+  "id": "pendidikan-agama-islam",
+  "name": "Pendidikan Agama Islam & Budi Pekerti",
+  "description": "Materi PAI kelas 7-9 SMP mencakup thaharah, shalat, akhlak, sejarah Islam, zakat, haji, dan iman kepada malaikat",
+  "grade": [7, 8, 9],
+  "icon": "BookOpen",
+  "color": "green",
+  "topics": [
+    {
+      "id": "thaharah",
+      "title": "Thaharah (Bersuci)",
+      "description": "Cara bersuci dalam Islam: wudhu, tayamum, dan mandi wajib",
+      "lessons": [
+        {
+          "id": "wudhu",
+          "title": "Wudhu",
+          "estMinutes": 10,
+          "content": [
+            {"type": "heading", "text": "Rukun Wudhu (Wajib & Harus Urut)", "level": 2},
+            {"type": "list", "items": ["Niat", "Membasuh muka", "Membasuh tangan sampai siku", "Mengusap sebagian kepala", "Membasuh kaki sampai mata kaki", "Tertib (urutan)"], "ordered": true},
+            {"type": "heading", "text": "Sunnah Wudhu (Tidak Wajib)", "level": 2},
+            {"type": "list", "items": ["Membaca basmalah", "Kumur-kumur", "Mencuci hidung", "Mengusap seluruh kepala", "Mengusap telinga", "Mendahulukan anggota kanan", "Membasuh 3 kali tiap anggota"], "ordered": false},
+            {"type": "highlight", "text": "Rukun = batal wudhu kalau ditinggal. Sunnah = tidak batal, hanya kurang sempurna."},
+            {"type": "heading", "text": "Air untuk Wudhu & Mandi Wajib", "level": 2},
+            {"type": "table", "headers": ["Air Boleh", "Air Tidak Boleh"], "rows": [["Air hujan", "Air teh/kopi (berubah sifat)"], ["Air salju/embun", "Air sedikit yang sudah kena najis"], ["Air laut", ""], ["Air sumur/sungai", ""]]},
+            {"type": "text", "text": "Air yang boleh digunakan: air hujan, salju, embun, laut, sungai, sumur — yaitu air mutlak (suci dan mensucikan)."}
+          ]
+        },
+        {
+          "id": "tayamum",
+          "title": "Tayamum",
+          "estMinutes": 8,
+          "content": [
+            {"type": "heading", "text": "Syarat Boleh Tayamum", "level": 2},
+            {"type": "list", "items": ["Tidak ada air sama sekali", "Tubuh sakit — tidak bisa terkena air", "Ada air tapi sangat sedikit hanya cukup untuk minum"], "ordered": false},
+            {"type": "highlight", "text": "Tayamum hanya berlaku untuk 1 kali waktu shalat, bukan hanya untuk satu kali shalat."},
+            {"type": "heading", "text": "Tata Cara Tayamum (Urutan Benar)", "level": 2},
+            {"type": "list", "items": ["Niat tayamum", "Meletakkan kedua telapak tangan di tanah", "Meniup tanah dari kedua telapak tangan", "Mengusap muka dengan kedua telapak tangan", "Mengusap kedua tangan hingga pergelangan tangan"], "ordered": true}
+          ]
+        },
+        {
+          "id": "mandi-wajib",
+          "title": "Mandi Wajib",
+          "estMinutes": 8,
+          "content": [
+            {"type": "heading", "text": "Sebab Mandi Wajib", "level": 2},
+            {"type": "list", "items": ["Junub (setelah berhubungan suami-istri)", "Haid (menstruasi)", "Nifas (darah setelah melahirkan)", "Melahirkan"], "ordered": false},
+            {"type": "table", "headers": ["Jenis", "Keterangan"], "rows": [["Haid", "Darah rutin wanita setiap bulan"], ["Nifas", "Darah setelah melahirkan, maksimal 40 hari"], ["Istihazhah", "Darah penyakit — tetap wajib shalat"]]},
+            {"type": "highlight", "text": "Nifas = darah pasca melahirkan (antara sepekan sampai 40 hari). Selama nifas: tidak boleh shalat dan puasa."},
+            {"type": "heading", "text": "Najis Bayi Khusus", "level": 2},
+            {"type": "text", "text": "Bayi laki-laki di bawah 2 tahun yang belum makan selain ASI — kencingnya cukup dipercikkan air, tidak perlu dicuci 7 kali."}
+          ]
+        }
+      ],
+      "flashcards": [
+        {"id": "fc1", "question": "Berapa rukun wudhu?", "answer": "6: niat, cuci muka, cuci tangan s.d siku, usap sebagian kepala, cuci kaki s.d mata kaki, tertib"},
+        {"id": "fc2", "question": "Apa perbedaan nifas dan haid?", "answer": "Nifas = darah setelah melahirkan (maks 40 hari). Haid = darah rutin bulanan wanita"},
+        {"id": "fc3", "question": "Syarat boleh tayamum?", "answer": "Tidak ada air, atau sakit tidak bisa kena air, atau air sangat sedikit hanya cukup minum"},
+        {"id": "fc4", "question": "Urutan tayamum yang benar?", "answer": "Niat → tangan ke tanah → tiup → usap muka → usap tangan s.d pergelangan"},
+        {"id": "fc5", "question": "Air teh apakah boleh untuk wudhu?", "answer": "Tidak boleh — air teh bukan air mutlak karena sudah berubah sifat"},
+        {"id": "fc6", "question": "Apa sunnah wudhu?", "answer": "Basmalah, kumur, cuci hidung, usap seluruh kepala, usap telinga, dahulukan kanan, 3x tiap anggota"}
+      ],
+      "quiz": {
+        "questions": [
+          {"id": "q1", "type": "multiple_choice", "question": "Manakah yang termasuk RUKUN wudhu?", "options": ["Kumur-kumur", "Mengusap telinga", "Membasuh muka", "Membaca basmalah"], "answer": 2, "explanation": "Membasuh muka adalah rukun wudhu yang ke-2. Kumur, usap telinga, dan basmalah adalah sunnah."},
+          {"id": "q2", "type": "multiple_choice", "question": "Bu Ani baru melahirkan dan mengeluarkan darah selama 30 hari. Kondisi ini disebut?", "options": ["Haid", "Nifas", "Istihazhah", "Junub"], "answer": 1, "explanation": "Nifas adalah darah yang keluar setelah melahirkan, berlangsung antara sepekan hingga 40 hari."},
+          {"id": "q3", "type": "multiple_choice", "question": "Air mana yang BOLEH digunakan untuk mandi wajib?", "options": ["Air teh", "Air laut", "Air kopi", "Air beras"], "answer": 1, "explanation": "Air laut adalah air mutlak (suci dan mensucikan) sehingga boleh digunakan. Air teh, kopi, dan beras sudah berubah sifat."},
+          {"id": "q4", "type": "multiple_choice", "question": "Urutan tayamum yang benar adalah?", "options": ["Niat, usap muka, tangan ke tanah, tiup, usap tangan", "Tangan ke tanah, niat, tiup, usap muka, usap tangan", "Niat, tangan ke tanah, tiup, usap muka, usap tangan", "Niat, tiup, tangan ke tanah, usap tangan, usap muka"], "answer": 2, "explanation": "Urutan: Niat → tangan ke tanah → tiup → usap muka → usap tangan hingga pergelangan."},
+          {"id": "q5", "type": "multiple_choice", "question": "Hasan kehabisan air saat wudhu di perjalanan, hanya tersisa sedikit air untuk minum. Ia boleh?", "options": ["Shalat tanpa wudhu", "Tayamum", "Menunda shalat selamanya", "Tidak perlu shalat"], "answer": 1, "explanation": "Tayamum dibolehkan ketika air sangat sedikit hanya cukup untuk minum atau tidak ada air sama sekali."}
+        ]
+      }
+    },
+    {
+      "id": "shalat",
+      "title": "Shalat Wajib, Sujud, dan Shalat Rukhsah",
+      "description": "Rukun shalat, macam-macam sujud, shalat jamak dan qasar",
+      "lessons": [
+        {
+          "id": "rukun-shalat",
+          "title": "Rukun Shalat",
+          "estMinutes": 10,
+          "content": [
+            {"type": "heading", "text": "Rukun Shalat vs Sunnah Shalat", "level": 2},
+            {"type": "text", "text": "Rukun shalat adalah hal yang wajib dilakukan. Jika ditinggal, shalat batal dan harus diulang. Sunnah shalat hanya menambah kesempurnaan."},
+            {"type": "table", "headers": ["Rukun Shalat", "Sunnah Shalat"], "rows": [["Niat", "Doa iftitah"], ["Takbiratul ihram", "Bacaan ruku & sujud"], ["Berdiri (yang mampu)", "Bacaan i'tidal"], ["Membaca Al-Fatihah", "Usap telinga"], ["Ruku", ""], ["I'tidal", ""], ["Sujud 2x per rakaat", ""], ["Duduk antara 2 sujud", ""], ["Tasyahud akhir", ""], ["Shalawat Nabi", ""], ["Salam", ""], ["Tertib (urutan)", ""]]},
+            {"type": "highlight", "text": "Ingat: takbiratul ihram = RUKUN. Doa iftitah = SUNNAH. Membaca surat selain Al-Fatihah = SUNNAH."}
+          ]
+        },
+        {
+          "id": "sujud",
+          "title": "Macam-Macam Sujud",
+          "estMinutes": 8,
+          "content": [
+            {"type": "heading", "text": "3 Jenis Sujud di Luar Shalat", "level": 2},
+            {"type": "table", "headers": ["Jenis Sujud", "Kapan Dilakukan", "Contoh"], "rows": [["Sujud Tilawah", "Saat membaca/mendengar ayat sajdah", "Imam membaca akhir QS Al-Alaq lalu sujud"], ["Sujud Syukur", "Saat mendapat nikmat/selamat dari bahaya", "Pak Komar selamat dari kecelakaan, lalu sujud"], ["Sujud Sahwi", "Saat lupa/kurang dalam shalat", "Lupa jumlah rakaat"]]},
+            {"type": "quote", "text": "سَجَدَ وَجْهِيَ لِلَّذِي خَلَقَهُ وَشَقَّ سَمْعَهُ وَبَصَرَهُ", "translation": "Bacaan sujud tilawah: 'Wajahku bersujud kepada Dzat yang menciptakannya, membuka pendengaran dan penglihatannya'"},
+            {"type": "highlight", "text": "Kunci bedain: tilawah = baca ayat sajdah | syukur = dapat nikmat/selamat | sahwi = lupa dalam shalat"}
+          ]
+        },
+        {
+          "id": "shalat-rukhsah",
+          "title": "Shalat Jamak dan Qasar (Rukhsah)",
+          "estMinutes": 8,
+          "content": [
+            {"type": "heading", "text": "Rukhsah = Keringanan dalam Islam", "level": 2},
+            {"type": "text", "text": "Allah memberikan keringanan (rukhsah) bagi musafir (orang dalam perjalanan jauh) untuk menjamak atau mengqasar shalat."},
+            {"type": "table", "headers": ["Istilah", "Arti"], "rows": [["Jamak Taqdim", "Menggabungkan 2 shalat, dikerjakan di waktu shalat pertama (misal: Zuhur + Asar dikerjakan di waktu Zuhur)"], ["Jamak Takhir", "Menggabungkan 2 shalat, dikerjakan di waktu shalat kedua (misal: Zuhur + Asar dikerjakan di waktu Asar)"], ["Qasar", "Meringkas shalat 4 rakaat jadi 2 rakaat"], ["Jamak Qasar", "Menggabungkan sekaligus meringkas"]]},
+            {"type": "text", "text": "Contoh: Rombongan SMP Jakarta ke Yogya, shalat Zuhur 2 rakaat lalu dilanjut Asar 2 rakaat saat waktu Asar = Jamak Takhir Qasar Asar."},
+            {"type": "highlight", "text": "Pak Ahmad musafir di bulan Ramadhan boleh tidak puasa dan menggantinya di hari lain."}
+          ]
+        }
+      ],
+      "flashcards": [
+        {"id": "fc1", "question": "Apa bedanya rukun shalat dan sunnah shalat?", "answer": "Rukun = wajib, batal kalau ditinggal. Sunnah = tidak wajib, hanya menambah kesempurnaan"},
+        {"id": "fc2", "question": "Doa iftitah termasuk apa dalam shalat?", "answer": "Sunnah shalat, bukan rukun"},
+        {"id": "fc3", "question": "Imam membaca ayat sajdah lalu sujud. Itu sujud apa?", "answer": "Sujud tilawah"},
+        {"id": "fc4", "question": "Pak Komar selamat dari kecelakaan lalu sujud. Itu sujud apa?", "answer": "Sujud syukur"},
+        {"id": "fc5", "question": "Apa itu jamak taqdim?", "answer": "Menggabungkan 2 shalat dikerjakan di waktu shalat pertama"},
+        {"id": "fc6", "question": "Bacaan doa duduk di antara 2 sujud berisi apa?", "answer": "Ampuni, kasihi, cukupkan, angkat derajat, beri rezeki, beri hidayah, sehatkan, dan maafkan"}
+      ],
+      "quiz": {
+        "questions": [
+          {"id": "q1", "type": "multiple_choice", "question": "Mana yang termasuk SUNNAH shalat?", "options": ["Membaca Al-Fatihah", "Takbiratul ihram", "Doa iftitah", "I'tidal"], "answer": 2, "explanation": "Doa iftitah adalah sunnah shalat. Al-Fatihah, takbiratul ihram, dan i'tidal adalah rukun shalat."},
+          {"id": "q2", "type": "multiple_choice", "question": "Imam sedang shalat subuh, membaca akhir QS Al-Alaq lalu langsung sujud. Ini sujud apa?", "options": ["Syukur", "Sahwi", "Tilawah", "Salat"], "answer": 2, "explanation": "Sujud tilawah dilakukan saat membaca atau mendengar ayat sajdah, seperti akhir QS Al-Alaq."},
+          {"id": "q3", "type": "multiple_choice", "question": "Rombongan SMP di perjalanan, shalat Zuhur 2 rakaat lalu Asar 2 rakaat di waktu Asar. Ini disebut?", "options": ["Jamak Taqdim Zuhur", "Jamak Takhir Asar", "Jamak Qasar Zuhur", "Jamak Takhir Zuhur"], "answer": 1, "explanation": "Dikerjakan di waktu shalat kedua (Asar) = Takhir. Dua shalat digabung = Jamak. Diringkas = Qasar. Jadi Jamak Takhir Qasar Asar."},
+          {"id": "q4", "type": "multiple_choice", "question": "Muslim sakit parah di bulan Ramadhan tidak bisa puasa, kewajibannya?", "options": ["Bayar fidyah ke fakir miskin", "Ganti puasa di hari lain", "Bayar zakat fitrah", "Sedekah ke yatim piatu"], "answer": 1, "explanation": "Orang sakit yang masih punya harapan sembuh wajib mengganti (qadha) puasa di hari lain. Fidyah hanya untuk yang sakit permanen/sangat tua."},
+          {"id": "q5", "type": "multiple_choice", "question": "Ghufran shalatnya batal karena kena najis dari adiknya yang 2 tahun. Yang harus dilakukan?", "options": ["Cuci kaki 7 kali", "Ulangi wudhu, cuci kaki dulu baru shalat lagi", "Percikkan air ke najis tersebut", "Cuci kaki dengan tanah 7 kali"], "answer": 2, "explanation": "Najis dari bayi laki-laki di bawah 2 tahun yang belum makan selain ASI cukup dipercikkan air, lalu shalat dapat diulang."}
+        ]
+      }
+    },
+    {
+      "id": "asmaul-husna-akhlak",
+      "title": "Asmaul Husna & Akhlak Mulia",
+      "description": "Nama-nama Allah yang indah dan penerapannya dalam kehidupan, serta akhlak tercela yang harus dihindari",
+      "lessons": [
+        {
+          "id": "asmaul-husna",
+          "title": "Asmaul Husna & Cara Meneladaninya",
+          "estMinutes": 10,
+          "content": [
+            {"type": "heading", "text": "Asmaul Husna yang Sering Diujikan", "level": 2},
+            {"type": "table", "headers": ["Nama", "Arti", "Cara Meneladani"], "rows": [["Al-'Alim", "Maha Mengetahui", "Belajar sungguh-sungguh untuk ilmu bermanfaat"], ["As-Sami'", "Maha Mendengar", "Jadi pendengar baik, gunakan telinga untuk hal baik"], ["Al-Bashir", "Maha Melihat", "Sadar Allah selalu melihat — tidak menyontek meski tidak ada pengawas"], ["Al-Khabir", "Maha Teliti", "Teliti dalam segala urusan, memperhatikan detail"], ["Al-Kabir", "Maha Besar", "Tidak sombong, rendah hati"]]},
+            {"type": "highlight", "text": "Al-Bashir = Maha Melihat → tidak menyontek karena yakin Allah melihat, meski pengawas tidak melihat."}
+          ]
+        },
+        {
+          "id": "akhlak-tercela",
+          "title": "Akhlak Tercela: Ghibah, Su'uzan, Hasad",
+          "estMinutes": 10,
+          "content": [
+            {"type": "heading", "text": "3 Akhlak Tercela Utama", "level": 2},
+            {"type": "table", "headers": ["Istilah", "Arti", "Contoh"], "rows": [["Ghibah", "Membicarakan keburukan orang lain yang jika ia tahu maka ia tidak suka", "Farhan membicarakan keburukan teman lamanya saat berkumpul keluarga"], ["Su'uzan", "Buruk sangka tanpa bukti", "Langsung curiga tanpa dasar"], ["Hasad", "Iri/dengki atas keberhasilan orang lain", "Tidak suka melihat orang lain sukses"], ["Tabayyun", "Mengecek kebenaran informasi sebelum disebarkan", "Rina selalu cek dulu berita sebelum percaya"]]},
+            {"type": "highlight", "text": "Cara hindari ghibah: selalu introspeksi diri sendiri & merasa diawasi Allah SWT."},
+            {"type": "heading", "text": "Penyebab Ghibah", "level": 2},
+            {"type": "list", "items": ["Iri terhadap keberhasilan orang lain", "Marah tidak terkendali", "Balas dendam", "Ingin terlihat lebih baik dari orang lain"], "ordered": false},
+            {"type": "text", "text": "Yang BUKAN penyebab ghibah: adanya rasa sayang terhadap sesama, dan keinginan menjadi pribadi lebih baik."}
+          ]
+        },
+        {
+          "id": "zikir-doa",
+          "title": "Zikir dan Doa",
+          "estMinutes": 6,
+          "content": [
+            {"type": "heading", "text": "Hikmah Berzikir", "level": 2},
+            {"type": "list", "items": ["Membuat hati menjadi tenang", "Allah akan mengingat kita jika kita mengingat Allah", "Mendapatkan pengampunan dan pahala besar"], "ordered": false},
+            {"type": "heading", "text": "Adab Berzikir yang Baik", "level": 2},
+            {"type": "list", "items": ["Niat ikhlas karena Allah", "Menghadap arah kiblat", "Bersuara lembut, tidak berteriak", "Merendahkan diri (tidak sombong)", "Tidak berlebih-lebihan"], "ordered": false},
+            {"type": "highlight", "text": "Yang BUKAN hikmah zikir: pasti mendapat apa yang orang lain dapatkan (itu salah paham)."}
+          ]
+        }
+      ],
+      "flashcards": [
+        {"id": "fc1", "question": "Fadhlan tidak menyontek meski pengawas tidak melihat. Ia meneladani asmaul husna apa?", "answer": "Al-Bashir (Maha Melihat) — yakin Allah selalu melihat perbuatannya"},
+        {"id": "fc2", "question": "Apa itu ghibah?", "answer": "Membicarakan keburukan orang lain yang jika ia tahu maka ia tidak menyukainya"},
+        {"id": "fc3", "question": "Apa itu tabayyun?", "answer": "Mengecek kebenaran informasi sebelum mempercayai dan menyebarkannya"},
+        {"id": "fc4", "question": "Cara meneladani As-Sami'?", "answer": "Menjadi pendengar yang baik dan menggunakan pendengaran untuk hal-hal yang baik"},
+        {"id": "fc5", "question": "Apa yang BUKAN penyebab ghibah?", "answer": "Rasa sayang terhadap sesama dan keinginan menjadi pribadi lebih baik"}
+      ],
+      "quiz": {
+        "questions": [
+          {"id": "q1", "type": "multiple_choice", "question": "Dani ingin meneladani Al-'Alim. Apa yang harus ia lakukan?", "options": ["Menyiapkan alat sekolah teliti", "Belajar sungguh-sungguh untuk ilmu bermanfaat", "Mendengarkan teman berbicara", "Melihat perpustakaan"], "answer": 1, "explanation": "Al-'Alim = Maha Mengetahui. Meneladaninya dengan belajar sungguh-sungguh untuk mendapat ilmu yang bermanfaat."},
+          {"id": "q2", "type": "multiple_choice", "question": "Farhan membicarakan keburukan teman lamanya saat berkumpul keluarga. Ia melakukan?", "options": ["Husnuzan", "Su'uzan", "Ghibah", "Hasad"], "answer": 2, "explanation": "Ghibah = membicarakan keburukan orang lain yang jika orang itu tahu, maka ia tidak akan suka."},
+          {"id": "q3", "type": "multiple_choice", "question": "Rina selalu mengecek kebenaran berita sebelum percaya. Sikap Rina disebut?", "options": ["Husnuzan", "Tabayyun", "Su'uzan", "Fitnah"], "answer": 1, "explanation": "Tabayyun = sikap mengecek/klarifikasi kebenaran informasi sebelum dipercaya atau disebarkan."},
+          {"id": "q4", "type": "multiple_choice", "question": "Cara menghindari ghibah yang benar?", "options": ["Mengunjingkan orang lain", "Selalu menyebar aib orang lain", "Selalu introspeksi diri dan merasa diawasi Allah", "Merasa diri paling benar"], "answer": 2, "explanation": "Cara terbaik hindari ghibah: selalu introspeksi diri sendiri dan merasa diawasi oleh Allah SWT."},
+          {"id": "q5", "type": "multiple_choice", "question": "Mana yang BUKAN hikmah berzikir?", "answer": 3, "options": ["Membuat hati tenang", "Allah mengingat kita", "Mendapat pengampunan dan pahala", "Pasti mendapatkan apa yang orang lain dapatkan"], "explanation": "Hikmah zikir adalah ketenangan hati, Allah mengingat kita, dan pahala besar. Bukan jaminan mendapat hal yang sama dengan orang lain."}
+        ]
+      }
+    },
+    {
+      "id": "iman-malaikat-hari-akhir",
+      "title": "Iman kepada Malaikat & Hari Akhir",
+      "description": "Tugas malaikat Allah dan tanda-tanda keimanan kepada hari akhir",
+      "lessons": [
+        {
+          "id": "malaikat",
+          "title": "Iman kepada Malaikat",
+          "estMinutes": 10,
+          "content": [
+            {"type": "heading", "text": "Sifat-Sifat Malaikat", "level": 2},
+            {"type": "list", "items": ["Selalu taat kepada Allah tanpa rasa lelah", "Tidak pernah melakukan maksiat", "Tidak berjenis kelamin", "Bisa menyerupai manusia (wujud yang berubah-ubah)", "Tidak membutuhkan makan dan minum", "Selalu bertasbih siang dan malam"], "ordered": false},
+            {"type": "highlight", "text": "Sifat malaikat: 2, 5, 6 dari soal nomor 29. Bukan sombong, bukan membangkang, dan bukan membutuhkan makan."},
+            {"type": "heading", "text": "Tugas Malaikat Penting", "level": 2},
+            {"type": "table", "headers": ["Malaikat", "Tugas"], "rows": [["Jibril", "Menyampaikan wahyu kepada Nabi"], ["Mikail", "Mengatur rezeki dan hujan"], ["Izrail", "Mencabut nyawa"], ["Israfil", "Meniup sangkakala di hari kiamat"], ["Rakib & Atid", "Mencatat amal perbuatan manusia"], ["Munkar & Nakir", "Menanyai di alam kubur"]]}
+          ]
+        },
+        {
+          "id": "hari-akhir",
+          "title": "Iman kepada Hari Akhir",
+          "estMinutes": 8,
+          "content": [
+            {"type": "heading", "text": "Perilaku yang Mencerminkan Iman kepada Hari Akhir", "level": 2},
+            {"type": "list", "items": ["Melakukan ibadah sunnah dengan kesadaran (bukan paksaan)", "Rajin menabung untuk masa depan", "Membantu orang lain dengan ikhlas", "Selalu berusaha jujur dan santun"], "ordered": false},
+            {"type": "text", "text": "Contoh: Farhan rajin shalat Dhuha dengan kesadaran, Ira membantu ibu, dan Falah selalu jujur — mencerminkan perilaku iman kepada hari akhir."},
+            {"type": "highlight", "text": "Iman kepada Rakib & Atid = yakin setiap perbuatan dicatat → tidak menyontek meski tidak ada pengawas."},
+            {"type": "heading", "text": "Hania dan Keyakinan akan Hari Akhir", "level": 2},
+            {"type": "text", "text": "Hania yakin setiap orang akan memasuki alam kubur dan ditanya tentang seluruh amalnya. Ini adalah perwujudan iman kepada Malaikat Munkar dan Nakir."}
+          ]
+        },
+        {
+          "id": "alam-semesta",
+          "title": "Alam Semesta & Tanda Kebesaran Allah",
+          "estMinutes": 8,
+          "content": [
+            {"type": "heading", "text": "Tujuan Mempelajari Alam Semesta", "level": 2},
+            {"type": "list", "items": ["Memperbaiki kualitas hidup sebagai khalifah di bumi", "Mendorong kesadaran untuk beriman dan semakin dekat kepada Allah SWT", "Mengetahui manfaat alam bagi kesejahteraan manusia"], "ordered": false},
+            {"type": "quote", "text": "وَجَعَلْنَا مِنَ الْمَاءِ كُلَّ شَيْءٍ حَيٍّ أَفَلَا يُؤْمِنُونَ", "translation": "Dan Kami jadikan dari air segala sesuatu yang hidup. Maka mengapa mereka tidak beriman? (QS Al-Anbiya: 30)"},
+            {"type": "text", "text": "Ayat ini menyatakan bahwa Allah menciptakan segala sesuatu yang hidup berasal dari air."},
+            {"type": "quote", "text": "وَهُوَ الَّذِي خَلَقَ السَّمَوَاتِ وَالأَرْضَ فِي سِتَّةِ أَيَّامٍ", "translation": "Dan Dialah yang menciptakan langit dan bumi dalam enam masa (QS Hud: 7)"},
+            {"type": "highlight", "text": "Penciptaan alam semesta (langit, bumi, matahari, bulan, bintang) = 6 masa, sesuai QS Hud:7"}
+          ]
+        }
+      ],
+      "flashcards": [
+        {"id": "fc1", "question": "Fathan tidak menyontek karena yakin dicatat malaikat. Itu malaikat apa?", "answer": "Rakib dan Atid — malaikat pencatat amal perbuatan"},
+        {"id": "fc2", "question": "Hania yakin di alam kubur akan ditanya tentang amalnya. Itu malaikat apa?", "answer": "Munkar dan Nakir — malaikat penanya di alam kubur"},
+        {"id": "fc3", "question": "Sebutkan 3 sifat malaikat!", "answer": "Selalu taat tanpa lelah, tidak berjenis kelamin, tidak membutuhkan makan dan minum"},
+        {"id": "fc4", "question": "Ayat mana yang menyatakan semua yang hidup berasal dari air?", "answer": "QS Al-Anbiya ayat 30"},
+        {"id": "fc5", "question": "Berapa masa penciptaan langit dan bumi menurut Al-Quran?", "answer": "6 masa, sesuai QS Hud ayat 7"}
+      ],
+      "quiz": {
+        "questions": [
+          {"id": "q1", "type": "multiple_choice", "question": "Fathan tidak menyontek karena yakin setiap perbuatan dicatat malaikat. Malaikat yang dimaksud?", "options": ["Jibril", "Mikail", "Rakib dan Atid", "Israfil"], "answer": 2, "explanation": "Rakib dan Atid adalah malaikat yang bertugas mencatat amal baik dan buruk manusia."},
+          {"id": "q2", "type": "multiple_choice", "question": "Mana yang BUKAN sifat malaikat?", "options": ["Selalu taat kepada Allah", "Tidak berjenis kelamin", "Membutuhkan makan dan minum", "Bisa menyerupai manusia"], "answer": 2, "explanation": "Malaikat tidak membutuhkan makan dan minum. Mereka adalah makhluk yang murni taat kepada Allah."},
+          {"id": "q3", "type": "multiple_choice", "question": "Hania yakin memasuki alam kubur dan ditanya tentang amalnya. Ini perwujudan iman kepada malaikat?", "options": ["Rakib dan Atid", "Mikail", "Jibril", "Munkar dan Nakir"], "answer": 3, "explanation": "Munkar dan Nakir adalah malaikat yang bertugas menanyai manusia di alam kubur tentang amal perbuatannya."},
+          {"id": "q4", "type": "multiple_choice", "question": "Ayat yang menyatakan Allah menciptakan semua yang hidup dari air adalah?", "options": ["QS Al-Baqarah: 155", "QS Al-Anbiya: 30", "QS Hud: 7", "QS Al-A'raf: 54"], "answer": 1, "explanation": "QS Al-Anbiya ayat 30: 'Dan Kami jadikan dari air segala sesuatu yang hidup.'"},
+          {"id": "q5", "type": "multiple_choice", "question": "Tujuan mempelajari alam semesta yang paling utama?", "options": ["Mengeksploitasi alam semaksimal mungkin", "Memperbaiki kualitas hidup sebagai khalifah", "Mengetahui manfaat ekonomi alam", "Meraih pencapaian manusia yang sempurna"], "answer": 1, "explanation": "Tujuan utama mempelajari alam semesta adalah memperbaiki kualitas hidup sebagai khalifah Allah di bumi."}
+        ]
+      }
+    },
+    {
+      "id": "sejarah-islam",
+      "title": "Sejarah Peradaban Islam",
+      "description": "Sejarah Islam dari masa Rasulullah SAW, Khulafaur Rasyidin, Bani Umayyah, Abbasiyah, hingga Dinasti Usmani dan ilmuwan Muslim",
+      "lessons": [
+        {
+          "id": "rasulullah-dan-khulafaur-rasyidin",
+          "title": "Rasulullah SAW & Khulafaur Rasyidin",
+          "estMinutes": 10,
+          "content": [
+            {"type": "heading", "text": "Rasulullah SAW", "level": 2},
+            {"type": "text", "text": "Rasulullah mendapat gelar Al-Amin dari masyarakat Mekkah karena memiliki integritas tinggi dalam berbisnis dan bermasyarakat. Sebelum kenabian, beliau dikenal sebagai pedagang jujur yang tidak pernah menipu."},
+            {"type": "heading", "text": "Dakwah Rasulullah di Madinah", "level": 2},
+            {"type": "list", "items": ["Membangun Masjid Nabawi sebagai pusat persatuan", "Melakukan Ta'akhi (mempersaudarakan Muhajirin dan Anshor)", "Membuat Piagam Madinah sebagai perjanjian politik umat Islam dan kaum Yahudi"], "ordered": false},
+            {"type": "heading", "text": "Khulafaur Rasyidin (4 Khalifah Setelah Rasulullah)", "level": 2},
+            {"type": "list", "items": ["Abu Bakar As-Siddiq", "Umar bin Khattab", "Utsman bin Affan", "Ali bin Abi Thalib"], "ordered": true},
+            {"type": "highlight", "text": "Perang Uhud: kekalahan pasukan Islam karena pasukan pemanah meninggalkan posisi di Gunung Uhud untuk mengambil harta rampasan, padahal Nabi melarang meninggalkan posisi."}
+          ]
+        },
+        {
+          "id": "bani-umayyah-abbasiyah",
+          "title": "Dinasti Bani Umayyah & Abbasiyah",
+          "estMinutes": 8,
+          "content": [
+            {"type": "heading", "text": "Bani Umayyah", "level": 2},
+            {"type": "text", "text": "Dinasti pertama setelah Khulafaur Rasyidin. Pusat pemerintahan di Damaskus. Khalifah paling fenomenal adalah Umar bin Abdul Aziz (dikenal sangat adil dan zuhud)."},
+            {"type": "table", "headers": ["Nilai dari Sejarah Bani Umayyah"], "rows": [["Semangat membela negara, bangsa, dan agama"], ["Kerja keras dan bersungguh-sungguh dalam menuntut ilmu"]]},
+            {"type": "heading", "text": "Al-Azhar University", "level": 2},
+            {"type": "text", "text": "Didirikan oleh Daulah Fatimiyah di Mesir (970 M). Pada masa Shalahuddin Ayyubi, pengaruh Syiah dilemahkan dan Al-Azhar berkembang sebagai pusat keilmuan Sunni."},
+            {"type": "highlight", "text": "Sebab utama reformasi Shalahuddin: memperkuat pendidikan Sunni dan stabilitas umat Islam, bukan sekadar keberanian politik."}
+          ]
+        },
+        {
+          "id": "ilmuwan-muslim",
+          "title": "Ilmuwan Muslim & Dinasti Usmani",
+          "estMinutes": 8,
+          "content": [
+            {"type": "heading", "text": "Ilmuwan Muslim Terkenal", "level": 2},
+            {"type": "table", "headers": ["Nama", "Bidang", "Karya/Gelar"], "rows": [["Imam Malik bin Anas", "Hadits & Fiqih", "Kitab Al-Muwatha (bukan Hadits Shahih itu Bukhari, bukan Ihya Ulumuddin itu Al-Ghazali)"], ["Jabir Al-Hayyan (Geber)", "Kimia", "Bapak Kimia / Ilmu Kimia"], ["Ismail Al-Jazari", "Teknik Mekanik", "Bapak Robotika (174 gambar perangkat mekanik)"]]},
+            {"type": "heading", "text": "Muhammad Al-Fatih", "level": 2},
+            {"type": "text", "text": "Menaklukkan Konstantinopel tahun 1453 M saat usia 21 tahun. Dididik sejak kecil untuk dekat dengan Al-Quran oleh Sultan Murad II. Kekuatan spiritualnya: rutin qiyamul lail dan membaca Al-Quran."},
+            {"type": "highlight", "text": "2 nilai dari Al-Fatih: kegigihan (9 bulan penaklukan) dan toleransi (melindungi pendeta & rahib di Hagia Sofia)."}
+          ]
+        }
+      ],
+      "flashcards": [
+        {"id": "fc1", "question": "Mengapa Rasulullah mendapat gelar Al-Amin?", "answer": "Karena memiliki integritas tinggi — dikenal sebagai pedagang jujur yang tidak pernah menipu atau berkhianat"},
+        {"id": "fc2", "question": "Siapa khalifah Bani Umayyah yang paling fenomenal?", "answer": "Umar bin Abdul Aziz — dikenal sangat adil dan zuhud"},
+        {"id": "fc3", "question": "Apa karya Imam Malik?", "answer": "Al-Muwatha — kitab hadits dan fiqih"},
+        {"id": "fc4", "question": "Jabir Al-Hayyan dikenal sebagai apa?", "answer": "Bapak Ilmu Kimia (dikenal di Barat sebagai Geber)"},
+        {"id": "fc5", "question": "Ismail Al-Jazari dikenal sebagai apa?", "answer": "Bapak Robotika — membuat 174 gambar perangkat mekanik"},
+        {"id": "fc6", "question": "Kekuatan spiritual Muhammad Al-Fatih?", "answer": "Rutin qiyamul lail (shalat malam) dan membaca Al-Quran sebelum belajar ilmu perang"}
+      ],
+      "quiz": {
+        "questions": [
+          {"id": "q1", "type": "multiple_choice", "question": "Rasulullah mendapat gelar Al-Amin karena?", "options": ["Keberanian dalam perang", "Integritas tinggi dan jujur dalam berbisnis", "Hafal Al-Quran sejak kecil", "Keturunan bangsawan Quraisy"], "answer": 1, "explanation": "Al-Amin (yang terpercaya) diberikan karena Rasulullah dikenal memiliki integritas dan kejujuran tinggi dalam berbisnis dan bermasyarakat sebelum kenabian."},
+          {"id": "q2", "type": "multiple_choice", "question": "Khalifah Bani Umayyah yang paling fenomenal adalah?", "options": ["Marwan bin Hakam", "Muawiyah bin Abu Sufyan", "Umar bin Abdul Aziz", "Umayyah bin Abd Syams"], "answer": 2, "explanation": "Umar bin Abdul Aziz dikenal sebagai khalifah paling fenomenal Bani Umayyah karena keadilannya yang luar biasa."},
+          {"id": "q3", "type": "multiple_choice", "question": "Penyebab kekalahan Muslim di Perang Uhud?", "options": ["Pasukan Muslim tidak punya senjata lengkap", "Pasukan pemanah meninggalkan posisi untuk ambil harta rampasan", "Nabi melarang pemanah menembak musuh", "Pasukan pemanah menembak terlalu jauh"], "answer": 1, "explanation": "Pasukan pemanah meninggalkan posisi strategis di Gunung Uhud untuk mengambil harta rampasan, padahal Nabi sudah melarang meninggalkan posisi."},
+          {"id": "q4", "type": "multiple_choice", "question": "Ismail Al-Jazari terkenal sebagai?", "options": ["Penemu GPS kuno", "Bapak Robotika", "Penemu angka 0", "Bapak ilmu kimia"], "answer": 1, "explanation": "Ismail Al-Jazari terkenal sebagai Bapak Robotika karena membuat 174 gambar perangkat mekanik, 80 di antaranya dilengkapi tata cara pembuatannya."},
+          {"id": "q5", "type": "multiple_choice", "question": "2 nilai positif dari kisah penaklukan Konstantinopel oleh Al-Fatih?", "options": ["Gotong royong dan pengorbanan", "Keteguhan dan keramahan", "Kegigihan dan toleransi", "Istiqomah dan kesabaran"], "answer": 2, "explanation": "Al-Fatih menunjukkan kegigihan (9 bulan penaklukan) dan toleransi (melindungi rahib, pendeta, dan masyarakat di Hagia Sofia)."}
+        ]
+      }
+    },
+    {
+      "id": "zakat-haji-kurban",
+      "title": "Zakat, Haji, Kurban & Akikah",
+      "description": "Ketentuan zakat fitrah, zakat mal, zakat niaga, zakat ternak, rukun dan wajib haji, serta kurban dan akikah",
+      "lessons": [
+        {
+          "id": "zakat",
+          "title": "Macam-Macam Zakat",
+          "estMinutes": 12,
+          "content": [
+            {"type": "heading", "text": "Zakat Fitrah", "level": 2},
+            {"type": "text", "text": "Zakat yang wajib dikeluarkan setiap tahun di bulan Ramadhan oleh setiap muslim, baik laki-laki, perempuan, dewasa, maupun anak-anak yang hidup sebelum 1 Syawal."},
+            {"type": "heading", "text": "Zakat Mal (Harta)", "level": 2},
+            {"type": "text", "text": "Zakat harta yang sudah mencapai nisab dan haul (genap 1 tahun). Contoh: Bu Ani punya 90 gram emas sejak 1 Februari 2025 → zakat mal dikeluarkan 1 Februari 2026 (genap 1 tahun/haul)."},
+            {"type": "heading", "text": "Rumus Zakat Pertanian", "level": 2},
+            {"type": "quote", "text": "Zakat pertanian = 5% dari hasil panen (jika menggunakan irigasi/biaya) atau 10% (jika tadah hujan)", "translation": "Contoh: Pak Roi panen 550 kw beras, pakai irigasi → 550 × 5% = 27,5 kw beras"},
+            {"type": "heading", "text": "Rumus Zakat Niaga (Perdagangan)", "level": 2},
+            {"type": "text", "text": "Zakat niaga = 2,5% × (modal + keuntungan - hutang). Pak Ahmad: modal Rp500jt, keuntungan Rp100jt/tahun, pengeluaran (sewa+gaji+listrik) dikurangi dari keuntungan bersih."},
+            {"type": "highlight", "text": "Gharim = orang yang terlilit hutang untuk kebutuhan pokok sehari-hari (bukan hutang untuk kemewahan). Termasuk mustahiq zakat."},
+            {"type": "heading", "text": "Zakat Ternak Sapi", "level": 2},
+            {"type": "text", "text": "Faruk memiliki 170 sapi perah. Nisab sapi = 30 ekor (zakatnya 1 ekor). Untuk 60 ekor = 2 ekor. Untuk 170 ekor = dihitung berdasarkan tabel nisab zakat ternak."}
+          ]
+        },
+        {
+          "id": "haji",
+          "title": "Rukun dan Wajib Haji",
+          "estMinutes": 10,
+          "content": [
+            {"type": "heading", "text": "Rukun Haji (Tidak Boleh Ditinggal)", "level": 2},
+            {"type": "table", "headers": ["Rukun", "Pengertian"], "rows": [["Ihram", "Niat haji sambil mengenakan pakaian ihram dari miqot"], ["Wukuf", "Berada di Arafah tanggal 9 Dzulhijjah"], ["Thawaf", "Mengelilingi Ka'bah sebanyak 7 kali"], ["Sa'i", "Berlari-lari kecil dari Shafa ke Marwah"], ["Tahalul", "Mencukur rambut"], ["Tertib", "Berurutan"]]},
+            {"type": "heading", "text": "Wajib Haji", "level": 2},
+            {"type": "list", "items": ["Bagi laki-laki: memakai kain ihram dari miqot", "Melafazkan niat ihram dari miqot", "Melafazkan talbiyah", "Melontar 3 jumrah", "Mabit di Muzdalifah dan Mina"], "ordered": false},
+            {"type": "highlight", "text": "Hikmah thawaf: simbol persamaan derajat manusia di hadapan Allah — semua memakai ihram putih, status sosial ditanggalkan."}
+          ]
+        },
+        {
+          "id": "kurban-akikah",
+          "title": "Kurban, Akikah & Sembelih",
+          "estMinutes": 8,
+          "content": [
+            {"type": "heading", "text": "Akikah", "level": 2},
+            {"type": "text", "text": "Akikah dilaksanakan hari ke-7 setelah kelahiran. Ketentuan hewan akikah:"},
+            {"type": "table", "headers": ["Jenis Kelamin Bayi", "Jumlah Hewan"], "rows": [["Laki-laki", "2 ekor domba/kambing"], ["Perempuan", "1 ekor domba/kambing"], ["Kembar laki-laki (2 anak)", "4 ekor (2 × 2)"]]},
+            {"type": "heading", "text": "Ketentuan Menyembelih Hewan Sesuai Islam", "level": 2},
+            {"type": "list", "items": ["Penyembelih beragama Islam, baligh, berakal, dan mumayyiz", "Hewan masih hidup saat disembelih", "Alat sembelih bukan dari tulang, gigi, atau kuku", "Menghadap kiblat"], "ordered": false},
+            {"type": "highlight", "text": "Hukum mengurus jenazah = FARDHU KIFAYAH = kewajiban kolektif yang gugur jika sudah dilaksanakan sebagian orang dalam komunitas."},
+            {"type": "heading", "text": "Shalat Jenazah", "level": 2},
+            {"type": "text", "text": "Urutan shalat jenazah: Takbir (5) → Shalawat (6) → QS Al-Fatihah (1) → Doa untuk jenazah (4) → Shalawat untuk semua (7) → Salam (3). Urutan benar: 5, 6, 1, 4, 7, 3."}
+          ]
+        }
+      ],
+      "flashcards": [
+        {"id": "fc1", "question": "Apa itu zakat fitrah?", "answer": "Zakat yang dikeluarkan setiap Ramadhan oleh setiap muslim yang hidup sebelum 1 Syawal"},
+        {"id": "fc2", "question": "Bu Ani punya emas 90gr sejak 1 Feb 2025. Kapan zakat mal dikeluarkan?", "answer": "1 Februari 2026 — saat haulnya genap 1 tahun"},
+        {"id": "fc3", "question": "Pak Roi panen 550 kw beras dengan irigasi. Berapa zakatnya?", "answer": "27,5 kw beras (550 × 5%)"},
+        {"id": "fc4", "question": "Apa itu gharim?", "answer": "Orang yang terlilit hutang untuk kebutuhan pokok sehari-hari — termasuk mustahiq zakat"},
+        {"id": "fc5", "question": "Akikah bayi laki-laki berapa ekor?", "answer": "2 ekor domba/kambing"},
+        {"id": "fc6", "question": "Hikmah ibadah thawaf?", "answer": "Persamaan derajat manusia di hadapan Allah — semua pakai ihram putih, status sosial ditanggalkan"}
+      ],
+      "quiz": {
+        "questions": [
+          {"id": "q1", "type": "multiple_choice", "question": "Zakat yang wajib dikeluarkan setiap Ramadhan oleh semua muslim disebut?", "options": ["Zakat profesi", "Zakat mal", "Zakat fitrah", "Zakat niaga"], "answer": 2, "explanation": "Zakat fitrah wajib dikeluarkan setiap Ramadhan oleh setiap muslim, baik laki-laki, perempuan, tua, muda, anak-anak yang hidup sebelum 1 Syawal."},
+          {"id": "q2", "type": "multiple_choice", "question": "Pak Roi panen 550 kw beras menggunakan irigasi. Zakat pertaniannya?", "options": ["5,5 ton beras", "1,1 ton beras", "27,5 kw beras", "17,5 kw beras"], "answer": 2, "explanation": "Zakat pertanian dengan irigasi = 5% × 550 kw = 27,5 kw beras."},
+          {"id": "q3", "type": "multiple_choice", "question": "Pak Didin terlilit hutang untuk biaya makan sehari-hari. Ia termasuk golongan mustahiq?", "options": ["Fakir", "Miskin", "Gharim", "Amil"], "answer": 2, "explanation": "Gharim adalah orang yang terlilit hutang untuk kebutuhan pokok sehari-hari (bukan kemewahan)."},
+          {"id": "q4", "type": "multiple_choice", "question": "Hukum mengurus jenazah dalam Islam?", "options": ["Sunnah muakkad", "Fardhu ain", "Fardhu kifayah", "Mubah"], "answer": 2, "explanation": "Fardhu kifayah = kewajiban kolektif yang gugur jika sudah dilaksanakan sebagian orang dalam komunitas."},
+          {"id": "q5", "type": "multiple_choice", "question": "Ibu melahirkan anak kembar laki-laki. Berapa hewan akikah yang disembelih?", "options": ["4 ekor", "3 ekor", "1 ekor", "5 ekor"], "answer": 0, "explanation": "Akikah laki-laki = 2 ekor per anak. Kembar laki-laki (2 anak) = 2 × 2 = 4 ekor domba/kambing."}
+        ]
+      }
+    }
   ]
-},
-{
-  "type": "quote",
-  "text": "Sajadat wajhiya lilladzi khalaqahu wa syaqqa
-sam'ahu wa basharahu bi hawlihi wa quwwatihi fatabarakallahu ahsanul khaliqin","translation": "Doa Sujud Tilawah (wajib dihafal nih)"
-},
-{
-  "type": "heading",
-  "text": "3. Rukhsah (Keringanan)",
-  "level": 2
-},
-{
-  "type": "list",
-  "ordered": false,
-  "items": [ "Jamak: Menggabung 2 salat. (Taqdim = di waktu awal, Takhir =
-di waktu akhir).", "Qasar: Meringkas salat 4 rakaat jadi 2 rakaat. (Syarat:
-musafir jauh).", "Rukhsah Puasa: Orang sakit parah/tua renta gak wajib puasa,
-diganti FIDYAH (bayar makanan miskin)." ] }, { "type": "highlight", "text":
-"Kesimpulan: Allah kasih Rukhsah (Keringanan) biar ibadah itu nggak nyiksa dan
-tetep bisa jalan walau sikon darurat." } ] }, { "id": "zakat-akikah", "title":"Zakat, Kurban & Akikah","estMinutes": 5,"content": [{"type": "heading","text": "1. Zakat",
-    "level": 2
-  },
-  {
-    "type": "text",
-    "text": "Zakat itu kewajiban
-bersihin harta. Ada 2 macam utama: " }, { "type": "table", "headers": [ "Jenis","Penjelasan Pendek"
-  ],
-  "rows": [
-    [
-      "Fitrah", "Zakat jiwa. Wajib tiap Ramadhan
-sebelum 1 Syawal. Ukuran: 2.5 kg beras (makanan pokok) per orang." ], [ "Mal",
-"Zakat harta (emas, tabungan, dsb). Dikeluarkan kalo udah Haul (genap setahun)
-dan kena Nisab (batas minimum, cth: 85 gr emas)." ] ] }, { "type": "list","ordered": true,"items": ["Fakir (Gak punya harta/kerja)", "Miskin (Kerja tapi
-kurang untuk hidup basic)", "Gharim (Orang terlilit hutang kebutuhan hidup, ex:
-bangkrut diserang virus unggas)", "Amil (Panitia zakat)", "Mualaf (Baru masuk
-Islam)", "Riqab (Budak), Fisabilillah (Pejuang), Ibnu Sabil (Musafir)" ] }, {"type": "heading","text": "2. Akikah vs Kurban","level": 2
-    },
-    {
-      "type": "text",
-      "text": "Kurban: Pas idul adha. Akikah: Buat bayi lahir (sunnahnya di
-hari ke-7)." }, { "type": "list", "ordered": false, "items": [ "Bayi Cowok = 2
-ekor kambing/domba.", "Bayi Cewek = 1 ekor kambing/domba." ] }, { "type":"highlight","text": "INGAT! Syarat hewan dipotong sama: Gak cacat, sehat, cukup
-umur, disembelih sebut nama Allah." } ] }, { "id": "haji-jenazah", "title":"Haji & Pengurusan Jenazah","estMinutes": 5,"content": [{"type": "heading","text": "1. Pengurusan Jenazah",
-      "level": 2
-    },
-    {
-      "type": "text",
-      "text":
-"Hukumnya FARDHU KIFAYAH (Kewajiban kolektif. Kalo udh ada 1 orang/kelompok
-ngerjain, yang lain gugur dosanya. Kalo tdk ada sama sekali, dosa semua 1
-kampung)." }, { "type": "table", "headers": [ "Perintah", "Ketentuan Ringkas" ],"rows": [["Kain Kafan", "Pria = 3 helai kain putih. Wanita = 5 helai kain
-putih." ], [ "Salat Jenazah", "Gak ada rukuk/sujud! Isinya: Niat & 4x Takbir." ]
-    ]
-  },
-  {
-    "type": "heading",
-    "text": "2. Haji (Ke Baitullah)",
-    "level": 2
-  },
-  {
-    "type": "list",
-    "ordered": false,
-    "items": [ "Ihram: Niat pake kain ihram dari
-miqat. Laki-laki: kain putih tanpa jahitan (simbol kesetaraan di mata Allah).","Wukuf: Kumpul di Padang Arafah (9 Dzulhijjah). Inti hajinya di sini.", "Thawaf:
-Muter Kabah 7x berlawanan arah jarum jam (simbol mengharap ridha Allah bareng
-alam semesta).", "Sa'i: Lari-lari kecil Bukit Shafa ke Marwah (napak tilas Siti
-Hajar cari air)." ] }, { "type": "highlight", "text": "Rukun Haji = Kalau ga
-dilakuin hajinya batal (cth: Ihram, Wukuf, Thawaf, Sai, Tahalul). Wajib Haji =
-Kalau bolong bisa diganti bayar denda / Dam." } ] } ], "flashcards": [ { "id":"f1","question": "Sujud karena diselamatkan dari kecelakaan fatal disebut
-sujud?", "answer": "Sujud Syukur" }, { "id": "f2", "question": "Hukum mengurus
-jenazah bagi umat Islam adalah?", "answer": "Fardhu Kifayah" }, { "id": "f3","question": "Zakat Fitrah yang wajib dikeluarkan per orang berapa jumlahnya?","answer": "2,
-      5 Kg atau 3,
-      5 Liter beras/makanan pokok."
-    },
-    {
-      "id": "f4",
-      "question": "Meringkas salat 4 rakaat (seperti Dzuhur) menjadi 2 rakaat karena
-safar jauh disebut salat?", "answer": "Qasar" }, { "id": "f5", "question":"Akikah untuk anak kembar laki-laki, berapa ekor domba?","answer": "4 ekor (2
-per anak laki-laki)" } ], "quiz": { "questions": [ { "id": "q1", "type":"multiple_choice","question": "Pak Komar kecelakaan mobil sampai ringsek, tapi
-beliau selamat tanpa luka parah. Jenis sujud yang dilakukan Pak Komar
-adalah...", "options": [ "Sujud Syukur", "Sujud Sahwi", "Sujud Tilawah", "Sujud
-Salat" ], "answer": 0, "explanation": "Sujud syukur dilakukan ketika kita
-mendapat nikmat besar atau terhindar dari musibah/maut." }, { "id": "q2","type": "multiple_choice","question": "Imam masjid Subuh membaca ayat suci,
-lalu di akhir ayat QS. Al-Alaq, ia langsung sujud. Sujud ini disebut...","options": ["Sujud Syukur","Sujud Sahwi","Sujud Tilawah","Sujud Rukhsah"
-    ],
-    "answer": 2,
-    "explanation": "Sujud yang dilakukan karena membaca atau mendengar
-ayat-ayat sajdah disebut sujud tilawah." }, { "id": "q3", "type":"multiple_choice","question": "Gharim adalah salah satu mustahik zakat. Makna
-dari gharim dalam hal penerima zakat yang tepat adalah...", "options": [ "Orang
-yang mualaf/baru masuk Islam", "Orang yang sedang dalam perjalanan (musafir)","Orang miskin yang tidak punya penghasilan sama sekali", "Orang yang terlilit
-hutang besar untuk kebutuhan hidup harian" ], "answer": 3, "explanation":
-"Gharim secara spesifik merujuk pada orang yang tidak sanggup membayar hutang
-(terlilit hutang) demi bertahan hidup atau musibah." }, { "id": "q4", "type":"multiple_choice","question": "Yang termasuk rukun salat yang tepat adalah...","options": ["Membaca doa Iftitah","Membaca ayat surah pendek dari Al-Qur'an","Membaca surat Al-Fatihah",
-    "Mengangkat tangan saat takbir"
-  ],
-  "answer": 2,
-  "explanation": "Doa iftitah dan surat pendek hukumnya sunnah. Yang termasuk
-rukun (wajib harus ada kalau tdk batal) adalah membaca Al-Fatihah." }, { "id":"q5","type": "multiple_choice","question": "Makna Fardhu Kifayah dalam hukum
-mengurus jenazah adalah...", "options": [ "Hanya dianjurkan kolektif, jika sudah
-dilaksanakan yang lain sunnah.", "Kewajiban perorangan yang jika ditinggalkan
-maka hanya yang bersangkutan dosa.", "Kewajiban mutlak tanpa terkecuali seluruh
-orang 1 komunitas.", "Kewajiban kolektif yang jika dilaksanakan sebagian orang,
-maka kewajiban/dosa gugur bagi yg lain." ], "answer": 3, "explanation": "Fardhu
-Kifayah berarti kewajiban bersama. Asal sudah ada 1 kelompok yang menunaikan,
-maka umat Muslim yang lain tidak lagi berdosa." } ] } }, { "id":"aqidah-akhlak-ski","title": "Aqidah, Akhlak, Dalil & Sejarah (SKI)","description": "Rangkuman Asmaul Husna, tugas malaikat, akhlak pergaulan, tokoh
-Islam & penemuan.", "lessons": [ { "id": "iman-asmaul-husna", "title": "Iman,
-Kiamat & Asmaul Husna", "estMinutes": 5, "content": [ { "type": "heading","text": "1. Keimanan Asmaul Husna","level": 2
-},
-{
-  "type": "text",
-  "text": "Sifat/nama Allah. Dihafalin praktiknya di kehidupan bro!"
-},
-{
-  "type": "list",
-  "ordered": false,
-  "items": [ "Al-'Alim (Maha Mengetahui): Meneladaninya dengan
-rajin belajar, kejar ilmu manfaat, teliti.", "As-Sami' (Maha Mendengar):
-Meneladaninya dengan jadi pendengar yang baik, pake telinga buat dengar yang
-positif.", "Al-Khabir (Maha Teliti): Perhatiin barang bawaan, teliti jawab soal
-walau gada pengawas (yakin Allah lihat)." ] }, { "type": "heading", "text": "2.
-Malaikat & Sifatnya", "level": 2 }, { "type": "list", "ordered": false, "items":[ "Sifat Fisik/Tabiat: Tdk makan & minum, tdk punya jenis kelamin, selalu patuh
-& bertasbih tdk merasa letih (Dalil: QS Al-Anbiya 21: 19).", "Tugas Rakib & Atid:
-Catat amal perbuatan dunia.", "Tugas Munkar & Nakir: Nanya di alam kubur.",
-"Fungsi Beriman Kepada Malaikat: Bikin kita hati-hati, ningkatin taqwa, tdk
-sombong." ] }, { "type": "heading", "text": "3. Hari Akhir (Kiamat)", "level": 2
-  },
-  {
-    "type": "highlight",
-    "text": "Dalil (QS. Al-Hajj 7): "Kiamat pasti datang,
-tidak ada keraguan padanya. Allah akan bangkitin siapa pun yang di kubur.""
-  }
-]
-},
-{
-"id": "akhlak-gibah-tabayyun",
-"title": "Akhlak Sehari-hari: Gibah &
-Tabayyun", "estMinutes": 4, "content": [ { "type": "heading", "text": "Sifat
-Tercela & Terpuji", "level": 2 }, { "type": "table", "headers": [ "Akhlak","Makna / Singkatnya"
-],
-"rows": [
-[
-  "Ghibah", "Membicarakan aib orang lain di
-belakangnya (walaupun bener)." ], [ "Husnuzan", "Berprasangka baik (positif
-thinking)." ], [ "Tabayyun", "Cek fakta / konfirmasi info agar terhindar dari
-berita hoaks." ] ] }, { "type": "text", "text": "Cara menghindari perbuatan
-Gibah: " }, { "type": "list", "ordered": true, "items": [ "Banyakin introspeksi
-diri (sadar kita juga punya dosa).", "Merasa diawasi oleh Allah SWT.", "Jangan
-gampang merasa diri paling benar atau suci." ] }, { "type": "highlight", "text":
-"Ingat Sifat Wajib Rasul untuk dicontek: Siddiq (Jujur), Amanah (Bisa
-Dipercaya), Tablig (Menyampaikan), Fatanah (Cerdas - misal: belajar sungguh2
-pake niat kelar). Sifat Qanaah: Bersyukur dgn rezeki yg ada." } ] }, { "id":"ski-tokoh-penemuan","title": "SKI (Sejarah & Ilmuwan Islam)","estMinutes": 6,"content": [{"type": "heading",
-  "text": "1. Khulafaur Rasyidin & Kekhalifahan
-Lanjut", "level": 2 }, { "type": "list", "ordered": false, "items": [ "Umar bin
-Khattab: Super adil & blusukan. Sidak ke pasar larang ibu-ibu jual susu campur
-air demi meraup untung nipu (Teladan Keimanan).", "Dinasti Umayyah di Damaskus:
-Mulai muncul setelah sahabat selesai. Khalifah pertama: Muawiyah bin Abu Sufyan.
-Kelebihannya punya semangat tinggi bela negara & giat nuntut ilmu." ] }, {"type": "heading","text": "2. Ilmuwan Emas Islam (Hapalin nih, sering
-keluar!)", "level": 2 }, { "type": "table", "headers": [ "Tokoh", "Bidang /
-Gelar" ], "rows": [ [ "Imam Malik bin Anas", "Pakar Fiqih & Hadits zaman awal
-(Karya terkenal: Al Muwatha)." ], [ "Ismail Al-Jazari", "Bapak Robotika (Pakar
-mekanik abad 12 gambar alat2 perabot bergerigi)." ], [ "Jabir Ibnu Hayyan","Bapak Ilmu Kimia (Di barat dipanggil Geber)."
-]
-]
-},
-{
-"type": "heading",
-"text": "3. Pejuang Tangguh",
-"level": 2
-},
-{
-"type": "list",
-"ordered": false,
-"items": [ "Muhammad Al-Fatih: Usia 21 thn taklukkin kota benteng legendaris
-Konstatinopel (Hagia Sofia). Rahasia: Rajin Qiyamul Lail (salat malam) & ga
-pernah putus baca Al-Quran.", "Shalahuddin Al-Ayyubi: Cendekiawan pahlawan.
-Pendidikan Sunni dari Universitas Al-Azhar, Mesir." ] }, { "type": "highlight","text": "Hikmah sejarah: Pemimpin jaya karena agamanya dijaga, dan ilmu
-pengetahuannya terus di-upgrade." } ] } ], "flashcards": [ { "id": "f6","question": "Sifat Allah 'Maha Mendengar' disebut Asmaul Husna apa?","answer": "As-Sami'"
-},
-{
-"id": "f7",
-"question": "Tugas utama malaikat Rakib dan Atid?",
-"answer": "Mencatat amal perbuatan (baik dan buruk)."
-},
-{
-"id": "f8",
-"question": "Membicarakan aib orang lain yang kebetulan memang benar adanya
-disebut perilaku tercela apa?", "answer": "Gibah" }, { "id": "f9", "question":
-"Siapakah ilmuwan Islam yang mendapat julukan 'Bapak Ilmu Kimia' (di Barat
-disebut Geber)?", "answer": "Jabir Ibnu Hayyan" }, { "id": "f10", "question":
-"Mengecek kebenaran suatu berita agar terhindar dari hoax disebut dengan
-istilah?", "answer": "Tabayyun" } ], "quiz": { "questions": [ { "id": "q6","type": "multiple_choice","question": "Fadhlan sedang ujian, pengawasnya tidak
-melihat. Namun ia tidak menyontek karena sadar Allah pasti melihat usahanya.
-Asmaul Husna yang diteladani Fadhlan adalah...", "options": [ "As-Sami'","Al-'Alim","Al-Khabir","Al-Basir"
-],
-"answer": 2,
-"explanation": "Al-Khabir
-artinya Maha Teliti / Waspada. Merasa diawasi oleh Dzat yang teliti menahan diri
-dari curang." }, { "id": "q7", "type": "multiple_choice", "question":
-"Berdasarkan QS Al-Hajj ayat 7, pelajaran aqidah apa yang ditekankan dalam ayat
-tersebut?", "options": [ "Bahwa rezeki dari Allah turun seperti air hujan.","Kiamat itu pasti datang, tanpa keraguan, dan orang kubur dibangkitkan.","Manusia wajib berusaha dan bertawakal.","Allah melarang sifat gibah."
-],
-"answer": 1,
-"explanation": "QS Al Hajj ayat 7 murni berbicara tentang
-keniscayaan datangnya Kiamat dan hari kebangkitan." }, { "id": "q8", "type":"multiple_choice","question": "Rina jika mendapat sebuah isu viral selalu diam
-dulu lalu mengecek informasinya langsung ke sumber terpercaya agar fitnah tidak
-menyebar. Sikap Rina ini disebut...", "options": [ "Husnuzan", "Tabayyun","Su'uzan","Ghibah"
-],
-"answer": 1,
-"explanation": "Tabayyun adalah mencari
-kejelasan, fakta, konfirmasi, terhadap sesuatu hal." }, { "id": "q9", "type":"multiple_choice","question": "Di bawah ini, sikap mana yang merupakan cara
-utama meniru Rasul dalam sifat "Fatanah" untuk pelajar?", "options": ["Mengamankan harta titipan kelas (bendahara)", "Jujur tidak menyontek ketika
-Ujian", "Berani menyampaikan ide kepada teman-teman kelompok", "Belajar tekun
-dengan penuh kesadaran diri agar cerdas/pintar" ], "answer": 3, "explanation":
-"Fatanah artinya cerdas/pintar. Meneladaninya dengan rajin belajar menambah
-kualitas pikiran." }, { "id": "q10", "type": "multiple_choice", "question":
-"Ismail al-Jazari yang hidup di masa keemasan Islam abad ke-12 sangat terkenal
-dengan karyanya di Eropa, sehingga disebut sebagai...", "options": [ "Bapak Ilmu
-Kedokteran", "Penemu GPS kuno", "Bapak Robotika / Ahli Mekanik", "Bapak Ilmu
-Kimia" ], "answer": 2, "explanation": "Ismail al-Jazari dijuluki Bapak Robotika
-dan teknik rekayasa mekanik kuno pembuat gear dan alat-alat otomatis gerak." } ]
-}
-}
-]
 }
