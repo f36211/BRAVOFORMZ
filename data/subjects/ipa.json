@@ -1,7 +1,7 @@
 {
   "id": "ipa",
   "name": "IPA",
-  "description": "Ilmu Pengetahuan Alam — rangkuman catatan belajar",
+  "description": "Rangkuman inti IPA SMP - Rumus, perbedaan, dan materi ujian",
   "grade": [
     7,
     8,
@@ -12,440 +12,772 @@
   "topics": [
     {
       "id": "besaran-dan-satuan",
-      "title": "Besaran, Satuan, dan Alat Ukur",
-      "description": "Besaran pokok, satuan SI, dan alat ukur",
+      "title": "Besaran, Satuan & Pengukuran",
+      "description": "Besaran pokok, turunan, alat ukur, dan rumus konversi suhu",
       "lessons": [
         {
           "id": "besaran-pokok",
-          "title": "Besaran Pokok dan Satuan",
-          "estMinutes": 10,
+          "title": "Besaran Pokok & Alat Ukur",
+          "estMinutes": 8,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Besaran Pokok dan Satuan"
-            },
-            {
-              "type": "text",
-              "text": "Besaran pokok adalah besaran dasar yang tidak dapat dijabarkan dari besaran lain."
+              "text": "7 Besaran Pokok",
+              "level": 2
             },
             {
               "type": "table",
               "headers": [
                 "Besaran",
-                "Simbol",
                 "Satuan",
                 "Alat Ukur"
               ],
               "rows": [
                 [
-                  "Gaya",
-                  "N",
-                  "Newton",
-                  "Dinamometer"
+                  "Panjang",
+                  "meter (m)",
+                  "Penggaris / Mistar"
+                ],
+                [
+                  "Massa",
+                  "kilogram (kg)",
+                  "Neraca / Timbangan"
                 ],
                 [
                   "Waktu",
-                  "s",
-                  "Sekon",
-                  "Stopwatch"
+                  "sekon (s)",
+                  "Stopwatch / Jam"
                 ],
                 [
-                  "Panjang",
-                  "m",
-                  "Meter",
-                  "Penggaris"
+                  "Suhu",
+                  "kelvin (K)",
+                  "Termometer"
                 ],
                 [
-                  "Kuat Arus",
-                  "A",
-                  "Ampere",
+                  "Kuat arus",
+                  "ampere (A)",
                   "Amperemeter"
+                ],
+                [
+                  "Intensitas cahaya",
+                  "kandela (cd)",
+                  "Lux meter"
+                ],
+                [
+                  "Jumlah zat",
+                  "mol (mol)",
+                  "-"
                 ]
               ]
             },
             {
               "type": "highlight",
-              "text": "Besaran turunan diturunkan dari besaran pokok. Contoh: usaha, energi, kecepatan."
+              "text": "Yang sering keluar di ujian: Massa (kg), Panjang (m), Waktu (s), Suhu (°C/K), Kuat arus (A) + Amperemeter, Gaya (N) + Dinamometer"
+            }
+          ]
+        },
+        {
+          "id": "konversi-suhu",
+          "title": "Konversi Suhu (Celcius ↔ Fahrenheit)",
+          "estMinutes": 5,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Rumus Konversi Suhu",
+              "level": 2
+            },
+            {
+              "type": "math",
+              "tex": "F = \\frac{9}{5}C + 32",
+              "display": true
+            },
+            {
+              "type": "math",
+              "tex": "C = \\frac{5}{9}(F - 32)",
+              "display": true
+            },
+            {
+              "type": "highlight",
+              "text": "Tips ujian: 40°C = 104°F, 85°C = 185°F. Perhatikan skala termometer di soal!"
             }
           ]
         },
         {
           "id": "mikrometer-sekrup",
           "title": "Mikrometer Sekrup",
-          "estMinutes": 8,
+          "estMinutes": 5,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Mikrometer Sekrup"
+              "text": "Cara Baca Mikrometer Sekrup",
+              "level": 2
             },
             {
               "type": "text",
-              "text": "Ketelitian mikrometer sekrup: 0,01 mm. Terdiri dari skala utama (sleeve) dan skala putar (thimble)."
+              "text": "Hasil = Skala utama + (Skala putar × 0.01 mm)"
             },
             {
               "type": "math",
-              "tex": "Hasil = Skala Utama + (Skala Putar x 0,01 mm)",
+              "tex": "\\text{Hasil} = \\text{skala utama (mm)} + (\\text{skala putar} \\times 0.01)",
               "display": true
             },
             {
-              "type": "text",
-              "text": "Contoh: skala utama 6,5 mm, skala putar 34 → 6,5 + 0,34 = 6,84 mm. Contoh lain: skala utama 5,5 mm, skala putar 33 → 5,5 + 0,33 = 5,83 mm."
+              "type": "highlight",
+              "text": "Contoh: Skala utama 5.5 mm, skala putar 33 → 5.5 + (33×0.01) = 5.83 mm"
             }
           ]
         }
       ],
-      "flashcards": [],
-      "quiz": {
-        "questions": []
-      }
-    },
-    {
-      "id": "suhu-dan-konversi",
-      "title": "Suhu dan Konversi",
-      "description": "Konversi Celsius ke Fahrenheit",
-      "lessons": [
+      "flashcards": [
         {
-          "id": "konversi-suhu",
-          "title": "Konversi Celsius dan Fahrenheit",
-          "estMinutes": 8,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Konversi Suhu"
-            },
-            {
-              "type": "math",
-              "tex": "F = (9/5 x C) + 32",
-              "display": true
-            },
-            {
-              "type": "math",
-              "tex": "C = 5/9 x (F - 32)",
-              "display": true
-            },
-            {
-              "type": "text",
-              "text": "Contoh: 85°C = (9/5 x 85) + 32 = 153 + 32 = 185°F. Contoh lain: 40°C = (9/5 x 40) + 32 = 72 + 32 = 104°F."
-            }
-          ]
+          "id": "fc1",
+          "question": "Satuan massa dalam SI?",
+          "answer": "Kilogram (kg)"
+        },
+        {
+          "id": "fc2",
+          "question": "Alat ukur gaya?",
+          "answer": "Dinamometer"
+        },
+        {
+          "id": "fc3",
+          "question": "Rumus C ke F?",
+          "answer": "F = (9/5 × C) + 32"
+        },
+        {
+          "id": "fc4",
+          "question": "Alat ukur kuat arus listrik?",
+          "answer": "Amperemeter"
+        },
+        {
+          "id": "fc5",
+          "question": "1 mm mikrometer = berapa skala putar?",
+          "answer": "100 skala putar (1 skala = 0.01 mm)"
         }
       ],
-      "flashcards": [],
       "quiz": {
-        "questions": []
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Besaran pokok yang diukur dengan amperemeter adalah...",
+            "options": [
+              "Kuat arus",
+              "Gaya",
+              "Suhu",
+              "Massa"
+            ],
+            "answer": 0,
+            "explanation": "Amperemeter mengukur kuat arus listrik dengan satuan ampere (A)."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Jika suhu 40°C, berapa °F?",
+            "options": [
+              "72°F",
+              "104°F",
+              "112°F",
+              "122°F"
+            ],
+            "answer": 1,
+            "explanation": "F = (9/5 × 40) + 32 = 72 + 32 = 104°F"
+          }
+        ]
       }
     },
     {
-      "id": "zat-dan-sifatnya",
-      "title": "Zat dan Sifatnya",
-      "description": "Wujud zat dan perubahan fisika/kimia",
+      "id": "zat-dan-perubahannya",
+      "title": "Zat & Perubahannya",
+      "description": "Sifat zat padat, cair, gas; perubahan fisika & kimia; pemisahan campuran",
       "lessons": [
         {
           "id": "sifat-zat",
-          "title": "Sifat Zat Padat, Cair, dan Gas",
-          "estMinutes": 10,
+          "title": "Sifat Zat Padat, Cair, Gas",
+          "estMinutes": 6,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Sifat-sifat Zat"
+              "text": "Perbedaan Sifat Wajib Hafal",
+              "level": 2
             },
             {
-              "type": "text",
-              "text": "Zat padat: gaya tarik antar partikel sangat kuat, bentuk tetap, dapat dimampatkan, tidak dapat mengalir."
+              "type": "table",
+              "headers": [
+                "Sifat",
+                "Padat",
+                "Cair",
+                "Gas"
+              ],
+              "rows": [
+                [
+                  "Bentuk",
+                  "Tetap",
+                  "Mengikuti wadah",
+                  "Mengikuti wadah"
+                ],
+                [
+                  "Volume",
+                  "Tetap",
+                  "Tetap",
+                  "Berubah (memenuhi ruang)"
+                ],
+                [
+                  "Partikel",
+                  "Rapat, teratur",
+                  "Berdekatan, bebas",
+                  "Berjauhan, bebas"
+                ],
+                [
+                  "Gaya tarik",
+                  "Sangat kuat",
+                  "Sedang",
+                  "Sangat lemah"
+                ],
+                [
+                  "Contoh",
+                  "Batu, es",
+                  "Air, minyak",
+                  "Oksigen, uap"
+                ]
+              ]
             },
             {
-              "type": "text",
-              "text": "Zat cair: volume tetap, dapat mengalir, jarak antar partikel berdekatan (lebih rapat dari gas), bentuk mengikuti tempat."
-            },
-            {
-              "type": "text",
-              "text": "Zat gas: jarak antar partikel sangat berjauhan, bentuk berubah, dapat dimampatkan, mengisi ruang."
+              "type": "highlight",
+              "text": "Gas: jarak partikel sangat berjauhan, gaya tarik sangat lemah, bentuk & volume berubah. Cair: volume tetap, bentuk berubah, partikel berdekatan."
             }
           ]
         },
         {
           "id": "perubahan-fisika-kimia",
-          "title": "Perubahan Fisika dan Kimia",
-          "estMinutes": 8,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Perubahan Fisika vs Kimia"
-            },
-            {
-              "type": "text",
-              "text": "Perubahan fisika: tidak menghasilkan zat baru. Contoh: lilin meleleh, air membeku, beras ditumbuk jadi tepung."
-            },
-            {
-              "type": "text",
-              "text": "Perubahan kimia: menghasilkan zat baru. Contoh: singkong jadi tape, besi berkarat, fermentasi."
-            }
-          ]
-        }
-      ],
-      "flashcards": [],
-      "quiz": {
-        "questions": []
-      }
-    },
-    {
-      "id": "perpindahan-kalor",
-      "title": "Perpindahan Kalor",
-      "description": "Konduksi, konveksi, radiasi",
-      "lessons": [
-        {
-          "id": "konveksi",
-          "title": "Konveksi - Angin Darat dan Laut",
-          "estMinutes": 8,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Konveksi"
-            },
-            {
-              "type": "text",
-              "text": "Siang: angin laut (dari laut ke darat) - daratan lebih cepat panas, udara naik."
-            },
-            {
-              "type": "text",
-              "text": "Malam: angin darat (dari darat ke laut) - daratan lebih cepat dingin."
-            }
-          ]
-        },
-        {
-          "id": "radiasi",
-          "title": "Radiasi",
+          "title": "Perubahan Fisika vs Kimia",
           "estMinutes": 5,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Radiasi"
+              "text": "Beda Fisika & Kimia",
+              "level": 2
             },
             {
-              "type": "text",
-              "text": "Perpindahan panas tanpa medium. Contoh: panas api unggun dirasakan dari jarak jauh."
+              "type": "list",
+              "items": [
+                "FISIKA: tidak menghasilkan zat baru (meleleh, membeku, memuai, menyublim)",
+                "KIMIA: menghasilkan zat baru (berkarat, fermentasi, pembakaran, membusuk)"
+              ],
+              "ordered": false
+            },
+            {
+              "type": "highlight",
+              "text": "Contoh ujian: Singkong jadi tape = KIMIA (fermentasi). Besi berkarat = KIMIA. Lilin meleleh = FISIKA. Air membeku = FISIKA."
+            }
+          ]
+        },
+        {
+          "id": "pemisahan-campuran",
+          "title": "Pemisahan Campuran",
+          "estMinutes": 5,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Metode Pemisahan",
+              "level": 2
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Metode",
+                "Gunanya untuk",
+                "Contoh"
+              ],
+              "rows": [
+                [
+                  "Filtrasi / Penyaringan",
+                  "Memisahkan padat dari cair",
+                  "Pasir dari air"
+                ],
+                [
+                  "Evaporasi / Penguapan",
+                  "Memisahkan zat terlarut dari pelarut",
+                  "Garam dari air laut"
+                ],
+                [
+                  "Destilasi",
+                  "Memisahkan cairan berdasarkan titik didih",
+                  "Air murni dari air kotor"
+                ],
+                [
+                  "Sublimasi",
+                  "Memisahkan zat yang menyublim",
+                  "Kapur barus dari garam"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Ujian: Petani garam pakai evaporasi (penguapan air laut). Filtrasi pakai kertas saring + corong untuk pisahkan pasir dari air."
             }
           ]
         }
       ],
-      "flashcards": [],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Zat gas: partikel berjauhan atau berdekatan?",
+          "answer": "Berjauhan, gaya tarik sangat lemah"
+        },
+        {
+          "id": "fc2",
+          "question": "Singkong jadi tape = fisika atau kimia?",
+          "answer": "Kimia (fermentasi, zat baru)"
+        },
+        {
+          "id": "fc3",
+          "question": "Pemisahan garam dari air laut?",
+          "answer": "Evaporasi / penguapan"
+        },
+        {
+          "id": "fc4",
+          "question": "Ciri zat padat?",
+          "answer": "Bentuk & volume tetap, partikel rapat"
+        }
+      ],
       "quiz": {
-        "questions": []
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Yang termasuk perubahan kimia adalah...",
+            "options": [
+              "Lilin meleleh",
+              "Air membeku",
+              "Singkong jadi tape",
+              "Beras ditumbuk"
+            ],
+            "answer": 2,
+            "explanation": "Singkong jadi tape melibatkan fermentasi (zat baru = kimia)."
+          }
+        ]
       }
     },
     {
-      "id": "gaya-dan-gerak",
-      "title": "Gaya dan Gerak",
-      "description": "Hukum Newton, GLB, GLBB, energi, usaha",
+      "id": "gerak-dan-gaya",
+      "title": "Gerak & Gaya",
+      "description": "GLB, GLBB, Hukum Newton, Usaha, Energi, Pesawat Sederhana",
       "lessons": [
+        {
+          "id": "glb-glbb",
+          "title": "GLB & GLBB",
+          "estMinutes": 6,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Jenis Gerak",
+              "level": 2
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Gerak",
+                "Kecepatan",
+                "Percepatan",
+                "Contoh"
+              ],
+              "rows": [
+                [
+                  "GLB",
+                  "Tetap",
+                  "a = 0",
+                  "Mobil jalan lurus konstan"
+                ],
+                [
+                  "GLBB dipercepat",
+                  "Bertambah",
+                  "a > 0",
+                  "Bola jatuh, sepeda turun"
+                ],
+                [
+                  "GLBB diperlambat",
+                  "Berkurang",
+                  "a < 0",
+                  "Bola dilempar ke atas, sepeda naik"
+                ]
+              ]
+            },
+            {
+              "type": "math",
+              "tex": "v = \\frac{s}{t}",
+              "display": true
+            },
+            {
+              "type": "math",
+              "tex": "a = \\frac{\\Delta v}{\\Delta t}",
+              "display": true
+            },
+            {
+              "type": "highlight",
+              "text": "Ujian: Naik = GLBB diperlambat (melawan gravitasi). Turun = GLBB dipercepat (gravitasi). Bola dilempar ke atas lalu jatuh = naik diperlambat, turun dipercepat."
+            }
+          ]
+        },
         {
           "id": "hukum-newton",
           "title": "Hukum Newton",
-          "estMinutes": 10,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Hukum Newton"
-            },
-            {
-              "type": "text",
-              "text": "Percepatan berbanding lurus dengan resultan gaya dan berbanding terbalik dengan massa."
-            },
-            {
-              "type": "math",
-              "tex": "F = m x a",
-              "display": true
-            },
-            {
-              "type": "text",
-              "text": "Benda dengan gaya resultan terbesar memiliki percepatan terbesar (jika massa sama)."
-            }
-          ]
-        },
-        {
-          "id": "glb-glbb",
-          "title": "GLB dan GLBB",
           "estMinutes": 8,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Gerak Lurus"
+              "text": "3 Hukum Newton (WAJIB HAFAL)",
+              "level": 2
             },
             {
               "type": "text",
-              "text": "GLB (Gerak Lurus Beraturan): kecepatan tetap. Contoh: kereta 90 km/jam, jarak 180 km → waktu = 2 jam."
+              "text": "Hukum I (Inersia): Benda diam tetap diam, bergerak tetap bergerak kecuali diberi gaya."
             },
             {
               "type": "text",
-              "text": "GLBB Dipercepat: kecepatan bertambah. Contoh: sepeda menuruni lereng."
-            },
-            {
-              "type": "text",
-              "text": "GLBB Diperlambat: kecepatan berkurang. Contoh: bola dilempar ke atas."
-            }
-          ]
-        },
-        {
-          "id": "energi-potensial",
-          "title": "Energi Potensial",
-          "estMinutes": 6,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Energi Potensial"
+              "text": "Hukum II: Percepatan berbanding lurus dengan gaya, berbanding terbalik dengan massa."
             },
             {
               "type": "math",
-              "tex": "Ep = m x g x h",
+              "tex": "F = m \\times a",
               "display": true
             },
             {
               "type": "text",
-              "text": "Contoh: sangkar burung 2 kg, h = 8 m, g = 10 m/s² → Ep = 2 x 10 x 8 = 160 J."
+              "text": "Hukum III: Aksi = Reaksi (gaya berpasangan, arah berlawanan)."
             },
             {
-              "type": "text",
-              "text": "Contoh: buah kelapa 2 kg, h = 6 m → Ep = 2 x 10 x 6 = 120 J."
+              "type": "math",
+              "tex": "F_{aksi} = -F_{reaksi}",
+              "display": true
+            },
+            {
+              "type": "highlight",
+              "text": "Segitiga F-m-a: F di atas, m dan a di bawah. F = m×a, m = F/a, a = F/m"
             }
           ]
         },
         {
-          "id": "usaha",
-          "title": "Usaha (Work)",
-          "estMinutes": 6,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Usaha"
-            },
-            {
-              "type": "math",
-              "tex": "W = F x s",
-              "display": true
-            },
-            {
-              "type": "text",
-              "text": "Contoh: gaya A = 120 N, gaya B = 180 N, usaha 1800 J → jarak = 1800 / (120 + 180) = 6 m."
-            }
-          ]
-        }
-      ],
-      "flashcards": [],
-      "quiz": {
-        "questions": []
-      }
-    },
-    {
-      "id": "pesawat-sederhana",
-      "title": "Pesawat Sederhana",
-      "description": "Tuas dan Hukum Pascal",
-      "lessons": [
-        {
-          "id": "tuas",
-          "title": "Tuas",
-          "estMinutes": 10,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Tuas"
-            },
-            {
-              "type": "text",
-              "text": "Tuas Jenis I: titik tumpu di tengah (gunting, jungkat-jungkit)."
-            },
-            {
-              "type": "text",
-              "text": "Tuas Jenis II: beban di tengah (gerobak dorong, pembuka botol)."
-            },
-            {
-              "type": "text",
-              "text": "Tuas Jenis III: kuasa di tengah (pancing, lengan manusia)."
-            },
-            {
-              "type": "math",
-              "tex": "F1 x d1 = F2 x d2",
-              "display": true
-            },
-            {
-              "type": "text",
-              "text": "Contoh: batu 480 N, beban 20 cm, kuasa 120 cm → gaya kuasa = (480 x 20)/120 = 80 N. Keuntungan mekanik = 120/20 = 6."
-            },
-            {
-              "type": "text",
-              "text": "Contoh: W = 90 N, AB = 30 cm, AC = 120 cm → F = (90 x 30)/120 = 22,5 N."
-            }
-          ]
-        },
-        {
-          "id": "hukum-pascal",
-          "title": "Hukum Pascal (Hidrolik)",
+          "id": "usaha-energi",
+          "title": "Usaha & Energi",
           "estMinutes": 8,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Hukum Pascal"
+              "text": "Rumus Usaha & Energi",
+              "level": 2
             },
             {
               "type": "math",
-              "tex": "F1/A1 = F2/A2",
+              "tex": "W = F \\times s",
+              "display": true
+            },
+            {
+              "type": "math",
+              "tex": "E_p = m \\times g \\times h",
+              "display": true
+            },
+            {
+              "type": "math",
+              "tex": "E_k = \\frac{1}{2} m v^2",
               "display": true
             },
             {
               "type": "text",
-              "text": "Contoh: A1 = 20 cm², A2 = 70 cm², F1 = 350 N → F2 = 350 x (70/20) = 1.225 N."
+              "text": "Hukum Kekekalan Energi: Ep + Ek = tetap (tanpa gesekan)"
+            },
+            {
+              "type": "highlight",
+              "text": "Ujian: Ep = m×g×h. Contoh: m=2kg, h=8m, g=10 → Ep = 2×10×8 = 160 J. Usaha = Gaya × jarak. Jika gaya resultan = 0, usaha = 0!"
             }
           ]
-        }
-      ],
-      "flashcards": [],
-      "quiz": {
-        "questions": []
-      }
-    },
-    {
-      "id": "getaran-gelombang",
-      "title": "Getaran dan Gelombang",
-      "description": "Frekuensi, periode, kecepatan gelombang",
-      "lessons": [
+        },
         {
-          "id": "getaran",
-          "title": "Getaran",
+          "id": "pesawat-sederhana",
+          "title": "Pesawat Sederhana",
           "estMinutes": 6,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Getaran"
+              "text": "Tuas & Hidrolik",
+              "level": 2
             },
             {
               "type": "math",
-              "tex": "f = n/t",
-              "display": true
-            },
-            {
-              "type": "math",
-              "tex": "T = 1/f",
+              "tex": "F_1 \\times l_1 = F_2 \\times l_2",
               "display": true
             },
             {
               "type": "text",
-              "text": "Contoh: 10 getaran dalam 5 sekon → f = 10/5 = 2 Hz, T = 1/2 = 0,5 s."
+              "text": "Tuas jenis: I (beban di tengah), II (kuasa di tengah), III (titik tengah di tengah)."
+            },
+            {
+              "type": "math",
+              "tex": "\\frac{F_1}{A_1} = \\frac{F_2}{A_2}",
+              "display": true
+            },
+            {
+              "type": "highlight",
+              "text": "Hidrolik: F1/A1 = F2/A2. Jika A2 besar, F2 besar (mengangkat mobil). Keuntungan mekanik = l_kuasa / l_beban = F_beban / F_kuasa"
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Rumus Hukum II Newton?",
+          "answer": "F = m × a"
+        },
+        {
+          "id": "fc2",
+          "question": "Rumus Energi Potensial?",
+          "answer": "Ep = m × g × h"
+        },
+        {
+          "id": "fc3",
+          "question": "Rumus Usaha?",
+          "answer": "W = F × s"
+        },
+        {
+          "id": "fc4",
+          "question": "GLBB diperlambat = kecepatan?",
+          "answer": "Berkurang (a < 0)"
+        },
+        {
+          "id": "fc5",
+          "question": "Rumus tuas?",
+          "answer": "F1 × l1 = F2 × l2"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Jika massa 2 kg, g=10 m/s², h=8 m, berapa Ep?",
+            "options": [
+              "10 J",
+              "16 J",
+              "100 J",
+              "160 J"
+            ],
+            "answer": 3,
+            "explanation": "Ep = m×g×h = 2×10×8 = 160 J"
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Sebuah benda diberi gaya resultan 10 N, massa 2 kg. Percepatannya?",
+            "options": [
+              "5 m/s²",
+              "8 m/s²",
+              "12 m/s²",
+              "20 m/s²"
+            ],
+            "answer": 0,
+            "explanation": "a = F/m = 10/2 = 5 m/s²"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kalor-dan-perpindahannya",
+      "title": "Kalor & Perpindahan Kalor",
+      "description": "Konduksi, konveksi, radiasi, dan perubahan wujud zat",
+      "lessons": [
+        {
+          "id": "perpindahan-kalor",
+          "title": "3 Cara Perpindahan Kalor",
+          "estMinutes": 5,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Konduksi, Konveksi, Radiasi",
+              "level": 2
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Jenis",
+                "Ciri",
+                "Contoh"
+              ],
+              "rows": [
+                [
+                  "Konduksi",
+                  "Melalui zat padat, tanpa perpindahan partikel",
+                  "Sendok panas di panci"
+                ],
+                [
+                  "Konveksi",
+                  "Melalui zat cair/gas, partikel berpindah",
+                  "Air panas naik, angin darat/laut"
+                ],
+                [
+                  "Radiasi",
+                  "Tanpa zat perantara, gelombang elektromagnetik",
+                  "Panas api unggun, sinar matahari"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Angin darat: malam hari (darat dingin cepat, udara laut naik). Angin laut: siang hari (darat panas cepat, udara darat naik)."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Panas api unggun ke orang = jenis perpindahan?",
+          "answer": "Radiasi"
+        },
+        {
+          "id": "fc2",
+          "question": "Angin laut terjadi kapan?",
+          "answer": "Siang hari (darat panas cepat)"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Jenis perpindahan kalor dari api unggun ke orang adalah...",
+            "options": [
+              "Konduksi",
+              "Konveksi",
+              "Radiasi",
+              "Evaporasi"
+            ],
+            "answer": 2,
+            "explanation": "Radiasi tidak memerlukan zat perantara, seperti panas api ke orang."
+          }
+        ]
+      }
+    },
+    {
+      "id": "listrik-dan-magnet",
+      "title": "Listrik & Magnet",
+      "description": "Hukum Ohm, rangkaian, Coulomb, dan induksi elektromagnetik",
+      "lessons": [
+        {
+          "id": "hukum-ohm",
+          "title": "Hukum Ohm & Rangkaian",
+          "estMinutes": 8,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Hukum Ohm (WAJIB)",
+              "level": 2
+            },
+            {
+              "type": "math",
+              "tex": "I = \\frac{V}{R}",
+              "display": true
+            },
+            {
+              "type": "math",
+              "tex": "V = I \\times R",
+              "display": true
+            },
+            {
+              "type": "math",
+              "tex": "R = \\frac{V}{I}",
+              "display": true
+            },
+            {
+              "type": "heading",
+              "text": "Rangkaian",
+              "level": 3
+            },
+            {
+              "type": "text",
+              "text": "Seri: R_total = R1 + R2 + R3"
+            },
+            {
+              "type": "text",
+              "text": "Paralel: 1/R_total = 1/R1 + 1/R2 + 1/R3"
+            },
+            {
+              "type": "highlight",
+              "text": "Segitiga V-I-R: V di atas, I dan R di bawah. V = I×R, I = V/R, R = V/I"
             }
           ]
         },
+        {
+          "id": "hukum-coulomb",
+          "title": "Hukum Coulomb",
+          "estMinutes": 5,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Gaya Coulomb",
+              "level": 2
+            },
+            {
+              "type": "math",
+              "tex": "F = k \\frac{q_1 \\times q_2}{r^2}",
+              "display": true
+            },
+            {
+              "type": "text",
+              "text": "k = 9 × 10⁹ N.m²/C²"
+            },
+            {
+              "type": "highlight",
+              "text": "Muatan sejenis tolak-menolak, muatan berlawanan tarik-menarik. Listrik statis: gesekan memindahkan elektron."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Rumus Hukum Ohm?",
+          "answer": "I = V/R atau V = I×R"
+        },
+        {
+          "id": "fc2",
+          "question": "Rangkaian seri: R total?",
+          "answer": "R1 + R2 + R3"
+        },
+        {
+          "id": "fc3",
+          "question": "Hukum Coulomb: F = ?",
+          "answer": "k × q1 × q2 / r²"
+        },
+        {
+          "id": "fc4",
+          "question": "Sisir plastik disisir ke rambut: muatan sisir?",
+          "answer": "Negatif (elektron dari rambut pindah ke sisir)"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Jika V=6V, R1=1Ω, R2=3Ω paralel dengan R3=6Ω. Arus total?",
+            "options": [
+              "0.6 A",
+              "1 A",
+              "2 A",
+              "3 A"
+            ],
+            "answer": 2,
+            "explanation": "R_parallel = (3×6)/(3+6) = 2Ω. R_total = 1+2 = 3Ω. I = V/R = 6/3 = 2A"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gelombang-dan-cahaya",
+      "title": "Gelombang, Cahaya & Optik",
+      "description": "Cepat rambat gelombang, cermin, dan lensa",
+      "lessons": [
         {
           "id": "gelombang",
           "title": "Gelombang",
@@ -453,458 +785,139 @@
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Gelombang"
+              "text": "Rumus Gelombang",
+              "level": 2
             },
             {
               "type": "math",
-              "tex": "v = s/t",
+              "tex": "v = \\lambda \\times f",
+              "display": true
+            },
+            {
+              "type": "math",
+              "tex": "v = \\frac{\\lambda}{T}",
+              "display": true
+            },
+            {
+              "type": "math",
+              "tex": "f = \\frac{n}{t}",
               "display": true
             },
             {
               "type": "text",
-              "text": "Contoh: gelombang 30 m dalam 12 sekon → v = 30/12 = 2,5 m/s."
+              "text": "v = cepat rambat, λ = panjang gelombang, f = frekuensi, T = periode, n = jumlah getaran, t = waktu"
             },
             {
-              "type": "text",
-              "text": "Contoh: 2 gabus jarak 100 cm (2 gelombang), waktu 4 detik → v = 100/4 = 25 cm/s."
-            }
-          ]
-        }
-      ],
-      "flashcards": [],
-      "quiz": {
-        "questions": []
-      }
-    },
-    {
-      "id": "optik-dan-bunyi",
-      "title": "Optik dan Bunyi",
-      "description": "Cermin, sonar, tekanan hidrostatis",
-      "lessons": [
-        {
-          "id": "cermin-cekung",
-          "title": "Cermin Cekung",
-          "estMinutes": 8,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Cermin Cekung"
-            },
-            {
-              "type": "text",
-              "text": "Jika benda di antara F dan cermin → bayangan maya, tegak, diperbesar, di belakang cermin."
-            },
-            {
-              "type": "math",
-              "tex": "1/f = 1/s + 1/s'",
-              "display": true
+              "type": "highlight",
+              "text": "Contoh ujian: A ke B = 1.5 λ, jarak 100 cm, t=4s. λ = 100/1.5 = 66.67 cm. v = λ/T = 66.67/2 = 33.3 cm/s (periode = waktu/1.5 getaran). ATAU v = jarak/total waktu jika jarak A-B = 1.5λ dalam 4s."
             }
           ]
         },
         {
           "id": "sonar",
-          "title": "Sonar",
-          "estMinutes": 6,
+          "title": "Sonar (Kedalaman Laut)",
+          "estMinutes": 4,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Sonar"
+              "text": "Rumus Sonar",
+              "level": 2
             },
             {
               "type": "math",
-              "tex": "d = (v x t)/2",
+              "tex": "d = \\frac{v \\times t}{2}",
               "display": true
             },
             {
               "type": "text",
-              "text": "Contoh: bunyi pantul 4 sekon, v = 1350 m/s → d = (1350 x 4)/2 = 2700 m."
+              "text": "d = kedalaman, v = cepat rambat bunyi di air, t = waktu pantul (pergi + pulang)"
+            },
+            {
+              "type": "highlight",
+              "text": "Contoh: v=1350 m/s, t=4s → d = (1350×4)/2 = 2700 m. Jangan lupa dibagi 2 karena bunyi pergi-pulang!"
             }
           ]
         },
         {
-          "id": "tekanan-hidrostatis",
-          "title": "Tekanan Hidrostatis",
-          "estMinutes": 6,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Tekanan Hidrostatis"
-            },
-            {
-              "type": "math",
-              "tex": "P = rho x g x h",
-              "display": true
-            },
-            {
-              "type": "text",
-              "text": "Contoh: kedalaman 15 m, rho = 1200 kg/m³, g = 10 m/s² → P = 1200 x 10 x 15 = 180.000 Pa = 180 kPa."
-            }
-          ]
-        }
-      ],
-      "flashcards": [],
-      "quiz": {
-        "questions": []
-      }
-    },
-    {
-      "id": "listrik",
-      "title": "Listrik",
-      "description": "Listrik statis, Coulomb, Ohm, rangkaian listrik",
-      "lessons": [
-        {
-          "id": "listrik-statis",
-          "title": "Listrik Statis",
-          "estMinutes": 6,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Listrik Statis"
-            },
-            {
-              "type": "text",
-              "text": "Menggosok sisir plastik ke rambut: elektron rambut pindah ke sisir → sisir bermuatan negatif."
-            },
-            {
-              "type": "text",
-              "text": "Muatan sejenis tolak-menolak, muatan berbeda tarik-menarik."
-            }
-          ]
-        },
-        {
-          "id": "hukum-coulomb",
-          "title": "Hukum Coulomb",
-          "estMinutes": 8,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Hukum Coulomb"
-            },
-            {
-              "type": "math",
-              "tex": "F = k x q1 x q2 / r^2",
-              "display": true
-            },
-            {
-              "type": "text",
-              "text": "Contoh: q1 = 3 C, q2 = 4 C, r = 0,3 m, k = 9 x 10^9 → F = 9 x 10^9 x 12 / 0,09 = 1,2 x 10^12 N."
-            }
-          ]
-        },
-        {
-          "id": "rangkaian-listrik",
-          "title": "Rangkaian Listrik",
-          "estMinutes": 10,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Rangkaian Listrik"
-            },
-            {
-              "type": "math",
-              "tex": "V = I x R",
-              "display": true
-            },
-            {
-              "type": "text",
-              "text": "Paralel: 1/R_total = 1/R1 + 1/R2 + 1/R3. Arus terbagi tiap cabang."
-            },
-            {
-              "type": "text",
-              "text": "Seri: R_total = R1 + R2 + R3. Arus sama besar."
-            },
-            {
-              "type": "text",
-              "text": "Contoh: R1 = 1Ω seri dengan R2(3Ω) paralel R3(6Ω). Rp = (3x6)/(3+6) = 2Ω. R_total = 1+2 = 3Ω. I = 6V/3Ω = 2A."
-            }
-          ]
-        },
-        {
-          "id": "magnet",
-          "title": "Magnet dan GGL Induksi",
-          "estMinutes": 8,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Magnet dan GGL Induksi"
-            },
-            {
-              "type": "text",
-              "text": "Membuat magnet: gosok kutub magnet pada baja searah berulang-ulang. Ujung awal gosokan berlawanan dengan kutub magnet penggosok."
-            },
-            {
-              "type": "text",
-              "text": "GGL Induksi dihasilkan dengan menggerakkan magnet keluar-masuk kumparan secara berulang. Magnet diam tidak menghasilkan GGL."
-            }
-          ]
-        },
-        {
-          "id": "energi-listrik",
-          "title": "Energi Listrik dan Biaya",
-          "estMinutes": 10,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Energi Listrik dan Biaya"
-            },
-            {
-              "type": "math",
-              "tex": "E = P x t",
-              "display": true
-            },
-            {
-              "type": "text",
-              "text": "Contoh perhitungan: 2 lampu 5W (10 jam), 4 lampu 10W (10 jam), pompa 250W (2 jam), kulkas 50W (24 jam), TV 100W (5 jam), setrika 200W (1 jam)."
-            },
-            {
-              "type": "text",
-              "text": "Total harian = 2.900 Wh = 2,9 kWh. Per bulan (30 hari) = 87 kWh. Biaya = (87 x Rp 1.400) + Rp 20.000 = Rp 141.800."
-            }
-          ]
-        }
-      ],
-      "flashcards": [],
-      "quiz": {
-        "questions": []
-      }
-    },
-    {
-      "id": "makhluk-hidup",
-      "title": "Makhluk Hidup",
-      "description": "Ciri makhluk hidup, jaringan tumbuhan, ekosistem",
-      "lessons": [
-        {
-          "id": "ciri-makhluk-hidup",
-          "title": "Ciri-ciri Makhluk Hidup",
+          "id": "cermin-cekung",
+          "title": "Cermin Cekung",
           "estMinutes": 5,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Ciri-ciri Makhluk Hidup"
-            },
-            {
-              "type": "text",
-              "text": "Ciri makhluk hidup: bergerak, peka terhadap rangsangan, mengalami pertumbuhan, memerlukan makanan, mengeluarkan zat sisa."
-            }
-          ]
-        },
-        {
-          "id": "jaringan-tumbuhan",
-          "title": "Jaringan Tumbuhan",
-          "estMinutes": 8,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Jaringan Tumbuhan"
-            },
-            {
-              "type": "text",
-              "text": "Epidermis: melindungi jaringan di bawahnya."
-            },
-            {
-              "type": "text",
-              "text": "Palisade: tempat fotosintesis (banyak kloroplas)."
-            },
-            {
-              "type": "text",
-              "text": "Stomata (mulut daun): jalan keluar masuknya udara, mengatur penguapan air."
-            },
-            {
-              "type": "text",
-              "text": "Bunga karang (sponsy): tempat penguapan air."
-            }
-          ]
-        },
-        {
-          "id": "fotosintesis",
-          "title": "Fotosintesis",
-          "estMinutes": 6,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Fotosintesis"
+              "text": "Cermin Cekung",
+              "level": 2
             },
             {
               "type": "math",
-              "tex": "6CO2 + 6H2O -> C6H12O6 + 6O2",
+              "tex": "\\frac{1}{f} = \\frac{1}{s} + \\frac{1}{s'}",
               "display": true
             },
             {
               "type": "text",
-              "text": "Percobaan hydrilla: tumbuhan di tempat terang menghasilkan oksigen lebih banyak dari tempat teduh."
-            }
-          ]
-        },
-        {
-          "id": "klasifikasi-tumbuhan",
-          "title": "Monokotil dan Dikotil",
-          "estMinutes": 8,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Monokotil vs Dikotil"
+              "text": "f = jarak fokus, s = jarak benda, s' = jarak bayangan"
             },
             {
-              "type": "table",
-              "headers": [
-                "Pembeda",
-                "Monokotil",
-                "Dikotil"
-              ],
-              "rows": [
-                [
-                  "Akar",
-                  "Serabut",
-                  "Tunggang"
-                ],
-                [
-                  "Batang",
-                  "Tidak bercabang, tidak berkambium",
-                  "Bercabang, berkambium"
-                ],
-                [
-                  "Daun",
-                  "Sejajar/melengkung",
-                  "Menyirip/menjari"
-                ],
-                [
-                  "Bunga",
-                  "Kelipatan 3",
-                  "Kelipatan 4 atau 5"
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "id": "klasifikasi-hewan",
-          "title": "Klasifikasi Hewan",
-          "estMinutes": 10,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Klasifikasi Hewan"
-            },
-            {
-              "type": "text",
-              "text": "Penutup tubuh Pisces: sisik. Mamalia: rambut/bulu."
-            },
-            {
-              "type": "text",
-              "text": "Alat gerak Pisces: sirip. Mamalia: kaki."
-            },
-            {
-              "type": "text",
-              "text": "Suhu tubuh Pisces: berdarah dingin. Mamalia: berdarah panas."
-            },
-            {
-              "type": "text",
-              "text": "Fertilisasi Pisces: eksternal. Mamalia: internal."
-            },
-            {
-              "type": "text",
-              "text": "Reproduksi Pisces: ovipar (bertelur). Mamalia: vivipar (beranak)."
-            },
-            {
-              "type": "text",
-              "text": "Alat pernapasan Pisces: insang. Mamalia: paru-paru."
-            },
-            {
-              "type": "text",
-              "text": "Kekerabatan paling dekat: udang dan kepiting (sama-sama Crustacea)."
-            }
-          ]
-        },
-        {
-          "id": "ekosistem",
-          "title": "Ekosistem",
-          "estMinutes": 10,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Ekosistem"
-            },
-            {
-              "type": "text",
-              "text": "Predasi: harimau memangsa rusa."
-            },
-            {
-              "type": "text",
-              "text": "Kompetisi: rusa dan zebra bersaing memakan rumput."
-            },
-            {
-              "type": "text",
-              "text": "Simbiosis Mutualisme: lebah dan bunga (saling menguntungkan)."
-            },
-            {
-              "type": "text",
-              "text": "Simbiosis Parasitisme: benalu pada pohon randu (benalu diuntungkan, randu dirugikan)."
-            },
-            {
-              "type": "text",
-              "text": "Simbiosis Komensalisme: anggrek hutan pada pohon randu (anggrek diuntungkan, randu tidak dirugikan)."
-            },
-            {
-              "type": "text",
-              "text": "Jika harimau punah: populasi rusa/kelinci naik, populasi tumbuhan turun (overgrazing)."
+              "type": "highlight",
+              "text": "Jika benda di luar f (s > f): bayangan nyata, terbalik. Jika benda di dalam f (s < f): bayangan maya, tegak, diperbesar."
             }
           ]
         }
       ],
-      "flashcards": [],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Rumus cepat rambat gelombang?",
+          "answer": "v = λ × f"
+        },
+        {
+          "id": "fc2",
+          "question": "Rumus sonar kedalaman?",
+          "answer": "d = (v × t) / 2"
+        },
+        {
+          "id": "fc3",
+          "question": "Frekuensi = ?",
+          "answer": "n / t (jumlah getaran / waktu)"
+        },
+        {
+          "id": "fc4",
+          "question": "Periode = ?",
+          "answer": "t / n (waktu / jumlah getaran)"
+        }
+      ],
       "quiz": {
-        "questions": []
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Sonar: v=1350 m/s, t=4s. Kedalaman laut?",
+            "options": [
+              "337.5 m",
+              "2700 m",
+              "3375 m",
+              "5400 m"
+            ],
+            "answer": 1,
+            "explanation": "d = (v×t)/2 = (1350×4)/2 = 2700 m"
+          }
+        ]
       }
     },
     {
       "id": "sistem-tubuh-manusia",
       "title": "Sistem Tubuh Manusia",
-      "description": "Pernapasan, pencernaan, peredaran darah, reproduksi",
+      "description": "Pencernaan, pernapasan, peredaran darah, rangka, dan reproduksi",
       "lessons": [
         {
-          "id": "sistem-pernapasan",
-          "title": "Sistem Pernapasan",
+          "id": "sistem-pencernaan",
+          "title": "Sistem Pencernaan & Enzim",
           "estMinutes": 8,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Sistem Pernapasan"
-            },
-            {
-              "type": "text",
-              "text": "Alveolus: tempat pertukaran gas O2 dan CO2."
-            },
-            {
-              "type": "text",
-              "text": "TBC: infeksi bakteri pada alveolus, paru-paru berkabut di rontgen, batuk kronis."
-            }
-          ]
-        },
-        {
-          "id": "sistem-pencernaan",
-          "title": "Sistem Pencernaan",
-          "estMinutes": 10,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Sistem Pencernaan"
+              "text": "Enzim Pencernaan (WAJIB HAFAL)",
+              "level": 2
             },
             {
               "type": "table",
@@ -917,73 +930,194 @@
                 [
                   "Mulut",
                   "Ptialin (amilase)",
-                  "Menguraikan zat tepung menjadi maltosa"
+                  "Menguraikan pati → maltosa"
                 ],
                 [
                   "Lambung",
                   "Pepsin",
-                  "Menguraikan protein menjadi pepton"
+                  "Menguraikan protein → pepton"
                 ],
                 [
                   "Pankreas",
                   "Lipase",
-                  "Menguraikan lemak menjadi asam lemak dan gliserol"
+                  "Menguraikan lemak → asam lemak + gliserol"
+                ],
+                [
+                  "Pankreas",
+                  "Amilase",
+                  "Menguraikan pati → maltosa"
                 ],
                 [
                   "Usus halus",
-                  "Tripsin",
-                  "Mengubah protein menjadi asam amino"
+                  "Trypsin",
+                  "Menguraikan protein → asam amino"
+                ],
+                [
+                  "Usus halus",
+                  "Lipase",
+                  "Menguraikan lemak"
                 ]
               ]
             },
             {
-              "type": "text",
-              "text": "Maltase: menguraikan maltosa menjadi glukosa."
-            },
-            {
-              "type": "text",
-              "text": "Pepsin diproduksi sebagai pepsinogen lalu diaktifkan oleh HCl."
+              "type": "highlight",
+              "text": "Ujian: Ptialin di mulut. Pepsin di lambung (bukan usus halus!). Lipase di pankreas & usus halus. Trypsin di usus halus (bukan lambung!)."
             }
           ]
         },
         {
-          "id": "sistem-ekskresi",
-          "title": "Sistem Ekskresi",
+          "id": "peredaran-darah",
+          "title": "Pembuluh Darah",
           "estMinutes": 6,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Sistem Ekskresi"
-            },
-            {
-              "type": "text",
-              "text": "Glomerulus: pusat penyaringan darah di ginjal."
-            },
-            {
-              "type": "text",
-              "text": "Diabetes mellitus: adanya glukosa dalam urin akibat gangguan insulin."
-            },
-            {
-              "type": "text",
-              "text": "Kandidiasis: penyakit jamur pada organ reproduksi."
-            }
-          ]
-        },
-        {
-          "id": "jenis-otot",
-          "title": "Jenis-jenis Otot",
-          "estMinutes": 8,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Jenis-jenis Otot"
+              "text": "Arteri vs Vena vs Kapiler",
+              "level": 2
             },
             {
               "type": "table",
               "headers": [
-                "Perbedaan",
+                "Ciri",
+                "Arteri (Nadi)",
+                "Vena (Balik)",
+                "Kapiler"
+              ],
+              "rows": [
+                [
+                  "Dinding",
+                  "Tebal, kuat, elastis",
+                  "Tipis, tidak elastis",
+                  "Satu lapis sel"
+                ],
+                [
+                  "Arah aliran",
+                  "Keluar jantung",
+                  "Masuk jantung",
+                  "-"
+                ],
+                [
+                  "Denyut",
+                  "Terasa",
+                  "Tidak terasa",
+                  "-"
+                ],
+                [
+                  "Katup",
+                  "Tidak ada",
+                  "Banyak (cegah balik)",
+                  "-"
+                ],
+                [
+                  "Letak",
+                  "Dalam tubuh",
+                  "Dekat kulit",
+                  "Jaringan"
+                ],
+                [
+                  "Darah",
+                  "Kaya oksigen (kecuali pulmonal)",
+                  "Kaya CO2 (kecuali pulmonal)",
+                  "-"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Ujian: Arteri = denyut terasa, keluar jantung, dinding tebal. Vena = katup banyak, masuk jantung, dinding tipis."
+            }
+          ]
+        },
+        {
+          "id": "sistem-pernapasan",
+          "title": "Sistem Pernapasan",
+          "estMinutes": 5,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Gangguan Pernapasan",
+              "level": 2
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Penyakit",
+                "Ciri",
+                "Penyebab"
+              ],
+              "rows": [
+                [
+                  "Asma",
+                  "Sesak napas, bronkiolus menyempit",
+                  "Alergi"
+                ],
+                [
+                  "Tuberkulosis (TBC)",
+                  "Batuk lama, berdarah",
+                  "Bakteri Mycobacterium tuberculosis"
+                ],
+                [
+                  "Bronkitis",
+                  "Batuk, bronkus berlendir",
+                  "Infeksi/irritasi"
+                ],
+                [
+                  "Pneumonia",
+                  "Paru-paru berair/berlendir",
+                  "Infeksi bakteri/virus"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "TBC disebabkan Mycobacterium tuberculosis. Paru-paru berkabut di rontgen + batuk lama = TBC. Obat 6 bulan."
+            }
+          ]
+        },
+        {
+          "id": "sistem-rangka",
+          "title": "Sendi & Otot",
+          "estMinutes": 6,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Jenis Sendi & Otot",
+              "level": 2
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Sendi",
+                "Arah Gerak",
+                "Contoh"
+              ],
+              "rows": [
+                [
+                  "Peluru",
+                  "Ke segala arah",
+                  "Bahku, pangkal paha"
+                ],
+                [
+                  "Engsel",
+                  "1 arah (ke depan/belakang)",
+                  "Siku, lutut, pergelangan tangan"
+                ],
+                [
+                  "Pelana",
+                  "2 arah",
+                  "Pergelangan tangan"
+                ],
+                [
+                  "Putar",
+                  "Memutar",
+                  "Leher, pergelangan tangan"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Ciri",
                 "Otot Lurik",
                 "Otot Polos",
                 "Otot Jantung"
@@ -991,9 +1125,9 @@
               "rows": [
                 [
                   "Letak",
-                  "Melekat pada rangka",
-                  "Organ selain jantung",
-                  "Hanya di jantung"
+                  "Melekat rangka",
+                  "Organ dalam",
+                  "Jantung"
                 ],
                 [
                   "Jumlah inti",
@@ -1004,419 +1138,963 @@
                 [
                   "Bentuk",
                   "Silindris",
-                  "Gelondong",
+                  "Gelondong/spindel",
                   "Silindris bercabang"
                 ],
                 [
                   "Sifat",
-                  "Tidak mudah lelah",
                   "Mudah lelah",
+                  "Tidak mudah lelah",
                   "Tidak mudah lelah"
+                ],
+                [
+                  "Sadaran",
+                  "Sadaran",
+                  "Tidak sadar",
+                  "Tidak sadar"
                 ]
               ]
+            },
+            {
+              "type": "highlight",
+              "text": "Ujian: Sendi peluru = ke segala arah (bahku). Sendi engsel = 1 arah (siku, lutut). Otot lurik = banyak inti, mudah lelah, sadar. Otot polos = 1 inti, tidak mudah lelah, tidak sadar."
             }
           ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Enzim di lambung?",
+          "answer": "Pepsin (protein → pepton)"
         },
         {
-          "id": "peredaran-darah",
-          "title": "Peredaran Darah",
-          "estMinutes": 8,
+          "id": "fc2",
+          "question": "Enzim di mulut?",
+          "answer": "Ptialin / Amilase (pati → maltosa)"
+        },
+        {
+          "id": "fc3",
+          "question": "Arteri: denyut terasa atau tidak?",
+          "answer": "Terasa"
+        },
+        {
+          "id": "fc4",
+          "question": "Vena punya katup?",
+          "answer": "Ya, banyak katup"
+        },
+        {
+          "id": "fc5",
+          "question": "TBC disebabkan?",
+          "answer": "Mycobacterium tuberculosis"
+        },
+        {
+          "id": "fc6",
+          "question": "Sendi peluru arah gerak?",
+          "answer": "Ke segala arah"
+        },
+        {
+          "id": "fc7",
+          "question": "Otot lurik: mudah lelah?",
+          "answer": "Ya, mudah lelah"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Enzim pepsin berfungsi menguraikan...",
+            "options": [
+              "Pati menjadi maltosa",
+              "Protein menjadi pepton",
+              "Lemak menjadi asam lemak",
+              "Protein menjadi asam amino"
+            ],
+            "answer": 1,
+            "explanation": "Pepsin di lambung menguraikan protein menjadi pepton."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Ciri pembuluh vena adalah...",
+            "options": [
+              "Dinding tebal",
+              "Denyut terasa",
+              "Banyak katup",
+              "Keluar jantung"
+            ],
+            "answer": 2,
+            "explanation": "Vena memiliki banyak katup untuk mencegah aliran balik."
+          }
+        ]
+      }
+    },
+    {
+      "id": "reproduksi-manusia",
+      "title": "Reproduksi & Genetika",
+      "description": "Organ reproduksi, penyakit menular, dan pewarisan sifat",
+      "lessons": [
+        {
+          "id": "organ-reproduksi",
+          "title": "Organ Reproduksi Wanita",
+          "estMinutes": 5,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Peredaran Darah"
+              "text": "Organ Reproduksi Wanita",
+              "level": 2
             },
             {
               "type": "table",
               "headers": [
-                "Ciri",
-                "Arteri (Nadi)",
-                "Vena (Balik)"
-              ],
-              "rows": [
-                [
-                  "Dinding",
-                  "Tebal, kuat, elastis",
-                  "Tipis, tidak elastis"
-                ],
-                [
-                  "Arah aliran",
-                  "Meninggalkan jantung",
-                  "Menuju jantung"
-                ],
-                [
-                  "Katup",
-                  "Sedikit/tidak ada",
-                  "Banyak"
-                ],
-                [
-                  "Denyut",
-                  "Terasa",
-                  "Tidak terasa"
-                ],
-                [
-                  "Letak",
-                  "Tersembunyi di dalam tubuh",
-                  "Dekat permukaan kulit"
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "id": "sendi",
-          "title": "Sendi",
-          "estMinutes": 6,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Sendi"
-            },
-            {
-              "type": "text",
-              "text": "Sendi peluru: ke segala arah (bahu, panggul)."
-            },
-            {
-              "type": "text",
-              "text": "Sendi engsel: ke satu arah (siku, lutut)."
-            },
-            {
-              "type": "text",
-              "text": "Sendi pangsi = sendi peluru."
-            }
-          ]
-        },
-        {
-          "id": "sistem-saraf",
-          "title": "Sistem Saraf",
-          "estMinutes": 6,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Sistem Saraf"
-            },
-            {
-              "type": "text",
-              "text": "Gerak refleks: reseptor → saraf sensorik → sumsum tulang belakang → saraf motorik → efektor."
-            }
-          ]
-        },
-        {
-          "id": "sistem-reproduksi",
-          "title": "Sistem Reproduksi Wanita",
-          "estMinutes": 8,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Sistem Reproduksi Wanita"
-            },
-            {
-              "type": "table",
-              "headers": [
+                "No",
                 "Organ",
                 "Fungsi"
               ],
               "rows": [
                 [
+                  "1",
                   "Ovarium",
-                  "Menghasilkan sel telur"
+                  "Menghasilkan sel telur + hormon estrogen"
                 ],
                 [
-                  "Tuba Falopii (Oviduk)",
-                  "Tempat fertilisasi"
+                  "2",
+                  "Tuba Falopii / Oviduk",
+                  "Tempat fertilisasi (pembuahan)"
                 ],
                 [
-                  "Uterus (Rahim)",
+                  "3",
+                  "Uterus / Rahim",
                   "Tempat perkembangan janin"
                 ],
                 [
+                  "4",
                   "Serviks",
-                  "Menghubungkan uterus dan vagina"
+                  "Pintu masuk rahim"
                 ],
                 [
+                  "5",
                   "Vagina",
-                  "Jalan lahir"
+                  "Saluran keluar masuk"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Ovarium = ovum. Tuba falopii = tempat fertilisasi. Uterus = janin tumbuh."
+            }
+          ]
+        },
+        {
+          "id": "penyakit-menular",
+          "title": "Penyakit Menular Seksual",
+          "estMinutes": 5,
+          "content": [
+            {
+              "type": "heading",
+              "text": "PMS & Gangguan Reproduksi",
+              "level": 2
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Penyakit",
+                "Penyebab",
+                "Ciri"
+              ],
+              "rows": [
+                [
+                  "Gonore",
+                  "Bakteri Neisseria gonorrhoeae",
+                  "Kencing nanah, nyeri"
+                ],
+                [
+                  "Sifilis",
+                  "Bakteri Treponema pallidum",
+                  "Luka di organ reproduksi"
+                ],
+                [
+                  "Kandidiasis",
+                  "Jamur Candida",
+                  "Keputihan, gatal, lembab"
+                ],
+                [
+                  "Epididimitis",
+                  "Infeksi bakteri",
+                  "Radang organ reproduksi pria"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Kandidiasis = jamur, keputihan putih kental, gatal. Pencegahan: celana katun, tidak ketat, kering."
+            }
+          ]
+        },
+        {
+          "id": "genetika",
+          "title": "Genetika Dasar",
+          "estMinutes": 8,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Hukum Mendel & Golongan Darah",
+              "level": 2
+            },
+            {
+              "type": "math",
+              "tex": "G = M + m",
+              "display": true
+            },
+            {
+              "type": "text",
+              "text": "G = genotip, M = alel dominan, m = alel resesif"
+            },
+            {
+              "type": "heading",
+              "text": "Golongan Darah",
+              "level": 3
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Golongan",
+                "Genotip"
+              ],
+              "rows": [
+                [
+                  "A",
+                  "IAIA atau IAi"
+                ],
+                [
+                  "B",
+                  "IBIB atau IBi"
+                ],
+                [
+                  "AB",
+                  "IAIB (kodominan)"
+                ],
+                [
+                  "O",
+                  "ii (resesif)"
                 ]
               ]
             },
             {
               "type": "text",
-              "text": "Kandidiasis: infeksi jamur, gejala keputihan. Pencegahan: gunakan celana dalam katun yang menyerap keringat."
+              "text": "Persilangan AB × O: IAIB × ii → 50% A (IAi) + 50% B (IBi)"
+            },
+            {
+              "type": "highlight",
+              "text": "Ujian: Persilangan monohibrid F2 = 3:1 (dominan:resesif). Contoh: bulat × keriput → F1 bulat, F2 = 3 bulat : 1 keriput."
             }
           ]
         }
       ],
-      "flashcards": [],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Ovarium menghasilkan?",
+          "answer": "Sel telur (ovum)"
+        },
+        {
+          "id": "fc2",
+          "question": "Tempat fertilisasi?",
+          "answer": "Tuba falopii / oviduk"
+        },
+        {
+          "id": "fc3",
+          "question": "Kandidiasis disebabkan?",
+          "answer": "Jamur Candida"
+        },
+        {
+          "id": "fc4",
+          "question": "Golongan darah AB × O = anak?",
+          "answer": "50% A, 50% B"
+        },
+        {
+          "id": "fc5",
+          "question": "F2 monohibrid perbandingan?",
+          "answer": "3:1 (dominan:resesif)"
+        }
+      ],
       "quiz": {
-        "questions": []
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Tempat terjadinya fertilisasi adalah...",
+            "options": [
+              "Ovarium",
+              "Tuba falopii",
+              "Uterus",
+              "Vagina"
+            ],
+            "answer": 1,
+            "explanation": "Fertilisasi terjadi di tuba falopii (oviduk)."
+          }
+        ]
       }
     },
     {
-      "id": "genetika",
-      "title": "Genetika",
-      "description": "Hukum Mendel, dominasi, golongan darah, bioteknologi",
+      "id": "makhluk-hidup-dan-ekosistem",
+      "title": "Makhluk Hidup & Ekosistem",
+      "description": "Ciri makhluk hidup, ekosistem, jaring-jaring makanan, dan simbiosis",
       "lessons": [
         {
-          "id": "hukum-mendel",
-          "title": "Hukum Mendel",
-          "estMinutes": 8,
+          "id": "ciri-makhluk-hidup",
+          "title": "Ciri Makhluk Hidup",
+          "estMinutes": 4,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Hukum Mendel"
+              "text": "7 Ciri Makhluk Hidup",
+              "level": 2
             },
             {
-              "type": "text",
-              "text": "Monohibrid: BB x bb → F1 semua Bb (bulat). F1 x F1 → F2: 3 bulat : 1 keriput."
+              "type": "list",
+              "items": [
+                "Bergerak",
+                "Tumbuh",
+                "Berkembang biak",
+                "Makan / memerlukan nutrisi",
+                "Mengeluarkan zat sisa (ekskresi)",
+                "Bernapas / respirasi",
+                "Peka terhadap rangsangan (irritabilitas)"
+              ],
+              "ordered": false
+            },
+            {
+              "type": "highlight",
+              "text": "Ujian: Gambar anak kecil → dewasa = pertumbuhan. Orang teriak melihat matahari = peka rangsangan."
             }
           ]
         },
         {
-          "id": "inkomplet-dominasi",
-          "title": "Inkomplet Dominasi",
-          "estMinutes": 8,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Inkomplet Dominasi"
-            },
-            {
-              "type": "text",
-              "text": "Mawar merah (MM) x mawar putih (mm) → F1 semua merah muda (Mm)."
-            },
-            {
-              "type": "text",
-              "text": "F1 x F1 → F2: 1 merah : 2 merah muda : 1 putih."
-            },
-            {
-              "type": "text",
-              "text": "Genotipe F2: 1 MM : 2 Mm : 1 mm (25% : 50% : 25%)."
-            }
-          ]
-        },
-        {
-          "id": "golongan-darah",
-          "title": "Golongan Darah",
+          "id": "interaksi-makhluk-hidup",
+          "title": "Interaksi Makhluk Hidup",
           "estMinutes": 6,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Golongan Darah"
+              "text": "Simbiosis & Kompetisi",
+              "level": 2
             },
             {
-              "type": "text",
-              "text": "Pria AB (IA IB) x Wanita O (ii) → Anak: 50% A (IA i) dan 50% B (IB i)."
+              "type": "table",
+              "headers": [
+                "Jenis",
+                "Ciri",
+                "Contoh"
+              ],
+              "rows": [
+                [
+                  "Predasi",
+                  "Memangsa",
+                  "Singa memangsa zebra"
+                ],
+                [
+                  "Kompetisi",
+                  "Bersaing sumber daya",
+                  "Sapi dan kambing berebut rumput"
+                ],
+                [
+                  "Mutualisme",
+                  "Saling menguntungkan",
+                  "Lebah dan bunga"
+                ],
+                [
+                  "Parasitisme",
+                  "Satu untung, satu rugi",
+                  "Kutu di kepala manusia"
+                ],
+                [
+                  "Komensalisme",
+                  "Satu untung, satu netral",
+                  "Ikan remora di perut hiu"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Ujian: Benalu di pohon = parasitisme (benalu untung, pohon rugi). Anggrek di pohon = epifit (bukan parasit)."
             }
           ]
         },
         {
-          "id": "bioteknologi",
-          "title": "Bioteknologi",
-          "estMinutes": 10,
+          "id": "jaring-jaring-makanan",
+          "title": "Jaring-Jaring Makanan",
+          "estMinutes": 5,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Bioteknologi"
+              "text": "Peran dalam Ekosistem",
+              "level": 2
             },
             {
-              "type": "text",
-              "text": "Konvensional: fermentasi, mikroorganisme utuh, alat sederhana. Contoh: tempe, tape, keju, yogurt."
+              "type": "table",
+              "headers": [
+                "Peran",
+                "Ciri",
+                "Contoh"
+              ],
+              "rows": [
+                [
+                  "Produsen",
+                  "Fotosintesis, buat makanan sendiri",
+                  "Tumbuhan, rumput, pohon"
+                ],
+                [
+                  "Konsumen I",
+                  "Makan produsen (herbivora)",
+                  "Zebra, kelinci, rusa"
+                ],
+                [
+                  "Konsumen II",
+                  "Makan konsumen I (karnivora/omnivora)",
+                  "Serigala, burung elang"
+                ],
+                [
+                  "Konsumen III",
+                  "Makan konsumen II",
+                  "Singa, harimau"
+                ],
+                [
+                  "Decomposer",
+                  "Mengurai sisa makhluk hidup",
+                  "Jamur, bakteri"
+                ]
+              ]
             },
             {
-              "type": "text",
-              "text": "Modern: rekayasa genetika, manipulasi DNA. Contoh: insulin, domba Dolly (kloning), vaksin."
+              "type": "highlight",
+              "text": "Ujian: Singa = konsumen puncak (bukan produsen!). Rumput = produsen. Zebra = konsumen primer. Jika harimau musnah, populasi kelinci/ruusa naik (tidak ada predator)."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Ciri makhluk hidup: anak kecil → dewasa?",
+          "answer": "Pertumbuhan"
+        },
+        {
+          "id": "fc2",
+          "question": "Lebah dan bunga = simbiosis?",
+          "answer": "Mutualisme"
+        },
+        {
+          "id": "fc3",
+          "question": "Kutu di kepala manusia = simbiosis?",
+          "answer": "Parasitisme"
+        },
+        {
+          "id": "fc4",
+          "question": "Singa di ekosistem = peran?",
+          "answer": "Konsumen puncak / karnivora"
+        },
+        {
+          "id": "fc5",
+          "question": "Produsen = ?",
+          "answer": "Tumbuhan (fotosintesis)"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Jika harimau musnah, yang terjadi adalah...",
+            "options": [
+              "Populasi tumbuhan naik",
+              "Populasi elang naik",
+              "Populasi kelinci naik",
+              "Populasi kijang turun"
+            ],
+            "answer": 2,
+            "explanation": "Tanpa predator (harimau), populasi mangsa (kelinci) akan meningkat."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bioteknologi",
+      "title": "Bioteknologi",
+      "description": "Perbedaan bioteknologi konvensional dan modern, produk fermentasi",
+      "lessons": [
+        {
+          "id": "bioteknologi-konvensional-vs-modern",
+          "title": "Bioteknologi Konvensional vs Modern",
+          "estMinutes": 8,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Perbedaan Kunci (WAJIB UJIAN)",
+              "level": 2
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Aspek",
+                "Konvensional",
+                "Modern"
+              ],
+              "rows": [
+                [
+                  "Prinsip",
+                  "Fermentasi, mikroorganisme utuh",
+                  "Rekayasa genetika, manipulasi DNA/gen"
+                ],
+                [
+                  "Alat",
+                  "Sederhana, tidak steril",
+                  "Canggih, laboratorium steril"
+                ],
+                [
+                  "Skala",
+                  "Kecil (rumah tangga)",
+                  "Besar (industri)"
+                ],
+                [
+                  "Contoh",
+                  "Tempe, tape, yogurt, keju, nata de coco",
+                  "Insulin, domba Dolly, vaksin, padi transgenik"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Ujian: Tempe = konvensional. Domba Dolly = modern (kloning). Insulin dari bakteri rekayasa = modern."
+            }
+          ]
+        },
+        {
+          "id": "produk-fermentasi",
+          "title": "Produk Fermentasi & Mikroorganisme",
+          "estMinutes": 6,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Mikroorganisme dalam Fermentasi",
+              "level": 2
             },
             {
               "type": "table",
               "headers": [
                 "Produk",
-                "Mikroorganisme"
+                "Mikroorganisme",
+                "Jenis"
               ],
               "rows": [
                 [
                   "Tempe",
-                  "Rhizopus oligosporus"
+                  "Rhizopus oligosporus (jamur)",
+                  "Konvensional"
                 ],
                 [
                   "Nata de coco",
-                  "Acetobacter xylinum"
+                  "Acetobacter xylinum (bakteri)",
+                  "Konvensional"
                 ],
                 [
                   "Yogurt",
-                  "Lactobacillus bulgaricus"
+                  "Lactobacillus bulgaricus (bakteri)",
+                  "Konvensional"
                 ],
                 [
-                  "Tape",
-                  "Saccharomyces cerevisiae"
+                  "Tapai",
+                  "Saccharomyces cerevisiae (ragi/jamur)",
+                  "Konvensional"
+                ],
+                [
+                  "Keju",
+                  "Bakteri asam laktat + rennet",
+                  "Konvensional"
+                ],
+                [
+                  "Insulin",
+                  "Bakteri E. coli rekayasa",
+                  "Modern"
+                ],
+                [
+                  "Domba Dolly",
+                  "Kloning sel somatik",
+                  "Modern"
                 ]
               ]
+            },
+            {
+              "type": "highlight",
+              "text": "WAJIB HAFAL: Tempe = Rhizopus oligosporus. Nata de coco = Acetobacter xylinum. Yogurt = Lactobacillus bulgaricus. Tapai = Saccharomyces cerevisiae."
             }
           ]
         }
       ],
-      "flashcards": [],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Tempe dibuat dengan jamur?",
+          "answer": "Rhizopus oligosporus"
+        },
+        {
+          "id": "fc2",
+          "question": "Nata de coco: bakteri?",
+          "answer": "Acetobacter xylinum"
+        },
+        {
+          "id": "fc3",
+          "question": "Yogurt: bakteri?",
+          "answer": "Lactobacillus bulgaricus"
+        },
+        {
+          "id": "fc4",
+          "question": "Tapai: mikroorganisme?",
+          "answer": "Saccharomyces cerevisiae (ragi)"
+        },
+        {
+          "id": "fc5",
+          "question": "Bioteknologi modern: domba Dolly?",
+          "answer": "Ya, kloning (rekayasa genetika)"
+        },
+        {
+          "id": "fc6",
+          "question": "Insulin dari bakteri = bioteknologi?",
+          "answer": "Modern (rekayasa genetika)"
+        }
+      ],
       "quiz": {
-        "questions": []
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Tempe dibuat dengan fermentasi jamur...",
+            "options": [
+              "Saccharomyces cerevisiae",
+              "Rhizopus oligosporus",
+              "Lactobacillus bulgaricus",
+              "Acetobacter xylinum"
+            ],
+            "answer": 1,
+            "explanation": "Tempe menggunakan jamur Rhizopus oligosporus."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Yang termasuk bioteknologi modern adalah...",
+            "options": [
+              "Tempe",
+              "Yogurt",
+              "Domba Dolly",
+              "Nata de coco"
+            ],
+            "answer": 2,
+            "explanation": "Domba Dolly hasil kloning = rekayasa genetika = bioteknologi modern."
+          }
+        ]
       }
     },
     {
-      "id": "penyakit-dan-gangguan",
-      "title": "Penyakit dan Gangguan",
-      "description": "Stroke, diabetes, TBC, kandidiasis",
+      "id": "hewan-dan-tumbuhan",
+      "title": "Hewan & Tumbuhan",
+      "description": "Perbedaan Pisces-Mamalia, Monokotil-Dikotil, dan jaringan daun",
       "lessons": [
         {
-          "id": "penyakit-tubuh",
-          "title": "Penyakit dan Pencegahan",
+          "id": "pisces-vs-mamalia",
+          "title": "Pisces (Ikan) vs Mamalia",
           "estMinutes": 8,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Penyakit dan Pencegahan"
+              "text": "Perbedaan Pisces vs Mamalia (WAJIB)",
+              "level": 2
             },
             {
-              "type": "text",
-              "text": "Stroke: kesulitan berbicara, lumpuh sebagian tubuh."
+              "type": "table",
+              "headers": [
+                "Ciri",
+                "Pisces",
+                "Mamalia"
+              ],
+              "rows": [
+                [
+                  "Penutup tubuh",
+                  "Sisik",
+                  "Rambut / bulu"
+                ],
+                [
+                  "Alat gerak",
+                  "Sirip",
+                  "Kaki / sayap"
+                ],
+                [
+                  "Suhu tubuh",
+                  "Dingin (poikiloterm)",
+                  "Panas (homoioterm)"
+                ],
+                [
+                  "Fertilisasi",
+                  "Eksternal (di luar tubuh)",
+                  "Internal (di dalam tubuh)"
+                ],
+                [
+                  "Reproduksi",
+                  "Ovipar (bertelur)",
+                  "Vivipar (melahirkan)"
+                ],
+                [
+                  "Alat pernapasan",
+                  "Insang",
+                  "Paru-paru"
+                ]
+              ]
             },
             {
-              "type": "text",
-              "text": "Faktor risiko stroke: hipertensi, kolesterol tinggi, obesitas."
-            },
-            {
-              "type": "text",
-              "text": "Pencegahan stroke: olahraga teratur, pola makan sehat, kontrol tekanan darah."
-            },
-            {
-              "type": "text",
-              "text": "Gonore dan sifilis: penyakit menular seksual akibat bakteri."
-            },
-            {
-              "type": "text",
-              "text": "Epididimitis: penyakit organ reproduksi pria."
-            }
-          ]
-        }
-      ],
-      "flashcards": [],
-      "quiz": {
-        "questions": []
-      }
-    },
-    {
-      "id": "zat-aditif",
-      "title": "Zat Aditif",
-      "description": "Pewarna, pemanis, pengawet, penyedap",
-      "lessons": [
-        {
-          "id": "zat-aditif-makanan",
-          "title": "Zat Aditif Makanan",
-          "estMinutes": 6,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Zat Aditif"
-            },
-            {
-              "type": "text",
-              "text": "Tartrazin CI 19140: zat pewarna kuning sintesis."
-            },
-            {
-              "type": "text",
-              "text": "Monosodium glutamat (MSG): penyedap rasa."
-            },
-            {
-              "type": "text",
-              "text": "Garam: pengawet alami."
-            }
-          ]
-        }
-      ],
-      "flashcards": [],
-      "quiz": {
-        "questions": []
-      }
-    },
-    {
-      "id": "bumi-dan-antariksa",
-      "title": "Bumi dan Antariksa",
-      "description": "Revolusi, rotasi, musim",
-      "lessons": [
-        {
-          "id": "revolusi-bumi",
-          "title": "Revolusi Bumi",
-          "estMinutes": 6,
-          "content": [
-            {
-              "type": "heading",
-              "level": 1,
-              "text": "Revolusi Bumi"
-            },
-            {
-              "type": "text",
-              "text": "Bumi mengelilingi matahari (1 tahun = 365 hari). Akibat: perubahan rasi bintang, perbedaan lama siang malam, pergantian musim."
+              "type": "highlight",
+              "text": "Ujian: Ikan = sisik, insang, ovipar, eksternal, dingin. Mamalia = rambut, paru-paru, vivipar, internal, panas."
             }
           ]
         },
         {
-          "id": "rotasi-bumi",
-          "title": "Rotasi Bumi",
+          "id": "monokotil-vs-dikotil",
+          "title": "Monokotil vs Dikotil",
           "estMinutes": 6,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Rotasi Bumi"
+              "text": "Perbedaan Monokotil vs Dikotil",
+              "level": 2
             },
             {
-              "type": "text",
-              "text": "Bumi berputar pada sumbunya (24 jam = 1 hari). Akibat: perbedaan waktu, memampatnya bumi di kutub."
+              "type": "table",
+              "headers": [
+                "Ciri",
+                "Monokotil",
+                "Dikotil"
+              ],
+              "rows": [
+                [
+                  "Akar",
+                  "Serabut",
+                  "Tunggang"
+                ],
+                [
+                  "Batang",
+                  "Tidak berkambium, tidak bercabang",
+                  "Berkambium, bercabang"
+                ],
+                [
+                  "Daun",
+                  "Tulang sejajar / melengkung",
+                  "Tulang menyirip / menjari"
+                ],
+                [
+                  "Bunga",
+                  "Kelipatan 3",
+                  "Kelipatan 4 atau 5"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Contoh: Monokotil = padi, jagung, kelapa, pisang. Dikotil = kacang-kacangan, mangga, jambu."
             }
           ]
-        }
-      ],
-      "flashcards": [],
-      "quiz": {
-        "questions": []
-      }
-    },
-    {
-      "id": "pemisahan-campuran",
-      "title": "Pemisahan Campuran",
-      "description": "Filtrasi dan evaporasi",
-      "lessons": [
+        },
         {
-          "id": "metode-pemisahan",
-          "title": "Metode Pemisahan",
+          "id": "jaringan-daun",
+          "title": "Jaringan Daun",
           "estMinutes": 5,
           "content": [
             {
               "type": "heading",
-              "level": 1,
-              "text": "Pemisahan Campuran"
+              "text": "Jaringan Penyusun Daun",
+              "level": 2
             },
             {
-              "type": "text",
-              "text": "Filtrasi: memisahkan padatan dari cairan (pasir dari air)."
+              "type": "table",
+              "headers": [
+                "Jaringan",
+                "Fungsi"
+              ],
+              "rows": [
+                [
+                  "Epidermis",
+                  "Melindungi jaringan di bawahnya"
+                ],
+                [
+                  "Palisade",
+                  "Tempat fotosintesis (banyak kloroplas)"
+                ],
+                [
+                  "Spongy / Bunga karang",
+                  "Pengangkutan hasil fotosintesis + pertukaran gas"
+                ],
+                [
+                  "Stomata",
+                  "Jalan keluar masuknya udara (O₂ dan CO₂)"
+                ],
+                [
+                  "Xilem",
+                  "Mengangkut air dan mineral"
+                ],
+                [
+                  "Floem",
+                  "Mengangkut hasil fotosintesis (glukosa)"
+                ]
+              ]
             },
             {
-              "type": "text",
-              "text": "Evaporasi: menguapkan air untuk mendapat garam (petani garam)."
+              "type": "highlight",
+              "text": "Ujian: Epidermis = pelindung. Palisade = fotosintesis. Stomata = pertukaran gas. Xilem = air naik. Floem = makanan turun."
             }
           ]
         }
       ],
-      "flashcards": [],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Pisces: penutup tubuh?",
+          "answer": "Sisik"
+        },
+        {
+          "id": "fc2",
+          "question": "Mamalia: reproduksi?",
+          "answer": "Vivipar (melahirkan)"
+        },
+        {
+          "id": "fc3",
+          "question": "Monokotil: akar?",
+          "answer": "Serabut"
+        },
+        {
+          "id": "fc4",
+          "question": "Dikotil: akar?",
+          "answer": "Tunggang"
+        },
+        {
+          "id": "fc5",
+          "question": "Palisade: fungsi?",
+          "answer": "Fotosintesis"
+        },
+        {
+          "id": "fc6",
+          "question": "Epidermis: fungsi?",
+          "answer": "Melindungi"
+        }
+      ],
       "quiz": {
-        "questions": []
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Perbedaan Pisces dan Mamalia: fertilisasi Pisces?",
+            "options": [
+              "Internal",
+              "Eksternal",
+              "Vivipar",
+              "Ovovivipar"
+            ],
+            "answer": 1,
+            "explanation": "Pisces (ikan) fertilisasi eksternal di air. Mamalia internal."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Jaringan tempat fotosintesis di daun?",
+            "options": [
+              "Epidermis",
+              "Palisade",
+              "Xilem",
+              "Floem"
+            ],
+            "answer": 1,
+            "explanation": "Jaringan palisade mengandung banyak kloroplas untuk fotosintesis."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bumi-dan-tata-surya",
+      "title": "Bumi & Tata Surya",
+      "description": "Rotasi, revolusi, dan perubahan musim",
+      "lessons": [
+        {
+          "id": "rotasi-revolusi",
+          "title": "Rotasi vs Revolusi",
+          "estMinutes": 6,
+          "content": [
+            {
+              "type": "heading",
+              "text": "Perbedaan Rotasi & Revolusi",
+              "level": 2
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Aspek",
+                "Rotasi",
+                "Revolusi"
+              ],
+              "rows": [
+                [
+                  "Gerak",
+                  "Bumi berputar pada sumbunya",
+                  "Bumi mengelilingi matahari"
+                ],
+                [
+                  "Waktu",
+                  "24 jam = 1 hari",
+                  "365¼ hari = 1 tahun"
+                ],
+                [
+                  "Akibat",
+                  "Pergantian siang-malam",
+                  "Pergantian musim"
+                ],
+                [
+                  "Lainnya",
+                  "Matahari terbit di timur, tenggelam barat",
+                  "Perbedaan lama siang-malam di belahan bumi"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Ujian: Revolusi = musim + perbedaan lama siang-malam di belahan bumi. Rotasi = siang-malam + matahari terbit/tenggelam."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Rotasi bumi = akibat?",
+          "answer": "Siang-malam"
+        },
+        {
+          "id": "fc2",
+          "question": "Revolusi bumi = akibat?",
+          "answer": "Pergantian musim"
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Pergantian musim disebabkan oleh...",
+            "options": [
+              "Rotasi bumi",
+              "Revolusi bumi",
+              "Gravitasi",
+              "Asteroid"
+            ],
+            "answer": 1,
+            "explanation": "Revolusi bumi mengelilingi matahari menyebabkan pergantian musim."
+          }
+        ]
       }
     }
   ]
