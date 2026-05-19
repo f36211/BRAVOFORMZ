@@ -1,162 +1,465 @@
 {
-  "id": "pendidikan-pancasila-smp",
-  "name": "Pendidikan Pancasila (PP)",
-  "description": "Mata pelajaran Pendidikan Pancasila untuk SMP Kelas IX berdasarkan Kurikulum Merdeka. Mencakup materi sejarah Pancasila, UUD 1945, kebinekaan, persatuan dan kesatuan, hak dan kewajiban warga negara, serta menjaga keutuhan NKRI.",
+  "id": "pendidikan-pancasila",
+  "name": "Pendidikan Pancasila",
+  "description": "Rangkuman lengkap materi PPKn SMP Kelas 7, 8, dan 9: Perumusan Pancasila, UUD 1945, Norma, Hak-Kewajiban, BTI, dan NKRI untuk persiapan Ujian Akhir Sekolah.",
   "grade": [
+    7,
+    8,
     9
   ],
-  "icon": "Shield",
-  "color": "soft",
+  "icon": "Landmark",
+  "color": "red",
   "topics": [
     {
-      "id": "sejarah-pancasila",
-      "title": "Sejarah Pancasila sebagai Dasar Negara",
-      "description": "Mempelajari latar belakang sejarah kelahiran Pancasila, proses perumusan, hingga penetapannya sebagai dasar negara Indonesia.",
+      "id": "perumusan-pancasila",
+      "title": "Perumusan & Penetapan Pancasila sebagai Dasar Negara",
+      "description": "Sejarah perumusan dasar negara oleh tiga tokoh, sidang BPUPKI dan PPKI, Piagam Jakarta, serta penetapan Pancasila pada 18 Agustus 1945.",
       "lessons": [
         {
-          "id": "lesson-sejarah-pancasila-1",
-          "title": "Latar Belakang Kelahiran Pancasila",
-          "estMinutes": 15,
+          "id": "rumusan-tiga-tokoh",
+          "title": "Rumusan Dasar Negara oleh Yamin, Soepomo, dan Soekarno",
+          "estMinutes": 12,
           "content": [
             {
               "type": "heading",
-              "text": "Latar Belakang Sejarah Kelahiran Pancasila"
+              "level": 1,
+              "text": "Tiga Rumusan Dasar Negara"
             },
             {
-              "type": "text",
-              "text": "Pancasila lahir dari proses panjang perjuangan bangsa Indonesia untuk merdeka. Pada masa pendudukan Jepang, kondisi bangsa Indonesia mendorong para tokoh nasional untuk merumuskan dasar negara yang akan menjadi fondasi bangsa merdeka."
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Presiden_Sukarno.jpg/800px-Presiden_Sukarno.jpg",
+              "caption": "Ir. Soekarno memperkenalkan konsep Pancasila pada 1 Juni 1945."
             },
             {
               "type": "heading",
-              "text": "Kondisi Bangsa Sebelum Kemerdekaan"
+              "level": 2,
+              "text": "Inti Materi"
             },
             {
               "type": "text",
-              "text": "Bangsa Indonesia telah lama dijajah oleh bangsa asing, mulai dari Portugis, Belanda (selama 350 tahun), hingga Jepang (1942-1945). Penjajahan ini menimbulkan penderitaan bagi rakyat Indonesia dan menumbuhkan semangat persatuan untuk merdeka."
+              "text": "Tiga tokoh mengusulkan dasar negara sebelum disepakati menjadi Pancasila."
             },
             {
-              "type": "list",
-              "items": [
-                "Penjajahan Belanda selama ± 350 tahun menyebabkan kemiskinan dan kesengsaraan rakyat",
-                "Pendudukan Jepang (1942-1945) membawa sistem kerja paksa (romusha)",
-                "Semangat nasionalisme yang tumbuh melalui Sumpah Pemuda 1928",
-                "Tokoh-tokoh pergerakan nasional mulai merumuskan cita-cita kemerdekaan"
+              "type": "table",
+              "headers": [
+                "Tokoh",
+                "Tanggal",
+                "Usulan"
+              ],
+              "rows": [
+                [
+                  "Moh. Yamin",
+                  "29 Mei 1945",
+                  "1. Peri Kebangsaan, 2. Peri Kemanusiaan, 3. Peri Ketuhanan, 4. Peri Kerakyatan, 5. Kesejahteraan Rakyat"
+                ],
+                [
+                  "Soepomo",
+                  "31 Mei 1945",
+                  "1. Persatuan, 2. Kekeluargaan, 3. Keseimbangan Lahir & Batin, 4. Musyawarah, 5. Keadilan Rakyat"
+                ],
+                [
+                  "Ir. Soekarno",
+                  "1 Juni 1945",
+                  "1. Kebangsaan Indonesia, 2. Internasionalisme, 3. Mufakat/Demokrasi, 4. Kesejahteraan Sosial, 5. Ketuhanan Yang Maha Esa"
+                ]
               ]
             },
             {
-              "type": "heading",
-              "text": "Pembentukan BPUPKI"
-            },
-            {
-              "type": "text",
-              "text": "Pada tanggal 1 Maret 1945, Jepang membentuk Badan Penyelidik Usaha-usaha Persiapan Kemerdekaan Indonesia (BPUPKI) atau dalam bahasa Jepang disebut Dokuritsu Junbi Cosakai. Badan ini bertugas menyelidiki hal-hal yang diperlukan untuk kemerdekaan Indonesia."
-            },
-            {
-              "type": "text",
-              "text": "BPUPKI diketuai oleh Dr. K.R.T. Radjiman Wedyodiningrat dan beranggotakan 62 orang (ditambah kemudian 6 orang). BPUPKI mengadakan dua kali sidang resmi, yaitu sidang pertama pada 29 Mei - 1 Juni 1945 dan sidang kedua pada 10-17 Juli 1945."
+              "type": "highlight",
+              "text": "Soekarno pertama kali mengemukakan istilah 'Pancasila' (dari Sansekerta: panca=lima, sila=sendi/asas) pada 1 Juni 1945."
             }
           ]
         },
         {
-          "id": "lesson-sejarah-pancasila-2",
-          "title": "Proses Perumusan Pancasila",
-          "estMinutes": 20,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Sidang BPUPKI Pertama (29 Mei - 1 Juni 1945)"
-            },
-            {
-              "type": "text",
-              "text": "Sidang pertama BPUPKI membahas tentang dasar negara Indonesia. Tiga tokoh utama mengusulkan rumusan dasar negara, yaitu Mohammad Yamin, Soepomo, dan Ir. Soekarno."
-            },
-            {
-              "type": "heading",
-              "text": "Usulan Mohammad Yamin (29 Mei 1945)"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Peri Kebangsaan",
-                "Peri Kemanusiaan",
-                "Peri Ketuhanan",
-                "Peri Kerakyatan",
-                "Kesejahteraan Rakyat"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Usulan Soepomo (31 Mei 1945)"
-            },
-            {
-              "type": "text",
-              "text": "Soepomo mengusulkan konsep negara integralistik yang tidak memisahkan antara negara dan rakyat. Ia menekankan persatuan antara rakyat dan pemimpinnya, serta pentingnya musyawarah."
-            },
-            {
-              "type": "heading",
-              "text": "Usulan Ir. Soekarno (1 Juni 1945)"
-            },
-            {
-              "type": "text",
-              "text": "Pada tanggal 1 Juni 1945, Ir. Soekarno mengusulkan dasar negara yang diberi nama Pancasila, yang berarti lima dasar atau lima sila. Tanggal ini kemudian diperingati sebagai Hari Lahir Pancasila."
-            },
-            {
-              "type": "list",
-              "items": [
-                "Kebangsaan Indonesia (Nasionalisme)",
-                "Internasionalisme atau Perikemanusiaan",
-                "Mufakat atau Demokrasi",
-                "Kesejahteraan Sosial",
-                "Ketuhanan Yang Maha Esa"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Piagam Jakarta (22 Juni 1945)"
-            },
-            {
-              "type": "text",
-              "text": "Panitia Sembilan yang diketuai Ir. Soekarno berhasil merumuskan naskah Mukaddimah (Pembukaan) UUD yang dikenal sebagai Piagam Jakarta atau Jakarta Charter. Piagam ini memuat rumusan Pancasila yang sedikit berbeda, khususnya pada sila pertama yang berbunyi 'Ketuhanan dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya'."
-            }
-          ]
-        },
-        {
-          "id": "lesson-sejarah-pancasila-3",
-          "title": "Penetapan Pancasila sebagai Dasar Negara",
+          "id": "bpupki-dan-ppki",
+          "title": "Sidang BPUPKI dan PPKI",
           "estMinutes": 15,
           "content": [
             {
               "type": "heading",
-              "text": "Pembentukan PPKI"
+              "level": 1,
+              "text": "BPUPKI dan PPKI"
             },
             {
-              "type": "text",
-              "text": "Setelah BPUPKI dibubarkan, dibentuk Panitia Persiapan Kemerdekaan Indonesia (PPKI) atau Dokuritsu Junbi Iinkai pada 7 Agustus 1945. PPKI diketuai oleh Ir. Soekarno dan wakilnya Drs. Mohammad Hatta."
-            },
-            {
-              "type": "heading",
-              "text": "Sidang PPKI 18 Agustus 1945"
-            },
-            {
-              "type": "text",
-              "text": "Pada sidang PPKI tanggal 18 Agustus 1945, terjadi perubahan penting pada rumusan sila pertama Pancasila. Atas usulan Hatta dan masukan dari tokoh-tokoh dari Indonesia Timur, kalimat 'dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya' dihapus, diganti menjadi 'Ketuhanan Yang Maha Esa'."
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Indonesian_Garuda_Pancasila.svg/800px-Indonesian_Garuda_Pancasila.svg.png",
+              "caption": "Garuda Pancasila, lambang negara yang mencerminkan dasar negara."
             },
             {
               "type": "heading",
-              "text": "Pancasila Resmi sebagai Dasar Negara"
-            },
-            {
-              "type": "text",
-              "text": "Pada tanggal 18 Agustus 1945, PPKI mengesahkan UUD 1945 yang di dalamnya memuat Pancasila sebagai dasar negara. Inilah saat Pancasila resmi menjadi dasar negara Republik Indonesia."
+              "level": 2,
+              "text": "BPUPKI (Dokuritsu Junbi Chosakai)"
             },
             {
               "type": "list",
               "items": [
-                "Ketuhanan Yang Maha Esa",
-                "Kemanusiaan yang Adil dan Beradab",
-                "Persatuan Indonesia",
-                "Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan",
-                "Keadilan Sosial bagi Seluruh Rakyat Indonesia"
+                "Ketua: Dr. Radjiman Wediodiningrat (60 anggota).",
+                "Sidang I (29 Mei – 1 Juni 1945): Membahas dasar negara. Hasil: pembentukan Panitia Sembilan.",
+                "Sidang II (10 – 16 Juli 1945): Membahas rancangan UUD, bentuk negara, wilayah, kewarganegaraan."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "PPKI (Dokuritsu Junbi Inkai)"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Ketua: Ir. Soekarno (27 anggota).",
+                "Sidang I (18 Agustus 1945): Mengesahkan UUD 1945, menetapkan Pancasila sebagai dasar negara, memilih Soekarno-Hatta sebagai Presiden-Wakil Presiden, membentuk KNIP.",
+                "Sidang II (19 Agustus 1945): Membagi wilayah menjadi 8 provinsi, membentuk kementerian.",
+                "Sidang III (22 Agustus 1945): Membentuk PNI, Barisan Nasional, KNIP resmi sebagai DPR sementara."
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Tanggal 18 Agustus 1945 adalah penetapan yuridis Pancasila sebagai dasar negara. Tanggal 1 Juni diperingati sebagai Hari Lahir Pancasila."
+            }
+          ]
+        },
+        {
+          "id": "piagam-jakarta",
+          "title": "Piagam Jakarta dan Perubahan Sila Pertama",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Piagam Jakarta vs Pembukaan UUD 1945"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/800px-Flag_of_Indonesia.svg.png",
+              "caption": "Bendera Indonesia, simbol perjuangan merumuskan dasar negara."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Perbedaan Rumusan"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "No",
+                "Piagam Jakarta (22 Juni 1945)",
+                "Pembukaan UUD 1945 (18 Agustus 1945)"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Ketuhanan dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya",
+                  "Ketuhanan Yang Maha Esa"
+                ],
+                [
+                  "2",
+                  "Kemanusiaan yang adil dan beradab",
+                  "Kemanusiaan yang adil dan beradab"
+                ],
+                [
+                  "3",
+                  "Persatuan Indonesia",
+                  "Persatuan Indonesia"
+                ],
+                [
+                  "4",
+                  "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan",
+                  "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan"
+                ],
+                [
+                  "5",
+                  "Keadilan sosial bagi seluruh rakyat Indonesia",
+                  "Keadilan sosial bagi seluruh rakyat Indonesia"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Perubahan sila pertama dipicu oleh keberatan J. Latuharhary (wakil Indonesia Timur) yang disampaikan kepada Drs. Moh. Hatta. Hasil: kata 'dengan kewajiban...' dihapus dan diubah menjadi 'Ketuhanan Yang Maha Esa' agar mencerminkan persatuan tanpa mendiskriminasikan agama."
+            },
+            {
+              "type": "highlight",
+              "text": "Perubahan ini menunjukkan semangat: memahami pihak lain, mengutamakan persatuan, dan tidak memaksakan kehendak."
+            }
+          ]
+        },
+        {
+          "id": "fungsi-pancasila",
+          "title": "Fungsi dan Kedudukan Pancasila",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Fungsi Pancasila dalam Kehidupan Berbangsa"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Inti Materi"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Dasar Negara: Fundamen penyelenggaraan negara (alinea keempat Pembukaan UUD 1945).",
+                "Ideologi Negara: Cita-cita bersama, pemersatu perbedaan suku/agama, arah pembangunan.",
+                "Sumber Hukum: Dasar hukum tertinggi, tolak ukur sah/tidaknya peraturan.",
+                "Pandangan Hidup: Pedoman bertindak sehari-hari, pegangan moral sosial-politik-budaya.",
+                "Kepribadian Bangsa: Ciri-ciri bangsa yang membedakan dengan bangsa lain.",
+                "Moral Pembangunan: Tolak ukur perencanaan, pelaksanaan, pengawasan, evaluasi nasional."
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Jika Indonesia tidak memiliki dasar negara Pancasila, negara tidak memiliki arah dan tujuan yang jelas (mudah dipecah belah)."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Kapan Pancasila disahkan sebagai dasar negara secara yuridis?",
+          "answer": "18 Agustus 1945 oleh PPKI."
+        },
+        {
+          "id": "fc2",
+          "question": "Siapa yang pertama kali mengemukakan istilah Pancasila?",
+          "answer": "Ir. Soekarno pada 1 Juni 1945."
+        },
+        {
+          "id": "fc3",
+          "question": "Apa arti kata Pancasila dalam bahasa Sansekerta?",
+          "answer": "Panca = lima, Sila = sendi/asas."
+        },
+        {
+          "id": "fc4",
+          "question": "Kapan Piagam Jakarta dirumuskan?",
+          "answer": "22 Juni 1945 oleh Panitia Sembilan."
+        },
+        {
+          "id": "fc5",
+          "question": "Siapa ketua BPUPKI?",
+          "answer": "Dr. Radjiman Wediodiningrat."
+        },
+        {
+          "id": "fc6",
+          "question": "Apa perubahan pada sila pertama Piagam Jakarta?",
+          "answer": "Dari 'Ketuhanan dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya' menjadi 'Ketuhanan Yang Maha Esa'."
+        },
+        {
+          "id": "fc7",
+          "question": "Siapa yang menyampaikan keberatan terhadap sila pertama Piagam Jakarta?",
+          "answer": "J. Latuharhary (wakil Indonesia Timur) kepada Drs. Moh. Hatta."
+        },
+        {
+          "id": "fc8",
+          "question": "Apa fungsi Pancasila sebagai ideologi negara?",
+          "answer": "Menjadi cita-cita bersama, pemersatu bangsa, dan arah pembangunan nasional."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Dasar Negara Indonesia yang sah dan benar tercantum di dalam...",
+            "options": [
+              "Piagam Jakarta",
+              "Dasar negara usulan M. Yamin",
+              "Dasar negara usulan Ir. Soekarno",
+              "Alinea keempat Pembukaan UUD 1945"
+            ],
+            "answer": 3,
+            "explanation": "Secara yuridis, Pancasila sebagai dasar negara tertuang dalam alinea keempat Pembukaan UUD NRI Tahun 1945."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Tanggal berapa Pancasila secara yuridis menjadi dasar negara Indonesia yang sah?",
+            "options": [
+              "1 Juni 1945",
+              "17 Agustus 1945",
+              "18 Agustus 1945",
+              "10 Oktober 1945"
+            ],
+            "answer": 2,
+            "explanation": "PPKI mengesahkan UUD 1945 dan menetapkan Pancasila sebagai dasar negara pada 18 Agustus 1945."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Hasil sidang PPKI 18 Agustus 1945 ditunjukkan oleh angka...",
+            "options": [
+              "1, 2, dan 3",
+              "2, 3, dan 4",
+              "2, 4, dan 5",
+              "3, 4, dan 5"
+            ],
+            "answer": 2,
+            "explanation": "Hasil: (2) Menetapkan dan mengesahkan UUD, (4) Membentuk Komite Nasional, (5) Memilih presiden dan wakil presiden. Poin (1) dan (3) adalah tugas BPUPKI."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Sidang BPUPKI I dan II membahas...",
+            "options": [
+              "Piagam Jakarta / Pancasila",
+              "UUD 1945 / Pancasila",
+              "Pancasila / UUD 1945",
+              "Pancasila / UU Cipta Kerja"
+            ],
+            "answer": 2,
+            "explanation": "Sidang I (29 Mei-1 Juni 1945) membahas dasar negara (Pancasila). Sidang II (10-16 Juli 1945) membahas rancangan UUD 1945."
+          },
+          {
+            "id": "q5",
+            "type": "multiple_choice",
+            "question": "Fungsi Pancasila sebagai moral pembangunan ditunjukkan oleh pernyataan...",
+            "options": [
+              "Menjadi cita-cita bersama bangsa",
+              "Menjadi tolak ukur pembangunan nasional",
+              "Menjadi pedoman administratif",
+              "Menjadi simbol identitas bangsa"
+            ],
+            "answer": 1,
+            "explanation": "Sebagai moral pembangunan, Pancasila menjadi tolak ukur dalam perencanaan, pelaksanaan, pengawasan, dan evaluasi pembangunan nasional."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Makna Bhinneka Tunggal Ika dan Pancasila mencerminkan...",
+            "options": [
+              "Eksklusivitas dan diskriminasi",
+              "Dominasi satu agama",
+              "Persatuan dalam keberagaman dan menghormati hak individu",
+              "Tidak relevan dalam konteks modern"
+            ],
+            "answer": 2,
+            "explanation": "Keduanya mengutamakan persatuan dalam keberagaman serta menghormati hak-hak individu."
+          }
+        ]
+      }
+    },
+    {
+      "id": "norma-dan-keadilan",
+      "title": "Norma, Keadilan, dan Kebebasan Berpendapat",
+      "description": "Jenis-jenis norma dalam masyarakat, sanksi, contoh perbuatan, kearifan lokal, serta kebebasan berpendapat.",
+      "lessons": [
+        {
+          "id": "jenis-norma",
+          "title": "Jenis-jenis Norma dan Sanksinya",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Empat Jenis Norma dalam Masyarakat"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Mahkamah_Konstitusi_Indonesia.jpg/800px-Mahkamah_Konstitusi_Indonesia.jpg",
+              "caption": "Lembaga peradilan sebagai penegak norma hukum."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tabel Norma"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Jenis Norma",
+                "Sumber",
+                "Sanksi",
+                "Contoh Perbuatan"
+              ],
+              "rows": [
+                [
+                  "Agama",
+                  "Tuhan",
+                  "Dosa / masuk neraka",
+                  "Salat, berdoa, beribadah"
+                ],
+                [
+                  "Kesusilaan",
+                  "Hati nurani",
+                  "Penyesalan / rasa bersalah",
+                  "Jujur, tidak berbohong"
+                ],
+                [
+                  "Kesopanan",
+                  "Tata pergaulan masyarakat",
+                  "Dikucilkan / dicemooh",
+                  "Bertegur sapa, hormati orang tua"
+                ],
+                [
+                  "Hukum",
+                  "Pemerintah / negara",
+                  "Penjara / denda",
+                  "Mematuhi lalu lintas, bayar pajak"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Unsur-unsur Norma"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Aturan/ketentuan dalam masyarakat.",
+                "Bersifat mengikat setiap warga.",
+                "Panduan, tatanan, dan kendali tingkah laku.",
+                "Terdapat konsekuensi sanksi jika dilanggar."
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Norma yang termasuk hukum tertulis (konstitusi) adalah Norma Hukum. Norma Agama dan Kesusilaan bersumber dari dalam diri (Tuhan/hati nurani)."
+            }
+          ]
+        },
+        {
+          "id": "kebebasan-berpendapat",
+          "title": "Kebebasan Berpendapat dan Kearifan Lokal",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Kebebasan Berpendapat"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Indonesian_students_protest.jpg/800px-Indonesian_students_protest.jpg",
+              "caption": "Warga negara menyampaikan aspirasi secara damai."
+            },
+            {
+              "type": "text",
+              "text": "Hak setiap individu untuk mencari, menerima, dan menyampaikan informasi/ide tanpa intervensi. Diatur dalam Pasal 28E ayat 3 UUD 1945."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Menyampaikan kritik melalui artikel/media.",
+                "Demonstrasi damai di ruang publik.",
+                "Petisi publik (digital/tertulis).",
+                "Karya seni (karikatur, lagu, teater).",
+                "Diskusi akademik/seminar."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kearifan Lokal"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Sasi (Maluku & Papua): Larangan adat mengambil hasil alam tertentu dalam jangka waktu tertentu untuk menjaga kelestarian ekosistem.",
+                "Pela Gandong (Maluku): Ikatan persaudaraan adat antar desa berbeda agama untuk menjaga perdamaian dan saling membantu."
               ]
             }
           ]
@@ -164,975 +467,405 @@
       ],
       "flashcards": [
         {
-          "id": "fc-sp-1",
-          "question": "Apa kepanjangan dari BPUPKI?",
-          "answer": "Badan Penyelidik Usaha-usaha Persiapan Kemerdekaan Indonesia"
+          "id": "fc1",
+          "question": "Apa sumber Norma Agama?",
+          "answer": "Tuhan."
         },
         {
-          "id": "fc-sp-2",
-          "question": "Kapan BPUPKI dibentuk?",
-          "answer": "1 Maret 1945"
+          "id": "fc2",
+          "question": "Apa sanksi pelanggaran Norma Kesusilaan?",
+          "answer": "Penyesalan atau rasa bersalah."
         },
         {
-          "id": "fc-sp-3",
-          "question": "Siapa ketua BPUPKI?",
-          "answer": "Dr. K.R.T. Radjiman Wedyodiningrat"
+          "id": "fc3",
+          "question": "Apa contoh pelanggaran Norma Kesopanan?",
+          "answer": "Tidak bertegur sapa, menghina orang lain, berbicara kasar."
         },
         {
-          "id": "fc-sp-4",
-          "question": "Siapa yang pertama kali mengusulkan nama Pancasila?",
-          "answer": "Ir. Soekarno pada tanggal 1 Juni 1945"
+          "id": "fc4",
+          "question": "Apa sanksi pelanggaran Norma Hukum?",
+          "answer": "Penjara, denda, atau kurungan."
         },
         {
-          "id": "fc-sp-5",
-          "question": "Apa isi Piagam Jakarta yang kemudian diubah?",
-          "answer": "Sila pertama yang berbunyi 'Ketuhanan dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya' diubah menjadi 'Ketuhanan Yang Maha Esa'"
+          "id": "fc5",
+          "question": "Norma yang sanksinya 'dikucilkan' adalah?",
+          "answer": "Norma Kesopanan."
         },
         {
-          "id": "fc-sp-6",
-          "question": "Kapan Pancasila ditetapkan secara resmi sebagai dasar negara?",
-          "answer": "18 Agustus 1945, saat PPKI mengesahkan UUD 1945"
+          "id": "fc6",
+          "question": "Apa pasal UUD 1945 yang menjamin kebebasan berpendapat?",
+          "answer": "Pasal 28E ayat 3."
         },
         {
-          "id": "fc-sp-7",
-          "question": "Apa nama Panitia yang merumuskan Piagam Jakarta?",
-          "answer": "Panitia Sembilan, diketuai Ir. Soekarno"
+          "id": "fc7",
+          "question": "Apa itu Sasi?",
+          "answer": "Larangan adat mengambil hasil alam di darat/laut dalam jangka waktu tertentu untuk menjaga kelestarian."
         },
         {
-          "id": "fc-sp-8",
-          "question": "Tanggal berapa yang diperingati sebagai Hari Lahir Pancasila?",
-          "answer": "1 Juni 1945"
+          "id": "fc8",
+          "question": "Apa itu Pela Gandong?",
+          "answer": "Ikatan persaudaraan adat antar desa berbeda agama di Maluku untuk perdamaian."
         }
       ],
       "quiz": {
         "questions": [
           {
-            "id": "q-sp-1",
+            "id": "q1",
             "type": "multiple_choice",
-            "question": "Siapa tokoh yang mengusulkan nama 'Pancasila' sebagai dasar negara Indonesia?",
+            "question": "Pasangan jenis norma, sumber, dan sanksi yang benar adalah...",
             "options": [
-              "Mohammad Yamin",
-              "Soepomo",
-              "Ir. Soekarno",
-              "Drs. Mohammad Hatta"
+              "Kesopanan-Hati Nurani-Dicemooh",
+              "Kesusilaan-Tata Pergaulan-Dikucilkan",
+              "Hukum-Pemerintah-Penjara/Denda",
+              "Agama-Tuhan-Dikucilkan"
             ],
             "answer": 2,
-            "explanation": "Ir. Soekarno pada tanggal 1 Juni 1945 mengusulkan nama Pancasila sebagai dasar negara, yang berarti lima dasar atau lima sila."
+            "explanation": "Norma Hukum bersumber dari Pemerintah/Negara dengan sanksi penjara/denda. Norma Agama = Tuhan (dosa), Kesusilaan = hati nurani (penyesalan), Kesopanan = masyarakat (dikucilkan)."
           },
           {
-            "id": "q-sp-2",
+            "id": "q2",
             "type": "multiple_choice",
-            "question": "Kapan BPUPKI dibentuk oleh Jepang?",
+            "question": "Norma yang termasuk hukum tertulis (konstitusi) terdapat pada nomor...",
             "options": [
-              "1 Maret 1945",
-              "29 Mei 1945",
-              "1 Juni 1945",
-              "18 Agustus 1945"
-            ],
-            "answer": 0,
-            "explanation": "BPUPKI dibentuk oleh Jepang pada tanggal 1 Maret 1945 untuk menyelidiki hal-hal yang diperlukan dalam persiapan kemerdekaan Indonesia."
-          },
-          {
-            "id": "q-sp-3",
-            "type": "multiple_choice",
-            "question": "Apa yang diubah dalam Piagam Jakarta sebelum menjadi rumusan Pancasila final?",
-            "options": [
-              "Sila Kemanusiaan yang Adil dan Beradab",
-              "Sila Persatuan Indonesia",
-              "Kalimat 'dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya' pada sila pertama",
-              "Sila Keadilan Sosial bagi Seluruh Rakyat Indonesia"
+              "1 dan 2",
+              "1 dan 3",
+              "1 dan 4",
+              "2 dan 4"
             ],
             "answer": 2,
-            "explanation": "Pada sidang PPKI 18 Agustus 1945, kalimat 'dengan kewajiban menjalankan syariat Islam bagi pemeluk-pemeluknya' pada sila pertama dihapus demi menjaga persatuan bangsa yang beragam."
+            "explanation": "Norma Agama (1) dan Norma Hukum (4) memiliki aturan tertulis. Norma Kesusilaan dan Kesopanan tidak tertulis."
           },
           {
-            "id": "q-sp-4",
+            "id": "q3",
             "type": "multiple_choice",
-            "question": "Siapa ketua BPUPKI?",
+            "question": "Unsur-unsur norma menunjukkan pengertian...",
             "options": [
-              "Ir. Soekarno",
-              "Drs. Mohammad Hatta",
-              "Dr. K.R.T. Radjiman Wedyodiningrat",
-              "Mohammad Yamin"
+              "Nilai",
+              "Norma",
+              "Logika",
+              "Persepsi"
             ],
-            "answer": 2,
-            "explanation": "Dr. K.R.T. Radjiman Wedyodiningrat adalah ketua BPUPKI."
+            "answer": 1,
+            "explanation": "Unsur: aturan dalam masyarakat, mengikat, panduan tingkah laku, dan ada sanksi. Ini adalah pengertian norma."
           },
           {
-            "id": "q-sp-5",
+            "id": "q4",
             "type": "multiple_choice",
-            "question": "Pada tanggal berapa PPKI mengesahkan UUD 1945 yang memuat Pancasila sebagai dasar negara?",
+            "question": "Pernyataan yang termasuk wujud kebebasan berpendapat adalah...",
             "options": [
-              "1 Juni 1945",
-              "17 Agustus 1945",
-              "18 Agustus 1945",
-              "22 Juni 1945"
+              "(1), (2), dan (4)",
+              "(1), (3), dan (4)",
+              "(2), (3), dan (4)",
+              "(1), (2), dan (3)"
+            ],
+            "answer": 1,
+            "explanation": "(1) Menyampaikan aspirasi via unjuk rasa, (3) Mengemukakan pendapat di kelas, (4) Menjadi pengurus organisasi. (2) Mengikuti pemilum adalah kewajiban/kewarganegaraan."
+          },
+          {
+            "id": "q5",
+            "type": "multiple_choice",
+            "question": "Perilaku membantu korban kecelakaan termasuk pelaksanaan norma...",
+            "options": [
+              "Adat",
+              "Hukum",
+              "Kesusilaan",
+              "Kesopanan"
             ],
             "answer": 2,
-            "explanation": "PPKI mengesahkan UUD 1945 pada tanggal 18 Agustus 1945, sehingga Pancasila resmi menjadi dasar negara Indonesia."
+            "explanation": "Menolong orang lain merupakan kewajiban moral yang bersumber dari hati nurani, yaitu Norma Kesusilaan."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Jika seluruh warga sekolah mematuhi tata tertib, akan tercipta...",
+            "options": [
+              "Keamanan",
+              "Keteraturan",
+              "Kepatuhan",
+              "Keselamatan"
+            ],
+            "answer": 1,
+            "explanation": "Kepatuhan terhadap tata tertib sekolah (seragam, piket, upacara) akan menciptakan keteraturan di lingkungan sekolah."
           }
         ]
       }
     },
     {
       "id": "uud-1945",
-      "title": "UUD NRI Tahun 1945 sebagai Sumber Hukum Tertinggi",
-      "description": "Memahami perumusan, penetapan, periodisasi pemberlakuan, dan amandemen UUD NRI Tahun 1945 sebagai konstitusi negara Indonesia.",
+      "title": "UUD Negara Republik Indonesia Tahun 1945",
+      "description": "Sistematika UUD 1945, hierarki perundang-undangan, Trias Politika, dan kedudukan UUD sebagai konstitusi dan negara hukum.",
       "lessons": [
         {
-          "id": "lesson-uud-1",
-          "title": "Perumusan dan Penetapan UUD NRI Tahun 1945",
-          "estMinutes": 15,
+          "id": "sistematika-uud",
+          "title": "Sistematika dan Bagian UUD 1945",
+          "estMinutes": 10,
           "content": [
             {
               "type": "heading",
-              "text": "Pengertian UUD NRI Tahun 1945"
+              "level": 1,
+              "text": "Bagian-bagian UUD 1945"
             },
             {
-              "type": "text",
-              "text": "Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (UUD NRI 1945) adalah hukum dasar tertulis yang menjadi landasan konstitusional penyelenggaraan negara Indonesia. UUD 1945 merupakan sumber dari segala sumber hukum di Indonesia."
-            },
-            {
-              "type": "heading",
-              "text": "Proses Perumusan UUD 1945"
-            },
-            {
-              "type": "text",
-              "text": "UUD 1945 dirumuskan dalam sidang kedua BPUPKI (10-17 Juli 1945) oleh Panitia Hukum Dasar yang diketuai Ir. Soekarno. Panitia Kecil yang diketuai Soepomo bertugas merancang batang tubuh UUD."
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Indonesian_Constitution_1945.pdf/page1-800px-Indonesian_Constitution_1945.pdf.jpg",
+              "caption": "Naskah UUD Negara RI Tahun 1945."
             },
             {
               "type": "heading",
-              "text": "Penetapan UUD 1945"
-            },
-            {
-              "type": "text",
-              "text": "UUD 1945 disahkan oleh PPKI pada tanggal 18 Agustus 1945. Struktur UUD 1945 terdiri dari Pembukaan (Preambule) yang memuat Pancasila, Batang Tubuh yang berisi 37 pasal, 4 pasal Aturan Peralihan, dan 2 ayat Aturan Tambahan."
-            },
-            {
-              "type": "heading",
-              "text": "Sistematika UUD 1945 Sebelum Amandemen"
+              "level": 2,
+              "text": "Sebelum Amandemen"
             },
             {
               "type": "list",
               "items": [
-                "Pembukaan (Preambule) - 4 alinea",
-                "Batang Tubuh - 16 Bab, 37 Pasal",
-                "Aturan Peralihan - 4 Pasal",
-                "Aturan Tambahan - 2 Ayat",
-                "Penjelasan UUD 1945"
+                "1. Pembukaan (Preambule / Mukaddimah)",
+                "2. Batang Tubuh (Pasal-pasal)",
+                "3. Penjelasan",
+                "4. Aturan Tambahan"
               ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Setelah Amandemen"
+            },
+            {
+              "type": "list",
+              "items": [
+                "1. Pembukaan",
+                "2. Batang Tubuh (Pasal-pasal yang telah diamandemen)"
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Penjelasan dan Aturan Tambahan tetap ada sebagai dokumen penjelasan historis namun tidak lagi merupakan bagian resmi konstitusi setelah amandemen."
+            },
+            {
+              "type": "highlight",
+              "text": "Preambule = nama lain Pembukaan dari bahasa Belanda. Mukaddimah = nama lain dalam bahasa Arab."
             }
           ]
         },
         {
-          "id": "lesson-uud-2",
-          "title": "Periodisasi Pemberlakuan UUD dan Amandemen",
-          "estMinutes": 20,
+          "id": "hierarki-perundangan",
+          "title": "Hierarki Perundang-undangan",
+          "estMinutes": 10,
           "content": [
             {
               "type": "heading",
-              "text": "Periodisasi Pemberlakuan UUD di Indonesia"
+              "level": 1,
+              "text": "Urutan Peraturan Perundang-undangan"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/800px-Flag_of_Indonesia.svg.png",
+              "caption": "Hukum nasional berlandaskan UUD 1945 sebagai hukum tertinggi."
             },
             {
               "type": "list",
               "items": [
-                "18 Agustus 1945 - 27 Desember 1949: UUD 1945 berlaku pertama kali",
-                "27 Desember 1949 - 17 Agustus 1950: Konstitusi RIS (Republik Indonesia Serikat) berlaku",
-                "17 Agustus 1950 - 5 Juli 1959: UUDS (UUD Sementara) 1950 berlaku",
-                "5 Juli 1959 - sekarang: UUD 1945 berlaku kembali berdasarkan Dekrit Presiden 5 Juli 1959"
+                "1. UUD Negara RI Tahun 1945",
+                "2. TAP MPR",
+                "3. UU / Perppu (Peraturan Pemerintah Pengganti Undang-Undang)",
+                "4. Peraturan Pemerintah (PP)",
+                "5. Peraturan Presiden (Perpres)",
+                "6. Peraturan Daerah Provinsi (Perprov)",
+                "7. Peraturan Daerah Kabupaten/Kota (Perkot/Perkab)"
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "UUD 1945 merupakan hukum positif tertinggi dan alat kontrol terhadap norma-norma hukum positif yang lebih rendah."
+            }
+          ]
+        },
+        {
+          "id": "trias-politika",
+          "title": "Trias Politika dan Negara Hukum",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Trias Politika dan Lembaga Negara"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/DPR_RI_Building.jpg/800px-DPR_RI_Building.jpg",
+              "caption": "Gedung DPR RI, lembaga legislatif dalam sistem ketatanegaraan Indonesia."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Tiga Cabang Kekuasaan"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Cabang",
+                "Fungsi",
+                "Lembaga"
+              ],
+              "rows": [
+                [
+                  "Legislatif",
+                  "Membuat undang-undang",
+                  "DPR, MPR, DPD"
+                ],
+                [
+                  "Eksekutif",
+                  "Melaksanakan undang-undang",
+                  "Presiden, Wapres, Menteri"
+                ],
+                [
+                  "Yudikatif",
+                  "Mengadili pelanggaran hukum",
+                  "Mahkamah Agung, Mahkamah Konstitusi"
+                ],
+                [
+                  "Eksaminatif",
+                  "Memeriksa keuangan negara",
+                  "BPK (berstatus independen)"
+                ]
               ]
             },
             {
               "type": "heading",
-              "text": "Amandemen UUD 1945"
+              "level": 2,
+              "text": "Indonesia sebagai Negara Hukum"
             },
             {
               "type": "text",
-              "text": "Setelah Reformasi 1998, UUD 1945 mengalami empat kali amandemen oleh MPR untuk menyesuaikan dengan perkembangan zaman dan kebutuhan demokrasi."
+              "text": "Pasal 1 ayat (3) UUD 1945: 'Indonesia adalah negara hukum.' Artinya: seluruh sendi kehidupan bermasyarakat, berbangsa, dan bernegara harus berdasarkan aturan hukum yang berlaku."
             },
             {
-              "type": "list",
-              "items": [
-                "Amandemen I (19 Oktober 1999): Membatasi kekuasaan presiden, memperkuat kedudukan DPR",
-                "Amandemen II (18 Agustus 2000): Pemerintahan daerah, DPR, HAM, pertahanan",
-                "Amandemen III (9 November 2001): Kedaulatan rakyat, MPR, presiden/wakil presiden, MK, KY",
-                "Amandemen IV (10 Agustus 2002): DPD, pendidikan, perekonomian, pemilihan presiden langsung"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Kedudukan UUD 1945"
-            },
-            {
-              "type": "text",
-              "text": "UUD 1945 merupakan hukum tertinggi dalam hierarki peraturan perundang-undangan Indonesia. Semua peraturan di bawahnya tidak boleh bertentangan dengan UUD 1945. Jika ada undang-undang yang bertentangan, Mahkamah Konstitusi (MK) dapat membatalkannya."
+              "type": "highlight",
+              "text": "Konsep Trias Politika berasal dari Montesquieu (Prancis) dalam buku 'The Spirit of Laws' (1748) untuk mencegah kekuasaan absolut melalui checks and balances."
             }
           ]
         }
       ],
       "flashcards": [
         {
-          "id": "fc-uud-1",
-          "question": "Kapan UUD 1945 disahkan oleh PPKI?",
-          "answer": "18 Agustus 1945"
+          "id": "fc1",
+          "question": "Apa nama lain Pembukaan UUD 1945 dalam bahasa Belanda?",
+          "answer": "Preambule."
         },
         {
-          "id": "fc-uud-2",
+          "id": "fc2",
+          "question": "Apa nama lain Pembukaan UUD 1945 dalam bahasa Arab?",
+          "answer": "Mukaddimah."
+        },
+        {
+          "id": "fc3",
           "question": "Berapa kali UUD 1945 diamandemen?",
-          "answer": "Empat kali (1999, 2000, 2001, 2002)"
+          "answer": "4 kali (1999-2002)."
         },
         {
-          "id": "fc-uud-3",
-          "question": "Apa yang dimaksud dengan Dekrit Presiden 5 Juli 1959?",
-          "answer": "Keputusan Presiden Soekarno untuk kembali berlakunya UUD 1945 dan membubarkan Konstituante"
+          "id": "fc4",
+          "question": "Apa kedudukan UUD 1945 dalam hierarki hukum?",
+          "answer": "Hukum positif tertinggi / konstitusi."
         },
         {
-          "id": "fc-uud-4",
-          "question": "Apa fungsi Mahkamah Konstitusi berkaitan dengan UUD 1945?",
-          "answer": "Menguji undang-undang terhadap UUD 1945 (judicial review) dan membatalkan UU yang bertentangan dengan UUD 1945"
+          "id": "fc5",
+          "question": "Sebutkan 3 cabang Trias Politika!",
+          "answer": "Legislatif, Eksekutif, Yudikatif."
         },
         {
-          "id": "fc-uud-5",
-          "question": "Konstitusi apa yang berlaku saat Indonesia menjadi Republik Indonesia Serikat?",
-          "answer": "Konstitusi RIS (Republik Indonesia Serikat), berlaku 27 Desember 1949 - 17 Agustus 1950"
+          "id": "fc6",
+          "question": "Lembaga eksaminatif di Indonesia adalah?",
+          "answer": "BPK (Badan Pemeriksa Keuangan)."
         },
         {
-          "id": "fc-uud-6",
-          "question": "Apa saja yang terdapat dalam Pembukaan UUD 1945?",
-          "answer": "Empat alinea yang memuat dasar dan tujuan negara, serta Pancasila sebagai dasar negara"
+          "id": "fc7",
+          "question": "Pasal berapa yang menyatakan Indonesia adalah negara hukum?",
+          "answer": "Pasal 1 ayat (3)."
+        },
+        {
+          "id": "fc8",
+          "question": "Siapa penggagas Trias Politika?",
+          "answer": "Montesquieu (Prancis), 1748."
         }
       ],
       "quiz": {
         "questions": [
           {
-            "id": "q-uud-1",
+            "id": "q1",
             "type": "multiple_choice",
-            "question": "UUD NRI Tahun 1945 disahkan oleh PPKI pada tanggal...",
+            "question": "Hukum dasar tertulis Negara Indonesia disebut juga...",
             "options": [
-              "17 Agustus 1945",
-              "18 Agustus 1945",
-              "1 Juni 1945",
-              "22 Juni 1945"
-            ],
-            "answer": 1,
-            "explanation": "PPKI mengesahkan UUD NRI Tahun 1945 pada tanggal 18 Agustus 1945, sehari setelah Proklamasi Kemerdekaan Indonesia."
-          },
-          {
-            "id": "q-uud-2",
-            "type": "multiple_choice",
-            "question": "Berapa kali UUD 1945 mengalami amandemen setelah Reformasi 1998?",
-            "options": [
-              "2 kali",
-              "3 kali",
-              "4 kali",
-              "5 kali"
+              "Norma",
+              "Konvensi",
+              "Konstitusi",
+              "Dasar negara"
             ],
             "answer": 2,
-            "explanation": "UUD 1945 mengalami 4 kali amandemen, yaitu pada tahun 1999, 2000, 2001, dan 2002."
+            "explanation": "UUD 1945 merupakan konstitusi (hukum dasar tertulis) pertama Indonesia yang lengkap."
           },
           {
-            "id": "q-uud-3",
+            "id": "q2",
             "type": "multiple_choice",
-            "question": "Konstitusi apa yang berlaku di Indonesia antara 27 Desember 1949 sampai 17 Agustus 1950?",
+            "question": "Sistematika UUD 1945 setelah amandemen ditunjukkan oleh nomor...",
             "options": [
-              "UUD 1945",
-              "UUDS 1950",
-              "Konstitusi RIS",
-              "Piagam Jakarta"
-            ],
-            "answer": 2,
-            "explanation": "Pada periode 27 Desember 1949 - 17 Agustus 1950, Indonesia berbentuk negara federal (RIS) dengan Konstitusi RIS sebagai hukum dasarnya."
-          },
-          {
-            "id": "q-uud-4",
-            "type": "multiple_choice",
-            "question": "Lembaga negara yang berwenang menguji undang-undang terhadap UUD 1945 adalah...",
-            "options": [
-              "Mahkamah Agung",
-              "Mahkamah Konstitusi",
-              "Komisi Yudisial",
-              "Dewan Perwakilan Rakyat"
-            ],
-            "answer": 1,
-            "explanation": "Mahkamah Konstitusi (MK) berwenang melakukan judicial review, yaitu menguji undang-undang terhadap UUD 1945."
-          }
-        ]
-      }
-    },
-    {
-      "id": "kebinekaan-indonesia",
-      "title": "Kebinekaan Indonesia",
-      "description": "Menghormati dan menghargai keragaman suku, agama, ras, dan antargolongan (SARA) dalam bingkai Bhinneka Tunggal Ika.",
-      "lessons": [
-        {
-          "id": "lesson-kebinekaan-1",
-          "title": "Keberagaman Bangsa Indonesia",
-          "estMinutes": 15,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Indonesia sebagai Negara Multikultural"
-            },
-            {
-              "type": "text",
-              "text": "Indonesia adalah negara kepulauan terbesar di dunia dengan lebih dari 17.000 pulau, 1.340 suku bangsa, 746 bahasa daerah, dan 6 agama yang diakui negara. Keberagaman ini merupakan kekayaan sekaligus tantangan bagi bangsa Indonesia."
-            },
-            {
-              "type": "heading",
-              "text": "Bentuk Keberagaman di Indonesia"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Suku Bangsa: Jawa, Sunda, Batak, Minangkabau, Bugis, Dayak, Papua, dll",
-                "Agama: Islam, Kristen Protestan, Kristen Katolik, Hindu, Buddha, Konghucu",
-                "Ras: Ras Melayu, Ras Papua, Ras Melanesia, dll",
-                "Bahasa: Bahasa Indonesia (resmi) + 746 bahasa daerah",
-                "Adat Istiadat: Beragam tradisi dan budaya dari Sabang sampai Merauke"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Bhinneka Tunggal Ika"
-            },
-            {
-              "type": "text",
-              "text": "Semboyan 'Bhinneka Tunggal Ika' berasal dari Kitab Sutasoma karangan Mpu Tantular pada masa Kerajaan Majapahit. Artinya 'Berbeda-beda tetapi tetap satu jua'. Semboyan ini mencerminkan semangat persatuan di tengah perbedaan."
-            },
-            {
-              "type": "heading",
-              "text": "Faktor Penyebab Keberagaman Indonesia"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Letak geografis Indonesia yang strategis di antara dua benua dan dua samudra",
-                "Kondisi alam yang berbeda-beda di tiap daerah",
-                "Sejarah perkembangan masyarakat yang berbeda",
-                "Pengaruh kebudayaan dari luar (Hindu, Buddha, Islam, Barat)"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "lesson-kebinekaan-2",
-          "title": "Menghargai Keberagaman dalam Kehidupan",
-          "estMinutes": 12,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Sikap Menghargai Keberagaman"
-            },
-            {
-              "type": "text",
-              "text": "Dalam kehidupan bermasyarakat yang beragam, diperlukan sikap yang tepat agar keberagaman menjadi kekuatan, bukan perpecahan. Sikap yang harus dikembangkan antara lain toleransi, saling menghormati, dan gotong royong."
-            },
-            {
-              "type": "heading",
-              "text": "Toleransi"
-            },
-            {
-              "type": "text",
-              "text": "Toleransi adalah sikap menghormati dan menghargai perbedaan pendapat, keyakinan, dan cara hidup orang lain. Toleransi bukan berarti membenarkan semua hal, melainkan memberi ruang bagi orang lain untuk menjalankan keyakinannya tanpa mengganggu orang lain."
-            },
-            {
-              "type": "heading",
-              "text": "Perilaku yang Mencerminkan Penghargaan terhadap Keberagaman"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Menghormati teman yang berbeda agama saat beribadah",
-                "Tidak memandang rendah budaya daerah lain",
-                "Berteman tanpa memandang suku atau ras",
-                "Menggunakan bahasa Indonesia sebagai bahasa pemersatu",
-                "Berpartisipasi dalam kegiatan budaya daerah lain",
-                "Menolak sikap diskriminatif dan rasisme"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Ancaman terhadap Kebinekaan"
-            },
-            {
-              "type": "text",
-              "text": "Keberagaman Indonesia dapat terancam oleh sikap etnosentrisme (menganggap budaya sendiri lebih baik), primordialisme (mendahulukan kepentingan kelompok), fanatisme berlebihan, dan provokasi SARA (Suku, Agama, Ras, Antargolongan)."
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc-kb-1",
-          "question": "Apa arti Bhinneka Tunggal Ika?",
-          "answer": "Berbeda-beda tetapi tetap satu jua"
-        },
-        {
-          "id": "fc-kb-2",
-          "question": "Dari kitab apa semboyan Bhinneka Tunggal Ika berasal?",
-          "answer": "Kitab Sutasoma karangan Mpu Tantular pada masa Kerajaan Majapahit"
-        },
-        {
-          "id": "fc-kb-3",
-          "question": "Berapa jumlah suku bangsa yang ada di Indonesia?",
-          "answer": "Lebih dari 1.340 suku bangsa"
-        },
-        {
-          "id": "fc-kb-4",
-          "question": "Berapa jumlah bahasa daerah yang ada di Indonesia?",
-          "answer": "Lebih dari 746 bahasa daerah"
-        },
-        {
-          "id": "fc-kb-5",
-          "question": "Apa yang dimaksud dengan toleransi?",
-          "answer": "Sikap menghormati dan menghargai perbedaan pendapat, keyakinan, dan cara hidup orang lain"
-        },
-        {
-          "id": "fc-kb-6",
-          "question": "Apa yang dimaksud dengan etnosentrisme?",
-          "answer": "Sikap menganggap budaya atau suku sendiri lebih baik dari budaya atau suku lain"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q-kb-1",
-            "type": "multiple_choice",
-            "question": "Semboyan 'Bhinneka Tunggal Ika' berasal dari kitab...",
-            "options": [
-              "Kitab Negarakertagama",
-              "Kitab Sutasoma",
-              "Kitab Ramayana",
-              "Kitab Mahabharata"
-            ],
-            "answer": 1,
-            "explanation": "Bhinneka Tunggal Ika berasal dari Kitab Sutasoma karangan Mpu Tantular pada masa Kerajaan Majapahit."
-          },
-          {
-            "id": "q-kb-2",
-            "type": "multiple_choice",
-            "question": "Sikap menganggap budaya sendiri lebih baik dari budaya orang lain disebut...",
-            "options": [
-              "Toleransi",
-              "Primordialisme",
-              "Etnosentrisme",
-              "Nasionalisme"
-            ],
-            "answer": 2,
-            "explanation": "Etnosentrisme adalah sikap menganggap budaya atau kelompok etnis sendiri lebih unggul dibanding kelompok lain, yang dapat mengancam persatuan."
-          },
-          {
-            "id": "q-kb-3",
-            "type": "multiple_choice",
-            "question": "Manakah yang merupakan contoh perilaku menghargai keberagaman?",
-            "options": [
-              "Hanya berteman dengan orang yang sesuku",
-              "Menolak makanan dari daerah lain",
-              "Menghormati teman yang sedang beribadah",
-              "Mengejek bahasa daerah orang lain"
-            ],
-            "answer": 2,
-            "explanation": "Menghormati teman yang sedang beribadah merupakan wujud nyata dari sikap toleransi dan penghargaan terhadap keberagaman agama."
-          },
-          {
-            "id": "q-kb-4",
-            "type": "multiple_choice",
-            "question": "Indonesia memiliki lebih dari berapa suku bangsa?",
-            "options": [
-              "500 suku bangsa",
-              "1.000 suku bangsa",
-              "1.340 suku bangsa",
-              "2.000 suku bangsa"
-            ],
-            "answer": 2,
-            "explanation": "Indonesia memiliki lebih dari 1.340 suku bangsa yang tersebar dari Sabang sampai Merauke."
-          }
-        ]
-      }
-    },
-    {
-      "id": "persatuan-kesatuan-nkri",
-      "title": "Persatuan dan Kesatuan dalam Bingkai NKRI",
-      "description": "Memahami pentingnya persatuan dan kesatuan dalam NKRI, wilayah Indonesia, dan upaya mempertahankan keutuhan bangsa.",
-      "lessons": [
-        {
-          "id": "lesson-pkn-1",
-          "title": "Indonesia sebagai Negara Kesatuan",
-          "estMinutes": 15,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Pengertian Negara Kesatuan"
-            },
-            {
-              "type": "text",
-              "text": "Negara Kesatuan Republik Indonesia (NKRI) adalah negara yang berdaulat tunggal, dimana pemerintah pusat memegang kekuasaan tertinggi. Berbeda dengan negara federal, NKRI tidak memiliki negara-negara bagian yang berdaulat."
-            },
-            {
-              "type": "heading",
-              "text": "Wilayah Indonesia"
-            },
-            {
-              "type": "text",
-              "text": "Wilayah Indonesia membentang dari Sabang (Aceh) di ujung barat hingga Merauke (Papua) di ujung timur, dan dari Pulau Miangas di utara hingga Pulau Rote di selatan. Indonesia terdiri dari lebih dari 17.000 pulau dengan luas sekitar 5,2 juta km² (darat + laut)."
-            },
-            {
-              "type": "list",
-              "items": [
-                "Luas daratan: ± 1,9 juta km²",
-                "Luas lautan: ± 3,3 juta km²",
-                "Jumlah pulau: lebih dari 17.000 pulau",
-                "Pulau terbesar: Kalimantan, Sumatera, Papua, Sulawesi, Jawa"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Dasar Hukum NKRI"
-            },
-            {
-              "type": "text",
-              "text": "NKRI diatur dalam Pasal 1 Ayat (1) UUD 1945 yang menyatakan 'Negara Indonesia ialah Negara Kesatuan yang berbentuk Republik'. Bentuk NKRI tidak dapat diubah karena merupakan salah satu hal yang dikecualikan dari amandemen UUD 1945."
-            }
-          ]
-        },
-        {
-          "id": "lesson-pkn-2",
-          "title": "Pentingnya Persatuan dan Kesatuan",
-          "estMinutes": 12,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Mengapa Persatuan dan Kesatuan Penting?"
-            },
-            {
-              "type": "text",
-              "text": "Persatuan dan kesatuan bangsa adalah syarat mutlak bagi kelangsungan hidup negara Indonesia. Tanpa persatuan, bangsa yang beragam seperti Indonesia akan mudah dipecah belah dan melemah."
-            },
-            {
-              "type": "heading",
-              "text": "Manfaat Persatuan dan Kesatuan"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Memperkuat pertahanan dan keamanan negara",
-                "Memperlancar pembangunan nasional",
-                "Menciptakan kehidupan masyarakat yang harmonis",
-                "Meningkatkan daya saing bangsa di kancah internasional",
-                "Menjaga stabilitas politik dan sosial"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Upaya Mempertahankan Persatuan dan Kesatuan"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Menjunjung tinggi semangat Bhinneka Tunggal Ika",
-                "Menghindari sikap primordialisme dan etnosentrisme",
-                "Berpartisipasi dalam kegiatan yang mempererat persaudaraan",
-                "Menghormati perbedaan pendapat secara demokratis",
-                "Mencintai produk dalam negeri",
-                "Menjaga ketertiban dan keamanan lingkungan",
-                "Ikut serta dalam bela negara"
-              ]
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc-pkn-1",
-          "question": "Apa bunyi Pasal 1 Ayat 1 UUD 1945 tentang bentuk negara?",
-          "answer": "Negara Indonesia ialah Negara Kesatuan yang berbentuk Republik"
-        },
-        {
-          "id": "fc-pkn-2",
-          "question": "Dari mana sampai ke mana wilayah Indonesia membentang dari barat ke timur?",
-          "answer": "Dari Sabang (Aceh) di ujung barat hingga Merauke (Papua) di ujung timur"
-        },
-        {
-          "id": "fc-pkn-3",
-          "question": "Berapa luas wilayah daratan Indonesia?",
-          "answer": "Sekitar 1,9 juta km²"
-        },
-        {
-          "id": "fc-pkn-4",
-          "question": "Sebutkan 3 upaya mempertahankan persatuan dan kesatuan NKRI!",
-          "answer": "Menjunjung Bhinneka Tunggal Ika, menghindari primordialisme, berpartisipasi dalam kegiatan yang mempererat persaudaraan"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q-pkn-1",
-            "type": "multiple_choice",
-            "question": "Pasal berapa dalam UUD 1945 yang menyatakan Indonesia adalah Negara Kesatuan yang berbentuk Republik?",
-            "options": [
-              "Pasal 1 Ayat (1)",
-              "Pasal 2 Ayat (1)",
-              "Pasal 3 Ayat (1)",
-              "Pasal 4 Ayat (1)"
+              "1 dan 2",
+              "2 dan 3",
+              "3 dan 4",
+              "4 dan 1"
             ],
             "answer": 0,
-            "explanation": "Pasal 1 Ayat (1) UUD 1945 menyatakan: 'Negara Indonesia ialah Negara Kesatuan yang berbentuk Republik'."
+            "explanation": "Setelah amandemen, UUD 1945 secara resmi terdiri dari Pembukaan (1) dan Batang Tubuh (2). Penjelasan dan Aturan Tambahan bukan bagian resmi konstitusi."
           },
           {
-            "id": "q-pkn-2",
+            "id": "q3",
             "type": "multiple_choice",
-            "question": "Manakah yang BUKAN merupakan upaya mempertahankan persatuan dan kesatuan NKRI?",
+            "question": "UUD 1945 merupakan alat kontrol terhadap norma hukum positif yang lebih rendah. Ini menunjukkan UUD berkedudukan sebagai...",
             "options": [
-              "Menjunjung tinggi semangat Bhinneka Tunggal Ika",
-              "Menghindari sikap primordialisme",
-              "Mengutamakan kepentingan suku sendiri di atas kepentingan bangsa",
-              "Berpartisipasi dalam kegiatan yang mempererat persaudaraan"
+              "Norma",
+              "Hukum internasional",
+              "Peninggalan penjajah",
+              "Hukum positif yang tertinggi"
             ],
-            "answer": 2,
-            "explanation": "Mengutamakan kepentingan suku sendiri (primordialisme) merupakan tindakan yang mengancam persatuan, bukan upaya mempertahankannya."
+            "answer": 3,
+            "explanation": "UUD 1945 adalah hukum positif tertinggi yang mengontrol peraturan di bawahnya."
           },
           {
-            "id": "q-pkn-3",
+            "id": "q4",
             "type": "multiple_choice",
-            "question": "Wilayah Indonesia membentang dari ujung barat hingga ujung timur, yaitu dari...",
+            "question": "Susunan urutan peraturan perundang-undangan dari tertinggi hingga terendah adalah...",
             "options": [
-              "Sabang sampai Ambon",
-              "Sabang sampai Merauke",
-              "Aceh sampai Bali",
-              "Sumatera sampai Papua"
+              "1-2-3-4-5-6-7",
+              "3-6-7-4-5-2-1",
+              "3-7-4-2-5-1-6",
+              "3-6-5-4-1-2-7"
             ],
             "answer": 1,
-            "explanation": "Wilayah Indonesia membentang dari Sabang (ujung barat, Aceh) sampai Merauke (ujung timur, Papua)."
-          }
-        ]
-      }
-    },
-    {
-      "id": "pancasila-dasar-negara",
-      "title": "Pancasila sebagai Dasar Negara",
-      "description": "Memahami kedudukan dan fungsi Pancasila dalam kehidupan berbangsa dan bernegara serta menghayati pentingnya nilai-nilai Pancasila.",
-      "lessons": [
-        {
-          "id": "lesson-pdn-1",
-          "title": "Kedudukan dan Fungsi Pancasila",
-          "estMinutes": 15,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Kedudukan Pancasila"
-            },
-            {
-              "type": "text",
-              "text": "Pancasila memiliki kedudukan yang sangat penting dalam kehidupan berbangsa dan bernegara Indonesia. Pancasila merupakan ideologi bangsa, dasar negara, pandangan hidup bangsa, dan sumber dari segala sumber hukum."
-            },
-            {
-              "type": "heading",
-              "text": "Fungsi Pancasila"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Dasar Negara: landasan penyelenggaraan pemerintahan dan kehidupan berbangsa",
-                "Ideologi Bangsa: cita-cita dan tujuan hidup bangsa Indonesia",
-                "Pandangan Hidup Bangsa: pedoman berperilaku dalam kehidupan sehari-hari",
-                "Jiwa Kepribadian Bangsa: ciri khas yang membedakan bangsa Indonesia dengan bangsa lain",
-                "Sumber Hukum: semua peraturan hukum harus bersumber dan tidak boleh bertentangan dengan Pancasila",
-                "Perjanjian Luhur Bangsa: hasil kesepakatan para pendiri bangsa saat mendirikan negara"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Nilai-nilai dalam Setiap Sila Pancasila"
-            },
-            {
-              "type": "text",
-              "text": "Setiap sila Pancasila mengandung nilai-nilai yang harus dihayati dan diamalkan dalam kehidupan sehari-hari."
-            },
-            {
-              "type": "list",
-              "items": [
-                "Sila 1 - Ketuhanan: toleransi, menghormati perbedaan agama, taat beribadah",
-                "Sila 2 - Kemanusiaan: menghargai HAM, adil, tolong-menolong",
-                "Sila 3 - Persatuan: cinta tanah air, rela berkorban, mengutamakan kepentingan bangsa",
-                "Sila 4 - Kerakyatan: musyawarah mufakat, menghargai pendapat orang lain",
-                "Sila 5 - Keadilan Sosial: gotong royong, tidak boros, bekerja keras"
-              ]
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc-pdn-1",
-          "question": "Sebutkan 6 fungsi Pancasila bagi bangsa Indonesia!",
-          "answer": "Dasar negara, ideologi bangsa, pandangan hidup, jiwa kepribadian bangsa, sumber hukum, dan perjanjian luhur bangsa"
-        },
-        {
-          "id": "fc-pdn-2",
-          "question": "Apa yang dimaksud Pancasila sebagai sumber hukum?",
-          "answer": "Semua peraturan hukum di Indonesia harus bersumber dan tidak boleh bertentangan dengan nilai-nilai Pancasila"
-        },
-        {
-          "id": "fc-pdn-3",
-          "question": "Nilai apa yang terkandung dalam Sila ke-3 Pancasila?",
-          "answer": "Cinta tanah air, rela berkorban, dan mengutamakan kepentingan bangsa di atas kepentingan pribadi atau golongan"
-        },
-        {
-          "id": "fc-pdn-4",
-          "question": "Apa yang dimaksud Pancasila sebagai perjanjian luhur?",
-          "answer": "Pancasila merupakan hasil kesepakatan para pendiri bangsa (founding fathers) saat mendirikan negara Indonesia"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q-pdn-1",
-            "type": "multiple_choice",
-            "question": "Pancasila sebagai 'sumber dari segala sumber hukum' berarti...",
-            "options": [
-              "Pancasila adalah undang-undang tertinggi",
-              "Semua peraturan hukum tidak boleh bertentangan dengan Pancasila",
-              "Pancasila dibuat oleh lembaga hukum",
-              "Hanya hakim yang wajib memahami Pancasila"
-            ],
-            "answer": 1,
-            "explanation": "Pancasila sebagai sumber dari segala sumber hukum berarti semua peraturan perundang-undangan di Indonesia harus bersumber dan tidak boleh bertentangan dengan nilai-nilai Pancasila."
+            "explanation": "Urutan: 3.UUD, 6.TAP MPR, 7.UU/Perppu, 4.PP, 5.Perpres, 2.Perda Provinsi, 1.Perda Kab/Kota."
           },
           {
-            "id": "q-pdn-2",
+            "id": "q5",
             "type": "multiple_choice",
-            "question": "Perilaku musyawarah mufakat dalam mengambil keputusan merupakan pengamalan sila ke...",
+            "question": "UUD 1945 mengatur kekuasaan negara agar sesuai cita-cita negara. Ini menunjukkan UUD berfungsi sebagai...",
             "options": [
-              "Sila ke-1",
-              "Sila ke-2",
-              "Sila ke-4",
-              "Sila ke-5"
+              "Penentu hak warga negara",
+              "Alat kontrol jabatan",
+              "Pilar kebangsaan",
+              "Pengatur kekuasaan negara"
             ],
-            "answer": 2,
-            "explanation": "Musyawarah mufakat merupakan pengamalan Sila ke-4 yaitu 'Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan'."
+            "answer": 3,
+            "explanation": "UUD mengatur pembagian kekuasaan (Trias Politika) agar tercipta checks and balances dan clean governance."
           },
           {
-            "id": "q-pdn-3",
+            "id": "q6",
             "type": "multiple_choice",
-            "question": "Manakah yang termasuk pengamalan Sila ke-2 Pancasila?",
+            "question": "Hubungan proklamasi kemerdekaan dengan Pembukaan UUD 1945 adalah...",
             "options": [
-              "Rajin beribadah sesuai agama",
-              "Menghargai hak asasi manusia",
-              "Cinta tanah air",
-              "Gemar gotong royong"
+              "Adanya jasa Ir. Soekarno",
+              "Peristiwa Rengasdengklok",
+              "Mendorong proklamasi 17 Agustus",
+              "Pembukaan UUD menjadi pertanggungjawaban terhadap proklamasi"
             ],
-            "answer": 1,
-            "explanation": "Menghargai Hak Asasi Manusia (HAM) merupakan pengamalan Sila ke-2, yaitu 'Kemanusiaan yang Adil dan Beradab'."
-          }
-        ]
-      }
-    },
-    {
-      "id": "lembaga-negara",
-      "title": "Lembaga Penyelenggara Negara",
-      "description": "Memahami fungsi lembaga penyelenggara negara dan sistem pemerintahan, serta kewenangan pemerintahan pusat, provinsi, kabupaten dan kota.",
-      "lessons": [
-        {
-          "id": "lesson-ln-1",
-          "title": "Lembaga-Lembaga Negara Indonesia",
-          "estMinutes": 20,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Sistem Ketatanegaraan Indonesia"
-            },
-            {
-              "type": "text",
-              "text": "Setelah amandemen UUD 1945, Indonesia memiliki tiga cabang kekuasaan yang saling mengimbangi (checks and balances): kekuasaan legislatif, eksekutif, dan yudikatif."
-            },
-            {
-              "type": "heading",
-              "text": "Lembaga Legislatif"
-            },
-            {
-              "type": "list",
-              "items": [
-                "MPR (Majelis Permusyawaratan Rakyat): mengubah UUD, melantik presiden/wakil presiden",
-                "DPR (Dewan Perwakilan Rakyat): membuat undang-undang, fungsi anggaran, fungsi pengawasan",
-                "DPD (Dewan Perwakilan Daerah): mengajukan dan membahas RUU terkait otonomi daerah"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Lembaga Eksekutif"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Presiden: kepala negara dan kepala pemerintahan, dipilih langsung oleh rakyat",
-                "Wakil Presiden: membantu presiden dalam menjalankan tugas",
-                "Kementerian Negara: membantu presiden dalam bidang tertentu"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Lembaga Yudikatif"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Mahkamah Agung (MA): mengadili pada tingkat kasasi, menguji peraturan di bawah UU",
-                "Mahkamah Konstitusi (MK): menguji UU terhadap UUD, memutus sengketa kewenangan lembaga negara",
-                "Komisi Yudisial (KY): mengusulkan hakim agung, menjaga martabat hakim"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Lembaga Independen"
-            },
-            {
-              "type": "list",
-              "items": [
-                "BPK (Badan Pemeriksa Keuangan): memeriksa pengelolaan keuangan negara",
-                "KPK (Komisi Pemberantasan Korupsi): menyelidiki dan menuntut kasus korupsi",
-                "KPU (Komisi Pemilihan Umum): menyelenggarakan pemilu",
-                "Bawaslu: mengawasi penyelenggaraan pemilu"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "lesson-ln-2",
-          "title": "Pemerintahan Pusat dan Daerah",
-          "estMinutes": 15,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Otonomi Daerah"
-            },
-            {
-              "type": "text",
-              "text": "Otonomi daerah adalah hak, wewenang, dan kewajiban daerah untuk mengatur dan mengurus sendiri urusan pemerintahan dan kepentingan masyarakat setempat. Dasar hukumnya adalah UU No. 23 Tahun 2014 tentang Pemerintahan Daerah."
-            },
-            {
-              "type": "heading",
-              "text": "Kewenangan Pemerintah Pusat"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Politik luar negeri dan pertahanan keamanan",
-                "Moneter dan fiskal nasional",
-                "Agama",
-                "Peradilan dan hukum nasional",
-                "Penegakan HAM"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Kewenangan Pemerintah Provinsi"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Urusan lintas kabupaten/kota dalam satu provinsi",
-                "Pendidikan menengah (SMA/SMK)",
-                "Perizinan investasi skala provinsi",
-                "Pengelolaan wilayah laut sampai 12 mil"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Kewenangan Pemerintah Kabupaten/Kota"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Pendidikan dasar (SD/SMP)",
-                "Kesehatan tingkat dasar (puskesmas)",
-                "Infrastruktur jalan lokal",
-                "Perizinan usaha skala kecil-menengah",
-                "Pengelolaan lingkungan hidup lokal"
-              ]
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc-ln-1",
-          "question": "Apa tugas utama MPR?",
-          "answer": "Mengubah dan menetapkan UUD, serta melantik dan memberhentikan Presiden/Wakil Presiden"
-        },
-        {
-          "id": "fc-ln-2",
-          "question": "Apa perbedaan fungsi MA dan MK?",
-          "answer": "MA mengadili pada tingkat kasasi dan menguji peraturan di bawah UU, sedangkan MK menguji UU terhadap UUD 1945"
-        },
-        {
-          "id": "fc-ln-3",
-          "question": "Apa yang dimaksud otonomi daerah?",
-          "answer": "Hak, wewenang, dan kewajiban daerah untuk mengatur dan mengurus sendiri urusan pemerintahan sesuai kepentingan masyarakat setempat"
-        },
-        {
-          "id": "fc-ln-4",
-          "question": "Lembaga negara apa yang bertugas memeriksa pengelolaan keuangan negara?",
-          "answer": "BPK (Badan Pemeriksa Keuangan)"
-        },
-        {
-          "id": "fc-ln-5",
-          "question": "Pendidikan tingkat SMA/SMK menjadi kewenangan pemerintah di tingkat apa?",
-          "answer": "Pemerintah Provinsi"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q-ln-1",
-            "type": "multiple_choice",
-            "question": "Lembaga negara yang berwenang menguji Undang-Undang terhadap UUD 1945 adalah...",
-            "options": [
-              "Mahkamah Agung (MA)",
-              "Mahkamah Konstitusi (MK)",
-              "Komisi Yudisial (KY)",
-              "Dewan Perwakilan Rakyat (DPR)"
-            ],
-            "answer": 1,
-            "explanation": "Mahkamah Konstitusi (MK) berwenang untuk menguji undang-undang terhadap UUD 1945 (judicial review)."
-          },
-          {
-            "id": "q-ln-2",
-            "type": "multiple_choice",
-            "question": "Pendidikan dasar (SD/SMP) merupakan kewenangan pemerintah di tingkat...",
-            "options": [
-              "Pemerintah Pusat",
-              "Pemerintah Provinsi",
-              "Pemerintah Kabupaten/Kota",
-              "Pemerintah Desa"
-            ],
-            "answer": 2,
-            "explanation": "Sesuai UU Pemerintahan Daerah, pendidikan dasar (SD dan SMP) dikelola oleh pemerintah kabupaten/kota."
-          },
-          {
-            "id": "q-ln-3",
-            "type": "multiple_choice",
-            "question": "Manakah yang termasuk kewenangan PEMERINTAH PUSAT?",
-            "options": [
-              "Pengelolaan pendidikan SMA",
-              "Perizinan usaha kecil-menengah",
-              "Politik luar negeri dan pertahanan",
-              "Pengelolaan jalan lokal"
-            ],
-            "answer": 2,
-            "explanation": "Politik luar negeri dan pertahanan/keamanan adalah urusan absolut pemerintah pusat yang tidak dapat diserahkan kepada daerah."
-          },
-          {
-            "id": "q-ln-4",
-            "type": "multiple_choice",
-            "question": "DPD (Dewan Perwakilan Daerah) memiliki fungsi utama untuk...",
-            "options": [
-              "Memilih presiden dan wakil presiden",
-              "Mengajukan dan membahas RUU terkait otonomi daerah",
-              "Mengadili sengketa pemilu",
-              "Memeriksa keuangan negara"
-            ],
-            "answer": 1,
-            "explanation": "DPD berfungsi mengajukan dan membahas RUU yang berkaitan dengan otonomi daerah, hubungan pusat dan daerah, serta kepentingan daerah."
+            "answer": 3,
+            "explanation": "Pembukaan UUD 1945 merupakan perwujudan pertanggungjawaban terhadap proklamasi melalui penetapan dasar negara, tujuan negara, dan cita-cita negara."
           }
         ]
       }
@@ -1140,791 +873,817 @@
     {
       "id": "hak-kewajiban-warga-negara",
       "title": "Hak dan Kewajiban Warga Negara",
-      "description": "Memahami hak-hak konstitusional warga negara, kewajiban yang harus dipenuhi, dan hubungan timbal balik antara hak dan kewajiban.",
+      "description": "Pengertian hak dan kewajiban menurut tokoh ahli, hak serta kewajiban warga negara menurut UUD 1945, dan keseimbangannya.",
       "lessons": [
         {
-          "id": "lesson-hkwn-1",
-          "title": "Hak Warga Negara",
-          "estMinutes": 15,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Pengertian Hak Warga Negara"
-            },
-            {
-              "type": "text",
-              "text": "Hak warga negara adalah segala sesuatu yang harus didapatkan warga negara dari negara (pemerintah). Hak warga negara diatur dalam UUD 1945 terutama pada Pasal 27-34."
-            },
-            {
-              "type": "heading",
-              "text": "Hak-hak Warga Negara dalam UUD 1945"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Hak atas pekerjaan dan penghidupan yang layak (Pasal 27 Ayat 2)",
-                "Hak untuk berserikat, berkumpul, dan mengeluarkan pendapat (Pasal 28)",
-                "Hak atas kebebasan beragama dan beribadat (Pasal 29 Ayat 2)",
-                "Hak atas pendidikan (Pasal 31)",
-                "Hak untuk mengembangkan kebudayaan (Pasal 32)",
-                "Hak atas jaminan sosial (Pasal 34)",
-                "Hak atas perlindungan diri pribadi, keluarga, kehormatan, dan martabat (Pasal 28G)"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Hak Asasi Manusia (HAM)"
-            },
-            {
-              "type": "text",
-              "text": "HAM adalah hak dasar yang dimiliki setiap manusia sejak lahir, bersifat universal dan tidak dapat dicabut oleh siapapun. Di Indonesia, HAM diatur dalam Pasal 28A-28J UUD 1945 (hasil amandemen kedua tahun 2000)."
-            }
-          ]
-        },
-        {
-          "id": "lesson-hkwn-2",
-          "title": "Kewajiban Warga Negara",
+          "id": "pengertian-hak-kewajiban",
+          "title": "Pengertian Hak dan Kewajiban menurut Tokoh",
           "estMinutes": 12,
           "content": [
             {
               "type": "heading",
-              "text": "Kewajiban Warga Negara"
+              "level": 1,
+              "text": "Definisi menurut Ahli"
             },
             {
-              "type": "text",
-              "text": "Kewajiban warga negara adalah segala sesuatu yang harus dilaksanakan warga negara terhadap negara. Kewajiban ini bersifat memaksa dan ada sanksi bagi yang melanggarnya."
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Indonesian_diversity.jpg/800px-Indonesian_diversity.jpg",
+              "caption": "Warga negara Indonesia memiliki hak dan kewajiban yang setara."
             },
             {
               "type": "heading",
-              "text": "Kewajiban Warga Negara dalam UUD 1945"
+              "level": 2,
+              "text": "Kewajiban"
             },
             {
-              "type": "list",
-              "items": [
-                "Wajib menjunjung hukum dan pemerintahan (Pasal 27 Ayat 1)",
-                "Wajib ikut serta dalam upaya bela negara (Pasal 27 Ayat 3 & Pasal 30)",
-                "Wajib menghormati hak asasi manusia orang lain (Pasal 28J Ayat 1)",
-                "Wajib mengikuti pendidikan dasar (Pasal 31 Ayat 2)",
-                "Wajib membayar pajak"
+              "type": "table",
+              "headers": [
+                "Tokoh",
+                "Definisi Kewajiban"
+              ],
+              "rows": [
+                [
+                  "Srijanti",
+                  "Suatu keharusan yang harus dilaksanakan tanpa alasan apapun."
+                ],
+                [
+                  "John Salmond",
+                  "Suatu hal yang harus dikerjakan; jika tidak, memperoleh sanksi."
+                ],
+                [
+                  "Frederick Pollock",
+                  "Sesuatu yang bisa mengikat antar dua orang/lebih secara hukum."
+                ],
+                [
+                  "Soerjono Soekanto",
+                  "Dibagi 5 jenis: mutlak, publik, positif, universal, primer."
+                ],
+                [
+                  "Curzon",
+                  "Dibagi 5 jenis: mutlak, primer, universal, positif, publik."
+                ]
               ]
             },
             {
               "type": "heading",
-              "text": "Hubungan Hak dan Kewajiban"
+              "level": 2,
+              "text": "Hak"
             },
             {
-              "type": "text",
-              "text": "Hak dan kewajiban adalah dua sisi mata uang yang tidak bisa dipisahkan. Mendapatkan hak mensyaratkan melaksanakan kewajiban. Dalam kehidupan bermasyarakat dan bernegara, keseimbangan antara hak dan kewajiban harus selalu dijaga."
-            },
-            {
-              "type": "heading",
-              "text": "Dampak Pelanggaran Hak dan Kewajiban"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Pelanggaran hak: diskriminasi, ketidakadilan, konflik sosial",
-                "Pengabaian kewajiban: terganggunya ketertiban, pembangunan terhambat, melemahnya pertahanan negara",
-                "Ketidakseimbangan hak-kewajiban: kesenjangan sosial, ketidakstabilan politik"
+              "type": "table",
+              "headers": [
+                "Tokoh",
+                "Definisi Hak"
+              ],
+              "rows": [
+                [
+                  "Soerjono Soekanto",
+                  "Hak relatif dan hak mutlak."
+                ],
+                [
+                  "John Salmond",
+                  "Hak arti sempit, kemerdekaan, kekuasaan, kekebalan."
+                ],
+                [
+                  "Curzon",
+                  "5 jenis: mutlak, positif, pokok, publik, milik."
+                ],
+                [
+                  "Sudikno Mertokusumo",
+                  "Kepentingan yang dilindungi oleh hukum."
+                ]
               ]
+            },
+            {
+              "type": "highlight",
+              "text": "Definisi hak: klaim moral atau hukum yang diberikan kepada seseorang untuk melakukan atau memiliki sesuatu (menurut Curzon)."
             }
           ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc-hkwn-1",
-          "question": "Pasal berapa dalam UUD 1945 yang mengatur hak atas pendidikan?",
-          "answer": "Pasal 31 UUD 1945"
         },
         {
-          "id": "fc-hkwn-2",
-          "question": "Apa yang dimaksud dengan Hak Asasi Manusia (HAM)?",
-          "answer": "Hak dasar yang dimiliki setiap manusia sejak lahir, bersifat universal dan tidak dapat dicabut oleh siapapun"
-        },
-        {
-          "id": "fc-hkwn-3",
-          "question": "Sebutkan 3 kewajiban warga negara menurut UUD 1945!",
-          "answer": "Menjunjung hukum, ikut bela negara, membayar pajak, mengikuti pendidikan dasar, menghormati HAM orang lain"
-        },
-        {
-          "id": "fc-hkwn-4",
-          "question": "Apa akibat jika warga negara tidak melaksanakan kewajibannya?",
-          "answer": "Terganggunya ketertiban umum, pembangunan terhambat, melemahnya pertahanan negara, dan dapat dikenai sanksi hukum"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q-hkwn-1",
-            "type": "multiple_choice",
-            "question": "Pasal dalam UUD 1945 yang mengatur kewajiban warga negara untuk ikut serta dalam upaya bela negara adalah...",
-            "options": [
-              "Pasal 27 Ayat 1",
-              "Pasal 27 Ayat 3 dan Pasal 30",
-              "Pasal 28",
-              "Pasal 31"
-            ],
-            "answer": 1,
-            "explanation": "Kewajiban bela negara diatur dalam Pasal 27 Ayat 3 ('Setiap warga negara berhak dan wajib ikut serta dalam upaya pembelaan negara') dan Pasal 30 UUD 1945."
-          },
-          {
-            "id": "q-hkwn-2",
-            "type": "multiple_choice",
-            "question": "Manakah yang merupakan HAK warga negara menurut UUD 1945?",
-            "options": [
-              "Membayar pajak",
-              "Mengikuti pendidikan dasar",
-              "Mendapatkan pekerjaan dan penghidupan yang layak",
-              "Mematuhi hukum yang berlaku"
-            ],
-            "answer": 2,
-            "explanation": "Mendapatkan pekerjaan dan penghidupan yang layak adalah hak warga negara yang diatur dalam Pasal 27 Ayat (2) UUD 1945."
-          },
-          {
-            "id": "q-hkwn-3",
-            "type": "multiple_choice",
-            "question": "Dampak dari pelanggaran hak warga negara antara lain adalah...",
-            "options": [
-              "Terciptanya keadilan sosial",
-              "Meningkatnya persatuan",
-              "Diskriminasi dan konflik sosial",
-              "Pembangunan yang merata"
-            ],
-            "answer": 2,
-            "explanation": "Pelanggaran hak warga negara akan menimbulkan diskriminasi, ketidakadilan, dan memicu konflik sosial dalam masyarakat."
-          },
-          {
-            "id": "q-hkwn-4",
-            "type": "multiple_choice",
-            "question": "Pengaturan HAM secara khusus dalam UUD 1945 terdapat pada pasal...",
-            "options": [
-              "Pasal 25A-25J",
-              "Pasal 27-30",
-              "Pasal 28A-28J",
-              "Pasal 29-34"
-            ],
-            "answer": 2,
-            "explanation": "HAM diatur secara khusus dalam Pasal 28A hingga 28J UUD 1945, yang merupakan hasil amandemen kedua UUD 1945 tahun 2000."
-          }
-        ]
-      }
-    },
-    {
-      "id": "kemerdekaan-berpendapat",
-      "title": "Kemerdekaan Berpendapat di Era Keterbukaan Informasi",
-      "description": "Memahami hak kemerdekaan berpendapat warga negara, pengaruh teknologi informasi dan media sosial, serta tanggung jawab dalam berpendapat.",
-      "lessons": [
-        {
-          "id": "lesson-kbi-1",
-          "title": "Hak Kemerdekaan Berpendapat",
+          "id": "hak-warga-negara",
+          "title": "Hak Warga Negara menurut UUD 1945",
           "estMinutes": 12,
           "content": [
             {
               "type": "heading",
-              "text": "Pengertian Kemerdekaan Berpendapat"
-            },
-            {
-              "type": "text",
-              "text": "Kemerdekaan berpendapat adalah hak setiap warga negara untuk menyatakan pikiran dan sikap sesuai hati nuraninya. Kebebasan ini merupakan salah satu pilar demokrasi yang dijamin oleh UUD 1945 dan UU No. 9 Tahun 1998 tentang Kemerdekaan Menyampaikan Pendapat di Muka Umum."
-            },
-            {
-              "type": "heading",
-              "text": "Dasar Hukum Kemerdekaan Berpendapat"
+              "level": 1,
+              "text": "Hak-hak Fundamental"
             },
             {
               "type": "list",
               "items": [
-                "Pasal 28 UUD 1945: kemerdekaan berserikat dan berkumpul, mengeluarkan pikiran secara lisan dan tulisan",
-                "Pasal 28E Ayat (3): setiap orang berhak atas kebebasan berserikat, berkumpul, dan mengeluarkan pendapat",
-                "UU No. 9 Tahun 1998: tentang Kemerdekaan Menyampaikan Pendapat di Muka Umum",
-                "UU No. 40 Tahun 1999: tentang Pers"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Bentuk-bentuk Penyampaian Pendapat"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Unjuk rasa atau demonstrasi",
-                "Pawai",
-                "Rapat umum",
-                "Mimbar bebas",
-                "Menulis di media massa",
-                "Berpendapat di media sosial"
+                "Pasal 27: Hak atas pekerjaan dan penghidupan layak.",
+                "Pasal 28A: Hak hidup dan mempertahankan hidup.",
+                "Pasal 28B: Hak anak atas kelangsungan hidup, tumbuh, berkembang, perlindungan dari kekerasan/diskriminasi.",
+                "Pasal 28C: Hak memajukan diri dan memperjuangkan hak secara kolektif.",
+                "Pasal 28D: Hak pengakuan, jaminan, perlindungan hukum, perlakuan sama di hadapan hukum.",
+                "Pasal 28E: Hak kebebasan berserikat, berkumpul, mengeluarkan pendapat.",
+                "Pasal 28F: Hak berkomunikasi dan memperoleh informasi.",
+                "Pasal 28G: Hak bebas dari penyiksaan dan memperoleh suaka politik.",
+                "Pasal 28H: Hak atas jaminan sosial dan pengembangan diri bermartabat.",
+                "Pasal 28I: Hak asasi manusia yang tidak dapat dikurangi (hak hidup, tidak disiksa, kebebasan pikiran, beragama, tidak diperbudak, diakui di hadapan hukum)."
               ]
             }
           ]
         },
         {
-          "id": "lesson-kbi-2",
-          "title": "Tantangan Berpendapat di Era Digital",
-          "estMinutes": 15,
+          "id": "kewajiban-warga-negara",
+          "title": "Kewajiban Warga Negara dan Keseimbangan",
+          "estMinutes": 10,
           "content": [
             {
               "type": "heading",
-              "text": "Pengaruh Teknologi Informasi terhadap Kebebasan Berpendapat"
+              "level": 1,
+              "text": "Kewajiban-kewajiban Utama"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Upacara_bendera.jpg/800px-Upacara_bendera.jpg",
+              "caption": "Upacara bendera sebagai bentuk pelaksanaan kewajiban warga negara."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pasal 27 ayat 1: Wajib menjunjung hukum dan pemerintahan tanpa kecuali.",
+                "Pasal 27 ayat 3: Wajib ikut serta dalam upaya pembelaan negara.",
+                "Pasal 28J ayat 1: Wajib menghormati hak asasi manusia orang lain.",
+                "Pasal 28J ayat 2: Wajib tunduk pada pembatasan undang-undang untuk menjamin hak orang lain dan ketertiban umum.",
+                "Pasal 30 ayat 1: Wajib ikut serta dalam usaha pertahanan dan keamanan negara."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Keseimbangan Hak dan Kewajiban"
             },
             {
               "type": "text",
-              "text": "Perkembangan internet dan media sosial telah mengubah cara masyarakat menyampaikan pendapat. Media sosial seperti Instagram, Twitter/X, TikTok, YouTube, dan Facebook memungkinkan siapa saja untuk menyebarkan informasi dan pendapat secara cepat ke seluruh dunia."
+              "text": "Hak dan kewajiban seimbang. Menggunakan hak harus disertai menjalankan kewajiban. Konflik sosial muncul jika keseimbangan ini terganggu (hak tidak terpenuhi atau kewajiban tidak dilaksanakan)."
             },
             {
-              "type": "heading",
-              "text": "Dampak Positif Teknologi Informasi"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Informasi dapat disebarkan lebih cepat dan luas",
-                "Masyarakat dapat berpartisipasi dalam demokrasi lebih mudah",
-                "Pengawasan terhadap pemerintah menjadi lebih efektif",
-                "Mendorong transparansi dan akuntabilitas"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Tantangan dan Ancaman"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Hoaks (berita bohong): informasi palsu yang disebarkan untuk menyesatkan",
-                "Ujaran kebencian (hate speech): konten yang memicu kebencian terhadap kelompok tertentu",
-                "Disinformasi: penyebaran informasi yang salah dengan sengaja",
-                "Cyberbullying: pelecehan atau intimidasi melalui dunia maya",
-                "Sensor dan pembatasan akses informasi"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Etika Berpendapat yang Baik"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Berdasarkan fakta dan data yang valid",
-                "Menggunakan bahasa yang sopan dan santun",
-                "Menghormati perbedaan pendapat orang lain",
-                "Tidak menyebarkan hoaks atau informasi yang belum diverifikasi",
-                "Memperhatikan dampak pendapat terhadap orang lain"
-              ]
+              "type": "highlight",
+              "text": "Contoh: Hak menikmati fasilitas sekolah diimbangi kewajiban merawat fasilitas. Hak atas pendidikan dijamin negara (gratis hingga jenjang tertentu)."
             }
           ]
         }
       ],
       "flashcards": [
         {
-          "id": "fc-kbi-1",
-          "question": "Pasal berapa UUD 1945 yang menjamin kemerdekaan berpendapat?",
-          "answer": "Pasal 28 dan Pasal 28E Ayat (3) UUD 1945"
+          "id": "fc1",
+          "question": "Menurut John Salmond, apa definisi kewajiban?",
+          "answer": "Suatu hal yang harus dikerjakan; jika tidak, memperoleh sanksi."
         },
         {
-          "id": "fc-kbi-2",
-          "question": "Apa yang dimaksud dengan hoaks?",
-          "answer": "Informasi atau berita bohong yang disebarkan untuk menyesatkan masyarakat"
+          "id": "fc2",
+          "question": "Menurut Srijanti, apa esensi kewajiban?",
+          "answer": "Suatu keharusan yang harus dilaksanakan tanpa alasan apapun."
         },
         {
-          "id": "fc-kbi-3",
-          "question": "Sebutkan 4 bentuk penyampaian pendapat di muka umum!",
-          "answer": "Unjuk rasa/demonstrasi, pawai, rapat umum, dan mimbar bebas"
+          "id": "fc3",
+          "question": "Menurut Frederick Pollock, kewajiban adalah?",
+          "answer": "Sesuatu yang bisa mengikat antar dua orang atau lebih secara hukum."
         },
         {
-          "id": "fc-kbi-4",
-          "question": "Apa yang dimaksud ujaran kebencian (hate speech)?",
-          "answer": "Konten atau pernyataan yang bertujuan memicu kebencian, permusuhan, atau diskriminasi terhadap kelompok tertentu berdasarkan SARA"
+          "id": "fc4",
+          "question": "Pasal berapa yang mengatur kewajiban membela negara?",
+          "answer": "Pasal 27 ayat 3 dan Pasal 30 ayat 1."
+        },
+        {
+          "id": "fc5",
+          "question": "Pasal berapa yang mengatur kewajiban menghormati HAM orang lain?",
+          "answer": "Pasal 28J ayat 1."
+        },
+        {
+          "id": "fc6",
+          "question": "Apa definisi hak menurut Sudikno Mertokusumo?",
+          "answer": "Kepentingan yang dilindungi oleh hukum."
+        },
+        {
+          "id": "fc7",
+          "question": "Hak atas pendidikan dijamin negara ditunjukkan oleh...",
+          "answer": "Pemerintah menyediakan pendidikan gratis hingga jenjang tertentu."
+        },
+        {
+          "id": "fc8",
+          "question": "Apa tantangan utama jika hak dan kewajiban tidak seimbang?",
+          "answer": "Munculnya konflik dan ketidakstabilan sosial."
         }
       ],
       "quiz": {
         "questions": [
           {
-            "id": "q-kbi-1",
+            "id": "q1",
             "type": "multiple_choice",
-            "question": "Undang-Undang yang mengatur kemerdekaan menyampaikan pendapat di muka umum adalah...",
+            "question": "Pasangan tokoh ahli dan definisi kewajiban yang tepat adalah...",
             "options": [
-              "UU No. 9 Tahun 1998",
-              "UU No. 40 Tahun 1999",
-              "UU No. 11 Tahun 2008",
-              "UU No. 19 Tahun 2016"
-            ],
-            "answer": 0,
-            "explanation": "UU No. 9 Tahun 1998 mengatur tentang Kemerdekaan Menyampaikan Pendapat di Muka Umum."
-          },
-          {
-            "id": "q-kbi-2",
-            "type": "multiple_choice",
-            "question": "Manakah yang merupakan contoh TANTANGAN dalam kebebasan berpendapat di era digital?",
-            "options": [
-              "Informasi dapat disebarkan lebih cepat",
-              "Partisipasi masyarakat dalam demokrasi meningkat",
-              "Penyebaran hoaks dan ujaran kebencian",
-              "Pengawasan pemerintah lebih efektif"
-            ],
-            "answer": 2,
-            "explanation": "Penyebaran hoaks dan ujaran kebencian merupakan tantangan serius dalam kebebasan berpendapat di era digital yang dapat merusak persatuan bangsa."
-          },
-          {
-            "id": "q-kbi-3",
-            "type": "multiple_choice",
-            "question": "Etika yang baik dalam berpendapat di media sosial adalah...",
-            "options": [
-              "Menyebarkan informasi apapun tanpa verifikasi",
-              "Menggunakan kata-kata yang menyerang pribadi",
-              "Berdasarkan fakta dan menggunakan bahasa yang sopan",
-              "Hanya menerima pendapat yang sesuai dengan diri sendiri"
-            ],
-            "answer": 2,
-            "explanation": "Berpendapat berdasarkan fakta dan menggunakan bahasa yang sopan merupakan etika dasar dalam komunikasi, termasuk di media sosial."
-          }
-        ]
-      }
-    },
-    {
-      "id": "menjaga-keutuhan-nkri",
-      "title": "Menjaga Keutuhan Wilayah NKRI",
-      "description": "Memahami ancaman terhadap keutuhan wilayah NKRI dan bagaimana peran Pancasila, UUD 1945, serta masyarakat dalam menjaga persatuan bangsa.",
-      "lessons": [
-        {
-          "id": "lesson-mknkri-1",
-          "title": "Ancaman terhadap Keutuhan NKRI",
-          "estMinutes": 15,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Pengertian Ancaman"
-            },
-            {
-              "type": "text",
-              "text": "Ancaman terhadap keutuhan NKRI adalah segala bentuk gangguan yang dapat memecah belah bangsa Indonesia, baik dari dalam maupun dari luar negeri. Ancaman ini dapat bersifat militer maupun non-militer."
-            },
-            {
-              "type": "heading",
-              "text": "Ancaman dari Dalam Negeri"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Separatisme: gerakan yang ingin memisahkan diri dari NKRI",
-                "Konflik sosial berbasis SARA",
-                "Korupsi yang melemahkan kepercayaan masyarakat kepada pemerintah",
-                "Terorisme",
-                "Radikalisme yang mengancam ideologi Pancasila",
-                "Kemiskinan dan kesenjangan sosial yang dapat memicu ketidakstabilan"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Ancaman dari Luar Negeri"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Intervensi asing dalam urusan dalam negeri Indonesia",
-                "Sengketa wilayah perbatasan",
-                "Peredaran narkoba lintas negara",
-                "Kejahatan siber (cybercrime) internasional",
-                "Pengaruh budaya asing yang merusak jati diri bangsa"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "lesson-mknkri-2",
-          "title": "Peran Pancasila dan Masyarakat dalam Menjaga NKRI",
-          "estMinutes": 15,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Peran Pancasila dan UUD 1945"
-            },
-            {
-              "type": "text",
-              "text": "Pancasila dan UUD 1945 menjadi landasan yang mempersatukan bangsa Indonesia yang beragam. Nilai-nilai Pancasila seperti persatuan, keadilan, dan ketuhanan menjadi perekat yang kuat bagi seluruh komponen bangsa."
-            },
-            {
-              "type": "heading",
-              "text": "Peran Kerukunan Antarumat"
-            },
-            {
-              "type": "text",
-              "text": "Kerukunan antarumat beragama dan antarbudaya berkontribusi besar terhadap stabilitas dan keutuhan wilayah NKRI. Forum-forum kerukunan seperti FKUB (Forum Kerukunan Umat Beragama) berperan penting dalam mencegah konflik."
-            },
-            {
-              "type": "heading",
-              "text": "Peran Masyarakat dalam Menjaga NKRI"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Aktif dalam kegiatan sosial yang mempererat persaudaraan",
-                "Melaporkan aktivitas mencurigakan yang mengancam keamanan",
-                "Tidak mudah terprovokasi oleh isu SARA",
-                "Menyaring informasi sebelum disebarkan (stop hoaks)",
-                "Mencintai dan menggunakan produk dalam negeri",
-                "Berprestasi untuk mengharumkan nama Indonesia"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Bela Negara"
-            },
-            {
-              "type": "text",
-              "text": "Bela negara adalah sikap dan perilaku warga negara yang dijiwai kecintaan kepada NKRI berdasarkan Pancasila dan UUD 1945, dalam menjamin kelangsungan hidup bangsa dan negara. Bela negara tidak harus dengan mengangkat senjata, tetapi bisa dilakukan dalam kehidupan sehari-hari."
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc-mknkri-1",
-          "question": "Apa yang dimaksud dengan separatisme?",
-          "answer": "Gerakan yang bertujuan memisahkan diri dari NKRI atau mendirikan negara tersendiri"
-        },
-        {
-          "id": "fc-mknkri-2",
-          "question": "Apa kepanjangan dari FKUB?",
-          "answer": "Forum Kerukunan Umat Beragama"
-        },
-        {
-          "id": "fc-mknkri-3",
-          "question": "Apa yang dimaksud dengan bela negara?",
-          "answer": "Sikap dan perilaku warga negara yang dijiwai kecintaan kepada NKRI berdasarkan Pancasila dan UUD 1945, dalam menjamin kelangsungan hidup bangsa dan negara"
-        },
-        {
-          "id": "fc-mknkri-4",
-          "question": "Sebutkan 3 contoh ancaman dari dalam negeri terhadap keutuhan NKRI!",
-          "answer": "Separatisme, konflik SARA, korupsi, terorisme, dan radikalisme"
-        },
-        {
-          "id": "fc-mknkri-5",
-          "question": "Bagaimana cara masyarakat dapat berperan dalam menjaga keutuhan NKRI?",
-          "answer": "Tidak mudah terprovokasi isu SARA, aktif dalam kegiatan sosial, menyaring informasi (stop hoaks), mencintai produk dalam negeri, dan berprestasi"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q-mknkri-1",
-            "type": "multiple_choice",
-            "question": "Gerakan yang bertujuan memisahkan suatu wilayah dari NKRI disebut...",
-            "options": [
-              "Radikalisme",
-              "Separatisme",
-              "Terorisme",
-              "Fundamentalisme"
+              "1A dan 2B",
+              "2A dan 1C",
+              "3B dan 2B",
+              "4C dan 3D"
             ],
             "answer": 1,
-            "explanation": "Separatisme adalah gerakan yang bertujuan untuk memisahkan diri dari negara induk (NKRI) dan mendirikan negara tersendiri."
+            "explanation": "John Salmond (2) = A (hal yang harus dikerjakan, jika tidak dapat sanksi). Srijanti (1) = C (keharusan tanpa alasan)."
           },
           {
-            "id": "q-mknkri-2",
+            "id": "q2",
             "type": "multiple_choice",
-            "question": "Manakah yang merupakan contoh bela negara dalam kehidupan sehari-hari bagi pelajar?",
+            "question": "Pernyataan yang termasuk hak warga negara adalah...",
             "options": [
-              "Mengangkat senjata untuk berperang",
-              "Berprestasi di sekolah untuk mengharumkan nama bangsa",
-              "Menghindari semua kegiatan yang berkaitan dengan negara",
-              "Hanya mematuhi aturan yang menguntungkan diri sendiri"
-            ],
-            "answer": 1,
-            "explanation": "Bela negara tidak harus berupa tindakan militer. Bagi pelajar, berprestasi di sekolah dan mengharumkan nama bangsa merupakan wujud nyata bela negara."
-          },
-          {
-            "id": "q-mknkri-3",
-            "type": "multiple_choice",
-            "question": "Berikut ini yang BUKAN merupakan ancaman terhadap keutuhan NKRI dari dalam negeri adalah...",
-            "options": [
-              "Konflik sosial berbasis SARA",
-              "Separatisme",
-              "Invasi militer dari negara lain",
-              "Korupsi yang melemahkan kepercayaan masyarakat"
+              "(1), (2), dan (4)",
+              "(2), (3), dan (5)",
+              "(1), (2), dan (5)",
+              "(1), (4), dan (5)"
             ],
             "answer": 2,
-            "explanation": "Invasi militer dari negara lain merupakan ancaman dari luar negeri, bukan dari dalam negeri."
+            "explanation": "Hak: (1) kedudukan sama di mata hukum, (2) bebas memperoleh pendidikan, (5) kebebasan berserikat/berkumpul. (3) dan (4) adalah kewajiban."
           },
           {
-            "id": "q-mknkri-4",
+            "id": "q3",
             "type": "multiple_choice",
-            "question": "Forum yang berperan menjaga kerukunan antarumat beragama di Indonesia disebut...",
+            "question": "Untuk menikmati fasilitas sekolah, kewajiban siswa adalah...",
             "options": [
-              "MUI",
-              "FKUB",
-              "KPK",
-              "Bawaslu"
-            ],
-            "answer": 1,
-            "explanation": "FKUB (Forum Kerukunan Umat Beragama) adalah forum yang berperan dalam mencegah konflik dan menjaga kerukunan antarumat beragama di Indonesia."
-          },
-          {
-            "id": "q-mknkri-5",
-            "type": "multiple_choice",
-            "question": "Sikap yang harus dimiliki warga negara agar NKRI tetap utuh di era media sosial adalah...",
-            "options": [
-              "Mudah percaya pada semua informasi yang beredar di media sosial",
-              "Menyebarkan berita tanpa memverifikasi kebenarannya",
-              "Menyaring informasi dan tidak mudah terprovokasi isu SARA",
-              "Hanya berinteraksi dengan orang yang memiliki suku dan agama sama"
-            ],
-            "answer": 2,
-            "explanation": "Di era media sosial, menyaring informasi terlebih dahulu dan tidak mudah terprovokasi oleh isu SARA sangat penting untuk menjaga keutuhan dan persatuan NKRI."
-          }
-        ]
-      }
-    },
-    {
-      "id": "kebangkitan-sumpah-pemuda",
-      "title": "Kebangkitan Nasional dan Sumpah Pemuda",
-      "description": "Memahami latar belakang semangat kebangkitan nasional dan Sumpah Pemuda sebagai tonggak persatuan bangsa Indonesia.",
-      "lessons": [
-        {
-          "id": "lesson-ksp-1",
-          "title": "Kebangkitan Nasional",
-          "estMinutes": 12,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Latar Belakang Kebangkitan Nasional"
-            },
-            {
-              "type": "text",
-              "text": "Kebangkitan Nasional dimulai dengan berdirinya Budi Utomo pada tanggal 20 Mei 1908 oleh dr. Wahidin Sudirohusodo dan dipimpin oleh dr. Soetomo. Tanggal ini kemudian diperingati sebagai Hari Kebangkitan Nasional."
-            },
-            {
-              "type": "heading",
-              "text": "Faktor Pendorong Kebangkitan Nasional"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Kesadaran para pemuda terdidik tentang penderitaan rakyat akibat penjajahan",
-                "Pengaruh pendidikan modern melalui Politik Etis Belanda",
-                "Keberhasilan Jepang mengalahkan Rusia (1905) membuktikan bangsa Asia bisa melawan Eropa",
-                "Perkembangan paham nasionalisme di Asia",
-                "Pengaruh Revolusi Amerika (1776) dan Revolusi Prancis (1789)"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Sumpah Pemuda 28 Oktober 1928"
-            },
-            {
-              "type": "text",
-              "text": "Kongres Pemuda II menghasilkan ikrar Sumpah Pemuda yang menegaskan satu tanah air, satu bangsa, dan satu bahasa: Indonesia. Sumpah Pemuda menjadi tonggak penting dalam sejarah persatuan bangsa Indonesia."
-            },
-            {
-              "type": "list",
-              "items": [
-                "Kami putra dan putri Indonesia, mengaku bertumpah darah yang satu, tanah Indonesia",
-                "Kami putra dan putri Indonesia, mengaku berbangsa yang satu, bangsa Indonesia",
-                "Kami putra dan putri Indonesia, menjunjung bahasa persatuan, bahasa Indonesia"
-              ]
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc-ksp-1",
-          "question": "Kapan Budi Utomo didirikan dan siapa pendirinya?",
-          "answer": "20 Mei 1908 oleh dr. Wahidin Sudirohusodo, dipimpin dr. Soetomo"
-        },
-        {
-          "id": "fc-ksp-2",
-          "question": "Kapan Sumpah Pemuda diikrarkan?",
-          "answer": "28 Oktober 1928 pada Kongres Pemuda II"
-        },
-        {
-          "id": "fc-ksp-3",
-          "question": "Apa 3 isi Sumpah Pemuda?",
-          "answer": "Satu tanah air (Indonesia), satu bangsa (Indonesia), satu bahasa persatuan (Indonesia)"
-        },
-        {
-          "id": "fc-ksp-4",
-          "question": "Kapan peringatan Hari Kebangkitan Nasional?",
-          "answer": "20 Mei, bertepatan dengan hari berdirinya Budi Utomo tahun 1908"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q-ksp-1",
-            "type": "multiple_choice",
-            "question": "Hari Kebangkitan Nasional diperingati setiap tanggal...",
-            "options": [
-              "17 Agustus",
-              "28 Oktober",
-              "20 Mei",
-              "2 Mei"
-            ],
-            "answer": 2,
-            "explanation": "Hari Kebangkitan Nasional diperingati setiap 20 Mei, bertepatan dengan berdirinya Budi Utomo pada 20 Mei 1908."
-          },
-          {
-            "id": "q-ksp-2",
-            "type": "multiple_choice",
-            "question": "Sumpah Pemuda diikrarkan pada tanggal...",
-            "options": [
-              "20 Mei 1908",
-              "17 Agustus 1945",
-              "28 Oktober 1928",
-              "1 Juni 1945"
-            ],
-            "answer": 2,
-            "explanation": "Sumpah Pemuda diikrarkan pada tanggal 28 Oktober 1928 dalam Kongres Pemuda II di Batavia (Jakarta)."
-          },
-          {
-            "id": "q-ksp-3",
-            "type": "multiple_choice",
-            "question": "Organisasi pergerakan nasional pertama di Indonesia adalah...",
-            "options": [
-              "Sarekat Islam",
-              "Budi Utomo",
-              "Indische Partij",
-              "PNI"
-            ],
-            "answer": 1,
-            "explanation": "Budi Utomo yang berdiri pada 20 Mei 1908 dianggap sebagai organisasi pergerakan nasional pertama dan menjadi tonggak Kebangkitan Nasional Indonesia."
-          }
-        ]
-      }
-    },
-    {
-      "id": "hubungan-pancasila-uud-bti-nkri",
-      "title": "Hubungan Pancasila, UUD NRI 1945, Bhinneka Tunggal Ika, dan NKRI",
-      "description": "Memahami hubungan erat antara Pancasila, UUD NRI 1945, Bhinneka Tunggal Ika, dan NKRI sebagai empat pilar kebangsaan Indonesia.",
-      "lessons": [
-        {
-          "id": "lesson-empat-pilar-1",
-          "title": "Empat Pilar Kebangsaan Indonesia",
-          "estMinutes": 20,
-          "content": [
-            {
-              "type": "heading",
-              "text": "Empat Pilar Kebangsaan"
-            },
-            {
-              "type": "text",
-              "text": "Empat pilar kebangsaan Indonesia adalah Pancasila, UUD NRI 1945, Bhinneka Tunggal Ika, dan NKRI. Keempat pilar ini saling berkaitan dan menopang satu sama lain dalam kehidupan berbangsa dan bernegara."
-            },
-            {
-              "type": "heading",
-              "text": "Hubungan Pancasila dan UUD NRI 1945"
-            },
-            {
-              "type": "text",
-              "text": "Pancasila merupakan dasar negara yang termuat dalam Pembukaan UUD 1945 alinea ke-4. UUD 1945 adalah penjabaran dari nilai-nilai Pancasila dalam bentuk norma hukum yang lebih konkret. Keduanya tidak dapat dipisahkan: Pancasila adalah ruhnya, UUD 1945 adalah tubuhnya."
-            },
-            {
-              "type": "heading",
-              "text": "Hubungan Pancasila dan Bhinneka Tunggal Ika"
-            },
-            {
-              "type": "text",
-              "text": "Sila ke-3 Pancasila (Persatuan Indonesia) sejalan dengan semboyan Bhinneka Tunggal Ika. Pancasila memberikan landasan filosofis bagi persatuan di tengah keberagaman. Bhinneka Tunggal Ika adalah wujud nyata dari pengamalan Sila ke-3 Pancasila."
-            },
-            {
-              "type": "heading",
-              "text": "Hubungan Pancasila dan NKRI"
-            },
-            {
-              "type": "text",
-              "text": "Pancasila adalah ideologi yang menjadi landasan berdirinya NKRI. Tanpa Pancasila sebagai pemersatu, NKRI yang terdiri dari ribuan pulau dan ratusan suku bangsa tidak akan dapat bersatu. NKRI adalah wadah perwujudan nilai-nilai Pancasila."
-            },
-            {
-              "type": "heading",
-              "text": "Penerapan Nilai-nilai Empat Pilar dalam Kehidupan"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Menjalankan ibadah dengan tekun (Sila 1 - Ketuhanan)",
-                "Menghargai hak teman dan tidak berlaku sewenang-wenang (Sila 2 - Kemanusiaan)",
-                "Ikut serta dalam kegiatan gotong royong (Sila 3 - Persatuan)",
-                "Memilih ketua kelas melalui musyawarah (Sila 4 - Kerakyatan)",
-                "Berbagi dengan teman yang membutuhkan (Sila 5 - Keadilan Sosial)"
-              ]
-            }
-          ]
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "fc-ep-1",
-          "question": "Sebutkan 4 pilar kebangsaan Indonesia!",
-          "answer": "Pancasila, UUD NRI 1945, Bhinneka Tunggal Ika, dan NKRI"
-        },
-        {
-          "id": "fc-ep-2",
-          "question": "Di mana Pancasila tercantum dalam UUD 1945?",
-          "answer": "Dalam Pembukaan UUD 1945 alinea ke-4"
-        },
-        {
-          "id": "fc-ep-3",
-          "question": "Sila Pancasila yang berkaitan langsung dengan semboyan Bhinneka Tunggal Ika adalah?",
-          "answer": "Sila ke-3, yaitu Persatuan Indonesia"
-        },
-        {
-          "id": "fc-ep-4",
-          "question": "Mengapa Pancasila disebut sebagai ruh UUD 1945?",
-          "answer": "Karena UUD 1945 merupakan penjabaran konkret dari nilai-nilai Pancasila dalam bentuk norma hukum, sehingga Pancasila menjadi jiwa dari UUD 1945"
-        }
-      ],
-      "quiz": {
-        "questions": [
-          {
-            "id": "q-ep-1",
-            "type": "multiple_choice",
-            "question": "Pancasila terdapat dalam Pembukaan UUD 1945 pada alinea ke...",
-            "options": [
-              "Alinea ke-1",
-              "Alinea ke-2",
-              "Alinea ke-3",
-              "Alinea ke-4"
+              "Mengikuti upacara bendera",
+              "Melaksanakan tata tertib",
+              "Menghormati warga sekolah",
+              "Merawat dan menjaga fasilitas dengan baik"
             ],
             "answer": 3,
-            "explanation": "Pancasila sebagai dasar negara tercantum dalam alinea ke-4 Pembukaan UUD NRI Tahun 1945."
+            "explanation": "Hak menggunakan fasilitas diimbangi kewajiban merawat serta tidak merusak fasilitas sekolah."
           },
           {
-            "id": "q-ep-2",
+            "id": "q4",
             "type": "multiple_choice",
-            "question": "Nilai Pancasila yang paling erat kaitannya dengan semboyan Bhinneka Tunggal Ika adalah...",
+            "question": "Pernyataan yang merupakan isi Pasal 28J ayat (1) adalah...",
             "options": [
-              "Ketuhanan Yang Maha Esa",
-              "Kemanusiaan yang Adil dan Beradab",
-              "Persatuan Indonesia",
-              "Keadilan Sosial bagi Seluruh Rakyat Indonesia"
+              "Kewajiban menaati hukum",
+              "Kewajiban ikut serta pembelaan negara",
+              "Kewajiban menghormati HAM orang lain",
+              "Kewajiban tunduk pada pembatasan undang-undang"
             ],
             "answer": 2,
-            "explanation": "Sila ke-3, Persatuan Indonesia, paling erat kaitannya dengan Bhinneka Tunggal Ika karena keduanya menekankan persatuan di tengah keberagaman."
+            "explanation": "Pasal 28J ayat 1: Setiap orang wajib menghormati hak asasi manusia orang lain dalam tertib kehidupan bermasyarakat, berbangsa, dan bernegara."
           },
           {
-            "id": "q-ep-3",
+            "id": "q5",
             "type": "multiple_choice",
-            "question": "Manakah contoh penerapan nilai Sila ke-4 Pancasila dalam kehidupan sehari-hari?",
+            "question": "Definisi 'Hak adalah klaim moral atau hukum yang diberikan kepada seseorang...' berasal dari...",
             "options": [
-              "Rajin beribadah dan berdoa",
-              "Memilih ketua kelas melalui musyawarah",
-              "Membantu teman yang kesulitan",
-              "Tidak memaksakan kehendak pada orang lain"
+              "Curzon",
+              "John Salmond",
+              "Soerjono Soekanto",
+              "Sudikno Mertokusumo"
             ],
-            "answer": 1,
-            "explanation": "Memilih ketua kelas melalui musyawarah adalah penerapan Sila ke-4, yaitu Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan."
+            "answer": 0,
+            "explanation": "Menurut Curzon, hak adalah klaim moral atau hukum untuk melakukan atau memiliki sesuatu."
           },
           {
-            "id": "q-ep-4",
+            "id": "q6",
             "type": "multiple_choice",
-            "question": "Yang dimaksud dengan 'UUD 1945 adalah penjabaran dari Pancasila' berarti...",
+            "question": "Organisasi yang ingin mengganti ideologi Pancasila ditunjukkan oleh nomor...",
             "options": [
-              "UUD 1945 dibuat sebelum Pancasila",
-              "Nilai-nilai Pancasila dijabarkan dalam pasal-pasal UUD 1945",
-              "UUD 1945 lebih tinggi kedudukannya dari Pancasila",
-              "Pancasila dan UUD 1945 tidak ada hubungannya"
+              "(1), (2), (3)",
+              "(2), (4), (5)",
+              "(3), (4), (6)",
+              "(1), (4), (6)"
+            ],
+            "answer": 2,
+            "explanation": "Organisasi yang ingin mengganti Pancasila: (3) Darul Islam/TII, (4) PKI, (6) Partai Komunis Indonesia."
+          }
+        ]
+      }
+    },
+    {
+      "id": "kebangkitan-nasional-bti",
+      "title": "Kebangkitan Nasional, Sumpah Pemuda, dan Bhinneka Tunggal Ika",
+      "description": "Sejarah Kebangkitan Nasional 1908, Sumpah Pemuda 1928, semangat Bhinneka Tunggal Ika, dan hubungannya dengan Pancasila.",
+      "lessons": [
+        {
+          "id": "kebangkitan-nasional",
+          "title": "Kebangkitan Nasional 1908 dan Sumpah Pemuda 1928",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Kebangkitan Nasional dan Sumpah Pemuda"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Sumpah_Pemuda_1928.jpg/800px-Sumpah_Pemuda_1928.jpg",
+              "caption": "Sumpah Pemuda 28 Oktober 1928, tonggak persatuan bangsa Indonesia."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Kebangkitan Nasional 1908"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Ditandai dengan berdirinya Budi Utomo (20 Mei 1908) di Surabaya.",
+                "Diprakarsai oleh Dr. Wahidin Soedirohoesodo dan diikuti oleh pelajar STOVIA.",
+                "Tujuan awal: memajukan pendidikan dan kebangsaan.",
+                "20 Mei diperingati sebagai Hari Kebangkitan Nasional."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Sumpah Pemuda 1928"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Tanggal: 28 Oktober 1928.",
+                "Tempat: Jakarta (Gedung Kramat Raya No. 126).",
+                "Hasil: ikrar persatuan: Tanah Air, Bangsa, dan Bahasa Indonesia.",
+                "Organisasi pemuda yang berpartisipasi: Jong Java, Jong Sumatranen Bond, Pemuda Indonesia, dll."
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Sumpah Pemuda merupakan tonggak awal kesadaran nasional dan persatuan bangsa Indonesia."
+            }
+          ]
+        },
+        {
+          "id": "bhineka-tunggal-ika",
+          "title": "Semangat Bhinneka Tunggal Ika",
+          "estMinutes": 10,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Bhinneka Tunggal Ika"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Indonesian_diversity.jpg/800px-Indonesian_diversity.jpg",
+              "caption": "Keberagaman suku, agama, dan budaya Indonesia dalam satu persatuan."
+            },
+            {
+              "type": "text",
+              "text": "Semboyan nasional yang berarti 'Berbeda-beda tetapi tetap satu.' Diambil dari kitab Sutasoma karangan Mpu Tantular (Kerajaan Majapahit)."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Hubungan dengan Pancasila dan NKRI"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pancasila → dasar negara yang memuat nilai-nilai fundamental (terutama Sila 3: Persatuan Indonesia).",
+                "Bhinneka Tunggal Ika → semboyan bangsa yang menegaskan persatuan dalam keberagaman.",
+                "NKRI → wujud nyata negara kesatuan yang berlandaskan Pancasila.",
+                "Pancasila menjiwai semboyan dan wujud negara; BTI menegaskan persatuan; NKRI adalah realisasi politik."
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Toleransi keberagaman agama di Indonesia menjadi perekat persatuan dan kesatuan bangsa."
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Kapan Budi Utomo didirikan?",
+          "answer": "20 Mei 1908."
+        },
+        {
+          "id": "fc2",
+          "question": "Siapa pendiri Budi Utomo?",
+          "answer": "Dr. Wahidin Soedirohoesodo."
+        },
+        {
+          "id": "fc3",
+          "question": "Kapan dan di mana Sumpah Pemuda dilaksanakan?",
+          "answer": "28 Oktober 1928 di Jakarta."
+        },
+        {
+          "id": "fc4",
+          "question": "Apa isi ikrar Sumpah Pemuda?",
+          "answer": "Persatuan Tanah Air, Bangsa, dan Bahasa Indonesia."
+        },
+        {
+          "id": "fc5",
+          "question": "Dari mana asal semboyan Bhinneka Tunggal Ika?",
+          "answer": "Kitab Sutasoma karya Mpu Tantular (Majapahit)."
+        },
+        {
+          "id": "fc6",
+          "question": "Apa arti Bhinneka Tunggal Ika?",
+          "answer": "Berbeda-beda tetapi tetap satu."
+        },
+        {
+          "id": "fc7",
+          "question": "Sila keberapa Pancasila yang berkaitan dengan BTI?",
+          "answer": "Sila ke-3: Persatuan Indonesia."
+        },
+        {
+          "id": "fc8",
+          "question": "Apa hubungan Pancasila dengan NKRI?",
+          "answer": "Pancasila adalah dasar berdirinya NKRI."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Tanggal berapakah Hari Kebangkitan Nasional?",
+            "options": [
+              "17 Agustus 1908",
+              "20 Mei 1908",
+              "28 Oktober 1908",
+              "1 Juni 1908"
             ],
             "answer": 1,
-            "explanation": "Nilai-nilai yang terkandung dalam Pancasila dijabarkan secara lebih rinci dan konkret dalam pasal-pasal UUD 1945."
+            "explanation": "Hari Kebangkitan Nasional diperingati pada 20 Mei 1908, bertepatan dengan berdirinya Budi Utomo."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Organisasi pemuda yang berpartisipasi dalam Sumpah Pemuda 1928 adalah...",
+            "options": [
+              "Budi Utomo",
+              "Indische Partij",
+              "Jong Java dan Pemuda Indonesia",
+              "Sarekat Islam"
+            ],
+            "answer": 2,
+            "explanation": "Jong Java, Jong Sumatranen Bond, dan Pemuda Indonesia adalah organisasi pemuda yang menyelenggarakan Kongres Pemuda II."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Makna Bhinneka Tunggal Ika dalam kehidupan berbangsa adalah...",
+            "options": [
+              "Mendorong eksklusivitas",
+              "Mengutamakan dominasi satu agama",
+              "Persatuan dalam keberagaman",
+              "Tidak relevan dalam konteks modern"
+            ],
+            "answer": 2,
+            "explanation": "Bhinneka Tunggal Ika mengajarkan persatuan dalam keberagaman dan menghormati hak-hak individu."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Hubungan Pancasila dengan Bhinneka Tunggal Ika adalah...",
+            "options": [
+              "Pancasila meniadakan keberagaman",
+              "BTI menggantikan Pancasila",
+              "Pancasila menjiwai semboyan dan wujud negara",
+              "Tidak ada hubungan"
+            ],
+            "answer": 2,
+            "explanation": "Pancasila menjadi dasar yang menjiwai semboyan BTI dan wujud NKRI sebagai negara kesatuan."
+          },
+          {
+            "id": "q5",
+            "type": "multiple_choice",
+            "question": "Sila pertama Pancasila yang semula diambil dari Piagam Jakarta berimplikasi positif terhadap...",
+            "options": [
+              "Toleransi keberagaman agama",
+              "Dominasi agama mayoritas",
+              "Penghapusan agama minoritas",
+              "Pemisahan agama dan negara"
+            ],
+            "answer": 0,
+            "explanation": "Perubahan sila pertama menjadi 'Ketuhanan Yang Maha Esa' menunjukkan toleransi terhadap keberagaman agama sebagai perekat bangsa."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Sumpah Pemuda mencerminkan semangat sila Pancasila ke...",
+            "options": [
+              "Sila 1",
+              "Sila 2",
+              "Sila 3",
+              "Sila 4"
+            ],
+            "answer": 2,
+            "explanation": "Sumpah Pemuda menegaskan Persatuan Indonesia (Sila ke-3)."
+          }
+        ]
+      }
+    },
+    {
+      "id": "keberagaman-nkri",
+      "title": "Keberagaman SARA, Karakteristik Daerah, dan Keutuhan NKRI",
+      "description": "Keberagaman suku, agama, ras, antargolongan; karakteristik daerah; serta upaya mempertahankan keutuhan NKRI.",
+      "lessons": [
+        {
+          "id": "keberagaman-sara",
+          "title": "Keberagaman SARA dan Karakteristik Daerah",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Keberagaman SARA"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Rumah_Tradisional_Indonesia.jpg/800px-Rumah_Tradisional_Indonesia.jpg",
+              "caption": "Rumah tradisional dari berbagai daerah mencerminkan kekayaan budaya Indonesia."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Pengertian SARA"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Suku: Golongan manusia yang mengelompokkan dirinya dengan sesamanya (contoh: Aceh, Batak, Dayak, Jawa, Sunda, Melayu, Bugis, Toraja, Nias).",
+                "Agama: Ajaran yang mengatur kepercayaan kepada Tuhan YME (Islam, Kristen, Katolik, Hindu, Buddha, Konghucu, dll).",
+                "Ras: Golongan manusia berdasarkan ciri fisik (warna kulit, rambut, bentuk muka).",
+                "Antargolongan/Gender: Perbedaan laki-laki dan perempuan dilihat dari nilai dan tingkah laku."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Karakteristik Daerah (Contoh 5 Provinsi)"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Provinsi",
+                "Makanan Khas",
+                "Lagu Daerah"
+              ],
+              "rows": [
+                [
+                  "Aceh",
+                  "Mie Aceh",
+                  "Bungong Jeumpa"
+                ],
+                [
+                  "Sumatera Barat",
+                  "Rendang",
+                  "Kampuang Nan Jauh di Mato"
+                ],
+                [
+                  "Jawa Barat",
+                  "Karedok",
+                  "Manuk Dadali"
+                ],
+                [
+                  "Bali",
+                  "Ayam Betutu",
+                  "Janger"
+                ],
+                [
+                  "Sulawesi Selatan",
+                  "Coto Makassar",
+                  "Pakarena"
+                ]
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Fahombo (Lompat Batu) adalah tradisi dari suku Nias, Sumatera Utara, untuk menunjukkan kedewasaan fisik."
+            }
+          ]
+        },
+        {
+          "id": "keutuhan-nkri",
+          "title": "Keutuhan NKRI, Ancaman, dan Bela Negara",
+          "estMinutes": 12,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Mempertahankan Keutuhan NKRI"
+            },
+            {
+              "type": "image",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Indonesia_regions_map.svg/800px-Indonesia_regions_map.svg.png",
+              "caption": "Peta wilayah NKRI dengan keanekaragaman budaya dan geografis."
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Ancaman Terhadap NKRI"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Separatisme: Gerakan bersenjata yang ingin memisahkan diri dari NKRI (contoh: konflik di Papua).",
+                "Pelanggaran wilayah: Sengketa Laut Natuna Utara, kapal asing, konflik kepentingan Laut Cina Selatan.",
+                "Penyelundupan: Illegal fishing dan pencurian sumber daya alam keluar negeri.",
+                "Hoaks & Disinformasi: Propaganda digital yang memecah belah bangsa."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Upaya Mempertahankan NKRI"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pendidikan Kewarganegaraan: Mengamalkan Pancasila dan sejarah perjuangan bangsa.",
+                "Penguatan Literasi Digital: Menyaring hoaks dan disinformasi.",
+                "Kesadaran Hukum: Mematuhi peraturan dan menghindari main hakim sendiri.",
+                "Bela Negara: Partisipasi seluruh komponen bangsa dalam pertahanan (Sistem Pertahanan Semesta/Sishankamrata)."
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "text": "Batas Wilayah Indonesia"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Timur: Papua Nugini dan Samudra Pasifik.",
+                "Barat: Samudra Hindia.",
+                "Utara: Malaysia, Singapura, Filipina.",
+                "Selatan: Australia, Timor Leste, Samudra Hindia."
+              ]
+            },
+            {
+              "type": "highlight",
+              "text": "Bela negara bertujuan mencegah disintegrasi, menghadapi ancaman non-militer, dan mendukung Sishankamrata."
+            }
+          ]
+        },
+        {
+          "id": "pengamalan-pancasila",
+          "title": "Pengamalan Nilai-nilai Pancasila",
+          "estMinutes": 8,
+          "content": [
+            {
+              "type": "heading",
+              "level": 1,
+              "text": "Contoh Pengamalan Pancasila"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Sila Ke-",
+                "Nilai",
+                "Contoh Perbuatan"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Ketuhanan YME",
+                  "Beribadah sesuai agama, toleransi antar umat beragama."
+                ],
+                [
+                  "2",
+                  "Kemanusiaan adil & beradab",
+                  "Menolong sesama, menghargai orang lain, tidak diskriminasi."
+                ],
+                [
+                  "3",
+                  "Persatuan Indonesia",
+                  "Cinta tanah air, tidak membeda-bedakan suku, bangga sebagai Indonesia."
+                ],
+                [
+                  "4",
+                  "Kerakyatan",
+                  "Musyawarah di kelas/RT, menghargai pendapat orang lain, demokrasi."
+                ],
+                [
+                  "5",
+                  "Keadilan sosial",
+                  "Bersikap adil, gotong royong, tidak rakus/egois."
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "fc1",
+          "question": "Apa kepanjangan SARA?",
+          "answer": "Suku, Agama, Ras, Antargolongan."
+        },
+        {
+          "id": "fc2",
+          "question": "Tradisi Fahombo berasal dari suku mana?",
+          "answer": "Nias, Sumatera Utara."
+        },
+        {
+          "id": "fc3",
+          "question": "Sebutkan 3 suku yang ada di Provinsi Aceh!",
+          "answer": "Gayo, Singkil, Tamiang."
+        },
+        {
+          "id": "fc4",
+          "question": "Negara apa yang berbatasan dengan Indonesia di timur?",
+          "answer": "Papua Nugini dan Samudra Pasifik."
+        },
+        {
+          "id": "fc5",
+          "question": "Apa ancaman non-militer terhadap NKRI?",
+          "answer": "Hoaks, disinformasi, illegal fishing, separatisme."
+        },
+        {
+          "id": "fc6",
+          "question": "Apa singkatan Sishankamrata?",
+          "answer": "Sistem Pertahanan Semesta."
+        },
+        {
+          "id": "fc7",
+          "question": "Contoh pengamalan Sila 1 Pancasila?",
+          "answer": "Beribadah sesuai agama dan toleransi antar umat beragama."
+        },
+        {
+          "id": "fc8",
+          "question": "Contoh pengamalan Sila 5 Pancasila?",
+          "answer": "Gotong royong, bersikap adil, tidak membeda-bedakan."
+        }
+      ],
+      "quiz": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "multiple_choice",
+            "question": "Bentuk keberagaman (X) dan (Y) pada tabel adalah...",
+            "options": [
+              "Budaya dan ras",
+              "Suku dan bahasa",
+              "Suku dan gender",
+              "Komunitas dan kepercayaan"
+            ],
+            "answer": 2,
+            "explanation": "(X) Suku = golongan manusia yang mengelompokkan dirinya dengan sesamanya. (Y) Gender = perbedaan laki-laki dan perempuan dari nilai dan tingkah laku."
+          },
+          {
+            "id": "q2",
+            "type": "multiple_choice",
+            "question": "Tradisi Fahombo (Lompat Batu) berasal dari...",
+            "options": [
+              "Gayo, Aceh",
+              "Nias, Sumatera Utara",
+              "Minang, Sumatera Barat",
+              "Dayak, Kalimantan Tengah"
+            ],
+            "answer": 1,
+            "explanation": "Fahombo adalah tradisi lompat batu dari suku Nias, Sumatera Utara, untuk menunjukkan kedewasaan fisik."
+          },
+          {
+            "id": "q3",
+            "type": "multiple_choice",
+            "question": "Batas negara Indonesia sebelah timur ditunjukkan oleh nomor...",
+            "options": [
+              "(1) dan (2)",
+              "(3) dan (4)",
+              "(1) dan (5)",
+              "(3) dan (5)"
+            ],
+            "answer": 1,
+            "explanation": "(3) Papua Nugini dan (4) Samudra Pasifik adalah batas timur Indonesia."
+          },
+          {
+            "id": "q4",
+            "type": "multiple_choice",
+            "question": "Bentuk kesadaran menjaga kedaulatan NKRI di lingkungan keluarga adalah...",
+            "options": [
+              "Mematuhi tata tertib sekolah",
+              "Disiplin saat upacara",
+              "Bersikap akur dengan saudara",
+              "Ikut kerja bakti"
+            ],
+            "answer": 2,
+            "explanation": "Di lingkungan keluarga, menjaga kedaulatan NKRI dapat dilakukan dengan bersikap akur/rukun dengan saudara."
+          },
+          {
+            "id": "q5",
+            "type": "multiple_choice",
+            "question": "Ancaman separatisme terhadap NKRI contohnya adalah...",
+            "options": [
+              "Penyebaran hoaks",
+              "Konflik bersenjata di Papua",
+              "Illegal fishing",
+              "Pencurian sumber daya alam"
+            ],
+            "answer": 1,
+            "explanation": "Separatisme adalah gerakan yang ingin memisahkan diri dari NKRI, seperti konflik bersenjata di beberapa wilayah Papua."
+          },
+          {
+            "id": "q6",
+            "type": "multiple_choice",
+            "question": "Upaya mempertahankan NKRI melalui pendidikan kewarganegaraan adalah...",
+            "options": [
+              "Mempelajari dan mengamalkan nilai-nilai Pancasila",
+              "Menyaring informasi digital",
+              "Mematuhi peraturan lalu lintas",
+              "Melakukan patroli perbatasan"
+            ],
+            "answer": 0,
+            "explanation": "Pendidikan kewarganegaraan dilakukan dengan mempelajari dan mengamalkan nilai-nilai Pancasila serta sejarah perjuangan bangsa."
           }
         ]
       }
