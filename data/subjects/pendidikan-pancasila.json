@@ -721,8 +721,12 @@
                   "Yudikatif",
                   "Mengadili pelanggaran hukum",
                   "Mahkamah Agung, Mahkamah Konstitusi"
+                ],
+                [
+                  "Eksaminatif",
+                  "Memeriksa keuangan negara",
+                  "BPK (berstatus independen)"
                 ]
-             
               ]
             },
             {
@@ -1371,7 +1375,7 @@
     {
       "id": "keberagaman-nkri",
       "title": "Keberagaman SARA, Karakteristik Daerah, dan Keutuhan NKRI",
-      "description": "Arti SARA adalah Keberagaman suku, agama, ras, antargolongan; karakteristik daerah; serta upaya mempertahankan keutuhan NKRI.",
+      "description": "Keberagaman suku, agama, ras, antargolongan; karakteristik daerah; serta upaya mempertahankan keutuhan NKRI.",
       "lessons": [
         {
           "id": "keberagaman-sara",
@@ -1391,7 +1395,7 @@
             {
               "type": "heading",
               "level": 2,
-              "text": "SARA adalah Keberagaman suku, agama, ras"
+              "text": "Pengertian SARA"
             },
             {
               "type": "list",
