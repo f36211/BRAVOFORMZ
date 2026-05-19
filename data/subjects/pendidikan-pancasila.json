@@ -27,8 +27,8 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Presiden_Sukarno.jpg/800px-Presiden_Sukarno.jpg",
-              "caption": "Ir. Soekarno memperkenalkan konsep Pancasila pada 1 Juni 1945."
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Presiden_Sukarno.jpg",
+              "caption": "Ir. Soekarno, tokoh perumus Pancasila."
             },
             {
               "type": "heading",
@@ -82,8 +82,8 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Indonesian_Garuda_Pancasila.svg/800px-Indonesian_Garuda_Pancasila.svg.png",
-              "caption": "Garuda Pancasila, lambang negara yang mencerminkan dasar negara."
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg",
+              "caption": "Bendera Merah Putih, simbol perjuangan merumuskan dasar negara."
             },
             {
               "type": "heading",
@@ -130,8 +130,8 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/800px-Flag_of_Indonesia.svg.png",
-              "caption": "Bendera Indonesia, simbol perjuangan merumuskan dasar negara."
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Naskah_Proklamasi_Kemerdekaan_RI.jpg",
+              "caption": "Naskah Proklamasi Kemerdekaan RI, dokumen bersejarah bangsa."
             },
             {
               "type": "heading",
@@ -358,8 +358,8 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Mahkamah_Konstitusi_Indonesia.jpg/800px-Mahkamah_Konstitusi_Indonesia.jpg",
-              "caption": "Lembaga peradilan sebagai penegak norma hukum."
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Mahkamah_Agung_Republic_of_Indonesia.jpg",
+              "caption": "Gedung Mahkamah Agung RI, lembaga penegak norma hukum."
             },
             {
               "type": "heading",
@@ -433,8 +433,8 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Indonesian_students_protest.jpg/800px-Indonesian_students_protest.jpg",
-              "caption": "Warga negara menyampaikan aspirasi secara damai."
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Indonesian_diversity.jpg",
+              "caption": "Kebebasan berpendapat sebagai hak konstitusional warga negara."
             },
             {
               "type": "text",
@@ -607,8 +607,8 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Indonesian_Constitution_1945.pdf/page1-800px-Indonesian_Constitution_1945.pdf.jpg",
-              "caption": "Naskah UUD Negara RI Tahun 1945."
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Naskah_Proklamasi_Kemerdekaan_RI.jpg",
+              "caption": "Naskah bersejarah kemerdekaan Indonesia."
             },
             {
               "type": "heading",
@@ -658,8 +658,8 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/800px-Flag_of_Indonesia.svg.png",
-              "caption": "Hukum nasional berlandaskan UUD 1945 sebagai hukum tertinggi."
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg",
+              "caption": "Hukum nasional berlandaskan UUD 1945."
             },
             {
               "type": "list",
@@ -691,8 +691,8 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/DPR_RI_Building.jpg/800px-DPR_RI_Building.jpg",
-              "caption": "Gedung DPR RI, lembaga legislatif dalam sistem ketatanegaraan Indonesia."
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Mahkamah_Agung_Republic_of_Indonesia.jpg",
+              "caption": "Gedung Mahkamah Agung, bagian dari sistem ketatanegaraan."
             },
             {
               "type": "heading",
@@ -887,7 +887,7 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Indonesian_diversity.jpg/800px-Indonesian_diversity.jpg",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Indonesian_diversity.jpg",
               "caption": "Warga negara Indonesia memiliki hak dan kewajiban yang setara."
             },
             {
@@ -999,7 +999,7 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Upacara_bendera.jpg/800px-Upacara_bendera.jpg",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Upacara_bendera.jpg",
               "caption": "Upacara bendera sebagai bentuk pelaksanaan kewajiban warga negara."
             },
             {
@@ -1170,7 +1170,7 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Sumpah_Pemuda_1928.jpg/800px-Sumpah_Pemuda_1928.jpg",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Sumpah_Pemuda_1928.jpg",
               "caption": "Sumpah Pemuda 28 Oktober 1928, tonggak persatuan bangsa Indonesia."
             },
             {
@@ -1219,7 +1219,7 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Indonesian_diversity.jpg/800px-Indonesian_diversity.jpg",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Indonesian_diversity.jpg",
               "caption": "Keberagaman suku, agama, dan budaya Indonesia dalam satu persatuan."
             },
             {
@@ -1389,8 +1389,8 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Rumah_Tradisional_Indonesia.jpg/800px-Rumah_Tradisional_Indonesia.jpg",
-              "caption": "Rumah tradisional dari berbagai daerah mencerminkan kekayaan budaya Indonesia."
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Rumah_Gadang_Pagaruyung.jpg",
+              "caption": "Rumah Gadang, representasi kekayaan budaya Indonesia."
             },
             {
               "type": "heading",
@@ -1464,8 +1464,8 @@
             },
             {
               "type": "image",
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Indonesia_regions_map.svg/800px-Indonesia_regions_map.svg.png",
-              "caption": "Peta wilayah NKRI dengan keanekaragaman budaya dan geografis."
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Indonesia_location_map.svg",
+              "caption": "Peta wilayah kedaulatan NKRI."
             },
             {
               "type": "heading",
