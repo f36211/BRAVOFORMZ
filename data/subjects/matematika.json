@@ -5164,6 +5164,10 @@
               "display": true
             },
             {
+              "type": "highlight",
+              "text": "Tips: Jika titik potong berada di kuadran I, x dan y positif. Jika di kuadran III, keduanya negatif. Gunakan grafik untuk memvisualisasikan solusi!"
+            },
+            {
               "type": "text",
               "text": "Jadi Lisa menerima kembalian Rp48.000."
             }
