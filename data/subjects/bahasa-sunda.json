@@ -427,53 +427,53 @@
       "flashcards": [
         {
           "id": "fk-1",
-          "front": "Apa arti 'Kawih' dalam bahasa Indonesia?",
-          "back": "Lagu atau nyanyian yang tidak terikat aturan pupuh."
+          "question": "Apa arti 'Kawih' dalam bahasa Indonesia?",
+          "answer": "Lagu atau nyanyian yang tidak terikat aturan pupuh."
         },
         {
           "id": "fk-2",
-          "front": "Apa perbedaan utama Kawih dan Tembang?",
-          "back": "Kawih tidak terikat aturan pupuh, sedangkan Tembang wajib mengikuti aturan pupuh (guru lagu, guru wilangan, guru gatra)."
+          "question": "Apa perbedaan utama Kawih dan Tembang?",
+          "answer": "Kawih tidak terikat aturan pupuh, sedangkan Tembang wajib mengikuti aturan pupuh (guru lagu, guru wilangan, guru gatra)."
         },
         {
           "id": "fk-3",
-          "front": "Siapa pencipta 'Karatagan Pamuda Indonesia'?",
-          "back": "Mang Koko"
+          "question": "Siapa pencipta 'Karatagan Pamuda Indonesia'?",
+          "answer": "Mang Koko"
         },
         {
           "id": "fk-4",
-          "front": "Apa arti 'Rumpaka Kawih'?",
-          "back": "Lirik atau kata-kata yang terdapat dalam kawih."
+          "question": "Apa arti 'Rumpaka Kawih'?",
+          "answer": "Lirik atau kata-kata yang terdapat dalam kawih."
         },
         {
           "id": "fk-5",
-          "front": "Sebutkan 3 unsur lahir kawih!",
-          "back": "Jejer/Tema, Nada/Suasana, dan Rumpaka/Lirik."
+          "question": "Sebutkan 3 unsur lahir kawih!",
+          "answer": "Jejer/Tema, Nada/Suasana, dan Rumpaka/Lirik."
         },
         {
           "id": "fk-6",
-          "front": "Sebutkan 2 unsur batin kawih!",
-          "back": "Rasa dan Amanat."
+          "question": "Sebutkan 2 unsur batin kawih!",
+          "answer": "Rasa dan Amanat."
         },
         {
           "id": "fk-7",
-          "front": "Apa arti 'kagiliran'?",
-          "back": "Bergiliran atau mendapat giliran."
+          "question": "Apa arti 'kagiliran'?",
+          "answer": "Bergiliran atau mendapat giliran."
         },
         {
           "id": "fk-8",
-          "front": "Sebutkan 3 contoh Kawih Kaulinan Barudak!",
-          "back": "Oray-orayan, Tokecang, Ambi-ambian, Cikwit-cirwit, Ucing-ucingan (pilih 3)."
+          "question": "Sebutkan 3 contoh Kawih Kaulinan Barudak!",
+          "answer": "Oray-orayan, Tokecang, Ambi-ambian, Cikwit-cirwit, Ucing-ucingan (pilih 3)."
         },
         {
           "id": "fk-9",
-          "front": "Apa tema dari kawih 'Mojang Priangan'?",
-          "back": "Keindahan alam dan kebudayaan Priangan."
+          "question": "Apa tema dari kawih 'Mojang Priangan'?",
+          "answer": "Keindahan alam dan kebudayaan Priangan."
         },
         {
           "id": "fk-10",
-          "front": "Apa arti 'ngajunjung darajat bangsa'?",
-          "back": "Meninggikan atau menjunjung tinggi derajat bangsa."
+          "question": "Apa arti 'ngajunjung darajat bangsa'?",
+          "answer": "Meninggikan atau menjunjung tinggi derajat bangsa."
         }
       ],
       "quiz": {
@@ -483,12 +483,12 @@
             "question": "Menurut definisi, kawih adalah...",
             "options": [
               "Lagu barudak yang sering dipakai untuk bermain",
-              "Rangkaian bahasa yang merupakan variasi dari dangding yang memiliki birama tetap",
+              "Susunan kata yang mirip tembang tetapi tidak terikat oleh aturan pupuh",
               "Karangan yang terikat oleh aturan pupuh",
               "Lagu yang tidak memiliki iringan musik"
             ],
             "answer": 1,
-            "explanation": "Kawih adalah susunan kata yang mirip tembang tetapi tidak terikat aturan pupuh. Pilihan B mendekati definisi bahwa kawih merupakan variasi lagu dengan birama yang lebih bebas."
+            "explanation": "Kawih adalah susunan kata yang mirip tembang tetapi tidak terikat aturan pupuh. Pilihan B sesuai dengan definisi tersebut."
           },
           {
             "id": "q-2",
@@ -835,46 +835,41 @@
                 [
                   "Panghulu",
                   "Mengubah vokal 'a' menjadi 'i'",
-                  "ᮊ + ᮤ = ᮊᮤ (ki)"
+                  "ᨊ + ᨤ = ᨊᨤ (ki)"
                 ],
                 [
                   "Pamepet",
-                  "Mengubah vokal 'a' menjadi 'é'",
-                  "ᮊ + ᮨ = ᮊᮨ (ké)"
-                ],
-                [
-                  "Paneuleung",
-                  "Mengubah vokal 'a' menjadi 'e'",
-                  "ᮊ + ᮩ = ᮊᮩ (ke)"
-                ],
-                [
-                  "Panglayar",
-                  "Mengubah vokal 'a' menjadi 'u'",
-                  "ᮊ + ᮥ = ᮊᮥ (ku)"
+                  "Mengubah vokal 'a' menjadi 'e' (pepet, seperti 'teman')",
+                  "ᨊ + ᨨ = ᨊᨨ (ke)"
                 ],
                 [
                   "Panyuku",
-                  "Mengubah vokal 'a' menjadi 'o'",
-                  "ᮊ + ᮧ = ᮊᮧ (ko)"
+                  "Mengubah vokal 'a' menjadi 'u'",
+                  "ᨊ + ᨥ = ᨊᨥ (ku)"
                 ],
                 [
-                  "Pamepetkeul",
-                  "Mengubah vokal 'a' menjadi 'eu'",
-                  "ᮊ + ᮫ = ᮊ᮫ (keu)"
+                  "Panolong",
+                  "Mengubah vokal 'a' menjadi 'o'",
+                  "ᨊ + ᨧ = ᨊᨧ (ko)"
+                ],
+                [
+                  "Paneuleung",
+                  "Mengubah vokal 'a' menjadi 'eu' (bunyi khas Sunda)",
+                  "ᨊ + ᨩ = ᨊᨩ (keu)"
                 ]
               ]
             },
             {
               "type": "heading",
               "level": 2,
-              "text": "Rarangkén Konsonan (Panyecek, Pangwisad, dan Panyakra)"
+              "text": "Rarangkén Konsonan (Panyecek, Panglayar, dan Pangwisad)"
             },
             {
               "type": "list",
               "items": [
                 "Panyecek: Menambahkan bunyi konsonan 'ng' di akhir. Contoh: ᮊᮀ = kang.",
-                "Pangwisad: Menambahkan bunyi konsonan 'r' di akhir. Contoh: ᮊᮁ = kar.",
-                "Panyakra: Menambahkan bunyi konsonan 'h' di akhir. Contoh: ᮊᮂ = kah."
+                "Panglayar: Menambahkan bunyi konsonan 'r' di akhir. Contoh: ᨊᨁ = kar.",
+                "Pangwisad: Menambahkan bunyi konsonan 'h' di akhir. Contoh: ᨊᨂ = kah."
               ]
             },
             {
@@ -971,43 +966,43 @@
       "flashcards": [
         {
           "id": "fa-1",
-          "front": "Berapa jumlah Aksara Swara dalam Aksara Sunda Baku?",
-          "back": "7 huruf: a, é, e, i, o, u, eu"
+          "question": "Berapa jumlah Aksara Swara dalam Aksara Sunda Baku?",
+          "answer": "7 huruf: a, é, e, i, o, u, eu"
         },
         {
           "id": "fa-2",
-          "front": "Apa bunyi default dari Aksara Ngalagena tanpa rarangkén?",
-          "back": "Bunyi vokal 'a' (contoh: ᮊ = ka)"
+          "question": "Apa bunyi default dari Aksara Ngalagena tanpa rarangkén?",
+          "answer": "Bunyi vokal 'a' (contoh: ᮊ = ka)"
         },
         {
           "id": "fa-3",
-          "front": "Apa fungsi Rarangkén Panghulu?",
-          "back": "Mengubah bunyi 'a' menjadi 'i' (contoh: ki)"
+          "question": "Apa fungsi Rarangkén Panghulu?",
+          "answer": "Mengubah bunyi 'a' menjadi 'i' (contoh: ki)"
         },
         {
           "id": "fa-4",
-          "front": "Apa fungsi Rarangkén Panyecek?",
-          "back": "Menambahkan bunyi 'ng' di akhir huruf (contoh: kang)"
+          "question": "Apa fungsi Rarangkén Panyecek?",
+          "answer": "Menambahkan bunyi 'ng' di akhir huruf (contoh: kang)"
         },
         {
           "id": "fa-5",
-          "front": "Rarangkén apa yang mengubah bunyi menjadi 'u'?",
-          "back": "Panglayar"
+          "question": "Rarangkén apa yang mengubah bunyi menjadi 'u'?",
+          "answer": "Panyuku"
         },
         {
           "id": "fa-6",
-          "front": "Bagaimana menulis angka 'tilu' dalam Aksara Sunda?",
-          "back": "᮳"
+          "question": "Bagaimana menulis angka 'tilu' dalam Aksara Sunda?",
+          "answer": "᮳"
         },
         {
           "id": "fa-7",
-          "front": "Apa perbedaan Pamepet dan Paneuleung?",
-          "back": "Pamepet = é (seperti 'enak'), Paneuleung = e (seperti 'teman')"
+          "question": "Apa perbedaan Pamepet dan Paneuleung?",
+          "answer": "Pamepet = e pepet (seperti 'teman'), Paneuleung = eu (bunyi khas Sunda)"
         },
         {
           "id": "fa-8",
-          "front": "Rarangkén apa yang menambahkan bunyi 'r' di akhir?",
-          "back": "Pangwisad"
+          "question": "Rarangkén apa yang menambahkan bunyi 'r' di akhir?",
+          "answer": "Panglayar"
         }
       ],
       "quiz": {
@@ -1041,12 +1036,12 @@
             "question": "Rarangkén yang mengubah bunyi 'a' menjadi 'o' adalah...",
             "options": [
               "Panghulu",
-              "Panyuku",
+              "Panolong",
               "Panglayar",
               "Pamepet"
             ],
             "answer": 1,
-            "explanation": "Panyuku mengubah bunyi vokal menjadi 'o'. Panghulu = i, Panglayar = u, Pamepet = é."
+            "explanation": "Panolong mengubah bunyi vokal menjadi 'o'. Panghulu = i, Panyuku = u, Pamepet = e (pepet)."
           },
           {
             "id": "qa-4",
@@ -1077,12 +1072,12 @@
             "question": "Perbedaan Pamepet dan Paneuleung adalah...",
             "options": [
               "Pamepet = i, Paneuleung = u",
-              "Pamepet = é, Paneuleung = e",
+              "Pamepet = e (pepet), Paneuleung = eu",
               "Pamepet = o, Paneuleung = u",
               "Pamepet = a, Paneuleung = é"
             ],
             "answer": 1,
-            "explanation": "Pamepet menghasilkan bunyi 'é' (seperti 'enak'), sedangkan Paneuleung menghasilkan bunyi 'e' (seperti 'teman')."
+            "explanation": "Pamepet menghasilkan bunyi 'e' pepet (seperti 'teman'), sedangkan Paneuleung menghasilkan bunyi 'eu' (bunyi khas Sunda)."
           }
         ]
       }
@@ -1224,14 +1219,14 @@
                 ],
                 [
                   "Minum",
-                  "Inum",
-                  "Leueut/Nginum",
-                  "Leueut"
+                  "Leueut/Ngaleueut",
+                  "Nginum",
+                  "Nginum"
                 ],
                 [
                   "Tidur",
-                  "Saré",
                   "Kulem",
+                  "Saré",
                   "Bobok"
                 ],
                 [
@@ -1242,25 +1237,25 @@
                 ],
                 [
                   "Datang",
-                  "Sumping",
+                  "Sumping/Rawuh",
                   "Datang",
-                  "Rawuh"
+                  "Datang"
                 ],
                 [
                   "Berbicara",
-                  "Wawancara",
+                  "Nyarios",
                   "Ngomong",
                   "Ceuk"
                 ],
                 [
                   "Melihat",
-                  "Nénggang",
                   "Ningali",
+                  "Nénjo",
                   "Tempo"
                 ],
                 [
                   "Memberi",
-                  "Nyanghareupan",
+                  "Masihan/Maparin",
                   "Méré",
                   "Méré"
                 ],
@@ -1373,43 +1368,43 @@
       "flashcards": [
         {
           "id": "fu-1",
-          "front": "Apa itu Undak-usuk Basa?",
-          "back": "Tatakrama atau aturan penggunaan bahasa Sunda berdasarkan tingkatan sosial dan usia."
+          "question": "Apa itu Undak-usuk Basa?",
+          "answer": "Tatakrama atau aturan penggunaan bahasa Sunda berdasarkan tingkatan sosial dan usia."
         },
         {
           "id": "fu-2",
-          "front": "Sebutkan 3 tingkatan bahasa Sunda!",
-          "back": "Basa Lemes (halus), Basa Loma (biasa), Basa Kasar."
+          "question": "Sebutkan 3 tingkatan bahasa Sunda!",
+          "answer": "Basa Lemes (halus), Basa Loma (biasa), Basa Kasar."
         },
         {
           "id": "fu-3",
-          "front": "Kata 'saya' dalam Basa Lemes adalah?",
-          "back": "Abdi"
+          "question": "Kata 'saya' dalam Basa Lemes adalah?",
+          "answer": "Abdi"
         },
         {
           "id": "fu-4",
-          "front": "Kata 'saya' dalam Basa Loma adalah?",
-          "back": "Kuring atau Urang"
+          "question": "Kata 'saya' dalam Basa Loma adalah?",
+          "answer": "Kuring atau Urang"
         },
         {
           "id": "fu-5",
-          "front": "Kata 'kamu' dalam Basa Lemes adalah?",
-          "back": "Anjen atau Sampurasun"
+          "question": "Kata 'kamu' dalam Basa Lemes adalah?",
+          "answer": "Anjen atau Sampurasun"
         },
         {
           "id": "fu-6",
-          "front": "Kata 'makan' dalam Basa Lemes adalah?",
-          "back": "Tuang"
+          "question": "Kata 'makan' dalam Basa Lemes adalah?",
+          "answer": "Tuang"
         },
         {
           "id": "fu-7",
-          "front": "Kata 'makan' dalam Basa Loma adalah?",
-          "back": "Dahar"
+          "question": "Kata 'makan' dalam Basa Loma adalah?",
+          "answer": "Dahar"
         },
         {
           "id": "fu-8",
-          "front": "Kapan kita menggunakan Basa Lemes?",
-          "back": "Ketika berbicara dengan orang tua, guru, orang yang lebih tua, atau dalam situasi formal."
+          "question": "Kapan kita menggunakan Basa Lemes?",
+          "answer": "Ketika berbicara dengan orang tua, guru, orang yang lebih tua, atau dalam situasi formal."
         }
       ],
       "quiz": {
@@ -1476,7 +1471,7 @@
           },
           {
             "id": "qu-6",
-            "question": "Kata 'kulem' dalam Basa Loma bermakna...",
+            "question": "Kata 'kulem' dalam Basa Lemes bermakna...",
             "options": [
               "Bangun",
               "Tidur",
@@ -1484,7 +1479,7 @@
               "Mandi"
             ],
             "answer": 1,
-            "explanation": "'Kulem' artinya 'tidur' dalam Basa Loma. Dalam Basa Lemes: 'saré', dalam Basa Kasar: 'bobok'."
+            "explanation": "'Kulem' artinya 'tidur' dalam Basa Lemes (halus). Dalam Basa Loma: 'saré', dalam Basa Kasar: 'bobok'."
           }
         ]
       }
@@ -1679,43 +1674,43 @@
       "flashcards": [
         {
           "id": "fp-1",
-          "front": "Apa arti 'paguneman'?",
-          "back": "Percakapan atau dialog antara dua orang atau lebih dalam Bahasa Sunda."
+          "question": "Apa arti 'paguneman'?",
+          "answer": "Percakapan atau dialog antara dua orang atau lebih dalam Bahasa Sunda."
         },
         {
           "id": "fp-2",
-          "front": "Sebutkan 3 bagian struktur paguneman!",
-          "back": "Bubuka (pembuka), Eusi (isi), dan Panutup (penutup)."
+          "question": "Sebutkan 3 bagian struktur paguneman!",
+          "answer": "Bubuka (pembuka), Eusi (isi), dan Panutup (penutup)."
         },
         {
           "id": "fp-3",
-          "front": "Apa fungsi 'Bubuka' dalam paguneman?",
-          "back": "Menyapa lawan bicara dan memulai topik pembicaraan."
+          "question": "Apa fungsi 'Bubuka' dalam paguneman?",
+          "answer": "Menyapa lawan bicara dan memulai topik pembicaraan."
         },
         {
           "id": "fp-4",
-          "front": "Apa fungsi 'Eusi' dalam paguneman?",
-          "back": "Bagian utama yang membahas topik tujuan percakapan."
+          "question": "Apa fungsi 'Eusi' dalam paguneman?",
+          "answer": "Bagian utama yang membahas topik tujuan percakapan."
         },
         {
           "id": "fp-5",
-          "front": "Apa fungsi 'Panutup' dalam paguneman?",
-          "back": "Mengakhiri dialog dengan sopan, biasanya dengan ucapan terima kasih."
+          "question": "Apa fungsi 'Panutup' dalam paguneman?",
+          "answer": "Mengakhiri dialog dengan sopan, biasanya dengan ucapan terima kasih."
         },
         {
           "id": "fp-6",
-          "front": "Apa arti 'Kumaha damang'?",
-          "back": "Bagaimana kabar?"
+          "question": "Apa arti 'Kumaha damang'?",
+          "answer": "Bagaimana kabar?"
         },
         {
           "id": "fp-7",
-          "front": "Apa arti 'Hatur nuhun pisan'?",
-          "back": "Terima kasih banyak."
+          "question": "Apa arti 'Hatur nuhun pisan'?",
+          "answer": "Terima kasih banyak."
         },
         {
           "id": "fp-8",
-          "front": "Apa arti 'Punten bilih aya kalepatan'?",
-          "back": "Maaf jika ada kesalahan."
+          "question": "Apa arti 'Punten bilih aya kalepatan'?",
+          "answer": "Maaf jika ada kesalahan."
         }
       ],
       "quiz": {
@@ -1947,43 +1942,43 @@
       "flashcards": [
         {
           "id": "fs-1",
-          "front": "Apa itu Sisindiran?",
-          "back": "Karya sastra lisan Sunda yang mirip pantun, terdiri dari Cangkang dan Eusi."
+          "question": "Apa itu Sisindiran?",
+          "answer": "Karya sastra lisan Sunda yang mirip pantun, terdiri dari Cangkang dan Eusi."
         },
         {
           "id": "fs-2",
-          "front": "Apa fungsi 'Cangkang' dalam sisindiran?",
-          "back": "Bagian pembuka/perumpamaan yang mengantarkan ke isi (eusi)."
+          "question": "Apa fungsi 'Cangkang' dalam sisindiran?",
+          "answer": "Bagian pembuka/perumpamaan yang mengantarkan ke isi (eusi)."
         },
         {
           "id": "fs-3",
-          "front": "Apa fungsi 'Eusi' dalam sisindiran?",
-          "back": "Bagian utama yang berisi pesan, nasihat, sindiran, atau jawaban teka-teki."
+          "question": "Apa fungsi 'Eusi' dalam sisindiran?",
+          "answer": "Bagian utama yang berisi pesan, nasihat, sindiran, atau jawaban teka-teki."
         },
         {
           "id": "fs-4",
-          "front": "Sisindiran yang berisi nasihat disebut...",
-          "back": "Rarakitan"
+          "question": "Sisindiran yang berisi nasihat disebut...",
+          "answer": "Rarakitan"
         },
         {
           "id": "fs-5",
-          "front": "Sisindiran yang berisi sindiran/lucu disebut...",
-          "back": "Paparikan"
+          "question": "Sisindiran yang berisi sindiran/lucu disebut...",
+          "answer": "Paparikan"
         },
         {
           "id": "fs-6",
-          "front": "Sisindiran yang berisi teka-teki disebut...",
-          "back": "Wawangsalan"
+          "question": "Sisindiran yang berisi teka-teki disebut...",
+          "answer": "Wawangsalan"
         },
         {
           "id": "fs-7",
-          "front": "Berapa baris biasanya dalam satu sisindiran?",
-          "back": "4 baris (2 baris cangkang + 2 baris eusi)"
+          "question": "Berapa baris biasanya dalam satu sisindiran?",
+          "answer": "4 baris (2 baris cangkang + 2 baris eusi)"
         },
         {
           "id": "fs-8",
-          "front": "Apa yang dimaksud 'pantungan' dalam sisindiran?",
-          "back": "Sajak atau bunyi akhir yang sama pada baris 1&2 dan baris 3&4."
+          "question": "Apa yang dimaksud 'pantungan' dalam sisindiran?",
+          "answer": "Sajak atau bunyi akhir yang sama pada baris 1&2 dan baris 3&4."
         }
       ],
       "quiz": {
@@ -2390,43 +2385,43 @@
       "flashcards": [
         {
           "id": "fst-1",
-          "front": "Apa itu Sastra Sunda?",
-          "back": "Keseluruhan karya tulis atau lisan dalam bahasa Sunda yang mencerminkan budaya dan nilai masyarakat Sunda."
+          "question": "Apa itu Sastra Sunda?",
+          "answer": "Keseluruhan karya tulis atau lisan dalam bahasa Sunda yang mencerminkan budaya dan nilai masyarakat Sunda."
         },
         {
           "id": "fst-2",
-          "front": "Apa perbedaan utama Dongeng dan Carpon?",
-          "back": "Dongeng = warisan lisan turun-temurun, mengandung fantasi. Carpon = karya tulis individu, bersifat realistis dan singkat."
+          "question": "Apa perbedaan utama Dongeng dan Carpon?",
+          "answer": "Dongeng = warisan lisan turun-temurun, mengandung fantasi. Carpon = karya tulis individu, bersifat realistis dan singkat."
         },
         {
           "id": "fst-3",
-          "front": "Sebutkan 3 unsur intrinsik dongeng!",
-          "back": "Tema, Tokoh, Alur, Latar, Sudut Pandang, Amanat, Gaya Bahasa (pilih 3)."
+          "question": "Sebutkan 3 unsur intrinsik dongeng!",
+          "answer": "Tema, Tokoh, Alur, Latar, Sudut Pandang, Amanat, Gaya Bahasa (pilih 3)."
         },
         {
           "id": "fst-4",
-          "front": "Apa ciri khas Carpon?",
-          "back": "Cerita pendek dengan satu konflik utama, jumlah tokoh terbatas, dan struktur cerita yang padat."
+          "question": "Apa ciri khas Carpon?",
+          "answer": "Cerita pendek dengan satu konflik utama, jumlah tokoh terbatas, dan struktur cerita yang padat."
         },
         {
           "id": "fst-5",
-          "front": "Apa yang dimaksud 'Sajak'?",
-          "back": "Karya sastra berbentuk puisi dengan bahasa yang indah, padat, dan penuh imajinasi."
+          "question": "Apa yang dimaksud 'Sajak'?",
+          "answer": "Karya sastra berbentuk puisi dengan bahasa yang indah, padat, dan penuh imajinasi."
         },
         {
           "id": "fst-6",
-          "front": "Apa fungsi 'Rima' dalam sajak?",
-          "back": "Menciptakan persamaan bunyi pada akhir baris sehingga puisi terdengar indah dan mudah diingat."
+          "question": "Apa fungsi 'Rima' dalam sajak?",
+          "answer": "Menciptakan persamaan bunyi pada akhir baris sehingga puisi terdengar indah dan mudah diingat."
         },
         {
           "id": "fst-7",
-          "front": "Apa itu 'Majas'?",
-          "back": "Gaya bahasa yang digunakan untuk memperindah ungkapan dalam karya sastra."
+          "question": "Apa itu 'Majas'?",
+          "answer": "Gaya bahasa yang digunakan untuk memperindah ungkapan dalam karya sastra."
         },
         {
           "id": "fst-8",
-          "front": "Sebutkan 2 contoh dongeng Sunda yang terkenal!",
-          "back": "Sangkuriang dan Lutung Kasarung."
+          "question": "Sebutkan 2 contoh dongeng Sunda yang terkenal!",
+          "answer": "Sangkuriang dan Lutung Kasarung."
         }
       ],
       "quiz": {
@@ -2452,8 +2447,8 @@
               "Cerita Pondok",
               "Cerita Populer"
             ],
-            "answer": 1,
-            "explanation": "Carpon = Cerita Pendek. Meskipun ada yang mengartikan 'Cerita Pondok', yang umum digunakan adalah 'Cerita Pendek'."
+            "answer": 2,
+            "explanation": "Carpon adalah singkatan dari 'Cerita Pondok' (Carita Pondok) dalam Bahasa Sunda, yang berarti cerita pendek."
           },
           {
             "id": "qst-3",
@@ -2676,43 +2671,43 @@
       "flashcards": [
         {
           "id": "fb-1",
-          "front": "Apa itu Biantara?",
-          "back": "Pidato atau orasi dalam Bahasa Sunda yang disampaikan di depan umum."
+          "question": "Apa itu Biantara?",
+          "answer": "Pidato atau orasi dalam Bahasa Sunda yang disampaikan di depan umum."
         },
         {
           "id": "fb-2",
-          "front": "Sebutkan 3 bagian struktur biantara!",
-          "back": "Bubuka (pembuka), Eusi (isi), dan Panutup (penutup)."
+          "question": "Sebutkan 3 bagian struktur biantara!",
+          "answer": "Bubuka (pembuka), Eusi (isi), dan Panutup (penutup)."
         },
         {
           "id": "fb-3",
-          "front": "Apa fungsi 'Bubuka' dalam biantara?",
-          "back": "Menarik perhatian hadirin, menyampaikan salam, dan memperkenalkan topik."
+          "question": "Apa fungsi 'Bubuka' dalam biantara?",
+          "answer": "Menarik perhatian hadirin, menyampaikan salam, dan memperkenalkan topik."
         },
         {
           "id": "fb-4",
-          "front": "Apa fungsi 'Eusi' dalam biantara?",
-          "back": "Bagian utama yang berisi pembahasan lengkap tentang topik."
+          "question": "Apa fungsi 'Eusi' dalam biantara?",
+          "answer": "Bagian utama yang berisi pembahasan lengkap tentang topik."
         },
         {
           "id": "fb-5",
-          "front": "Apa fungsi 'Panutup' dalam biantara?",
-          "back": "Merangkum isi, menyampaikan harapan, dan mengucapkan terima kasih."
+          "question": "Apa fungsi 'Panutup' dalam biantara?",
+          "answer": "Merangkum isi, menyampaikan harapan, dan mengucapkan terima kasih."
         },
         {
           "id": "fb-6",
-          "front": "Bahasa apa yang sebaiknya digunakan dalam biantara formal?",
-          "back": "Basa Lemes (bahasa halus/hormat)."
+          "question": "Bahasa apa yang sebaiknya digunakan dalam biantara formal?",
+          "answer": "Basa Lemes (bahasa halus/hormat)."
         },
         {
           "id": "fb-7",
-          "front": "Apa arti 'Mugi-mugi ieu biantara tiasa ngamangpaatkeun'?",
-          "back": "Semoga pidato ini bisa bermanfaat."
+          "question": "Apa arti 'Mugi-mugi ieu biantara tiasa ngamangpaatkeun'?",
+          "answer": "Semoga pidato ini bisa bermanfaat."
         },
         {
           "id": "fb-8",
-          "front": "Sebutkan 2 aspek teknik penyampaian biantara!",
-          "back": "Suara (intonasi, volume, kecepatan) dan Artikulasi (pengucapan yang jelas)."
+          "question": "Sebutkan 2 aspek teknik penyampaian biantara!",
+          "answer": "Suara (intonasi, volume, kecepatan) dan Artikulasi (pengucapan yang jelas)."
         }
       ],
       "quiz": {
