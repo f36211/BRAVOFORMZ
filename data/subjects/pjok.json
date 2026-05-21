@@ -2108,7 +2108,7 @@
                                 ],
                                 [
                                     "Seemiller Grip",
-                                    "Variasi dari penhold grip yang memudahkan pergantian antara forehand dan backhand"
+                                    "Variasi dari shakehand grip yang memungkinkan penggunaan satu sisi bet untuk forehand dan backhand"
                                 ]
                             ]
                         },
@@ -2435,10 +2435,6 @@
                                     "Kemampuan melakukan gerakan tubuh secara lembut dan tidak kaku"
                                 ],
                                 [
-                                    "Fleksibilitas",
-                                    "Kemampuan otot dan sendi meregang untuk mencapai jangkauan gerakan tertentu"
-                                ],
-                                [
                                     "Kontinuitas",
                                     "Aliran gerakan yang lancar dan tidak terputus antar gerakan"
                                 ],
@@ -2474,7 +2470,7 @@
                 {
                     "id": "fc-si-2",
                     "question": "Sebutkan enam kategori kelompok senam!",
-                    "answer": "Senam artistik, senam akrobatik, senam aerobic sport, senam trampolin, senam ritmik (irama), dan satu lainnya"
+                    "answer": "Senam artistik, senam akrobatik, senam aerobic sport, senam trampolin, senam ritmik (irama), dan senam umum (general gymnastics)"
                 },
                 {
                     "id": "fc-si-3",
