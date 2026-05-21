@@ -1455,7 +1455,7 @@
                     {
                         "id": "q-ikan-3",
                         "type": "multiple_choice",
-                        "question": "Pakan alami yang digunakan untuk budidaya ikan hias adalah...",
+                        "question": "Pakan alami yang paling populer dan kaya nutrisi untuk budidaya ikan hias adalah...",
                         "options": [
                             "Cacing sutra",
                             "Kutu air",
@@ -1463,7 +1463,7 @@
                             "Jangkrik"
                         ],
                         "answer": 0,
-                        "explanation": "Cacing sutra (Tubifex sp.) merupakan pakan alami favorit untuk ikan hias karena kandungan nutrisinya tinggi dan disukai berbagai jenis ikan."
+                        "explanation": "Cacing sutra (Tubifex sp.) adalah pakan alami paling populer untuk ikan hias karena kandungan protein dan nutrisinya sangat tinggi serta disukai hampir semua jenis ikan hias."
                     },
                     {
                         "id": "q-ikan-4",
@@ -1497,12 +1497,12 @@
                         "question": "Contoh ikan hias air tawar, kecuali...",
                         "options": [
                             "Koi",
-                            "Mujaer",
+                            "Mas Koki",
                             "Cupang",
                             "Nemo"
                         ],
                         "answer": 3,
-                        "explanation": "Nemo (Clownfish) adalah ikan hias air laut, bukan air tawar. Koi, cupang, dan mujaer adalah ikan air tawar."
+                        "explanation": "Nemo (Clownfish) adalah ikan hias air laut, bukan air tawar. Koi, mas koki, dan cupang adalah ikan hias air tawar."
                     },
                     {
                         "id": "q-ikan-7",
@@ -2234,10 +2234,10 @@
                             "Ikan, ayam, dan sapi",
                             "Kambing, burung dara, dan ikan",
                             "Ayam, kerbau, dan kalkun",
-                            "Kalkun, ayam, dan burung dara"
+                            "Kalkun, ayam, dan ikan"
                         ],
                         "answer": 3,
-                        "explanation": "Kalkun, ayam, dan burung dara merupakan unggas yang menghasilkan daging berwarna putih. Sapi, kambing, dan kerbau menghasilkan daging merah."
+                        "explanation": "Kalkun, ayam, dan ikan menghasilkan daging berwarna putih (white meat). Sapi, kambing, kerbau, dan burung dara menghasilkan daging merah (red/dark meat)."
                     },
                     {
                         "id": "q-hewani-14",
